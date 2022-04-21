@@ -5,6 +5,7 @@ import SiteHeaderMenu from '../generalComponents/SiteHeaderMenu'
 import TopBar from '../generalComponents/TopBar'
 import PartnersSection from '../homePage/components/PartnersSection'
 import LetsStarted from './components/LetsStarted'
+import { Link } from "react-router-dom";
 
 export default function Project() {
     return (
@@ -31,7 +32,7 @@ export default function Project() {
                                                 <span>Image Documentary</span>
                                             </div>
                                             <div className="featured-title">
-                                                <h3><a href="portfolio-single.html">Bootstrap modal plugin</a></h3>
+                                                <h3><Link to="/portfolio">Bootstrap modal plugin</Link></h3>
                                             </div>
                                         </div>
                                     </div>
@@ -47,7 +48,7 @@ export default function Project() {
                                                 <span>SM Management</span>
                                             </div>
                                             <div className="featured-title">
-                                                <h3><a href="portfolio-single.html">Elementor plugin</a></h3>
+                                                <h3><Link to="/portfolio">Elementor plugin</Link></h3>
                                             </div>
                                         </div>
                                     </div>
@@ -64,7 +65,7 @@ export default function Project() {
                                                 <span>Software Development</span>
                                             </div>
                                             <div className="featured-title">
-                                                <h3><a href="portfolio-single.html">HTML 5 language</a></h3>
+                                            <h3><Link to="/portfolio">HTML 5 language</Link></h3>
                                             </div>
                                         </div>
                                     </div>
@@ -81,7 +82,7 @@ export default function Project() {
                                                 <span>Revolution slider</span>
                                             </div>
                                             <div className="featured-title">
-                                                <h3><a href="portfolio-single.html">Network Cabelling</a></h3>
+                                                <h3><Link to="/portfolio">Network Cabelling</Link></h3>
                                             </div>
                                         </div>
                                     </div>
@@ -98,7 +99,7 @@ export default function Project() {
                                                 <span>Image Documentary</span>
                                             </div>
                                             <div className="featured-title">
-                                                <h3><a href="portfolio-single.html">WordPress plugin</a></h3>
+                                                <h3><Link to="/portfolio">WordPress plugin</Link></h3>
                                             </div>
                                         </div>
                                     </div>
@@ -115,7 +116,7 @@ export default function Project() {
                                                 <span>Author Projects</span>
                                             </div>
                                             <div className="featured-title">
-                                                <h3><a href="portfolio-single.html">Wp bakery plugin</a></h3>
+                                                <h3><Link to="/portfolio">Wp bakery plugin</Link></h3>
                                             </div>
                                         </div>
                                     </div>

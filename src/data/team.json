@@ -1,0 +1,56 @@
+[
+    {
+        "position": "IT Service Officer",
+        "name": "Garreth Mills",
+        "photo": "images/team-member/team-img01.jpg",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://twitter.com",
+        "pinterest": "https://in.pinterest.com",
+        "instagram": "https://www.instagram.com"
+    },
+    {
+        "position": "Web Designer",
+        "name": "Ivan Hindshaw",
+        "photo": "images/team-member/team-img02.jpg",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://twitter.com",
+        "pinterest": "https://in.pinterest.com",
+        "instagram": "https://www.instagram.com"
+    },
+    {
+        "position": "Project Manager",
+        "name": "Natalia Zox",
+        "photo": "images/team-member/team-img03.jpg",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://twitter.com",
+        "pinterest": "https://in.pinterest.com",
+        "instagram": "https://www.instagram.com"
+    },
+    {
+        "position": "Consultant Officer",
+        "name": "Maria Gordian",
+        "photo": "images/team-member/team-img04.jpg",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://twitter.com",
+        "pinterest": "https://in.pinterest.com",
+        "instagram": "https://www.instagram.com"
+    },
+    {
+        "position": "Product Analyst",
+        "name": "Anna Konikova",
+        "photo": "images/team-member/team-img05.jpg",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://twitter.com",
+        "pinterest": "https://in.pinterest.com",
+        "instagram": "https://www.instagram.com"
+    },
+    {
+        "position": "IT Associative",
+        "name": "Sarah Rose",
+        "photo": "images/team-member/team-img06.jpg",
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://twitter.com",
+        "pinterest": "https://in.pinterest.com",
+        "instagram": "https://www.instagram.com"
+    }
+]

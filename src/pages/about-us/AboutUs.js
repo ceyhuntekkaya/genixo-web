@@ -6,6 +6,7 @@ import TopBar from '../generalComponents/TopBar'
 import PartnersSection from '../homePage/components/PartnersSection'
 import CustomesrSays from './components/Testimonials'
 import WhyChooseUs from './components/WhyChooseUs'
+import { Link } from "react-router-dom";
 
 export default function AboutUs() {
     return (
@@ -52,7 +53,7 @@ export default function AboutUs() {
                                                 <img className="img-fluid" width="260" height="120" src="images/single-img-03.jpg" alt="single-03" />
                                             </div>
                                         </div>
-                                        <a className="cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark" href="project-style-01.html"><i className="icon-right"></i><span>see more projects</span></a>
+                                        <Link className="cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark" to="/project"><i className="icon-right"></i><span>see more projects</span></Link>
                                     </div>
                                 </div>
                             </div>
@@ -68,9 +69,5 @@ export default function AboutUs() {
                 </a>
             </div>
         </React.Fragment>
-
-
-
-
     )
 }

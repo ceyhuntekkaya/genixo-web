@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 export default function LetsStarted() {
     return (
@@ -39,7 +40,7 @@ export default function LetsStarted() {
                                 </div>
                             </div>
                         </div>
-                        <a className="cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark mt-50 res-991-mt-30" href="portfolio-single.html"><i className="icon-right"></i><span>see more plans</span></a>
+                        <Link className="cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark mt-50 res-991-mt-30" to="7portfolio"><i className="icon-right"></i><span>see more plans</span></Link>
                     </div>
                     <div className="col-lg-4">
                         <div className="res-991-mt-30 ml_60 res-991-ml-0">

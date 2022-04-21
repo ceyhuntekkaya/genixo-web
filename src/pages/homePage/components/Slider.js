@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 export default function Slider() {
     return (
@@ -213,9 +214,9 @@ export default function Slider() {
                         >All types of IT services according to the market demand!
                         </rs-layer>{/* <!--
 
-                --> */}<a
+                --> */}<Link
                             id="slider-1-slide-4-layer-5"
-                            href="contact-us.html"
+                            to="/contact"
                             className="rs-layer cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark"
                             data-type="text"
                             data-color="#05255f"
@@ -229,7 +230,7 @@ export default function Slider() {
                             data-frame_999="o:0;st:w;sR:7360;"
                             style={{ zIndex: 15, fontfamily: 'Lato' }}
                         ><i className="icon-right text-center"></i><span>see more projects</span>
-                        </a>{/* <!--
+                        </Link>{/* <!--
 
                 --> */}<rs-layer
                             id="slider-1-slide-4-layer-8"

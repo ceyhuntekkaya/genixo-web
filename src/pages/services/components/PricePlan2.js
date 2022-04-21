@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 export default function PricePlan2() {
     return (
@@ -17,7 +18,7 @@ export default function PricePlan2() {
                                 <p>We are offering high quality services in wide range. You can have any of them according to your business and services needs.</p>
                             </div>
                         </div>
-                        <a className="cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-white mt-15" href="team-details.html"><i className="icon-right"></i><span>read more</span></a>
+                        <Link className="cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-white mt-15" to="/teammember"><i className="icon-right"></i><span>read more</span></Link>
                     </div>
                     <div className="col-lg-8">
                         <div className="row mt_150 res-991-mt-50 mb_30">
@@ -39,7 +40,7 @@ export default function PricePlan2() {
                                         </ul>
                                     </div>
                                     <div className="cmt-p_table-footer">
-                                        <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" href="about-us.html">see more<i className="icon-right"></i></a>
+                                        <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" href="/about">see more<i className="icon-right"></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +62,7 @@ export default function PricePlan2() {
                                         </ul>
                                     </div>
                                     <div className="cmt-p_table-footer">
-                                        <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor" href="about-us.html">see more<i className="icon-right"></i></a>
+                                        <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor" to="/about">see more<i className="icon-right"></i></Link>
                                     </div>
                                 </div>
                             </div>

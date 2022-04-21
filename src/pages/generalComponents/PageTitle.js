@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 export default function PageTitle() {
   return (
@@ -13,7 +14,7 @@ export default function PageTitle() {
                             </div>
                             <div className="breadcrumb-wrapper">
                                 <span>
-                                    <a title="Homepage" href="index.html">Home</a>
+                                    <Link to="/">Home</Link>
                                 </span>
                                 <span>team details</span>
                             </div>

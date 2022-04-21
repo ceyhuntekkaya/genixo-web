@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from "react-router-dom";
 export default function BlogCard() {
     return (
         <div className="col-lg-4 col-md-6 col-sm-6">
@@ -16,7 +16,7 @@ export default function BlogCard() {
                                 <span className="cmt-meta-line date-link"><i className="icon-calendar"></i><time className="entry-date published" datetime="2022-01-11T06:51:39+00:00">January 4, 2022</time></span>
                             </div>
                             <div className="post-title featured-title">
-                                <h3><a href="blog-single.html">Demanding photographer has a characteristics</a></h3>
+                                <h3><Link to="/blogsingle">Demanding photographer has a characteristics</Link></h3>
                             </div>
                             <div className="post-desc featured-desc">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor...</p>

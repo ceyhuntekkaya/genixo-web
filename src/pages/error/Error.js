@@ -2,22 +2,18 @@ import React from 'react'
 import Footer from '../generalComponents/Footer'
 import SiteHeaderMenu from '../generalComponents/SiteHeaderMenu'
 import TopBar from '../generalComponents/TopBar'
+import { Link } from "react-router-dom";
 
 export default function Error() {
     return (
         <React.Fragment>
-
             <div className="page">
                 <header id="masthead" className="header cmt-header-style-01">
                     <TopBar />
                     <SiteHeaderMenu />
                 </header>
-               
                 <p className="rs-p-wp-fix"></p>
-
-
                 <div className="site-main">
-
                     <section className="error-404">
                         <div className="container">
                             <div className="row">
@@ -26,26 +22,17 @@ export default function Error() {
                                         <img width="570" height="445" className="img-fluid" src="images/404.png" alt="404.png" />
                                     </div>
                                     <div className="page-content"><p>This page may have been moved or deleted. Be sure to check your spelling.</p></div>
-                                    <a className="cmt-btn cmt-btn-size-md cmt-btn-shape-rounded cmt-btn-style-border cmt-btn-color-dark" href="index.html">Back To Home</a>
+                                    <Link className="cmt-btn cmt-btn-size-md cmt-btn-shape-rounded cmt-btn-style-border cmt-btn-color-dark" to="/">Back To Home</Link>
                                 </div>
                             </div>
                         </div>
                     </section>
-
                 </div>
-
-
-
-
                 <Footer />
                 <a id="totop" href="#top">
                     <i className="icon-angle-up"></i>
                 </a>
             </div>
         </React.Fragment>
-
-
-
-
     )
 }

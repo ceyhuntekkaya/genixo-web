@@ -4,7 +4,7 @@ import Footer from '../generalComponents/Footer'
 import PageTitle from '../generalComponents/PageTitle'
 import SiteHeaderMenu from '../generalComponents/SiteHeaderMenu'
 import TopBar from '../generalComponents/TopBar'
-
+import { Link } from "react-router-dom";
 
 export default function AdvisoryServices() {
     return (
@@ -30,7 +30,7 @@ export default function AdvisoryServices() {
                                         </div>
                                         <div className="cmt-service-description">
                                             <h3>App installation & cloud services</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <u><a className="tm-skincolor" href="it-consultancy.html"> tempor incididunt</a></u> ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas commodo viverra maecenas accumsan lacus vel facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <u><Link className="tm-skincolor" to="/consultancy"> tempor incididunt</Link></u> ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas commodo viverra maecenas accumsan lacus vel facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                                             <div className="row">
                                                 <div className="col-lg-4 col-md-6 col-sm-6">
                                                     <div className="featured-icon-box icon-align-before-title">

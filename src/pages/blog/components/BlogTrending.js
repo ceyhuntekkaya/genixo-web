@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 export default function BlogTrending() {
     return (
@@ -8,13 +9,13 @@ export default function BlogTrending() {
                 <li>
                     <div className="post-detail">
                         <span className="post-date"><i className="icon-calendar"></i>January 11, 2022</span>
-                        <a href="blog-single.html">Demanding photographer has a characteristics</a>
+                        <Link to="/blogsingle">Demanding photographer has a characteristics</Link>
                     </div>
                 </li>
                 <li>
                     <div className="post-detail">
                         <span className="post-date"><i className="icon-calendar"></i>January 11, 2022</span>
-                        <a href="blog-single.html">Software development solutions for great business</a>
+                        <Link to="/blogsingle">Software development solutions for great business</Link>
                     </div>
                 </li>
             </ul>

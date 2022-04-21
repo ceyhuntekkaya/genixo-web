@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 export default function BlogPost() {
     return (
@@ -20,7 +21,7 @@ export default function BlogPost() {
                         <span className="cmt-meta-line comment"><i className="icon-comment-empty"></i><a href="#">0 Comments</a></span>
                     </div>
                     <header className="entry-header">
-                        <h2 className="entry-title"><a href="blog-single.html">Demanding photographer has a characteristics</a></h2>
+                        <h2 className="entry-title"><Link to="/blogsingle">Demanding photographer has a characteristics</Link></h2>
                     </header>
                 </div>
                 <div className="entry-content">
@@ -28,7 +29,7 @@ export default function BlogPost() {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et do eiusmod tempor</p>
                     </div>
                     <div className="cmt-blogbox-footer-readmore">
-                        <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor" href="blog-single.html">read more<i className="icon-right"></i></a>
+                        <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor" to="/blogsingle">read more<i className="icon-right"></i></Link>
                     </div>
                 </div>
             </div>

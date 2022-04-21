@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 export default function DepartmentMenu() {
     return (
@@ -6,12 +7,12 @@ export default function DepartmentMenu() {
             <aside className="widget widget-nav-menu with-title">
                 <h3 className="widget-title">Departments</h3>
                 <ul>
-                    <li><a href="it-consultancy.html"> IT Consultancy </a></li>
-                    <li><a href="experience-design.html"> Experience Design </a></li>
-                    <li><a href="digital-services.html"> Digital Services </a></li>
-                    <li><a href="data-structuring.html"> Data Structuring </a></li>
-                    <li className="active"><a href="advisory-services.html"> Advisory Services </a></li>
-                    <li><a href="content-engineering.html"> Content Engineering </a></li>
+                    <li><Link to="/consultancy"> IT Consultancy </Link></li>
+                    <li><Link to="/experience"> Experience Design </Link></li>
+                    <li><Link to="/digital"> Digital Services </Link></li>
+                    <li><Link to="/data"> Data Structuring </Link></li>
+                    <li className="active"><Link to="/advisory"> Advisory Services </Link></li>
+                    <li><Link to="/content"> Content Engineering </Link></li>
                 </ul>
             </aside>
             <aside className="widget widget-banner with-title">
@@ -24,7 +25,7 @@ export default function DepartmentMenu() {
                             <img src="images/icon-service.png" alt="icon-service.png" />
                         </div>
                         <h3>For Tommorow We Can Take Action Today!</h3>
-                        <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" href="contact-us.html">Join With Us<i className="icon-right"></i></a>
+                        <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" to="/contact">Join With Us<i className="icon-right"></i></Link>
                     </div>
                 </div>
             </aside>

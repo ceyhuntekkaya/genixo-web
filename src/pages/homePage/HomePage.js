@@ -1,6 +1,6 @@
 import React from 'react'
 import AboutSection from './components/AboutSection';
-import Footer from './components/Footer';
+import Footer from '../generalComponents/Footer';
 import HowCanHelpYouSection from './components/HowCanHelpYouSection';
 import HowItWorksSection from './components/HowItWorksSection';
 import MeetOurTeamSection from './components/MeetOurTeamSection';
@@ -8,9 +8,9 @@ import PartnersSection from './components/PartnersSection';
 import ProjectSection from './components/ProjectSection';
 import QuickFactsSection from './components/QuickFactsSection';
 import ServicesSection from './components/ServicesSection';
-import SiteHeaderMenu from './components/SiteHeaderMenu';
+import SiteHeaderMenu from '../generalComponents/SiteHeaderMenu';
 import Slider from './components/Slider';
-import TopBar from './components/TopBar';
+import TopBar from '../generalComponents/TopBar';
 
 export default function HomePage() {
   return (

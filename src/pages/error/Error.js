@@ -1,4 +1,7 @@
 import React from 'react'
+import Footer from '../generalComponents/Footer'
+import SiteHeaderMenu from '../generalComponents/SiteHeaderMenu'
+import TopBar from '../generalComponents/TopBar'
 
 export default function Error() {
     return (
@@ -9,7 +12,7 @@ export default function Error() {
                     <TopBar />
                     <SiteHeaderMenu />
                 </header>
-                <PageTitle />
+               
                 <p className="rs-p-wp-fix"></p>
 
 

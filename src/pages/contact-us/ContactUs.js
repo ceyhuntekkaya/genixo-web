@@ -3,9 +3,12 @@ import Footer from '../generalComponents/Footer'
 import PageTitle from '../generalComponents/PageTitle'
 import SiteHeaderMenu from '../generalComponents/SiteHeaderMenu'
 import TopBar from '../generalComponents/TopBar'
-import BlogCard from './components/BlogCard'
+import ContactForm from './components/ContactForm'
+import ContactInfo from './components/ContactInfo'
+import OurPartners from './components/OurPartners'
+import MeetOurTeamSection from '../homePage/components/MeetOurTeamSection'
 
-export default function BlogGrid() {
+export default function ContactUs() {
     return (
         <React.Fragment>
             <div className="page">
@@ -16,19 +19,10 @@ export default function BlogGrid() {
                 <PageTitle />
                 <p className="rs-p-wp-fix"></p>
                 <div className="site-main">
-                    <section className="cmt-row grid-section clearfix">
-                        <div className="container">
-
-                            <div className="row">
-                                <BlogCard />
-                                <BlogCard />
-                                <BlogCard />
-                                <BlogCard />
-                                <BlogCard />
-                                <BlogCard />
-                            </div>
-                        </div>
-                    </section>
+                    <ContactInfo />
+                    <ContactForm />
+                    <MeetOurTeamSection />
+                    <OurPartners />
                 </div>
                 <Footer />
                 <a id="totop" href="#top">

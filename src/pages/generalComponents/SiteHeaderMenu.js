@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 export default function SiteHeaderMenu() {
     return (
@@ -26,7 +27,7 @@ export default function SiteHeaderMenu() {
                                         <li className="mega-menu-item active">
                                             <a href="#" className="mega-menu-link">Home</a>
                                             <ul className="mega-submenu">
-                                                <li className="active"><a href="index.html">Homepage 1</a></li>
+                                                <li className="active"><Link to="/">Homepage 1</Link></li>
                                                 <li><a href="homepage-2.html">Homepage 2</a></li>
                                                 <li><a href="homepage-3.html">Homepage 3</a></li>
                                             </ul>
@@ -37,52 +38,51 @@ export default function SiteHeaderMenu() {
                                                 <li className="mega-menu-item">
                                                     <a href="#" className="mega-menu-link">About Us</a>
                                                     <ul className="mega-submenu">
-                                                        <li><a href="about-us.html">About Us One</a></li>
-                                                        <li><a href="about-us-2.html">About Us Two</a></li>
+                                                        <li><Link to="/about">About Us One</Link></li>
+                                                        <li><Link to="/about2">About Us Two</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li className="mega-menu-item">
                                                     <a href="#" className="mega-menu-link">Services</a>
                                                     <ul className="mega-submenu">
-                                                        <li><a href="services-1.html">Services One</a></li>
-                                                        <li><a href="services-2.html">Services Two</a></li>
+                                                        <li><Link to="/service">Services One</Link></li>
+                                                        <li><Link to="/service2">Services Two</Link></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="our-team.html">Our Team</a></li>
-                                                <li><a href="team-details.html">Team Details</a></li>
-                                                <li><a href="faq.html">FAQ</a></li>
-                                                <li><a href="error.html">Error Page</a></li>
+                                                <li><Link to="/team">Our Team</Link></li>
+                                                <li><Link to="/teammember">Team Details</Link></li>
+                                                <li><Link to="/faq">FAQ</Link></li>
+                                                <li><Link to="/error">Error Page</Link></li>
                                             </ul>
                                         </li>
                                         <li className="mega-menu-item">
                                             <a href="#" className="mega-menu-link">IT Solutions</a>
                                             <ul className="mega-submenu">
-                                                <li><a href="it-consultancy.html">IT Consultancy</a></li>
-                                                <li><a href="experience-design.html">Experience Design</a></li>
-                                                <li><a href="digital-services.html">Digital Services</a></li>
-                                                <li><a href="data-structuring.html">Data Structuring</a></li>
-                                                <li><a href="advisory-services.html">Advisory Services</a></li>
-                                                <li><a href="content-engineering.html">Content Engineering</a></li>
+                                                <li><Link to="/consultancy">IT Consultancy</Link></li>
+                                                <li><Link to="/experience">Experience Design</Link></li>
+                                                <li><Link to="/digital">Digital Services</Link></li>
+                                                <li><Link to="/data">Data Structuring</Link></li>
+                                                <li><Link to="/advisory">Advisory Services</Link></li>
+                                                <li><Link to="/content">Content Engineering</Link></li>
                                             </ul>
                                         </li>
                                         <li className="mega-menu-item">
                                             <a href="#" className="mega-menu-link">Case Study</a>
                                             <ul className="mega-submenu">
-                                                <li><a href="project-style-01.html">Case Study 01</a></li>
-                                                <li><a href="project-style-02.html">Case Study 02</a></li>
-                                                <li><a href="portfolio-single.html">Case Study Single</a></li>
+                                                <li><Link to="/project">Case Study</Link></li>
+                                                <li><Link to="/portfolio">Case Study Single</Link></li>
                                             </ul>
                                         </li>
                                         <li className="mega-menu-item">
                                             <a href="#" className="mega-menu-link">IT Blog</a>
                                             <ul className="mega-submenu">
-                                                <li><a href="blog.html">Blog Classic</a></li>
-                                                <li><a href="blog-grid.html">Blog Grid View</a></li>
-                                                <li><a href="blog-single.html">Blog Single View</a></li>
+                                                <li><Link to="/bloglist">Blog Classic</Link></li>
+                                                <li><Link to="/bloggrid">Blog Grid View</Link></li>
+                                                <li><Link to="/blogsingle">Blog Single View</Link></li>
                                             </ul>
                                         </li>
                                         <li className="mega-menu-item">
-                                            <a href="contact-us.html">Contact us</a>
+                                        <Link to="/contact">Contact us</Link>
                                         </li>
                                     </ul>
                                 </nav>{/* <!-- menu end --> */}

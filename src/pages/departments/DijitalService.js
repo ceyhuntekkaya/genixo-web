@@ -1,4 +1,9 @@
 import React from 'react'
+import Footer from '../generalComponents/Footer'
+import PageTitle from '../generalComponents/PageTitle'
+import SiteHeaderMenu from '../generalComponents/SiteHeaderMenu'
+import TopBar from '../generalComponents/TopBar'
+import DepartmentMenu from './components/DepartmentMenu'
 
 export default function DijitalService() {
     return (
@@ -11,65 +16,12 @@ export default function DijitalService() {
                 </header>
                 <PageTitle />
                 <p className="rs-p-wp-fix"></p>
-
-
-
                 <div className="site-main">
-
-
                     <div className="cmt-row sidebar cmt-sidebar-left clearfix">
                         <div className="container">
-                            <!-- row -->
+
                             <div className="row">
-                                <div className="col-lg-4 widget-area sidebar-left">
-                                    <aside className="widget widget-nav-menu with-title">
-                                        <h3 className="widget-title">Departments</h3>
-                                        <ul>
-                                            <li><a href="it-consultancy.html"> IT Consultancy </a></li>
-                                            <li><a href="experience-design.html"> Experience Design </a></li>
-                                            <li className="active"><a href="digital-services.html"> Digital Services </a></li>
-                                            <li><a href="data-structuring.html"> Data Structuring </a></li>
-                                            <li><a href="advisory-services.html"> Advisory Services </a></li>
-                                            <li><a href="content-engineering.html"> Content Engineering </a></li>
-                                        </ul>
-                                    </aside>
-                                    <aside className="widget widget-banner with-title">
-                                        <div className="cmt-col-bgcolor-yes bg-base-skin text-base-white col-bg-img-five cmt-col-bgimage-yes cmt-bg">
-                                            <div className="cmt-col-wrapper-bg-layer cmt-bg-layer bg-base-skin">
-                                                <div className="cmt-col-wrapper-bg-layer-inner bg-base-skin"></div>
-                                            </div>
-                                            <div className="layer-content text-center">
-                                                <div className="icon-img mb-25">
-                                                    <img src="images/icon-service.png" alt="icon-service.png" />
-                                                </div>
-                                                <h3>For Tommorow We Can Take Action Today!</h3>
-                                                <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" href="contact-us.html">Join With Us<i className="icon-right"></i></a>
-                                            </div>
-                                        </div>
-                                    </aside>
-                                    <aside className="widget widget-download with-title">
-                                        <h3 className="widget-title">Download</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                                        <div className="d-flex">
-                                            <div className="download_block mr-15">
-                                                <a href="#">
-                                                    <div className="download_img_icon">
-                                                        <img className="img-fluid auto_size" width="59" height="72" src="images/icon.png" alt="download-pdf-img" />
-                                                    </div>
-                                                    <span>PDF Presentation</span>
-                                                </a>
-                                            </div>
-                                            <div className="download_block ml-15">
-                                                <a href="#">
-                                                    <div className="download_img_icon">
-                                                        <img className="img-fluid auto_size" width="59" height="72" src="images/icon.png" alt="download-pdf-img" />
-                                                    </div>
-                                                    <span>PDF Presentation</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </aside>
-                                </div>
+                                <DepartmentMenu />
                                 <div className="col-lg-8 content-area">
                                     <div className="cmt-service-single-content-area">
                                         <div className="ttm_fatured_image-wrapper mb-40 res-575-mb-20">
@@ -118,16 +70,16 @@ export default function DijitalService() {
                                             </div>
                                             <div className="row g-0 border-rad_5 overflow-hidden mt-30">
                                                 <div className="col-md-6 col-sm-12">
-                                                    <!-- col-img-img-eight -->
+
                                                     <div className="cmt-bg cmt-col-bgimage-yes col-bg-img-eight z-index-2">
                                                         <div className="cmt-col-wrapper-bg-layer cmt-bg-layer"></div>
                                                         <div className="layer-content">
                                                         </div>
-                                                    </div><!-- col-img-bg-img-eight end-->
+                                                    </div>
                                                     <img className="img-fluid cmt-equal-height-image w-100" src="images/bg-image/col-bgimage-8.jpg" alt="bg-image" />
                                                 </div>
                                                 <div className="col-md-6">
-                                                    <!-- col-bg-img-six -->
+
                                                     <div className="col-bg-img-six cmt-bg cmt-col-bgimage-yes bg-base-dark h-100 p-30 ml_15 res-991-ml-0">
                                                         <div className="cmt-col-wrapper-bg-layer cmt-bg-layer">
                                                             <div className="cmt-col-wrapper-bg-layer-inner"></div>
@@ -159,43 +111,43 @@ export default function DijitalService() {
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <!-- col-bg-img-six end -->
+
                                                 </div>
                                             </div>
                                             <div className="mt-30">
                                                 <h3>Areas of expertise</h3>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
                                                 <div className="pt-15">
-                                                    <!-- cmt-progress-bar -->
+
                                                     <div className="cmt-progress-bar" data-percent="65%">
                                                         <div className="progressbar-title">App Development</div>
                                                         <div className="progress-bar-inner">
                                                             <div className="progress-bar progress-bar-color-bar_skincolor"></div>
                                                         </div>
                                                         <div className="progress-bar-percent" data-percentage="65">65%</div>
-                                                    </div><!-- cmt-progress-bar end -->
-                                                    <!-- cmt-progress-bar -->
+                                                    </div>
+
                                                     <div className="cmt-progress-bar clearfix" data-percent="75%">
                                                         <div className="progressbar-title">Technology Solution</div>
                                                         <div className="progress-bar-inner">
                                                             <div className="progress-bar progress-bar-color-bar_skincolor"></div>
                                                         </div>
                                                         <div className="progress-bar-percent" data-percentage="75">75%</div>
-                                                    </div><!-- cmt-progress-bar end -->
-                                                    <!-- cmt-progress-bar -->
+                                                    </div>
+
                                                     <div className="cmt-progress-bar clearfix" data-percent="90%">
                                                         <div className="progressbar-title">Business Growth</div>
                                                         <div className="progress-bar-inner">
                                                             <div className="progress-bar progress-bar-color-bar_skincolor"></div>
                                                         </div>
                                                         <div className="progress-bar-percent" data-percentage="90">90%</div>
-                                                    </div><!-- cmt-progress-bar end -->
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div><!-- row end -->
+                            </div>
                         </div>
                     </div>
 

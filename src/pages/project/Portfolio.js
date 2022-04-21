@@ -1,9 +1,12 @@
 import React from 'react'
+import Footer from '../generalComponents/Footer'
+import PageTitle from '../generalComponents/PageTitle'
+import SiteHeaderMenu from '../generalComponents/SiteHeaderMenu'
+import TopBar from '../generalComponents/TopBar'
 
 export default function Portfolio() {
     return (
         <React.Fragment>
-
             <div className="page">
                 <header id="masthead" className="header cmt-header-style-01">
                     <TopBar />
@@ -11,26 +14,17 @@ export default function Portfolio() {
                 </header>
                 <PageTitle />
                 <p className="rs-p-wp-fix"></p>
-
-
-
-
-
                 <div className="site-main">
-
-
                     <section className="cmt-row project-single-section pt-80 pb-80 clearfix">
                         <div className="container">
-                            <!-- row -->
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="cmt-pf-single-content-wrapper cmt-pf-view-left-image">
                                         <div className="cmt-pf-single-content-wrapper-innerbox">
                                             <div className="cmt-pf-detail-box">
-                                                <!-- ttm_pf_image-wrapper -->
                                                 <div className="ttm_pf_image-wrapper">
                                                     <img width="1200" height="800" className="img-fluid" src="images/portfolio/portfolio-01-1200x800.jpg" alt="portfolio-img" />
-                                                </div><!-- ttm_pf_image-wrapper end -->
+                                                </div>
                                                 <div className="cmt-pf-single-detail-box">
                                                     <div className="cmt-pf-single-detail-box-title">
                                                         <h4>Bootstrap modal plugin</h4>
@@ -72,7 +66,7 @@ export default function Portfolio() {
 
                                                 <div className="row">
                                                     <div className="col-lg-6 col-md-6 col-sm-6">
-                                                        <!-- featured-icon-box -->
+                                                      
                                                         <div className="featured-icon-box icon-align-top-content style5">
                                                             <div className="featured-icon">
                                                                 <div className="cmt-icon cmt-icon_element-onlytxt cmt-icon_element-color-skincolor cmt-icon_element-size-xl">
@@ -88,10 +82,10 @@ export default function Portfolio() {
                                                                 </div>
                                                                 <a className="cmt-btn btn-inline cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor" href="contact-us.html">view more<i className="icon-right"></i></a>
                                                             </div>
-                                                        </div><!-- featured-icon-box end-->
+                                                        </div>
                                                     </div>
                                                     <div className="col-lg-6 col-md-6 col-sm-6">
-                                                        <!-- featured-icon-box -->
+                                                     
                                                         <div className="featured-icon-box icon-align-top-content style5">
                                                             <div className="featured-icon">
                                                                 <div className="cmt-icon cmt-icon_element-onlytxt cmt-icon_element-color-skincolor cmt-icon_element-size-xl">
@@ -107,7 +101,7 @@ export default function Portfolio() {
                                                                 </div>
                                                                 <a className="cmt-btn btn-inline cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor" href="contact-us.html">view more<i className="icon-right"></i></a>
                                                             </div>
-                                                        </div><!-- featured-icon-box end-->
+                                                        </div>
                                                     </div>
                                                 </div>
 
@@ -132,7 +126,7 @@ export default function Portfolio() {
                                                     <a className="cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark" href="team-details.html"><i className="icon-right"></i><span>Previous</span></a>
                                                 </div>
                                             </div>
-                                            <!-- row end-->
+                                        
                                         </div>
                                     </div>
                                 </div>

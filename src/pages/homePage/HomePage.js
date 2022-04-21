@@ -15,26 +15,26 @@ import TopBar from '../generalComponents/TopBar';
 export default function HomePage() {
   return (
     <div className="page">
-    <header id="masthead" className="header cmt-header-style-01">
-      <TopBar />
-      <SiteHeaderMenu />
-    </header>
-    <p className="rs-p-wp-fix"></p>
-    <Slider />
-    <div className="site-main">
-      <HowCanHelpYouSection />
-      <AboutSection />
-      <ServicesSection />
-      <ProjectSection />
-      <HowItWorksSection />
-      <MeetOurTeamSection />
-      <QuickFactsSection />
-      <PartnersSection />
+      <header id="masthead" className="header cmt-header-style-01">
+        <TopBar />
+        <SiteHeaderMenu />
+      </header>
+      <p className="rs-p-wp-fix"></p>
+      <Slider />
+      <div className="site-main">
+        <HowCanHelpYouSection />
+        <AboutSection />
+        <ServicesSection />
+        <ProjectSection />
+        <HowItWorksSection />
+        <MeetOurTeamSection />
+        <QuickFactsSection />
+        <PartnersSection />
+      </div>
+      <Footer />
+      <a id="totop" href="#top">
+        <i className="icon-angle-up"></i>
+      </a>
     </div>
-    <Footer />
-    <a id="totop" href="#top">
-      <i className="icon-angle-up"></i>
-    </a>
-  </div>
   )
 }

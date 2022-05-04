@@ -21,7 +21,6 @@ export default function TopBar() {
             </div>
             <div className="side-menu-container">
               <div className="side-menu"><a href="#"><i className="icon-menu"></i></a></div>
-              {/* {/* <!-- Side Menu --> */} */}
               <div className="side-overlay">
                 <div className="side bg-base-dark">
                   <a href="#" className="close-side"><i className="icon-close"></i></a>
@@ -59,7 +58,6 @@ export default function TopBar() {
                   </aside>
                 </div>
               </div>
-              {/* {/* <!-- Side Menu --> */}
             </div>
           </div>
         </div>

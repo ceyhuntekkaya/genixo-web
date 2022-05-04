@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Slider() {
   return (
     <rs-module-wrap id="rev_slider_2_1_wrapper" data-source="gallery">
-        <rs-module id="rev_slider_2_1" style="" data-version="6.5.9">
+        <rs-module id="rev_slider_2_1" style={{}} data-version="6.5.9">
             <rs-slides>
                 <rs-slide data-key="rs-1" data-title="Slide" data-thumb="images/slides/slider-mainbg-003.jpg" data-anim="ei:d;eo:d;s:d;r:0;t:fade;sl:d;">
 
@@ -25,7 +25,7 @@ export default function Slider() {
                         data-frame_1="st:190;sp:1200;sR:190;"
                         data-frame_1_mask="u:t;"
                         data-frame_999="o:0;st:w;sR:7610;"
-                        style="z-index:9;background-color:#ff382f;font-family:'Lato', sans-serif;"
+                        style={{ zIndex: 9, fontfamily: 'Lato', backgroundColor:"#ff382f" }}
                         >Information Technology Business
                     </rs-layer> 
 
@@ -42,7 +42,7 @@ export default function Slider() {
                         data-frame_1="st:310;sp:1200;sR:310;"
                         data-frame_1_mask="u:t;"
                         data-frame_999="o:0;st:w;sR:7490;"
-                        style="z-index:10;font-family: 'Lato', sans-serif;"
+                        style={{ zIndex: 10, fontfamily: 'Lato' }}
                     >Challenges with 
                     </rs-layer> 
 
@@ -58,7 +58,7 @@ export default function Slider() {
                         data-frame_1="st:440;sp:1200;sR:440;"
                         data-frame_1_mask="u:t;"
                         data-frame_999="o:0;st:w;sR:7360;"
-                        style="z-index:11;font-family: 'Lato', sans-serif;"
+                        style={{ zIndex: 11, fontfamily: 'Lato' }}
                     >Innovative <span className="text-base-skin">Ideas</span>
                     </rs-layer> 
 
@@ -75,7 +75,7 @@ export default function Slider() {
                         data-frame_1="st:680;sp:1200;sR:680;"
                         data-frame_1_mask="u:t;"
                         data-frame_999="o:0;st:w;sR:7120;"
-                        style="z-index:12;font-family: 'Lato', sans-serif;"
+                        style={{ zIndex: 12, fontfamily: 'Lato' }}
                     >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
                     </rs-layer> 
 
@@ -93,7 +93,7 @@ export default function Slider() {
                         data-frame_1="st:1140;sp:500;sR:1140;"
                         data-frame_1_mask="u:t;"
                         data-frame_999="o:0;st:w;sR:7360;"
-                        style="z-index:15;font-family: 'Lato', sans-serif;"
+                        style={{ zIndex: 15, fontfamily: 'Lato' }}
                     ><i className="icon-right text-center"></i><span>Discover Our Services</span>
                     </Link> 
 
@@ -116,7 +116,7 @@ export default function Slider() {
                         data-frame_1="st:190;sp:1200;sR:190;"
                         data-frame_1_mask="u:t;"
                         data-frame_999="o:0;st:w;sR:7610;"
-                        style="z-index:9;font-family: 'Lato', sans-serif;"
+                        style={{ zIndex: 9, fontfamily: 'Lato' }}
                     >Welcome To Devfox 
                     </rs-layer> 
 
@@ -132,7 +132,7 @@ export default function Slider() {
                         data-frame_1="st:310;sp:1200;sR:310;"
                         data-frame_1_mask="u:t;"
                         data-frame_999="o:0;st:w;sR:7490;"
-                        style="z-index:10;font-family:'Lato', sans-serif;"
+                        style={{ zIndex: 10, fontfamily: 'Lato' }}
                     >IT Managed
                     </rs-layer> 
 
@@ -148,7 +148,7 @@ export default function Slider() {
                         data-frame_1="st:440;sp:1200;sR:440;"
                         data-frame_1_mask="u:t;"
                         data-frame_999="o:0;st:w;sR:7360;"
-                        style="z-index:11;font-family:'Lato', sans-serif;"
+                        style={{ zIndex: 11, fontfamily: 'Lato' }}
                     >Solution <span className="text-base-skin">Partners</span>
                     </rs-layer> 
 
@@ -165,7 +165,7 @@ export default function Slider() {
                         data-frame_1="st:680;sp:1200;sR:680;"
                         data-frame_1_mask="u:t;"
                         data-frame_999="o:0;st:w;sR:7120;"
-                        style="z-index:12;font-family:'Lato', sans-serif;"
+                        style={{ zIndex: 12, fontfamily: 'Lato' }}
                     >We’ve One Mission to be the Best IT Software Company in UK   
                     </rs-layer> 
 
@@ -183,7 +183,7 @@ export default function Slider() {
                         data-frame_1="st:1140;sp:500;sR:1140;"
                         data-frame_1_mask="u:t;"
                         data-frame_999="o:0;st:w;sR:7360;"
-                        style="z-index:15;font-family:'Lato', sans-serif;"
+                        style={{ zIndex: 15, fontfamily: 'Lato' }}
                     ><i className="icon-right text-center"></i><span>see more projects</span>
                     </Link>
 

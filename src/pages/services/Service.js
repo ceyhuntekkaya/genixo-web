@@ -146,7 +146,7 @@ export default function Service() {
                                         <div className="featured-content">
                                             <span className="number"></span>
                                             <div className="featured-title">
-                                                <h3><Link href="/content">Digital Security</Link></h3>
+                                                <h3><Link to="/content">Digital Security</Link></h3>
                                             </div>
                                             <div className="featured-desc">
                                                 <p>Create resilient cyber security</p>

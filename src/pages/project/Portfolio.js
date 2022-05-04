@@ -81,7 +81,7 @@ export default function Portfolio() {
                                                                 <div className="featured-desc pb-5">
                                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore etfacilisis.</p>
                                                                 </div>
-                                                                <Link className="cmt-btn btn-inline cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor" href="/contact">view more<i className="icon-right"></i></Link>
+                                                                <Link className="cmt-btn btn-inline cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor" to="/contact">view more<i className="icon-right"></i></Link>
                                                             </div>
                                                         </div>
                                                     </div>

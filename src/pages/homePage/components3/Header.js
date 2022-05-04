@@ -110,7 +110,7 @@ export default function Header() {
             <div className="cmt-header-box-inner">
                   <p className="rs-p-wp-fix"></p>
                 <rs-module-wrap id="rev_slider_3_1_wrapper" data-source="gallery">
-                    <rs-module id="rev_slider_3_1" style="" data-version="6.5.9">
+                    <rs-module id="rev_slider_3_1" style={{}} data-version="6.5.9">
                         <rs-slides>
                             <rs-slide data-key="rs-1" data-title="Slide" data-thumb="images/slides/slider-mainbg-005.jpg" data-anim="ei:d;eo:d;s:d;r:0;t:fade;sl:d;">
 
@@ -127,7 +127,7 @@ export default function Header() {
                                     data-frame_1="st:190;sp:1200;sR:190;"
                                     data-frame_1_mask="u:t;"
                                     data-frame_999="o:0;st:w;sR:7610;"
-                                    style="z-index:8;font-family:'Lato', sans-serif;"
+                                    style={{ zIndex: 8, fontfamily: 'Lato' }}
                                 >Information Technology Business 
                                 </rs-layer>
 
@@ -143,7 +143,7 @@ export default function Header() {
                                     data-frame_1="st:310;sp:1200;sR:310;"
                                     data-frame_1_mask="u:t;"
                                     data-frame_999="o:0;st:w;sR:7490;"
-                                    style="z-index:9;font-family:'Lato', sans-serif;"
+                                    style={{ zIndex: 9, fontfamily: 'Lato' }}
                                 >Challenges with
                                 </rs-layer>
 
@@ -159,7 +159,7 @@ export default function Header() {
                                     data-frame_1="st:440;sp:1200;sR:440;"
                                     data-frame_1_mask="u:t;"
                                     data-frame_999="o:0;st:w;sR:7360;"
-                                    style="z-index:10;font-family:'Lato', sans-serif;"
+                                    style={{ zIndex: 10, fontfamily: 'Lato' }}
                                 > Innovative <span className="text-base-skin"> Ideas</span>
                                 </rs-layer>
 
@@ -176,7 +176,7 @@ export default function Header() {
                                     data-frame_1="st:680;sp:1200;sR:680;"
                                     data-frame_1_mask="u:t;"
                                     data-frame_999="o:0;st:w;sR:7120;"
-                                    style="z-index:11;font-family:'Lato', sans-serif;"
+                                    style={{ zIndex: 11, fontfamily: 'Lato' }}
                                 >Consectetur adipiscing elit, sed do eiusmod tempor incididunt <br/> ut labore et dolore magna aliqua. 
                                 </rs-layer>
 
@@ -195,7 +195,7 @@ export default function Header() {
                                     data-frame_1="st:1140;sp:500;sR:1140;"
                                     data-frame_1_mask="u:t;"
                                     data-frame_999="o:0;st:w;sR:7360;"
-                                    style="z-index:15;font-family:'Lato', sans-serif;"
+                                    style={{ zIndex: 15, fontfamily: 'Lato' }}
                                 ><i className="icon-right text-center text-base-white"></i><span>Discover Our Services</span>
                                 </Link>
 
@@ -212,7 +212,7 @@ export default function Header() {
                                     data-frame_1="sp:800;"
                                     data-frame_1_mask="u:t;"
                                     data-frame_999="o:0;st:w;sR:8200;"
-                                    style="z-index:3;background-color:#05255f;"
+                                    style={{ zIndex: 3, fontfamily: 'Lato', backgroundColor: "#05255f" }}
                                 > 
                                 </rs-layer>
 
@@ -227,7 +227,7 @@ export default function Header() {
                                     data-frame_0="y:50;"
                                     data-frame_1="sp:1000;"
                                     data-frame_999="o:0;st:w;"
-                                    style="z-index:5;"
+                                    style={{ zIndex: 5}}
                                 ><img src="images/slides/single-01.png" className="img-fluid" width="675" height="750" alt="genixo" data-no-retina/> 
                                 </rs-layer> 
                             
@@ -247,7 +247,7 @@ export default function Header() {
                                     data-frame_1="st:190;sp:1200;sR:190;"
                                     data-frame_1_mask="u:t;"
                                     data-frame_999="o:0;st:w;sR:7610;"
-                                    style="z-index:8;font-family:'Lato', sans-serif;"
+                                    style={{ zIndex: 8, fontfamily: 'Lato' }}
                                 >One-Top Services 
                                 </rs-layer> 
 
@@ -263,7 +263,7 @@ export default function Header() {
                                     data-frame_1="st:310;sp:1200;sR:310;"
                                     data-frame_1_mask="u:t;"
                                     data-frame_999="o:0;st:w;sR:7490;"
-                                    style="z-index:9;font-family:'Lato', sans-serif;"
+                                    style={{ zIndex: 9, fontfamily: 'Lato' }}
                                 >Data Sciences
                                 </rs-layer> 
 
@@ -279,7 +279,7 @@ export default function Header() {
                                     data-frame_1="st:440;sp:1200;sR:440;"
                                     data-frame_1_mask="u:t;"
                                     data-frame_999="o:0;st:w;sR:7360;"
-                                    style="z-index:10;font-family:'Lato', sans-serif;"
+                                    style={{ zIndex: 10, fontfamily: 'Lato' }}
                                 > and <span className="text-base-skin fw-700">Analysis SASS</span>
                                 </rs-layer> 
 
@@ -296,7 +296,7 @@ export default function Header() {
                                     data-frame_1="st:680;sp:1200;sR:680;"
                                     data-frame_1_mask="u:t;"
                                     data-frame_999="o:0;st:w;sR:7120;"
-                                    style="z-index:11;font-family:'Lato', sans-serif;"
+                                    style={{ zIndex: 11, fontfamily: 'Lato' }}
                                 >Consectetur adipiscing elit, sed do eiusmod tempor incididunt <br/> ut labore et dolore magna aliqua. 
                                 </rs-layer> 
 
@@ -315,7 +315,7 @@ export default function Header() {
                                     data-frame_1="st:1140;sp:500;sR:1140;"
                                     data-frame_1_mask="u:t;"
                                     data-frame_999="o:0;st:w;sR:7360;"
-                                    style="z-index:15;font-family:'Lato', sans-serif;"
+                                    style={{ zIndex: 15, fontfamily: 'Lato' }}
                                 ><i className="icon-right text-center text-base-white"></i><span>Discover Our Services</span>
                                 </Link> 
 
@@ -332,7 +332,7 @@ export default function Header() {
                                     data-frame_1="sp:800;"
                                     data-frame_1_mask="u:t;"
                                     data-frame_999="o:0;st:w;sR:8200;"
-                                    style="z-index:3;background-color:#05255f;"
+                                    style={{ zIndex: 3, backgroundColor:"#05255f" }}
                                 > 
                                 </rs-layer>
 
@@ -347,7 +347,7 @@ export default function Header() {
                                     data-frame_0="y:50;"
                                     data-frame_1="sp:1000;"
                                     data-frame_999="o:0;st:w;"
-                                    style="z-index:5;"
+                                    style={{ zIndex: 5 }}
                                 ><img src="images/slides/single-01.png" className="img-fluid" width="675" height="750" alt="genixo" data-no-retina/> 
                                 </rs-layer> 
                             </rs-slide>

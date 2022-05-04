@@ -40,7 +40,7 @@ export default function PricePlan2() {
                                         </ul>
                                     </div>
                                     <div className="cmt-p_table-footer">
-                                        <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" href="/about">see more<i className="icon-right"></i></Link>
+                                        <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" to="/about">see more<i className="icon-right"></i></Link>
                                     </div>
                                 </div>
                             </div>

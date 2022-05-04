@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Footer from '../generalComponents/Footer'
 import PageTitle from '../generalComponents/PageTitle'
 import SiteHeaderMenu from '../generalComponents/SiteHeaderMenu'
@@ -52,7 +53,7 @@ export default function Service2() {
                                             <div className="featured-desc">
                                                 <p>Accelerate Your Digital Transformation and gain the ability.</p>
                                             </div>
-                                            <a className="cmt-btn cmt-btn-shape-rounded cmt-btn-style-border cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-dark" href="it-consultancy.html">view more<i className="icon-right"></i></a>
+                                            <Link className="cmt-btn cmt-btn-shape-rounded cmt-btn-style-border cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-dark" to="/consultancy">view more<i className="icon-right"></i></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -71,7 +72,7 @@ export default function Service2() {
                                             <div className="featured-desc">
                                                 <p>capable of realizing advanced data analytics opportunities</p>
                                             </div>
-                                            <a className="cmt-btn cmt-btn-shape-rounded cmt-btn-style-border cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-dark" href="experience-design.html">view more<i className="icon-right"></i></a>
+                                            <Link className="cmt-btn cmt-btn-shape-rounded cmt-btn-style-border cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-dark" to="/experience">view more<i className="icon-right"></i></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -90,7 +91,7 @@ export default function Service2() {
                                             <div className="featured-desc">
                                                 <p>A Security event refers to occurrence during data & network</p>
                                             </div>
-                                            <a className="cmt-btn cmt-btn-shape-rounded cmt-btn-style-border cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-dark" href="digital-services.html">view more<i className="icon-right"></i></a>
+                                            <Link className="cmt-btn cmt-btn-shape-rounded cmt-btn-style-border cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-dark" to="/digital">view more<i className="icon-right"></i></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -109,7 +110,7 @@ export default function Service2() {
                                             <div className="featured-desc">
                                                 <p>An End-to-end cloud security for the specific security posture assessment.</p>
                                             </div>
-                                            <a className="cmt-btn cmt-btn-shape-rounded cmt-btn-style-border cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-dark" href="data-structuring.html">view more<i className="icon-right"></i></a>
+                                            <Link className="cmt-btn cmt-btn-shape-rounded cmt-btn-style-border cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-dark" to="/data">view more<i className="icon-right"></i></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -128,7 +129,7 @@ export default function Service2() {
                                             <div className="featured-desc">
                                                 <p>Accelerate Your Digital Transformation and gain the ability.</p>
                                             </div>
-                                            <a className="cmt-btn cmt-btn-shape-rounded cmt-btn-style-border cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-dark" href="advisory-services.html">view more<i className="icon-right"></i></a>
+                                            <Link className="cmt-btn cmt-btn-shape-rounded cmt-btn-style-border cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-dark" to="/advisory">view more<i className="icon-right"></i></Link>
                                         </div>
                                     </div>
                                 </div>

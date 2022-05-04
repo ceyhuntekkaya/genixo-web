@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Testimonials from '../about-us/components/Testimonials'
 import Footer from '../generalComponents/Footer'
 import PageTitle from '../generalComponents/PageTitle'
@@ -33,7 +34,7 @@ export default function Service() {
                                         </div>
                                         <div className="title-desc">
                                             <p>Devfox IT Company can offer a range of flexible IT & data services. We are in the enviable position of having access to our own data centre & infrastructure. We can build completely bespoke solutions.</p>
-                                            <a href="services-2.html" className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor">view More<i className="icon-right"></i></a>
+                                            <Link to="/consultancy" className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor">view More<i className="icon-right"></i></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -50,7 +51,7 @@ export default function Service() {
                                         <div className="featured-content">
                                             <span className="number"></span>
                                             <div className="featured-title">
-                                                <h3><a href="it-consultancy.html">IT Services</a></h3>
+                                                <h3><Link to="/consultancy">IT Services</Link></h3>
                                             </div>
                                             <div className="featured-desc">
                                                 <p>Gain digital transformations</p>
@@ -69,7 +70,7 @@ export default function Service() {
                                         <div className="featured-content">
                                             <span className="number"></span>
                                             <div className="featured-title">
-                                                <h3><a href="experience-design.html">Effective data</a></h3>
+                                                <h3><Link to="/experience">Effective data</Link></h3>
                                             </div>
                                             <div className="featured-desc">
                                                 <p>A safe and structured is keys</p>
@@ -88,7 +89,7 @@ export default function Service() {
                                         <div className="featured-content">
                                             <span className="number"></span>
                                             <div className="featured-title">
-                                                <h3><a href="digital-services.html">IT Threat Security</a></h3>
+                                                <h3><Link to="/digital">IT Threat Security</Link></h3>
                                             </div>
                                             <div className="featured-desc">
                                                 <p>Take safety to the next level.</p>
@@ -107,7 +108,7 @@ export default function Service() {
                                         <div className="featured-content">
                                             <span className="number"></span>
                                             <div className="featured-title">
-                                                <h3><a href="data-structuring.html">Cloud Services</a></h3>
+                                                <h3><Link to="/data">Cloud Services</Link></h3>
                                             </div>
                                             <div className="featured-desc">
                                                 <p>Our scalable cloud migration</p>
@@ -126,7 +127,7 @@ export default function Service() {
                                         <div className="featured-content">
                                             <span className="number"></span>
                                             <div className="featured-title">
-                                                <h3><a href="advisory-services.html">E-Commerce</a></h3>
+                                                <h3><Link to="/advisory">E-Commerce</Link></h3>
                                             </div>
                                             <div className="featured-desc">
                                                 <p>Direct to consumer commerce</p>
@@ -145,7 +146,7 @@ export default function Service() {
                                         <div className="featured-content">
                                             <span className="number"></span>
                                             <div className="featured-title">
-                                                <h3><a href="content-engineering.html">Digital Security</a></h3>
+                                                <h3><Link href="/content">Digital Security</Link></h3>
                                             </div>
                                             <div className="featured-desc">
                                                 <p>Create resilient cyber security</p>

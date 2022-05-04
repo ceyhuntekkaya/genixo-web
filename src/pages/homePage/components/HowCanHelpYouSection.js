@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function HowCanHelpYouSection() {
   return (
@@ -31,7 +32,7 @@ export default function HowCanHelpYouSection() {
               <div className="featured-imagebox featured-imagebox-services style1">
                 {/* <!-- featured-thumbnail --> */}
                 <div className="featured-thumbnail">
-                  <a href="it-consultancy.html"><img className="img-fluid auto_size" src="images/services/services-01.jpg" alt="image" width="740" height="500" /></a>
+                  <Link to="/consultancy"><img className="img-fluid auto_size" src="images/services/services-01.jpg" alt="image" width="740" height="500" /></Link>
                 </div>{/* <!-- featured-thumbnail end--> */}
                 <div className="featured-content">
                   <div className="ser_category">Our Service</div>
@@ -39,7 +40,7 @@ export default function HowCanHelpYouSection() {
                     <h3>How we can help</h3>
                   </div>
                   <div className="ser_num"></div>
-                  <div className="ser_readmore"><a href="it-consultancy.html" className="cmt-btn cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor btn-inline">Discover Now<i className="icon-right"></i></a></div>
+                  <div className="ser_readmore"><Link to="/consultancy" className="cmt-btn cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor btn-inline">Discover Now<i className="icon-right"></i></Link></div>
                 </div>
               </div>{/* <!-- featured-imagebox-services end--> */}
             </div>
@@ -48,7 +49,7 @@ export default function HowCanHelpYouSection() {
               <div className="featured-imagebox featured-imagebox-services style1">
                 {/* <!-- featured-thumbnail --> */}
                 <div className="featured-thumbnail">
-                  <a href="experience-design.html"><img className="img-fluid auto_size" src="images/services/services-02.jpg" alt="image" width="740" height="500" /></a>
+                  <Link to="/experience"><img className="img-fluid auto_size" src="images/services/services-02.jpg" alt="image" width="740" height="500" /></Link>
                 </div>{/* <!-- featured-thumbnail end--> */}
                 <div className="featured-content">
                   <div className="ser_category">Our expertise</div>
@@ -56,7 +57,7 @@ export default function HowCanHelpYouSection() {
                     <h3>Why partner with us</h3>
                   </div>
                   <div className="ser_num"></div>
-                  <div className="ser_readmore"><a href="experience-design.html" className="cmt-btn cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor btn-inline">Discover Now<i className="icon-right"></i></a></div>
+                  <div className="ser_readmore"><Link to="/experience" className="cmt-btn cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor btn-inline">Discover Now<i className="icon-right"></i></Link></div>
                 </div>
               </div>{/* <!-- featured-imagebox-services end--> */}
             </div>
@@ -65,7 +66,7 @@ export default function HowCanHelpYouSection() {
               <div className="featured-imagebox featured-imagebox-services style1">
                 {/* <!-- featured-thumbnail --> */}
                 <div className="featured-thumbnail">
-                  <a href="digital-services.html"><img className="img-fluid auto_size" src="images/services/services-03.jpg" alt="image" width="740" height="500" /></a>
+                  <Link to="/digital"><img className="img-fluid auto_size" src="images/services/services-03.jpg" alt="image" width="740" height="500" /></Link>
                 </div>{/* <!-- featured-thumbnail end--> */}
                 <div className="featured-content">
                   <div className="ser_category">Our customers</div>
@@ -73,14 +74,14 @@ export default function HowCanHelpYouSection() {
                     <h3>Client success stories</h3>
                   </div>
                   <div className="ser_num"></div>
-                  <div className="ser_readmore"><a href="digital-services.html" className="cmt-btn cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor btn-inline">Discover Now<i className="icon-right"></i></a></div>
+                  <div className="ser_readmore"><Link to="/digital" className="cmt-btn cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor btn-inline">Discover Now<i className="icon-right"></i></Link></div>
                 </div>
               </div>{/* <!-- featured-imagebox-services end--> */}
             </div>
           </div>
           <div className="row">
             <div className="col-lg-12">
-              <div className="mt-25 text-center text-base-dark">Stop wasting time and money on technology. <a href="about-us.html" className="cmt-btn cmt-btn-size-md cmt-btn-color-skincolor btn-inline btn-underline">Explore our company</a></div>
+              <div className="mt-25 text-center text-base-dark">Stop wasting time and money on technology. <Link to="/about" className="cmt-btn cmt-btn-size-md cmt-btn-color-skincolor btn-inline btn-underline">Explore our company</Link></div>
             </div>
           </div>
         </div>

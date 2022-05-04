@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function ServicesSection() {
     return (<React.Fragment>
@@ -74,7 +75,7 @@ export default function ServicesSection() {
                                             <div className="featured-desc">
                                                 <p>One's website is placed on the same server as many other clients.</p>
                                             </div>
-                                            <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" href="it-consultancy.html">More Details<i className="icon-right"></i></a>
+                                            <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" to="/consultancy">More Details<i className="icon-right"></i></Link>
                                         </div>
                                     </div>{/* <!-- featured-icon-box end--> */}
                                 </div>
@@ -97,7 +98,7 @@ export default function ServicesSection() {
                                             <div className="featured-desc">
                                                 <p>The process of storing copies of data, organizations against of data.</p>
                                             </div>
-                                            <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" href="experience-design.html">More Details<i className="icon-right"></i></a>
+                                            <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" to="/experience">More Details<i className="icon-right"></i></Link>
                                         </div>
                                     </div>{/* <!-- featured-icon-box end--> */}
                                 </div>
@@ -120,7 +121,7 @@ export default function ServicesSection() {
                                             <div className="featured-desc">
                                                 <p>It is a Practice of protecting networks from digital marketing.</p>
                                             </div>
-                                            <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" href="digital-services.html">More Details<i className="icon-right"></i></a>
+                                            <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" to="/digital">More Details<i className="icon-right"></i></Link>
                                         </div>
                                     </div>{/* <!-- featured-icon-box end--> */}
                                 </div>
@@ -143,7 +144,7 @@ export default function ServicesSection() {
                                             <div className="featured-desc">
                                                 <p>The robust solution needs to be deliver a wide range of features.</p>
                                             </div>
-                                            <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" href="data-structuring.html">More Details<i className="icon-right"></i></a>
+                                            <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" to="/data">More Details<i className="icon-right"></i></Link>
                                         </div>
                                     </div>{/* <!-- featured-icon-box end--> */}
                                 </div>
@@ -166,7 +167,7 @@ export default function ServicesSection() {
                                             <div className="featured-desc">
                                                 <p>Infrastructure, platforms, and software that are by third-party</p>
                                             </div>
-                                            <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" href="advisory-services.html">More Details<i className="icon-right"></i></a>
+                                            <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" to="/advisory">More Details<i className="icon-right"></i></Link>
                                         </div>
                                     </div>{/* <!-- featured-icon-box end--> */}
                                 </div>
@@ -189,7 +190,7 @@ export default function ServicesSection() {
                                             <div className="featured-desc">
                                                 <p>Any activities designed to protect the usability & integrity of network</p>
                                             </div>
-                                            <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" href="content-engineering.html">More Details<i className="icon-right"></i></a>
+                                            <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" to="/content">More Details<i className="icon-right"></i></Link>
                                         </div>
                                     </div>{/* <!-- featured-icon-box end--> */}
                                 </div>
@@ -212,7 +213,7 @@ export default function ServicesSection() {
                                             <div className="featured-desc">
                                                 <p>A management of Computer repairs maintenance of networks.</p>
                                             </div>
-                                            <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" href="it-consultancy.html">More Details<i className="icon-right"></i></a>
+                                            <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" to="/consultancy">More Details<i className="icon-right"></i></Link>
                                         </div>
                                     </div>{/* <!-- featured-icon-box end--> */}
                                 </div>
@@ -235,7 +236,7 @@ export default function ServicesSection() {
                                             <div className="featured-desc">
                                                 <p>Range of customer services to assist client in making effective</p>
                                             </div>
-                                            <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" href="experience-design.html">More Details<i className="icon-right"></i></a>
+                                            <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" to="/experience">More Details<i className="icon-right"></i></Link>
                                         </div>
                                     </div>{/* <!-- featured-icon-box end--> */}
                                 </div>

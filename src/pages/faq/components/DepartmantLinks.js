@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function DepartmantLinks() {
     return (
@@ -16,7 +17,7 @@ export default function DepartmantLinks() {
                             <div className="featured-content">
                                 <span className="number"></span>
                                 <div className="featured-title">
-                                    <h3><a href="it-consultancy.html">IT Services</a></h3>
+                                    <h3><Link to="/consultancy">IT Services</Link></h3>
                                 </div>
                                 <div className="featured-desc">
                                     <p>Gain digital transformations</p>
@@ -35,7 +36,7 @@ export default function DepartmantLinks() {
                             <div className="featured-content">
                                 <span className="number"></span>
                                 <div className="featured-title">
-                                    <h3><a href="it-consultancy.html">Effective data</a></h3>
+                                    <h3><Link to="/consultancy">Effective data</Link></h3>
                                 </div>
                                 <div className="featured-desc">
                                     <p>A safe and structured is keys</p>
@@ -54,7 +55,7 @@ export default function DepartmantLinks() {
                             <div className="featured-content">
                                 <span className="number"></span>
                                 <div className="featured-title">
-                                    <h3><a href="it-consultancy.html">IT Threat Security</a></h3>
+                                    <h3><Link to="/consultancy">IT Threat Security</Link></h3>
                                 </div>
                                 <div className="featured-desc">
                                     <p>Take safety to the next level.</p>

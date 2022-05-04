@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function QuickFactsSection() {
   return (
@@ -31,7 +32,7 @@ export default function QuickFactsSection() {
                   </span>
                 </div>
                 <div className="featured-title">
-                  <h3><a href="blog-single.html">Demanding photographer has a characteristics</a></h3>
+                  <h3><Link to="/blogsingle">Demanding photographer has a characteristics</Link></h3>
                 </div>
               </div>
             </div>{/* <!-- featured-imagebox-post end--> */}
@@ -47,12 +48,12 @@ export default function QuickFactsSection() {
                   </span>
                 </div>
                 <div className="featured-title">
-                  <h3><a href="blog-single.html">Software development solutions for great business</a></h3>
+                  <h3><Link to="/blogsingle">Software development solutions for great business</Link></h3>
                 </div>
               </div>
             </div>{/* <!-- featured-imagebox-post end--> */}
           </div>
-          <a className="cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark res-991-pb-40" href="blog.html"><i className="icon-right"></i><span>view more</span></a>
+          <Link className="cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark res-991-pb-40" to="/bloglist"><i className="icon-right"></i><span>view more</span></Link>
         </div>
         <div className="col-lg-8">
           {/* <!-- featured-imagebox-post --> */}
@@ -71,7 +72,7 @@ export default function QuickFactsSection() {
                       <i className="icon-calendar"></i><a href="#" rel="bookmark"><time className="entry-date published" datetime="2022-01-11T06:46:46+00:00">January 11, 2022</time></a></span>
                   </div>{/* <!-- post-meta end --> */}
                   <div className="post-title featured-title">
-                    <h3><a href="blog-single.html">What are insider attacks and how to prevent them</a></h3>
+                    <h3><a href="/blogsingle">What are insider attacks and how to prevent them</a></h3>
                   </div>
                 </div>
                 <div className="post-desc featured-desc">
@@ -79,7 +80,7 @@ export default function QuickFactsSection() {
                 </div>
               </div>
               <div className="post-view-more">
-                <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor" href="blog-single.html">view more<i className="icon-right"></i></a>
+                <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor" to="/blogsingle">view more<i className="icon-right"></i></Link>
               </div>
             </div>{/* <!-- featured-content end --> */}
           </div>{/* <!-- featured-imagebox-post end --> */}

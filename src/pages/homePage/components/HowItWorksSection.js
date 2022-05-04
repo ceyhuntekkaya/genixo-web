@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function HowItWorksSection() {
   return (
@@ -38,7 +39,7 @@ export default function HowItWorksSection() {
               <div className="featured-desc">
                 <p>Explore our service list to get of them for business</p>
               </div>
-              <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor" href="contact-us.html">view more<i className="icon-right"></i></a>
+              <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor" to="/contact">view more<i className="icon-right"></i></Link>
             </div>
           </div>{/* <!-- featured-icon-box end--> */}
         </div>
@@ -58,7 +59,7 @@ export default function HowItWorksSection() {
               <div className="featured-desc">
                 <p>We will set up meeting with experts for your business</p>
               </div>
-              <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor" href="contact-us.html">view more<i className="icon-right"></i></a>
+              <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor" to="/contact">view more<i className="icon-right"></i></Link>
             </div>
           </div>{/* <!-- featured-icon-box end--> */}
         </div>
@@ -78,7 +79,7 @@ export default function HowItWorksSection() {
               <div className="featured-desc">
                 <p>Get your work done according to your flexibility</p>
               </div>
-              <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor" href="contact-us.html">view more<i className="icon-right"></i></a>
+              <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor" to="/contact">view more<i className="icon-right"></i></Link>
             </div>
           </div>{/* <!-- featured-icon-box end--> */}
         </div>
@@ -98,7 +99,7 @@ export default function HowItWorksSection() {
               <div className="featured-desc">
                 <p>Your work is under progress by our experts team</p>
               </div>
-              <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor" href="blog.html">view more<i className="icon-right"></i></a>
+              <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor" to="/bloglist">view more<i className="icon-right"></i></Link>
             </div>
           </div>{/* <!-- featured-icon-box end--> */}
         </div>

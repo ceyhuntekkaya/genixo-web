@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Footer from '../generalComponents/Footer'
 import PageTitle from '../generalComponents/PageTitle'
 import SiteHeaderMenu from '../generalComponents/SiteHeaderMenu'
@@ -26,7 +27,7 @@ export default function DataStructuring() {
                                     <div className="cmt-service-single-content-area">
                                         <div className="cmt-service-description">
                                             <h3>App installation & cloud services</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <u><a className="tm-skincolor" href="it-consultancy.html"> tempor incididunt</a></u> ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <u><Link className="tm-skincolor" to="/consultancy"> tempor incididunt</Link></u> ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra.</p>
                                             <div className="row g-0 border-rad_5 overflow-hidden mt-30">
                                                 <div className="col-md-6 col-sm-12">
 
@@ -95,7 +96,7 @@ export default function DataStructuring() {
                                                                 <div className="featured-desc">
                                                                     <p>One's website is placed on the same server as many other clients.</p>
                                                                 </div>
-                                                                <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" href="about-us.html">More Details<i className="icon-right"></i></a>
+                                                                <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" to="/about">More Details<i className="icon-right"></i></Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -118,7 +119,7 @@ export default function DataStructuring() {
                                                                 <div className="featured-desc">
                                                                     <p>The process of storing copies of data, organizations against of data.</p>
                                                                 </div>
-                                                                <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" href="about-us-2.html">More Details<i className="icon-right"></i></a>
+                                                                <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" to="/about2">More Details<i className="icon-right"></i></Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -141,7 +142,7 @@ export default function DataStructuring() {
                                                                 <div className="featured-desc">
                                                                     <p>It is a Practice of protecting networks from digital marketing.</p>
                                                                 </div>
-                                                                <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" href="services-1.html">More Details<i className="icon-right"></i></a>
+                                                                <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" to="/service">More Details<i className="icon-right"></i></Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -177,9 +178,9 @@ export default function DataStructuring() {
 
 
                 <Footer />
-                <a id="totop" href="#top">
+                <Link id="totop" to="#top">
                     <i className="icon-angle-up"></i>
-                </a>
+                </Link>
             </div>
         </React.Fragment>
 

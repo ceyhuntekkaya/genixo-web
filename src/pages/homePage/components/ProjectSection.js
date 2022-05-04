@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function ProjectSection() {
   return (
@@ -16,7 +17,7 @@ export default function ProjectSection() {
         </div>
         <div className="col-md-4">
           <div className="text-md-end res-767-pb-30">
-            <a className="cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark" href="project-style-01.html"><i className="icon-right"></i><span>see more projects</span></a>
+            <Link className="cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark" to="/project"><i className="icon-right"></i><span>see more projects</span></Link>
           </div>
         </div>
       </div>{/* <!-- row end --> */}
@@ -35,7 +36,7 @@ export default function ProjectSection() {
                 <span>Image Documentary</span>
               </div>
               <div className="featured-title">
-                <h3><a href="portfolio-single.html">Bootstrap modal plugin</a></h3>
+                <h3><Link to="/portfolio">Bootstrap modal plugin</Link></h3>
               </div>
             </div>
           </div>
@@ -51,7 +52,7 @@ export default function ProjectSection() {
                 <span>SM Management</span>
               </div>
               <div className="featured-title">
-                <h3><a href="portfolio-single.html">Elementor plugin</a></h3>
+                <h3><Link to="/portfolio">Elementor plugin</Link></h3>
               </div>
             </div>
           </div>
@@ -67,7 +68,7 @@ export default function ProjectSection() {
                 <span>Software Development</span>
               </div>
               <div className="featured-title">
-                <h3><a href="portfolio-single.html">HTML 5 language</a></h3>
+                <h3><Link to="/portfolio">HTML 5 language</Link></h3>
               </div>
             </div>
           </div>
@@ -83,7 +84,7 @@ export default function ProjectSection() {
                 <span>Revolution slider</span>
               </div>
               <div className="featured-title">
-                <h3><a href="portfolio-single.html">Network Cabelling</a></h3>
+                <h3><Link to="/portfolio">Network Cabelling</Link></h3>
               </div>
             </div>
           </div>
@@ -99,7 +100,7 @@ export default function ProjectSection() {
                 <span>Image Documentary</span>
               </div>
               <div className="featured-title">
-                <h3><a href="portfolio-single.html">WordPress plugin</a></h3>
+                <h3><Link to="/portfolio">WordPress plugin</Link></h3>
               </div>
             </div>
           </div>
@@ -115,7 +116,7 @@ export default function ProjectSection() {
                 <span>Author Projects</span>
               </div>
               <div className="featured-title">
-                <h3><a href="portfolio-single.html">Wp bakery plugin</a></h3>
+                <h3><Link to="/portfolio">Wp bakery plugin</Link></h3>
               </div>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Footer from '../generalComponents/Footer'
 import PageTitle from '../generalComponents/PageTitle'
 import SiteHeaderMenu from '../generalComponents/SiteHeaderMenu'
@@ -80,7 +81,7 @@ export default function Portfolio() {
                                                                 <div className="featured-desc pb-5">
                                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore etfacilisis.</p>
                                                                 </div>
-                                                                <a className="cmt-btn btn-inline cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor" href="contact-us.html">view more<i className="icon-right"></i></a>
+                                                                <Link className="cmt-btn btn-inline cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor" href="/contact">view more<i className="icon-right"></i></Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -99,7 +100,7 @@ export default function Portfolio() {
                                                                 <div className="featured-desc pb-5">
                                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore etfacilisis.</p>
                                                                 </div>
-                                                                <a className="cmt-btn btn-inline cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor" href="contact-us.html">view more<i className="icon-right"></i></a>
+                                                                <Link className="cmt-btn btn-inline cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor" to="/contact">view more<i className="icon-right"></i></Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -123,7 +124,7 @@ export default function Portfolio() {
                                                     </div>
                                                 </div>
                                                 <div className="cmt-nextprev-bottom-nav">
-                                                    <a className="cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark" href="team-details.html"><i className="icon-right"></i><span>Previous</span></a>
+                                                    <Link className="cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark" to="/teammember"><i className="icon-right"></i><span>Previous</span></Link>
                                                 </div>
                                             </div>
                                         

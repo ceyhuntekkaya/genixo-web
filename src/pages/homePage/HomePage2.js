@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function HomePage2() {
   return (
@@ -20,7 +21,7 @@ export default function HomePage2() {
                                 <span>Helpline:</span> +0022 6544 9977
                             </div>
                             <div className="top_bar_contact_item">
-                                <a href="mailto:info@example.com.com">support@cymolthemes.com</a>
+                                <Link to="mailto:info@example.com.com">support@cymolthemes.com</Link>
                             </div>
                             <div className="top_bar_contact_item with-icon ms-auto">
                                 <div className="top_bar_icon"><i className="icon-megaphone"></i></div>
@@ -28,11 +29,11 @@ export default function HomePage2() {
                             </div>
                         </div>
                         <div className="side-menu-container">
-                            <div className="side-menu"><a href="#"><i className="icon-menu"></i></a></div>
+                            <div className="side-menu"><Link to="#"><i className="icon-menu"></i></Link></div>
                             <!-- Side Menu -->
                             <div className="side-overlay">
                                 <div className="side bg-base-dark">
-                                    <a href="#" className="close-side"><i className="icon-close"></i></a>
+                                    <Link to="#" className="close-side"><i className="icon-close"></i></Link>
                                     <div className="d-flex align-items-center pb-30">
                                         <div className="flotingbar-img ">
                                             <img className="img-fluid rounded-circle" src="images/flotingbar-img.png" height="60" width="60" alt="flotingbar-img"/>
@@ -46,10 +47,10 @@ export default function HomePage2() {
                                     <div className="cmt-detailss"> 
                                         <ul>
                                             <li><span className="cmt-li"> Call us Now! : </span><span> +123-456 -7890 </span></li>
-                                            <li><span className="cmt-li"> Email :</span><span className="cmt-li4"><a href="mailto:info@example.com.com">example.supoort@gmail.com</a> </span></li>
+                                            <li><span className="cmt-li"> Email :</span><span className="cmt-li4"><Link to="mailto:info@example.com.com">example.supoort@gmail.com</Link> </span></li>
                                         </ul>
                                     </div>
-                                    <aside className="widget_text clearfix">
+                                    <Linkside className="widget_text clearfix">
                                         <h3>Quick contact info</h3>
                                         <p className="mb-25">Our Solutions pride on world class customer service.</p>
                                         <form action="#" className="cta_form wrap-form clearfix" method="post">
@@ -85,9 +86,9 @@ export default function HomePage2() {
                             <div className="site-navigation d-flex align-items-center justify-content-between">
                                 <!-- site-branding -->
                                 <div className="site-branding me-auto">
-                                    <a className="home-link" href="index.html" title="Devfox" rel="home">
+                                    <Link className="home-link" to="/" title="Devfox" rel="home">
                                         <img id="logo-img" height="48" width="147" className="img-fluid auto_size" src="images/logo-img.svg" alt="logo-img"/>
-                                    </a>
+                                    </Link>
                                 </div><!-- site-branding end -->
                                 <div className="btn-show-menu-mobile menubar menubar--squeeze">
                                     <span className="menubar-box">
@@ -98,76 +99,76 @@ export default function HomePage2() {
                                 <nav className="main-menu menu-mobile" id="menu">
                                     <ul className="menu">
                                         <li className="mega-menu-item active">
-                                            <a href="#" className="mega-menu-link">Home</a>
+                                            <Link to="#" className="mega-menu-link">Home</Link>
                                             <ul className="mega-submenu">
-                                                <li><a href="index.html">Homepage 1</a></li>
-                                                <li className="active"><a href="homepage-2.html">Homepage 2</a></li>
-                                                <li><a href="homepage-3.html">Homepage 3</a></li>
+                                                <li><Link to="/">Homepage 1</Link></li>
+                                                <li className="active"><Link to="/2">Homepage 2</Link></li>
+                                                <li><Link to="/h3">Homepage 3</Link></li>
                                             </ul>
                                         </li>
                                         <li className="mega-menu-item">
-                                            <a href="#" className="mega-menu-link">Company</a>
+                                            <Link to="#" className="mega-menu-link">Company</Link>
                                             <ul className="mega-submenu">
                                                 <li className="mega-menu-item">
-                                                    <a href="#" className="mega-menu-link">About Us</a>
+                                                    <Link to="#" className="mega-menu-link">About Us</Link>
                                                     <ul className="mega-submenu">
-                                                        <li><a href="about-us.html">About Us One</a></li>
-                                                        <li><a href="about-us-2.html">About Us Two</a></li>
+                                                        <li><Link to="/about">About Us One</Link></li>
+                                                        <li><Link to="/about2">About Us Two</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li className="mega-menu-item">
-                                                    <a href="#" className="mega-menu-link">Services</a>
+                                                    <Link to="#" className="mega-menu-link">Services</Link>
                                                     <ul className="mega-submenu">
-                                                        <li><a href="services-1.html">Services One</a></li>
-                                                        <li><a href="services-2.html">Services Two</a></li>
+                                                        <li><Link to="/service">Services One</Link></li>
+                                                        <li><Link to="/service2">Services Two</Link></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="our-team.html">Our Team</a></li>
-                                                <li><a href="team-details.html">Team Details</a></li>
-                                                <li><a href="faq.html">FAQ</a></li>
-                                                <li><a href="error.html">Error Page</a></li>
+                                                <li><Link to="/team">Our Team</Link></li>
+                                                <li><Link to="team-details">Team Details</Link></li>
+                                                <li><Link to="/faq">FAQ</Link></li>
+                                                <li><Link to="/error">Error Page</Link></li>
                                             </ul>
                                         </li>
                                         <li className="mega-menu-item">
-                                            <a href="#" className="mega-menu-link">IT Solutions</a>
+                                            <Link to="#" className="mega-menu-link">IT Solutions</Link>
                                             <ul className="mega-submenu">
-                                                <li><a href="it-consultancy.html">IT Consultancy</a></li>
-                                                <li><a href="experience-design.html">Experience Design</a></li>
-                                                <li><a href="digital-services.html">Digital Services</a></li>
-                                                <li><a href="data-structuring.html">Data Structuring</a></li>
-                                                <li><a href="advisory-services.html">Advisory Services</a></li>
-                                                <li><a href="content-engineering.html">Content Engineering</a></li>
+                                                <li><Link to="/consultancy">IT Consultancy</Link></li>
+                                                <li><Link to="/experience">Experience Design</Link></li>
+                                                <li><Link to="/digital">Digital Services</Link></li>
+                                                <li><Link to="/data">Data Structuring</Link></li>
+                                                <li><Link to="/advisory">Advisory Services</Link></li>
+                                                <li><Link to="content">Content Engineering</Link></li>
                                             </ul>
                                         </li>
                                         <li className="mega-menu-item">
-                                            <a href="#" className="mega-menu-link">Case Study</a>
+                                            <Link to="#" className="mega-menu-link">Case Study</Link>
                                             <ul className="mega-submenu">
-                                                <li><a href="project-style-01.html">Case Study 01</a></li>
-                                                <li><a href="project-style-02.html">Case Study 02</a></li>
-                                                <li><a href="portfolio-single.html">Case Study Single</a></li>
+                                                <li><Link to="/project">Case Study 01</Link></li>
+                                                <li><Link to="/project">Case Study 02</Link></li>
+                                                <li><Link to="/portfolio">Case Study Single</Link></li>
                                             </ul>
                                         </li>
                                         <li className="mega-menu-item">
-                                            <a href="#" className="mega-menu-link">IT Blog</a>
+                                            <Link to="#" className="mega-menu-link">IT Blog</Link>
                                             <ul className="mega-submenu">
-                                                <li><a href="blog.html">Blog Classic</a></li>
-                                                <li><a href="blog-grid.html">Blog Grid View</a></li>
-                                                <li><a href="blog-single.html">Blog Single View</a></li>
+                                                <li><Link to="/bloglist">Blog Classic</Link></li>
+                                                <li><Link to="/bloggrid">Blog Grid View</Link></li>
+                                                <li><Link to="/blogsingle">Blog Single View</Link></li>
                                             </ul>
                                         </li>
                                         <li className="mega-menu-item">
-                                            <a href="contact-us.html">Contact us</a>
+                                            <Link to="/contact">Contact us</Link>
                                         </li>
                                     </ul>
                                 </nav><!-- menu end -->
                                 <!-- header_extra -->
                                 <div className="header_extra d-flex flex-row align-items-center">
-                                    <div className="header_btn"><a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor" href="contact-us.html">Need A Help<i className="icon-right"></i></a></div>
+                                    <div className="header_btn"><Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor" to="/contact">Need A Help<i className="icon-right"></i></Link></div>
                                     <div className="header_search">
-                                        <a href="#" className="btn-default search_btn"><i className="icon-search-1"></i></a>
+                                        <Link to="#" className="btn-default search_btn"><i className="icon-search-1"></i></Link>
                                         <div className="header_search_content">
                                             <div className="header_search_content_inner">
-                                                <a href="#" className="close_btn"><i className="icon-cancel-2"></i></a>
+                                                <Link to="#" className="close_btn"><i className="icon-cancel-2"></i></Link>
                                                 <form id="searchbox" method="get" action="#">
                                                     <input className="search_query" type="text" id="search_query_top" name="s" placeholder="Type Your Search..." value="">
                                                     <button type="submit" className="btn close-search"><i className="icon-search-1"></i></button>
@@ -262,9 +263,9 @@ export default function HomePage2() {
                     >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
                     </rs-layer><!--
 
-                    --><a
+                    --><Link
                         id="slider-1-slide-1-layer-4" 
-                        href="contact-us.html"
+                        to="/contact"
                         className="rs-layer cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark"
                         data-type="text"
                         data-color="#05255f"
@@ -278,7 +279,7 @@ export default function HomePage2() {
                         data-frame_999="o:0;st:w;sR:7360;"
                         style="z-index:15;font-family: 'Lato', sans-serif;"
                     ><i className="icon-right text-center"></i><span>Discover Our Services</span>
-                    </a><!--
+                    </Link><!--
 
                 -->
                 </rs-slide>
@@ -352,9 +353,9 @@ export default function HomePage2() {
                     >We’ve One Mission to be the Best IT Software Company in UK   
                     </rs-layer><!--
 
-                    --><a
+                    --><Link
                         id="slider-1-slide-4-layer-5" 
-                        href="contact-us.html"
+                        to="/contact"
                         className="rs-layer cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark"
                         data-type="text"
                         data-color="#05255f"
@@ -368,7 +369,7 @@ export default function HomePage2() {
                         data-frame_999="o:0;st:w;sR:7360;"
                         style="z-index:15;font-family:'Lato', sans-serif;"
                     ><i className="icon-right text-center"></i><span>see more projects</span>
-                    </a><!--
+                    </Link><!--
 
                     
             --></rs-slide>
@@ -394,7 +395,7 @@ export default function HomePage2() {
                             </div>
                             <div className="title-desc">
                                 <p>Our technical excellence makes us a go-to partner for your businesses. Let’s
-                                connect & discuss how Team can assist you as technology partner from Fully or Co-Managed IT Services <a href="about-us.html" className="cmt-btn cmt-btn-size-md cmt-btn-color-skincolor btn-inline btn-underline">Continue Reading</a></p>
+                                connect & discuss how Team can assist you as technology partner from Fully or Co-Managed IT Services <Link to="/about" className="cmt-btn cmt-btn-size-md cmt-btn-color-skincolor btn-inline btn-underline">Continue Reading</Link></p>
                             </div>
                         </div><!-- section title end -->
                         <div className="pb-60 res-991-p-0"></div>
@@ -617,12 +618,12 @@ export default function HomePage2() {
                                             </div>
                                             <div className="featured-hover-content">
                                                 <div className="featured-title">
-                                                    <h3><a href="it-consultancy.html">Hosting Services</a></h3>
+                                                    <h3><Link to="/consultancy">Hosting Services</Link></h3>
                                                 </div>
                                                 <div className="featured-desc">
                                                     <p>One's website is placed on the same server as many other clients.</p>
                                                 </div>
-                                                <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" href="it-consultancy.html">More Details<i className="icon-right"></i></a>
+                                                <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" to="/consultancy">More Details<i className="icon-right"></i></Link>
                                             </div>
                                         </div><!-- featured-icon-box end-->
                                     </div>
@@ -640,12 +641,12 @@ export default function HomePage2() {
                                             </div>
                                             <div className="featured-hover-content">
                                                 <div className="featured-title">
-                                                    <h3><a href="experience-design.html">Backup & recovery</a></h3>
+                                                    <h3><Link to="/experience">Backup & recovery</Link></h3>
                                                 </div>
                                                 <div className="featured-desc">
                                                     <p>The process of storing copies of data, organizations against of data.</p>
                                                 </div>
-                                                <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" href="experience-design.html">More Details<i className="icon-right"></i></a>
+                                                <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" to="/experience">More Details<i className="icon-right"></i></Link>
                                             </div>
                                         </div><!-- featured-icon-box end-->
                                     </div>
@@ -663,12 +664,12 @@ export default function HomePage2() {
                                             </div>
                                             <div className="featured-hover-content">
                                                 <div className="featured-title">
-                                                    <h3><a href="digital-services.html">Cyber Security</a></h3>
+                                                    <h3><Link to="/digital">Cyber Security</Link></h3>
                                                 </div>
                                                 <div className="featured-desc">
                                                     <p>It is a Practice of protecting networks from digital marketing.</p>
                                                 </div>
-                                                <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" href="digital-services.html">More Details<i className="icon-right"></i></a>
+                                                <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" to="/digital">More Details<i className="icon-right"></i></Link>
                                             </div>
                                         </div><!-- featured-icon-box end-->
                                     </div>
@@ -686,12 +687,12 @@ export default function HomePage2() {
                                             </div>
                                             <div className="featured-hover-content">
                                                 <div className="featured-title">
-                                                    <h3><a href="data-structuring.html">Management services</a></h3>
+                                                    <h3><Link to="/data">Management services</Link></h3>
                                                 </div>
                                                 <div className="featured-desc">
                                                     <p>The robust solution needs to be deliver a wide range of features.</p>
                                                 </div>
-                                                <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" href="data-structuring.html">More Details<i className="icon-right"></i></a>
+                                                <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" to="/data">More Details<i className="icon-right"></i></Link>
                                             </div>
                                         </div><!-- featured-icon-box end-->
                                     </div>
@@ -709,12 +710,12 @@ export default function HomePage2() {
                                             </div>
                                             <div className="featured-hover-content">
                                                 <div className="featured-title">
-                                                    <h3><a href="advisory-services.html">Cloud Services</a></h3>
+                                                    <h3><Link to="/advisory">Cloud Services</Link></h3>
                                                 </div>
                                                 <div className="featured-desc">
                                                     <p>Infrastructure, platforms, and software that are by third-party</p>
                                                 </div>
-                                                <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" href="advisory-services.html">More Details<i className="icon-right"></i></a>
+                                                <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" to="/advisory">More Details<i className="icon-right"></i></Link>
                                             </div>
                                         </div><!-- featured-icon-box end-->
                                     </div>
@@ -732,19 +733,19 @@ export default function HomePage2() {
                                             </div>
                                             <div className="featured-hover-content">
                                                 <div className="featured-title">
-                                                    <h3><a href="content-engineering.html">Network Security</a></h3>
+                                                    <h3><Link to="content">Network Security</Link></h3>
                                                 </div>
                                                 <div className="featured-desc">
                                                     <p>Any activities designed to protect the usability & integrity of network</p>
                                                 </div>
-                                                <a className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" href="content-engineering.html">More Details<i className="icon-right"></i></a>
+                                                <Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white" to="content">More Details<i className="icon-right"></i></Link>
                                             </div>
                                         </div><!-- featured-icon-box end-->
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div className="col-lg-12">
-                                        <div className="mt-25 mb-10 text-center text-base-dark">Stop wasting time and money on technology. <a href="about-us.html" className="cmt-btn cmt-btn-size-md cmt-btn-color-skincolor btn-inline btn-underline"> Explore our company</a></div>
+                                        <div className="mt-25 mb-10 text-center text-base-dark">Stop wasting time and money on technology. <Link to="/about" className="cmt-btn cmt-btn-size-md cmt-btn-color-skincolor btn-inline btn-underline"> Explore our company</Link></div>
                                     </div>
                                 </div>
                             </div>
@@ -924,9 +925,9 @@ export default function HomePage2() {
                                         <div className="featured-content">
                                             <div className="ser_category">Our Service</div>
                                             <div className="featured-title">
-                                                <h3><a href="contact-us.html">How we can help</a></h3>
+                                                <h3><Link to="/contact">How we can help</Link></h3>
                                             </div>
-                                            <div className="ser_readmore"><a href="contact-us.html" className="cmt-btn cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor btn-inline">Discover Now<i className="icon-right"></i></a></div>
+                                            <div className="ser_readmore"><Link to="/contact" className="cmt-btn cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor btn-inline">Discover Now<i className="icon-right"></i></Link></div>
                                         </div>
                                     </div><!-- featured-imagebox-services end-->
                                 </div>
@@ -940,9 +941,9 @@ export default function HomePage2() {
                                         <div className="featured-content">
                                             <div className="ser_category">Our expertise</div>
                                             <div className="featured-title">
-                                                <h3><a href="contact-us.html">Why partner with us</a></h3>
+                                                <h3><Link to="/contact">Why partner with us</Link></h3>
                                             </div>
-                                            <div className="ser_readmore"><a href="contact-us.html" className="cmt-btn cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor btn-inline">Discover Now<i className="icon-right"></i></a></div>
+                                            <div className="ser_readmore"><Link to="/contact" className="cmt-btn cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor btn-inline">Discover Now<i className="icon-right"></i></Link></div>
                                         </div>
                                     </div><!-- featured-imagebox-services end-->
                                 </div>
@@ -956,9 +957,9 @@ export default function HomePage2() {
                                         <div className="featured-content">
                                             <div className="ser_category">Our customers</div>
                                             <div className="featured-title">
-                                                <h3><a href="contact-us.html">Client success stories</a></h3>
+                                                <h3><Link to="/contact">Client success stories</Link></h3>
                                             </div>
-                                            <div className="ser_readmore"><a href="contact-us.html" className="cmt-btn cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor btn-inline">Discover Now<i className="icon-right"></i></a></div>
+                                            <div className="ser_readmore"><Link to="/contact" className="cmt-btn cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor btn-inline">Discover Now<i className="icon-right"></i></Link></div>
                                         </div>
                                     </div><!-- featured-imagebox-services end-->
                                 </div>
@@ -1057,7 +1058,7 @@ export default function HomePage2() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <a className="cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark mt-50 res-991-mt-30" href="project-style-01.html"><i className="icon-right"></i><span>see more plans</span></a>
+                                        <Link className="cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark mt-50 res-991-mt-30" to="/project"><i className="icon-right"></i><span>see more plans</span></Link>
                                     </div>
                                     <div className="col-lg-4">
                                         <div className="res-991-mt-30 ml_60 res-991-ml-0">
@@ -1094,11 +1095,11 @@ export default function HomePage2() {
                             <div className="widget_social_wrapper social-icons pt-40">
                                 <h3 className="fs-18 mb-25">Social Info</h3>
                                 <ul className="list-inline">
-                                    <li><a href="https://www.facebook.com/cymolthemes.191219" rel="noopener" aria-label="facebook"><i className="icon-facebook"></i></a></li>
-                                    <li><a href="https://twitter.com/CymolThemes" rel="noopener" aria-label="twitter"><i className="icon-twitter"></i></a></li>
-                                    <li><a href="https://www.behance.net/cymolthemes191219" rel="noopener" aria-label="linkedin"><i className="icon-linkedin"></i></a></li>
-                                    <li><a href="https://in.pinterest.com/cymolthemes/" rel="noopener" aria-label="pinterest"><i className="icon-pinterest"></i></a></li>
-                                    <li><a href="https://dribbble.com/cymol_themes" rel="noopener" aria-label="dribbble"><i className="icon-dribbble"></i></a></li>
+                                    <li><Link to="https://www.facebook.com/cymolthemes.191219" rel="noopener" aria-label="facebook"><i className="icon-facebook"></i></Link></li>
+                                    <li><Link to="https://twitter.com/CymolThemes" rel="noopener" aria-label="twitter"><i className="icon-twitter"></i></Link></li>
+                                    <li><Link to="https://www.behance.net/cymolthemes191219" rel="noopener" aria-label="linkedin"><i className="icon-linkedin"></i></Link></li>
+                                    <li><Link to="https://in.pinterest.com/cymolthemes/" rel="noopener" aria-label="pinterest"><i className="icon-pinterest"></i></Link></li>
+                                    <li><Link to="https://dribbble.com/cymol_themes" rel="noopener" aria-label="dribbble"><i className="icon-dribbble"></i></Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -1107,7 +1108,7 @@ export default function HomePage2() {
                         <div className="widget widget_cta clearfix">
                             <h4>+0022 6544 9977</h4>
                             <ul className="widget_contact_wrapper">
-                                <li><i className="flaticon-envelope"></i><a href="mailto:info@example.com.com">support@cymolthemes.com</a>24 x 7 Online Support</li>
+                                <li><i className="flaticon-envelope"></i><Link to="mailto:info@example.com.com">support@cymolthemes.com</Link>24 x 7 Online Support</li>
                                 <li><i className="flaticon-pin"></i>8477 Paris Hill St. Falls Church, VA 22041</li>
                             </ul>
                             <div className="g-map">
@@ -1133,19 +1134,19 @@ export default function HomePage2() {
                             <div className="widget_nav_menu clearfix">
                                <h3 className="widget-title">Quick links</h3>
                                <ul className="menu-footer-quick-links links-1">
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Meet Our Team</a></li>
-                                    <li><a href="#">News & Media</a></li>
-                                    <li><a href="#">Case Studies</a></li>
+                                    <li><Link to="#">About Us</Link></li>
+                                    <li><Link to="#">Meet Our Team</Link></li>
+                                    <li><Link to="#">News & Media</Link></li>
+                                    <li><Link to="#">Case Studies</Link></li>
                                 </ul>
                             </div>
                             <div className="widget_nav_menu clearfix">
                                <h3 className="widget-title">Solutions</h3>
                                <ul className="menu-footer-quick-links links-2">
-                                    <li><a href="#">IT Management</a></li>
-                                    <li><a href="#">Cyber Security</a></li>
-                                    <li><a href="#">Software Dev</a></li>
-                                    <li><a href="#">Backup & Recovery</a></li>
+                                    <li><Link to="#">IT Management</Link></li>
+                                    <li><Link to="#">Cyber Security</Link></li>
+                                    <li><Link to="#">Software Dev</Link></li>
+                                    <li><Link to="#">Backup & Recovery</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -1157,7 +1158,7 @@ export default function HomePage2() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
-                        <span className="cpy-text">Copyright © 2022 DevfoxTemplates. Designed and Developed by<span className="text-base-skin u1"><a href="https://www.cymolthemes.com/"> Cymolthemes </a></span>only on <span className="text-green u1"><a href="https://themeforest.net/user/cymolthemes">Envato Market.</a></span></span>
+                        <span className="cpy-text">Copyright © 2022 DevfoxTemplates. Designed and Developed by<span className="text-base-skin u1"><Link to="https://www.cymolthemes.com/"> Cymolthemes </Link></span>only on <span className="text-green u1"><Link to="https://themeforest.net/user/cymolthemes">Envato Market.</Link></span></span>
                     </div>
                 </div>
             </div>
@@ -1166,9 +1167,9 @@ export default function HomePage2() {
     <!--footer end-->
 
 <!--back-to-top start-->
-<a id="totop" href="#top">
+<Link id="totop" to="#top">
     <i className="icon-angle-up"></i>
-</a>
+</Link>
 <!--back-to-top end-->
 
 </div>

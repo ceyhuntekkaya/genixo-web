@@ -13,7 +13,7 @@ export default function SiteHeaderMenu() {
                                 {/* <!-- site-branding --> */}
                                 <div className="site-branding me-auto">
                                     <Link className="home-link" to="/" title="Devfox" rel="home">
-                                        <img id="logo-img" height="48" width="147" className="img-fluid auto_size" src="images/logo-img.svg" alt="logo-img" />
+                                        <img id="logo-img" height="60" width="300" className="img-fluid auto_size" src="images/logo.jpg" alt="logo-img" />
                                     </Link>
                                 </div>{/* <!-- site-branding end --> */}
                                 <div className="btn-show-menu-mobile menubar menubar--squeeze">

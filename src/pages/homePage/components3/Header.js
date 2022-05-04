@@ -11,7 +11,7 @@ export default function Header() {
                                 <div className="site-navigation d-flex align-items-center justify-content-between">
                                     <div className="site-branding me-auto">
                                         <Link className="home-link" to="/" title="Devfox" rel="home">
-                                            <img id="logo-img" height="48" width="147" className="img-fluid auto_size" src="images/logo-img.svg" alt="logo-img"/>
+                                            <img id="logo-img" height="90" width="300" className="img-fluid auto_size" src="images/logo.jpg" alt="logo-img"/>
                                         </Link>
                                     </div> 
                                     <div className="btn-show-menu-mobile menubar menubar--squeeze">

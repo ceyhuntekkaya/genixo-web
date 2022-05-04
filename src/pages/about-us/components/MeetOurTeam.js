@@ -29,7 +29,7 @@ export default function MeetOurTeam() {
 
                                 <div className="featured-imagebox featured-imagebox-team style1">
                                     <div className="featured-thumbnail">
-                                        <img width="370" height="346" className="img-fluid" src={member.photo} alt="image" />
+                                        <img width="370" height="346" className="img-fluid" src={member.photo} alt="genixo" />
                                     </div>
                                     <div className="featured-content">
                                         <div className="team-position">{member.position}</div>

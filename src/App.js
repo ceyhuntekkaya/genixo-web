@@ -27,7 +27,8 @@ import Blog from './pages/blog/Blog';
 import BlogGrid from './pages/blog/BlogGrid';
 import BlogSingle from './pages/blog/BlogSingle';
 import ContactUs from './pages/contact-us/ContactUs';
-
+import HomePage2 from './pages/homePage/HomePage2';
+import HomePage3 from './pages/homePage/HomePage3';
 
 function App() {
   return (
@@ -53,6 +54,8 @@ function App() {
         <Route exact path="/team" element={<OurTeam />} />
         <Route exact path="/teammember" element={<TeamMember />} />
         <Route exact path="/error" element={<Error />} />
+        <Route exact path="/h2" element={<HomePage2 />} />
+        <Route exact path="/h3" element={<HomePage3 />} />
         <Route exact path="/" element={<HomePage />} />
       </Routes>
     </BrowserRouter>

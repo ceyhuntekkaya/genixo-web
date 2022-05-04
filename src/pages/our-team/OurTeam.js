@@ -44,7 +44,7 @@ export default function OurTeam() {
                                         <div className="col-lg-4 col-md-6 col-sm-6">
                                             <div className="featured-imagebox featured-imagebox-team style1">
                                                 <div className="featured-thumbnail">
-                                                    <img width="535" height="500" className="img-fluid" src={member.photo} alt="image" />
+                                                    <img width="535" height="500" className="img-fluid" src={member.photo} alt="genixo" />
                                                 </div>
                                                 <div className="featured-content">
                                                     <div className="team-position">{member.position}</div>

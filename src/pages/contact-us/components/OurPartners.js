@@ -12,7 +12,7 @@ export default function OurPartners() {
                                 <div className="cmt-client-logo-tooltip">
                                     <div className="cmt-client-logo-tooltip-inner">
                                         <div className="client-thumbnail">
-                                            <img width="152" height="60" className="img-fluid" src="images/client/client-01.png" alt="image" />
+                                            <img width="152" height="60" className="img-fluid" src="images/client/client-01.png" alt="genixo" />
                                         </div>
                                     </div>
                                 </div>
@@ -21,7 +21,7 @@ export default function OurPartners() {
                                 <div className="cmt-client-logo-tooltip">
                                     <div className="cmt-client-logo-tooltip-inner">
                                         <div className="client-thumbnail">
-                                            <img width="128" height="60" className="img-fluid" src="images/client/client-02.png" alt="image" />
+                                            <img width="128" height="60" className="img-fluid" src="images/client/client-02.png" alt="genixo" />
                                         </div>
                                     </div>
                                 </div>
@@ -30,7 +30,7 @@ export default function OurPartners() {
                                 <div className="cmt-client-logo-tooltip">
                                     <div className="cmt-client-logo-tooltip-inner">
                                         <div className="client-thumbnail">
-                                            <img width="142" height="60" className="img-fluid" src="images/client/client-03.png" alt="image" />
+                                            <img width="142" height="60" className="img-fluid" src="images/client/client-03.png" alt="genixo" />
                                         </div>
                                     </div>
                                 </div>
@@ -39,7 +39,7 @@ export default function OurPartners() {
                                 <div className="cmt-client-logo-tooltip">
                                     <div className="cmt-client-logo-tooltip-inner">
                                         <div className="client-thumbnail">
-                                            <img width="182" height="61" className="img-fluid" src="images/client/client-04.png" alt="image" />
+                                            <img width="182" height="61" className="img-fluid" src="images/client/client-04.png" alt="genixo" />
                                         </div>
                                     </div>
                                 </div>
@@ -48,7 +48,7 @@ export default function OurPartners() {
                                 <div className="cmt-client-logo-tooltip">
                                     <div className="cmt-client-logo-tooltip-inner">
                                         <div className="client-thumbnail">
-                                            <img width="152" height="60" className="img-fluid" src="images/client/client-01.png" alt="image" />
+                                            <img width="152" height="60" className="img-fluid" src="images/client/client-01.png" alt="genixo" />
                                         </div>
                                     </div>
                                 </div>
@@ -57,7 +57,7 @@ export default function OurPartners() {
                                 <div className="cmt-client-logo-tooltip">
                                     <div className="cmt-client-logo-tooltip-inner">
                                         <div className="client-thumbnail">
-                                            <img width="128" height="60" className="img-fluid" src="images/client/client-02.png" alt="image" />
+                                            <img width="128" height="60" className="img-fluid" src="images/client/client-02.png" alt="genixo" />
                                         </div>
                                     </div>
                                 </div>

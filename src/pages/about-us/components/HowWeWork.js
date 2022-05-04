@@ -42,7 +42,7 @@ export default function HowWeWork() {
                                     <div className="featured-imagebox featured-imagebox-procedure">
                                         <span className="number"></span>
                                         <div className="featured-thumbnail">
-                                            <img className="img-fluid auto_size" width="185" height="185" src="images/process-01.jpg" alt="image" />
+                                            <img className="img-fluid auto_size" width="185" height="185" src="images/process-01.jpg" alt="genixo" />
                                         </div>
                                         <div className="featured-content">
                                             <div className="featured-title">
@@ -59,7 +59,7 @@ export default function HowWeWork() {
                                     <div className="featured-imagebox featured-imagebox-procedure">
                                         <span className="number"></span>
                                         <div className="featured-thumbnail">
-                                            <img className="img-fluid auto_size" width="185" height="185" src="images/process-02.jpg" alt="image" />
+                                            <img className="img-fluid auto_size" width="185" height="185" src="images/process-02.jpg" alt="genixo" />
                                         </div>
                                         <div className="featured-content">
                                             <div className="featured-title">
@@ -76,7 +76,7 @@ export default function HowWeWork() {
                                     <div className="featured-imagebox featured-imagebox-procedure">
                                         <span className="number"></span>
                                         <div className="featured-thumbnail">
-                                            <img className="img-fluid auto_size" width="185" height="185" src="images/process-03.jpg" alt="image" />
+                                            <img className="img-fluid auto_size" width="185" height="185" src="images/process-03.jpg" alt="genixo" />
                                         </div>
                                         <div className="featured-content">
                                             <div className="featured-title">

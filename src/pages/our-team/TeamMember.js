@@ -30,7 +30,7 @@ export default function TeamMember() {
                                                             {/* <!-- cmt-featured-wrapper --> */}
                                                             <div className="cmt-featured-wrapper">
                                                                 <div className="featured-thumbnail mt_100 ml_100 res-991-mt-0 res-991-ml-0">
-                                                                    <img width="535" height="500" className="img-fluid" src="images/team-member/team-img01.jpg" alt="image" />
+                                                                    <img width="535" height="500" className="img-fluid" src="images/team-member/team-img01.jpg" alt="genixo" />
                                                                 </div>
                                                             </div>
                                                             {/* <!-- cmt-featured-wrapper end--> */}

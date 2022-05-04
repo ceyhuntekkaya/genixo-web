@@ -10,7 +10,7 @@ export default function Footer() {
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 widget-area">
                 <div className="widget widget_text clearfix">
                   <div className="footer-logo">
-                    <img id="footer-logo-img" className="img-fluid auto_size" height="42" width="132" src="images/footer-logo.svg" alt="image" />
+                    <img id="footer-logo-img" className="img-fluid auto_size" height="42" width="132" src="images/footer-logo.svg" alt="genixo" />
                   </div>
                   <div className="textwidget widget-text">
                     <p>An excellent service management in the area of IT providing solutions. High level efficient solution to businesses growth</p>

@@ -42,7 +42,7 @@ export default function MeetOurTeamSection() {
                                 <div className="cmt-box-col-wrapper col-lg-3">
                                     <div className="featured-imagebox featured-imagebox-team style1">
                                         <div className="featured-thumbnail">
-                                            <img className="img-fluid" width="535" height="500"src={member.photo} alt="image" />
+                                            <img className="img-fluid" width="535" height="500"src={member.photo} alt="genixo" />
                                         </div>
                                         <div className="featured-content">
                                         <div className="team-position">{member.position}</div>

@@ -32,7 +32,7 @@ export default function HowCanHelpYouSection() {
               <div className="featured-imagebox featured-imagebox-services style1">
                 {/* <!-- featured-thumbnail --> */}
                 <div className="featured-thumbnail">
-                  <Link to="/consultancy"><img className="img-fluid auto_size" src="images/services/services-01.jpg" alt="image" width="740" height="500" /></Link>
+                  <Link to="/consultancy"><img className="img-fluid auto_size" src="images/services/services-01.jpg" alt="genixo" width="740" height="500" /></Link>
                 </div>{/* <!-- featured-thumbnail end--> */}
                 <div className="featured-content">
                   <div className="ser_category">Our Service</div>
@@ -49,7 +49,7 @@ export default function HowCanHelpYouSection() {
               <div className="featured-imagebox featured-imagebox-services style1">
                 {/* <!-- featured-thumbnail --> */}
                 <div className="featured-thumbnail">
-                  <Link to="/experience"><img className="img-fluid auto_size" src="images/services/services-02.jpg" alt="image" width="740" height="500" /></Link>
+                  <Link to="/experience"><img className="img-fluid auto_size" src="images/services/services-02.jpg" alt="genixo" width="740" height="500" /></Link>
                 </div>{/* <!-- featured-thumbnail end--> */}
                 <div className="featured-content">
                   <div className="ser_category">Our expertise</div>
@@ -66,7 +66,7 @@ export default function HowCanHelpYouSection() {
               <div className="featured-imagebox featured-imagebox-services style1">
                 {/* <!-- featured-thumbnail --> */}
                 <div className="featured-thumbnail">
-                  <Link to="/digital"><img className="img-fluid auto_size" src="images/services/services-03.jpg" alt="image" width="740" height="500" /></Link>
+                  <Link to="/digital"><img className="img-fluid auto_size" src="images/services/services-03.jpg" alt="genixo" width="740" height="500" /></Link>
                 </div>{/* <!-- featured-thumbnail end--> */}
                 <div className="featured-content">
                   <div className="ser_category">Our customers</div>

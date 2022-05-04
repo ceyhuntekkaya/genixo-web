@@ -39,7 +39,7 @@ export default function MeetOurTeamSection() {
                         {
                             teamData.map((member, key) =>
 
-                                <div className="cmt-box-col-wrapper col-lg-3">
+                                <div key={key} className="cmt-box-col-wrapper col-lg-3">
                                     <div className="featured-imagebox featured-imagebox-team style1">
                                         <div className="featured-thumbnail">
                                             <img className="img-fluid" width="535" height="500"src={member.photo} alt="genixo" />

@@ -25,7 +25,7 @@ export default function MeetOurTeam() {
 
                     {
                         teamData.map((member, key) =>
-                            <div className="cmt-box-col-wrapper col-lg-3">
+                            <div key={key} className="cmt-box-col-wrapper col-lg-3">
 
                                 <div className="featured-imagebox featured-imagebox-team style1">
                                     <div className="featured-thumbnail">

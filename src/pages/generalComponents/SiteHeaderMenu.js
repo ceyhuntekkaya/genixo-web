@@ -95,7 +95,7 @@ export default function SiteHeaderMenu() {
                                             <div className="header_search_content_inner">
                                                 <Link to="#" className="close_btn"><i className="icon-cancel-2"></i></Link>
                                                 <form id="searchbox" method="get" action="#">
-                                                    <input className="search_query" type="text" id="search_query_top" name="s" placeholder="Type Your Search..." value="" />
+                                                    <input className="search_query" type="text" id="search_query_top" name="s" placeholder="Type Your Search..." />
                                                     <button type="submit" className="btn close-search"><i className="icon-search-1"></i></button>
                                                 </form>
                                             </div>

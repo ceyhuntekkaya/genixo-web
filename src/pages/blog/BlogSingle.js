@@ -35,7 +35,7 @@ export default function BlogSingle() {
                                         <div className="cmt-blog-single-content">
                                             <div className="cmt-post-entry-header">
                                                 <div className="post-meta">
-                                                    <span className="cmt-meta-line date"><i className="icon-calendar"></i><time className="entry-date published" datetime="2022-01-11T06:51:39+00:00">January 11, 2022</time></span>
+                                                    <span className="cmt-meta-line date"><i className="icon-calendar"></i><time className="entry-date published" dateTime="2022-01-11T06:51:39+00:00">January 11, 2022</time></span>
                                                     <span className="cmt-meta-line category"><i className="icon-folder-open-empty"></i><a href="#"> Advisory Services</a></span>
                                                     <span className="cmt-meta-line comment"><i className="icon-comment-empty"></i><a href="#">0 Comments</a></span>
                                                 </div>

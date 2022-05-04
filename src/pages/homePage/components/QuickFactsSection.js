@@ -27,7 +27,7 @@ export default function QuickFactsSection() {
                   <span className="cmt-meta-line post-date">
                     <i className="icon-calendar"></i>
                     <a href="#" rel="bookmark">
-                      <time className="entry-date published" datetime="2022-01-11T06:51:39+00:00">January 11, 2022</time>
+                      <time className="entry-date published" dateTime="2022-01-11T06:51:39+00:00">January 11, 2022</time>
                     </a>
                   </span>
                 </div>
@@ -43,7 +43,7 @@ export default function QuickFactsSection() {
                   <span className="cmt-meta-line post-date">
                     <i className="icon-calendar"></i>
                     <a href="#" rel="bookmark">
-                      <time className="entry-date published" datetime="2022-01-11T06:50:50+00:00">January 11, 2022</time>
+                      <time className="entry-date published" dateTime="2022-01-11T06:50:50+00:00">January 11, 2022</time>
                     </a>
                   </span>
                 </div>
@@ -69,7 +69,7 @@ export default function QuickFactsSection() {
                   {/* <!-- post-meta --> */}
                   <div className="post-meta">
                     <span className="cmt-meta-line post-date">
-                      <i className="icon-calendar"></i><a href="#" rel="bookmark"><time className="entry-date published" datetime="2022-01-11T06:46:46+00:00">January 11, 2022</time></a></span>
+                      <i className="icon-calendar"></i><a href="#" rel="bookmark"><time className="entry-date published" dateTime="2022-01-11T06:46:46+00:00">January 11, 2022</time></a></span>
                   </div>{/* <!-- post-meta end --> */}
                   <div className="post-title featured-title">
                     <h3><a href="/blogsingle">What are insider attacks and how to prevent them</a></h3>

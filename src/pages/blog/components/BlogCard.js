@@ -13,7 +13,7 @@ export default function BlogCard() {
                         <div className="post-header">
 
                             <div className="post-meta">
-                                <span className="cmt-meta-line date-link"><i className="icon-calendar"></i><time className="entry-date published" datetime="2022-01-11T06:51:39+00:00">January 4, 2022</time></span>
+                                <span className="cmt-meta-line date-link"><i className="icon-calendar"></i><time className="entry-date published" dateTime="2022-01-11T06:51:39+00:00">January 4, 2022</time></span>
                             </div>
                             <div className="post-title featured-title">
                                 <h3><Link to="/blogsingle">Demanding photographer has a characteristics</Link></h3>

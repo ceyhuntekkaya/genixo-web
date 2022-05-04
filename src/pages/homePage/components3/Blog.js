@@ -32,7 +32,7 @@ export default function Blog() {
                                     <span className="cmt-meta-line post-date">
                                         <i className="icon-calendar"></i>
                                         <Link to="#" rel="bookmark">
-                                            <time className="entry-date published" datetime="2022-01-11T06:51:39+00:00">On May  4,2021</time>
+                                            <time className="entry-date published" dateTime="2022-01-11T06:51:39+00:00">On May  4,2021</time>
                                         </Link>
                                     </span>
                                 </div>
@@ -60,7 +60,7 @@ export default function Blog() {
                                     <span className="cmt-meta-line post-date">
                                         <i className="icon-calendar"></i>
                                         <Link to="#" rel="bookmark">
-                                            <time className="entry-date published" datetime="2022-01-11T06:51:39+00:00">On May  14,2021</time>
+                                            <time className="entry-date published" dateTime="2022-01-11T06:51:39+00:00">On May  14,2021</time>
                                         </Link>
                                     </span>
                                 </div>
@@ -83,7 +83,7 @@ export default function Blog() {
                                 <span className="cmt-meta-line post-date">
                                     <i className="icon-calendar"></i>
                                     <Link to="#" rel="bookmark">
-                                        <time className="entry-date published" datetime="2022-01-11T06:51:39+00:00">On May  8,2021</time>
+                                        <time className="entry-date published" dateTime="2022-01-11T06:51:39+00:00">On May  8,2021</time>
                                     </Link>
                                 </span>
                             </div>
@@ -98,7 +98,7 @@ export default function Blog() {
                                 <span className="cmt-meta-line post-date">
                                     <i className="icon-calendar"></i>
                                     <Link to="#" rel="bookmark">
-                                        <time className="entry-date published" datetime="2022-01-11T06:51:39+00:00">On May  10,2021</time>
+                                        <time className="entry-date published" dateTime="2022-01-11T06:51:39+00:00">On May  10,2021</time>
                                     </Link>
                                 </span>
                             </div>

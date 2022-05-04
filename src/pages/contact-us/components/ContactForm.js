@@ -23,8 +23,8 @@ export default function ContactForm() {
                                     </div>
                                 </div>
                                 <div className="g-map mt-30" id="map">
-                                    <iframe src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near" title="London Eye, London, United Kingdom" aria-label="London Eye, London, United Kingdom"></iframe>
-                                </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3062.20077570631!2d32.7428523154908!3d39.86974039664744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d347acc4350fa9%3A0x22720cefb175c933!2sBilkent%20CYBERPARK!5e0!3m2!1sen!2str!4v1651653748302!5m2!1sen!2str"  loading="lazy"></iframe>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -40,22 +40,22 @@ export default function ContactForm() {
                                 <div className="row">
                                     <div className="col-md-6">
                                         <label>
-                                            <span className="text-input"><input name="name" type="text" value="" placeholder="First Name" required="required" /></span>
+                                            <span className="text-input"><input name="name" type="text"  placeholder="First Name" required="required" /></span>
                                         </label>
                                     </div>
                                     <div className="col-md-6">
                                         <label>
-                                            <span className="text-input"><input name="name" type="text" value="" placeholder="Last Name" required="required" /></span>
+                                            <span className="text-input"><input name="name" type="text"  placeholder="Last Name" required="required" /></span>
                                         </label>
                                     </div>
                                     <div className="col-md-6">
                                         <label>
-                                            <span className="text-input"><input name="email" type="text" value="" placeholder="Email Address" required="required" /></span>
+                                            <span className="text-input"><input name="email" type="text" placeholder="Email Address" required="required" /></span>
                                         </label>
                                     </div>
                                     <div className="col-md-6">
                                         <label>
-                                            <span className="text-input"><input name="phone" type="text" value="" placeholder="Phone" required="required" /></span>
+                                            <span className="text-input"><input name="phone" type="text"  placeholder="Phone" required="required" /></span>
                                         </label>
                                     </div>
                                     <div className="col-md-12">

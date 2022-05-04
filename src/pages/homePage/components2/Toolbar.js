@@ -47,10 +47,10 @@ export default function Toolbar() {
                                 <p className="mb-25">Our Solutions pride on world class customer service.</p>
                                 <form action="#" className="cta_form wrap-form clearfix" method="post">
                                     <label>
-                                        <span className="text-input"><input name="name" type="text" value="" placeholder="Enter your name here..." required="required"/></span>
+                                        <span className="text-input"><input name="name" type="text"  placeholder="Enter your name here..." required="required"/></span>
                                     </label>
                                     <label>
-                                        <span className="text-input"><input name="email" type="text" value="" placeholder="Enter your email address here..." required="required"/></span>
+                                        <span className="text-input"><input name="email" type="text"  placeholder="Enter your email address here..." required="required"/></span>
                                     </label>
                                     <label>
                                         <span className="text-input"><textarea name="message" rows="4" placeholder="Type your message here" required="required"></textarea></span>

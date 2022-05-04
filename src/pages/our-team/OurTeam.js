@@ -41,7 +41,7 @@ export default function OurTeam() {
                             <div className="row mb_15">
                                 {
                                     teamData.map((member, key) =>
-                                        <div className="col-lg-4 col-md-6 col-sm-6">
+                                        <div key={key} className="col-lg-4 col-md-6 col-sm-6">
                                             <div className="featured-imagebox featured-imagebox-team style1">
                                                 <div className="featured-thumbnail">
                                                     <img width="535" height="500" className="img-fluid" src={member.photo} alt="genixo" />

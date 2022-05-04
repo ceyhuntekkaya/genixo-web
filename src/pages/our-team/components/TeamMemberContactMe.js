@@ -9,17 +9,17 @@ export default function TeamMemberContactMe() {
         <div className="row cmt-boxes-spacing-30px">
             <div className="col-sm-6 cmt-box-col-wrapper">
                 <label>
-                    <span className="text-input mb-0"><i className="ti ti-user"></i><input name="your-name" type="text" value="" placeholder="Your Name" required="required"/></span>
+                    <span className="text-input mb-0"><i className="ti ti-user"></i><input name="your-name" type="text"  placeholder="Your Name" required="required"/></span>
                 </label>
             </div>
             <div className="col-sm-6 cmt-box-col-wrapper">
                 <label>
-                    <span className="text-input mb-0"><i className="ti ti-email"></i><input name="email" type="text" value="" placeholder="Your Email" required="required"/></span>
+                    <span className="text-input mb-0"><i className="ti ti-email"></i><input name="email" type="text" placeholder="Your Email" required="required"/></span>
                 </label>
             </div>
             <div className="col-sm-12 cmt-box-col-wrapper">
                 <label>
-                    <span className="text-input mb-0"><i className="ti ti-world"></i><input name="website" type="text" value="" placeholder="Website" required="required"/></span>
+                    <span className="text-input mb-0"><i className="ti ti-world"></i><input name="website" type="text"  placeholder="Website" required="required"/></span>
                 </label>
             </div>
             <div className="col-sm-12 cmt-box-col-wrapper">

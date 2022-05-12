@@ -1,6 +1,10 @@
 import React from 'react'
+const pageData = require("../../data/lang/pages.json")
 
 export default function TopBar() {
+  const lang = "en";
+
+
   return (
       <div className="top_bar bg-base-skin text-base-white clearfix">
       <div className="container">
@@ -9,14 +13,14 @@ export default function TopBar() {
             <div className="top_bar_inner bg-base-dark text-base-white">
               <div className="top_bar_contact_item with-icon">
                 <div className="top_bar_icon"><i className="icon-phone"></i></div>
-                <span>Helpline:</span> +0022 6544 9977
+                <span>{pageData.home.helpLine[lang]}</span> +90 532 207 67 30
               </div>
               <div className="top_bar_contact_item">
-                <a href="mailto:info@example.com.com">support@cymolthemes.com</a>
+                <a href="mailto:support@genixo.net">support@genixo.net</a>
               </div>
               <div className="top_bar_contact_item with-icon ms-auto">
                 <div className="top_bar_icon"><i className="icon-megaphone"></i></div>
-                <span>Now Hiring:</span> Are you a driven and motivated 1st Line IT Support Engineer?
+                <span>{pageData.home.noticeHead[lang]}</span> {pageData.home.noticeText[lang]}
               </div>
             </div>
             <div className="side-menu-container">

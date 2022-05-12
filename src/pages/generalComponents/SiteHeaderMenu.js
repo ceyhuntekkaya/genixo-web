@@ -1,94 +1,64 @@
 import React from 'react'
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+const menuData = require('../../data/lang/menu.json')
+const pageData = require("../../data/lang/pages.json")
 
 export default function SiteHeaderMenu() {
+    const lang = "en";
     return (
         <div id="site-header-menu" className="site-header-menu">
             <div className="site-header-menu-inner cmt-stickable-header">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            {/* <!--site-navigation --> */}
                             <div className="site-navigation d-flex align-items-center justify-content-between">
-                                {/* <!-- site-branding --> */}
                                 <div className="site-branding me-auto">
                                     <Link className="home-link" to="/" title="Devfox" rel="home">
                                         <img id="logo-img" height="60" width="300" className="img-fluid auto_size" src="images/logo.jpg" alt="logo-img" />
                                     </Link>
-                                </div>{/* <!-- site-branding end --> */}
+                                </div>
                                 <div className="btn-show-menu-mobile menubar menubar--squeeze">
                                     <span className="menubar-box">
                                         <span className="menubar-inner"></span>
                                     </span>
                                 </div>
-                                {/* <!-- menu --> */}
                                 <nav className="main-menu menu-mobile" id="menu">
                                     <ul className="menu">
-                                        <li className="mega-menu-item active">
-                                            <Link to="#" className="mega-menu-link">Home</Link>
-                                            <ul className="mega-submenu">
-                                                <li className="active"><Link to="/">Homepage 1</Link></li>
-                                                <li><Link to="/h2">Homepage 2</Link></li>
-                                                <li><Link to="/3">Homepage 3</Link></li>
-                                            </ul>
-                                        </li>
-                                        <li className="mega-menu-item">
-                                            <Link to="#" className="mega-menu-link">Company</Link>
-                                            <ul className="mega-submenu">
+                                        {
+                                            menuData.menu.map(m =>
                                                 <li className="mega-menu-item">
-                                                    <Link to="#" className="mega-menu-link">About Us</Link>
-                                                    <ul className="mega-submenu">
-                                                        <li><Link to="/about">About Us One</Link></li>
-                                                        <li><Link to="/about2">About Us Two</Link></li>
-                                                    </ul>
+                                                    <Link to={m.sub ? "#" : m.link} className="mega-menu-link">{m[lang]}</Link>
+                                                    {
+                                                        m.sub ?
+                                                            <ul className="mega-submenu">
+                                                                {
+                                                                    m.sub.map(sm =>
+                                                                        <li className="mega-menu-item"><Link to={sm.sub ? "#" : sm.link} className="mega-menu-link">{sm[lang]}</Link>
+                                                                            {
+                                                                                sm.sub ?
+                                                                                    <ul className="mega-submenu">
+                                                                                        {
+                                                                                            sm.sub.map(ssm =>
+                                                                                                <li><Link to={ssm.sub ? "#" : ssm.link}>{ssm[lang]}</Link>
+                                                                                                </li>
+                                                                                            )
+                                                                                        }
+                                                                                    </ul>
+                                                                                    : null
+                                                                            }
+                                                                        </li>
+                                                                    )
+                                                                }
+                                                            </ul>
+                                                            : null
+                                                    }
                                                 </li>
-                                                <li className="mega-menu-item">
-                                                    <Link to="#" className="mega-menu-link">Services</Link>
-                                                    <ul className="mega-submenu">
-                                                        <li><Link to="/service">Services One</Link></li>
-                                                        <li><Link to="/service2">Services Two</Link></li>
-                                                    </ul>
-                                                </li>
-                                                <li><Link to="/team">Our Team</Link></li>
-                                                <li><Link to="/teammember">Team Details</Link></li>
-                                                <li><Link to="/faq">FAQ</Link></li>
-                                                <li><Link to="/error">Error Page</Link></li>
-                                            </ul>
-                                        </li>
-                                        <li className="mega-menu-item">
-                                            <Link to="#" className="mega-menu-link">IT Solutions</Link>
-                                            <ul className="mega-submenu">
-                                                <li><Link to="/consultancy">IT Consultancy</Link></li>
-                                                <li><Link to="/experience">Experience Design</Link></li>
-                                                <li><Link to="/digital">Digital Services</Link></li>
-                                                <li><Link to="/data">Data Structuring</Link></li>
-                                                <li><Link to="/advisory">Advisory Services</Link></li>
-                                                <li><Link to="/content">Content Engineering</Link></li>
-                                            </ul>
-                                        </li>
-                                        <li className="mega-menu-item">
-                                            <Link to="#" className="mega-menu-link">Case Study</Link>
-                                            <ul className="mega-submenu">
-                                                <li><Link to="/project">Case Study</Link></li>
-                                                <li><Link to="/portfolio">Case Study Single</Link></li>
-                                            </ul>
-                                        </li>
-                                        <li className="mega-menu-item">
-                                            <Link to="#" className="mega-menu-link">IT Blog</Link>
-                                            <ul className="mega-submenu">
-                                                <li><Link to="/bloglist">Blog Classic</Link></li>
-                                                <li><Link to="/bloggrid">Blog Grid View</Link></li>
-                                                <li><Link to="/blogsingle">Blog Single View</Link></li>
-                                            </ul>
-                                        </li>
-                                        <li className="mega-menu-item">
-                                        <Link to="/contact">Contact us</Link>
-                                        </li>
+                                            )
+                                        }
                                     </ul>
-                                </nav>{/* <!-- menu end --> */}
-                                {/* <!-- header_extra --> */}
+                                </nav> 
                                 <div className="header_extra d-flex flex-row align-items-center">
-                                    <div className="header_btn"><Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor" to="/contact">Need A Help<i className="icon-right"></i></Link></div>
+                                    <div className="header_btn"><Link className="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor" to={pageData.home.needHelp.link}>{pageData.home.needHelp[lang]}<i className="icon-right"></i></Link></div>
                                     <div className="header_search">
                                         <Link to="#" className="btn-default search_btn"><i className="icon-search-1"></i></Link>
                                         <div className="header_search_content">
@@ -101,8 +71,8 @@ export default function SiteHeaderMenu() {
                                             </div>
                                         </div>
                                     </div>
-                                </div>{/* <!-- header_extra end --> */}
-                            </div>{/* <!-- site-navigation end--> */}
+                                </div> 
+                            </div>
                         </div>
                     </div>
                 </div>

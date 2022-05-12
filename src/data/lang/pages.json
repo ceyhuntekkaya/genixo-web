@@ -1,0 +1,23 @@
+{
+    "home": {
+        "needHelp": {
+            "tr": "Yardım Edin",
+            "en": "Need A Help",
+            "link": "/contact"
+        },
+        "helpLine": {
+            "tr": "Telefon",
+            "en": "Helpline:"
+        },
+        "noticeHead": {
+            "tr": "IK Başvuru ",
+            "en": "Now Hiring:",
+            "link": "/contact"
+        },
+        "noticeText": {
+            "tr": "İş mi arıyorsun egl.",
+            "en": "Are you a driven and motivated 1st Line IT Support Engineer?",
+            "link": "/ik"
+        }
+    }
+}

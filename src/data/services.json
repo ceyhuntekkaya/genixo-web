@@ -1,0 +1,237 @@
+{
+    "web": {
+        "header": "webApplicationHeader",
+        "description": "webApplicationDescription",
+        "services": [
+            {
+                "name": "app",
+                "description": "appDescription"
+            },
+            {
+                "name": "cloud",
+                "description": "cloudDescription"
+            },
+            {
+                "name": "optimization",
+                "description": "optimizationDescription"
+            }
+        ],
+        "technologies": {
+            "header": "technologiesHeader"
+        }
+    },
+    "cloud": {
+        "header": "cloudApplicationHeader",
+        "description": "cloudApplicationDescription",
+        "services": [
+            {
+                "name": "native",
+                "description": "nativeDescription"
+            },
+            {
+                "name": "migration",
+                "description": "migrationDescription"
+            },
+            {
+                "name": "re-architecting",
+                "description": "re-architectingDescription"
+            },
+            {
+                "name": "consulting",
+                "description": "consultingDescription"
+            }
+        ]
+    },
+    "custom": {
+        "title": "customApplicationTitle",
+        "header": "customApplicationHeader",
+        "description": "customApplicationDescription",
+        "services": [
+            {
+                "name": "product",
+                "description": "productDescription"
+            },
+            {
+                "name": "enterprise",
+                "description": "enterpriseDescription"
+            },
+            {
+                "name": "enhancement",
+                "description": "enhancementDescription"
+            }
+        ]
+    },
+    "data": {
+        "title": "dataApplicationTitle",
+        "header": "dataApplicationHeader",
+        "description": "dataApplicationDescription",
+        "services": [
+            {
+                "name": "data1",
+                "description": "data1Description"
+            },
+            {
+                "name": "data2",
+                "description": "data2Description"
+            },
+            {
+                "name": "data3",
+                "description": "data3Description"
+            },
+            {
+                "name": "data4",
+                "description": "data4Description"
+            },
+            {
+                "name": "data5",
+                "description": "data5Description"
+            }
+        ],
+        "techniques": [
+            {
+                "name": "classification",
+                "description": "classificationDescription"
+            },
+            {
+                "name": "regression",
+                "description": "regressionDescription"
+            },
+            {
+                "name": "clustering",
+                "description": "clusteringDescription"
+            }
+        ],
+        "techniquesDescription": "techniquesDescription",
+        "techniqueusedDescription": "techniqueusedDescription",
+        "techniqueused": [
+            {
+                "name": "tu1",
+                "description": "tu1Description"
+            },
+            {
+                "name": "tu2",
+                "description": "tu2Description"
+            },
+            {
+                "name": "tu3",
+                "description": "tu3Description"
+            },
+            {
+                "name": "tu4",
+                "description": "tu4Description"
+            },
+            {
+                "name": "tu5",
+                "description": "tu5Description"
+            },
+            {
+                "name": "tu6",
+                "description": "tu6Description"
+            }
+        ]
+    },
+    "devops": {
+        "title": "devopsApplicationTitle",
+        "header": "devopsApplicationHeader",
+        "description": "devopslicationDescription",
+        "services": [
+            {
+                "name": "market",
+                "description": "marketDescription"
+            },
+            {
+                "name": "hypotheses",
+                "description": "hypothesesDescription"
+            },
+            {
+                "name": "testability",
+                "description": "testabilityDescription"
+            },
+            {
+                "name": "integration",
+                "description": "integrationDescription"
+            }
+        ]
+    },
+    "mobile": {
+        "title": "mobileApplicationTitle",
+        "header": "mobileApplicationHeader",
+        "description": "mobilelicationDescription",
+        "services": [
+            {
+                "name": "ios",
+                "description": "iosDescription",
+                "image": "images/img-21.png"
+            },
+            {
+                "name": "adnroid",
+                "description": "adnroidDescription",
+                "image": "images/img-22.png"
+            },
+            {
+                "name": "cross",
+                "description": "crossDescription",
+                "image": "images/img-23.png"
+            }
+        ]
+    },
+    "solution": {
+        "title": "solutionApplicationTitle",
+        "header": "solutionApplicationHeader",
+        "description": "solutionlicationDescription",
+        "descriptionGreen": "solutionlicationDescriptionGreen",
+        "services": [
+            {
+                "name": "business",
+                "description": "businessDescription"
+            },
+            {
+                "name": "application",
+                "description": "applicationDescription"
+            }
+        ]
+    },
+    "support": {
+        "title": "supportTitle",
+        "header": "supportHeader",
+        "description": "supportDescription",
+        "services": [
+            {
+                "name": "proactive",
+                "description": "proactiveDescription",
+                "icon": "flaticon-double-click",
+                "image": "images/ico-bkg.png"
+            },
+            {
+                "name": "groundUp",
+                "description": "groundUpDescription",
+                "icon": "flaticon-puzzle",
+                "image": "images/ico-bkg.png"
+            },
+            {
+                "name": "scalability",
+                "description": "scalabilityDescription",
+                "icon": "flaticon-server-1",
+                "image": "images/ico-bkg.png"
+            },
+            {
+                "name": "availability",
+                "description": "availabilityDescription",
+                "icon": "flaticon-folder-3",
+                "image": "images/ico-bkg.png"
+            },
+            {
+                "name": "security",
+                "description": "securityDescription",
+                "icon": "flaticon-share",
+                "image": "images/ico-bkg.png"
+            },
+            {
+                "name": "efficiency",
+                "description": "efficiencyDescription",
+                "icon": "flaticon-shield",
+                "image": "images/ico-bkg.png"
+            }
+        ]
+    }
+}

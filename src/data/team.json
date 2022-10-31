@@ -1,56 +1,52 @@
-[
-    {
-        "position": "IT Service Officer",
-        "name": "Garreth Mills",
-        "photo": "images/team-member/team-img01.jpg",
-        "facebook": "https://www.facebook.com/",
-        "twitter": "https://twitter.com",
-        "pinterest": "https://in.pinterest.com",
-        "instagram": "https://www.instagram.com"
-    },
-    {
-        "position": "Web Designer",
-        "name": "Ivan Hindshaw",
-        "photo": "images/team-member/team-img02.jpg",
-        "facebook": "https://www.facebook.com/",
-        "twitter": "https://twitter.com",
-        "pinterest": "https://in.pinterest.com",
-        "instagram": "https://www.instagram.com"
-    },
-    {
-        "position": "Project Manager",
-        "name": "Natalia Zox",
-        "photo": "images/team-member/team-img03.jpg",
-        "facebook": "https://www.facebook.com/",
-        "twitter": "https://twitter.com",
-        "pinterest": "https://in.pinterest.com",
-        "instagram": "https://www.instagram.com"
-    },
-    {
-        "position": "Consultant Officer",
-        "name": "Maria Gordian",
-        "photo": "images/team-member/team-img04.jpg",
-        "facebook": "https://www.facebook.com/",
-        "twitter": "https://twitter.com",
-        "pinterest": "https://in.pinterest.com",
-        "instagram": "https://www.instagram.com"
-    },
-    {
-        "position": "Product Analyst",
-        "name": "Anna Konikova",
-        "photo": "images/team-member/team-img05.jpg",
-        "facebook": "https://www.facebook.com/",
-        "twitter": "https://twitter.com",
-        "pinterest": "https://in.pinterest.com",
-        "instagram": "https://www.instagram.com"
-    },
-    {
-        "position": "IT Associative",
-        "name": "Sarah Rose",
-        "photo": "images/team-member/team-img06.jpg",
-        "facebook": "https://www.facebook.com/",
-        "twitter": "https://twitter.com",
-        "pinterest": "https://in.pinterest.com",
-        "instagram": "https://www.instagram.com"
-    }
-]
+{
+    "teams": [
+        {
+            "photo": "images/team-1.jpg",
+            "name": "Ceyhun Tekkaya",
+            "mission": "Co-Founder",
+            "social": "@genixo"
+        },
+        {
+            "photo": "images/team-2.jpg",
+            "name": "Serkan İslamoğlu",
+            "mission": "Co-Founder",
+            "social": "@genixo"
+        },
+        {
+            "photo": "images/team-3.jpg",
+            "name": "Atabey Erkök",
+            "mission": "Co-Founder",
+            "social": "@genixo"
+        },
+        {
+            "photo": "images/team-4.jpg",
+            "name": "Beyhan Us",
+            "mission": "Developer",
+            "social": "@genixo"
+        },
+        {
+            "photo": "images/team-5.jpg",
+            "name": "Steve Jobs",
+            "mission": "Developer",
+            "social": "@genixo"
+        },
+        {
+            "photo": "images/team-6.jpg",
+            "name": "Frederic Osman",
+            "mission": "Developer",
+            "social": "@genixo"
+        },
+        {
+            "photo": "images/team-7.jpg",
+            "name": "Madonna",
+            "mission": "Singer",
+            "social": "@genixo"
+        },
+        {
+            "photo": "images/team-8.jpg",
+            "name": "Michael Jackson",
+            "mission": "Old Man",
+            "social": "@genixo"
+        }
+    ]
+}

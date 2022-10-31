@@ -1,0 +1,35 @@
+{
+    "welcome": {
+        "title": "Welcome to {{framework}}"
+    },
+    "banner":{
+        "title": "Looking for a development partner?",
+        "explanation": "To build successful software you need a development team who understands your business needs. Our experts will identify a custom solution to fit your idea, timeline, and budget, then design and build the application and help you test it with real users. As a result, you will gain a modern digital product loved by users that benefits your business.",
+        "image": "images/tablet-01.png",
+        "button":"Contact Us"
+    },
+    "content2":{
+        "title": "Digital Strategy",
+        "explanation": "If you decide to work on your next app with the help of an external software development company, then your success or failure depends on finding the right partner. With this in mind, and based on our own many and varied experiences at Genixo, this article outlines the key criteria – what to look for and what to avoid – for selecting your software development company: a future partner that will help you to build great software and solve your business challenges. But how to find such a trustworthy, reliable and efficient collaborator?",
+        "image": "images/img-15.png",
+        "text":"How to choose a software development company?"
+    },
+    "menu":{
+        "Home":"ana Sayfa",
+        "Services":"Hizmetler",
+        "WebApplication":"Web Uygulamaları",
+        "SolutionArchitecture":"Solution Architecture",
+        "CustomSoftwareDevelopment":"Custom Software Development",
+        "DevOpsServices":"DevOps Services",
+        "CloudDevelopment":"Cloud Development",
+        "MobileDevelopment":"Mobile Development",
+        "SupportServices":"Support Services",
+        "DataScience":"Data Science",
+        "References":"References",
+        "ContactUs":"Contact Us"
+        
+    },
+    "content7":{
+        "title":""
+    }
+}

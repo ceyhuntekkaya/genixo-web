@@ -1,0 +1,251 @@
+[
+    {
+        "menu": "Home",
+        "colSize": "4",
+        "sub": [
+            {
+                "menu": "App Landing",
+                "link": "/page1"
+            },
+            {
+                "menu": "App Showcase 1",
+                "link": "/page2"
+            },
+            {
+                "menu": "Startup Agency",
+                "link": "/page3"
+            },
+            {
+                "menu": "Design Agency",
+                "link": "/page4"
+            },
+            {
+                "menu": "Software 1",
+                "link": "/page5"
+            },
+            {
+                "menu": "SaaS Service 1",
+                "link": "/page6"
+            },
+            {
+                "menu": "Digital Service 1",
+                "link": "/page7"
+            },
+            {
+                "menu": "Social Media Marketing",
+                "link": "/page8"
+            },
+            {
+                "menu": "Digital Agency",
+                "link": "/page9"
+            },
+            {
+                "menu": "SaaS Service 2",
+                "link": "/page10"
+            },
+            {
+                "menu": "Desktop Software 1",
+                "link": "/page11"
+            },
+            {
+                "menu": "Digital Service 2",
+                "link": "/page12"
+            },
+            {
+                "menu": "Software SaaS",
+                "link": "/page13"
+            },
+            {
+                "menu": "App Showcase 2",
+                "link": "/page14"
+            },
+            {
+                "menu": "Software 2",
+                "link": "/page15"
+            },
+            {
+                "menu": "App Showcase 3",
+                "link": "/page16"
+            },
+            {
+                "menu": "Desktop Software 2",
+                "link": "/page17"
+            },
+            {
+                "menu": "SEO Company",
+                "link": "/page18"
+            },
+            {
+                "menu": "Digital Marketing",
+                "link": "/page19"
+            },
+            {
+                "menu": "Cyber Security",
+                "link": "/page20"
+            },
+            {
+                "menu": "SaaS Service 3",
+                "link": "/page21"
+            },
+            {
+                "menu": "Marketing Agency",
+                "link": "/page22"
+            },
+            {
+                "menu": "Branding Agency",
+                "link": "/page23"
+            },
+            {
+                "menu": "RTL Version #1",
+                "link": "/page24"
+            },
+            {
+                "menu": "RTL Version #2",
+                "link": "/page25"
+            },
+            {
+                "menu": "RTL Version #3",
+                "link": "/page26"
+            },
+            {
+                "menu": "404",
+                "link": "/404"
+            }
+        ]
+    },
+    {
+        "menu": "About",
+        "colSize": "1",
+        "sub": [
+            {
+                "menu": "Why OLMO?",
+                "link": "/#content-2"
+            },
+            {
+                "menu": "Best Solutions",
+                "link": "/#content-5"
+            },
+            {
+                "menu": "Integrations",
+                "link": "/#content-3"
+            },
+            {
+                "menu": "How It Works",
+                "link": "/#content-10"
+            },
+            {
+                "menu": "Testimonials",
+                "link": "/#reviews-1"
+            },
+            {
+                "menu": "FAQs",
+                "link": "/#faqs-2"
+            }
+        ]
+    },
+    {
+        "menu": "Pages",
+        "colSize": "2",
+        "sub": [
+            {
+                "menu": "About Us",
+                "link": "/about"
+            },
+            {
+                "menu": "Features & Addons",
+                "link": "/features"
+            },
+            {
+                "menu": "Pricing Packages",
+                "link": "/pricing"
+            },
+            {
+                "menu": "Download Page",
+                "link": "/download"
+            },
+            {
+                "menu": "Our Projects",
+                "link": "/projects"
+            },
+            {
+                "menu": "Project Details",
+                "link": "/project-details"
+            },
+            {
+                "menu": "Meet The Team",
+                "link": "/team"
+            },
+            {
+                "menu": "FAQs Page",
+                "link": "/faqs"
+            },
+            {
+                "menu": "Blog Listing",
+                "link": "/blog-listing"
+            },
+            {
+                "menu": "Single Blog Post",
+                "link": "/single-post"
+            },
+            {
+                "menu": "Terms & Privacy",
+                "link": "/terms"
+            },
+            {
+                "menu": "Contact Us",
+                "link": "/contacts"
+            }
+        ]
+    },
+    {
+        "menu": "Auth Pages",
+        "colSize": "1",
+        "sub": [
+            {
+                "menu": "Login Simple",
+                "link": "/login-simple"
+            },
+            {
+                "menu": "Login Boxed",
+                "link": "/login-boxed"
+            },
+            {
+                "menu": "Login Image",
+                "link": "/login-image"
+            },
+            {
+                "menu": "Signup Simple",
+                "link": "/signup-simple"
+            },
+            {
+                "menu": "Signup Boxed",
+                "link": "/signup-boxed"
+            },
+            {
+                "menu": "Signup Image",
+                "link": "/signup-image"
+            },
+            {
+                "menu": "Reset Pass. #1",
+                "link": "/reset-password-1"
+            },
+            {
+                "menu": "Reset Pass. #2",
+                "link": "/reset-password-2"
+            }
+        ]
+    },
+    {
+        "menu": "Features",
+        "link": "/#features-8"
+    },
+    {
+        "menu": "Pricing",
+        "link": "/pricing"
+    },
+    {
+        "menu": "Get Started",
+        "link": "/#content-4",
+        "css":"btn btn-tra-white orange-red-hover last-link"
+    }
+]

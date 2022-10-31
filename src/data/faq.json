@@ -1,0 +1,34 @@
+[
+    {
+        "faqs": [
+            {
+                "question": "Can I see OLMO in action before purchasing?",
+                "reply": "Etiam amet mauris suscipit in odio integer congue metus vitae arcu mollis blandit ultrice ligula egestas and magna suscipit lectus magna suscipit luctus blandit vitae"
+            },
+            {
+                "question": "What are the requirements for using OLMO?",
+                "reply": "An enim nullam tempor sapien gravida a donec ipsum enim an porta justo integer at velna vitae auctor integer congue undo magna at pretium purus pretium"
+            },
+            {
+                "question": "Can I use OLMO on different devices?",
+                "reply": "Fringilla risus, luctus mauris orci auctor purus ligula euismod pretium purus pretium rutrum tempor sapien Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales sapien undo pretium a purus"
+            }
+        ]
+    },
+    {
+        "faqs": [
+            {
+                "question": "Do you have a free trial?",
+                "reply": "Cubilia laoreet augue egestas and luctus donec curabite diam vitae dapibus libero and quisque gravida donec and neque. Blandit justo aliquam molestie nunc sapien"
+            },
+            {
+                "question": "How does OLMO handle my privacy?",
+                "reply": "Etiam amet mauris suscipit sit amet in odio. Integer congue leo metus. Vitae arcu mollis blandit ultrice ligula. An enim nullam tempor sapien gravida donec congue leo metus. Vitae arcu mollis blandit integer at velna"
+            },
+            {
+                "question": "I have an issue with my account",
+                "reply": "Fringilla risus, luctus mauris orci auctor purus. Quaerat sodales sapien euismod blandit purus and ipsum primis in cubilia laoreet augue luctus"
+            }
+        ]
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "menu": "Home",
+        "colSize": "1",
+        "link": "/"
+    },
+    {
+        "menu": "AboutUs",
+        "link": "/about-us"
+    },
+    {
+        "menu": "Services",
+        "colSize": "1",
+        "sub": [
+            {
+                "menu": "WebApplication",
+                "link": "/services#web-application"
+            },
+            {
+                "menu": "SolutionArchitecture",
+                "link": "/services#solution-architecture"
+            },
+            {
+                "menu": "CustomSoftwareDevelopment",
+                "link": "/services#custom-software-development"
+            },
+            {
+                "menu": "DevOpsServices",
+                "link": "/services#dev-ops"
+            },
+            {
+                "menu": "CloudDevelopment",
+                "link": "/services#cloud-development"
+            },
+            {
+                "menu": "MobileDevelopment",
+                "link": "/services#mobile-app"
+            },
+            {
+                "menu": "SupportServices",
+                "link": "/services#support-services"
+            },
+            {
+                "menu": "DataScience",
+                "link": "/services#data-science"
+            }
+        ]
+    },
+ 
+    {
+        "menu": "Methodology",
+        "link": "/methodology"
+    },
+  
+    {
+        "menu": "ContactUs",
+        "link": "/contact-us",
+        "css":"btn btn-tra-white orange-red-hover last-link"
+    }
+]

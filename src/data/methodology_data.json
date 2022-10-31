@@ -1,0 +1,41 @@
+{
+    "header":"methodology_header",
+    "headerDescription":"methodology_headerDescription",
+    "methodologyList" : [
+        {
+            "image":"images/Methodology_Discovery.jpg",
+            "name":"methodology_discovery",
+            "description":"methodology_discovery_description" 
+        }, 
+        {
+            "image":"images/Methodology_Analysis.jpg",
+            "name":"methodology_analysis",
+            "description":"methodology_analysis_description"
+        }, 
+        {
+            "image":"images/Methodology_Projection.jpg",
+            "name":"methodology_projection",
+            "description":"methodology_projection_description"
+        }, 
+        {
+            "image":"images/Methodology_Construction.jpg",
+            "name":"methodology_construction",
+            "description":"methodology_construction_description"
+        }, 
+        {
+            "image":"images/Methodology_Revision.jpg",
+            "name":"methodology_revision",
+            "description":"methodology_revision_description"
+        }, 
+        {
+            "image":"images/MethodologyImprovement.jpg",
+            "name":"methodology_improvement",
+            "description":"methodology_improvement_description"
+        }, 
+        {
+            "image":"images/MethodologyManagement.jpg",
+            "name":"methodology_management",
+            "description":"methodology_management_description"
+        }
+    ]
+}

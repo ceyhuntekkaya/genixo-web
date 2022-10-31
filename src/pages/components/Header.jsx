@@ -1,0 +1,147 @@
+import React from "react";
+import { useTranslation } from "react-i18next";
+
+const menus = require("../../data/menu.json");
+
+export default function Header(props) {
+  const { t, i18n } = useTranslation("common");
+  const mainCssClass = props.mainCssClass;
+  return (
+    <header id="header" className={mainCssClass}>
+      <div className="header-wrapper">
+        <div className="wsmobileheader">
+          <a className="smllogo">
+            <img src="images/logo-01.png" alt="mobile-logo" />
+          </a>
+          <div
+            id="wsnavtoggle"
+            onClick={() => {
+              document.body.classList.toggle("wsactive");
+            }}
+          >
+            <a className="wsanimated-arrow">
+              <span></span>
+            </a>
+          </div>
+        </div>
+
+        <div className="wsmainfull menu clearfix">
+          <div className="wsmainwp clearfix">
+            <div className="desktoplogo">
+              <a href="/" className="logo-black">
+                <img src="images/logo-01.png" alt="header-logo" />
+              </a>
+            </div>
+            <div className="desktoplogo">
+              <a href="/" className="logo-white">
+                <img src="images/logo-02.png" alt="header-logo" />
+              </a>
+            </div>
+            <nav className="wsmenu clearfix" style={{ height: "100%" }}>
+              <ul className="wsmenu-list nav-orange-red-hover">
+                {menus.map((menu, key) =>
+                  menu.sub ? (
+                    menu.colSize === 1 ? (
+                      <li aria-haspopup="true" className="mg_link">
+                        <a href="#">
+                          {t(`menu.${menu.menu}`)}{" "}
+                          <span className="wsarrow"></span>
+                        </a>
+                        <div className="wsmegamenu w-75 clearfix">
+                          <div className="container">
+                            <div className="row">
+                              <ul className="col-md-12 col-lg-3 link-list">
+                                {menu.sub.map((sub, key) => (
+                                  <li>
+                                    <a key={key} href={sub.link}>
+                                      {t(`menu.${sub.menu}`)}
+                                    </a>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    ) : (
+                      <li aria-haspopup="true">
+                        <a href="#">
+                          {menu.menu} <span className="wsarrow"></span>
+                        </a>
+                        <ul className="sub-menu">
+                          {menu.sub.map((sub, key) => (
+                            <li
+                              aria-haspopup="true"
+                              onClick={() => {
+                                if (
+                                  document.body.className.includes("wsactive")
+                                ) {
+                                  document.body.classList.toggle("wsactive");
+                                }
+                              }}
+                            >
+                              <a key={key} href={sub.link}>
+                                {t(`menu.${sub.menu}`)}
+                              </a>
+                            </li>
+                          ))}
+                        </ul>
+                      </li>
+                    )
+                  ) : (
+                    <li className="nl-simple" aria-haspopup="true">
+                      <a
+                        href={menu.link}
+                        className={menu.css ? menu.css : null}
+                      >
+                        {t(`menu.${menu.menu}`)}
+                      </a>
+                    </li>
+                  )
+                )}
+                <li
+                  className="nl-simple white-color header-socials ico-20 clearfix"
+                  aria-haspopup="true"
+                >
+                  {/* <span>
+                    <a href="" className="ico-facebook">
+                      <span className="flaticon-facebook"></span>
+                    </a>
+                  </span> */}
+                  {/* <span>
+                    <a href="#" className="ico-twitter">
+                      <span className="flaticon-twitter"></span>
+                    </a>
+                  </span> */}
+                  <span>
+                    <a
+                      href="https://www.linkedin.com/company/genixoglobal/"
+                      target="_blank"
+                      className="ico-linkedin"
+                    >
+                      <span className="flaticon-linkedin"></span>
+                    </a>
+                  </span>
+                  <span>
+                    <a
+                      href="https://instagram.com/genixo.global?igshid=NmZiMzY2Mjc="
+                      target="_blank"
+                      className="ico-instagram"
+                    >
+                      <span className="flaticon-instagram"></span>
+                    </a>
+                  </span>
+                  {/* <span>
+                    <a href="#" className="ico-dribbble">
+                      <span className="flaticon-dribbble"></span>
+                    </a>
+                  </span> */}
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+}

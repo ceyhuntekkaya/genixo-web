@@ -1,0 +1,42 @@
+[
+    {
+        "logo": "images/services/services_desing_01.png",
+        "name": "Web Application",
+        "link": "/services#web-application"
+    },
+    {
+        "logo": "images/services/services_desing_07.png",
+        "name": "Solution Architecture",
+        "link": "/services#solution-architecture"
+    },
+    {
+        "logo": "images/services/services_desing_03.png",
+        "name": "Custom Software Development",
+        "link": "/services#custom-software-development"
+    },
+    {
+        "logo": "images/services/services_desing_05.png",
+        "name": "DevOps Services",
+        "link": "/services#dev-ops"
+    },
+    {
+        "logo": "images/services/services_desing_02.png",
+        "name": "Cloud Development",
+        "link": "/services#cloud-development"
+    },
+    {
+        "logo": "images/services/services_desing_06.png",
+        "name": "Mobile Development",
+        "link": "/services#mobile-app"
+    },
+    {
+        "logo": "images/services/services_desing_08.png",
+        "name": "Application Maintenance and Support Services",
+        "link": "/services#support-services"
+    },
+    {
+        "logo": "images/services/services_desing_04.png",
+        "name": "Data Science",
+        "link": "/services#data-science"
+    }
+]

@@ -1,0 +1,46 @@
+{
+    "general": {
+        "brandsExplain": ""
+    },
+    "team": {
+        "header": "Meet Our Team",
+        "explain": "You've got passion. We've got stuff to make it profitable"
+    },
+    "faq": {
+        "header": "Got Questions? Look Here",
+        "explain": "Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and cursus varius and magnis sapien",
+        "footer": "Have more questions?",
+        "footerLink": "Ask your question here"
+    },
+    "trial": {
+        "text": "How can we help you?",
+        "button": "Let's start our journey today!",
+        "read": "Your data are safe with us. We take your privacy seriously and we will never share your data with anyone."
+    },
+    "NotFound": {
+        "number": "404",
+        "text": "Page Not Found",
+        "explain": "The page you are looking for might have been moved , renamed or might never existed Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and cursus varius and magnis sapien",
+        "button": "Back To Home"
+    },
+    "terms": {
+        "header": "Our Terms & Privacy",
+        "explain": "Last Modified: June 29, 2021"
+    },
+    "login": {
+        "createAccountHeader": "Create Account",
+        "createAccountExplain": "Already have an account?",
+        "login":"Log In",
+        "name": "Your Name",
+        "mail": "Your Email",
+        "createPassword": "Create a paasword",
+        "createAccountButton": "Create Account",
+        "termsText": "By clicking “Sign up”, you agree to our Terms and that you have read our Privacy Policy",
+        "or":"OR",
+        "GoogleSingUp":"Sing Up with Google",
+        "FacebookSingUp":"Sing Up with Facebook",
+        "copyright":"Copyright 2022 GENIXO. All Rights Reserved",
+        "logo":"images/register.png",
+        "image":"images/logo-01.png"
+    }
+}

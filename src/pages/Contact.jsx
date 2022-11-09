@@ -141,6 +141,10 @@ export default function Contact() {
                 <div>
                   <h2 className="h3-xs">Address</h2>
                   <p className="p-lg" style={{ marginLeft: 20 }}>
+                    <b>Main Office</b><br />
+                    BİLKENT CYBERPARK, Cyberplaza No:4/B Kat: 2 No:229 Bilkent ANKARA, Türkiye
+                    <br /><br />
+                    <b>Research Office</b><br />
                     Bahçelievler Mahallesi 323/1 A Blok - Gazi Üniversitesi
                     Teknokent Binası No:10/50 C/80 Gölbaşı - Ankara, Türkiye
                   </p>
@@ -170,6 +174,9 @@ export default function Contact() {
                   <div>
                     <h2 className="h3-xs">Reach us</h2>
                     <div style={{ marginLeft: 20, marginTop: 10 }}>
+                      <div className="p-lg">
+                        <a href="tel:+905332794171">+(90) 312 265 04 56</a>
+                      </div>
                       <div className="p-lg">
                         <a href="tel:+905332794171">+(90) 533 279 41 71</a>
                       </div>

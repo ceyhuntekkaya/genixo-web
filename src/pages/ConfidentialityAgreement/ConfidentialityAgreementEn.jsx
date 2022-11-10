@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export default function ConfidentialityAgreementEn() {
     return (
         <div className='container mt-4 mb-4'>
@@ -15,7 +16,7 @@ export default function ConfidentialityAgreementEn() {
             <br /><br />All kinds of copyrights regarding all content consisting of audio, written and visual elements and software in these applications belong to EasyDivy. any of our apps or their copyrighted content; copying, duplication, republishing, disassembly, re-publication, etc. You agree that you will not take any action.
             <br /><br />You can send your comments and suggestions regarding the conditions stated here, to hello@genixo.ai e-mail address.
             <br /><br />EasyDivy; may make changes to the text of this Privacy Policy and Terms of Use. Changes made will take effect immediately. We indicate the date we made the change as the "last updated date" at the bottom.
-            <br /><br />Last updated date::
+            <br /><br />Last updated date:
             <br />10.11.2022
         </div>
     )

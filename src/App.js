@@ -14,7 +14,12 @@ function App() {
       <Routes>
         <Route
           exact
-          path="/confidentiality-agreement"
+          path="/en/confidentiality-agreement"
+          element={<ConfidentialityAgreement />}
+        />
+         <Route
+          exact
+          path="/tr/confidentiality-agreement"
           element={<ConfidentialityAgreement />}
         />
         <Route exact path="/contact-us" element={<Contact />} />

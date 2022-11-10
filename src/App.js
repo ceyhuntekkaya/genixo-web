@@ -22,6 +22,11 @@ function App() {
           path="/tr/confidentiality-agreement"
           element={<ConfidentialityAgreement />}
         />
+         <Route
+          exact
+          path="/confidentiality-agreement"
+          element={<ConfidentialityAgreement />}
+        />
         <Route exact path="/contact-us" element={<Contact />} />
         <Route exact path="/methodology" element={<Methodology />} />
         <Route exact path="/services" element={<Services />} />

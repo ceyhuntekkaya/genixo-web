@@ -5,9 +5,11 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Methodology from "./pages/Methodology";
 import AboutUs from "./pages/AboutUs";
-import ConfidentialityAgreement from "./pages/ConfidentialityAgreement";
 import BlogList from "./pages/BlogList";
 import BlogSingle from "./pages/BlogSingle";
+import ConfidentialityAgreementEn from "./pages/ConfidentialityAgreement/ConfidentialityAgreementEn";
+import ConfidentialityAgreementTr from "./pages/ConfidentialityAgreement/ConfidentialityAgreementTr";
+
 function App() {
   return (
     <BrowserRouter>
@@ -15,17 +17,12 @@ function App() {
         <Route
           exact
           path="/en/confidentiality-agreement"
-          element={<ConfidentialityAgreement />}
+          element={<ConfidentialityAgreementEn />}
         />
          <Route
           exact
           path="/tr/confidentiality-agreement"
-          element={<ConfidentialityAgreement />}
-        />
-         <Route
-          exact
-          path="/confidentiality-agreement"
-          element={<ConfidentialityAgreement />}
+          element={<ConfidentialityAgreementTr />}
         />
         <Route exact path="/contact-us" element={<Contact />} />
         <Route exact path="/methodology" element={<Methodology />} />

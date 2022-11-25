@@ -13,7 +13,7 @@ export default function AboutUs() {
                             <div className="row justify-content-center">
                                 <div className="col-md-12 col-lg-8">
                                     <div className="text-center m-auto">
-                                        <h2 className="h2-xl">Software Solutions for Passionate Brands</h2>
+                                        <h2 className="h2-xl">Software Solution Partner & Innovation Company</h2>
                                     </div>
                                 </div>
                             </div>

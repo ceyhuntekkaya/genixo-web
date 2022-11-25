@@ -177,26 +177,19 @@ export default function Contact() {
                       <div className="p-lg">
                         <a href="tel:+905332794171">+(90) 312 265 04 56</a>
                       </div>
-                      <div className="p-lg">
-                        <a href="tel:+905332794171">+(90) 533 279 41 71</a>
-                      </div>
-                      <div>
-                        <a href="tel:+905322076730">+(90) 532 207 67 30</a>
-                      </div>
+                   
+                    
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col-md-5 col-lg-5 m-2">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1533.1114813516679!2d32.807840858201004!3d39.77955145617169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd788e492032799f9!2zMznCsDQ2JzQ2LjQiTiAzMsKwNDgnMzIuMiJF!5e0!3m2!1str!2str!4v1658147595590!5m2!1str!2str"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
+                
+                
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3094.212687878369!2d32.74271604220058!3d39.86957378174462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x68727ad146b84599%3A0x82f8f072b8390252!2sGenixo%20Bili%C5%9Fim%20ve%20Teknoloji%20A.%C5%9E.!5e0!3m2!1str!2str!4v1669375841005!5m2!1str!2str" width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
               </div>
             </div>
           </div>

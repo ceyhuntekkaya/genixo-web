@@ -115,10 +115,10 @@ export default function Footer1(props) {
               <div style={{ marginTop: 5, marginBottom: 5 }}>
                 <a
                   className=""
-                  href="mailto:info@genixo.net"
+                  href="mailto:hello@genixo.ai"
                   style={{ fontSize: 16, textDecoration: "underline" }}
                 >
-                  info@genixo.net
+                  hello@genixo.ai
                 </a>
               </div>
 

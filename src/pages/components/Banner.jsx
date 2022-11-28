@@ -13,7 +13,8 @@ export default function Banner() {
                             <h2 className="h2-lg wow fadeInUp">{t('banner.title')}</h2>
                             <p className="p-xl wow fadeInUp">{t('banner.explanation')}</p>
                             <div className="btns-group mb-30 wow fadeInUp">
-                                <a href="/contact-us" className="btn btn-green tra-white-hover mr-15">{t('banner.button')}</a>
+                                <a href="/contact-us" className="btn btn-green tra-white-hover mr-15"
+                                >{t('banner.button')}</a>
                             </div>
                         </div>
                     </div>

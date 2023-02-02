@@ -18,14 +18,14 @@ export default function Contact() {
       email: document.getElementById("email").value,
       tellUsMore: document.getElementById("tellUsMore").value,
     };
-    try {
-      await axios.post(
-        "https://3dcpb80rz6.execute-api.eu-west-1.amazonaws.com/prod/contact-us",
-        params
-      );
-    } catch (e) {
-      console.log(e);
-    }
+    // try {
+    //   await axios.post(
+    //     "https://3dcpb80rz6.execute-api.eu-west-1.amazonaws.com/prod/contact-us",
+    //     params
+    //   );
+    // } catch (e) {
+    //   console.log(e);
+    // }
   };
   return (
     <React.Fragment>

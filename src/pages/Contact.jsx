@@ -149,9 +149,7 @@ export default function Contact() {
                     <b>Main Office</b><br />
                     BİLKENT CYBERPARK, Cyberplaza No:4/B Kat: 2 No:229 Bilkent ANKARA, Türkiye
                     <br /><br />
-                    <b>Research Office</b><br />
-                    Bahçelievler Mahallesi 323/1 A Blok - Gazi Üniversitesi
-                    Teknokent Binası No:10/50 C/80 Gölbaşı - Ankara, Türkiye
+                     
                   </p>
                 </div>
                 <br />

@@ -103,16 +103,7 @@ export default function Header(props) {
                   className="nl-simple white-color header-socials ico-20 clearfix"
                   aria-haspopup="true"
                 >
-                  {/* <span>
-                    <a href="" className="ico-facebook">
-                      <span className="flaticon-facebook"></span>
-                    </a>
-                  </span> */}
-                  {/* <span>
-                    <a href="#" className="ico-twitter">
-                      <span className="flaticon-twitter"></span>
-                    </a>
-                  </span> */}
+       
                   <span>
                     <a
                       href="https://www.linkedin.com/company/genixoglobal/"

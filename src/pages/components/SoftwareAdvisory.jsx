@@ -1,6 +1,8 @@
 import React from 'react'
+import {useTranslation} from "react-i18next";
 
 export default function SoftwareAdvisory() {
+    const {t, i18n} = useTranslation('common');
     return (
         <section id="content-3" className="content-3 wide-60 content-section division">
             <div className="container">

@@ -1,7 +1,9 @@
 import React from 'react'
+import {useTranslation} from "react-i18next";
 const lang = require('../../data/pages.json')
 
 export default function TrialLink() {
+    const {t, i18n} = useTranslation('common');
     return (
         <section id="cta-3" className="cta-section division">
             <div className="cta-3-holder bg-lightgrey">

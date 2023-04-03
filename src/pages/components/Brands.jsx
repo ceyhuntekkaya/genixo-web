@@ -1,8 +1,11 @@
 import React from 'react'
+import {useTranslation} from "react-i18next";
 const brands = require('../../data/brands.json')
 const lang = require('../../data/pages.json')
 
+
 export default function Brands() {
+    const {t, i18n} = useTranslation('common');
     return (
         <div id="brands-2" className="wide-70 brands-section division">
             <div className="container">

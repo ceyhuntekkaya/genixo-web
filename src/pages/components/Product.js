@@ -1,7 +1,9 @@
 import React from "react";
-const lang = require("../../data/pages.json");
+import {useTranslation} from "react-i18next";
+
 
 export default function Product() {
+  const {t, i18n} = useTranslation('common');
   return (
     <section id="cta-3" className="cta-section division">
       <div className="cta-3-holder bg-lightgrey">

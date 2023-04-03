@@ -1,6 +1,8 @@
 import React from 'react'
+import {useTranslation} from "react-i18next";
 
 export default function NGSD() {
+    const {t, i18n} = useTranslation('common');
     
     return (
         <section id="content-7" className="content-7 bg-whitesmoke wide-60 content-section division">

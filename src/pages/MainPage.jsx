@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "./components/Banner";
+import Product from "./components/Product";
 import Brands from "./components/Brands";
 import Content2 from "./components/Content2";
 import SoftwareAdvisory from "./components/SoftwareAdvisory";
@@ -15,6 +16,8 @@ export default function MainPage() {
         <Header mainCssClass="header tra-menu navbar-light" />
         <Banner />
         <Brands />
+        <Product/>
+       
         <Content2 />
         <NGSD />
         <SoftwareAdvisory />

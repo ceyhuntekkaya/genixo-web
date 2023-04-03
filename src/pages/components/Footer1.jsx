@@ -18,10 +18,6 @@ export default function Footer1(props) {
             </div>
           </div>
 
-
-         
-        
-
           <div className="col-sm-6 col-md-3 col-lg-2">
           <h6 style={{marginLeft:"20px"}} className="h6-xl">Services</h6>
             <div className="footer-links mb-40">
@@ -114,10 +110,8 @@ export default function Footer1(props) {
                 <p className="p-lg" style={{ fontSize: 16 }}>
                   <b>Main Office</b><br />
                   BİLKENT CYBERPARK, Cyberplaza No:4/B Kat: 2 No:229 Bilkent ANKARA, Türkiye
-                  <br /><br />
-                  <b>Research Office</b><br />
-                  Bahçelievler Mahallesi 323/1 A Blok - Gazi Üniversitesi
-                  Teknokent Binası No:10/50 C/80 Gölbaşı - Ankara, Türkiye
+                  
+                  
                 </p>
               </div>
               <div style={{ marginTop: 5, marginBottom: 5 }}>

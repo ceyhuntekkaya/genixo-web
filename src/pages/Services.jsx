@@ -10,8 +10,10 @@ import SolutionArchitecture from './services/SolutionArchitecture'
 import CloudDevelopment from './services/CloudDevelopment'
 import DataScience from './services/DataScience'
 import SupportServices from './services/SupportServices'
+import {useTranslation} from "react-i18next";
 
 export default function Services() {
+    const {t, i18n} = useTranslation('common');
     return (
             <div id="page" className="page">
                 <div className='mt-3'></div>

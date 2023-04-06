@@ -2,8 +2,10 @@ import React from 'react'
 import Footer1 from './components/Footer1'
 import Header from './components/Header'
 import TrialLink from './components/TrialLink'
+import {useTranslation} from "react-i18next";
 
 export default function BlogSingle() {
+    const {t, i18n} = useTranslation('common');
     return (
         <div id="page" className="page">
             <div className='mt-3'></div>

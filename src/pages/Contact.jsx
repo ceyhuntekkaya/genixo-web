@@ -2,9 +2,11 @@ import React from "react";
 import Footer1 from "./components/Footer1";
 import Header from "./components/Header";
 import axios from "axios";
+import {useTranslation} from "react-i18next";
 import { useState } from "react";
 
 export default function Contact() {
+  const {t, i18n} = useTranslation('common');
   const [messageStatus, seMessageStatus] = useState(false);
   const submitForm = async (e) => {
     e.preventDefault();

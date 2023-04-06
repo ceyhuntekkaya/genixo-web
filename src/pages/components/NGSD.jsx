@@ -1,6 +1,8 @@
 import React from 'react'
+import {useTranslation} from "react-i18next";
 
 export default function NGSD() {
+    const {t, i18n} = useTranslation('common');
     
     return (
         <section id="content-7" className="content-7 bg-whitesmoke wide-60 content-section division">
@@ -9,7 +11,7 @@ export default function NGSD() {
                     <div className="col-md-12 order-last order-md-2">
                         <div className="txt-block left-column wow fadeInLeft">
                             <div className="txt-box mb-25 text-center">
-                                <h2 className="h2-md">Genixo <span style={{color:"#f48603"}}>NGSD</span></h2>
+                                <h2 className="h2-md">Genixo <span style={{color:"#f48603"}}> NGSD </span></h2>
                                 <p className="p-lg">Genixo New Generation Software Department - Best end-to-end software solution!
                                 </p>
                             </div>

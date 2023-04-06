@@ -1,6 +1,11 @@
 import React from "react";
+import {useTranslation} from "react-i18next";
 
 export default function Footer1(props) {
+
+  const {t, i18n} = useTranslation('common');
+
+
   const mainCssClass = props.mainCssClass;
   return (
     <footer id="footer-1" className={mainCssClass}>

@@ -2,34 +2,179 @@
     "welcome": {
         "title": "Welcome to {{framework}}"
     },
-    "banner":{
+    "banner": {
         "title": "Looking for a development partner?",
         "explanation": "To build successful software you need a development team who understands your business needs. Our experts will identify a custom solution to fit your idea, timeline, and budget, then design and build the application and help you test it with real users. As a result, you will gain a modern digital product loved by users that benefits your business.",
         "image": "images/tablet-01.png",
-        "button":"Contact Us"
+        "button": "Contact Us"
     },
-    "content2":{
+    "content2": {
         "title": "Digital Strategy",
         "explanation": "If you decide to work on your next app with the help of an external software development company, then your success or failure depends on finding the right partner. With this in mind, and based on our own many and varied experiences at Genixo, this article outlines the key criteria – what to look for and what to avoid – for selecting your software development company: a future partner that will help you to build great software and solve your business challenges. But how to find such a trustworthy, reliable and efficient collaborator?",
         "image": "images/img-15.png",
-        "text":"How to choose a software development company?"
+        "text": "How to choose a software development company?"
     },
-    "menu":{
-        "Home":"ana Sayfa",
-        "Services":"Hizmetler",
-        "WebApplication":"Web Uygulamaları",
-        "SolutionArchitecture":"Solution Architecture",
-        "CustomSoftwareDevelopment":"Custom Software Development",
-        "DevOpsServices":"DevOps Services",
-        "CloudDevelopment":"Cloud Development",
-        "MobileDevelopment":"Mobile Development",
-        "SupportServices":"Support Services",
-        "DataScience":"Data Science",
-        "References":"References",
-        "ContactUs":"Contact Us"
-        
+    "menu": {
+        "Home": "Home",
+        "Services": "Hizmetler",
+        "WebApplication": "Web Uygulamaları",
+        "SolutionArchitecture": "Yazılım Mimarisi",
+        "CustomSoftwareDevelopment": "Custom Software Development",
+        "DevOpsServices": "DevOps Services",
+        "CloudDevelopment": "Cloud Development",
+        "MobileDevelopment": "Mobile Development",
+        "SupportServices": "Support Services",
+        "DataScience": "Data Science",
+        "References": "References",
+        "ContactUs": "Contact Us",
+        "Methodology": "Methodology",
+        "AboutUs": "About Us",
+        "Blog": "Blog"
     },
-    "content7":{
-        "title":""
+    "content7": {
+        "title": ""
+    },
+    "services": {
+        "web": {
+            "webApplicationHeader": "Web Application",
+            "webApplicationDescription": "Genixo is a passionate web development company which is able to deliver complex projects outside of the bonds of the common website building.",
+            "app": "Web App & Cloud Development",
+            "appDescription": "With Genixo, your visions and ideas become a high quality product. According to your needs, even a challenging web application can be implemented in an organized manner. In the light of the provided solutions and the development, your projects become success, your vision becomes envisioned.",
+            "cloud": "Web Design",
+            "cloudDescription": "Genixo provides user centered and to-the-point UI/UX designs. By using these industry-leading ideas, your vision becomes clear, and your audience grows enthusiasm.",
+            "optimization": "Web Integration & Quality Assurrance",
+            "optimizationDescription": "Regardless of your projects integration requirements, Genixo provides a full third party support of web presences or apps. In addition to this, our methodology bounds us so that a comprehensive, bug-free and stable application is successfully developed.",
+            "technologiesHeader": "Technologies We Use:"
+        },
+        "cloud": {
+            "cloudApplicationHeader": "Cloud Development",
+            "cloudApplicationDescription": "Amazon AWS",
+            "native": "Cloud Native Development",
+            "nativeDescription": "We determine which services and to what intensity you are going to use clıud options for your product, and we build your product from scratch on the cloud.",
+            "hibrit": "Cloud Hybrid Development",
+            "hibritDescription": "Cloud engineers combine public clouds, private clouds, and on-premises resources to achieve the agility required for a competitive advantage.",
+            "migration": "Cloud Migration",
+            "migrationDescription": "Genixo migrate your dara from on-premises infrastructure to the cloud, ensuring its security.",
+            "sass": "SaaS/PaaS/IaaS",
+            "sassDescription": "Experts work with SaaS, PaaS, and IaaS, each of which allows you to save on equipment and protect your confidential information from hacking and stealing.",
+            "re-architecting": "Application Re-architecting",
+            "re-architectingDescription": "We are improving or re-developing an existing product in the Cloud according to needs.",
+            "consulting": "Cloud Consulting",
+            "consultingDescription": "Organizing business transformation with innovative cloud applications and providing detailed advice at every stage of the transition."
+        },
+        "custom": {
+            "customApplicationTitle": "Fast Performance",
+            "customApplicationHeader": "Custom Software Development",
+            "customApplicationDescription": "Genixo’s professional team designs, creates, deploys and maintains your custom software needs for specific set of users, functions and organizations. The solutions we are offering here are constructed uniquely for your business and they can include all web, mobile and desktop applications.",
+            "product": "Software Product Development",
+            "productDescription": "Customer Solutions! <br>If you want to develop a software product, let's talk about some of the benefits: #  * Privacy * Customized Trackability and Management  * Ease/Cost-efficiency of Integrations * Quick Adaptation * Enhanced Efficiency#",
+            "productDescriptionList1": "Privacy",
+            "productDescriptionList2": "Customized Trackability and Management",
+            "productDescriptionList3": "Ease/Cost-efficiency of Integrations",
+            "productDescriptionList4": "Quick Adaptation",
+            "productDescriptionList5": "Enhanced Efficiency",
+            "enterprise": "Enterprise Software Development",
+            "enterpriseDescription": "Andersen’s team of experts helps large organizations achieve long-term success by reengineering technical solutions of various complexities. This increases flexibility and business efficiency.",
+            "enhancement": "Software Enhancement and Modernization",
+            "enhancementDescription": "Software engineers modernize and upgrade your software by using the latest techniques that fill the gaps in your software operations. If necessary, they create an effective software solution from scratch, which best meets your current business needs."
+        },
+        "data": {
+            "dataApplicationTitle": "Handling With Ease",
+            "dataApplicationHeader": "Data Science",
+            "dataApplicationDescription": "In 21th century, which is also called the Information Age, data became more and more priceless due to technological developments. Machines are becoming extremely “intelligent” that even scientists could not predict where this journey leads to. Data Science, “the sexiest job of the 21st century” as Harvard Business Review declared, is the combination of programming and mathematics in order to design models that are capable of extracting insights or make predictions better and quicker compared to humans. Unprocessed data makes your business inefficient. Only after the data has been processed, the right insights can be revealed and the analysis created in the light of these insights will carry your business to the peak of its potential. Because data is the most valuable thing in our age, reveal the value of the data.",
+            "data1": "Data Acquistion",
+            "data1Description": "If there is not enough data to analyze, we could create the data pipeline if it is reachable or guide you to create a proper data acquisition system.",
+            "data2": "Data Preprocessing",
+            "data2Description": "Data sources are not reliable. So, we cleaned the data from inaccurate, outlier and noisy ones to create more accurate models.",
+            "data3": "Model Design",
+            "data3Description": "We designed mathematical or machine learning model that describes your system as well as possible.",
+            "data4": "Data Analyse",
+            "data4Description": "By using the model trained by your data, we could reveal the insight from your current or upcoming data stream.",
+            "data5": "Report/Result",
+            "data5Description": "We could demonstrate the insight revealed by our model in a user-friendly dashboard.",
+            "classification": "Classification",
+            "classificationDescription": "The models are trained in a way to label the data according to users' preferences. The most explanatory and cliche example of this method is spam or ham mail labeling. From the dataset, the model learns the difference between ham and spam mails and could easily label the upcoming mails accordingly.",
+            "regression": "Regression",
+            "regressionDescription": "Basically, regression is finding the best-fit function for the dataset. By using this function, correlation in the dataset or prediction about the future could be achieved.",
+            "clustering": "Clustering",
+            "clusteringDescription": "In the scenarios, where numbers of classes are not predefined as in the classification problems, the models could be trained in a way to divide the dataset. These classes would help us to understand the relation and distribution in the dataset.",
+            "techniquesDescription": "There are mainly 3 techniques in data science;",
+            "techniqueusedDescription": "Data Science techniques are mainly used in;",
+            "tu1Description": "Decision and Prediction Making",
+            "tu2Description": "Process Optimization",
+            "tu3Description": "Pattern Recognition",
+            "tu4Description": "Data Analytics",
+            "tu5Description": "Recommendation Systems",
+            "tu6Description": "Computer Vision"
+        },
+        "devops": {
+            "devopsApplicationTitle": "",
+            "devopsApplicationHeader": "DevOps Services",
+            "devopslicationDescription": "A successful DevOps model is based on four key building blocks Develop, Build and Test, Deploy, Operate and Monitor. Genixo can do it for you!",
+            "market": "Assessment and Planning",
+            "marketDescription": "We construct a roadmap by analyzing and virtualizing the desired state by identifying the traceable metrics.",
+            "hypotheses": "CI/CD Pipeline",
+            "hypothesesDescription": "We bridge the development operations through Continuous Deployment - Integration - Testing - Deployment.",
+            "testability": "Process Automation",
+            "testabilityDescription": "We automate the CI/CD pipeline from the beginning of coding to the production by encapsulating builds, test cases, versioning and deployment.",
+            "integration": "Security Integration",
+            "integrationDescription": "We perform end-to-end security integration through ‘Security as Code’ mechanism."
+        },
+        "mobile": {
+            "mobileApplicationTitle": "",
+            "mobileApplicationHeader": "Mobile Development",
+            "mobilelicationDescription": "Mobile applications are important assets for product. It increases the platforms accessibility, visibility and self-through. By using mobile apps, users or customers functional accesses can be configured, their focus can be arranged, or the preferences can be customized to fit the user’s needs.",
+            "ios": "IOS App Development",
+            "iosDescription": "Genixo has the knowledge and skill to build user-friendly, feature-rich and reliable iOS mobile apps.",
+            "adnroid": "Android App Development",
+            "adnroidDescription": "Ensure the best possible performance and UX with us. Genixo’s Android and IOS development team will help you to build scalable and professional apps across multiple android devices.",
+            "cross": "Cross-Platform App Development",
+            "crossDescription": "Genixo can also offer you cross-platform app development. With our dynamism and passion, enjoy the adjustable and top-performing applications."
+        },
+        "solution": {
+            "solutionApplicationTitle": "Architecture as a Service",
+            "solutionApplicationHeader": "Solution Architecture",
+            "solutionlicationDescription": "According to your ecosystem and audience, Genixo provides a ground for your projects by tailoring IT solutions.",
+            "solutionlicationDescriptionGreen": "We define functional requirements and implementation stages with respect to your business needs.",
+            "business": "Benefits of Solution Architecture",
+            "businessDescription": "Architecting for a software solution, Focuses in achieving the qualitative output as you have a blueprint of the functionalities and its requirements .Helps in planning the project lifecycle by providing general solution structure .Simplifies handling complexity as you can observe the bigger picture with it’s challenges .Advices in estimation and costing by meeting the requirements of the main stakeholder",
+            "application": "Business, Operations & Technology",
+            "applicationDescription": "The emphasis is on result-driven procedure, the focus is on intelligent and robust solutions, the priority is the material facet of solution delivery."
+        },
+        "support": {
+            "supportTitle": "",
+            "supportHeader": "Application Maintenance and Support Services",
+            "supportDescription": "Benefits for your business with our tech support",
+            "proactive": "Proactive attitude",
+            "proactiveDescription": "We are making your foundation, that is, your infrastructure, stronger day by day.",
+            "groundUp": "Fundamentality",
+            "groundUpDescription": "With the help of the Genixo’s experts, whole department can be be assembled and set up for your process from scratch.",
+            "scalability": "Advanced scalability",
+            "scalabilityDescription": "Genixo professionals provide agility for your business to grow while staying flexible.",
+            "availability": "24/7 availability",
+            "availabilityDescription": "Genixo’s technology teams can support you 7/24. We are always up and we are always ready.",
+            "security": "Absolute data security",
+            "securityDescription": "We treat the cybersecurity and data protection issues as a top priority.",
+            "efficiency": "Cost-efficiency",
+            "efficiencyDescription": "Genixo experts know how to keep prices under control for you."
+        }
+    },
+    "methodology": {
+        "methodology_header": "Transparent Operation Methodology",
+        "methodology_headerDescription": "Transparent Operation Methodology",
+        "methodology_discovery": "Discovery",
+        "methodology_discovery_description": "The discovery phase is the first step we take when starting a process. The process is encountered, the data needs are determined. The detected data is collected.",
+        "methodology_analysis": "Analysis",
+        "methodology_analysis_description": "Process analysis is carried out using the collected data, so that the data is meaningful.",
+        "methodology_projection": "Projection",
+        "methodology_projection_description": "A process projection is designed in the light of the analyzed data.",
+        "methodology_construction": "Construction",
+        "methodology_construction_description": "The designed process projection is implemented and the process is completed.",
+        "methodology_revision": "Revision",
+        "methodology_revision_description": "The completed process is subject to revision first by us and then by you.",
+        "methodology_improvement": "Improvement",
+        "methodology_improvement_description": "Improvements are made based on the determinations made after the revision.",
+        "methodology_management": "Management",
+        "methodology_management_description": "After the revision, what has been done in the whole process is managed safely."
     }
 }

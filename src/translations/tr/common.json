@@ -15,7 +15,7 @@
         "text": "Bir yazılım geliştirme şirketi nasıl seçilir?"
     },
     "menu": {
-        "Home": "Home",
+        "Home": "Ana Sayfa",
         "Services": "Hizmetler",
         "WebApplication": "Web Uygulamaları",
         "SolutionArchitecture": "Yazılım Mimarisi",
@@ -212,5 +212,34 @@
         "passion_description": "Tburada tutku olmadan bağlılık olmaz. Bağlılık olmadan, bir tutku asla potansiyeline yaklaşamaz ve daha az başarılı olmaya mahkumdur. Bunun bilincinde olan Genixo, bir şirketten daha fazlası, kişisel gelişimin sınırı olmadığının bilincinde, kendini sürekli geliştirmeyi hedefleyen, hedeflerine tutkuyla bağlı ve bu hedeflere ulaşmaya kendini adamış insanlardan oluşan bir topluluktur. hedefler. Tutku ve özveri üzerine kurulu bu toplum bilinci doğrultusunda kendimizi ve birlikte çalıştığımız herkesi potansiyellerini geliştirmeye, daha büyük düşünmeye, daha özverili çalışmaya ve daha başarılı olmaya davet ediyoruz!",
         "professionalism": "Profesyonellik",
         "professionalism_description": "Bir işte yetenekli veya deneyimli olduğunuzda başarıya ulaşılabilir. Ancak elde edilen başarının kalıcı olması için profesyonel bir yaklaşım şarttır, aksi takdirde elde ettiğiniz başarının ömrünü mutlaka kısaltırsınız. Genixo anlayışı, yetenekli ve deneyimli kişilerin profesyonel olarak çalıştığı bir marka kültürüne sahip olarak hem bireysel hem de kurumsal bazda her zaman kalıcılığı ve sürdürülebilir başarıyı hedeflemektedir. Profesyonel iş bilincimizle başarıyı şansa bırakmıyoruz."
+    },
+    "contact":{
+        "name": "",
+        "name2": "",
+        "name3": "",
+        "name4": "",
+        "name5": "",
+        "name6": "",
+        "name7": "",
+        "name8": ""
+    },
+    "service_list":{
+        "web": "Web Uygulamaları",
+        "solution": "Yazılım Mimarisi",
+        "custom": "Özel Yazılım Geliştirme",
+        "devops": "DevOps Hizmeti",
+        "cloud": "Cloud Geliştirme",
+        "mobile": "Mobile Geliştirme",
+        "support": "Destek Hizmtleri",
+        "data": "Veri Bilimi"
+    },
+    "footer":{
+        "office":"Merkez Ofis",
+        "services":"Hizmetler"
+    },
+    "trial": {
+        "text": "Size nasıl yardımcı olabiliriz?",
+        "button": "Yolculuğumuza bugün başlayalım!",
+        "read": "Verileriniz bizimle güvende. Gizliliğinizi ciddiye alıyoruz ve verilerinizi asla kimseyle paylaşmayacağız."
     }
 }

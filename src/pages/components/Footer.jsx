@@ -1,10 +1,11 @@
 import React from "react";
 import {useTranslation} from "react-i18next";
 
+const services = require('../../data/service_list.json')
+
 export default function Footer(props) {
 
-  const {t, i18n} = useTranslation('common');
-
+  const {t} = useTranslation('common');
 
   const mainCssClass = props.mainCssClass;
   return (
@@ -24,21 +25,20 @@ export default function Footer(props) {
           </div>
 
           <div className="col-sm-6 col-md-3 col-lg-2">
-          <h6 style={{marginLeft:"20px"}} className="h6-xl">Services</h6>
+          <h6 style={{marginLeft:"20px"}} className="h6-xl">{t(`footer.services`)}</h6>
             <div className="footer-links mb-40">
-              <h6 className="h6-xl"></h6>
 
               <ul className="foo-links text-secondary clearfix">
                 <li>
                   <p className="p-md">
                     <a href="/services#custom-software-development">
-                    Web Application
+                    {t(`service_list.${services.services[0].name}`)}
                     </a>
                   </p>
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="/services#dev-ops">  Solution Architecture</a>
+                    <a href="/services#dev-ops"> {t(`service_list.${services.services[1].name}`)}</a>
                   </p>
                 </li>
               </ul>
@@ -48,19 +48,18 @@ export default function Footer(props) {
           <div className="col-sm-6 col-md-3 col-lg-2">
           <h6 className="h6-xl"> <span style={{color:"white"}}>.</span> </h6>
             <div className="footer-links mb-40">
-              <h6 className="h6-xl"></h6>
 
               <ul className="foo-links text-secondary clearfix">
                 <li>
                   <p className="p-md">
                     <a href="/services#custom-software-development">
-                      Custom Software Development
+                    {t(`service_list.${services.services[2].name}`)}
                     </a>
                   </p>
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="/services#dev-ops">DevOps Sevices</a>
+                    <a href="/services#dev-ops">{t(`service_list.${services.services[3].name}`)}</a>
                   </p>
                 </li>
               </ul>
@@ -70,17 +69,16 @@ export default function Footer(props) {
           <div className="col-sm-6 col-md-3 col-lg-2">
           <h6 className="h6-xl"> <span style={{color:"white"}}>.</span> </h6>
             <div className="footer-links mb-40">
-              <h6 className="h6-xl"></h6>
 
               <ul className="foo-links text-secondary clearfix">
                 <li>
                   <p className="p-md">
-                    <a href="/services#cloud-development">Cloud Development</a>
+                    <a href="/services#cloud-development">{t(`service_list.${services.services[4].name}`)}</a>
                   </p>
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="/services#mobile-app">Mobile Development</a>
+                    <a href="/services#mobile-app">{t(`service_list.${services.services[5].name}`)}</a>
                   </p>
                 </li>
               </ul>
@@ -90,17 +88,17 @@ export default function Footer(props) {
           <div className="col-sm-6 col-md-3 col-lg-2">
           <h6 className="h6-xl"> <span style={{color:"white"}}>.</span> </h6>
             <div className="footer-links mb-40">
-              <h6 className="h6-xl"></h6>
+              
 
               <ul className="foo-links text-secondary clearfix">
                 <li>
                   <p className="p-md">
-                    <a href="/services#support-services">Support Services</a>
+                    <a href="/services#support-services">{t(`service_list.${services.services[6].name}`)}</a>
                   </p>
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="/services#data-science">Data Science</a>
+                    <a href="/services#data-science">{t(`service_list.${services.services[7].name}`)}</a>
                   </p>
                 </li>
               </ul>
@@ -113,10 +111,8 @@ export default function Footer(props) {
             <div className="col">
               <div style={{ marginTop: 5, marginBottom: 5 }}>
                 <p className="p-lg" style={{ fontSize: 16 }}>
-                  <b>Main Office</b><br />
-                  BİLKENT CYBERPARK, Cyberplaza No:4/B Kat: 2 No:229 Bilkent ANKARA, Türkiye
-                  
-                  
+                  <b>{t(`footer.office`)}</b><br />
+                  BİLKENT CYBERPARK, Cyberplaza H Blok No:8 Bilkent ANKARA, Türkiye
                 </p>
               </div>
               <div style={{ marginTop: 5, marginBottom: 5 }}>

@@ -6,6 +6,9 @@ const menus = require("../../data/menu.json");
 export default function Header(props) {
   const { t } = useTranslation("common");
   const mainCssClass = props.mainCssClass;
+
+
+  console.log(menus)
   return (
     <header id="header" className={mainCssClass}>
       <div className="header-wrapper">
@@ -42,9 +45,9 @@ export default function Header(props) {
                 {menus.map((menu, key) =>
                   menu.sub ? (
                     menu.colSize === 1 ? (
-                      <li aria-haspopup="true" className="mg_link">
+                      <li aria-haspopup="true" className="mg_link" key={key}>
                         <a href="#">
-                          {t(`menu.${menu.menu}`)}{" "}
+                          {t(`menu.${menu.menu}`)}
                           <span className="wsarrow"></span>
                         </a>
                         <div className="wsmegamenu w-75 clearfix">
@@ -66,7 +69,7 @@ export default function Header(props) {
                     ) : (
                       <li aria-haspopup="true">
                         <a href="#">
-                          {menu.menu} <span className="wsarrow"></span>
+                        {t(`menu.${menu.menu}`)} <span className="wsarrow"></span>
                         </a>
                         <ul className="sub-menu">
                           {menu.sub.map((sub, key) => (
@@ -103,7 +106,6 @@ export default function Header(props) {
                   className="nl-simple white-color header-socials ico-20 clearfix"
                   aria-haspopup="true"
                 >
-       
                   <span>
                     <a
                       href="https://www.linkedin.com/company/genixoglobal/"
@@ -122,11 +124,6 @@ export default function Header(props) {
                       <span className="flaticon-instagram"></span>
                     </a>
                   </span>
-                  {/* <span>
-                    <a href="#" className="ico-dribbble">
-                      <span className="flaticon-dribbble"></span>
-                    </a>
-                  </span> */}
                 </li>
               </ul>
             </nav>

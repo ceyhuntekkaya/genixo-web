@@ -23,9 +23,6 @@ i18next.init({
       tr: {
           common: common_tr
       },
-      de: {
-        common: common_de
-    },
   },
 });
 

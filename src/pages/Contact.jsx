@@ -1,12 +1,12 @@
 import React from "react";
-import Footer1 from "./components/Footer1";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import axios from "axios";
 import {useTranslation} from "react-i18next";
 import { useState } from "react";
 
 export default function Contact() {
-  const {t, i18n} = useTranslation('common');
+  const {t} = useTranslation('common');
   const [messageStatus, seMessageStatus] = useState(false);
   const submitForm = async (e) => {
     e.preventDefault();
@@ -201,7 +201,7 @@ export default function Contact() {
         </section>
 
         <hr className="divider" />
-        <Footer1 mainCssClass="bg-snow footer division" />
+        <Footer mainCssClass="bg-snow footer division" />
       </div>
     </React.Fragment>
   );

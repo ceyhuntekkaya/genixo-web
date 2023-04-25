@@ -176,5 +176,41 @@
         "methodology_improvement_description": "Improvements are made based on the determinations made after the revision.",
         "methodology_management": "Management",
         "methodology_management_description": "After the revision, what has been done in the whole process is managed safely."
+    },
+    "ngsd":{
+        "name": "Şeffaf Operasyon Metodolojisi",
+        "description": "Genixo New Generation Software Department - Best end-to-end software solution!",
+        "question": "For whom?",
+        "answer":"If you don't have a software team, this might be the best solution for you!",
+        "what_is": "What is NGSD?",
+        "what_is_description": "Our most comprehensive 360 Degree, Dynamic, International and Remote solution that takes us and you one step further in the market. Establishing a team to meet your software needs can always be seen as the clearest solution, but as it is known, establishing a software team/department can be a very costly business. This is where Genixo NGSD comes in and saves you the trouble of setting up a team/department. The Genixo project manager assigned to your brand becomes your software manager, and Genixo becomes your software department!",
+        "remote": "Remote",
+        "remote_description": "Far but close! How? With a privileged customer experience. As Genixo, we aim to ensure that distances do not mean anything. With a transparent operation approach, we enable you to monitor processes continuously, and we take care to keep our communication at the highest level by holding scheduled meetings and providing instant customer support. With the remote software department, we increase your efficiency, and you reduce your costs.",
+        "dynamic": "Dynamic",
+        "dynamic_description": "Our job is to adapt quickly to the dynamics of your business! Together with NGSD, we are able to continuously analyze your requirements and scale up or down the team according to the status of your projects, so we are always optimally positioned for your needs.",
+        "global": "Global",
+        "global_description": "Let the world get smaller and, you get bigger! As the world gets smaller, nobody wants to be limited locally. We also carry this motivation, we build our projects on a vision and infrastructure that can operate globally. With our transnational vision and Genixo NGSD model, it is possible for us to implement and develop all your software requirements in a structure where you can operate globally. We invite all passionate brands who agree with us to walk this path together."
+    },
+    "software_advisory":{
+        "name": "",
+        "description": "Software supervision for the better!",
+        "for_whom": "For whom?",
+        "for_whom_description": "If you have a software team, this might be the best solution for you!",
+        "what_is": "What is Genixo Software Advisory?",
+        "what_is_description": "It is imperative that institutions have a vision not only of the present but also of the future, and to be prepared for it, regardless of which sector they operate in. You need to make sure your team is constantly up to date and on the right track. Undoubtedly, it makes the processes of institutions more efficient if they act with a consultant in the field of software, as in many fields such as law, finance, marketing and so on. With Genixo Software Advisory, your software team works more efficiently without slowing down with professional guides.",
+        "architecture": "Software Architecture",
+        "architecture_description": "When it comes to designing a new product or developing an existing product, a process encompasses many interconnecting steps such as needs identification, process planning, hardware strategy, infrastructure strategy, cost forecasting, mapping. It is our duty to shape your project's software strategy by being with you at every step you will take, and to make sure that the structure is set up correctly before you implement the created strategies and that we are on the right track!",
+        "supervision": "Software Supervision",
+        "supervision_description": "We are with you throughout the whole process in order to minimize the time, effort and financial costs while implementing the designed strategies. We will be guiding you on how to overcome the problems you encounter in our periodic and instant meetings. We are with you in your decision-makings. It's our job here to make sure your productivity is high during your development."
+    },
+    "about_us":{
+        "name": "Software Solution Partner & Innovation Company",
+        "description": "",
+        "Dynamism": "Dynamism",
+        "Dynamism_description": "Informatics is the sector with the largest trackable market share in the world, and the interesting thing is that it did not take long to reach this size. So how did this happen? With technology and therefore with innovation. Development and change are so fast that it can be difficult to follow. It is getting harder to keep up with new dynamics and to act proactively. As Genixo, our mission here is clear, and that is to stay dynamic. Genixo's vision in this regard is to always stay up-to-date and respond to the needs of the day, no matter how fast the world of informatics changes and how different the needs are. We have a corporate mentality that calculates the future by adopting a constantly pro-active attitude and can give an appropriate reaction when faced with unforeseen problems. Thus, we can stay dynamic all the time!",
+        "Passion": "Passion & Devotion",
+        "Passion_description": "There is no devotion without passion. Without devotion, a passion will never come close to its potential and is doomed to be less successful. Being aware of this, Genixo is more than a company, it is a community of people who are aware of the fact that there is no limit to personal development, aim to develop themselves continuously, are passionate about their goals and are dedicated to achieving these goals. In line with this community consciousness built on passion and devotion, we invite ourselves and everyone we collaborate with to further their potential, to think bigger, to work more devotedly and to be more successful!",
+        "Professionalism": "Professionalism",
+        "Professionalism_description": "Success is achievable once you are skilled or experienced at a job. However, in order to maintain the persistence of the success achieved, a professional approach is essential, otherwise, you will definitely shorten the life of the success you have achieved. Genixo mentality always aims for persistence and sustainable success both on a personal and corporate basis by having a brand culture in which talented and experienced people work professionally. With our professional business awareness, we do not leave success to chance."
     }
 }

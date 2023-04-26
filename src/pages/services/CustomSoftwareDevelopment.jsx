@@ -1,9 +1,8 @@
 import React from 'react'
 import { useTranslation } from "react-i18next";
-const serviceData = require('../../data/services.json')
 
 export default function CustomSoftwareDevelopment() {
-    const { t, i18n } = useTranslation('common');
+    const { t } = useTranslation('common');
 
     return (
         <section id="custom-software-development" className="content-2 bg-04 wide-60 content-section division">
@@ -20,35 +19,29 @@ export default function CustomSoftwareDevelopment() {
                             <h2 className="h2-xs">{t('services.custom.customApplicationHeader')}</h2>
                             <p className="p-lg">{t('services.custom.customApplicationDescription')}</p>
                             <ul className="simple-list">
-                                {/* {
-                                    serviceData.custom.services.map(service =>
-                                        <li className="list-item mt-4 mb-1">
-                                            <p className="p-lg">{t(`services.custom.${service.name}`)}</p>{parseHtml(t(`services.custom.${service.description}`))}</li>
-                                    )
-                                } */}
-                                <h2>Software Product Development</h2>
-                                Customer Solutions!
-                                <br />If you want to develop a software product, let's talk about some of the benefits:
-                                <br />- Privacy
-                                <br />- Customized Trackability and Management
-                                <br />- Ease/Cost-efficiency of Integrations
-                                <br />- Quick Adaptation
-                                <br />- Enhanced Efficiency
+                                <h2>{t('software_advisory.group1_header')}</h2>
+                                {t('software_advisory.group1_list_1')}
+                                <br />{t('software_advisory.group1_list_2')}
+                                <br />- {t('software_advisory.group1_list_3')}
+                                <br />- {t('software_advisory.group1_list_4')}
+                                <br />- {t('software_advisory.group1_list_5')}
+                                <br />- {t('software_advisory.group1_list_6')}
+                                <br />- {t('software_advisory.group1_list_7')}
                                 <br /><br />
-                                <h2>Enterprise Software Development</h2>
-                                Corporate Solutions!
-                                <br />If you want to develop an enterprise software, let's talk about some of the benefits:
-                                <br />- Benefits for the team
-                                <br />- Belonging
-                                <br />- Productivity
-                                <br /><br />Benefits for the management
-                                <br />- Prestige
-                                <br />- Privacy
-                                <br />- Independence
-                                <br />- Customized Trackability and Management
-                                <br />- Ease/Cost-efficiency of Integrations
-                                <br />- Quick Adaptation
-                                <br />- Enhanced Efficiency
+                                <h2>{t('software_advisory.group2_header')}</h2>
+                                {t('software_advisory.group2_list_1')}
+                                <br /> {t('software_advisory.group2_list_2')}
+                                <br />-  {t('software_advisory.group2_list_3')}
+                                <br />-  {t('software_advisory.group2_list_4')}
+                                <br />-  {t('software_advisory.group2_list_5')}
+                                <br /><br /> {t('software_advisory.group2_list_6')}
+                                <br />-  {t('software_advisory.group2_list_7')}
+                                <br />-  {t('software_advisory.group2_list_8')}
+                                <br />-  {t('software_advisory.group2_list_9')}
+                                <br />-  {t('software_advisory.group2_list_10')}
+                                <br />-  {t('software_advisory.group2_list_11')}
+                                <br />- Q {t('software_advisory.group2_list_12')}
+                                <br />-  {t('software_advisory.group2_list_13')}
                             </ul>
                         </div>
                     </div>

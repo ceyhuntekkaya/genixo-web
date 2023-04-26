@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer1 from './components/Footer1'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import TrialLink from './components/TrialLink'
 import MobileApp from './services/MobileApp'
@@ -10,8 +10,10 @@ import SolutionArchitecture from './services/SolutionArchitecture'
 import CloudDevelopment from './services/CloudDevelopment'
 import DataScience from './services/DataScience'
 import SupportServices from './services/SupportServices'
+import {useTranslation} from "react-i18next";
 
 export default function Services() {
+    const {t, i18n} = useTranslation('common');
     return (
             <div id="page" className="page">
                 <div className='mt-3'></div>
@@ -26,7 +28,7 @@ export default function Services() {
                 <hr className="divider" />
                 <DataScience />
                 <TrialLink />
-                <Footer1 mainCssClass="bg-lightgrey footer division" />
+                <Footer mainCssClass="bg-lightgrey footer division" />
             </div>
     )
 }

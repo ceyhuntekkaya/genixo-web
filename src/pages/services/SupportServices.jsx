@@ -20,8 +20,8 @@ export default function SupportServices() {
                 <div className="fbox-4-wrapper">
                     <div className="row row-cols-1 row-cols-md-2">
                         {
-                            serviceData.support.services.map(service =>
-                                <div className="col">
+                            serviceData.support.services.map((service, key) =>
+                                <div className="col" key={key}>
                                     <div className="fbox-4 pc-25 mb-40 wow fadeInUp">
                                         <div className="fbox-ico">
                                             <div className="ico-60 shape-ico violet-red-color">

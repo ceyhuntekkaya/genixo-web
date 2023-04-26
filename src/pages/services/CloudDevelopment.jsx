@@ -17,8 +17,8 @@ export default function CloudDevelopment() {
                             
                             <div className='row mt-3'>
                                 {
-                                    serviceData.cloud.services.map(service =>
-                                        <div className='col-6 mt-2'><h3>
+                                    serviceData.cloud.services.map((service, key) =>
+                                        <div className='col-6 mt-2' key={key}><h3>
                                             {t(`services.cloud.${service.name}`)}</h3>{t(`services.cloud.${service.description}`)}</div>
 
                                     )

@@ -19,8 +19,8 @@ export default function MobileApp() {
                 <div className="fbox-8-wrapper text-center">
                     <div className="row row-cols-1 row-cols-md-3">
                         {
-                            serviceData.mobile.services.map(service =>
-                                <div className="col">
+                            serviceData.mobile.services.map((service, key) =>
+                                <div className="col" key={key}>
                                     <div className="fbox-8 mb-40 wow fadeInUp">
                                         <div className="fbox-img bg-whitesmoke-gradient">
                                             <img className="img-fluid" src={service.image} alt="feature-icon" />

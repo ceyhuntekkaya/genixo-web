@@ -15,7 +15,8 @@ export default function Header(props) {
     setLanguage(lang);
   };
 
-
+  console.log(language)
+  console.log(setLanguage)
 
   return (
     <header id="header" className={mainCssClass}>
@@ -82,7 +83,7 @@ export default function Header(props) {
                         </a>
                         <ul className="sub-menu">
                           {menu.sub.map((sub, key) => (
-                            <li
+                            <li key={key}
                               aria-haspopup="true"
                               onClick={() => {
                                 if (
@@ -134,33 +135,44 @@ export default function Header(props) {
                     </a>
                   </span>
 
-                  
-                    {
-                      language === "tr" ? 
-                      <span>
+
+                  {!language ? (
+                    <span>
                       <div
                         className="cursor-pointer"
                         onClick={() => changeLang("en")}
-                        style={{padding: "18px"}}
+                        style={{ padding: "18px" }}
                       >
                         <img src={en} alt="en" className="w-10" />
                       </div>
-                    </span> : null
-                    }
-                 
-                 {
-                      language === "en" ? 
-                  <span>
-                    <div
-                      className="cursor-pointer"
-                      style={{padding: "18px"}}
-                      onClick={() => changeLang("tr")}
-                    >
-                      <img src={tr} alt="tr" className="w-10" />
-                    </div>
-                  </span>
-                  : null
-                }
+                    </span>
+                  ) : null}
+
+
+
+                  {language === "tr" || undefined ? (
+                    <span>
+                      <div
+                        className="cursor-pointer"
+                        onClick={() => changeLang("en")}
+                        style={{ padding: "18px" }}
+                      >
+                        <img src={en} alt="en" className="w-10" />
+                      </div>
+                    </span>
+                  ) : null}
+
+                  {language === "en" ? (
+                    <span>
+                      <div
+                        className="cursor-pointer"
+                        style={{ padding: "18px" }}
+                        onClick={() => changeLang("tr")}
+                      >
+                        <img src={tr} alt="tr" className="w-10" />
+                      </div>
+                    </span>
+                  ) : null}
                 </li>
               </ul>
             </nav>

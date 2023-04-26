@@ -15,8 +15,8 @@ export default function SolutionArchitecture() {
                                 <div className="txt-box mb-20">
                                     <h2 className="h2-title-xs statistic-number">{t('services.solution.solutionApplicationTitle')}</h2>
                                     {
-                                        serviceData.solution.services.map(service =>
-                                            <React.Fragment>
+                                        serviceData.solution.services.map((service, key) =>
+                                            <React.Fragment key={key}>
                                                 <h5 className="h5-lg mt-4 mb-1">{t(`services.solution.${service.name}`)}</h5>
                                                 {t(`services.solution.${service.description}`)}
                                             </React.Fragment>

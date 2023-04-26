@@ -9,8 +9,16 @@ import BlogList from "./pages/BlogList";
 import BlogSingle from "./pages/BlogSingle";
 import ConfidentialityAgreementEn from "./pages/ConfidentialityAgreement/ConfidentialityAgreementEn";
 import ConfidentialityAgreementTr from "./pages/ConfidentialityAgreement/ConfidentialityAgreementTr";
+import { SiteContext } from "./SiteContextProvider";
+import { useContext, useEffect } from "react";
 
 function App() {
+  const { setLanguage } = useContext(SiteContext);
+  useEffect(() => {
+    setLanguage()
+  }, []);
+
+
   return (
     <BrowserRouter>
       <Routes>

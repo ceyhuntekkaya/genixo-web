@@ -9,6 +9,7 @@ import i18next from "i18next";
 
 import common_tr from "./translations/tr/common.json";
 import common_en from "./translations/en/common.json";
+import SiteContextProvider from "./SiteContextProvider";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -27,11 +28,11 @@ i18next.init({
 
 
 root.render(
-  <React.StrictMode>
+  <SiteContextProvider>
     <I18nextProvider i18n={i18next}>
             <App/>
         </I18nextProvider>
-  </React.StrictMode>
+  </SiteContextProvider>
 );
 
 reportWebVitals();

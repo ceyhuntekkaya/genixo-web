@@ -20,8 +20,8 @@ export default function DataScience() {
                             <p>{t('services.data.dataApplicationDescription')}</p>
                             <ul className="simple-list">
                                 {
-                                    serviceData.data.services.map(service =>
-                                        <React.Fragment>
+                                    serviceData.data.services.map((service, key) =>
+                                        <React.Fragment key={key}>
                                             <p className="p-lg mb-0 mt-3"><b>{t(`services.data.${service.name}`)}</b></p>
                                             <li className="list-item">{t(`services.data.${service.description}`)} </li>
                                         </React.Fragment>
@@ -36,8 +36,8 @@ export default function DataScience() {
                             <p><b>{t('services.data.techniquesDescription')}</b></p>
                             <ul className="simple-list">
                                 {
-                                    serviceData.data.techniques.map(service =>
-                                        <React.Fragment>
+                                    serviceData.data.techniques.map((service, key) =>
+                                        <React.Fragment key={key}>
                                             <p className="p-lg mb-0 mt-3"><b>{t(`services.data.${service.name}`)}</b>
                                             </p>
                                             <li className="list-item">{t(`services.data.${service.description}`)}
@@ -53,8 +53,8 @@ export default function DataScience() {
                             <p><b>{t('services.data.techniqueusedDescription')}</b></p>
                             <ul className="simple-list mb-3">
                                 {
-                                    serviceData.data.techniqueused.map(service =>
-                                        <li className="list-item">{t(`services.data.${service.description}`)}
+                                    serviceData.data.techniqueused.map((service, key) =>
+                                        <li className="list-item" key={key}>{t(`services.data.${service.description}`)}
                                         </li>
                                     )
                                 }

@@ -17,8 +17,8 @@ export default function DevOps() {
                             </p>
                             <ul className="tabs-1">
                                 {
-                                    serviceData.devops.services.map(service =>
-                                        <li className="tab-link current" data-tab="tab-1">
+                                    serviceData.devops.services.map((service, key) =>
+                                        <li className="tab-link current" data-tab="tab-1" key={key}>
                                             <h5 className="h5-md">{t(`services.devops.${service.name}`)}</h5>
                                             <p className="p-lg">{t(`services.devops.${service.description}`)}</p>
                                         </li>

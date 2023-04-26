@@ -15,7 +15,16 @@ import { useContext, useEffect } from "react";
 function App() {
   const { setLanguage } = useContext(SiteContext);
   useEffect(() => {
-    setLanguage()
+    const lang = localStorage.getItem('lang')
+    if(!lang){
+      localStorage.setItem('lang', 'tr')
+      setLanguage('tr')
+    }
+    else{
+      setLanguage(lang)
+    }
+
+
   }, []);
 
 

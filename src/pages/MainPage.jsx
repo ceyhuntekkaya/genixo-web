@@ -5,7 +5,7 @@ import Brands from "./components/Brands";
 import Content2 from "./components/Content2";
 import SoftwareAdvisory from "./components/SoftwareAdvisory";
 import NGSD from "./components/NGSD";
-import Footer1 from "./components/Footer1";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import TrialLink from "./components/TrialLink";
 
@@ -22,7 +22,7 @@ export default function MainPage() {
         <NGSD />
         <SoftwareAdvisory />
         <TrialLink />
-        <Footer1 mainCssClass="footer division" />
+        <Footer mainCssClass="footer division" />
       </div>
     </React.Fragment>
   );

@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer1 from './components/Footer1'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import TrialLink from './components/TrialLink'
 import {useTranslation} from "react-i18next";
@@ -447,7 +447,7 @@ export default function BlogSingle() {
 
 
             <TrialLink />
-            <Footer1 mainCssClass="bg-lightgrey footer division" />
+            <Footer mainCssClass="bg-lightgrey footer division" />
         </div>
     )
 }

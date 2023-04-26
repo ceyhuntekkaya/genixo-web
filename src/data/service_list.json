@@ -1,0 +1,44 @@
+{
+    "services": [
+        {
+            "logo": "images/services/services_desing_01.png",
+            "name": "web",
+            "link": "/services#web-application"
+        },
+        {
+            "logo": "images/services/services_desing_07.png",
+            "name": "solution",
+            "link": "/services#solution-architecture"
+        },
+        {
+            "logo": "images/services/services_desing_03.png",
+            "name": "custom",
+            "link": "/services#custom-software-development"
+        },
+        {
+            "logo": "images/services/services_desing_05.png",
+            "name": "devops",
+            "link": "/services#dev-ops"
+        },
+        {
+            "logo": "images/services/services_desing_02.png",
+            "name": "cloud",
+            "link": "/services#cloud-development"
+        },
+        {
+            "logo": "images/services/services_desing_06.png",
+            "name": "mobile",
+            "link": "/services#mobile-app"
+        },
+        {
+            "logo": "images/services/services_desing_08.png",
+            "name": "support",
+            "link": "/services#support-services"
+        },
+        {
+            "logo": "images/services/services_desing_04.png",
+            "name": "data",
+            "link": "/services#data-science"
+        }
+    ]
+}

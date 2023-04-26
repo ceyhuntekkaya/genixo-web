@@ -9,9 +9,8 @@ export default function SoftwareAdvisory() {
                 <div className="row justify-content-center">
                     <div className="col-lg-10 col-xl-8">
                         <div className="section-title title-01 mb-70">
-                            <h2 className="h2-md">Genixo <span style={{color:"#f48603"}}>Software _description</span></h2>
+                            <h2 className="h2-md">Genixo <span style={{color:"#f48603"}}>{t('software_advisory.name')} </span></h2>
                             <p className="p-xl">{t('software_advisory.description')}
-
                             </p>
                         </div>
                     </div>

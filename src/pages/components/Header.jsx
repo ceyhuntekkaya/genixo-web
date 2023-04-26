@@ -9,11 +9,13 @@ const menus = require("../../data/menu.json");
 export default function Header(props) {
   const { t } = useTranslation("common");
   const mainCssClass = props.mainCssClass;
-  const { setLanguage } = useContext(SiteContext);
+  const { language, setLanguage } = useContext(SiteContext);
 
   const changeLang = (lang) => {
     setLanguage(lang);
   };
+
+
 
   return (
     <header id="header" className={mainCssClass}>
@@ -132,23 +134,33 @@ export default function Header(props) {
                     </a>
                   </span>
 
+                  
+                    {
+                      language === "tr" ? 
+                      <span>
+                      <div
+                        className="cursor-pointer"
+                        onClick={() => changeLang("en")}
+                        style={{padding: "18px"}}
+                      >
+                        <img src={en} alt="en" className="w-10" />
+                      </div>
+                    </span> : null
+                    }
+                 
+                 {
+                      language === "en" ? 
                   <span>
                     <div
                       className="cursor-pointer"
-                      onClick={() => changeLang("en")}
-                    >
-                      <img src={en} alt="en" className="w-10" />
-                    </div>
-                  </span>
-
-                  <span>
-                    <div
-                      className="cursor-pointer"
+                      style={{padding: "18px"}}
                       onClick={() => changeLang("tr")}
                     >
                       <img src={tr} alt="tr" className="w-10" />
                     </div>
                   </span>
+                  : null
+                }
                 </li>
               </ul>
             </nav>

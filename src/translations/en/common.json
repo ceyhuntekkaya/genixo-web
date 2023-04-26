@@ -213,6 +213,26 @@
         "Professionalism": "Professionalism",
         "Professionalism_description": "Success is achievable once you are skilled or experienced at a job. However, in order to maintain the persistence of the success achieved, a professional approach is essential, otherwise, you will definitely shorten the life of the success you have achieved. Genixo mentality always aims for persistence and sustainable success both on a personal and corporate basis by having a brand culture in which talented and experienced people work professionally. With our professional business awareness, we do not leave success to chance."
     },
+    "contact":{
+        "confirmation": "Your message has been successfully sent.",
+        "header": "Have a question? Need help? Don't hesitate, drop us a line",
+        "topic": "This question is about:",
+        "topic_description": "Choose a topic, so we know who to send your request to:",
+        "name": "Your Name:",
+        "name_description": "Please enter your real name.",
+        "company": "Company Name:",
+        "company_description": "Please enter your company name.",
+        "mail": "Your Email Address:",
+        "mail_description": "Please double-check your email address.",
+        "message": "Explain your question in details: ",
+        "message_description": "Please explain your question in details.",
+        "button": "Submit Request",
+        "address": "Address",
+        "office": "Main Office",
+        "social": "Socials",
+        "phone": "Reach us",
+        "other":"Other"
+    },
     "service_list":{
         "web": "Web Application",
         "solution": "Solution Architecture",

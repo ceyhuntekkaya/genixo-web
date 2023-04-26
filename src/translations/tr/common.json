@@ -214,14 +214,24 @@
         "professionalism_description": "Bir işte yetenekli veya deneyimli olduğunuzda başarıya ulaşılabilir. Ancak elde edilen başarının kalıcı olması için profesyonel bir yaklaşım şarttır, aksi takdirde elde ettiğiniz başarının ömrünü mutlaka kısaltırsınız. Genixo anlayışı, yetenekli ve deneyimli kişilerin profesyonel olarak çalıştığı bir marka kültürüne sahip olarak hem bireysel hem de kurumsal bazda her zaman kalıcılığı ve sürdürülebilir başarıyı hedeflemektedir. Profesyonel iş bilincimizle başarıyı şansa bırakmıyoruz."
     },
     "contact":{
-        "name": "",
-        "name2": "",
-        "name3": "",
-        "name4": "",
-        "name5": "",
-        "name6": "",
-        "name7": "",
-        "name8": ""
+        "confirmation": "Mesajınız başarıyla iletilmiştir.",
+        "header": "Bir sorunuz mu var? Yardıma mı ihtiyacınız var? Tereddüt etmeyin, bize bir mesaj bırakın",
+        "topic": "Bu soru hakkında:",
+        "topic_description": "Bir konu seçin, böylece talebinizi kime göndereceğimizi bilelim:",
+        "name": "İsminiz:",
+        "name_description": "Lütfen gerçek adınızı girin.",
+        "company": "Kurum Adı:",
+        "company_description": "Lütfen kurum adını girin.",
+        "mail": "E-mail Adresiniz:",
+        "mail_description": "Lütfen e-posta adresinizi tekrar kontrol edin.",
+        "message": "Sorunuzu ayrıntılı olarak açıklayın: ",
+        "message_description": "Lütfen sorunuzu ayrıntılı olarak açıklayın.",
+        "button": "Gönder",
+        "address": "Adres",
+        "office": "Merkez Ofis",
+        "social": "Sosyal Media",
+        "phone": "Telefon",
+        "other":"Diğer"
     },
     "service_list":{
         "web": "Web Uygulamaları",
@@ -242,4 +252,5 @@
         "button": "Yolculuğumuza bugün başlayalım!",
         "read": "Verileriniz bizimle güvende. Gizliliğinizi ciddiye alıyoruz ve verilerinizi asla kimseyle paylaşmayacağız."
     }
+  
 }

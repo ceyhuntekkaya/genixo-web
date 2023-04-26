@@ -9,7 +9,6 @@ import i18next from "i18next";
 
 import common_tr from "./translations/tr/common.json";
 import common_en from "./translations/en/common.json";
-import common_de from "./translations/en/common.json";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

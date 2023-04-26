@@ -22,8 +22,8 @@ export default function WebApplication() {
                                 <p className="p-lg">{t('services.web.webApplicationDescription')}</p>
                                 <div className='row'>
                                     {
-                                        serviceData.web.services.map(service =>
-                                            <div className='col-12 mb-4'>
+                                        serviceData.web.services.map((service, key) =>
+                                            <div className='col-12 mb-4' key={key}>
                                                 <h3 className='mb-1'>{t(`services.web.${service.name}`)}</h3>
                                                 {t(`services.web.${service.description}`)}
                                             </div>

@@ -15,6 +15,7 @@ class SiteContextProvider extends Component {
   setLanguage = (language) => {
     this.setState({ language });
     i18next.changeLanguage(language)
+    localStorage.setItem('lang', language)
   };
 
   render() {

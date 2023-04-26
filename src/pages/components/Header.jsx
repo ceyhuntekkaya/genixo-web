@@ -15,8 +15,6 @@ export default function Header(props) {
     setLanguage(lang);
   };
 
-  console.log(language)
-  console.log(setLanguage)
 
   return (
     <header id="header" className={mainCssClass}>

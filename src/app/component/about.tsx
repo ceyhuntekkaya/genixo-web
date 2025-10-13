@@ -1,6 +1,13 @@
 'use client';
 
-export default function AboutSection() {
+
+import {Dictionary} from "@/i18n/types";
+
+interface PageProps {
+    dict: Dictionary;
+}
+
+export default function AboutSection({ dict }: PageProps) {
     return (
         <>
 

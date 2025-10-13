@@ -1,7 +1,11 @@
 'use client';
 
+import {Dictionary} from "@/i18n/types";
 
-export default function CaseStudySection() {
+interface PageProps {
+    dict: Dictionary;
+}
+export default function CaseStudySection({ dict }: PageProps) {
     return (
         <>
 

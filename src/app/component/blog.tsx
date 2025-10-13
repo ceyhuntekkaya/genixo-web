@@ -1,6 +1,12 @@
 'use client';
 
-export default function BlogSection() {
+
+import {Dictionary} from "@/i18n/types";
+
+interface PageProps {
+    dict: Dictionary;
+}
+export default function BlogSection({ dict }: PageProps) {
     return (
         <>
 

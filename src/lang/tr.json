@@ -1,0 +1,21 @@
+{
+  "hero.title": "",
+  "hero.text": "",
+  "hero.explain": "",
+  "hero.button": "",
+
+
+  "hero": {
+    "heroTitle": "",
+    "heroText": "",
+    "heroExplain": "",
+    "heroButton": ""
+  },
+  "menu": {
+
+  },
+  "services": {
+
+  }
+
+}

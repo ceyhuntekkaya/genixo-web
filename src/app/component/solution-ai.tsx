@@ -1,5 +1,12 @@
 'use client';
-export default function SolutionAISection() {
+
+
+import {Dictionary} from "@/i18n/types";
+
+interface PageProps {
+    dict: Dictionary;
+}
+export default function SolutionAISection({ dict }: PageProps) {
     return (
         <>
 

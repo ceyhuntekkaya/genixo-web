@@ -1,8 +1,14 @@
 'use client';
 
 import banner from "@/app/assets/images/hero-bg3.jpg";
+import Link from "next/link";
+import {Dictionary} from "@/i18n/types";
 
-export default function HeroSection() {
+
+interface PageProps {
+    dict: Dictionary;
+}
+export default function HeroSection({ dict }: PageProps) {
     return (
         <>
 
@@ -55,26 +61,19 @@ export default function HeroSection() {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="hero-content">
-                                <h3 className="sub-title">Technology Releted Consultancy
+                                <h3 className="sub-title">BİLİŞİM - TEKNOLOJİ - YAPAY ZEKA ÇÖZÜMLERİ
                                 </h3>
-                                <h2 className="title">We transform ideas into technology
+                                <h2 className="title">Akıllı Teknolojilerle Değer Yaratıyoruz.
                                 </h2>
-                                <p>We provide the most responsive and functional IT
-                                    design for companies and businesses worldwide.</p>
+                                <p>Karmaşık problemlere akıllı çözümler...</p>
                                 <div className="hero-btn">
-                                    <a className="btn" href="about.html">Read More</a>
+                                    <Link className="btn" href="/service">Hizmetlerimiz</Link>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
         </>
     )
 }

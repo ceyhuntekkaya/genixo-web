@@ -1,0 +1,19 @@
+{
+  "menu": {
+    "Home": "ev",
+    "AboutUs": "About Us",
+    "Services": "Services",
+    "ContactUs": "Contact Us",
+    "WebApplication": "Web Application",
+    "SolutionArchitecture": "Solution Architecture",
+    "CustomSoftwareDevelopment": "Custom Software Development",
+    "DevOpsServices": "DevOps Services",
+    "CloudDevelopment": "Cloud Development",
+    "MobileDevelopment": "Mobile Development",
+    "SupportServices": "Support Services",
+    "DataScience": "Data Science"
+  },
+  "welcome": {
+    "title": "Genixo IT and Technology"
+  }
+}

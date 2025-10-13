@@ -1,6 +1,12 @@
 'use client';
 
-export default function ServiceAISection() {
+
+import {Dictionary} from "@/i18n/types";
+
+interface PageProps {
+    dict: Dictionary;
+}
+export default function ServiceAISection({ dict }: PageProps) {
     return (
         <>
 

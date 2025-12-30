@@ -21,13 +21,13 @@ export default async function Home({
     return (
         <>
 
-            <HeroSection dict={dict} />
-            <ServiceSection dict={dict} />
-            <AboutSection dict={dict} />
+            <HeroSection dict={dict} locale={locale} />
+            <ServiceSection dict={dict} locale={locale} />
+            <AboutSection dict={dict} locale={locale} />
             {
                 //  <CounterSection/>
             }
-            <CaseStudySection dict={dict} />
+            <CaseStudySection dict={dict} locale={locale} />
             {
                 //  <SkillSection/>
                 // <SolutionSection/>
@@ -35,11 +35,11 @@ export default async function Home({
                 // <BrandSection/>
                 // <TeamSection/>
             }
-            <BlogSection dict={dict} />
-            <AboutAISection dict={dict} />
-            <ServiceAISection dict={dict} />
-            <CounterAISection dict={dict} />
-            <SolutionAISection dict={dict} />
+            <BlogSection dict={dict} locale={locale} />
+            <AboutAISection dict={dict} locale={locale} />
+            <ServiceAISection dict={dict} locale={locale} />
+            <CounterAISection dict={dict} locale={locale} />
+            <SolutionAISection dict={dict} locale={locale} />
 
         </>
     )

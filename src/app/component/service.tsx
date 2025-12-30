@@ -1,13 +1,15 @@
 'use client';
 import {Dictionary} from "@/i18n/types";
+import Link from "next/link";
+import {Locale} from "@/i18n/config";
 
 interface PageProps {
+    locale: Locale;
     dict: Dictionary;
 }
-export default function ServiceSection({ dict }: PageProps) {
+export default function ServiceSection({ dict, locale }: PageProps) {
     return (
         <>
-
             <div className="section techwix-service-section-03"
                  style={{backgroundImage: `url(/assets/images/bg/service-bg3.jpg)`}}>
                 <div className="container">
@@ -16,15 +18,13 @@ export default function ServiceSection({ dict }: PageProps) {
                             <div className="col-xl-3 col-md-6">
                                 <div className="service-item-03">
                                     <div className="service-img">
-                                        <img src="/assets/images/ser-icon9.png" alt=""/>
+                                        <img src="/assets/images/ser-icon9.png" alt=""  />
                                     </div>
                                     <div className="service-content">
-                                        <h3 className="title"><a href="service.html">Infrastructure Technology</a></h3>
-                                        <p>Accelerate innovation with world-className tech teams We’ll match you to an
-                                            entire
-                                            remote team of incredible freelance talent.</p>
+                                        <h3 className="title"><Link href={`/${locale}/service/web`}>{dict.services.WebApplication.name}</Link></h3>
+                                        <p>{dict.services.WebApplication.summary}</p>
                                         <div className="read-more">
-                                            <a href="service.html"><i className="fas fa-plus"></i> Read More</a>
+                                            <Link href={`/${locale}/service/web`}><i className="fas fa-plus"></i> {dict.general.ReadMore}</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -32,15 +32,13 @@ export default function ServiceSection({ dict }: PageProps) {
                             <div className="col-xl-3 col-md-6">
                                 <div className="service-item-03">
                                     <div className="service-img">
-                                        <img src="/assets/images/ser-icon10.png" alt=""/>
+                                        <img src="/assets/images/ser-icon10.png" alt="" />
                                     </div>
                                     <div className="service-content">
-                                        <h3 className="title"><a href="service.html">IT Consultancy & solution</a></h3>
-                                        <p>Accelerate innovation with world-className tech teams We’ll match you to an
-                                            entire
-                                            remote team of incredible freelance talent.</p>
+                                        <h3 className="title"><Link href={`/${locale}/service/custom`}>{dict.services.CustomSoftwareDevelopment.name}</Link></h3>
+                                        <p>{dict.services.CustomSoftwareDevelopment.summary}</p>
                                         <div className="read-more">
-                                            <a href="service.html"><i className="fas fa-plus"></i> Read More</a>
+                                            <Link href={`/${locale}/service/custom`}><i className="fas fa-plus"></i> {dict.general.ReadMore}</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -48,15 +46,13 @@ export default function ServiceSection({ dict }: PageProps) {
                             <div className="col-xl-3 col-md-6">
                                 <div className="service-item-03">
                                     <div className="service-img">
-                                        <img src="/assets/images/ser-icon11.png" alt=""/>
+                                        <img src="/assets/images/ser-icon11.png" alt="" />
                                     </div>
                                     <div className="service-content">
-                                        <h3 className="title"><a href="service.html">Cloud managed services</a></h3>
-                                        <p>Accelerate innovation with world-className tech teams We’ll match you to an
-                                            entire
-                                            remote team of incredible freelance talent.</p>
+                                        <h3 className="title"><Link href={`/${locale}/service/data`}>{dict.services.DataScience.name}</Link></h3>
+                                        <p>{dict.services.DataScience.summary}</p>
                                         <div className="read-more">
-                                            <a href="service.html"><i className="fas fa-plus"></i> Read More</a>
+                                            <Link href={`/${locale}/service/data`}><i className="fas fa-plus"></i> {dict.general.ReadMore}</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -64,15 +60,13 @@ export default function ServiceSection({ dict }: PageProps) {
                             <div className="col-xl-3 col-md-6">
                                 <div className="service-item-03">
                                     <div className="service-img">
-                                        <img src="/assets/images/ser-icon12.png" alt=""/>
+                                        <img src="/assets/images/ser-icon12.png" alt="" />
                                     </div>
                                     <div className="service-content">
-                                        <h3 className="title"><a href="service.html">Blockchain technology</a></h3>
-                                        <p>Accelerate innovation with world-className tech teams We’ll match you to an
-                                            entire
-                                            remote team of incredible freelance talent.</p>
+                                        <h3 className="title"><Link href={`/${locale}/service/mobile`}>{dict.services.MobileDevelopment.name}</Link></h3>
+                                        <p>{dict.services.MobileDevelopment.summary}</p>
                                         <div className="read-more">
-                                            <a href="service.html"><i className="fas fa-plus"></i> Read More</a>
+                                            <Link href={`/${locale}/service/mobile`}><i className="fas fa-plus"></i> R{dict.general.ReadMore}</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -81,12 +75,6 @@ export default function ServiceSection({ dict }: PageProps) {
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
         </>
     )
 }

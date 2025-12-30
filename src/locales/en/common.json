@@ -1,4 +1,12 @@
 {
+  "general": {
+    "ReadMore": "Read More"
+  },
+  "about": {
+    "WhoWeAre": "Who We Are...",
+    "slogan": "Software Solution Partner & Innovation Company",
+    "short": "To create successful software, you need a development team that understands your business requirements. Our experts will determine a custom solution that fits your idea, timeline, and budget, then design and build the application and help you test it with real users. As a result, you will get a modern digital product that benefits your business and is loved by users."
+  },
   "menu": {
     "Home": "Home",
     "AboutUs": "About Us",
@@ -15,5 +23,47 @@
   },
   "welcome": {
     "title": "Genixo IT and Technology"
+  },
+  "services": {
+    "WebApplication": {
+      "summary": "Genixo is a passionate web development company that is capable of delivering complex projects beyond the limits of conventional website creation.",
+      "name": "Web Application",
+      "description": "Genixo is a passionate web development company that is capable of delivering complex projects beyond the limits of conventional website creation.\n\nWeb Application and Cloud Development\nWith Genixo, your visions and ideas become a high-quality product. According to your needs, even a demanding web application can be implemented in an organized manner. In the light of the solutions provided and development, your projects become successful, your vision comes to life.\nWeb Design\nGenixo provides user-centered and relevant UI/UX designs. By using these industry-leading ideas, your vision becomes clear and your audience gains enthusiasm.\nWeb Integration and Quality Assurance\nRegardless of the integration requirements of your projects, Genixo provides complete third-party support for web presences or applications. Furthermore, our methodology obliges us to successfully develop a comprehensive, bug-free and stable application.\nTechnologies we use:"
+    },
+    "ArchitectureAsAService": {
+      "summary": "Solution Architecture Benefits\nDesigning architecture for a software solution focuses on achieving qualitative output because you have a blueprint of the functionalities and their requirements.",
+      "name": "Architecture as a Service",
+      "description": "Solution Architecture Benefits\nDesigning architecture for a software solution focuses on achieving qualitative output because you have a blueprint of the functionalities and their requirements. Helps plan the project lifecycle by providing a general solution structure. Simplifies dealing with complexity because you can observe the big picture with its challenges. Advises on estimation and costing by meeting the requirements of the main stakeholder.\nBusiness, Operations and Technology\nThe emphasis is on result-oriented procedure, the focus is on smart and robust solutions, the priority is the material aspect of solution delivery. Solution Architecture\n\nAccording to your ecosystem and audience, Genixo provides a foundation for your projects by tailoring IT solutions.\n\nWe define functional requirements and implementation phases according to your business needs."
+    },
+    "CustomSoftwareDevelopment": {
+      "summary": "Genixo's professional team designs, creates, deploys and maintains your custom software needs for specific sets of users, functions and organizations.",
+      "name": "Custom Software Development",
+      "description": "Genixo's professional team designs, creates, deploys and maintains your custom software needs for specific sets of users, functions and organizations. The solutions we offer here are uniquely built for your business and can include all web, mobile and desktop applications.\n\nSoftware Product Development\n\nClient Solutions!\nIf you want to develop a software product, let's talk about some benefits:\n- Privacy\n- Customized Traceability and Management\n- Ease/Cost Efficiency of Integrations\n- Fast Adaptation\n- Improved Efficiency\n\nEnterprise Software Development\n\nEnterprise Solutions!\nIf you want to develop enterprise software, let's talk about some benefits:\n- Benefits for the team\n- Belonging\n- Productivity\n\nBenefits for management\n- Prestige\n- Privacy\n- Independence\n- Customized Traceability and Management\n- Ease/Cost Efficiency of Integrations\n- Fast Adaptation\n- Improved Efficiency"
+    },
+    "DevOpsServices": {
+      "summary": "A successful DevOps model is based on four key building blocks: Develop, Build and Test, Deploy, Operate and Monitor.",
+      "name": "DevOps Services",
+      "description": "A successful DevOps model is based on four key building blocks: Develop, Build and Test, Deploy, Operate and Monitor. Genixo can do this for you!\n\nAssessment and Planning\nWe build a roadmap by analyzing and virtualizing the desired state by identifying traceable metrics.\nCI/CD Pipeline\nWe link development operations through Continuous Deployment - Integration - Testing - Deployment.\nProcess Automation\nWe automate the CI/CD pipeline from the beginning of coding to production by encapsulating builds, test cases, versioning and deployment.\nSecurity Integration\nWe perform end-to-end security integration through the 'Security as Code' mechanism."
+    },
+    "CloudDevelopment": {
+      "summary": "Due to its scalability, speed and price performance, cloud solutions are increasingly preferred by businesses",
+      "name": "Cloud Development",
+      "description": "Due to its scalability, speed and price performance, cloud solutions are increasingly preferred by businesses and Genixo offers end-to-end solutions for your business needs in this field.\nCloud Native Development\n\nWe determine which services and at what intensity you will use cloud options for your product, and we build your product from scratch on the cloud.\nCloud Migration\n\nGenixo migrates your data from on-premise infrastructure to the cloud, ensuring its security.\nApplication Re-architecture\n\nWe improve or redevelop an existing product in the Cloud according to needs.\nCloud Consulting\n\nOrganizing business transformation with innovative cloud applications and providing detailed advice at every stage of the transition."
+    },
+    "MobileDevelopment": {
+      "summary": "Mobile applications are important assets for the product. They increase the accessibility, visibility and self-promotion of platforms.",
+      "name": "Mobile Development",
+      "description": "Mobile applications are important assets for the product. They increase the accessibility, visibility and self-promotion of platforms. By using mobile applications, functional accesses of users or customers can be configured, their concentration can be organized, or preferences can be customized to meet the user's needs.\nfeature-icon\niOS Application Development\nGenixo has the knowledge and skills to create user-friendly, feature-rich and reliable iOS mobile applications.\nfeature-icon\nAndroid Application Development\nEnsure the best possible performance and UX with us. Genixo's Android and iOS development team will help you create scalable and professional applications across multiple Android devices.\nfeature-icon\nCross-Platform Application Development\nGenixo can also offer you cross-platform application development. With our dynamism and passion, enjoy adjustable and high-performing applications."
+    },
+    "ApplicationMaintenanceAndSupportServices": {
+      "summary": "Benefits for your business with our technical support\nico-bkg\nProactive attitude\nWe strengthen your foundation, that is, your infrastructure, day by day",
+      "name": "Application Maintenance and Support Services",
+      "description": "Benefits for your business with our technical support\nico-bkg\nProactive attitude\nWe strengthen your foundation, that is, your infrastructure, day by day.\nico-bkg\nFundamentality\nWith the help of Genixo's experts, an entire department can be assembled and set up for your process from scratch.\nico-bkg\nAdvanced Scalability\nGenixo professionals offer agility to your business to grow while staying flexible.\nico-bkg\n24/7 Availability\nGenixo's technology teams can support you 24/7. We are always active and always ready.\nico-bkg\nAbsolute Data Security\nWe treat cybersecurity and data protection issues as the highest priority.\nico-bkg\nCost Efficiency\nGenixo experts know how to keep prices under control for you."
+    },
+    "DataScience": {
+      "summary": "In the 21st century, also called the Information Age, data has become increasingly valuable due to technological developments",
+      "name": "Data Science",
+      "description": "In the 21st century, also called the Information Age, data has become increasingly valuable due to technological developments. Machines become extremely 'intelligent' to the point that even scientists cannot predict where this journey will lead. Data Science, 'the sexiest job of the 21st century' as declared by Harvard Business Review, is the combination of programming and mathematics in order to design models capable of extracting insights or making predictions better and faster compared to humans. Unprocessed data makes your business inefficient. It is only after the data has been processed that the right insights can be revealed and the analysis created in the light of these insights will carry your business to the peak of its potential. Because data is the most valuable thing of our age, reveal the value of data.\n\nData Acquisition\nIf there is not enough data to analyze, we could create the data pipeline if it is accessible or guide you to create an appropriate data acquisition system.\nData Preprocessing\nData sources are not reliable. Therefore, we cleaned the data of inaccurate, aberrant and noisy ones to create more accurate models.\nModel Design\nWe designed a mathematical or machine learning model that describes your system as well as possible.\nData Analysis\nBy using the model trained by your data, we could reveal the insights of your current or upcoming data stream.\nReport/Result\nWe could demonstrate the insights revealed by our model in a user-friendly dashboard.\nThere are mainly 3 techniques in data science;\n\nClassification\nModels are trained in such a way as to label data according to users' preferences. The most explanatory and cliché example of this method is spam or ham mail labeling. From the dataset, the model learns the difference between ham and spam mails and could easily label upcoming mails accordingly.\nRegression\nBasically, regression is finding the best-fitting function for the dataset. By using this function, correlation in the dataset or prediction of the future could be achieved.\nClustering\nIn scenarios where the number of classes is not predefined as in classification problems, models could be trained in such a way as to divide the dataset. These classes would help us understand the relationship and distribution in the dataset.\nData Science techniques are mainly used in;\n\nDecision Making and Prediction\nProcess Optimization\nPattern Recognition\nData Analytics\nRecommendation Systems\nComputer Vision\nTechnologies we use:\n\n"
+    }
   }
 }

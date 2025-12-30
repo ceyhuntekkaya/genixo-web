@@ -2,12 +2,14 @@
 
 
 import {Dictionary} from "@/i18n/types";
+import {Locale} from "@/i18n/config";
 
 interface PageProps {
+    locale: Locale;
     dict: Dictionary;
 }
 
-export default function AboutSection({ dict }: PageProps) {
+export default function AboutSection({ dict, locale }: PageProps) {
     return (
         <>
 
@@ -19,15 +21,10 @@ export default function AboutSection({ dict }: PageProps) {
                             <div className="col-lg-6">
                                 <div className="about-content-wrap">
                                     <div className="section-title">
-                                        <h3 className="sub-title">Who we are</h3>
-                                        <h2 className="title">Highly Tailored IT Design, Management & Support
-                                            Services.</h2>
+                                        <h3 className="sub-title">{dict.about.WhoWeAre}</h3>
+                                        <h2 className="title">{dict.about.slogan}</h2>
                                     </div>
-                                    <p className="text">Accelerate innovation with world-className tech teams We’ll
-                                        match you to an
-                                        entire remote team of incredible freelance talent for all your software
-                                        development
-                                        needs.</p>
+                                    <p className="text">{dict.about.short}</p>
                                     <div className="about-author-info-wrap">
                                         <div className="about-author">
                                             <img src="/assets/images/sign.png" alt=""/>

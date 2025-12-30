@@ -11,8 +11,6 @@ interface MenuSectionProps {
 }
 
 export default function MenuSection({ locale, dict }: MenuSectionProps) {
-    console.log('Locale:', locale);
-    console.log('Dictionary:', dict);
 
     return (
         <>

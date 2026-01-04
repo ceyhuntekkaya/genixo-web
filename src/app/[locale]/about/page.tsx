@@ -74,10 +74,10 @@ export default async function AboutPage({
                             <div className="about-img-wrap">
                                     <img className="shape-1" src="/images/shape/about-shape2.png" alt="" />
                                 <div className="about-img">
-                                    <img src="/images/about-3.jpg" alt="" />
+                                    <img src="/images/about-1-img.jpg" alt="" />
                                 </div>
                                 <div className="about-img about-img-2">
-                                    <img src="/images/about-4.jpg" alt="" />
+                                    <img src="/images/about-2-img.jpg" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -98,14 +98,14 @@ export default async function AboutPage({
                                     </div>
                                     <div className="col-sm-4">
                                         <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '200px' }}>
-                                            <Image src="/images/about-4.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                            <Image src="/images/img-16.png" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
                                         </div>
                                     </div>
                                 </div>
                                 <div className="row mt-4">
                                     <div className="col-sm-4">
                                         <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '200px' }}>
-                                            <Image src="/images/about-4.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                            <Image src="/images/img-17.png" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
                                         </div>
                                     </div>
                                     <div className="col-sm-8">
@@ -120,7 +120,7 @@ export default async function AboutPage({
                                     </div>
                                     <div className="col-sm-4">
                                         <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '200px' }}>
-                                            <Image src="/images/about-4.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                            <Image src="/images/img-15.png" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
                                         </div>
                                     </div>
                                 </div>

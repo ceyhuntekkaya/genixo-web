@@ -6,8 +6,8 @@
       "description": "@/locales/tr/services/WebApplication.html",
       "image1": "/images/about-3.jpg",
       "image2": "/images/about-4.jpg",
-      "active": false,
-      "showOnHomepage": false
+      "active": true,
+      "showOnHomepage": true
     },
     "ArchitectureAsAService": {
       "summary": "Çözüm Mimarisinin Faydaları\nBir yazılım çözümü için mimari tasarlama, işlevlerin ve gereksinimlerinin bir planına sahip olduğunuz için niteliksel çıktıya ulaşmaya odaklanır.",

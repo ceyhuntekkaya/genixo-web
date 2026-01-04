@@ -79,7 +79,12 @@ export default async function SolutionDetail({ solutionKey, dict, locale }: Solu
                 <div className="container">
                     <div className="about-wrap">
                         <div className="row">
-                            <div className="col-lg-6">
+
+                            {
+                                /*
+
+
+<div className="col-lg-6">
                             <div className="about-img-wrap">
                                     <img className="shape-1" src="/images/shape/about-shape2.png" alt="" />
                                     <div className="about-img">
@@ -107,6 +112,12 @@ export default async function SolutionDetail({ solutionKey, dict, locale }: Solu
                                     )}
                                 </div>
                             </div>
+
+
+
+                                */
+                            }
+                            
                             {(solution.description) && (
                                 <div className="row mt-4">
                                     <div className="col-lg-12">

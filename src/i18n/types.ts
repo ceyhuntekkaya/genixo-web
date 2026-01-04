@@ -175,6 +175,7 @@ export type Dictionary = {
             "summary": string;
             "description": string;
             "features"?: string[];
+            "webLink"?: string;
             "image1"?: string;
             "image2"?: string;
             "longDescription"?: string;
@@ -186,6 +187,7 @@ export type Dictionary = {
             "name": string;
             "summary": string;
             "description": string;
+            "webLink"?: string;
             "features"?: string[];
             "image1"?: string;
             "image2"?: string;
@@ -198,6 +200,7 @@ export type Dictionary = {
             "name": string;
             "summary": string;
             "description": string;
+            "webLink"?: string;
             "features"?: string[];
             "image1"?: string;
             "image2"?: string;
@@ -210,6 +213,7 @@ export type Dictionary = {
             "name": string;
             "summary": string;
             "description": string;
+            "webLink"?: string;
             "features"?: string[];
             "image1"?: string;
             "image2"?: string;
@@ -222,6 +226,7 @@ export type Dictionary = {
             "name": string;
             "summary": string;
             "description": string;
+            "webLink"?: string;
             "features"?: string[];
             "image1"?: string;
             "image2"?: string;
@@ -234,6 +239,7 @@ export type Dictionary = {
             "name": string;
             "summary": string;
             "description": string;
+            "webLink"?: string;
             "features"?: string[];
             "image1"?: string;
             "image2"?: string;
@@ -246,6 +252,7 @@ export type Dictionary = {
             "name": string;
             "summary": string;
             "description": string;
+            "webLink"?: string;
             "features"?: string[];
             "image1"?: string;
             "image2"?: string;

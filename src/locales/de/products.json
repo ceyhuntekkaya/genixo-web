@@ -4,6 +4,7 @@
       "name": "ILC International Language Certification",
       "summary": "Eine umfassende Plattform für internationale Sprachzertifizierung und -bewertung.",
       "description": "ILC International Language Certification ist eine moderne Plattform zur Erleichterung von Sprachlern- und Zertifizierungsprozessen. Unsere Plattform bietet umfassende Bewertungstools, Zertifikatsverwaltung und detaillierte Berichtsfunktionen.\n\nDie Plattform unterstützt mehrere Sprachen und bietet flexible Zertifizierungswege für Lernende aller Niveaus. Mit erweiterten Analyse- und Berichtsfunktionen können Pädagogen und Institutionen den Fortschritt verfolgen und Qualitätsstandards sicherstellen.",
+      "webLink":"",
       "features": [
         "Mehrsprachige Unterstützung",
         "Automatische Bewertung und Benotung",
@@ -22,6 +23,7 @@
       "name": "Study Score AI",
       "summary": "KI-gestützte Plattform für Bildungsbewertung und Schülerleistungsanalyse.",
       "description": "Study Score AI nutzt künstliche Intelligenz, um intelligente Bewertung und Analyse der Schülerleistung zu bieten. Die Plattform verwendet erweiterte Machine-Learning-Algorithmen, um Lernmuster zu identifizieren, Ergebnisse vorherzusagen und personalisierte Empfehlungen zu geben.",
+      "webLink":"",
       "features": [
         "KI-gestützte Leistungsanalyse",
         "Prädiktive Analysen",
@@ -40,6 +42,7 @@
       "name": "egitimiste.com",
       "summary": "Umfassende Bildungsplattform, die Schüler mit qualitativ hochwertigen Bildungsressourcen verbindet.",
       "description": "egitimiste.com ist eine umfassende Bildungsplattform, die darauf ausgelegt ist, Schüler mit qualitativ hochwertigen Bildungsressourcen, Kursen und Institutionen zu verbinden. Die Plattform dient als Brücke zwischen Lernenden und Bildungsmöglichkeiten.",
+      "webLink":"",
       "features": [
         "Umfassende Programmdatenbank",
         "Erweiterte Suche und Filterung",
@@ -58,6 +61,7 @@
       "name": "Genixo Work AI",
       "summary": "KI-gestützte Arbeitsplatzproduktivitäts- und Kollaborationsplattform.",
       "description": "Genixo Work AI ist eine intelligente Arbeitsplatzplattform, die künstliche Intelligenz nutzt, um Produktivität zu steigern, Arbeitsabläufe zu optimieren und Zusammenarbeit zu verbessern. Die Plattform bietet eine Suite von Tools, die Teams helfen sollen, effizienter zu arbeiten.",
+      "webLink":"",
       "features": [
         "KI-gestützte Aufgabenautomatisierung",
         "Intelligente Terminplanung",
@@ -68,14 +72,15 @@
       ],
       "image1": "/images/about-3.jpg",
       "image2": "/images/about-4.jpg",
-      "active": true,
-      "showOnHomepage": true,
+      "active": false,
+      "showOnHomepage": false,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "GenixoAssistant": {
       "name": "Genixo Assistant",
       "summary": "Intelligenter virtueller Assistent für Geschäftsabläufe und Kundensupport.",
       "description": "Genixo Assistant ist ein fortschrittlicher virtueller Assistent, der von künstlicher Intelligenz angetrieben wird und darauf ausgelegt ist, eine Vielzahl von Geschäftsabläufen und Kundensupport-Aufgaben zu bewältigen. Der Assistent kann natürliche Sprache verstehen, Anfragen verarbeiten und intelligente Antworten geben.",
+      "webLink":"",
       "features": [
         "Verarbeitung natürlicher Sprache",
         "24/7 Verfügbarkeit",
@@ -86,14 +91,15 @@
       ],
       "image1": "/images/about-3.jpg",
       "image2": "/images/about-4.jpg",
-      "active": true,
-      "showOnHomepage": true,
+      "active": false,
+      "showOnHomepage": false,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "TOMEREYadis": {
       "name": "TÖMER E-Yadis",
       "summary": "Digitale Plattform für türkische Sprachausbildung und Zertifizierung.",
       "description": "TÖMER E-Yadis ist eine umfassende digitale Plattform für türkische Sprachausbildung und Zertifizierung. Die Plattform bietet ein vollständiges Lernmanagementsystem für Türkischkurse von Anfänger- bis Fortgeschrittenenniveau.",
+      "webLink":"",
       "features": [
         "Umfassendes Kursmanagement",
         "Interaktive Lernmaterialien",
@@ -104,13 +110,14 @@
       ],
       "image1": "/images/about-3.jpg",
       "image2": "/images/about-4.jpg",
-      "active": true,
-      "showOnHomepage": true
+      "active": false,
+      "showOnHomepage": false
     },
     "RetiredTravelApp": {
       "name": "Retired Travel App",
       "summary": "Mobile Anwendung für Rentnerreisende mit Reiseplanungs- und Unterstützungsdiensten.",
       "description": "Die Retired Travel App ist eine spezialisierte mobile Anwendung, die auf die besonderen Bedürfnisse von Rentnerreisenden zugeschnitten ist. Die App bietet umfassende Reiseplanungstools, Zielinformationen und Unterstützungsdienste für Seniorenreisende.",
+      "webLink":"",
       "features": [
         "Seniorenfreundliches Interface-Design",
         "Umfassende Reiseplanungstools",
@@ -121,8 +128,8 @@
       ],
       "image1": "/images/about-3.jpg",
       "image2": "/images/about-4.jpg",
-      "active": true,
-      "showOnHomepage": true,
+      "active": false,
+      "showOnHomepage": false,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     }
   }

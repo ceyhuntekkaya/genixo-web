@@ -13,11 +13,28 @@
     "form": {
       "subtitle": "Demander un devis",
       "title": "Comment pouvons-nous vous aider !",
-      "namePlaceholder": "Nom *",
-      "emailPlaceholder": "E-mail *",
-      "subjectPlaceholder": "Sujet *",
-      "messagePlaceholder": "Écrivez un message",
-      "submitButton": "Envoyer le message"
+      "mainTitle": "Vous avez une question ? Besoin d'aide ? N'hésitez pas, laissez-nous un message",
+      "serviceLabel": "À propos de ce service :",
+      "serviceDescription": "Sélectionnez un sujet afin que nous sachions à qui envoyer votre demande :",
+      "servicePlaceholder": "Sélectionner un service",
+      "otherOption": "Autre",
+      "nameLabel": "Votre nom :",
+      "nameDescription": "Veuillez entrer votre vrai nom.",
+      "namePlaceholder": "Votre nom",
+      "companyLabel": "Nom de l'entreprise :",
+      "companyDescription": "Veuillez entrer le nom de l'entreprise.",
+      "companyPlaceholder": "Nom de l'entreprise",
+      "emailLabel": "Votre adresse e-mail :",
+      "emailDescription": "Veuillez vérifier à nouveau votre adresse e-mail.",
+      "emailPlaceholder": "Votre adresse e-mail",
+      "messageLabel": "Décrivez votre question en détail :",
+      "messageDescription": "Veuillez décrire votre question en détail.",
+      "messagePlaceholder": "Décrivez votre question en détail",
+      "submitButton": "ENVOYER",
+      "submitting": "Envoi en cours...",
+      "successMessage": "Votre message a été envoyé avec succès !",
+      "errorMessage": "Une erreur s'est produite. Veuillez réessayer.",
+      "connectionError": "Erreur de connexion. Veuillez réessayer."
     }
   },
   "team": {

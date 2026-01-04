@@ -13,11 +13,28 @@
     "form": {
       "subtitle": "Запросить предложение",
       "title": "Чем мы можем вам помочь!",
-      "namePlaceholder": "Имя *",
-      "emailPlaceholder": "Электронная почта *",
-      "subjectPlaceholder": "Тема *",
-      "messagePlaceholder": "Напишите сообщение",
-      "submitButton": "Отправить сообщение"
+      "mainTitle": "У вас есть вопрос? Нужна помощь? Не стесняйтесь, оставьте нам сообщение",
+      "serviceLabel": "Об этом сервисе:",
+      "serviceDescription": "Выберите тему, чтобы мы знали, кому отправить ваш запрос:",
+      "servicePlaceholder": "Выберите сервис",
+      "otherOption": "Другое",
+      "nameLabel": "Ваше имя:",
+      "nameDescription": "Пожалуйста, введите ваше настоящее имя.",
+      "namePlaceholder": "Ваше имя",
+      "companyLabel": "Название компании:",
+      "companyDescription": "Пожалуйста, введите название компании.",
+      "companyPlaceholder": "Название компании",
+      "emailLabel": "Ваш адрес электронной почты:",
+      "emailDescription": "Пожалуйста, еще раз проверьте ваш адрес электронной почты.",
+      "emailPlaceholder": "Ваш адрес электронной почты",
+      "messageLabel": "Опишите ваш вопрос подробно:",
+      "messageDescription": "Пожалуйста, опишите ваш вопрос подробно.",
+      "messagePlaceholder": "Опишите ваш вопрос подробно",
+      "submitButton": "ОТПРАВИТЬ",
+      "submitting": "Отправка...",
+      "successMessage": "Ваше сообщение успешно отправлено!",
+      "errorMessage": "Произошла ошибка. Пожалуйста, попробуйте снова.",
+      "connectionError": "Ошибка соединения. Пожалуйста, попробуйте снова."
     }
   },
   "team": {

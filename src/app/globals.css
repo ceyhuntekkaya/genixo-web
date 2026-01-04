@@ -1747,6 +1747,45 @@ textarea:-ms-input-placeholder {
 .offcanvas {
   background: #000c29;
   width: 320px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 1045;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  visibility: hidden;
+  transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  transform: translateX(-100%);
+}
+
+.offcanvas.show {
+  visibility: visible;
+  transform: translateX(0);
+}
+
+.offcanvas-start {
+  left: 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.offcanvas-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.offcanvas-backdrop.fade {
+  opacity: 0;
+  transition: opacity 0.15s linear;
+}
+
+.offcanvas-backdrop.show {
+  opacity: 1;
 }
 
 @media only screen and (max-width: 575px) {
@@ -1770,6 +1809,8 @@ textarea:-ms-input-placeholder {
 
 .offcanvas-logo a img {
   width: 130px;
+  height: auto;
+  object-fit: contain;
 }
 
 .offcanvas-menu {

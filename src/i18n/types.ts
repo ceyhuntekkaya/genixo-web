@@ -343,11 +343,29 @@ export type Dictionary = {
         "form": {
             "subtitle": string;
             "title": string;
+            "mainTitle"?: string;
+            "serviceLabel"?: string;
+            "serviceDescription"?: string;
+            "servicePlaceholder"?: string;
+            "otherOption"?: string;
+            "nameLabel"?: string;
+            "nameDescription"?: string;
             "namePlaceholder": string;
+            "companyLabel"?: string;
+            "companyDescription"?: string;
+            "companyPlaceholder"?: string;
+            "emailLabel"?: string;
+            "emailDescription"?: string;
             "emailPlaceholder": string;
-            "subjectPlaceholder": string;
+            "messageLabel"?: string;
+            "messageDescription"?: string;
             "messagePlaceholder": string;
+            "subjectPlaceholder": string;
             "submitButton": string;
+            "submitting"?: string;
+            "successMessage"?: string;
+            "errorMessage"?: string;
+            "connectionError"?: string;
         };
     };
     "team"?: {

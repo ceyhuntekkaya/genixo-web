@@ -13,11 +13,28 @@
     "form": {
       "subtitle": "Request a quote",
       "title": "How May We Help You!",
-      "namePlaceholder": "Name *",
-      "emailPlaceholder": "Email *",
-      "subjectPlaceholder": "Subject *",
-      "messagePlaceholder": "Write A Message",
-      "submitButton": "Send Message"
+      "mainTitle": "Have a question? Need help? Don't hesitate, leave us a message",
+      "serviceLabel": "About this service:",
+      "serviceDescription": "Select a topic so we know who to send your request to:",
+      "servicePlaceholder": "Select Service",
+      "otherOption": "Other",
+      "nameLabel": "Your Name:",
+      "nameDescription": "Please enter your real name.",
+      "namePlaceholder": "Your Name",
+      "companyLabel": "Company Name:",
+      "companyDescription": "Please enter the company name.",
+      "companyPlaceholder": "Company Name",
+      "emailLabel": "Your Email Address:",
+      "emailDescription": "Please double-check your email address.",
+      "emailPlaceholder": "Your Email Address",
+      "messageLabel": "Describe your question in detail:",
+      "messageDescription": "Please describe your question in detail.",
+      "messagePlaceholder": "Describe your question in detail",
+      "submitButton": "SEND",
+      "submitting": "Sending...",
+      "successMessage": "Your message has been sent successfully!",
+      "errorMessage": "An error occurred. Please try again.",
+      "connectionError": "Connection error. Please try again."
     }
   },
   "team": {

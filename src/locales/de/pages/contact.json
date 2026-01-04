@@ -13,11 +13,28 @@
     "form": {
       "subtitle": "Angebot anfordern",
       "title": "Wie können wir Ihnen helfen!",
-      "namePlaceholder": "Name *",
-      "emailPlaceholder": "E-Mail *",
-      "subjectPlaceholder": "Betreff *",
-      "messagePlaceholder": "Schreiben Sie eine Nachricht",
-      "submitButton": "Nachricht senden"
+      "mainTitle": "Haben Sie eine Frage? Brauchen Sie Hilfe? Zögern Sie nicht, hinterlassen Sie uns eine Nachricht",
+      "serviceLabel": "Über diesen Service:",
+      "serviceDescription": "Wählen Sie ein Thema, damit wir wissen, an wen wir Ihre Anfrage senden sollen:",
+      "servicePlaceholder": "Service auswählen",
+      "otherOption": "Andere",
+      "nameLabel": "Ihr Name:",
+      "nameDescription": "Bitte geben Sie Ihren echten Namen ein.",
+      "namePlaceholder": "Ihr Name",
+      "companyLabel": "Firmenname:",
+      "companyDescription": "Bitte geben Sie den Firmennamen ein.",
+      "companyPlaceholder": "Firmenname",
+      "emailLabel": "Ihre E-Mail-Adresse:",
+      "emailDescription": "Bitte überprüfen Sie Ihre E-Mail-Adresse noch einmal.",
+      "emailPlaceholder": "Ihre E-Mail-Adresse",
+      "messageLabel": "Beschreiben Sie Ihre Frage im Detail:",
+      "messageDescription": "Bitte beschreiben Sie Ihre Frage im Detail.",
+      "messagePlaceholder": "Beschreiben Sie Ihre Frage im Detail",
+      "submitButton": "SENDEN",
+      "submitting": "Wird gesendet...",
+      "successMessage": "Ihre Nachricht wurde erfolgreich gesendet!",
+      "errorMessage": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+      "connectionError": "Verbindungsfehler. Bitte versuchen Sie es erneut."
     }
   },
   "team": {

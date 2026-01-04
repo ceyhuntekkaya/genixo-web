@@ -5,6 +5,7 @@ import {locales} from "@/i18n/config";
 import PageBanner from "@/app/component/page-banner";
 import Image from "next/image";
 import {companyInfo} from "@/utils/company";
+import ContactForm from "@/app/component/contact-form";
 
 
 export async function generateMetadata({
@@ -67,7 +68,7 @@ export default async function ContactPage({
                                         </div>
                                         <div className="info-content">
                                             <h5 className="title">{contactDict.phone.title}</h5>
-                                            <p><a href={`tel:${companyInfo.phone}`}>{companyInfo.phone}</a></p>
+                                            <p><a href={`#`}>{companyInfo.phone}</a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -111,71 +112,7 @@ export default async function ContactPage({
                 </div>
 
                 <div className="section techwix-contact-section techwix-contact-section-02 techwix-contact-section-03 section-padding-02">
-                <div className="container">
-                        <div className="contact-wrap">
-                            <div className="row justify-content-center">
-                                <div className="col-lg-10">
-                                    <div className="contact-form">
-                                        <div className="contact-form-wrap">
-                                            <div className="heading-wrap text-center">
-                                                <span className="sub-title">{contactDict.form.subtitle}</span>
-                                                <h3 className="title">{contactDict.form.title}</h3>
-                                            </div>
-                                            <form action="#" method="POST">
-                                                <div className="row">
-                                                    <div className="col-sm-6">
-                                                        <div className="single-form">
-                                                            <input 
-                                                                type="text" 
-                                                                name="name" 
-                                                                placeholder={contactDict.form.namePlaceholder} 
-                                                                required 
-                                                            />
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-sm-6">
-                                                        <div className="single-form">
-                                                            <input 
-                                                                type="email" 
-                                                                name="email" 
-                                                                placeholder={contactDict.form.emailPlaceholder} 
-                                                                required 
-                                                            />
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-sm-12">
-                                                        <div className="single-form">
-                                                            <input 
-                                                                type="text" 
-                                                                name="subject" 
-                                                                placeholder={contactDict.form.subjectPlaceholder} 
-                                                                required 
-                                                            />
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-sm-12">
-                                                        <div className="single-form">
-                                                            <textarea 
-                                                                name="message" 
-                                                                placeholder={contactDict.form.messagePlaceholder} 
-                                                                rows={5} 
-                                                                required
-                                                            ></textarea>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-sm-12">
-                                                        <div className="form-btn">
-                                                            <button className="btn" type="submit">{contactDict.form.submitButton}</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <ContactForm dict={dict} locale={locale} />
                 </div>
 
                 <div className="section contact-map-section">

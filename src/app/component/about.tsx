@@ -42,7 +42,7 @@ export default function AboutSection({ dict, locale }: PageProps) {
                                         </div>
                                         <div className="about-info">
                                             <p>{dict.about.callToAsk}</p>
-                                            <h3 className="number"><a href={`tel:${companyInfo.phone}`}>{companyInfo.phone}</a></h3>
+                                            <h3 className="number"><a href={`#`}>{companyInfo.phone}</a></h3>
                                         </div>
                                     </div>
                                 </div>

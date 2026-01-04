@@ -13,11 +13,28 @@
     "form": {
       "subtitle": "Teklif İste",
       "title": "Size Nasıl Yardımcı Olabiliriz!",
-      "namePlaceholder": "Ad Soyad *",
-      "emailPlaceholder": "E-posta *",
-      "subjectPlaceholder": "Konu *",
-      "messagePlaceholder": "Mesajınızı Yazın",
-      "submitButton": "Mesaj Gönder"
+      "mainTitle": "Bir sorunuz mu var? Yardıma mı ihtiyacınız var? Tereddüt etmeyin, bize bir mesaj bırakın",
+      "serviceLabel": "Bu hizmet hakkında:",
+      "serviceDescription": "Bir konu seçin, böylece talebinizi kime göndereceğimizi bilelim:",
+      "servicePlaceholder": "Hizmet Seçiniz",
+      "otherOption": "Diğer",
+      "nameLabel": "İsminiz:",
+      "nameDescription": "Lütfen gerçek adınızı girin.",
+      "namePlaceholder": "İsminiz",
+      "companyLabel": "Kurum Adı:",
+      "companyDescription": "Lütfen kurum adını girin.",
+      "companyPlaceholder": "Kurum Adı",
+      "emailLabel": "E-mail Adresiniz:",
+      "emailDescription": "Lütfen e-posta adresinizi tekrar kontrol edin.",
+      "emailPlaceholder": "E-mail Adresiniz",
+      "messageLabel": "Sorunuzu ayrıntılı olarak açıklayın:",
+      "messageDescription": "Lütfen sorunuzu ayrıntılı olarak açıklayın.",
+      "messagePlaceholder": "Sorunuzu ayrıntılı olarak açıklayın",
+      "submitButton": "GÖNDER",
+      "submitting": "Gönderiliyor...",
+      "successMessage": "Mesajınız başarıyla gönderildi!",
+      "errorMessage": "Bir hata oluştu. Lütfen tekrar deneyin.",
+      "connectionError": "Bağlantı hatası. Lütfen tekrar deneyin."
     }
   },
   "team": {

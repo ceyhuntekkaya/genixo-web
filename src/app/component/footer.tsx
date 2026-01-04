@@ -112,7 +112,7 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
                                                 <i className="flaticon-phone-call"></i>
                                             </div>
                                             <div className="info-text">
-                                                <span><a href={`tel:${companyInfo.phone}`}>{companyInfo.phone}</a></span>
+                                                <span><a href={`#`}>{companyInfo.phone}</a></span>
                                             </div>
                                         </li>
                                         <li>

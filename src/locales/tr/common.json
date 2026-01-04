@@ -4,7 +4,7 @@
     "ctaMessage": "En iyi müşteri deneyimini sunuyoruz"
   },
   "about": {
-    "WhoWeAre": "Who we are",
+    "WhoWeAre": "Genixo",
     "slogan": "Yazılım Çözüm Ortağı & İnovasyon Şirketi",
     "short": "Başarılı bir yazılım oluşturmak için iş gereksinimlerinizi anlayan bir geliştirme ekibine ihtiyacınız vardır. Uzmanlarımız fikrinize, zaman çizelgenize ve bütçenize uygun özel bir çözüm belirleyecek, ardından uygulamayı tasarlayıp oluşturacak ve gerçek kullanıcılarla test etmenize yardımcı olacaktır. Sonuç olarak, işinize fayda sağlayan, kullanıcılar tarafından sevilen modern bir dijital ürün elde edeceksiniz.",
     "description": "Genixo, Bilkent Üniversitesi Cyberpark'ta faaliyet gösteren, yapay zeka odaklı eğitim platformları ve kurumsal çözümler geliştiren bir teknoloji şirketidir. Ekibimiz, modern web teknolojileri ve yapay zeka entegrasyonları konusunda derin uzmanlığa sahip geliştiricilerden oluşmaktadır. Spring Boot, Next.js ve PostgreSQL gibi güçlü teknolojileri kullanarak ölçeklenebilir, güvenli ve kullanıcı dostu sistemler inşa ediyoruz. StudyScore AI ve Egitimiste.com gibi başarılı projelerimizle Türkiye'nin eğitim teknolojisi ekosisteminde fark yaratıyoruz. Yapay zeka destekli adaptif öğrenme platformlarından kurumsal belge yönetim sistemlerine, gerçek zamanlı sınav uygulamalarından eğitim keşif platformlarına kadar geniş bir yelpazede çözümler sunuyoruz. Müşterilerimizin dijital dönüşüm yolculuğunda güvenilir teknoloji partneri olarak, iş ihtiyaçlarını anlamak ve en uygun çözümleri üretmek için çalışıyoruz.",
@@ -21,7 +21,11 @@
         "title": "Profesyonellik",
         "content": "Bir işte yetenekli veya deneyimli olduğunuzda başarıya ulaşılabilir. Ancak elde edilen başarının kalıcı olması için profesyonel bir yaklaşım şarttır, aksi takdirde elde ettiğiniz başarının ömrünü mutlaka kısaltırsınız. Genixo anlayışı, yetenekli ve deneyimli kişilerin profesyonel olarak çalıştığı bir marka kültürüne sahip olarak hem bireysel hem de kurumsal bazda her zaman kalıcılığı ve sürdürülebilir başarıyı hedeflemektedir. Profesyonel iş bilincimizle başarıyı şansa bırakmıyoruz."
       }
-    }
+    },
+    "authorName": "Ceyhun Tekkaya",
+    "authorTitle": "CEO, Genixo",
+    "callToAsk": "Sorularınız için arayın",
+    "phoneNumber": "+90 532 207 67 30"
   },
   "menu": {
     "Home": "Ana Sayfa",
@@ -61,6 +65,11 @@
   },
   "welcome": {
     "title": "Genixo BT ve Teknoloji"
+  },
+  "company": {
+    "name": "Genixo Bilişim ve Teknoloji",
+    "defaultDescription": "Yazılım Çözüm Ortağı & İnovasyon Şirketi - Web uygulamaları, mobil geliştirme, bulut çözümleri ve AI destekli yazılım geliştirme hizmetleri.",
+    "defaultKeywords": "yazılım geliştirme, web uygulaması, mobil uygulama, bulut çözümleri, AI yazılım, yazılım danışmanlığı, DevOps, veri bilimi"
   },
   "hero": {
     "subtitle": "BİLİŞİM - TEKNOLOJİ - YAPAY ZEKA ÇÖZÜMLERİ",
@@ -376,6 +385,115 @@
       },
       "image": "/images/1753787699394.png",
       "active": true
+    }
+  },
+  "footer": {
+    "contactInfo": "İletişim Bilgileri",
+    "copyright": "© Copyrights 2026 genixo.ai All rights reserved.",
+    "address": "Bilkent Cyberpark"
+  },
+  "blog": {
+    "latestBlog": "Son Blog",
+    "fromNewsRoom": "Haberlerden",
+    "readFull": "Devamını Oku"
+  },
+  "caseStudy": {
+    "reasonToChooseUs": "BİZİ SEÇME NEDENİNİZ",
+    "prominentSolutions": "Gerçekten öne çıkan BT çözümleri sunuyoruz.",
+    "learnMore": "Daha fazla bilgi için",
+    "moreReason": "Daha fazla neden"
+  },
+  "solutionAI": {
+    "weDeliverExcellence": "Mükemmelliği Sunuyoruz",
+    "solutionsToCommonAIProblems": "Yaygın AI Problemlerine Çözümler"
+  },
+  "counterAI": {
+    "completedProjects": "Tamamlanan Proje",
+    "roboticAutomation": "Robotik Otomasyon",
+    "webSiteAnalyse": "Web Sitesi Analizi",
+    "clientsSupportDone": "Müşteri Desteği"
+  },
+  "contact": {
+    "pageContent": "İletişim sayfası içeriği buraya eklenecek."
+  },
+  "team": {
+    "ourExpertTeam": "Uzman Ekibimiz",
+    "worldExpertTeam": "Dünya çapında uzman ekibimiz var"
+  },
+  "testimonial": {
+    "title": "Referanslar",
+    "subtitle": "Dünya çapında 20k+ memnun müşteri"
+  },
+  "seo": {
+    "home": {
+      "keywords": "yazılım geliştirme, web uygulaması, mobil uygulama, bulut çözümleri, AI yazılım, yazılım danışmanlığı, DevOps, veri bilimi, Genixo"
+    },
+    "about": {
+      "keywords": "hakkımızda, yazılım şirketi, teknoloji şirketi"
+    },
+    "contact": {
+      "keywords": "iletişim, iletişim formu, yazılım danışmanlığı",
+      "description": "Genixo Bilişim ve Teknoloji ile iletişime geçin. Yazılım çözümleri ve danışmanlık hizmetleri için bize ulaşın."
+    },
+    "blog": {
+      "keywords": "blog, yazılım blog, teknoloji haberleri, yazılım geliştirme",
+      "description": "Genixo Bilişim ve Teknoloji blog sayfası. Yazılım geliştirme, teknoloji trendleri ve sektör haberleri hakkında güncel içerikler."
+    },
+    "products": {
+      "keywords": "yazılım ürünleri, AI yazılım, eğitim yazılımı, kurumsal yazılım",
+      "description": "Genixo Bilişim ve Teknoloji ürünleri. AI destekli yazılım çözümleri, eğitim platformları ve kurumsal yazılım ürünleri."
+    },
+    "solutions": {
+      "keywords": "yazılım çözümleri, web uygulaması, mobil geliştirme, bulut çözümleri, DevOps, veri bilimi",
+      "description": "Genixo Bilişim ve Teknoloji çözümleri. Web uygulaması, mobil geliştirme, bulut çözümleri, DevOps ve veri bilimi hizmetleri."
+    },
+    "caseStudy": {
+      "keywords": "başarı hikayeleri, case study, müşteri projeleri, yazılım projeleri"
+    },
+    "governmentSupport": {
+      "keywords": "devlet destekleri, KOSGEB, TÜBİTAK, danışmanlık, yazılım danışmanlığı",
+      "description": "Genixo Bilişim ve Teknoloji devlet destekleri ve danışmanlık hizmetleri. KOSGEB, TÜBİTAK ve diğer devlet destekleri için danışmanlık.",
+      "title": "Dijital Dönüşüm Destek Programı",
+      "subtitle": "20 Milyon TL'ye Kadar Kredi Faiz Desteği",
+      "summary": {
+        "title": "Program Hakkında Özet",
+        "content": "Türkiye'deki sanayi işletmelerinin dijitalleşme süreçlerini hızlandırmak ve teknolojik altyapılarını güçlendirmek amacıyla hayata geçirilen bir finansman destek modelidir."
+      },
+      "supportLimit": {
+        "title": "Destek Üst Limiti:",
+        "amount": "20.000.000 TL",
+        "note": "(Kredi faiz veya kâr payı giderleri için sağlanan destek tutarıdır.)"
+      },
+      "expenses": {
+        "title": "Destek Kapsamındaki Harcamalar:",
+        "hardware": {
+          "title": "Donanım:",
+          "content": "Sunucu, ağ bileşenleri ve akıllı üretim sistemleri."
+        },
+        "software": {
+          "title": "Yazılım:",
+          "content": "ERP, CRM, veri analitiği ve siber güvenlik çözümleri."
+        },
+        "service": {
+          "title": "Hizmet:",
+          "content": "Dijital dönüşüm danışmanlığı ve entegrasyon süreçleri."
+        }
+      },
+      "eligibility": {
+        "title": "Kimler Başvurabilir?",
+        "content": "Dijital Dönüşüm Olgunluk Analizi yaptırmış ve onaylı bir yol haritasına sahip sanayi işletmeleri."
+      },
+      "footer": {
+        "content": "Daha detaylı bilgi ve başvuru süreci için ilgili bakanlık portalını ziyaret edebilirsiniz."
+      }
+    },
+    "ngsd": {
+      "keywords": "NGSD, yeni nesil yazılım departmanı, yazılım çözümleri"
+    },
+    "common": {
+      "blog": "blog",
+      "softwareProducts": "yazılım ürünleri",
+      "softwareSolutions": "yazılım çözümleri"
     }
   }
 }

@@ -21,7 +21,11 @@
         "title": "Professionalisme",
         "content": "Le succès peut être atteint lorsque vous êtes talentueux ou expérimenté dans un travail. Cependant, pour que le succès atteint soit permanent, une approche professionnelle est essentielle ; sinon, vous raccourcirez définitivement la durée de vie du succès que vous avez atteint. La compréhension Genixo vise la permanence et le succès durable à la fois individuellement et en entreprise, avec une culture de marque où des personnes talentueuses et expérimentées travaillent professionnellement. Nous ne laissons pas le succès au hasard avec notre conscience professionnelle des affaires."
       }
-    }
+    },
+    "authorName": "Ceyhun Tekkaya",
+    "authorTitle": "CEO, Genixo",
+    "callToAsk": "Appelez pour poser des questions",
+    "phoneNumber": "+90 532 207 67 30"
   },
   "menu": {
     "Home": "Accueil",
@@ -61,6 +65,11 @@
   },
   "welcome": {
     "title": "Genixo IT et Technologie"
+  },
+  "company": {
+    "name": "Genixo IT et Technologie",
+    "defaultDescription": "Partenaire de Solutions Logicielles & Société d'Innovation - Applications web, développement mobile, solutions cloud et services de développement logiciel alimentés par l'IA.",
+    "defaultKeywords": "développement logiciel, application web, application mobile, solutions cloud, logiciel IA, conseil en logiciel, DevOps, science des données"
   },
   "hero": {
     "subtitle": "TECHNOLOGIES DE L'INFORMATION - SOLUTIONS IA",
@@ -383,6 +392,83 @@
       },
       "image": "/images/1753787699394.png",
       "active": true
+    }
+  },
+  "footer": {
+    "contactInfo": "Informations de contact",
+    "copyright": "© Copyrights 2026 genixo.ai All rights reserved.",
+    "address": "Bilkent Cyberpark"
+  },
+  "blog": {
+    "latestBlog": "Dernier Blog",
+    "fromNewsRoom": "De la salle de presse",
+    "readFull": "Lire la suite"
+  },
+  "caseStudy": {
+    "reasonToChooseUs": "RAISON DE NOUS CHOISIR",
+    "prominentSolutions": "Nous fournissons de véritables solutions IT de premier plan.",
+    "learnMore": "En savoir plus sur",
+    "moreReason": "Plus de raisons"
+  },
+  "solutionAI": {
+    "weDeliverExcellence": "Nous offrons l'excellence",
+    "solutionsToCommonAIProblems": "Solutions aux problèmes courants de l'IA"
+  },
+  "counterAI": {
+    "completedProjects": "Projets Terminés",
+    "roboticAutomation": "Automatisation Robotique",
+    "webSiteAnalyse": "Analyse de Site Web",
+    "clientsSupportDone": "Support Client"
+  },
+  "contact": {
+    "pageContent": "Le contenu de la page de contact sera ajouté ici."
+  },
+  "team": {
+    "ourExpertTeam": "Notre équipe d'experts",
+    "worldExpertTeam": "Nous avons une équipe d'experts mondiale"
+  },
+  "testimonial": {
+    "title": "Témoignages",
+    "subtitle": "20k+ clients satisfaits dans le monde"
+  },
+  "seo": {
+    "home": {
+      "keywords": "développement logiciel, application web, application mobile, solutions cloud, logiciel IA, conseil en logiciel, DevOps, science des données, Genixo"
+    },
+    "about": {
+      "keywords": "à propos de nous, entreprise de logiciels, entreprise technologique"
+    },
+    "contact": {
+      "keywords": "contact, formulaire de contact, conseil en logiciel",
+      "description": "Contactez Genixo IT et Technologie. Contactez-nous pour des solutions logicielles et des services de conseil."
+    },
+    "blog": {
+      "keywords": "blog, blog logiciel, actualités technologiques, développement logiciel",
+      "description": "Page de blog Genixo IT et Technologie. Contenu actuel sur le développement logiciel, les tendances technologiques et les actualités de l'industrie."
+    },
+    "products": {
+      "keywords": "produits logiciels, logiciel IA, logiciel éducatif, logiciel d'entreprise",
+      "description": "Produits Genixo IT et Technologie. Solutions logicielles alimentées par l'IA, plateformes éducatives et produits logiciels d'entreprise."
+    },
+    "solutions": {
+      "keywords": "solutions logicielles, application web, développement mobile, solutions cloud, DevOps, science des données",
+      "description": "Solutions Genixo IT et Technologie. Application web, développement mobile, solutions cloud, services DevOps et science des données."
+    },
+    "caseStudy": {
+      "keywords": "histoires de succès, étude de cas, projets clients, projets logiciels"
+    },
+    "governmentSupport": {
+      "keywords": "soutien gouvernemental, KOSGEB, TÜBİTAK, conseil, conseil en logiciel",
+      "description": "Services de soutien gouvernemental et de conseil Genixo IT et Technologie. Conseil pour KOSGEB, TÜBİTAK et autres programmes de soutien gouvernemental.",
+      "comingSoon": "Ce contenu est en cours de préparation et sera bientôt disponible."
+    },
+    "ngsd": {
+      "keywords": "NGSD, département logiciel de nouvelle génération, solutions logicielles"
+    },
+    "common": {
+      "blog": "blog",
+      "softwareProducts": "produits logiciels",
+      "softwareSolutions": "solutions logicielles"
     }
   }
 }

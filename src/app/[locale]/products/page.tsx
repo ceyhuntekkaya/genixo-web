@@ -18,11 +18,12 @@ export async function generateMetadata({
 
     return generateSEOMetadata({
         title: dict.menu.Products,
-        description: `Genixo Bilişim ve Teknoloji ürünleri. AI destekli yazılım çözümleri, eğitim platformları ve kurumsal yazılım ürünleri.`,
-        keywords: `yazılım ürünleri, AI yazılım, eğitim yazılımı, kurumsal yazılım, ${dict.about.slogan}`,
+        description: dict.seo?.products?.description || dict.menu.Products,
+        keywords: `${dict.seo?.products?.keywords || ''}, ${dict.about.slogan}`,
         url: `/${locale}/products`,
         locale,
         alternateLocales,
+        dict,
     });
 }
 
@@ -34,7 +35,7 @@ export default async function ProductsPage({
     const { locale } = await params;
     const dict = await getDictionary(locale);
 
-    const homeLabel = locale === 'tr' ? 'Ana Sayfa' : locale === 'en' ? 'Home' : locale === 'de' ? 'Startseite' : locale === 'fr' ? 'Accueil' : 'Главная';
+    const homeLabel = dict.menu.Home;
 
     return (
         <>

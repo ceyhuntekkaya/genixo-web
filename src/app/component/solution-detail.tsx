@@ -39,7 +39,7 @@ export default function SolutionDetail({ solutionKey, dict, locale }: SolutionDe
         );
     }
 
-    const homeLabel = locale === 'tr' ? 'Ana Sayfa' : locale === 'en' ? 'Home' : locale === 'de' ? 'Startseite' : locale === 'fr' ? 'Accueil' : 'Главная';
+    const homeLabel = dict.menu.Home;
     
     // Get solution slug from key
     const solutionSlug = Object.keys(solutionSlugToKey).find(slug => solutionSlugToKey[slug] === solutionKey) || solutionKey.toLowerCase();

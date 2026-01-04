@@ -22,6 +22,7 @@ export async function generateMetadata({
             description: 'Aradığınız sayfa bulunamadı.',
             locale,
             noindex: true,
+            dict,
         });
     }
 
@@ -35,18 +36,20 @@ export async function generateMetadata({
             description: 'Aradığınız sayfa bulunamadı.',
             locale,
             noindex: true,
+            dict,
         });
     }
 
     return generateSEOMetadata({
         title: productData.name,
         description: productData.summary || productData.description.substring(0, 160),
-        keywords: `${productData.name}, yazılım ürünleri, ${dict.about.slogan}`,
+        keywords: `${productData.name}, ${dict.seo?.common?.softwareProducts || 'software products'}, ${dict.about.slogan}`,
         url: `/${locale}/products/${product}`,
         type: 'website', // Open Graph doesn't support 'product' type, using 'website' instead
         locale,
         alternateLocales,
         image: `/images/products/${product}.jpg`,
+        dict,
     });
 }
 
@@ -67,7 +70,7 @@ export default async function ProductDetailPage({
     }
 
     const productData = dict.products[productKey];
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://genixo.com';
+    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://genixo.ai';
     
     // Check if product is active
     if (!productData || productData.active === false) {
@@ -81,16 +84,18 @@ export default async function ProductDetailPage({
         description: productData.summary || productData.description.substring(0, 200),
         url: `${siteUrl}/${locale}/products/${product}`,
         image: `${siteUrl}/images/products/${product}.jpg`,
+        dict,
     });
 
     // Breadcrumb Structured Data
     const breadcrumbStructuredData = generateStructuredData({
         type: 'BreadcrumbList',
         breadcrumbs: [
-            { name: locale === 'tr' ? 'Ana Sayfa' : 'Home', url: `${siteUrl}/${locale}` },
+            { name: dict.menu.Home, url: `${siteUrl}/${locale}` },
             { name: dict.menu.Products, url: `${siteUrl}/${locale}/products` },
             { name: productData.name, url: `${siteUrl}/${locale}/products/${product}` },
         ],
+        dict,
     });
 
     return (

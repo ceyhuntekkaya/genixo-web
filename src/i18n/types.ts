@@ -9,6 +9,10 @@ export type Dictionary = {
         "slogan": string;
         "short": string;
         "description": string;
+        "authorName"?: string;
+        "authorTitle"?: string;
+        "callToAsk"?: string;
+        "phoneNumber"?: string;
         "values": {
             "dynamism": {
                 "title": string;
@@ -65,6 +69,11 @@ export type Dictionary = {
     };
     welcome: {
         title: string;
+    };
+    company?: {
+        name: string;
+        defaultDescription?: string;
+        defaultKeywords?: string;
     };
     hero: {
         subtitle: string;
@@ -298,6 +307,116 @@ export type Dictionary = {
             };
             "image": string;
             "active"?: boolean;
+        };
+    };
+    "footer"?: {
+        "contactInfo": string;
+        "copyright": string;
+        "address": string;
+    };
+    "blog"?: {
+        "latestBlog": string;
+        "fromNewsRoom": string;
+        "readFull": string;
+    };
+    "caseStudy"?: {
+        "reasonToChooseUs": string;
+        "prominentSolutions": string;
+        "learnMore": string;
+        "moreReason": string;
+    };
+    "solutionAI"?: {
+        "weDeliverExcellence": string;
+        "solutionsToCommonAIProblems": string;
+    };
+    "counterAI"?: {
+        "completedProjects": string;
+        "roboticAutomation": string;
+        "webSiteAnalyse": string;
+        "clientsSupportDone": string;
+    };
+    "contact"?: {
+        "pageContent": string;
+    };
+    "team"?: {
+        "ourExpertTeam": string;
+        "worldExpertTeam": string;
+    };
+    "testimonial"?: {
+        "title": string;
+        "subtitle": string;
+    };
+    "seo"?: {
+        "home"?: {
+            "keywords": string;
+        };
+        "about"?: {
+            "keywords": string;
+        };
+        "contact"?: {
+            "keywords": string;
+            "description"?: string;
+        };
+        "blog"?: {
+            "keywords": string;
+            "description"?: string;
+        };
+        "products"?: {
+            "keywords": string;
+            "description"?: string;
+        };
+        "solutions"?: {
+            "keywords": string;
+            "description"?: string;
+        };
+        "caseStudy"?: {
+            "keywords": string;
+        };
+        "governmentSupport"?: {
+            "keywords": string;
+            "description"?: string;
+            "title"?: string;
+            "subtitle"?: string;
+            "comingSoon"?: string;
+            "summary"?: {
+                "title": string;
+                "content": string;
+            };
+            "supportLimit"?: {
+                "title": string;
+                "amount": string;
+                "note": string;
+            };
+            "expenses"?: {
+                "title": string;
+                "hardware"?: {
+                    "title": string;
+                    "content": string;
+                };
+                "software"?: {
+                    "title": string;
+                    "content": string;
+                };
+                "service"?: {
+                    "title": string;
+                    "content": string;
+                };
+            };
+            "eligibility"?: {
+                "title": string;
+                "content": string;
+            };
+            "footer"?: {
+                "content": string;
+            };
+        };
+        "ngsd"?: {
+            "keywords": string;
+        };
+        "common"?: {
+            "blog"?: string;
+            "softwareProducts"?: string;
+            "softwareSolutions"?: string;
         };
     };
 

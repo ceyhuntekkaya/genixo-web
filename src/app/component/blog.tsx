@@ -46,8 +46,8 @@ export default function BlogSection({ dict, locale }: PageProps) {
         <div className="section techwix-blog-section section-padding-02">
             <div className="container">
                 <div className="section-title text-center">
-                    <h4 className="sub-title">{locale === 'tr' ? 'Son Blog' : locale === 'en' ? 'Latest Blog' : locale === 'de' ? 'Neuester Blog' : locale === 'fr' ? 'Dernier Blog' : 'Последний блог'}</h4>
-                    <h2 className="title">{locale === 'tr' ? 'Haberlerden' : locale === 'en' ? 'From the news room' : locale === 'de' ? 'Aus dem Nachrichtenraum' : locale === 'fr' ? 'De la salle de presse' : 'Из новостной комнаты'}</h2>
+                    <h4 className="sub-title">{dict.blog.latestBlog}</h4>
+                    <h2 className="title">{dict.blog.fromNewsRoom}</h2>
                 </div>
                 <div className="techwix-blog-wrap">
                     <div className="row">
@@ -79,7 +79,7 @@ export default function BlogSection({ dict, locale }: PageProps) {
                                         )}
                                         <div className="blog-btn">
                                             <Link className="blog-btn-link" href={`/${locale}/blog/${slug}`}>
-                                                {locale === 'tr' ? 'Devamını Oku' : locale === 'en' ? 'Read Full' : locale === 'de' ? 'Weiterlesen' : locale === 'fr' ? 'Lire la suite' : 'Читать далее'} <i className="fas fa-long-arrow-alt-right"></i>
+                                                {dict.blog.readFull} <i className="fas fa-long-arrow-alt-right"></i>
                                             </Link>
                                         </div>
                                     </div>

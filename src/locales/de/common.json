@@ -21,7 +21,11 @@
         "title": "Professionalität",
         "content": "Erfolg kann erreicht werden, wenn Sie talentiert oder erfahren in einem Job sind. Damit der erzielte Erfolg jedoch dauerhaft ist, ist ein professioneller Ansatz unerlässlich; andernfalls verkürzen Sie definitiv die Lebensdauer des erzielten Erfolgs. Das Genixo-Verständnis zielt auf Beständigkeit und nachhaltigen Erfolg sowohl individuell als auch unternehmerisch ab, mit einer Markenkultur, in der talentierte und erfahrene Menschen professionell arbeiten. Wir überlassen den Erfolg nicht dem Zufall mit unserem professionellen Geschäftsbewusstsein."
       }
-    }
+    },
+    "authorName": "Ceyhun Tekkaya",
+    "authorTitle": "CEO, Genixo",
+    "callToAsk": "Rufen Sie an, um Fragen zu stellen",
+    "phoneNumber": "+90 532 207 67 30"
   },
   "menu": {
     "Home": "Startseite",
@@ -61,6 +65,11 @@
   },
   "welcome": {
     "title": "Genixo IT und Technologie"
+  },
+  "company": {
+    "name": "Genixo IT und Technologie",
+    "defaultDescription": "Software-Lösungspartner & Innovationsunternehmen - Webanwendungen, mobile Entwicklung, Cloud-Lösungen und KI-gestützte Softwareentwicklungsdienste.",
+    "defaultKeywords": "Softwareentwicklung, Webanwendung, mobile Anwendung, Cloud-Lösungen, KI-Software, Softwareberatung, DevOps, Datenwissenschaft"
   },
   "hero": {
     "subtitle": "INFORMATIONSTECHNOLOGIE - KI-LÖSUNGEN",
@@ -374,6 +383,83 @@
       },
       "image": "/images/1753787699394.png",
       "active": true
+    }
+  },
+  "footer": {
+    "contactInfo": "Kontaktinformationen",
+    "copyright": "© Copyrights 2026 genixo.ai All rights reserved.",
+    "address": "Bilkent Cyberpark"
+  },
+  "blog": {
+    "latestBlog": "Neuester Blog",
+    "fromNewsRoom": "Aus dem Nachrichtenraum",
+    "readFull": "Weiterlesen"
+  },
+  "caseStudy": {
+    "reasonToChooseUs": "GRUND, UNS ZU WÄHLEN",
+    "prominentSolutions": "Wir bieten wirklich herausragende IT-Lösungen.",
+    "learnMore": "Erfahren Sie mehr über",
+    "moreReason": "Mehr Gründe"
+  },
+  "solutionAI": {
+    "weDeliverExcellence": "Wir liefern Exzellenz",
+    "solutionsToCommonAIProblems": "Lösungen für häufige KI-Probleme"
+  },
+  "counterAI": {
+    "completedProjects": "Abgeschlossene Projekte",
+    "roboticAutomation": "Robotik-Automatisierung",
+    "webSiteAnalyse": "Website-Analyse",
+    "clientsSupportDone": "Kundenunterstützung"
+  },
+  "contact": {
+    "pageContent": "Kontaktseiteninhalt wird hier hinzugefügt."
+  },
+  "team": {
+    "ourExpertTeam": "Unser Expertenteam",
+    "worldExpertTeam": "Wir haben ein weltweites Expertenteam"
+  },
+  "testimonial": {
+    "title": "Referenzen",
+    "subtitle": "20k+ zufriedene Kunden weltweit"
+  },
+  "seo": {
+    "home": {
+      "keywords": "Softwareentwicklung, Webanwendung, mobile Anwendung, Cloud-Lösungen, KI-Software, Softwareberatung, DevOps, Datenwissenschaft, Genixo"
+    },
+    "about": {
+      "keywords": "Über uns, Softwareunternehmen, Technologieunternehmen"
+    },
+    "contact": {
+      "keywords": "Kontakt, Kontaktformular, Softwareberatung",
+      "description": "Kontaktieren Sie Genixo IT und Technologie. Erreichen Sie uns für Softwarelösungen und Beratungsdienste."
+    },
+    "blog": {
+      "keywords": "Blog, Software-Blog, Technologienachrichten, Softwareentwicklung",
+      "description": "Genixo IT und Technologie Blog-Seite. Aktuelle Inhalte über Softwareentwicklung, Technologietrends und Branchennachrichten."
+    },
+    "products": {
+      "keywords": "Softwareprodukte, KI-Software, Bildungssoftware, Unternehmenssoftware",
+      "description": "Genixo IT und Technologie Produkte. KI-gestützte Softwarelösungen, Bildungsplattformen und Unternehmenssoftwareprodukte."
+    },
+    "solutions": {
+      "keywords": "Softwarelösungen, Webanwendung, mobile Entwicklung, Cloud-Lösungen, DevOps, Datenwissenschaft",
+      "description": "Genixo IT und Technologie Lösungen. Webanwendung, mobile Entwicklung, Cloud-Lösungen, DevOps und Datenwissenschaftsdienste."
+    },
+    "caseStudy": {
+      "keywords": "Erfolgsgeschichten, Fallstudie, Kundenprojekte, Softwareprojekte"
+    },
+    "governmentSupport": {
+      "keywords": "Staatliche Unterstützung, KOSGEB, TÜBİTAK, Beratung, Softwareberatung",
+      "description": "Genixo IT und Technologie staatliche Unterstützung und Beratungsdienste. Beratung für KOSGEB, TÜBİTAK und andere staatliche Unterstützungsprogramme.",
+      "comingSoon": "Dieser Inhalt wird vorbereitet und wird bald verfügbar sein."
+    },
+    "ngsd": {
+      "keywords": "NGSD, Softwareabteilung der nächsten Generation, Softwarelösungen"
+    },
+    "common": {
+      "blog": "Blog",
+      "softwareProducts": "Softwareprodukte",
+      "softwareSolutions": "Softwarelösungen"
     }
   }
 }

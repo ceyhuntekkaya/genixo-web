@@ -95,7 +95,7 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
                         </div>
                         <div className="col-lg-3 col-sm-6">
                             <div className="footer-widget">
-                                <h4 className="footer-widget-title">{locale === 'tr' ? 'İletişim Bilgileri' : locale === 'en' ? 'Contact Information' : locale === 'de' ? 'Kontaktinformationen' : locale === 'fr' ? 'Informations de contact' : 'Контактная информация'}</h4>
+                                <h4 className="footer-widget-title">{dict.footer.contactInfo}</h4>
                                 <div className="widget-info">
                                     <ul>
                                         <li>
@@ -119,7 +119,7 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
                                                 <i className="flaticon-pin"></i>
                                             </div>
                                             <div className="info-text">
-                                                <span>Bilkent Cyberpark</span>
+                                                <span>{dict.footer.address}</span>
                                             </div>
                                         </li>
                                     </ul>
@@ -136,7 +136,7 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
                         <div className="row align-items-center">
                             <div className="col-lg-12">
                                 <div className="copyright-text text-center">
-                                    <p>© Copyrights 2026 genixo.ai All rights reserved.</p>
+                                    <p>{dict.footer.copyright}</p>
                                 </div>
                             </div>
                         </div>

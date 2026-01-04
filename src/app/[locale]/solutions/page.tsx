@@ -18,11 +18,12 @@ export async function generateMetadata({
 
     return generateSEOMetadata({
         title: dict.menu.Solutions,
-        description: `Genixo Bilişim ve Teknoloji çözümleri. Web uygulaması, mobil geliştirme, bulut çözümleri, DevOps ve veri bilimi hizmetleri.`,
-        keywords: `yazılım çözümleri, web uygulaması, mobil geliştirme, bulut çözümleri, DevOps, veri bilimi, ${dict.about.slogan}`,
+        description: dict.seo?.solutions?.description || dict.menu.Solutions,
+        keywords: `${dict.seo?.solutions?.keywords || ''}, ${dict.about.slogan}`,
         url: `/${locale}/solutions`,
         locale,
         alternateLocales,
+        dict,
     });
 }
 
@@ -34,7 +35,7 @@ export default async function SolutionsPage({
     const { locale } = await params;
     const dict = await getDictionary(locale);
 
-    const homeLabel = locale === 'tr' ? 'Ana Sayfa' : locale === 'en' ? 'Home' : locale === 'de' ? 'Startseite' : locale === 'fr' ? 'Accueil' : 'Главная';
+    const homeLabel = dict.menu.Home;
 
     return (
         <>

@@ -18,8 +18,8 @@ export default function CaseStudySection({ dict, locale }: PageProps) {
                 <div className="container">
                     <div className="choose-us-wrap">
                         <div className="section-title text-center">
-                            <h3 className="sub-title">REASON TO CHOOSE US</h3>
-                            <h2 className="title">We provide truly prominent IT solutions.</h2>
+                            <h3 className="sub-title">{dict.caseStudy.reasonToChooseUs}</h3>
+                            <h2 className="title">{dict.caseStudy.prominentSolutions}</h2>
                         </div>
                         <div className="choose-us-content-wrap">
                             <div className="row">
@@ -64,7 +64,7 @@ export default function CaseStudySection({ dict, locale }: PageProps) {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="more-choose-content text-center">
-                                        <p>Learn more about <Link href={`/${locale}/solutions`}>More reason <i
+                                        <p>{dict.caseStudy.learnMore} <Link href={`/${locale}/solutions`}>{dict.caseStudy.moreReason} <i
                                             className="fas fa-long-arrow-alt-right"></i></Link></p>
                                     </div>
                                 </div>

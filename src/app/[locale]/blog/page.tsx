@@ -16,11 +16,12 @@ export async function generateMetadata({
 
     return generateSEOMetadata({
         title: dict.menu.Blog,
-        description: `Genixo Bilişim ve Teknoloji blog sayfası. Yazılım geliştirme, teknoloji trendleri ve sektör haberleri hakkında güncel içerikler.`,
-        keywords: `blog, yazılım blog, teknoloji haberleri, yazılım geliştirme, ${dict.about.slogan}`,
+        description: dict.seo?.blog?.description || dict.menu.Blog,
+        keywords: `${dict.seo?.blog?.keywords || ''}, ${dict.about.slogan}`,
         url: `/${locale}/blog`,
         locale,
         alternateLocales,
+        dict,
     });
 }
 
@@ -32,7 +33,7 @@ export default async function BlogPage({
     const { locale } = await params;
     const dict = await getDictionary(locale);
 
-    const homeLabel = locale === 'tr' ? 'Ana Sayfa' : locale === 'en' ? 'Home' : locale === 'de' ? 'Startseite' : locale === 'fr' ? 'Accueil' : 'Главная';
+    const homeLabel = dict.menu.Home;
 
     return (
         <>
@@ -105,7 +106,7 @@ export default async function BlogPage({
                                                     )}
                                                     <div className="blog-btn">
                                                         <a className="blog-btn-link" href={`/${locale}/blog/${slug}`}>
-                                                            {locale === 'tr' ? 'Devamını Oku' : locale === 'en' ? 'Read More' : locale === 'de' ? 'Weiterlesen' : locale === 'fr' ? 'Lire la suite' : 'Читать далее'} <i className="fas fa-long-arrow-alt-right"></i>
+                                                            {dict.blog?.readFull || 'Read More'} <i className="fas fa-long-arrow-alt-right"></i>
                                                         </a>
                                                     </div>
                                                 </div>

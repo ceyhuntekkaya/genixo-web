@@ -32,10 +32,11 @@ export async function generateMetadata({
             description: 'Aradığınız sayfa bulunamadı.',
             locale,
             noindex: true,
+            dict,
         });
     }
 
-    const blogData = dict.blogs?.[blogKey];
+    const blogData = blogKey ? dict.blogs?.[blogKey as keyof typeof dict.blogs] : undefined;
     const alternateLocales = locales.filter(l => l !== locale) as Locale[];
 
     if (!blogData || blogData.active === false) {
@@ -44,18 +45,20 @@ export async function generateMetadata({
             description: 'Aradığınız sayfa bulunamadı.',
             locale,
             noindex: true,
+            dict,
         });
     }
 
     return generateSEOMetadata({
         title: blogData.title,
         description: blogData.excerpt || blogData.content.substring(0, 160),
-        keywords: `${blogData.title}, blog, ${dict.about.slogan}`,
+        keywords: `${blogData.title}, ${dict.seo?.common?.blog || 'blog'}, ${dict.about.slogan}`,
         url: `/${locale}/blog/${slug}`,
         type: 'article',
         locale,
         alternateLocales,
         image: blogData.image,
+        dict,
     });
 }
 
@@ -72,14 +75,14 @@ export default async function BlogDetailPage({
         notFound();
     }
 
-    const blogData = dict.blogs?.[blogKey];
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://genixo.com';
+    const blogData = blogKey ? dict.blogs?.[blogKey as keyof typeof dict.blogs] : undefined;
+    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://genixo.ai';
     
     if (!blogData || blogData.active === false) {
         notFound();
     }
 
-    const homeLabel = locale === 'tr' ? 'Ana Sayfa' : locale === 'en' ? 'Home' : locale === 'de' ? 'Startseite' : locale === 'fr' ? 'Accueil' : 'Главная';
+    const homeLabel = dict.menu.Home;
 
     // Article Structured Data
     const articleStructuredData = generateStructuredData({
@@ -93,6 +96,7 @@ export default async function BlogDetailPage({
         author: {
             name: blogData.author.name,
         },
+        dict,
     });
 
     // Breadcrumb Structured Data
@@ -103,6 +107,7 @@ export default async function BlogDetailPage({
             { name: dict.menu.Blog, url: `${siteUrl}/${locale}/blog` },
             { name: blogData.title, url: `${siteUrl}/${locale}/blog/${slug}` },
         ],
+        dict,
     });
 
     // Format date

@@ -16,11 +16,12 @@ export async function generateMetadata({
 
     return generateSEOMetadata({
         title: dict.menu.ContactUs,
-        description: `Genixo Bilişim ve Teknoloji ile iletişime geçin. Yazılım çözümleri ve danışmanlık hizmetleri için bize ulaşın.`,
-        keywords: `iletişim, iletişim formu, yazılım danışmanlığı, ${dict.about.slogan}`,
+        description: dict.seo?.contact?.description || dict.menu.ContactUs,
+        keywords: `${dict.seo?.contact?.keywords || ''}, ${dict.about.slogan}`,
         url: `/${locale}/contact`,
         locale,
         alternateLocales,
+        dict,
     });
 }
 
@@ -32,7 +33,7 @@ export default async function ContactPage({
     const { locale } = await params;
     const dict = await getDictionary(locale);
 
-    const homeLabel = locale === 'tr' ? 'Ana Sayfa' : locale === 'en' ? 'Home' : locale === 'de' ? 'Startseite' : locale === 'fr' ? 'Accueil' : 'Главная';
+    const homeLabel = dict.menu.Home;
 
     return (
         <>
@@ -47,7 +48,7 @@ export default async function ContactPage({
             <div className="section section-padding">
                 <div className="container">
                     <h1>{dict.menu.ContactUs}</h1>
-                    <p>İletişim sayfası içeriği buraya eklenecek.</p>
+                    <p>{dict.contact.pageContent}</p>
                 </div>
             </div>
         </>

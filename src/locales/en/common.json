@@ -21,7 +21,11 @@
         "title": "Professionalism",
         "content": "Success can be achieved when you are talented or experienced in a job. However, for the success achieved to be permanent, a professional approach is essential; otherwise, you will definitely shorten the lifespan of the success you have achieved. The Genixo understanding aims for permanence and sustainable success both individually and corporately, with a brand culture where talented and experienced people work professionally. We don't leave success to chance with our professional business awareness."
       }
-    }
+    },
+    "authorName": "Ceyhun Tekkaya",
+    "authorTitle": "CEO, Genixo",
+    "callToAsk": "Call to ask any question",
+    "phoneNumber": "+90 532 207 67 30"
   },
   "menu": {
     "Home": "Home",
@@ -61,6 +65,11 @@
   },
   "welcome": {
     "title": "Genixo IT and Technology"
+  },
+  "company": {
+    "name": "Genixo IT and Technology",
+    "defaultDescription": "Software Solution Partner & Innovation Company - Web applications, mobile development, cloud solutions and AI-powered software development services.",
+    "defaultKeywords": "software development, web application, mobile application, cloud solutions, AI software, software consulting, DevOps, data science"
   },
   "hero": {
     "subtitle": "INFORMATION TECHNOLOGY - AI SOLUTIONS",
@@ -374,6 +383,83 @@
       },
       "image": "/images/1753787699394.png",
       "active": true
+    }
+  },
+  "footer": {
+    "contactInfo": "Contact Information",
+    "copyright": "© Copyrights 2026 genixo.ai All rights reserved.",
+    "address": "Bilkent Cyberpark"
+  },
+  "blog": {
+    "latestBlog": "Latest Blog",
+    "fromNewsRoom": "From the news room",
+    "readFull": "Read Full"
+  },
+  "caseStudy": {
+    "reasonToChooseUs": "REASON TO CHOOSE US",
+    "prominentSolutions": "We provide truly prominent IT solutions.",
+    "learnMore": "Learn more about",
+    "moreReason": "More reason"
+  },
+  "solutionAI": {
+    "weDeliverExcellence": "We Deliver Excellence",
+    "solutionsToCommonAIProblems": "Solutions To Common AI Problems"
+  },
+  "counterAI": {
+    "completedProjects": "Completed Projects",
+    "roboticAutomation": "Robotic Automation",
+    "webSiteAnalyse": "Web Site Analyse",
+    "clientsSupportDone": "Clients Support Done"
+  },
+  "contact": {
+    "pageContent": "Contact page content will be added here."
+  },
+  "team": {
+    "ourExpertTeam": "Our expert team",
+    "worldExpertTeam": "We have world expert team"
+  },
+  "testimonial": {
+    "title": "Testimonial",
+    "subtitle": "20k+ satisfied clients worldwide"
+  },
+  "seo": {
+    "home": {
+      "keywords": "software development, web application, mobile application, cloud solutions, AI software, software consulting, DevOps, data science, Genixo"
+    },
+    "about": {
+      "keywords": "about us, software company, technology company"
+    },
+    "contact": {
+      "keywords": "contact, contact form, software consulting",
+      "description": "Contact Genixo IT and Technology. Reach out to us for software solutions and consulting services."
+    },
+    "blog": {
+      "keywords": "blog, software blog, technology news, software development",
+      "description": "Genixo IT and Technology blog page. Current content about software development, technology trends and industry news."
+    },
+    "products": {
+      "keywords": "software products, AI software, education software, enterprise software",
+      "description": "Genixo IT and Technology products. AI-powered software solutions, educational platforms and enterprise software products."
+    },
+    "solutions": {
+      "keywords": "software solutions, web application, mobile development, cloud solutions, DevOps, data science",
+      "description": "Genixo IT and Technology solutions. Web application, mobile development, cloud solutions, DevOps and data science services."
+    },
+    "caseStudy": {
+      "keywords": "success stories, case study, customer projects, software projects"
+    },
+    "governmentSupport": {
+      "keywords": "government support, KOSGEB, TÜBİTAK, consulting, software consulting",
+      "description": "Genixo IT and Technology government support and consulting services. Consulting for KOSGEB, TÜBİTAK and other government support programs.",
+      "comingSoon": "This content is being prepared and will be available soon."
+    },
+    "ngsd": {
+      "keywords": "NGSD, next generation software department, software solutions"
+    },
+    "common": {
+      "blog": "blog",
+      "softwareProducts": "software products",
+      "softwareSolutions": "software solutions"
     }
   }
 }

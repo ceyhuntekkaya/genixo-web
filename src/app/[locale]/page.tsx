@@ -23,12 +23,13 @@ export async function generateMetadata({
     const alternateLocales = locales.filter(l => l !== locale) as Locale[];
 
     return generateSEOMetadata({
-        title: dict.welcome.title || 'Genixo Bilişim ve Teknoloji',
+        title: dict.welcome.title || dict.company?.name || 'Genixo',
         description: dict.about.short || dict.about.slogan,
-        keywords: 'yazılım geliştirme, web uygulaması, mobil uygulama, bulut çözümleri, AI yazılım, yazılım danışmanlığı, DevOps, veri bilimi, Genixo',
+        keywords: dict.seo?.home?.keywords || dict.company?.defaultKeywords || 'Genixo',
         url: `/${locale}`,
         locale,
         alternateLocales,
+        dict,
     });
 }
 
@@ -39,22 +40,24 @@ export default async function Home({
 }) {
     const { locale } = await params;
     const dict = await getDictionary(locale);
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://genixo.com';
+    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://genixo.ai';
 
     // Organization Structured Data
     const organizationStructuredData = generateStructuredData({
         type: 'Organization',
-        name: 'Genixo Bilişim ve Teknoloji',
+        name: dict.company?.name || dict.welcome.title || 'Genixo',
         description: dict.about.short || dict.about.slogan,
         url: siteUrl,
+        dict,
     });
 
     // Website Structured Data
     const websiteStructuredData = generateStructuredData({
         type: 'WebSite',
-        name: 'Genixo Bilişim ve Teknoloji',
+        name: dict.company?.name || dict.welcome.title || 'Genixo',
         description: dict.about.short || dict.about.slogan,
         url: siteUrl,
+        dict,
     });
 
     return (

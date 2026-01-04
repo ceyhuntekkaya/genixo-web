@@ -17,10 +17,11 @@ export async function generateMetadata({
     return generateSEOMetadata({
         title: dict.menu.NGSD,
         description: dict.ngsd.subtitle,
-        keywords: `NGSD, yeni nesil yazılım departmanı, yazılım çözümleri, ${dict.about.slogan}`,
+        keywords: `${dict.seo?.ngsd?.keywords || ''}, ${dict.about.slogan}`,
         url: `/${locale}/ngsd`,
         locale,
         alternateLocales,
+        dict,
     });
 }
 
@@ -32,7 +33,7 @@ export default async function NGSDPage({
     const { locale } = await params;
     const dict = await getDictionary(locale);
 
-    const homeLabel = locale === 'tr' ? 'Ana Sayfa' : locale === 'en' ? 'Home' : locale === 'de' ? 'Startseite' : locale === 'fr' ? 'Accueil' : 'Главная';
+    const homeLabel = dict.menu.Home;
 
     return (
         <>

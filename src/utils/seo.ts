@@ -1,7 +1,8 @@
 import { Metadata } from 'next';
 import { Locale } from '@/i18n/config';
+import type { Dictionary } from '@/i18n/types';
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://genixo.com';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://genixo.ai';
 const siteName = 'Genixo Bilişim ve Teknoloji';
 const defaultDescription = 'Yazılım Çözüm Ortağı & İnovasyon Şirketi - Web uygulamaları, mobil geliştirme, bulut çözümleri ve AI destekli yazılım geliştirme hizmetleri.';
 const defaultKeywords = 'yazılım geliştirme, web uygulaması, mobil uygulama, bulut çözümleri, AI yazılım, yazılım danışmanlığı, DevOps, veri bilimi';
@@ -22,13 +23,14 @@ export interface SEOConfig {
     author?: string;
     section?: string;
     tags?: string[];
+    dict?: Dictionary; // Optional dictionary for translations
 }
 
 export function generateMetadata(config: SEOConfig): Metadata {
     const {
         title,
-        description = defaultDescription,
-        keywords = defaultKeywords,
+        description,
+        keywords,
         image = `${siteUrl}/images/og-image.jpg`,
         url,
         type = 'website',
@@ -41,30 +43,42 @@ export function generateMetadata(config: SEOConfig): Metadata {
         author,
         section,
         tags,
+        dict,
     } = config;
 
-    const fullTitle = title ? `${title} | ${siteName}` : siteName;
+    // Use dictionary values if available, otherwise use defaults
+    const siteNameValue = dict?.company?.name || siteName;
+    const defaultDescriptionValue = dict?.company?.defaultDescription || defaultDescription;
+    const defaultKeywordsValue = dict?.company?.defaultKeywords || defaultKeywords;
+    const finalDescription = description || defaultDescriptionValue;
+    const finalKeywords = keywords || defaultKeywordsValue;
+
+    const fullTitle = title ? `${title} | ${siteNameValue}` : siteNameValue;
     const canonicalUrl = url ? `${siteUrl}${url}` : siteUrl;
 
     // Alternate language URLs
-    const alternates: Record<string, string> = {};
+    const alternates: { languages?: Record<string, string> } = {};
     alternateLocales.forEach((altLocale) => {
         if (url) {
-            alternates.languages = alternates.languages || {};
+            if (!alternates.languages) {
+                alternates.languages = {};
+            }
             alternates.languages[altLocale] = `${siteUrl}/${altLocale}${url.replace(/^\/[^/]+/, '')}`;
         } else {
-            alternates.languages = alternates.languages || {};
+            if (!alternates.languages) {
+                alternates.languages = {};
+            }
             alternates.languages[altLocale] = `${siteUrl}/${altLocale}`;
         }
     });
 
     const metadata: Metadata = {
         title: fullTitle,
-        description,
-        keywords: keywords.split(',').map(k => k.trim()),
+        description: finalDescription,
+        keywords: finalKeywords.split(',').map((k: string) => k.trim()),
         authors: author ? [{ name: author }] : undefined,
-        creator: siteName,
-        publisher: siteName,
+        creator: siteNameValue,
+        publisher: siteNameValue,
         robots: {
             index: !noindex,
             follow: !nofollow,
@@ -81,14 +95,14 @@ export function generateMetadata(config: SEOConfig): Metadata {
             locale: locale === 'tr' ? 'tr_TR' : locale === 'en' ? 'en_US' : locale === 'de' ? 'de_DE' : locale === 'fr' ? 'fr_FR' : 'ru_RU',
             url: canonicalUrl,
             title: fullTitle,
-            description,
-            siteName,
+            description: finalDescription,
+            siteName: siteNameValue,
             images: [
                 {
                     url: image,
                     width: 1200,
                     height: 630,
-                    alt: title || siteName,
+                    alt: title || siteNameValue,
                 },
             ],
             ...(publishedTime && { publishedTime }),
@@ -99,7 +113,7 @@ export function generateMetadata(config: SEOConfig): Metadata {
         twitter: {
             card: 'summary_large_image',
             title: fullTitle,
-            description,
+            description: finalDescription,
             images: [image],
             creator: '@genixo',
             site: '@genixo',
@@ -129,9 +143,14 @@ export function generateStructuredData(config: {
         url?: string;
     };
     breadcrumbs?: Array<{ name: string; url: string }>;
+    dict?: Dictionary;
     [key: string]: any;
 }) {
-    const { type, ...data } = config;
+    const { type, dict, ...data } = config;
+    
+    // Use dictionary values if available, otherwise use defaults
+    const siteNameValue = dict?.company?.name || siteName;
+    const defaultDescriptionValue = dict?.company?.defaultDescription || defaultDescription;
 
     const baseStructuredData: Record<string, any> = {
         '@context': 'https://schema.org',
@@ -142,8 +161,8 @@ export function generateStructuredData(config: {
         case 'Organization':
             return {
                 ...baseStructuredData,
-                name: data.name || siteName,
-                description: data.description || defaultDescription,
+                name: data.name || siteNameValue,
+                description: data.description || defaultDescriptionValue,
                 url: data.url || siteUrl,
                 logo: data.logo || `${siteUrl}/images/logo.png`,
                 image: data.image || `${siteUrl}/images/og-image.jpg`,
@@ -164,8 +183,8 @@ export function generateStructuredData(config: {
         case 'WebSite':
             return {
                 ...baseStructuredData,
-                name: data.name || siteName,
-                description: data.description || defaultDescription,
+                name: data.name || siteNameValue,
+                description: data.description || defaultDescriptionValue,
                 url: data.url || siteUrl,
                 potentialAction: {
                     '@type': 'SearchAction',
@@ -192,7 +211,7 @@ export function generateStructuredData(config: {
                 } : undefined,
                 publisher: {
                     '@type': 'Organization',
-                    name: siteName,
+                    name: siteNameValue,
                     logo: {
                         '@type': 'ImageObject',
                         url: `${siteUrl}/images/logo.png`,
@@ -237,9 +256,11 @@ export function generateStructuredData(config: {
 
 export function generateBreadcrumbs(
     items: Array<{ name: string; url: string }>,
-    locale: Locale = 'tr'
+    locale: Locale = 'tr',
+    dict?: Dictionary
 ): Array<{ name: string; url: string }> {
-    const home = { name: locale === 'tr' ? 'Ana Sayfa' : 'Home', url: `/${locale}` };
+    const homeName = dict?.menu?.Home || (locale === 'tr' ? 'Ana Sayfa' : 'Home');
+    const home = { name: homeName, url: `/${locale}` };
     return [home, ...items];
 }
 

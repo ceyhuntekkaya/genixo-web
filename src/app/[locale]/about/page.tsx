@@ -20,10 +20,11 @@ export async function generateMetadata({
     return generateSEOMetadata({
         title: dict.menu.AboutUs,
         description: dict.about.short || dict.about.slogan,
-        keywords: `hakkımızda, ${dict.about.slogan}, yazılım şirketi, teknoloji şirketi`,
+        keywords: `${dict.seo?.about?.keywords || ''}, ${dict.about.slogan}`,
         url: `/${locale}/about`,
         locale,
         alternateLocales,
+        dict,
     });
 }
 
@@ -34,17 +35,18 @@ export default async function AboutPage({
 }) {
     const { locale } = await params;
     const dict = await getDictionary(locale);
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://genixo.com';
+    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://genixo.ai';
 
     // Organization Structured Data
     const organizationStructuredData = generateStructuredData({
         type: 'Organization',
-        name: 'Genixo Bilişim ve Teknoloji',
+        name: dict.company?.name || dict.welcome.title || 'Genixo',
         description: dict.about.short || dict.about.slogan,
         url: siteUrl,
+        dict,
     });
 
-    const homeLabel = locale === 'tr' ? 'Ana Sayfa' : locale === 'en' ? 'Home' : locale === 'de' ? 'Startseite' : locale === 'fr' ? 'Accueil' : 'Главная';
+    const homeLabel = dict.menu.Home;
 
     return (
         <>

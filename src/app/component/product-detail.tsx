@@ -26,7 +26,7 @@ export default function ProductDetail({ productKey, dict, locale }: ProductDetai
         );
     }
 
-    const homeLabel = locale === 'tr' ? 'Ana Sayfa' : locale === 'en' ? 'Home' : locale === 'de' ? 'Startseite' : locale === 'fr' ? 'Accueil' : 'Главная';
+    const homeLabel = dict.menu.Home;
     
     // Get product slug from key
     const productSlug = Object.keys(productSlugToKey).find(slug => productSlugToKey[slug] === productKey) || productKey.toLowerCase();

@@ -28,12 +28,12 @@ export default function AboutSection({ dict, locale }: PageProps) {
                                     <div className="about-author-info-wrap">
                                         <div className="about-author">
                                             <img src="/assets/images/sign.png" alt=""/>
-                                            <h3 className="name">Alen Morno sin</h3>
-                                            <span className="designation">CEO, Techmax</span>
+                                            <h3 className="name">{dict.about.authorName}</h3>
+                                            <span className="designation">{dict.about.authorTitle}</span>
                                         </div>
                                         <div className="about-info">
-                                            <p>Call to ask any question </p>
-                                            <h3 className="number">0123-456-7890</h3>
+                                            <p>{dict.about.callToAsk}</p>
+                                            <h3 className="number">{dict.about.phoneNumber}</h3>
                                         </div>
                                     </div>
                                 </div>

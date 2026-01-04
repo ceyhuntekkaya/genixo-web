@@ -36,8 +36,8 @@ export default function SolutionAISection({ dict, locale }: PageProps) {
             <div className="container">
                 <div className="solution-wrap">
                     <div className="section-title text-center">
-                        <h3 className="sub-title">{locale === 'tr' ? 'Mükemmelliği Sunuyoruz' : locale === 'en' ? 'We Deliver Excellence' : locale === 'de' ? 'Wir liefern Exzellenz' : locale === 'fr' ? 'Nous offrons l\'excellence' : 'Мы обеспечиваем превосходство'}</h3>
-                        <h2 className="title">{locale === 'tr' ? 'Yaygın AI Problemlerine Çözümler' : locale === 'en' ? 'Solutions To Common AI Problems' : locale === 'de' ? 'Lösungen für häufige KI-Probleme' : locale === 'fr' ? 'Solutions aux problèmes courants de l\'IA' : 'Решения общих проблем ИИ'}</h2>
+                        <h3 className="sub-title">{dict.solutionAI.weDeliverExcellence}</h3>
+                        <h2 className="title">{dict.solutionAI.solutionsToCommonAIProblems}</h2>
                     </div>
                     <div className="solution-content-wrap">
                         <div className="row">

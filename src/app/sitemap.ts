@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { locales } from '@/i18n/config';
 import { solutionSlugToKey, productSlugToKey } from '@/utils/slugMapping';
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://genixo.com';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://genixo.ai';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseRoutes = [

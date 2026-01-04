@@ -16,11 +16,12 @@ export async function generateMetadata({
 
     return generateSEOMetadata({
         title: dict.menu.SuccessStories,
-        description: `Genixo Bilişim ve Teknoloji başarı hikayeleri. Müşterilerimizin başarılı projeleri ve çözümlerimiz.`,
-        keywords: `başarı hikayeleri, case study, müşteri projeleri, yazılım projeleri, ${dict.about.slogan}`,
+        description: dict.menu.SuccessStories,
+        keywords: `${dict.seo?.caseStudy?.keywords || ''}, ${dict.about.slogan}`,
         url: `/${locale}/case-study`,
         locale,
         alternateLocales,
+        dict,
     });
 }
 
@@ -32,7 +33,7 @@ export default async function CaseStudyPage({
     const { locale } = await params;
     const dict = await getDictionary(locale);
 
-    const homeLabel = locale === 'tr' ? 'Ana Sayfa' : locale === 'en' ? 'Home' : locale === 'de' ? 'Startseite' : locale === 'fr' ? 'Accueil' : 'Главная';
+    const homeLabel = dict.menu.Home;
 
     return (
         <>

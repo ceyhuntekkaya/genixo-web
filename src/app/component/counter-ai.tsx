@@ -18,25 +18,25 @@ export default function CounterAISection({ dict, locale }: PageProps) {
                             <div className="col-lg-3 col-sm-6">
                                 <div className="single-counter-02 text-center">
                                     <span><span className="counter">354</span>+</span>
-                                    <p>Completed Projects</p>
+                                    <p>{dict.counterAI.completedProjects}</p>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-sm-6">
                                 <div className="single-counter-02 text-center">
                                     <span><span className="counter">119</span>+</span>
-                                    <p>Robotic Automation</p>
+                                    <p>{dict.counterAI.roboticAutomation}</p>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-sm-6">
                                 <div className="single-counter-02 text-center">
                                     <span><span className="counter">99</span>%</span>
-                                    <p>Web Site Analyse</p>
+                                    <p>{dict.counterAI.webSiteAnalyse}</p>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-sm-6">
                                 <div className="single-counter-02 text-center">
                                     <span><span className="counter">321</span>+</span>
-                                    <p>Clients Supoort Done</p>
+                                    <p>{dict.counterAI.clientsSupportDone}</p>
                                 </div>
                             </div>
                         </div>

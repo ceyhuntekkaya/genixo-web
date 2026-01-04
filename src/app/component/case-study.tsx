@@ -1,11 +1,15 @@
 'use client';
 
 import {Dictionary} from "@/i18n/types";
+import {Locale} from "@/i18n/config";
+import Link from "next/link";
+import {getSolutionSlug} from "@/utils/slugMapping";
 
 interface PageProps {
     dict: Dictionary;
+    locale: Locale;
 }
-export default function CaseStudySection({ dict }: PageProps) {
+export default function CaseStudySection({ dict, locale }: PageProps) {
     return (
         <>
 
@@ -19,60 +23,49 @@ export default function CaseStudySection({ dict }: PageProps) {
                         </div>
                         <div className="choose-us-content-wrap">
                             <div className="row">
-                                <div className="col-lg-4 col-md-6">
-                                    <div className="choose-us-item">
-                                        <div className="choose-us-img">
-                                            <a href="choose-us.html"><img src="/assets/images/choose-us1.jpg"
-                                                                          alt=""/></a>
-                                            <div className="choose-us-content">
-                                                <h3 className="title">Information managemnet system</h3>
-                                                <p>Accelerate innovation with world-className tech teams We’ll match you
-                                                    to an
-                                                    entire remote team of incredible freelance talent for all your
-                                                    software
-                                                    development needs.</p>
+                                {Object.keys(dict.services)
+                                    .filter(key => key !== 'general')
+                                    .filter(key => {
+                                        const solution = dict.services[key as keyof typeof dict.services];
+                                        return solution && 
+                                               ('showOnHomepage' in solution) && 
+                                               solution.showOnHomepage === true &&
+                                               solution.active !== false;
+                                    })
+                                    .slice(0, 3) // Show maximum 3 items
+                                    .map((key) => {
+                                        const solution = dict.services[key as keyof typeof dict.services];
+                                        const solutionSlug = getSolutionSlug(key as keyof typeof dict.services);
+                                        
+                                        if (!solution || !solutionSlug || !('name' in solution) || !('summary' in solution)) {
+                                            return null;
+                                        }
+
+                                        return (
+                                            <div key={key} className="col-lg-4 col-md-6">
+                                                <div className="choose-us-item">
+                                                    <div className="choose-us-img">
+                                                        <Link href={`/${locale}/solutions/${solutionSlug}`}>
+                                                            <img 
+                                                                src={solution.image1 || "/assets/images/choose-us1.jpg"} 
+                                                                alt={solution.name}
+                                                            />
+                                                            <div className="choose-us-content">
+                                                                <h3 className="title">{solution.name}</h3>
+                                                                <p>{solution.summary}</p>
+                                                            </div>
+                                                        </Link>
+                                                    </div>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6">
-                                    <div className="choose-us-item">
-                                        <div className="choose-us-img">
-                                            <a href="choose-us.html"><img src="/assets/images/choose-us2.jpg"
-                                                                          alt=""/></a>
-                                            <div className="choose-us-content">
-                                                <h3 className="title">Information Database Security</h3>
-                                                <p>Accelerate innovation with world-className tech teams We’ll match you
-                                                    to an
-                                                    entire remote team of incredible freelance talent for all your
-                                                    software
-                                                    development needs.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6">
-                                    <div className="choose-us-item">
-                                        <div className="choose-us-img">
-                                            <a href="choose-us.html"><img src="/assets/images/choose-us3.jpg"
-                                                                          alt=""/></a>
-                                            <div className="choose-us-content">
-                                                <h3 className="title">Multifunctional Technology</h3>
-                                                <p>Accelerate innovation with world-className tech teams We’ll match you
-                                                    to an
-                                                    entire remote team of incredible freelance talent for all your
-                                                    software
-                                                    development needs.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                        );
+                                    })}
                             </div>
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="more-choose-content text-center">
-                                        <p>Learn more about <a href="choose-us.html">More reason <i
-                                            className="fas fa-long-arrow-alt-right"></i></a></p>
+                                        <p>Learn more about <Link href={`/${locale}/solutions`}>More reason <i
+                                            className="fas fa-long-arrow-alt-right"></i></Link></p>
                                     </div>
                                 </div>
                             </div>

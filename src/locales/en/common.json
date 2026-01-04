@@ -357,5 +357,19 @@
         "link": "service.html"
       }
     ]
+  },
+  "blogs": {
+    "ai-not-just-technology": {
+      "title": "Artificial Intelligence is Not Just a Technology, It's a New Work Culture",
+      "excerpt": "Artificial intelligence is no longer just a technology that speeds up certain tasks. It is becoming a new work culture that transforms the way we work, inter-team communication, and even internal decision-making processes.",
+      "content": "<p>As someone who has been following the business world for a long time, I clearly see this: Artificial intelligence is no longer just a technology that speeds up certain tasks. It is becoming a new work culture that transforms the way we work, inter-team communication, and even internal decision-making processes.</p><p>While efficiency in the past was generally achieved through the digitization of processes; today, this definition has shifted to an axis of AI-powered automation, prediction, and speed. According to McKinsey's 2024 data, employees using generative AI save an average of 5.4% of their time per week. This means approximately 2 hours of gain in a 40-hour work week. This difference, which seems small at first glance, has the potential to increase economic productivity by 1.1% in large teams and in the long term.</p><p>What is even more striking is that these technologies are transforming not only individual productivity but also the collective way of working. Decisions are now shaped by data-based analyses, not by intuition. While AI tools provide managers with more accurate predictions; employees can free up a large portion of their time from repetitive tasks and allocate it to creative processes. So much so that 93% of companies in America are already using AI-based solutions. However, only half of employees know how to work with these tools. This shows that investment should be made in culture, not technology.</p><p>The transformation of work culture is not limited to productivity. Meetings are now shorter; communication is more concise. AI-powered summaries, document analyses, and recommendation systems that enable direct access to information are coming to the fore instead of email traffic. According to IBM's 2024 report, 90% of employees using AI say these tools save time. This shows us that AI tools are not just \"assistants\" but have actually become a new colleague.</p><p>Amidst all this transformation, we have started to bring to life the project we have been working on for a while with the goal of not just observing but contributing: Genixo Work AI. Our goal is to make AI a natural part of work life. We are developing this platform to enable teams to access information faster, make more informed decisions, and create more efficient processes. So we are not just producing software; we are designing the next-generation work culture.</p><p>This platform aims for a next-generation business culture where teams can initiate complex business processes with simple commands in natural language (for example, \"prepare last month's sales report and create proposals for new customers\"); where AI is not just supportive but an active actor in the business.</p><p>The project is still in its early stages — but in every line of code, in every moment of decision, we remain faithful to the fundamental question: \"Will we work just faster with AI, or will we work completely differently?\"</p><p>I would like to connect and exchange ideas with everyone who sees AI not just as a technology, but as a mindset that shapes the future of business. I am here to learn and progress together with those who want to be part of this transformation.</p>",
+      "date": "2025-07-29",
+      "author": {
+        "name": "Ceyhun Tekkaya",
+        "title": "Co-Founder of Genixo"
+      },
+      "image": "/images/1753787699394.png",
+      "active": true
+    }
   }
 }

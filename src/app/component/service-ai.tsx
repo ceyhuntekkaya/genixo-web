@@ -1,79 +1,55 @@
 'use client';
 
-
 import {Dictionary} from "@/i18n/types";
+import {Locale} from "@/i18n/config";
+import Link from "next/link";
 
 interface PageProps {
     dict: Dictionary;
+    locale: Locale;
 }
-export default function ServiceAISection({ dict }: PageProps) {
-    return (
-        <>
+export default function ServiceAISection({ dict, locale }: PageProps) {
+    const ngsd = dict.ngsd;
+    
+    // NGSD özelliklerini array olarak al (sadece 3 özellik: remote, dynamic, global)
+    const ngsdFeatures = [
+        { ...ngsd.remote, icon: '/assets/images/ser-icon13.png' },
+        { ...ngsd.dynamic, icon: '/assets/images/ser-icon14.png' },
+        { ...ngsd.global, icon: '/assets/images/ser-icon15.png' },
+    ];
 
-            <div className="section techwix-service-section-05">
-                <div className="container">
-                    <div className="service-wrap section-padding-02">
-                        <div className="section-title text-center">
-                            <h3 className="sub-title">Whats included in service</h3>
-                            <h2 className="title">Building everything you need for your business</h2>
-                        </div>
-                        <div className="service-content-wrap">
-                            <div className="row">
-                                <div className="col-xl-3 col-sm-6">
+    return (
+        <div className="section techwix-service-section-05">
+            <div className="container">
+                <div className="service-wrap section-padding-02">
+                    <div className="section-title text-center">
+                        <h3 className="sub-title">{ngsd.title}</h3>
+                        <h2 className="title">{ngsd.subtitle}</h2>
+                        <p className="text mt-3" style={{ maxWidth: '800px', margin: '20px auto 0' }}>
+                            {ngsd.whatIs.content}
+                        </p>
+                    </div>
+                    <div className="service-content-wrap">
+                        <div className="row">
+                            {ngsdFeatures.map((feature, index) => (
+                                <div key={index} className="col-xl-4 col-sm-6">
                                     <div className="service-item-04">
                                         <div className="service-img">
-                                            <img src="/assets/images/ser-icon13.png" alt=""/>
+                                            <img src={feature.icon} alt={feature.title}/>
                                         </div>
                                         <div className="service-content">
-                                            <h3 className="title"><a href="service.html">AI base business solution</a></h3>
-                                            <p>Accelerate innovation with world-className tech teams We’ll match you to an entire remote team .</p>
+                                            <h3 className="title">
+                                                <Link href={`/${locale}/ngsd`}>{feature.title}</Link>
+                                            </h3>
+                                            <p>{feature.content.substring(0, 120)}...</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-xl-3 col-sm-6">
-                                    <div className="service-item-04">
-                                        <div className="service-img">
-                                            <img src="/assets/images/ser-icon14.png" alt=""/>
-                                        </div>
-                                        <div className="service-content">
-                                            <h3 className="title"><a href="service.html">Chatbot with Real meeting</a></h3>
-                                            <p>Accelerate innovation with world-className tech teams We’ll match you to an entire remote team .</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-xl-3 col-sm-6">
-                                    <div className="service-item-04">
-                                        <div className="service-img">
-                                            <img src="/assets/images/ser-icon15.png" alt=""/>
-                                        </div>
-                                        <div className="service-content">
-                                            <h3 className="title"><a href="service.html">Automate data saving</a></h3>
-                                            <p>Accelerate innovation with world-className tech teams We’ll match you to an entire remote team .</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-xl-3 col-sm-6">
-                                    <div className="service-item-04">
-                                        <div className="service-img">
-                                            <img src="/assets/images/ser-icon16.png" alt=""/>
-                                        </div>
-                                        <div className="service-content">
-                                            <h3 className="title"><a href="service.html">Robotic Automation</a></h3>
-                                            <p>Accelerate innovation with world-className tech teams We’ll match you to an entire remote team .</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            ))}
                         </div>
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-        </>
-    )
+        </div>
+    );
 }

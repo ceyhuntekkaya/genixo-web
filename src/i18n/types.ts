@@ -273,5 +273,19 @@ export type Dictionary = {
             "link"?: string;
         }>;
     };
+    "blogs"?: {
+        [key: string]: {
+            "title": string;
+            "excerpt": string;
+            "content": string;
+            "date": string;
+            "author": {
+                "name": string;
+                "title"?: string;
+            };
+            "image": string;
+            "active"?: boolean;
+        };
+    };
 
 };

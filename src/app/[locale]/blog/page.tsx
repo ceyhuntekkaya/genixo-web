@@ -46,8 +46,75 @@ export default async function BlogPage({
             />
             <div className="section section-padding">
                 <div className="container">
-                    <h1>{dict.menu.Blog}</h1>
-                    <p>Blog page content will be added here.</p>
+                    <div className="techwix-blog-wrap">
+                        <div className="row">
+                            {dict.blogs && Object.keys(dict.blogs)
+                                .filter(key => {
+                                    const blog = dict.blogs?.[key as keyof typeof dict.blogs];
+                                    return blog && blog.active !== false;
+                                })
+                                .map((key) => {
+                                    const blog = dict.blogs?.[key as keyof typeof dict.blogs];
+                                    const slug = key === 'ai-not-just-technology' 
+                                        ? (locale === 'tr' ? 'yapay-zeka-sadece-bir-teknoloji-degil-yeni-bir-calisma-kulturu' : 'ai-not-just-technology')
+                                        : key;
+                                    
+                                    if (!blog) return null;
+
+                                    // Format date
+                                    const formatDate = (dateString: string, locale: Locale) => {
+                                        const date = new Date(dateString);
+                                        if (locale === 'tr') {
+                                            const months = ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'];
+                                            return `${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()}`;
+                                        }
+                                        return date.toLocaleDateString(locale === 'en' ? 'en-US' : locale === 'de' ? 'de-DE' : locale === 'fr' ? 'fr-FR' : 'ru-RU', {
+                                            year: 'numeric',
+                                            month: 'long',
+                                            day: 'numeric'
+                                        });
+                                    };
+
+                                    return (
+                                        <div key={key} className="col-lg-4 col-md-6 mb-4">
+                                            <div className="single-blog">
+                                                <div className="blog-image">
+                                                    <a href={`/${locale}/blog/${slug}`}>
+                                                        <img src={blog.image} alt={blog.title} />
+                                                        <div className="top-meta">
+                                                            <span className="date">
+                                                                <span>{new Date(blog.date).getDate()}</span>
+                                                                {locale === 'tr' 
+                                                                    ? ['Oca', 'Şub', 'Mar', 'Nis', 'May', 'Haz', 'Tem', 'Ağu', 'Eyl', 'Eki', 'Kas', 'Ara'][new Date(blog.date).getMonth()]
+                                                                    : new Date(blog.date).toLocaleDateString(locale === 'en' ? 'en-US' : locale === 'de' ? 'de-DE' : locale === 'fr' ? 'fr-FR' : 'ru-RU', { month: 'short' })
+                                                                }
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div className="blog-content">
+                                                    <div className="blog-meta">
+                                                        <span><i className="fas fa-user"></i> <a href="#">{blog.author.name}</a></span>
+                                                        <span><i className="far fa-calendar"></i> {formatDate(blog.date, locale)}</span>
+                                                    </div>
+                                                    <h3 className="title">
+                                                        <a href={`/${locale}/blog/${slug}`}>{blog.title}</a>
+                                                    </h3>
+                                                    {blog.excerpt && (
+                                                        <p className="mb-3">{blog.excerpt.substring(0, 150)}...</p>
+                                                    )}
+                                                    <div className="blog-btn">
+                                                        <a className="blog-btn-link" href={`/${locale}/blog/${slug}`}>
+                                                            {locale === 'tr' ? 'Devamını Oku' : locale === 'en' ? 'Read More' : locale === 'de' ? 'Weiterlesen' : locale === 'fr' ? 'Lire la suite' : 'Читать далее'} <i className="fas fa-long-arrow-alt-right"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    );
+                                })}
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

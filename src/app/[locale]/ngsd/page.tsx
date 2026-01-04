@@ -1,4 +1,4 @@
-import pageBanner from "@/app/assets/images/bg/page-banner.jpg";
+
 import PageBanner from "@/app/component/page-banner";
 import { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/getDictionary";
@@ -38,7 +38,7 @@ export default async function NGSDPage({
     return (
         <>
             <PageBanner
-                bannerLink={pageBanner.src}
+                bannerLink={"/images/bg/page-banner.jpg"}
                 title={dict.menu.NGSD}
                 breadcrumbs={[
                     { label: homeLabel, href: `/${locale}` },
@@ -55,12 +55,12 @@ export default async function NGSDPage({
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="about-img-wrap">
-                                    <img className="shape-1" src="/assets/images/shape/about-shape2.png" alt="" />
-                                    <div className="about-img">
-                                        <img src="/assets/images/about-3.jpg" alt="" />
-                                    </div>
-                                    <div className="about-img about-img-2">
-                                        <img src="/assets/images/about-4.jpg" alt="" />
+                                    <img className="shape-1" src="/images/shape/about-shape2.png" alt="" />
+                                <div className="about-img">
+                                    <img src="/images/about-3.jpg" alt="" />
+                                </div>
+                                <div className="about-img about-img-2">
+                                    <img src="/images/about-4.jpg" alt="" />
                                     </div>
                                 </div>
                             </div>

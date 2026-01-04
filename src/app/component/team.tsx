@@ -21,7 +21,7 @@ export default function TeamSection() {
                                             <div className="team-img">
                                                 <a href="team.html">
                                                     <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '300px' }}>
-                                                        <Image src="/assets/images/team/team-1.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                                        <Image src="/images/team/team-1.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
                                                     </div>
                                                 </a>
                                             </div>
@@ -45,7 +45,7 @@ export default function TeamSection() {
                                             <div className="team-img">
                                                 <a href="team.html">
                                                     <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '300px' }}>
-                                                        <Image src="/assets/images/team/team-2.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                                        <Image src="/images/team/team-2.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
                                                     </div>
                                                 </a>
                                             </div>
@@ -68,7 +68,7 @@ export default function TeamSection() {
                                             <div className="team-img">
                                                 <a href="team.html">
                                                     <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '300px' }}>
-                                                        <Image src="/assets/images/team/team-3.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                                        <Image src="/images/team/team-3.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
                                                     </div>
                                                 </a>
                                             </div>
@@ -91,7 +91,7 @@ export default function TeamSection() {
                                             <div className="team-img">
                                                 <a href="team.html">
                                                     <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '300px' }}>
-                                                        <Image src="/assets/images/team/team-4.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                                        <Image src="/images/team/team-4.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
                                                     </div>
                                                 </a>
                                             </div>

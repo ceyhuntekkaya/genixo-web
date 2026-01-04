@@ -1,4 +1,3 @@
-import pageBanner from "@/app/assets/images/bg/page-banner.jpg";
 import PageBanner from "@/app/component/page-banner";
 import CounterSection from "@/app/component/counter-section";
 import ChooseUsSection from "@/app/component/choose-us-section";
@@ -35,7 +34,7 @@ export default function ProductDetail({ productKey, dict, locale }: ProductDetai
     return (
         <>
             <PageBanner
-                bannerLink={pageBanner.src}
+                bannerLink="/images/bg/page-banner.jpg"
                 title={product.name}
                 breadcrumbs={[
                     { label: homeLabel, href: `/${locale}` },
@@ -51,7 +50,7 @@ export default function ProductDetail({ productKey, dict, locale }: ProductDetai
                         <div className="row">
                             <div className="col-lg-6">
                             <div className="about-img-wrap">
-                                    <img className="shape-1" src="/assets/images/shape/about-shape2.png" alt="" />
+                                    <img className="shape-1" src="/images/shape/about-shape2.png" alt="" />
                                     <div className="about-img">
                                         <img 
                                             src={product.image1 || `/images/products/${productSlug}.jpg`} 

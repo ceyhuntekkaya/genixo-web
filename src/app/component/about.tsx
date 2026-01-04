@@ -29,7 +29,7 @@ export default function AboutSection({ dict, locale }: PageProps) {
                                     <div className="about-author-info-wrap">
                                         <div className="about-author">
                                             <div style={{ position: 'relative', width: '150px', height: '80px' }}>
-                                                <Image src="/assets/images/sign.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                                <Image src="/images/sign.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
                                             </div>
                                             <h3 className="name">{dict.about.authorName}</h3>
                                             <span className="designation">{dict.about.authorTitle}</span>
@@ -50,12 +50,12 @@ export default function AboutSection({ dict, locale }: PageProps) {
                                     </div>
                                     <div className="about-img about-img-big">
                                         <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '400px' }}>
-                                            <Image src="/assets/images/about-big2.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                            <Image src="/images/about-big2.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
                                         </div>
                                     </div>
                                     <div className="about-img about-img-sm">
                                         <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '250px' }}>
-                                            <Image src="/assets/images/about-sm2.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                            <Image src="/images/about-sm2.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
                                         </div>
                                     </div>
                                 </div>

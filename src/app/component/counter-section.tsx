@@ -1,4 +1,3 @@
-import counterLogo from "@/app/assets/images/bg/counter-bg2.jpg";
 import { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/getDictionary";
 
@@ -8,7 +7,7 @@ export default async function CounterSection({ locale }: { locale: Locale }) {
     return (
         <div className="section techwix-counter-section-03 techwix-counter-section-04">
             <div className="container">
-                <div className="counter-wrap" style={{ backgroundImage: `url(${counterLogo.src})` }}>
+                <div className="counter-wrap" style={{ backgroundImage: `url(/images/bg/counter-bg2.jpg)` }}>
                     <div className="row">
                         {dict.counter.items.map((item: { value: string; label: string }, index: number) => (
                             <div key={index} className="col-lg-3 col-sm-6">

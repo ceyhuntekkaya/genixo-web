@@ -21,7 +21,7 @@ export default function CaseStudySection({ dict, locale }: PageProps) {
         <>
 
             <div className="section techwix-choose-us-section section-padding"
-                 style={{backgroundImage: 'url(/assets/images/bg/choose-us-bg.jpg)'}}>
+                 style={{backgroundImage: 'url(/images/bg/choose-us-bg.jpg)'}}>
                 <div className="container">
                     <div className="choose-us-wrap">
                         <div className="section-title text-center">
@@ -56,7 +56,7 @@ export default function CaseStudySection({ dict, locale }: PageProps) {
                                                         <Link href={`/${locale}/solutions/${solutionSlug}`}>
                                                             <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '300px' }}>
                                                                 <Image 
-                                                                    src={solution.image1 || "/assets/images/choose-us1.jpg"} 
+                                                                    src={solution.image1 || "/images/choose-us1.jpg"} 
                                                                     alt={solution.name}
                                                                     fill
                                                                     style={{ objectFit: 'cover' }}

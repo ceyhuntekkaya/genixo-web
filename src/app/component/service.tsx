@@ -12,7 +12,7 @@ export default function ServiceSection({ dict, locale }: PageProps) {
     return (
         <>
             <div className="section techwix-service-section-03"
-                 style={{backgroundImage: `url(/assets/images/bg/service-bg3.jpg)`}}>
+                 style={{backgroundImage: `url(/images/bg/service-bg3.jpg)`}}>
                 <div className="container">
                     <div className="service-wrap-03">
                         <div className="row">
@@ -20,7 +20,7 @@ export default function ServiceSection({ dict, locale }: PageProps) {
                                 <div className="service-item-03">
                                     <div className="service-img">
                                         <div style={{ position: 'relative', width: '80px', height: '80px' }}>
-                                            <Image src="/assets/images/ser-icon9.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                            <Image src="/images/ser-icon9.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
                                         </div>
                                     </div>
                                     <div className="service-content">
@@ -36,7 +36,7 @@ export default function ServiceSection({ dict, locale }: PageProps) {
                                 <div className="service-item-03">
                                     <div className="service-img">
                                         <div style={{ position: 'relative', width: '80px', height: '80px' }}>
-                                            <Image src="/assets/images/ser-icon10.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                            <Image src="/images/ser-icon10.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
                                         </div>
                                     </div>
                                     <div className="service-content">
@@ -52,7 +52,7 @@ export default function ServiceSection({ dict, locale }: PageProps) {
                                 <div className="service-item-03">
                                     <div className="service-img">
                                         <div style={{ position: 'relative', width: '80px', height: '80px' }}>
-                                            <Image src="/assets/images/ser-icon11.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                            <Image src="/images/ser-icon11.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
                                         </div>
                                     </div>
                                     <div className="service-content">
@@ -68,7 +68,7 @@ export default function ServiceSection({ dict, locale }: PageProps) {
                                 <div className="service-item-03">
                                     <div className="service-img">
                                         <div style={{ position: 'relative', width: '80px', height: '80px' }}>
-                                            <Image src="/assets/images/ser-icon12.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                            <Image src="/images/ser-icon12.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
                                         </div>
                                     </div>
                                     <div className="service-content">

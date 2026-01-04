@@ -20,12 +20,12 @@ export default function TestimonialSection() {
                                         <div className="single-testimonial-02">
                                             <div className="testimonial-thumb">
                                                 <div style={{ position: 'relative', width: '100px', height: '100px', borderRadius: '50%', overflow: 'hidden' }}>
-                                                    <Image src="/assets/images/testi-3.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                                    <Image src="/images/testi-3.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
                                                 </div>
                                             </div>
                                             <div className="testimonial-content">
                                                 <div style={{ position: 'relative', width: '60px', height: '60px' }}>
-                                                    <Image src="/assets/images/testi-icon.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                                    <Image src="/images/testi-icon.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
                                                 </div>
                                                 <p>Accelerate innovation with world-className tech teams Beyond more
                                                     stoic this
@@ -39,12 +39,12 @@ export default function TestimonialSection() {
                                         <div className="single-testimonial-02">
                                             <div className="testimonial-thumb">
                                                 <div style={{ position: 'relative', width: '100px', height: '100px', borderRadius: '50%', overflow: 'hidden' }}>
-                                                    <Image src="/assets/images/testi-4.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                                    <Image src="/images/testi-4.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
                                                 </div>
                                             </div>
                                             <div className="testimonial-content">
                                                 <div style={{ position: 'relative', width: '60px', height: '60px' }}>
-                                                    <Image src="/assets/images/testi-icon.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                                    <Image src="/images/testi-icon.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
                                                 </div>
                                                 <p>Accelerate innovation with world-className tech teams Beyond more
                                                     stoic this
@@ -58,12 +58,12 @@ export default function TestimonialSection() {
                                         <div className="single-testimonial-02">
                                             <div className="testimonial-thumb">
                                                 <div style={{ position: 'relative', width: '100px', height: '100px', borderRadius: '50%', overflow: 'hidden' }}>
-                                                    <Image src="/assets/images/testi-3.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                                    <Image src="/images/testi-3.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
                                                 </div>
                                             </div>
                                             <div className="testimonial-content">
                                                 <div style={{ position: 'relative', width: '60px', height: '60px' }}>
-                                                    <Image src="/assets/images/testi-icon.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                                    <Image src="/images/testi-icon.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
                                                 </div>
                                                 <p>Accelerate innovation with world-className tech teams Beyond more
                                                     stoic this

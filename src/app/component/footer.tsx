@@ -49,7 +49,7 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
     return (
         <div className="section footer-section footer-section-03"
              style={{
-                 backgroundImage: "url(/assets/images/bg/footer-bg.jpg)"
+                 backgroundImage: "url(/images/bg/footer-bg.jpg)"
              }}>
             <div className="container">
                 <div className="footer-widget-wrap">

@@ -1,4 +1,3 @@
-import chooseUsLogo from "@/app/assets/images/bg/choose-us-bg3.jpg";
 import { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/getDictionary";
 import Image from "next/image";
@@ -9,7 +8,7 @@ export default async function ChooseUsSection({ locale }: { locale: Locale }) {
     return (
         <div 
             className="section techwix-choose-us-section section-padding"
-            style={{ backgroundImage: `url(${chooseUsLogo.src})` }}
+            style={{ backgroundImage: `url(/images/bg/choose-us-bg3.jpg)` }}
         >
             <div className="container">
                 <div className="choose-us-wrap">

@@ -12,8 +12,8 @@
         "Advanced analytics and reporting",
         "Scalable architecture"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
@@ -30,8 +30,8 @@
         "Automated grading system",
         "Comprehensive reporting dashboard"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
@@ -48,8 +48,8 @@
         "Student resources and guides",
         "Multi-language support"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
@@ -66,8 +66,8 @@
         "Workflow optimization",
         "Advanced analytics and insights"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
@@ -84,8 +84,8 @@
         "Integration capabilities",
         "Continuous learning and improvement"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
@@ -102,8 +102,8 @@
         "Multi-level course structure",
         "Flexible learning options"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true
     },
@@ -119,8 +119,8 @@
         "Emergency assistance features",
         "Social features for traveler connections"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"

@@ -12,8 +12,8 @@
         "Расширенная аналитика и отчетность",
         "Масштабируемая архитектура"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
@@ -30,8 +30,8 @@
         "Автоматическая система выставления оценок",
         "Комплексная панель отчетности"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
@@ -48,8 +48,8 @@
         "Ресурсы и руководства для студентов",
         "Многоязычная поддержка"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
@@ -66,8 +66,8 @@
         "Оптимизация рабочих процессов",
         "Расширенная аналитика и аналитика"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
@@ -84,8 +84,8 @@
         "Возможности интеграции",
         "Непрерывное обучение и улучшение"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
@@ -102,8 +102,8 @@
         "Многоуровневая структура курса",
         "Гибкие варианты обучения"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
@@ -120,8 +120,8 @@
         "Функции экстренной помощи",
         "Социальные функции для связи путешественников"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"

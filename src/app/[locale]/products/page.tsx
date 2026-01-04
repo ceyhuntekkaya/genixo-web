@@ -3,7 +3,7 @@ import {getDictionary} from "@/i18n/getDictionary";
 import {generateMetadata as generateSEOMetadata} from "@/utils/seo";
 import {locales} from "@/i18n/config";
 import PageBanner from "@/app/component/page-banner";
-import pageBannerImage from "@/app/assets/images/bg/page-banner.jpg";
+
 import Link from "next/link";
 import {getProductSlug} from "@/utils/slugMapping";
 import Image from "next/image";
@@ -41,7 +41,7 @@ export default async function ProductsPage({
     return (
         <>
             <PageBanner
-                bannerLink={pageBannerImage.src}
+                bannerLink={"/images/bg/page-banner.jpg"}
                 title={dict.menu.Products}
                 breadcrumbs={[
                     { label: homeLabel, href: `/${locale}` },
@@ -49,7 +49,7 @@ export default async function ProductsPage({
                 ]}
             />
             <div className="section techwix-choose-us-section section-padding"
-                 style={{backgroundImage: 'url(/assets/images/bg/choose-us-bg.jpg)'}}>
+                 style={{backgroundImage: 'url(/images/bg/choose-us-bg.jpg)'}}>
                 <div className="container">
                     <div className="choose-us-wrap">
                         <div className="choose-us-content-wrap">
@@ -75,7 +75,7 @@ export default async function ProductsPage({
                                                     <Link href={`/${locale}/products/${productSlug}`}>
                                                         <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '300px' }}>
                                                             <Image 
-                                                                src={product.image1 || "/assets/images/choose-us1.jpg"} 
+                                                                src={product.image1 || "/images/choose-us1.jpg"} 
                                                                 alt={product.name}
                                                                 fill
                                                                 style={{ objectFit: 'cover' }}

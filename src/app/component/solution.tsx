@@ -7,7 +7,7 @@ export default function SolutionSection() {
         <>
 
             <div className="section techwix-case-study-section-02 section-padding"
-                 style={{backgroundImage: "url(/assets/images/bg/case-study-bg.jpg)"}}>
+                 style={{backgroundImage: "url(/images/bg/case-study-bg.jpg)"}}>
                 <div className="container">
                     <div className="case-study-wrap">
                         <div className="section-title text-center">
@@ -24,7 +24,7 @@ export default function SolutionSection() {
                                     <div className="case-study-img">
                                         <a href="#">
                                             <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '300px' }}>
-                                                <Image src="/assets/images/case-4.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                                <Image src="/images/case-4.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
                                             </div>
                                         </a>
                                     </div>
@@ -44,7 +44,7 @@ export default function SolutionSection() {
                                     <div className="case-study-img">
                                         <a href="#">
                                             <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '300px' }}>
-                                                <Image src="/assets/images/case-5.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                                <Image src="/images/case-5.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
                                             </div>
                                         </a>
                                     </div>
@@ -64,7 +64,7 @@ export default function SolutionSection() {
                                     <div className="case-study-img">
                                         <a href="#">
                                             <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '300px' }}>
-                                                <Image src="/assets/images/case-6.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                                <Image src="/images/case-6.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
                                             </div>
                                         </a>
                                     </div>

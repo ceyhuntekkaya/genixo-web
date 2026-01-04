@@ -55,7 +55,7 @@ export default function SolutionAISection({ dict, locale }: PageProps) {
                                         <div className="solution-img">
                                             <a href="#">
                                                 <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '400px' }}>
-                                                    <Image src={firstProduct.product.image1 || "/assets/images/solution-1.jpg"} alt={firstProduct.product.name} fill style={{ objectFit: 'cover' }} unoptimized />
+                                                    <Image src={firstProduct.product.image1 || "/images/solution-1.jpg"} alt={firstProduct.product.name} fill style={{ objectFit: 'cover' }} unoptimized />
                                                 </div>
                                             </a>
                                         </div>
@@ -83,7 +83,7 @@ export default function SolutionAISection({ dict, locale }: PageProps) {
                                                 <div className="solution-img" style={{ height: '100%' }}>
                                                     <a href="#" style={{ display: 'block', height: '100%', position: 'relative' }}>
                                                         <Image 
-                                                            src={item.product.image1 || (index === 0 ? "/assets/images/solution-img2.jpg" : "/assets/images/solution-img3.jpg")} 
+                                                            src={item.product.image1 || (index === 0 ? "/images/solution-img2.jpg" : "/images/solution-img3.jpg")} 
                                                             alt={item.product.name}
                                                             fill
                                                             style={{ objectFit: 'cover' }}

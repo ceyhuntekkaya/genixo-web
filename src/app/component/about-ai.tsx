@@ -25,12 +25,12 @@ export default function AboutAISection({ dict, locale }: PageProps) {
                                 <div className="about-img-wrap">
                                     <div className="about-img about-img-big">
                                         <div style={{ position: 'relative', width: '100%', height: '400px' }}>
-                                            <Image src="/assets/images/about-big3.jpg" alt="" fill style={{ objectFit: 'cover', borderRadius: '10px' }} unoptimized />
+                                            <Image src="/images/about-big3.jpg" alt="" fill style={{ objectFit: 'cover', borderRadius: '10px' }} unoptimized />
                                         </div>
                                     </div>
                                     <div className="about-img about-img-sm">
                                         <div style={{ position: 'relative', width: '250px', height: '250px' }}>
-                                            <Image src="/assets/images/about-sm3.jpg" alt="" fill style={{ objectFit: 'cover', borderRadius: '10px' }} unoptimized />
+                                            <Image src="/images/about-sm3.jpg" alt="" fill style={{ objectFit: 'cover', borderRadius: '10px' }} unoptimized />
                                         </div>
                                         <div className="shape-01"></div>
                                     </div>

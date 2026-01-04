@@ -1,6 +1,6 @@
 import FooterSection from "@/app/component/footer";
 import logo from "@/app/assets/logo.png";
-import ctaIcon from "@/app/assets/images/cta-icon2.png";
+
 import Image from "next/image";
 import Link from "next/link";
 import MenuSection from "@/app/component/menu";
@@ -124,12 +124,12 @@ export default async function LocaleLayout({
 
             <div className="section techwix-cta-section-02">
                 <div className="container">
-                    <div className="cta-wrap" style={{ backgroundImage: "url(/assets/images/bg/cta-bg.jpg)" }}>
+                    <div className="cta-wrap" style={{ backgroundImage: "url(/images/bg/cta-bg.jpg)" }}>
                         <div className="row align-items-center">
                             <div className="col-xl-9 col-lg-8">
                                 <div className="cta-content">
                                     <div className="cta-icon">
-                                        <Image src={ctaIcon} alt="" />
+                                        <Image src="/images/cta-icon2.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
                                     </div>
                                     <p>{dict.general.ctaMessage}</p>
                                 </div>

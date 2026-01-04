@@ -12,8 +12,8 @@
         "Erweiterte Analysen und Berichterstattung",
         "Skalierbare Architektur"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
@@ -30,8 +30,8 @@
         "Automatisches Benotungssystem",
         "Umfassendes Berichtsdashboard"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
@@ -48,8 +48,8 @@
         "Schülerressourcen und -führer",
         "Mehrsprachige Unterstützung"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
@@ -66,8 +66,8 @@
         "Workflow-Optimierung",
         "Erweiterte Analysen und Einblicke"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
@@ -84,8 +84,8 @@
         "Integrationsfähigkeiten",
         "Kontinuierliches Lernen und Verbesserung"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
@@ -102,8 +102,8 @@
         "Mehrstufige Kursstruktur",
         "Flexible Lernoptionen"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true
     },
@@ -119,8 +119,8 @@
         "Notfallhilfefunktionen",
         "Soziale Funktionen für Reisende"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"

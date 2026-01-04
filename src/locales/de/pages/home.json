@@ -30,42 +30,42 @@
     "title": "Wir bieten wirklich herausragende IT-Lösungen.",
     "items": [
       {
-        "image": "/assets/images/ser-icon9.png",
+        "image": "/images/ser-icon9.png",
         "title": "Infrastruktur <br/> Technologie",
         "description": "Bringen Sie Ihr Geschäft mit zuverlässigen und skalierbaren Infrastrukturlösungen in die Zukunft. Unterbrechungsfreie Servicegarantie."
       },
       {
-        "image": "/assets/images/counter-3.png",
+        "image": "/images/counter-3.png",
         "title": "Hochprofessionelle Teammitglieder",
         "description": "Verwirklichen Sie Ihre Projekte mit Experten und erfahrenen Fachleuten. Qualitätsorientierte Arbeit."
       },
       {
-        "image": "/assets/images/ser-icon10.png",
+        "image": "/images/ser-icon10.png",
         "title": "Sicherheit <br/> Management",
         "description": "Schützen Sie Ihre Daten und Systeme mit höchsten Sicherheitsprotokollen. Null-Risiko-Ziel."
       },
       {
-        "image": "/assets/images/ser-icon12.png",
+        "image": "/images/ser-icon12.png",
         "title": "Desktop <br/> Computing",
         "description": "Steigern Sie Ihre Geschäftseffizienz mit leistungsstarken Desktop-Lösungen. Optimierte Systeme."
       },
       {
-        "image": "/assets/images/counter-1.png",
+        "image": "/images/counter-1.png",
         "title": "Infrastruktur <br/> Technologie",
         "description": "Stärken Sie Ihre Unternehmensinfrastruktur mit modernen Technologien. Wir bieten flexible und nachhaltige Lösungen."
       },
       {
-        "image": "/assets/images/counter-2.png",
+        "image": "/images/counter-2.png",
         "title": "Ideen für hohe Renditeinvestitionen",
         "description": "Erzielen Sie maximalen Wert aus Ihren Technologieinvestitionen. Strategische Beratung und ROI-orientierte Planung."
       },
       {
-        "image": "/assets/images/ser-icon21.png",
+        "image": "/images/ser-icon21.png",
         "title": "Vollständiges IT <br/> Management",
         "description": "Verwalten Sie Ihre IT-Prozesse professionell von Anfang bis Ende. Umfassende Unterstützung für nahtlose Operationen."
       },
       {
-        "image": "/assets/images/ser-icon22.png",
+        "image": "/images/ser-icon22.png",
         "title": "Datensicherheit & Management",
         "description": "Speichern und verwalten Sie Ihre Unternehmensdaten sicher. Wir bieten vollständigen Schutz nach Compliance-Standards."
       }

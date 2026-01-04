@@ -3,7 +3,7 @@ import {getDictionary} from "@/i18n/getDictionary";
 import {generateMetadata as generateSEOMetadata} from "@/utils/seo";
 import {locales} from "@/i18n/config";
 import PageBanner from "@/app/component/page-banner";
-import pageBannerImage from "@/app/assets/images/bg/page-banner.jpg";
+
 import Image from "next/image";
 
 export async function generateMetadata({
@@ -39,7 +39,7 @@ export default async function BlogPage({
     return (
         <>
             <PageBanner
-                bannerLink={pageBannerImage.src}
+                bannerLink={"/images/bg/page-banner.jpg"}
                 title={dict.menu.Blog}
                 breadcrumbs={[
                     { label: homeLabel, href: `/${locale}` },

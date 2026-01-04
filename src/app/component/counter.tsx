@@ -14,7 +14,7 @@ export default function CounterSection() {
                                 <div className="single-counter">
                                     <div className="counter-img">
                                         <div style={{ position: 'relative', width: '80px', height: '80px' }}>
-                                            <Image src="/assets/images/counter-1.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                            <Image src="/images/counter-1.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
                                         </div>
                                     </div>
                                     <div className="counter-content">
@@ -27,7 +27,7 @@ export default function CounterSection() {
                                 <div className="single-counter">
                                     <div className="counter-img">
                                         <div style={{ position: 'relative', width: '80px', height: '80px' }}>
-                                            <Image src="/assets/images/counter-2.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                            <Image src="/images/counter-2.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
                                         </div>
                                     </div>
                                     <div className="counter-content">
@@ -40,7 +40,7 @@ export default function CounterSection() {
                                 <div className="single-counter">
                                     <div className="counter-img">
                                         <div style={{ position: 'relative', width: '80px', height: '80px' }}>
-                                            <Image src="/assets/images/counter-3.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                            <Image src="/images/counter-3.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
                                         </div>
                                     </div>
                                     <div className="counter-content">
@@ -53,7 +53,7 @@ export default function CounterSection() {
                                 <div className="single-counter single-counter-4">
                                     <div className="counter-img">
                                         <div style={{ position: 'relative', width: '80px', height: '80px' }}>
-                                            <Image src="/assets/images/counter-1.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                            <Image src="/images/counter-1.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
                                         </div>
                                     </div>
                                     <div className="counter-content">

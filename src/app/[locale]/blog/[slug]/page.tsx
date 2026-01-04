@@ -3,7 +3,7 @@ import {getDictionary} from "@/i18n/getDictionary";
 import {generateMetadata as generateSEOMetadata, generateStructuredData} from "@/utils/seo";
 import {locales} from "@/i18n/config";
 import PageBanner from "@/app/component/page-banner";
-import pageBannerImage from "@/app/assets/images/bg/page-banner.jpg";
+
 import {notFound} from "next/navigation";
 import Script from "next/script";
 import Image from "next/image";
@@ -137,7 +137,7 @@ export default async function BlogDetailPage({
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }}
             />
             <PageBanner
-                bannerLink={pageBannerImage.src}
+                bannerLink={"/images/bg/page-banner.jpg"}
                 title={blogData.title}
                 breadcrumbs={[
                     { label: homeLabel, href: `/${locale}` },

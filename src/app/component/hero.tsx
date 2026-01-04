@@ -1,6 +1,5 @@
 'use client';
 
-import banner from "@/app/assets/images/hero-bg3.jpg";
 import Link from "next/link";
 import {Dictionary} from "@/i18n/types";
 import {Locale} from "@/i18n/config";
@@ -13,7 +12,7 @@ export default function HeroSection({ dict, locale }: PageProps) {
     return (
         <>
 
-            <div className="section techwix-hero-section-03 d-flex align-items-center" style={{backgroundImage: `url(${banner.src})`}}>
+            <div className="section techwix-hero-section-03 d-flex align-items-center" style={{backgroundImage: `url(/images/hero-bg3.jpg)`}}>
                 <div className="shape-1">
                     <svg xmlns="http://www.w3.org/2000/svg" width="944px" height="894px">
                         <defs>

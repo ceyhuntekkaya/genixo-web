@@ -14,9 +14,9 @@ export default function ServiceAISection({ dict, locale }: PageProps) {
     
     // NGSD özelliklerini array olarak al (sadece 3 özellik: remote, dynamic, global)
     const ngsdFeatures = [
-        { ...ngsd.remote, icon: '/assets/images/ser-icon13.png' },
-        { ...ngsd.dynamic, icon: '/assets/images/ser-icon14.png' },
-        { ...ngsd.global, icon: '/assets/images/ser-icon15.png' },
+        { ...ngsd.remote, icon: '/images/ser-icon13.png' },
+        { ...ngsd.dynamic, icon: '/images/ser-icon14.png' },
+        { ...ngsd.global, icon: '/images/ser-icon15.png' },
     ];
 
     return (

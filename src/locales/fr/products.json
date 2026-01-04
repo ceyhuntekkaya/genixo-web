@@ -12,8 +12,8 @@
         "Analyses et rapports avancés",
         "Architecture évolutive"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
@@ -30,8 +30,8 @@
         "Système de notation automatique",
         "Tableau de bord de reporting complet"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
@@ -48,8 +48,8 @@
         "Ressources et guides pour étudiants",
         "Support multilingue"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
@@ -66,8 +66,8 @@
         "Optimisation des flux de travail",
         "Analyses et insights avancés"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
@@ -84,8 +84,8 @@
         "Capacités d'intégration",
         "Apprentissage et amélioration continus"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
@@ -102,8 +102,8 @@
         "Structure de cours multi-niveaux",
         "Options d'apprentissage flexibles"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
@@ -120,8 +120,8 @@
         "Fonctionnalités d'assistance d'urgence",
         "Fonctionnalités sociales pour les connexions de voyageurs"
       ],
-      "image1": "/assets/images/about-3.jpg",
-      "image2": "/assets/images/about-4.jpg",
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
       "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"

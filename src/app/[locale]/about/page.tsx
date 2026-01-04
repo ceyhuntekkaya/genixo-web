@@ -1,4 +1,4 @@
-import pageBanner from "@/app/assets/images/bg/page-banner.jpg";
+
 import PageBanner from "@/app/component/page-banner";
 import CounterSection from "@/app/component/counter-section";
 import ChooseUsSection from "@/app/component/choose-us-section";
@@ -57,7 +57,7 @@ export default async function AboutPage({
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationStructuredData) }}
             />
             <PageBanner
-                bannerLink={pageBanner.src}
+                bannerLink={"/images/bg/page-banner.jpg"}
                 title={dict.menu.AboutUs}
                 breadcrumbs={[
                     { label: homeLabel, href: `/${locale}` },
@@ -72,12 +72,12 @@ export default async function AboutPage({
                         <div className="row">
                             <div className="col-lg-6">
                             <div className="about-img-wrap">
-                                    <img className="shape-1" src="/assets/images/shape/about-shape2.png" alt="" />
-                                    <div className="about-img">
-                                        <img src="/assets/images/about-3.jpg" alt="" />
-                                    </div>
-                                    <div className="about-img about-img-2">
-                                        <img src="/assets/images/about-4.jpg" alt="" />
+                                    <img className="shape-1" src="/images/shape/about-shape2.png" alt="" />
+                                <div className="about-img">
+                                    <img src="/images/about-3.jpg" alt="" />
+                                </div>
+                                <div className="about-img about-img-2">
+                                    <img src="/images/about-4.jpg" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -98,14 +98,14 @@ export default async function AboutPage({
                                     </div>
                                     <div className="col-sm-4">
                                         <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '200px' }}>
-                                            <Image src="/assets/images/about-4.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                            <Image src="/images/about-4.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
                                         </div>
                                     </div>
                                 </div>
                                 <div className="row mt-4">
                                     <div className="col-sm-4">
                                         <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '200px' }}>
-                                            <Image src="/assets/images/about-4.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                            <Image src="/images/about-4.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
                                         </div>
                                     </div>
                                     <div className="col-sm-8">
@@ -120,7 +120,7 @@ export default async function AboutPage({
                                     </div>
                                     <div className="col-sm-4">
                                         <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '200px' }}>
-                                            <Image src="/assets/images/about-4.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                            <Image src="/images/about-4.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
                                         </div>
                                     </div>
                                 </div>

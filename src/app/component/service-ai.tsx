@@ -20,7 +20,7 @@ export default function ServiceAISection({ dict, locale }: PageProps) {
     ];
 
     return (
-        <div className="section techwix-service-section-05">
+        <div className="section genixo-service-section-05">
             <div className="container">
                 <div className="service-wrap section-padding-02">
                     <div className="section-title text-center">

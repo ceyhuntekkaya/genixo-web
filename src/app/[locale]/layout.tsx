@@ -122,7 +122,7 @@ export default async function LocaleLayout({
 
             {children}
 
-            <div className="section techwix-cta-section-02">
+            <div className="section genixo-cta-section-02">
                 <div className="container">
                     <div className="cta-wrap" style={{ backgroundImage: "url(/images/bg/cta-bg.jpg)" }}>
                         <div className="row align-items-center">

@@ -5,7 +5,7 @@ export default async function CounterSection({ locale }: { locale: Locale }) {
     const dict = await getDictionary(locale);
 
     return (
-        <div className="section techwix-counter-section-03 techwix-counter-section-04">
+        <div className="section genixo-counter-section-03 genixo-counter-section-04">
             <div className="container">
                 <div className="counter-wrap" style={{ backgroundImage: `url(/images/bg/counter-bg2.jpg)` }}>
                     <div className="row">

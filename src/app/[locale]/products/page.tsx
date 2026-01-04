@@ -48,7 +48,7 @@ export default async function ProductsPage({
                     { label: dict.menu.Products, href: `/${locale}/products` },
                 ]}
             />
-            <div className="section techwix-choose-us-section section-padding"
+            <div className="section genixo-choose-us-section section-padding"
                  style={{backgroundImage: 'url(/images/bg/choose-us-bg.jpg)'}}>
                 <div className="container">
                     <div className="choose-us-wrap">

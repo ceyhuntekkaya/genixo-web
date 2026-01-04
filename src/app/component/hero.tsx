@@ -12,7 +12,7 @@ export default function HeroSection({ dict, locale }: PageProps) {
     return (
         <>
 
-            <div className="section techwix-hero-section-03 d-flex align-items-center" style={{backgroundImage: `url(/images/hero-bg3.jpg)`}}>
+            <div className="section genixo-hero-section-03 d-flex align-items-center" style={{backgroundImage: `url(/images/hero-bg3.jpg)`}}>
                 <div className="shape-1">
                     <svg xmlns="http://www.w3.org/2000/svg" width="944px" height="894px">
                         <defs>

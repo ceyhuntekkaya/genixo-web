@@ -47,13 +47,13 @@ export default function BlogSection({ dict, locale }: PageProps) {
     const blogDict = dict.blog;
 
     return (
-        <div className="section techwix-blog-section section-padding-02">
+        <div className="section genixo-blog-section section-padding-02">
             <div className="container">
                 <div className="section-title text-center">
                     <h4 className="sub-title">{blogDict.latestBlog}</h4>
                     <h2 className="title">{blogDict.fromNewsRoom}</h2>
                 </div>
-                <div className="techwix-blog-wrap">
+                <div className="genixo-blog-wrap">
                     <div className="row">
                         {blogs.map(({ key, blog, slug }) => (
                             <div key={key} className="col-lg-4 col-md-6">

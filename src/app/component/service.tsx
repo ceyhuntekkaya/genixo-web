@@ -11,7 +11,7 @@ interface PageProps {
 export default function ServiceSection({ dict, locale }: PageProps) {
     return (
         <>
-            <div className="section techwix-service-section-03"
+            <div className="section genixo-service-section-03"
                  style={{backgroundImage: `url(/images/bg/service-bg3.jpg)`}}>
                 <div className="container">
                     <div className="service-wrap-03">

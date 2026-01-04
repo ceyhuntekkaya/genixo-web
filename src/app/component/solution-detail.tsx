@@ -55,7 +55,7 @@ export default function SolutionDetail({ solutionKey, dict, locale }: SolutionDe
                 ]}
             />
 
-            <div className="section techwix-about-section-07 section-padding">
+            <div className="section genixo-about-section-07 section-padding">
                 <div className="shape-1"></div>
                 <div className="container">
                     <div className="about-wrap">

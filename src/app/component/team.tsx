@@ -6,7 +6,7 @@ export default function TeamSection() {
     return (
         <>
 
-            <div className="section techwix-team-section section-padding-02">
+            <div className="section genixo-team-section section-padding-02">
                 <div className="container">
                     <div className="team-wrap">
                         <div className="section-title text-center">
@@ -28,7 +28,7 @@ export default function TeamSection() {
                                             <div className="team-content">
                                                 <h3 className="name"><a href="team.html">Andrew <br/> Max Fetcher</a>
                                                 </h3>
-                                                <span className="designation">CEO, techwix</span>
+                                                <span className="designation">CEO, genixo</span>
                                                 <div className="team-social">
                                                     <ul className="social">
                                                         <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
@@ -51,7 +51,7 @@ export default function TeamSection() {
                                             </div>
                                             <div className="team-content">
                                                 <h3 className="name"><a href="team.html">Arnold <br/> human</a></h3>
-                                                <span className="designation">CEO, techwix</span>
+                                                <span className="designation">CEO, genixo</span>
                                                 <div className="team-social">
                                                     <ul className="social">
                                                         <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
@@ -74,7 +74,7 @@ export default function TeamSection() {
                                             </div>
                                             <div className="team-content">
                                                 <h3 className="name"><a href="team.html">Mike <br/> Holder</a></h3>
-                                                <span className="designation">CEO, techwix</span>
+                                                <span className="designation">CEO, genixo</span>
                                                 <div className="team-social">
                                                     <ul className="social">
                                                         <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
@@ -97,7 +97,7 @@ export default function TeamSection() {
                                             </div>
                                             <div className="team-content">
                                                 <h3 className="name"><a href="team.html">Joakim <br/> Ken</a></h3>
-                                                <span className="designation">CEO, techwix</span>
+                                                <span className="designation">CEO, genixo</span>
                                                 <div className="team-social">
                                                     <ul className="social">
                                                         <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>

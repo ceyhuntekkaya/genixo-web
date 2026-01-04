@@ -40,7 +40,7 @@ export default function SolutionAISection({ dict, locale }: PageProps) {
     const otherProducts = homepageProducts.slice(1);
 
     return (
-        <div className="section techwix-solution-section section-padding">
+        <div className="section genixo-solution-section section-padding">
             <div className="container">
                 <div className="solution-wrap">
                     <div className="section-title text-center">

@@ -4,7 +4,7 @@ export default function SkillSection() {
     return (
         <>
 
-            <div className="section techwix-skill-section-02 section-padding">
+            <div className="section genixo-skill-section-02 section-padding">
                 <div className="container">
                     <div className="skill-wrap">
                         <div className="row">

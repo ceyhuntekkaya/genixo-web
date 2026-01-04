@@ -6,7 +6,7 @@ export default function TestimonialSection() {
     return (
         <>
 
-            <div className="section techwix-testimonial-section-02 techwix-testimonial-section-03 section-padding-02">
+            <div className="section genixo-testimonial-section-02 genixo-testimonial-section-03 section-padding-02">
                 <div className="container">
                     <div className="testimonial-wrap-02">
                         <div className="section-title text-center">

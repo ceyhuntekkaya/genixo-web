@@ -17,7 +17,7 @@ export default function CounterAISection({ dict, locale }: PageProps) {
     return (
         <>
 
-            <div className="section techwix-counter-section-03" style={{backgroundImage: "url(/images/bg/counter-bg.jpg)"}}>
+            <div className="section genixo-counter-section-03" style={{backgroundImage: "url(/images/bg/counter-bg.jpg)"}}>
                 <div className="container">
                     <div className="counter-wrap">
                         <div className="row">

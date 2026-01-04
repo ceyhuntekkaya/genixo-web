@@ -48,7 +48,7 @@ export default async function BlogPage({
             />
             <div className="section section-padding">
                 <div className="container">
-                    <div className="techwix-blog-wrap">
+                    <div className="genixo-blog-wrap">
                         <div className="row">
                             {dict.blogs && Object.keys(dict.blogs)
                                 .filter(key => {

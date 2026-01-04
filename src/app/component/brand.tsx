@@ -6,7 +6,7 @@ export default function BrandSection() {
     return (
         <>
 
-            <div className="section techwix-brand-section techwix-brand-section-03">
+            <div className="section genixo-brand-section genixo-brand-section-03">
                 <div className="container">
                     <div className="brand-wrapper text-center">
 

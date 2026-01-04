@@ -14,7 +14,7 @@ export default function AboutSection({ dict, locale }: PageProps) {
     return (
         <>
 
-            <div className="section techwix-about-section-04 section-padding">
+            <div className="section genixo-about-section-04 section-padding">
                 <div className="shape-1"></div>
                 <div className="container">
                     <div className="about-wrap">

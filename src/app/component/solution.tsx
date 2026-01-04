@@ -6,7 +6,7 @@ export default function SolutionSection() {
     return (
         <>
 
-            <div className="section techwix-case-study-section-02 section-padding"
+            <div className="section genixo-case-study-section-02 section-padding"
                  style={{backgroundImage: "url(/images/bg/case-study-bg.jpg)"}}>
                 <div className="container">
                     <div className="case-study-wrap">

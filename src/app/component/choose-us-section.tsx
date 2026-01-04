@@ -7,7 +7,7 @@ export default async function ChooseUsSection({ locale }: { locale: Locale }) {
 
     return (
         <div 
-            className="section techwix-choose-us-section section-padding"
+            className="section genixo-choose-us-section section-padding"
             style={{ backgroundImage: `url(/images/bg/choose-us-bg3.jpg)` }}
         >
             <div className="container">

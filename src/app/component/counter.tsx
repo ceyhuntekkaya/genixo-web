@@ -6,7 +6,7 @@ export default function CounterSection() {
     return (
         <>
 
-            <div className="section techwix-counter-section-02">
+            <div className="section genixo-counter-section-02">
                 <div className="container">
                     <div className="counter-wrap">
                         <div className="row">

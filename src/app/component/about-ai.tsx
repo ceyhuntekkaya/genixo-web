@@ -12,7 +12,7 @@ export default function AboutAISection({ dict, locale }: PageProps) {
     // Get first two values for the list items
 
     return (
-        <div className="section techwix-about-section-05 section-padding">
+        <div className="section genixo-about-section-05 section-padding">
             <div className="container">
                 <div className="about-wrap">
                     <div className="section-title text-center">

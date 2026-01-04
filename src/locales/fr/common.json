@@ -1,11 +1,27 @@
 {
   "general": {
-    "ReadMore": "Lire la suite"
+    "ReadMore": "Lire la suite",
+    "ctaMessage": "Nous offrons la meilleure expérience client"
   },
   "about": {
-    "WhoWeAre": "Qui Nous Sommes...",
+    "WhoWeAre": "Qui nous sommes",
     "slogan": "Partenaire de Solutions Logicielles & Société d'Innovation",
-    "short": "Pour créer un logiciel réussi, vous avez besoin d'une équipe de développement qui comprend vos besoins commerciaux. Nos experts détermineront une solution personnalisée qui correspond à votre idée, votre calendrier et votre budget, puis concevront et construiront l'application et vous aideront à la tester avec de vrais utilisateurs. En conséquence, vous obtiendrez un produit numérique moderne qui profite à votre entreprise et qui est apprécié par les utilisateurs."
+    "short": "Pour créer un logiciel réussi, vous avez besoin d'une équipe de développement qui comprend vos besoins commerciaux. Nos experts détermineront une solution personnalisée qui correspond à votre idée, votre calendrier et votre budget, puis concevront et construiront l'application et vous aideront à la tester avec de vrais utilisateurs. En conséquence, vous obtiendrez un produit numérique moderne qui profite à votre entreprise et qui est apprécié par les utilisateurs.",
+    "description": "Genixo est une entreprise technologique opérant dans le Cyberpark de l'Université Bilkent, développant des plateformes éducatives axées sur l'IA et des solutions d'entreprise. Notre équipe est composée de développeurs ayant une expertise approfondie dans les technologies web modernes et les intégrations IA. Nous construisons des systèmes évolutifs, sécurisés et conviviaux en utilisant des technologies puissantes telles que Spring Boot, Next.js et PostgreSQL. Nous faisons la différence dans l'écosystème de la technologie éducative turque avec des projets réussis comme StudyScore AI et Egitimiste.com. Nous offrons une large gamme de solutions, des plateformes d'apprentissage adaptatif alimentées par l'IA aux systèmes de gestion de documents d'entreprise, des applications d'examen en temps réel aux plateformes de découverte éducative. En tant que partenaire technologique de confiance dans le parcours de transformation numérique de nos clients, nous travaillons à comprendre les besoins commerciaux et à produire les solutions les plus appropriées.",
+    "values": {
+      "dynamism": {
+        "title": "Dynamisme",
+        "content": "Les technologies de l'information sont le secteur avec la plus grande part de marché observable au monde, et il est intéressant de noter qu'il n'a pas fallu longtemps pour atteindre cette taille. Alors, comment cela s'est-il produit ? Grâce à la technologie et donc à l'innovation. Le développement et le changement sont si rapides qu'il peut être difficile de suivre. Il devient de plus en plus difficile de suivre les nouvelles dynamiques et d'agir de manière proactive. En tant que Genixo, notre mission ici est claire : rester dynamique. La vision de Genixo à cet égard est de toujours rester à jour et de répondre aux besoins du jour, peu importe la rapidité avec laquelle le monde informatique change et peu importe la différence des besoins. Nous avons une compréhension d'entreprise qui calcule l'avenir en adoptant constamment une attitude proactive et peut donner des réponses appropriées aux problèmes imprévus. Ainsi, nous pouvons toujours rester dynamiques !"
+      },
+      "passion": {
+        "title": "Passion et Engagement",
+        "content": "Ici, il n'y a pas d'engagement sans passion. Sans engagement, une passion ne peut jamais atteindre son potentiel et est condamnée à être moins réussie. Genixo, conscient de cela, est plus qu'une entreprise ; c'est une communauté de personnes qui sont conscientes que le développement personnel n'a pas de limites, qui visent à s'améliorer constamment, qui sont passionnément engagées envers leurs objectifs et dédiées à la réalisation de ces objectifs. Conformément à cette conscience communautaire construite sur la passion et le dévouement, nous nous invitons nous-mêmes et tous ceux avec qui nous travaillons à développer leur potentiel, à penser plus grand, à travailler plus dévouément et à être plus réussis !"
+      },
+      "professionalism": {
+        "title": "Professionalisme",
+        "content": "Le succès peut être atteint lorsque vous êtes talentueux ou expérimenté dans un travail. Cependant, pour que le succès atteint soit permanent, une approche professionnelle est essentielle ; sinon, vous raccourcirez définitivement la durée de vie du succès que vous avez atteint. La compréhension Genixo vise la permanence et le succès durable à la fois individuellement et en entreprise, avec une culture de marque où des personnes talentueuses et expérimentées travaillent professionnellement. Nous ne laissons pas le succès au hasard avec notre conscience professionnelle des affaires."
+      }
+    }
   },
   "menu": {
     "Home": "Accueil",
@@ -13,6 +29,7 @@
     "Products": "Produits",
     "SuccessStories": "Réussites",
     "GovernmentSupport": "Conseil",
+    "NGSD": "NGSD",
     "AboutUs": "À propos",
     "Blog": "Blog",
     "ContactUs": "Contact",
@@ -39,42 +56,58 @@
     "WebApplication": {
       "summary": "Genixo est une entreprise de développement web passionnée qui est capable de livrer des projets complexes au-delà des limites de la création de sites web conventionnels.",
       "name": "Application Web",
-      "description": "Genixo est une entreprise de développement web passionnée qui est capable de livrer des projets complexes au-delà des limites de la création de sites web conventionnels.\n\nApplication Web et Développement Cloud\nAvec Genixo, vos visions et idées deviennent un produit de haute qualité. Selon vos besoins, même une application web exigeante peut être mise en œuvre de manière organisée. À la lumière des solutions fournies et du développement, vos projets deviennent un succès, votre vision se concrétise.\nConception Web\nGenixo fournit des designs UI/UX centrés sur l'utilisateur et pertinents. En utilisant ces idées leader de l'industrie, votre vision devient claire et votre public gagne en enthousiasme.\nIntégration Web et Assurance Qualité\nIndépendamment des exigences d'intégration de vos projets, Genixo fournit un support complet de tiers pour les présences web ou les applications. De plus, notre méthodologie nous oblige à développer avec succès une application complète, sans bugs et stable.\nTechnologies que nous utilisons:"
+      "description": "Genixo est une entreprise de développement web passionnée qui est capable de livrer des projets complexes au-delà des limites de la création de sites web conventionnels.\n\nApplication Web et Développement Cloud\nAvec Genixo, vos visions et idées deviennent un produit de haute qualité. Selon vos besoins, même une application web exigeante peut être mise en œuvre de manière organisée. À la lumière des solutions fournies et du développement, vos projets deviennent un succès, votre vision se concrétise.\nConception Web\nGenixo fournit des designs UI/UX centrés sur l'utilisateur et pertinents. En utilisant ces idées leader de l'industrie, votre vision devient claire et votre public gagne en enthousiasme.\nIntégration Web et Assurance Qualité\nIndépendamment des exigences d'intégration de vos projets, Genixo fournit un support complet de tiers pour les présences web ou les applications. De plus, notre méthodologie nous oblige à développer avec succès une application complète, sans bugs et stable.\nTechnologies que nous utilisons:",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "ArchitectureAsAService": {
       "summary": "Avantages de l'Architecture de Solution\nL'architecture d'une solution logicielle se concentre sur l'obtention d'un résultat qualitatif car vous disposez d'un plan des fonctionnalités et de leurs exigences.",
       "name": "Architecture en tant que Service",
-      "description": "Avantages de l'Architecture de Solution\nL'architecture d'une solution logicielle se concentre sur l'obtention d'un résultat qualitatif car vous disposez d'un plan des fonctionnalités et de leurs exigences. Aide à planifier le cycle de vie du projet en fournissant une structure de solution générale. Simplifie la gestion de la complexité car vous pouvez observer la situation globale avec ses défis. Conseille sur l'estimation et le calcul des coûts en répondant aux exigences de la principale partie prenante.\nAffaires, Opérations et Technologie\nL'accent est mis sur la procédure axée sur les résultats, l'accent est mis sur des solutions intelligentes et robustes, la priorité est l'aspect matériel de la livraison de la solution. Architecture de Solution\n\nSelon votre écosystème et votre public, Genixo fournit une base pour vos projets en adaptant les solutions IT.\n\nNous définissons les exigences fonctionnelles et les étapes de mise en œuvre en fonction de vos besoins commerciaux."
+      "description": "Avantages de l'Architecture de Solution\nL'architecture d'une solution logicielle se concentre sur l'obtention d'un résultat qualitatif car vous disposez d'un plan des fonctionnalités et de leurs exigences. Aide à planifier le cycle de vie du projet en fournissant une structure de solution générale. Simplifie la gestion de la complexité car vous pouvez observer la situation globale avec ses défis. Conseille sur l'estimation et le calcul des coûts en répondant aux exigences de la principale partie prenante.\nAffaires, Opérations et Technologie\nL'accent est mis sur la procédure axée sur les résultats, l'accent est mis sur des solutions intelligentes et robustes, la priorité est l'aspect matériel de la livraison de la solution. Architecture de Solution\n\nSelon votre écosystème et votre public, Genixo fournit une base pour vos projets en adaptant les solutions IT.\n\nNous définissons les exigences fonctionnelles et les étapes de mise en œuvre en fonction de vos besoins commerciaux.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "CustomSoftwareDevelopment": {
       "summary": "L'équipe professionnelle de Genixo conçoit, crée, déploie et maintient vos besoins en logiciels personnalisés pour des ensembles spécifiques d'utilisateurs, de fonctions et d'organisations.",
       "name": "Développement Logiciel Personnalisé",
-      "description": "L'équipe professionnelle de Genixo conçoit, crée, déploie et maintient vos besoins en logiciels personnalisés pour des ensembles spécifiques d'utilisateurs, de fonctions et d'organisations. Les solutions que nous offrons ici sont construites de manière unique pour votre entreprise et peuvent inclure toutes les applications web, mobiles et de bureau.\n\nDéveloppement de Produits Logiciels\n\nSolutions Client!\nSi vous souhaitez développer un produit logiciel, parlons de certains avantages:\n- Confidentialité\n- Traçabilité et Gestion Personnalisées\n- Facilité/Rentabilité des Intégrations\n- Adaptation Rapide\n- Efficacité Améliorée\n\nDéveloppement de Logiciels d'Entreprise\n\nSolutions d'Entreprise!\nSi vous souhaitez développer un logiciel d'entreprise, parlons de certains avantages:\n- Avantages pour l'équipe\n- Appartenance\n- Productivité\n\nAvantages pour la direction\n- Prestige\n- Confidentialité\n- Indépendance\n- Traçabilité et Gestion Personnalisées\n- Facilité/Rentabilité des Intégrations\n- Adaptation Rapide\n- Efficacité Améliorée"
+      "description": "L'équipe professionnelle de Genixo conçoit, crée, déploie et maintient vos besoins en logiciels personnalisés pour des ensembles spécifiques d'utilisateurs, de fonctions et d'organisations. Les solutions que nous offrons ici sont construites de manière unique pour votre entreprise et peuvent inclure toutes les applications web, mobiles et de bureau.\n\nDéveloppement de Produits Logiciels\n\nSolutions Client!\nSi vous souhaitez développer un produit logiciel, parlons de certains avantages:\n- Confidentialité\n- Traçabilité et Gestion Personnalisées\n- Facilité/Rentabilité des Intégrations\n- Adaptation Rapide\n- Efficacité Améliorée\n\nDéveloppement de Logiciels d'Entreprise\n\nSolutions d'Entreprise!\nSi vous souhaitez développer un logiciel d'entreprise, parlons de certains avantages:\n- Avantages pour l'équipe\n- Appartenance\n- Productivité\n\nAvantages pour la direction\n- Prestige\n- Confidentialité\n- Indépendance\n- Traçabilité et Gestion Personnalisées\n- Facilité/Rentabilité des Intégrations\n- Adaptation Rapide\n- Efficacité Améliorée",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "DevOpsServices": {
       "summary": "Un modèle DevOps réussi repose sur quatre éléments clés: Développer, Construire et Tester, Déployer, Exploiter et Surveiller.",
       "name": "Services DevOps",
-      "description": "Un modèle DevOps réussi repose sur quatre éléments clés: Développer, Construire et Tester, Déployer, Exploiter et Surveiller. Genixo peut le faire pour vous!\n\nÉvaluation et Planification\nNous construisons une feuille de route en analysant et en virtualisant l'état souhaité en identifiant les métriques traçables.\nPipeline CI/CD\nNous relions les opérations de développement par le biais du Déploiement Continu - Intégration - Test - Déploiement.\nAutomatisation des Processus\nNous automatisons le pipeline CI/CD depuis le début du codage jusqu'à la production en encapsulant les builds, les cas de test, la gestion des versions et le déploiement.\nIntégration de la Sécurité\nNous effectuons une intégration de sécurité de bout en bout via le mécanisme 'Security as Code'."
+      "description": "Un modèle DevOps réussi repose sur quatre éléments clés: Développer, Construire et Tester, Déployer, Exploiter et Surveiller. Genixo peut le faire pour vous!\n\nÉvaluation et Planification\nNous construisons une feuille de route en analysant et en virtualisant l'état souhaité en identifiant les métriques traçables.\nPipeline CI/CD\nNous relions les opérations de développement par le biais du Déploiement Continu - Intégration - Test - Déploiement.\nAutomatisation des Processus\nNous automatisons le pipeline CI/CD depuis le début du codage jusqu'à la production en encapsulant les builds, les cas de test, la gestion des versions et le déploiement.\nIntégration de la Sécurité\nNous effectuons une intégration de sécurité de bout en bout via le mécanisme 'Security as Code'.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "CloudDevelopment": {
       "summary": "En raison de son évolutivité, de sa vitesse et de son rapport qualité-prix, les solutions cloud sont de plus en plus préférées par les entreprises",
       "name": "Développement Cloud",
-      "description": "En raison de son évolutivité, de sa vitesse et de son rapport qualité-prix, les solutions cloud sont de plus en plus préférées par les entreprises et Genixo offre des solutions de bout en bout pour les besoins de votre entreprise dans ce domaine.\nDéveloppement Natif Cloud\n\nNous déterminons quels services et à quelle intensité vous allez utiliser les options cloud pour votre produit, et nous construisons votre produit à partir de zéro sur le cloud.\nMigration Cloud\n\nGenixo migre vos données de l'infrastructure sur site vers le cloud, garantissant sa sécurité.\nRe-architecture d'Application\n\nNous améliorons ou redéveloppons un produit existant dans le Cloud selon les besoins.\nConseil Cloud\n\nOrganiser la transformation commerciale avec des applications cloud innovantes et fournir des conseils détaillés à chaque étape de la transition."
+      "description": "En raison de son évolutivité, de sa vitesse et de son rapport qualité-prix, les solutions cloud sont de plus en plus préférées par les entreprises et Genixo offre des solutions de bout en bout pour les besoins de votre entreprise dans ce domaine.\nDéveloppement Natif Cloud\n\nNous déterminons quels services et à quelle intensité vous allez utiliser les options cloud pour votre produit, et nous construisons votre produit à partir de zéro sur le cloud.\nMigration Cloud\n\nGenixo migre vos données de l'infrastructure sur site vers le cloud, garantissant sa sécurité.\nRe-architecture d'Application\n\nNous améliorons ou redéveloppons un produit existant dans le Cloud selon les besoins.\nConseil Cloud\n\nOrganiser la transformation commerciale avec des applications cloud innovantes et fournir des conseils détaillés à chaque étape de la transition.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "MobileDevelopment": {
       "summary": "Les applications mobiles sont des actifs importants pour le produit. Elles augmentent l'accessibilité, la visibilité et l'auto-promotion des plateformes.",
       "name": "Développement Mobile",
-      "description": "Les applications mobiles sont des actifs importants pour le produit. Elles augmentent l'accessibilité, la visibilité et l'auto-promotion des plateformes. En utilisant des applications mobiles, les accès fonctionnels des utilisateurs ou des clients peuvent être configurés, leur concentration peut être organisée, ou les préférences peuvent être personnalisées pour répondre aux besoins de l'utilisateur.\nfeature-icon\nDéveloppement d'Applications iOS\nGenixo possède les connaissances et les compétences pour créer des applications mobiles iOS conviviales, riches en fonctionnalités et fiables.\nfeature-icon\nDéveloppement d'Applications Android\nAssurez-vous des meilleures performances et UX possibles avec nous. L'équipe de développement Android et iOS de Genixo vous aidera à créer des applications évolutives et professionnelles sur plusieurs appareils Android.\nfeature-icon\nDéveloppement d'Applications Multi-plateformes\nGenixo peut également vous offrir le développement d'applications multi-plateformes. Avec notre dynamisme et notre passion, profitez d'applications ajustables et performantes."
+      "description": "Les applications mobiles sont des actifs importants pour le produit. Elles augmentent l'accessibilité, la visibilité et l'auto-promotion des plateformes. En utilisant des applications mobiles, les accès fonctionnels des utilisateurs ou des clients peuvent être configurés, leur concentration peut être organisée, ou les préférences peuvent être personnalisées pour répondre aux besoins de l'utilisateur.\nfeature-icon\nDéveloppement d'Applications iOS\nGenixo possède les connaissances et les compétences pour créer des applications mobiles iOS conviviales, riches en fonctionnalités et fiables.\nfeature-icon\nDéveloppement d'Applications Android\nAssurez-vous des meilleures performances et UX possibles avec nous. L'équipe de développement Android et iOS de Genixo vous aidera à créer des applications évolutives et professionnelles sur plusieurs appareils Android.\nfeature-icon\nDéveloppement d'Applications Multi-plateformes\nGenixo peut également vous offrir le développement d'applications multi-plateformes. Avec notre dynamisme et notre passion, profitez d'applications ajustables et performantes.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "ApplicationMaintenanceAndSupportServices": {
       "summary": "Avantages pour votre entreprise avec notre support technique\nico-bkg\nAttitude Proactive\nNous renforçons votre fondation, c'est-à-dire votre infrastructure, jour après jour",
       "name": "Services de Maintenance et d'Assistance d'Applications",
-      "description": "Avantages pour votre entreprise avec notre support technique\nico-bkg\nAttitude Proactive\nNous renforçons votre fondation, c'est-à-dire votre infrastructure, jour après jour.\nico-bkg\nFondamentalité\nAvec l'aide des experts de Genixo, un département entier peut être assemblé et mis en place pour votre processus à partir de zéro.\nico-bkg\nÉvolutivité Avancée\nLes professionnels de Genixo offrent de l'agilité à votre entreprise pour croître tout en restant flexible.\nico-bkg\nDisponibilité 24/7\nLes équipes technologiques de Genixo peuvent vous soutenir 24/7. Nous sommes toujours actifs et toujours prêts.\nico-bkg\nSécurité Absolue des Données\nNous traitons les questions de cybersécurité et de protection des données comme une priorité absolue.\nico-bkg\nRentabilité\nLes experts de Genixo savent comment maintenir les prix sous contrôle pour vous."
+      "description": "Avantages pour votre entreprise avec notre support technique\nico-bkg\nAttitude Proactive\nNous renforçons votre fondation, c'est-à-dire votre infrastructure, jour après jour.\nico-bkg\nFondamentalité\nAvec l'aide des experts de Genixo, un département entier peut être assemblé et mis en place pour votre processus à partir de zéro.\nico-bkg\nÉvolutivité Avancée\nLes professionnels de Genixo offrent de l'agilité à votre entreprise pour croître tout en restant flexible.\nico-bkg\nDisponibilité 24/7\nLes équipes technologiques de Genixo peuvent vous soutenir 24/7. Nous sommes toujours actifs et toujours prêts.\nico-bkg\nSécurité Absolue des Données\nNous traitons les questions de cybersécurité et de protection des données comme une priorité absolue.\nico-bkg\nRentabilité\nLes experts de Genixo savent comment maintenir les prix sous contrôle pour vous.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "DataScience": {
       "summary": "Au 21ème siècle, également appelé l'ère de l'information, les données sont devenues de plus en plus précieuses en raison des développements technologiques",
       "name": "Science des Données",
-      "description": "Au 21ème siècle, également appelé l'ère de l'information, les données sont devenues de plus en plus précieuses en raison des développements technologiques. Les machines deviennent extrêmement 'intelligentes' au point que même les scientifiques ne peuvent pas prédire où ce voyage mènera. La science des données, 'le travail le plus sexy du 21ème siècle' comme l'a déclaré la Harvard Business Review, est la combinaison de la programmation et des mathématiques afin de concevoir des modèles capables d'extraire des informations ou de faire des prédictions meilleures et plus rapides par rapport aux humains. Les données non traitées rendent votre entreprise inefficace. Ce n'est qu'après que les données ont été traitées que les bonnes informations peuvent être révélées et l'analyse créée à la lumière de ces informations portera votre entreprise au sommet de son potentiel. Parce que les données sont la chose la plus précieuse de notre époque, révélez la valeur des données.\n\nAcquisition de Données\nS'il n'y a pas suffisamment de données à analyser, nous pourrions créer le pipeline de données s'il est accessible ou vous guider pour créer un système d'acquisition de données approprié.\nPrétraitement des Données\nLes sources de données ne sont pas fiables. Nous avons donc nettoyé les données des éléments inexacts, aberrants et bruyants pour créer des modèles plus précis.\nConception de Modèle\nNous avons conçu un modèle mathématique ou d'apprentissage automatique qui décrit votre système aussi bien que possible.\nAnalyse de Données\nEn utilisant le modèle formé par vos données, nous pourrions révéler les informations de votre flux de données actuel ou à venir.\nRapport/Résultat\nNous pourrions démontrer les informations révélées par notre modèle dans un tableau de bord convivial.\nIl existe principalement 3 techniques en science des données;\n\nClassification\nLes modèles sont formés de manière à étiqueter les données selon les préférences des utilisateurs. L'exemple le plus explicatif et cliché de cette méthode est l'étiquetage des mails spam ou ham. À partir de l'ensemble de données, le modèle apprend la différence entre les mails ham et spam et pourrait facilement étiqueter les mails à venir en conséquence.\nRégression\nFondamentalement, la régression consiste à trouver la fonction la mieux adaptée à l'ensemble de données. En utilisant cette fonction, la corrélation dans l'ensemble de données ou la prédiction de l'avenir pourrait être réalisée.\nClustering\nDans les scénarios où le nombre de classes n'est pas prédéfini comme dans les problèmes de classification, les modèles pourraient être formés de manière à diviser l'ensemble de données. Ces classes nous aideraient à comprendre la relation et la distribution dans l'ensemble de données.\nLes techniques de science des données sont principalement utilisées dans;\n\nPrise de Décision et Prédiction\nOptimisation des Processus\nReconnaissance de Motifs\nAnalyse de Données\nSystèmes de Recommandation\nVision par Ordinateur\nTechnologies que nous utilisons:\n\n"
+      "description": "Au 21ème siècle, également appelé l'ère de l'information, les données sont devenues de plus en plus précieuses en raison des développements technologiques. Les machines deviennent extrêmement 'intelligentes' au point que même les scientifiques ne peuvent pas prédire où ce voyage mènera. La science des données, 'le travail le plus sexy du 21ème siècle' comme l'a déclaré la Harvard Business Review, est la combinaison de la programmation et des mathématiques afin de concevoir des modèles capables d'extraire des informations ou de faire des prédictions meilleures et plus rapides par rapport aux humains. Les données non traitées rendent votre entreprise inefficace. Ce n'est qu'après que les données ont été traitées que les bonnes informations peuvent être révélées et l'analyse créée à la lumière de ces informations portera votre entreprise au sommet de son potentiel. Parce que les données sont la chose la plus précieuse de notre époque, révélez la valeur des données.\n\nAcquisition de Données\nS'il n'y a pas suffisamment de données à analyser, nous pourrions créer le pipeline de données s'il est accessible ou vous guider pour créer un système d'acquisition de données approprié.\nPrétraitement des Données\nLes sources de données ne sont pas fiables. Nous avons donc nettoyé les données des éléments inexacts, aberrants et bruyants pour créer des modèles plus précis.\nConception de Modèle\nNous avons conçu un modèle mathématique ou d'apprentissage automatique qui décrit votre système aussi bien que possible.\nAnalyse de Données\nEn utilisant le modèle formé par vos données, nous pourrions révéler les informations de votre flux de données actuel ou à venir.\nRapport/Résultat\nNous pourrions démontrer les informations révélées par notre modèle dans un tableau de bord convivial.\nIl existe principalement 3 techniques en science des données;\n\nClassification\nLes modèles sont formés de manière à étiqueter les données selon les préférences des utilisateurs. L'exemple le plus explicatif et cliché de cette méthode est l'étiquetage des mails spam ou ham. À partir de l'ensemble de données, le modèle apprend la différence entre les mails ham et spam et pourrait facilement étiqueter les mails à venir en conséquence.\nRégression\nFondamentalement, la régression consiste à trouver la fonction la mieux adaptée à l'ensemble de données. En utilisant cette fonction, la corrélation dans l'ensemble de données ou la prédiction de l'avenir pourrait être réalisée.\nClustering\nDans les scénarios où le nombre de classes n'est pas prédéfini comme dans les problèmes de classification, les modèles pourraient être formés de manière à diviser l'ensemble de données. Ces classes nous aideraient à comprendre la relation et la distribution dans l'ensemble de données.\nLes techniques de science des données sont principalement utilisées dans;\n\nPrise de Décision et Prédiction\nOptimisation des Processus\nReconnaissance de Motifs\nAnalyse de Données\nSystèmes de Recommandation\nVision par Ordinateur\nTechnologies que nous utilisons:\n\n",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "general": {
       "ReadMore": "Lire la suite"
@@ -92,7 +125,9 @@
         "Suivi complet des progrès",
         "Analyses et rapports avancés",
         "Architecture évolutive"
-      ]
+      ],
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "StudyScoreAI": {
       "name": "Study Score AI",
@@ -105,7 +140,9 @@
         "Suivi des progrès en temps réel",
         "Système de notation automatique",
         "Tableau de bord de reporting complet"
-      ]
+      ],
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "Egitimiste": {
       "name": "egitimiste.com",
@@ -118,7 +155,9 @@
         "Profils d'institutions",
         "Ressources et guides pour étudiants",
         "Support multilingue"
-      ]
+      ],
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "GenixoWorkAI": {
       "name": "Genixo Work AI",
@@ -131,7 +170,9 @@
         "Outils de communication d'équipe",
         "Optimisation des flux de travail",
         "Analyses et insights avancés"
-      ]
+      ],
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "GenixoAssistant": {
       "name": "Genixo Assistant",
@@ -144,7 +185,9 @@
         "Réponses personnalisables",
         "Capacités d'intégration",
         "Apprentissage et amélioration continus"
-      ]
+      ],
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "TOMEREYadis": {
       "name": "TÖMER E-Yadis",
@@ -157,7 +200,9 @@
         "Suivi des progrès et analyses",
         "Structure de cours multi-niveaux",
         "Options d'apprentissage flexibles"
-      ]
+      ],
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "RetiredTravelApp": {
       "name": "Retired Travel App",
@@ -170,7 +215,9 @@
         "Alertes et mises à jour de voyage",
         "Fonctionnalités d'assistance d'urgence",
         "Fonctionnalités sociales pour les connexions de voyageurs"
-      ]
+      ],
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     }
   },
   "counter": {
@@ -192,6 +239,30 @@
         "label": "Support Client"
       }
     ]
+  },
+  "ngsd": {
+    "title": "Genixo NGSD",
+    "subtitle": "Genixo Next Generation Software Department - Meilleure solution logicielle de bout en bout !",
+    "forWho": {
+      "title": "Pour qui ?",
+      "content": "Si vous n'avez pas d'équipe logicielle, cela pourrait être la meilleure solution pour vous !"
+    },
+    "whatIs": {
+      "title": "Qu'est-ce que NGSD ?",
+      "content": "Notre solution la plus complète à 360 degrés, dynamique, internationale et à distance qui nous fait faire un pas de plus sur le marché. Créer une équipe pour répondre à vos besoins logiciels peut toujours être considéré comme la solution la plus claire, mais comme on le sait, créer une équipe/département logiciel peut être une entreprise très coûteuse. C'est là qu'intervient Genixo NGSD et vous évite la peine de mettre en place une équipe/un département. Le chef de projet Genixo assigné à votre marque devient votre responsable logiciel, et Genixo devient votre département logiciel !"
+    },
+    "remote": {
+      "title": "À distance",
+      "content": "À distance mais proche ! Comment ? Avec une expérience client privilégiée. En tant que Genixo, nous visons à ce que les distances n'aient aucun sens. Nous nous assurons que vous pouvez suivre continuellement les processus avec une compréhension opérationnelle transparente, et nous nous efforçons de maintenir notre communication au plus haut niveau en organisant des réunions planifiées et en fournissant un support client instantané. Avec un département logiciel à distance, nous augmentons votre efficacité et vous réduisez vos coûts."
+    },
+    "dynamic": {
+      "title": "Dynamique",
+      "content": "Notre travail est de nous adapter rapidement à la dynamique de votre entreprise ! Ensemble avec NGSD, nous sommes en mesure d'analyser continuellement vos besoins et d'augmenter ou de réduire l'équipe selon le statut de vos projets, nous sommes donc toujours positionnés de manière optimale pour vos besoins."
+    },
+    "global": {
+      "title": "Mondial",
+      "content": "Laissez le monde devenir plus petit et vous devenir plus grand ! Alors que le monde devient plus petit, personne ne veut être limité localement. Nous portons également cette motivation, nous construisons nos projets sur une vision et une infrastructure qui peuvent fonctionner à l'échelle mondiale. Avec notre vision transnationale et notre modèle Genixo NGSD, il nous est possible de mettre en œuvre et de développer tous vos besoins logiciels dans une structure où vous pouvez opérer à l'échelle mondiale. Nous invitons toutes les marques passionnées qui sont d'accord avec nous à parcourir ce chemin ensemble."
+    }
   },
   "chooseUs": {
     "subtitle": "RAISON DE NOUS CHOISIR",

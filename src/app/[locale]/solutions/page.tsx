@@ -4,6 +4,8 @@ import {generateMetadata as generateSEOMetadata} from "@/utils/seo";
 import {locales} from "@/i18n/config";
 import PageBanner from "@/app/component/page-banner";
 import pageBannerImage from "@/app/assets/images/bg/page-banner.jpg";
+import Link from "next/link";
+import {getSolutionSlug} from "@/utils/slugMapping";
 
 export async function generateMetadata({
     params,
@@ -44,10 +46,42 @@ export default async function SolutionsPage({
                     { label: dict.menu.Solutions, href: `/${locale}/solutions` },
                 ]}
             />
-            <div className="section section-padding">
+            <div className="section techwix-choose-us-section section-padding"
+                 style={{backgroundImage: 'url(/assets/images/bg/choose-us-bg.jpg)'}}>
                 <div className="container">
-                    <h1>{dict.menu.Solutions}</h1>
-                    <p>Solutions page content will be added here.</p>
+                    <div className="choose-us-wrap">
+                        <div className="choose-us-content-wrap">
+                            <div className="row">
+                                {Object.keys(dict.services).filter(key => key !== 'general').map((key) => {
+                                    const solution = dict.services[key as keyof typeof dict.services];
+                                    const solutionSlug = getSolutionSlug(key as keyof typeof dict.services);
+                                    
+                                    if (!solution || !solutionSlug || !('name' in solution) || !('summary' in solution)) {
+                                        return null;
+                                    }
+
+                                    return (
+                                        <div key={key} className="col-lg-4 col-md-6">
+                                            <div className="choose-us-item">
+                                                <div className="choose-us-img">
+                                                    <Link href={`/${locale}/solutions/${solutionSlug}`}>
+                                                        <img 
+                                                            src={solution.image1 || "/assets/images/choose-us1.jpg"} 
+                                                            alt={solution.name}
+                                                        />
+                                                        <div className="choose-us-content">
+                                                            <h3 className="title">{solution.name}</h3>
+                                                            <p>{solution.summary}</p>
+                                                        </div>
+                                                    </Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    );
+                                })}
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

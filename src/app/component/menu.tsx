@@ -48,6 +48,9 @@ export default function MenuSection({ locale, dict }: MenuSectionProps) {
                         <Link href={`/${locale}/government-support`}>{dict.menu.GovernmentSupport}</Link>
                     </li>
                     <li>
+                        <Link href={`/${locale}/ngsd`}>{dict.menu.NGSD}</Link>
+                    </li>
+                    <li>
                         <Link href={`/${locale}/about`}>{dict.menu.AboutUs}</Link>
                     </li>
                     <li>

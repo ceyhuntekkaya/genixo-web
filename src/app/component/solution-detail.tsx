@@ -56,35 +56,51 @@ export default function SolutionDetail({ solutionKey, dict, locale }: SolutionDe
                 ]}
             />
 
-            <div className="section section-padding">
+            <div className="section techwix-about-section-07 section-padding">
+                <div className="shape-1"></div>
                 <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <div className="solution-detail-wrap">
-                                <div className="section-title text-center mb-5">
-                                    <h2 className="title">{solution.name}</h2>
-                                    {solution.summary && (
-                                        <p className="text-muted lead">{solution.summary}</p>
-                                    )}
-                                </div>
-
-                                <div className="solution-description mb-5">
-                                    <div className="row">
-                                        <div className="col-lg-12">
-                                            <div 
-                                                className="content"
-                                                dangerouslySetInnerHTML={{ __html: solution.description }}
-                                            />
-                                        </div>
+                    <div className="about-wrap">
+                        <div className="row">
+                            <div className="col-lg-6">
+                                <div className="about-img-wrap">
+                                    <img className="shape-1" src="/assets/images/shape/about-shape2.png" alt="" />
+                                    <div className="about-img">
+                                        <img 
+                                            src={solution.image1 || `/images/solutions/${solutionSlug}.jpg`} 
+                                            alt={solution.name} 
+                                        />
+                                    </div>
+                                    <div className="about-img about-img-2">
+                                        <img 
+                                            src={solution.image2 || solution.image1 || `/images/solutions/${solutionSlug}.jpg`} 
+                                            alt={solution.name} 
+                                        />
                                     </div>
                                 </div>
-
-                                <div className="solution-cta text-center mt-5">
-                                    <a href={`/${locale}/contact`} className="btn btn-primary btn-lg">
-                                        {dict.menu.ContactUs}
-                                    </a>
+                            </div>
+                            <div className="col-lg-6">
+                                <div className="about-content-wrap">
+                                    <div className="section-title">
+                                        <h3 className="sub-title">{dict.menu.Solutions}</h3>
+                                        <h2 className="title">{solution.name}</h2>
+                                    </div>
+                                    {solution.summary && (
+                                        <p className="text">{solution.summary}</p>
+                                    )}
                                 </div>
                             </div>
+                            {(solution.longDescription || solution.description) && (
+                                <div className="row mt-4">
+                                    <div className="col-lg-12">
+                                        <div 
+                                            className="content"
+                                            dangerouslySetInnerHTML={{ 
+                                                __html: solution.longDescription || solution.description 
+                                            }}
+                                        />
+                                    </div>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>

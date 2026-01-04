@@ -88,6 +88,9 @@ export default async function LocaleLayout({
                                 <Link href={`/${locale}/government-support`}>{dict.menu.GovernmentSupport}</Link>
                             </li>
                             <li>
+                                <Link href={`/${locale}/ngsd`}>{dict.menu.NGSD}</Link>
+                            </li>
+                            <li>
                                 <Link href={`/${locale}/about`}>{dict.menu.AboutUs}</Link>
                             </li>
                             <li>
@@ -112,13 +115,13 @@ export default async function LocaleLayout({
                                     <div className="cta-icon">
                                         <Image src={ctaIcon} alt="" />
                                     </div>
-                                    <p>We are Delivering the best customer Experience</p>
+                                    <p>{dict.general.ctaMessage}</p>
                                 </div>
                             </div>
                             <div className="col-xl-3 col-lg-4">
                                 <div className="cta-btn">
                                     <a className="btn btn-white" href="#">
-                                        +44 920 090 505
+                                        +90 532 207 67 30
                                     </a>
                                 </div>
                             </div>

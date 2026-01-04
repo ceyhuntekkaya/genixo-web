@@ -39,3 +39,19 @@ export function getProductKey(slug: string): keyof import('@/i18n/types').Dictio
     return productSlugToKey[slug] || null;
 }
 
+/**
+ * Solution key'ini slug'a çevirir
+ */
+export function getSolutionSlug(key: keyof import('@/i18n/types').Dictionary['services']): string | null {
+    const slug = Object.keys(solutionSlugToKey).find(s => solutionSlugToKey[s] === key);
+    return slug || null;
+}
+
+/**
+ * Product key'ini slug'a çevirir
+ */
+export function getProductSlug(key: keyof import('@/i18n/types').Dictionary['products']): string | null {
+    const slug = Object.keys(productSlugToKey).find(s => productSlugToKey[s] === key);
+    return slug || null;
+}
+

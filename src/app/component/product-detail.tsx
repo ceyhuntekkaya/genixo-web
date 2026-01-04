@@ -1,4 +1,3 @@
-import Image from "next/image";
 import pageBanner from "@/app/assets/images/bg/page-banner.jpg";
 import PageBanner from "@/app/component/page-banner";
 import CounterSection from "@/app/component/counter-section";
@@ -44,67 +43,51 @@ export default function ProductDetail({ productKey, dict, locale }: ProductDetai
                 ]}
             />
 
-            <div className="section section-padding">
+            <div className="section techwix-about-section-07 section-padding">
+                <div className="shape-1"></div>
                 <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <div className="product-detail-wrap">
-                                <div className="section-title text-center mb-5">
-                                    <h2 className="title">{product.name}</h2>
-                                    {product.summary && (
-                                        <p className="text-muted lead">{product.summary}</p>
-                                    )}
-                                </div>
-
-                                {product.image && (
-                                    <div className="product-image mb-5 text-center">
-                                        <Image
-                                            src={product.image}
-                                            alt={product.name}
-                                            width={800}
-                                            height={400}
-                                            className="img-fluid rounded"
+                    <div className="about-wrap">
+                        <div className="row">
+                            <div className="col-lg-6">
+                                <div className="about-img-wrap">
+                                    <img className="shape-1" src="/assets/images/shape/about-shape2.png" alt="" />
+                                    <div className="about-img">
+                                        <img 
+                                            src={product.image1 || `/images/products/${productSlug}.jpg`} 
+                                            alt={product.name} 
                                         />
                                     </div>
-                                )}
-
-                                <div className="product-description mb-5">
-                                    <div className="row">
-                                        <div className="col-lg-12">
-                                            <div 
-                                                className="content"
-                                                dangerouslySetInnerHTML={{ __html: product.description }}
-                                            />
-                                        </div>
+                                    <div className="about-img about-img-2">
+                                        <img 
+                                            src={product.image2 || product.image1 || `/images/products/${productSlug}.jpg`} 
+                                            alt={product.name} 
+                                        />
                                     </div>
-                                </div>
-
-                                {product.features && product.features.length > 0 && (
-                                    <div className="product-features mt-5">
-                                        <div className="row">
-                                            <div className="col-lg-8 mx-auto">
-                                                <h3 className="mb-4">Key Features</h3>
-                                                <div className="row">
-                                                    {product.features.map((feature, index) => (
-                                                        <div key={index} className="col-md-6 mb-3">
-                                                            <div className="feature-item d-flex align-items-start">
-                                                                <i className="flaticon-check-mark me-3 mt-1 text-primary"></i>
-                                                                <span>{feature}</span>
-                                                            </div>
-                                                        </div>
-                                                    ))}
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                )}
-
-                                <div className="product-cta text-center mt-5">
-                                    <a href={`/${locale}/contact`} className="btn btn-primary btn-lg">
-                                        {dict.menu.ContactUs}
-                                    </a>
                                 </div>
                             </div>
+                            <div className="col-lg-6">
+                                <div className="about-content-wrap">
+                                    <div className="section-title">
+                                        <h3 className="sub-title">{dict.menu.Products}</h3>
+                                        <h2 className="title">{product.name}</h2>
+                                    </div>
+                                    {product.summary && (
+                                        <p className="text">{product.summary}</p>
+                                    )}
+                                </div>
+                            </div>
+                            {(product.longDescription || product.description) && (
+                                <div className="row mt-4">
+                                    <div className="col-lg-12">
+                                        <div 
+                                            className="content"
+                                            dangerouslySetInnerHTML={{ 
+                                                __html: product.longDescription || product.description 
+                                            }}
+                                        />
+                                    </div>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>

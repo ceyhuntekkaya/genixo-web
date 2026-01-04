@@ -2,10 +2,10 @@ import pageBanner from "@/app/assets/images/bg/page-banner.jpg";
 import PageBanner from "@/app/component/page-banner";
 import CounterSection from "@/app/component/counter-section";
 import ChooseUsSection from "@/app/component/choose-us-section";
-import {Locale} from "@/i18n/config";
-import {getDictionary} from "@/i18n/getDictionary";
-import {generateMetadata as generateSEOMetadata, generateStructuredData} from "@/utils/seo";
-import {locales} from "@/i18n/config";
+import { Locale } from "@/i18n/config";
+import { getDictionary } from "@/i18n/getDictionary";
+import { generateMetadata as generateSEOMetadata, generateStructuredData } from "@/utils/seo";
+import { locales } from "@/i18n/config";
 import Script from "next/script";
 
 export async function generateMetadata({
@@ -69,43 +69,50 @@ export default async function AboutPage({
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="about-img-wrap">
-                                    <img className="shape-1" src="/assets/images/shape/about-shape2.png" alt=""/>
+                                    <img className="shape-1" src="/assets/images/shape/about-shape2.png" alt="" />
                                     <div className="about-img">
-                                        <img src="/assets/images/about-3.jpg" alt=""/>
+                                        <img src="/assets/images/about-3.jpg" alt="" />
                                     </div>
                                     <div className="about-img about-img-2">
-                                        <img src="/assets/images/about-4.jpg" alt=""/>
+                                        <img src="/assets/images/about-4.jpg" alt="" />
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-6">
                                 <div className="about-content-wrap">
                                     <div className="section-title">
-                                        <h3 className="sub-title">Who we are</h3>
-                                        <h2 className="title">Highly Tailored IT Design, Management & Support
-                                            Services.</h2>
+                                        <h3 className="sub-title">{dict.about.WhoWeAre}</h3>
+                                        <h2 className="title">{dict.about.slogan}</h2>
                                     </div>
-                                    <p className="text">Accelerate innovation with world-className tech teams We’ll
-                                        match you to
-                                        an entire remote team of incredible freelance talent for all your software
-                                        development needs.</p>
-                                    <div className="about-list-03">
-                                        <div className="row">
-                                            <div className="col-sm-6">
-                                                <div className="about-list-item-03">
-                                                    <h3 className="title">Our Mission</h3>
-                                                    <p>Accelerate innovation with world-className tech teams. We help
-                                                        businesses elevate their value.</p>
-                                                </div>
-                                            </div>
-                                            <div className="col-sm-6">
-                                                <div className="about-list-item-03">
-                                                    <h3 className="title">Custom Code</h3>
-                                                    <p>Accelerate innovation with world-className tech teams. We help
-                                                        businesses elevate their value.</p>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <p className="text">{dict.about.description}</p>
+                                </div>
+                            </div>
+                            <div className="row mt-4">
+                                <div className="row mt-4">
+                                    <div className="col-sm-8">
+                                        <h3 className="title">{dict.about.values.dynamism.title}</h3>
+                                        <p>{dict.about.values.dynamism.content}</p>
+                                    </div>
+                                    <div className="col-sm-4">
+                                        <img src="/assets/images/about-4.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div className="row mt-4">
+                                    <div className="col-sm-4">
+                                        <img src="/assets/images/about-4.jpg" alt="" />
+                                    </div>
+                                    <div className="col-sm-8">
+                                        <h3 className="title">{dict.about.values.passion.title}</h3>
+                                        <p>{dict.about.values.passion.content}</p>
+                                    </div>
+                                </div>
+                                <div className="row mt-4">
+                                    <div className="col-sm-8">
+                                        <h3 className="title">{dict.about.values.professionalism.title}</h3>
+                                        <p>{dict.about.values.professionalism.content}</p>
+                                    </div>
+                                    <div className="col-sm-4">
+                                        <img src="/assets/images/about-4.jpg" alt="" />
                                     </div>
                                 </div>
                             </div>

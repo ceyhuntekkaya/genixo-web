@@ -1,11 +1,27 @@
 {
   "general": {
-    "ReadMore": "Read More"
+    "ReadMore": "Read More",
+    "ctaMessage": "We are Delivering the best customer Experience"
   },
   "about": {
-    "WhoWeAre": "Who We Are...",
+    "WhoWeAre": "Who we are",
     "slogan": "Software Solution Partner & Innovation Company",
-    "short": "To create successful software, you need a development team that understands your business requirements. Our experts will determine a custom solution that fits your idea, timeline, and budget, then design and build the application and help you test it with real users. As a result, you will get a modern digital product that benefits your business and is loved by users."
+    "short": "To create successful software, you need a development team that understands your business requirements. Our experts will determine a custom solution that fits your idea, timeline, and budget, then design and build the application and help you test it with real users. As a result, you will get a modern digital product that benefits your business and is loved by users.",
+    "description": "Genixo is a technology company operating in Bilkent University Cyberpark, developing AI-focused educational platforms and corporate solutions. Our team consists of developers with deep expertise in modern web technologies and AI integrations. We build scalable, secure, and user-friendly systems using powerful technologies such as Spring Boot, Next.js, and PostgreSQL. We make a difference in Turkey's educational technology ecosystem with successful projects like StudyScore AI and Egitimiste.com. We offer a wide range of solutions, from AI-powered adaptive learning platforms to corporate document management systems, from real-time exam applications to educational discovery platforms. As a trusted technology partner in our clients' digital transformation journey, we work to understand business needs and produce the most suitable solutions.",
+    "values": {
+      "dynamism": {
+        "title": "Dynamism",
+        "content": "Information technology is the sector with the largest observable market share in the world, and interestingly, it didn't take long to reach this size. So how did this happen? Through technology and therefore innovation. Development and change are so fast that it can be difficult to keep up. It is becoming increasingly difficult to keep up with new dynamics and act proactively. As Genixo, our mission here is clear: to stay dynamic. Genixo's vision in this regard is to always stay current and respond to the needs of the day, no matter how fast the IT world changes and no matter how different the needs are. We have a corporate understanding that calculates the future by constantly adopting a proactive attitude and can give appropriate responses to unforeseen problems. This way we can always stay dynamic!"
+      },
+      "passion": {
+        "title": "Passion and Commitment",
+        "content": "Here, there is no commitment without passion. Without commitment, a passion can never reach its potential and is doomed to be less successful. Genixo, aware of this, is more than a company; it is a community of people who are aware that personal development has no limits, who aim to constantly improve themselves, who are passionately committed to their goals and dedicated to achieving these goals. In line with this community consciousness built on passion and dedication, we invite ourselves and everyone we work with to develop their potential, think bigger, work more dedicatedly, and be more successful!"
+      },
+      "professionalism": {
+        "title": "Professionalism",
+        "content": "Success can be achieved when you are talented or experienced in a job. However, for the success achieved to be permanent, a professional approach is essential; otherwise, you will definitely shorten the lifespan of the success you have achieved. The Genixo understanding aims for permanence and sustainable success both individually and corporately, with a brand culture where talented and experienced people work professionally. We don't leave success to chance with our professional business awareness."
+      }
+    }
   },
   "menu": {
     "Home": "Home",
@@ -13,6 +29,7 @@
     "Products": "Products",
     "SuccessStories": "Success",
     "GovernmentSupport": "Consulting",
+    "NGSD": "NGSD",
     "AboutUs": "About",
     "Blog": "Blog",
     "ContactUs": "Contact",
@@ -39,42 +56,58 @@
     "WebApplication": {
       "summary": "Genixo is a passionate web development company that is capable of delivering complex projects beyond the limits of conventional website creation.",
       "name": "Web Application",
-      "description": "Genixo is a passionate web development company that is capable of delivering complex projects beyond the limits of conventional website creation.\n\nWeb Application and Cloud Development\nWith Genixo, your visions and ideas become a high-quality product. According to your needs, even a demanding web application can be implemented in an organized manner. In the light of the solutions provided and development, your projects become successful, your vision comes to life.\nWeb Design\nGenixo provides user-centered and relevant UI/UX designs. By using these industry-leading ideas, your vision becomes clear and your audience gains enthusiasm.\nWeb Integration and Quality Assurance\nRegardless of the integration requirements of your projects, Genixo provides complete third-party support for web presences or applications. Furthermore, our methodology obliges us to successfully develop a comprehensive, bug-free and stable application.\nTechnologies we use:"
+      "description": "Genixo is a passionate web development company that is capable of delivering complex projects beyond the limits of conventional website creation.\n\nWeb Application and Cloud Development\nWith Genixo, your visions and ideas become a high-quality product. According to your needs, even a demanding web application can be implemented in an organized manner. In the light of the solutions provided and development, your projects become successful, your vision comes to life.\nWeb Design\nGenixo provides user-centered and relevant UI/UX designs. By using these industry-leading ideas, your vision becomes clear and your audience gains enthusiasm.\nWeb Integration and Quality Assurance\nRegardless of the integration requirements of your projects, Genixo provides complete third-party support for web presences or applications. Furthermore, our methodology obliges us to successfully develop a comprehensive, bug-free and stable application.\nTechnologies we use:",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "ArchitectureAsAService": {
       "summary": "Solution Architecture Benefits\nDesigning architecture for a software solution focuses on achieving qualitative output because you have a blueprint of the functionalities and their requirements.",
       "name": "Architecture as a Service",
-      "description": "Solution Architecture Benefits\nDesigning architecture for a software solution focuses on achieving qualitative output because you have a blueprint of the functionalities and their requirements. Helps plan the project lifecycle by providing a general solution structure. Simplifies dealing with complexity because you can observe the big picture with its challenges. Advises on estimation and costing by meeting the requirements of the main stakeholder.\nBusiness, Operations and Technology\nThe emphasis is on result-oriented procedure, the focus is on smart and robust solutions, the priority is the material aspect of solution delivery. Solution Architecture\n\nAccording to your ecosystem and audience, Genixo provides a foundation for your projects by tailoring IT solutions.\n\nWe define functional requirements and implementation phases according to your business needs."
+      "description": "Solution Architecture Benefits\nDesigning architecture for a software solution focuses on achieving qualitative output because you have a blueprint of the functionalities and their requirements. Helps plan the project lifecycle by providing a general solution structure. Simplifies dealing with complexity because you can observe the big picture with its challenges. Advises on estimation and costing by meeting the requirements of the main stakeholder.\nBusiness, Operations and Technology\nThe emphasis is on result-oriented procedure, the focus is on smart and robust solutions, the priority is the material aspect of solution delivery. Solution Architecture\n\nAccording to your ecosystem and audience, Genixo provides a foundation for your projects by tailoring IT solutions.\n\nWe define functional requirements and implementation phases according to your business needs.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "CustomSoftwareDevelopment": {
       "summary": "Genixo's professional team designs, creates, deploys and maintains your custom software needs for specific sets of users, functions and organizations.",
       "name": "Custom Software Development",
-      "description": "Genixo's professional team designs, creates, deploys and maintains your custom software needs for specific sets of users, functions and organizations. The solutions we offer here are uniquely built for your business and can include all web, mobile and desktop applications.\n\nSoftware Product Development\n\nClient Solutions!\nIf you want to develop a software product, let's talk about some benefits:\n- Privacy\n- Customized Traceability and Management\n- Ease/Cost Efficiency of Integrations\n- Fast Adaptation\n- Improved Efficiency\n\nEnterprise Software Development\n\nEnterprise Solutions!\nIf you want to develop enterprise software, let's talk about some benefits:\n- Benefits for the team\n- Belonging\n- Productivity\n\nBenefits for management\n- Prestige\n- Privacy\n- Independence\n- Customized Traceability and Management\n- Ease/Cost Efficiency of Integrations\n- Fast Adaptation\n- Improved Efficiency"
+      "description": "Genixo's professional team designs, creates, deploys and maintains your custom software needs for specific sets of users, functions and organizations. The solutions we offer here are uniquely built for your business and can include all web, mobile and desktop applications.\n\nSoftware Product Development\n\nClient Solutions!\nIf you want to develop a software product, let's talk about some benefits:\n- Privacy\n- Customized Traceability and Management\n- Ease/Cost Efficiency of Integrations\n- Fast Adaptation\n- Improved Efficiency\n\nEnterprise Software Development\n\nEnterprise Solutions!\nIf you want to develop enterprise software, let's talk about some benefits:\n- Benefits for the team\n- Belonging\n- Productivity\n\nBenefits for management\n- Prestige\n- Privacy\n- Independence\n- Customized Traceability and Management\n- Ease/Cost Efficiency of Integrations\n- Fast Adaptation\n- Improved Efficiency",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "DevOpsServices": {
       "summary": "A successful DevOps model is based on four key building blocks: Develop, Build and Test, Deploy, Operate and Monitor.",
       "name": "DevOps Services",
-      "description": "A successful DevOps model is based on four key building blocks: Develop, Build and Test, Deploy, Operate and Monitor. Genixo can do this for you!\n\nAssessment and Planning\nWe build a roadmap by analyzing and virtualizing the desired state by identifying traceable metrics.\nCI/CD Pipeline\nWe link development operations through Continuous Deployment - Integration - Testing - Deployment.\nProcess Automation\nWe automate the CI/CD pipeline from the beginning of coding to production by encapsulating builds, test cases, versioning and deployment.\nSecurity Integration\nWe perform end-to-end security integration through the 'Security as Code' mechanism."
+      "description": "A successful DevOps model is based on four key building blocks: Develop, Build and Test, Deploy, Operate and Monitor. Genixo can do this for you!\n\nAssessment and Planning\nWe build a roadmap by analyzing and virtualizing the desired state by identifying traceable metrics.\nCI/CD Pipeline\nWe link development operations through Continuous Deployment - Integration - Testing - Deployment.\nProcess Automation\nWe automate the CI/CD pipeline from the beginning of coding to production by encapsulating builds, test cases, versioning and deployment.\nSecurity Integration\nWe perform end-to-end security integration through the 'Security as Code' mechanism.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "CloudDevelopment": {
       "summary": "Due to its scalability, speed and price performance, cloud solutions are increasingly preferred by businesses",
       "name": "Cloud Development",
-      "description": "Due to its scalability, speed and price performance, cloud solutions are increasingly preferred by businesses and Genixo offers end-to-end solutions for your business needs in this field.\nCloud Native Development\n\nWe determine which services and at what intensity you will use cloud options for your product, and we build your product from scratch on the cloud.\nCloud Migration\n\nGenixo migrates your data from on-premise infrastructure to the cloud, ensuring its security.\nApplication Re-architecture\n\nWe improve or redevelop an existing product in the Cloud according to needs.\nCloud Consulting\n\nOrganizing business transformation with innovative cloud applications and providing detailed advice at every stage of the transition."
+      "description": "Due to its scalability, speed and price performance, cloud solutions are increasingly preferred by businesses and Genixo offers end-to-end solutions for your business needs in this field.\nCloud Native Development\n\nWe determine which services and at what intensity you will use cloud options for your product, and we build your product from scratch on the cloud.\nCloud Migration\n\nGenixo migrates your data from on-premise infrastructure to the cloud, ensuring its security.\nApplication Re-architecture\n\nWe improve or redevelop an existing product in the Cloud according to needs.\nCloud Consulting\n\nOrganizing business transformation with innovative cloud applications and providing detailed advice at every stage of the transition.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "MobileDevelopment": {
       "summary": "Mobile applications are important assets for the product. They increase the accessibility, visibility and self-promotion of platforms.",
       "name": "Mobile Development",
-      "description": "Mobile applications are important assets for the product. They increase the accessibility, visibility and self-promotion of platforms. By using mobile applications, functional accesses of users or customers can be configured, their concentration can be organized, or preferences can be customized to meet the user's needs.\nfeature-icon\niOS Application Development\nGenixo has the knowledge and skills to create user-friendly, feature-rich and reliable iOS mobile applications.\nfeature-icon\nAndroid Application Development\nEnsure the best possible performance and UX with us. Genixo's Android and iOS development team will help you create scalable and professional applications across multiple Android devices.\nfeature-icon\nCross-Platform Application Development\nGenixo can also offer you cross-platform application development. With our dynamism and passion, enjoy adjustable and high-performing applications."
+      "description": "Mobile applications are important assets for the product. They increase the accessibility, visibility and self-promotion of platforms. By using mobile applications, functional accesses of users or customers can be configured, their concentration can be organized, or preferences can be customized to meet the user's needs.\nfeature-icon\niOS Application Development\nGenixo has the knowledge and skills to create user-friendly, feature-rich and reliable iOS mobile applications.\nfeature-icon\nAndroid Application Development\nEnsure the best possible performance and UX with us. Genixo's Android and iOS development team will help you create scalable and professional applications across multiple Android devices.\nfeature-icon\nCross-Platform Application Development\nGenixo can also offer you cross-platform application development. With our dynamism and passion, enjoy adjustable and high-performing applications.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "ApplicationMaintenanceAndSupportServices": {
       "summary": "Benefits for your business with our technical support\nico-bkg\nProactive attitude\nWe strengthen your foundation, that is, your infrastructure, day by day",
       "name": "Application Maintenance and Support Services",
-      "description": "Benefits for your business with our technical support\nico-bkg\nProactive attitude\nWe strengthen your foundation, that is, your infrastructure, day by day.\nico-bkg\nFundamentality\nWith the help of Genixo's experts, an entire department can be assembled and set up for your process from scratch.\nico-bkg\nAdvanced Scalability\nGenixo professionals offer agility to your business to grow while staying flexible.\nico-bkg\n24/7 Availability\nGenixo's technology teams can support you 24/7. We are always active and always ready.\nico-bkg\nAbsolute Data Security\nWe treat cybersecurity and data protection issues as the highest priority.\nico-bkg\nCost Efficiency\nGenixo experts know how to keep prices under control for you."
+      "description": "Benefits for your business with our technical support\nico-bkg\nProactive attitude\nWe strengthen your foundation, that is, your infrastructure, day by day.\nico-bkg\nFundamentality\nWith the help of Genixo's experts, an entire department can be assembled and set up for your process from scratch.\nico-bkg\nAdvanced Scalability\nGenixo professionals offer agility to your business to grow while staying flexible.\nico-bkg\n24/7 Availability\nGenixo's technology teams can support you 24/7. We are always active and always ready.\nico-bkg\nAbsolute Data Security\nWe treat cybersecurity and data protection issues as the highest priority.\nico-bkg\nCost Efficiency\nGenixo experts know how to keep prices under control for you.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "DataScience": {
       "summary": "In the 21st century, also called the Information Age, data has become increasingly valuable due to technological developments",
       "name": "Data Science",
-      "description": "In the 21st century, also called the Information Age, data has become increasingly valuable due to technological developments. Machines become extremely 'intelligent' to the point that even scientists cannot predict where this journey will lead. Data Science, 'the sexiest job of the 21st century' as declared by Harvard Business Review, is the combination of programming and mathematics in order to design models capable of extracting insights or making predictions better and faster compared to humans. Unprocessed data makes your business inefficient. It is only after the data has been processed that the right insights can be revealed and the analysis created in the light of these insights will carry your business to the peak of its potential. Because data is the most valuable thing of our age, reveal the value of data.\n\nData Acquisition\nIf there is not enough data to analyze, we could create the data pipeline if it is accessible or guide you to create an appropriate data acquisition system.\nData Preprocessing\nData sources are not reliable. Therefore, we cleaned the data of inaccurate, aberrant and noisy ones to create more accurate models.\nModel Design\nWe designed a mathematical or machine learning model that describes your system as well as possible.\nData Analysis\nBy using the model trained by your data, we could reveal the insights of your current or upcoming data stream.\nReport/Result\nWe could demonstrate the insights revealed by our model in a user-friendly dashboard.\nThere are mainly 3 techniques in data science;\n\nClassification\nModels are trained in such a way as to label data according to users' preferences. The most explanatory and cliché example of this method is spam or ham mail labeling. From the dataset, the model learns the difference between ham and spam mails and could easily label upcoming mails accordingly.\nRegression\nBasically, regression is finding the best-fitting function for the dataset. By using this function, correlation in the dataset or prediction of the future could be achieved.\nClustering\nIn scenarios where the number of classes is not predefined as in classification problems, models could be trained in such a way as to divide the dataset. These classes would help us understand the relationship and distribution in the dataset.\nData Science techniques are mainly used in;\n\nDecision Making and Prediction\nProcess Optimization\nPattern Recognition\nData Analytics\nRecommendation Systems\nComputer Vision\nTechnologies we use:\n\n"
+      "description": "In the 21st century, also called the Information Age, data has become increasingly valuable due to technological developments. Machines become extremely 'intelligent' to the point that even scientists cannot predict where this journey will lead. Data Science, 'the sexiest job of the 21st century' as declared by Harvard Business Review, is the combination of programming and mathematics in order to design models capable of extracting insights or making predictions better and faster compared to humans. Unprocessed data makes your business inefficient. It is only after the data has been processed that the right insights can be revealed and the analysis created in the light of these insights will carry your business to the peak of its potential. Because data is the most valuable thing of our age, reveal the value of data.\n\nData Acquisition\nIf there is not enough data to analyze, we could create the data pipeline if it is accessible or guide you to create an appropriate data acquisition system.\nData Preprocessing\nData sources are not reliable. Therefore, we cleaned the data of inaccurate, aberrant and noisy ones to create more accurate models.\nModel Design\nWe designed a mathematical or machine learning model that describes your system as well as possible.\nData Analysis\nBy using the model trained by your data, we could reveal the insights of your current or upcoming data stream.\nReport/Result\nWe could demonstrate the insights revealed by our model in a user-friendly dashboard.\nThere are mainly 3 techniques in data science;\n\nClassification\nModels are trained in such a way as to label data according to users' preferences. The most explanatory and cliché example of this method is spam or ham mail labeling. From the dataset, the model learns the difference between ham and spam mails and could easily label upcoming mails accordingly.\nRegression\nBasically, regression is finding the best-fitting function for the dataset. By using this function, correlation in the dataset or prediction of the future could be achieved.\nClustering\nIn scenarios where the number of classes is not predefined as in classification problems, models could be trained in such a way as to divide the dataset. These classes would help us understand the relationship and distribution in the dataset.\nData Science techniques are mainly used in;\n\nDecision Making and Prediction\nProcess Optimization\nPattern Recognition\nData Analytics\nRecommendation Systems\nComputer Vision\nTechnologies we use:\n\n",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "general": {
       "ReadMore": "Read More"
@@ -92,7 +125,9 @@
         "Comprehensive progress tracking",
         "Advanced analytics and reporting",
         "Scalable architecture"
-      ]
+      ],
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "StudyScoreAI": {
       "name": "Study Score AI",
@@ -105,7 +140,9 @@
         "Real-time progress tracking",
         "Automated grading system",
         "Comprehensive reporting dashboard"
-      ]
+      ],
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "Egitimiste": {
       "name": "egitimiste.com",
@@ -118,7 +155,9 @@
         "Institution profiles",
         "Student resources and guides",
         "Multi-language support"
-      ]
+      ],
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "GenixoWorkAI": {
       "name": "Genixo Work AI",
@@ -131,7 +170,9 @@
         "Team communication tools",
         "Workflow optimization",
         "Advanced analytics and insights"
-      ]
+      ],
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "GenixoAssistant": {
       "name": "Genixo Assistant",
@@ -144,7 +185,9 @@
         "Customizable responses",
         "Integration capabilities",
         "Continuous learning and improvement"
-      ]
+      ],
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "TOMEREYadis": {
       "name": "TÖMER E-Yadis",
@@ -157,7 +200,9 @@
         "Progress tracking and analytics",
         "Multi-level course structure",
         "Flexible learning options"
-      ]
+      ],
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     },
     "RetiredTravelApp": {
       "name": "Retired Travel App",
@@ -170,7 +215,9 @@
         "Travel alerts and updates",
         "Emergency assistance features",
         "Social features for traveler connections"
-      ]
+      ],
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg"
     }
   },
   "counter": {
@@ -192,6 +239,30 @@
         "label": "Clients Support Done"
       }
     ]
+  },
+  "ngsd": {
+    "title": "Genixo NGSD",
+    "subtitle": "Genixo Next Generation Software Department - End-to-end best software solution!",
+    "forWho": {
+      "title": "For whom?",
+      "content": "If you don't have a software team, this could be the best solution for you!"
+    },
+    "whatIs": {
+      "title": "What is NGSD?",
+      "content": "Our most comprehensive 360 Degree, Dynamic, International and Remote solution that takes us and you one step further in the market. Establishing a team to meet your software needs can always be seen as the clearest solution, but as it is known, establishing a software team/department can be a very costly business. This is where Genixo NGSD comes in and saves you the trouble of setting up a team/department. The Genixo project manager assigned to your brand becomes your software manager, and Genixo becomes your software department!"
+    },
+    "remote": {
+      "title": "Remote",
+      "content": "Remote but close! How? With a privileged customer experience. As Genixo, we aim for distances to be meaningless. We ensure you can continuously track processes with a transparent operational understanding, and we strive to keep our communication at the highest level by holding planned meetings and providing instant customer support. With a remote software department, we increase your efficiency, and you reduce your costs."
+    },
+    "dynamic": {
+      "title": "Dynamic",
+      "content": "Our job is to adapt quickly to the dynamics of your business! Together with NGSD, we are able to continuously analyze your requirements and scale up or down the team according to the status of your projects, so we are always optimally positioned for your needs."
+    },
+    "global": {
+      "title": "Global",
+      "content": "Let the world get smaller and, you get bigger! As the world gets smaller, nobody wants to be limited locally. We also carry this motivation, we build our projects on a vision and infrastructure that can operate globally. With our transnational vision and Genixo NGSD model, it is possible for us to implement and develop all your software requirements in a structure where you can operate globally. We invite all passionate brands who agree with us to walk this path together."
+    }
   },
   "chooseUs": {
     "subtitle": "REASON TO CHOOSE US",

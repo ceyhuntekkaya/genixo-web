@@ -1,6 +1,24 @@
 {
   "contact": {
-    "pageContent": "Contact page content will be added here."
+    "pageContent": "Contact page content will be added here.",
+    "phone": {
+      "title": "Give us a call"
+    },
+    "email": {
+      "title": "Drop us a line"
+    },
+    "address": {
+      "title": "Visit our office"
+    },
+    "form": {
+      "subtitle": "Request a quote",
+      "title": "How May We Help You!",
+      "namePlaceholder": "Name *",
+      "emailPlaceholder": "Email *",
+      "subjectPlaceholder": "Subject *",
+      "messagePlaceholder": "Write A Message",
+      "submitButton": "Send Message"
+    }
   },
   "team": {
     "ourExpertTeam": "Our expert team",
@@ -19,11 +37,5 @@
   "solutionAI": {
     "weDeliverExcellence": "We Deliver Excellence",
     "solutionsToCommonAIProblems": "Solutions To Common AI Problems"
-  },
-  "counterAI": {
-    "completedProjects": "Completed Projects",
-    "roboticAutomation": "Robotic Automation",
-    "webSiteAnalyse": "Web Site Analyse",
-    "clientsSupportDone": "Clients Support Done"
   }
 }

@@ -1,6 +1,24 @@
 {
   "contact": {
-    "pageContent": "Содержимое страницы контактов будет добавлено здесь."
+    "pageContent": "Содержимое страницы контактов будет добавлено здесь.",
+    "phone": {
+      "title": "Позвоните нам"
+    },
+    "email": {
+      "title": "Напишите нам"
+    },
+    "address": {
+      "title": "Посетите наш офис"
+    },
+    "form": {
+      "subtitle": "Запросить предложение",
+      "title": "Чем мы можем вам помочь!",
+      "namePlaceholder": "Имя *",
+      "emailPlaceholder": "Электронная почта *",
+      "subjectPlaceholder": "Тема *",
+      "messagePlaceholder": "Напишите сообщение",
+      "submitButton": "Отправить сообщение"
+    }
   },
   "team": {
     "ourExpertTeam": "Наша команда экспертов",
@@ -19,11 +37,5 @@
   "solutionAI": {
     "weDeliverExcellence": "Мы обеспечиваем превосходство",
     "solutionsToCommonAIProblems": "Решения общих проблем ИИ"
-  },
-  "counterAI": {
-    "completedProjects": "Завершенные проекты",
-    "roboticAutomation": "Роботизированная автоматизация",
-    "webSiteAnalyse": "Анализ веб-сайта",
-    "clientsSupportDone": "Поддержка клиентов"
   }
 }

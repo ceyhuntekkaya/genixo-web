@@ -4,6 +4,7 @@
 import {Dictionary} from "@/i18n/types";
 import {Locale} from "@/i18n/config";
 import Image from "next/image";
+import {companyInfo} from "@/utils/company";
 
 interface PageProps {
     locale: Locale;
@@ -41,7 +42,7 @@ export default function AboutSection({ dict, locale }: PageProps) {
                                         </div>
                                         <div className="about-info">
                                             <p>{dict.about.callToAsk}</p>
-                                            <h3 className="number">{dict.about.phoneNumber}</h3>
+                                            <h3 className="number"><a href={`tel:${companyInfo.phone}`}>{companyInfo.phone}</a></h3>
                                         </div>
                                     </div>
                                 </div>

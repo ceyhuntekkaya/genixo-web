@@ -1,6 +1,24 @@
 {
   "contact": {
-    "pageContent": "Kontaktseiteninhalt wird hier hinzugefügt."
+    "pageContent": "Kontaktseiteninhalt wird hier hinzugefügt.",
+    "phone": {
+      "title": "Rufen Sie uns an"
+    },
+    "email": {
+      "title": "Schreiben Sie uns"
+    },
+    "address": {
+      "title": "Besuchen Sie unser Büro"
+    },
+    "form": {
+      "subtitle": "Angebot anfordern",
+      "title": "Wie können wir Ihnen helfen!",
+      "namePlaceholder": "Name *",
+      "emailPlaceholder": "E-Mail *",
+      "subjectPlaceholder": "Betreff *",
+      "messagePlaceholder": "Schreiben Sie eine Nachricht",
+      "submitButton": "Nachricht senden"
+    }
   },
   "team": {
     "ourExpertTeam": "Unser Expertenteam",
@@ -19,11 +37,5 @@
   "solutionAI": {
     "weDeliverExcellence": "Wir liefern Exzellenz",
     "solutionsToCommonAIProblems": "Lösungen für häufige KI-Probleme"
-  },
-  "counterAI": {
-    "completedProjects": "Abgeschlossene Projekte",
-    "roboticAutomation": "Robotik-Automatisierung",
-    "webSiteAnalyse": "Website-Analyse",
-    "clientsSupportDone": "Kundenunterstützung"
   }
 }

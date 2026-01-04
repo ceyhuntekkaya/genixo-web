@@ -1,6 +1,24 @@
 {
   "contact": {
-    "pageContent": "Le contenu de la page de contact sera ajouté ici."
+    "pageContent": "Le contenu de la page de contact sera ajouté ici.",
+    "phone": {
+      "title": "Appelez-nous"
+    },
+    "email": {
+      "title": "Écrivez-nous"
+    },
+    "address": {
+      "title": "Visitez notre bureau"
+    },
+    "form": {
+      "subtitle": "Demander un devis",
+      "title": "Comment pouvons-nous vous aider !",
+      "namePlaceholder": "Nom *",
+      "emailPlaceholder": "E-mail *",
+      "subjectPlaceholder": "Sujet *",
+      "messagePlaceholder": "Écrivez un message",
+      "submitButton": "Envoyer le message"
+    }
   },
   "team": {
     "ourExpertTeam": "Notre équipe d'experts",
@@ -19,11 +37,5 @@
   "solutionAI": {
     "weDeliverExcellence": "Nous offrons l'excellence",
     "solutionsToCommonAIProblems": "Solutions aux problèmes courants de l'IA"
-  },
-  "counterAI": {
-    "completedProjects": "Projets Terminés",
-    "roboticAutomation": "Automatisation Robotique",
-    "webSiteAnalyse": "Analyse de Site Web",
-    "clientsSupportDone": "Support Client"
   }
 }

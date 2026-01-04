@@ -5,6 +5,7 @@ import ChooseUsSection from "@/app/component/choose-us-section";
 import type { Dictionary } from "@/i18n/types";
 import { solutionSlugToKey } from "@/utils/slugMapping";
 import { Locale } from "@/i18n/config";
+import { getServiceDescription } from "@/utils/serviceDescription";
 
 interface SolutionDetailProps {
     solutionKey: keyof Dictionary['services'];
@@ -12,7 +13,25 @@ interface SolutionDetailProps {
     locale: Locale;
 }
 
-export default function SolutionDetail({ solutionKey, dict, locale }: SolutionDetailProps) {
+async function ServiceDescription({ description }: { description: string }) {
+    // Check if description is a file path (starts with @/)
+    const htmlContent = description.startsWith('@/')
+        ? await getServiceDescription(description)
+        : description;
+    
+    if (!htmlContent) {
+        return null;
+    }
+    
+    return (
+        <div 
+            className="content"
+            dangerouslySetInnerHTML={{ __html: htmlContent }}
+        />
+    );
+}
+
+export default async function SolutionDetail({ solutionKey, dict, locale }: SolutionDetailProps) {
     const solution = dict.services[solutionKey];
     
     if (!solution) {
@@ -88,14 +107,11 @@ export default function SolutionDetail({ solutionKey, dict, locale }: SolutionDe
                                     )}
                                 </div>
                             </div>
-                            {(solution.longDescription || solution.description) && (
+                            {(solution.description) && (
                                 <div className="row mt-4">
                                     <div className="col-lg-12">
-                                        <div 
-                                            className="content"
-                                            dangerouslySetInnerHTML={{ 
-                                                __html: solution.longDescription || solution.description 
-                                            }}
+                                        <ServiceDescription 
+                                            description={solution.description}
                                         />
                                     </div>
                                 </div>

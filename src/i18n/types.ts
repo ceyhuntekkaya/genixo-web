@@ -329,14 +329,26 @@ export type Dictionary = {
         "weDeliverExcellence": string;
         "solutionsToCommonAIProblems": string;
     };
-    "counterAI"?: {
-        "completedProjects": string;
-        "roboticAutomation": string;
-        "webSiteAnalyse": string;
-        "clientsSupportDone": string;
-    };
     "contact"?: {
         "pageContent": string;
+        "phone": {
+            "title": string;
+        };
+        "email": {
+            "title": string;
+        };
+        "address": {
+            "title": string;
+        };
+        "form": {
+            "subtitle": string;
+            "title": string;
+            "namePlaceholder": string;
+            "emailPlaceholder": string;
+            "subjectPlaceholder": string;
+            "messagePlaceholder": string;
+            "submitButton": string;
+        };
     };
     "team"?: {
         "ourExpertTeam": string;

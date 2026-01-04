@@ -1,6 +1,24 @@
 {
   "contact": {
-    "pageContent": "İletişim sayfası içeriği buraya eklenecek."
+    "pageContent": "İletişim sayfası içeriği buraya eklenecek.",
+    "phone": {
+      "title": "Bizi Arayın"
+    },
+    "email": {
+      "title": "Bize Yazın"
+    },
+    "address": {
+      "title": "Ofisimizi Ziyaret Edin"
+    },
+    "form": {
+      "subtitle": "Teklif İste",
+      "title": "Size Nasıl Yardımcı Olabiliriz!",
+      "namePlaceholder": "Ad Soyad *",
+      "emailPlaceholder": "E-posta *",
+      "subjectPlaceholder": "Konu *",
+      "messagePlaceholder": "Mesajınızı Yazın",
+      "submitButton": "Mesaj Gönder"
+    }
   },
   "team": {
     "ourExpertTeam": "Uzman Ekibimiz",
@@ -19,12 +37,6 @@
   "solutionAI": {
     "weDeliverExcellence": "Mükemmelliği Sunuyoruz",
     "solutionsToCommonAIProblems": "Yaygın AI Problemlerine Çözümler"
-  },
-  "counterAI": {
-    "completedProjects": "Tamamlanan Proje",
-    "roboticAutomation": "Robotik Otomasyon",
-    "webSiteAnalyse": "Web Sitesi Analizi",
-    "clientsSupportDone": "Müşteri Desteği"
   }
 }
 

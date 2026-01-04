@@ -6,6 +6,7 @@ import Link from "next/link";
 import MenuSection from "@/app/component/menu";
 import { Locale } from "@/i18n/config";
 import { getDictionary } from '@/i18n/getDictionary';
+import {companyInfo} from "@/utils/company";
 
 export default async function LocaleLayout({
                                                children,
@@ -136,8 +137,8 @@ export default async function LocaleLayout({
                             </div>
                             <div className="col-xl-3 col-lg-4">
                                 <div className="cta-btn">
-                                    <a className="btn btn-white" href="#">
-                                        +90 532 207 67 30
+                                    <a className="btn btn-white" href={`tel:${companyInfo.phone}`}>
+                                        {companyInfo.phone}
                                     </a>
                                 </div>
                             </div>

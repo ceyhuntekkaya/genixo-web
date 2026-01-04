@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { Locale } from '@/i18n/config';
 import type { Dictionary } from '@/i18n/types';
+import { companyInfo } from './company';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://genixo.ai';
 const siteName = 'Genixo Bilişim ve Teknoloji';
@@ -173,7 +174,8 @@ export function generateStructuredData(config: {
                 ],
                 contactPoint: {
                     '@type': 'ContactPoint',
-                    telephone: '+44-920-090-505',
+                    telephone: companyInfo.phone,
+                    email: companyInfo.email,
                     contactType: 'customer service',
                     areaServed: 'TR',
                     availableLanguage: ['Turkish', 'English', 'German', 'French', 'Russian'],

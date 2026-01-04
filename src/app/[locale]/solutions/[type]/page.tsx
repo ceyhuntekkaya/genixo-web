@@ -51,9 +51,17 @@ export async function generateMetadata({
         });
     }
 
+    // For metadata, use summary if available, otherwise use first 160 chars of description
+    // If description is a file path, we'll just use summary or a default description
+    const metaDescription = ('summary' in solution && solution.summary) 
+        ? solution.summary 
+        : (solution.description.startsWith('@/') 
+            ? solution.summary || `${solution.name} hizmeti hakkında detaylı bilgi.`
+            : solution.description.substring(0, 160));
+    
     return generateSEOMetadata({
         title: solution.name,
-        description: ('summary' in solution && solution.summary) ? solution.summary : solution.description.substring(0, 160),
+        description: metaDescription,
         keywords: `${solution.name}, ${dict.seo?.common?.softwareSolutions || 'software solutions'}, ${dict.about.slogan}`,
         url: `/${locale}/solutions/${type}`,
         type: 'website',
@@ -94,9 +102,12 @@ export default async function SolutionDetailPage({
     }
 
     const solutionName = solution.name;
+    // For structured data, use summary if available, otherwise handle file path
     const solutionDescription = ('summary' in solution && solution.summary) 
         ? solution.summary 
-        : solution.description.substring(0, 200);
+        : (solution.description.startsWith('@/') 
+            ? solution.summary || `${solution.name} hizmeti hakkında detaylı bilgi.`
+            : solution.description.substring(0, 200));
     
     // Structured Data for Service
     const serviceStructuredData = generateStructuredData({

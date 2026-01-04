@@ -5,6 +5,7 @@ import footerLogo from "@/app/assets/Genixo_Logo_White.png";
 import { Locale } from "@/i18n/config";
 import {Dictionary} from "@/i18n/types";
 import {getProductSlug, getSolutionSlug} from "@/utils/slugMapping";
+import {companyInfo} from "@/utils/company";
 
 interface FooterSectionProps {
     locale: Locale;
@@ -111,7 +112,7 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
                                                 <i className="flaticon-phone-call"></i>
                                             </div>
                                             <div className="info-text">
-                                                <span><a href="#">+90 532 207 67 30</a></span>
+                                                <span><a href={`tel:${companyInfo.phone}`}>{companyInfo.phone}</a></span>
                                             </div>
                                         </li>
                                         <li>
@@ -119,7 +120,7 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
                                                 <i className="far fa-envelope-open"></i>
                                             </div>
                                             <div className="info-text">
-                                                <span><a href="#">hello@genixo.ai</a></span>
+                                                <span><a href={`mailto:${companyInfo.email}`}>{companyInfo.email}</a></span>
                                             </div>
                                         </li>
                                         <li>
@@ -127,7 +128,7 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
                                                 <i className="flaticon-pin"></i>
                                             </div>
                                             <div className="info-text">
-                                                <span>{footer.address}</span>
+                                                <span>{companyInfo.address}</span>
                                             </div>
                                         </li>
                                     </ul>

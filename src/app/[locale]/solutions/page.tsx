@@ -60,6 +60,11 @@ export default async function SolutionsPage({
                                         return null;
                                     }
 
+                                    // Only show active solutions (default is true if not set)
+                                    if (solution.active === false) {
+                                        return null;
+                                    }
+
                                     return (
                                         <div key={key} className="col-lg-4 col-md-6">
                                             <div className="choose-us-item">

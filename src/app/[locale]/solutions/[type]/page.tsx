@@ -38,6 +38,16 @@ export async function generateMetadata({
         });
     }
 
+    // Check if solution is active
+    if (solution.active === false) {
+        return generateSEOMetadata({
+            title: '404 - Sayfa Bulunamadı',
+            description: 'Aradığınız sayfa bulunamadı.',
+            locale,
+            noindex: true,
+        });
+    }
+
     return generateSEOMetadata({
         title: solution.name,
         description: ('summary' in solution && solution.summary) ? solution.summary : solution.description.substring(0, 160),
@@ -71,6 +81,11 @@ export default async function SolutionDetailPage({
     
     // Type guard to ensure solution has required properties
     if (!solution || !('name' in solution) || !('description' in solution)) {
+        notFound();
+    }
+
+    // Check if solution is active
+    if (solution.active === false) {
         notFound();
     }
 

@@ -35,6 +35,16 @@ export type Dictionary = {
         AboutUs: string;
         Blog: string;
         ContactUs: string;
+        active?: {
+            Solutions?: boolean;
+            Products?: boolean;
+            SuccessStories?: boolean;
+            GovernmentSupport?: boolean;
+            NGSD?: boolean;
+            AboutUs?: boolean;
+            Blog?: boolean;
+            ContactUs?: boolean;
+        };
         // Solutions submenu (services)
         WebApplication: string;
         SolutionArchitecture: string;
@@ -66,6 +76,8 @@ export type Dictionary = {
             "image1"?: string;
             "image2"?: string;
             "longDescription"?: string;
+            "active"?: boolean;
+            "showOnHomepage"?: boolean;
         },
         "ArchitectureAsAService": {
             "summary": string;
@@ -74,6 +86,8 @@ export type Dictionary = {
             "image1"?: string;
             "image2"?: string;
             "longDescription"?: string;
+            "active"?: boolean;
+            "showOnHomepage"?: boolean;
         },
         "CustomSoftwareDevelopment": {
             "summary": string;
@@ -82,6 +96,8 @@ export type Dictionary = {
             "image1"?: string;
             "image2"?: string;
             "longDescription"?: string;
+            "active"?: boolean;
+            "showOnHomepage"?: boolean;
         },
         "DevOpsServices": {
             "summary": string;
@@ -90,6 +106,8 @@ export type Dictionary = {
             "image1"?: string;
             "image2"?: string;
             "longDescription"?: string;
+            "active"?: boolean;
+            "showOnHomepage"?: boolean;
         },
         "CloudDevelopment": {
             "summary": string;
@@ -98,6 +116,8 @@ export type Dictionary = {
             "image1"?: string;
             "image2"?: string;
             "longDescription"?: string;
+            "active"?: boolean;
+            "showOnHomepage"?: boolean;
         },
         "MobileDevelopment": {
             "summary": string;
@@ -106,6 +126,8 @@ export type Dictionary = {
             "image1"?: string;
             "image2"?: string;
             "longDescription"?: string;
+            "active"?: boolean;
+            "showOnHomepage"?: boolean;
         },
         "ApplicationMaintenanceAndSupportServices": {
             "summary": string;
@@ -114,6 +136,8 @@ export type Dictionary = {
             "image1"?: string;
             "image2"?: string;
             "longDescription"?: string;
+            "active"?: boolean;
+            "showOnHomepage"?: boolean;
         },
         "DataScience": {
             "summary": string;
@@ -122,6 +146,8 @@ export type Dictionary = {
             "image1"?: string;
             "image2"?: string;
             "longDescription"?: string;
+            "active"?: boolean;
+            "showOnHomepage"?: boolean;
         },
         "general":{
             "ReadMore":string;
@@ -137,6 +163,8 @@ export type Dictionary = {
             "image1"?: string;
             "image2"?: string;
             "longDescription"?: string;
+            "active"?: boolean;
+            "showOnHomepage"?: boolean;
         };
         "StudyScoreAI": {
             "name": string;
@@ -146,6 +174,8 @@ export type Dictionary = {
             "image1"?: string;
             "image2"?: string;
             "longDescription"?: string;
+            "active"?: boolean;
+            "showOnHomepage"?: boolean;
         };
         "Egitimiste": {
             "name": string;
@@ -155,6 +185,8 @@ export type Dictionary = {
             "image1"?: string;
             "image2"?: string;
             "longDescription"?: string;
+            "active"?: boolean;
+            "showOnHomepage"?: boolean;
         };
         "GenixoWorkAI": {
             "name": string;
@@ -164,6 +196,8 @@ export type Dictionary = {
             "image1"?: string;
             "image2"?: string;
             "longDescription"?: string;
+            "active"?: boolean;
+            "showOnHomepage"?: boolean;
         };
         "GenixoAssistant": {
             "name": string;
@@ -173,6 +207,8 @@ export type Dictionary = {
             "image1"?: string;
             "image2"?: string;
             "longDescription"?: string;
+            "active"?: boolean;
+            "showOnHomepage"?: boolean;
         };
         "TOMEREYadis": {
             "name": string;
@@ -182,6 +218,8 @@ export type Dictionary = {
             "image1"?: string;
             "image2"?: string;
             "longDescription"?: string;
+            "active"?: boolean;
+            "showOnHomepage"?: boolean;
         };
         "RetiredTravelApp": {
             "name": string;
@@ -191,6 +229,8 @@ export type Dictionary = {
             "image1"?: string;
             "image2"?: string;
             "longDescription"?: string;
+            "active"?: boolean;
+            "showOnHomepage"?: boolean;
         };
     };
     "ngsd": {

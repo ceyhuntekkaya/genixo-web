@@ -60,6 +60,11 @@ export default async function ProductsPage({
                                         return null;
                                     }
 
+                                    // Only show active products (default is true if not set)
+                                    if (product.active === false) {
+                                        return null;
+                                    }
+
                                     return (
                                         <div key={key} className="col-lg-4 col-md-6">
                                             <div className="choose-us-item">

@@ -28,6 +28,16 @@ export async function generateMetadata({
     const productData = dict.products[productKey];
     const alternateLocales = locales.filter(l => l !== locale) as Locale[];
 
+    // Check if product is active
+    if (!productData || productData.active === false) {
+        return generateSEOMetadata({
+            title: '404 - Sayfa Bulunamadı',
+            description: 'Aradığınız sayfa bulunamadı.',
+            locale,
+            noindex: true,
+        });
+    }
+
     return generateSEOMetadata({
         title: productData.name,
         description: productData.summary || productData.description.substring(0, 160),
@@ -58,6 +68,11 @@ export default async function ProductDetailPage({
 
     const productData = dict.products[productKey];
     const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://genixo.com';
+    
+    // Check if product is active
+    if (!productData || productData.active === false) {
+        notFound();
+    }
     
     // Structured Data for Product
     const productStructuredData = generateStructuredData({

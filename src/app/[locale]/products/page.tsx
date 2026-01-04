@@ -6,6 +6,7 @@ import PageBanner from "@/app/component/page-banner";
 import pageBannerImage from "@/app/assets/images/bg/page-banner.jpg";
 import Link from "next/link";
 import {getProductSlug} from "@/utils/slugMapping";
+import Image from "next/image";
 
 export async function generateMetadata({
     params,
@@ -72,10 +73,15 @@ export default async function ProductsPage({
                                             <div className="choose-us-item">
                                                 <div className="choose-us-img">
                                                     <Link href={`/${locale}/products/${productSlug}`}>
-                                                        <img 
-                                                            src={product.image1 || "/assets/images/choose-us1.jpg"} 
-                                                            alt={product.name}
-                                                        />
+                                                        <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '300px' }}>
+                                                            <Image 
+                                                                src={product.image1 || "/assets/images/choose-us1.jpg"} 
+                                                                alt={product.name}
+                                                                fill
+                                                                style={{ objectFit: 'cover' }}
+                                                                unoptimized
+                                                            />
+                                                        </div>
                                                         <div className="choose-us-content">
                                                             <h3 className="title">{product.name}</h3>
                                                             <p>{product.summary}</p>

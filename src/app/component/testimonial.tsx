@@ -1,5 +1,7 @@
 'use client';
 
+import Image from "next/image";
+
 export default function TestimonialSection() {
     return (
         <>
@@ -17,10 +19,14 @@ export default function TestimonialSection() {
                                     <div className="swiper-slide">
                                         <div className="single-testimonial-02">
                                             <div className="testimonial-thumb">
-                                                <img src="/assets/images/testi-3.jpg" alt=""/>
+                                                <div style={{ position: 'relative', width: '100px', height: '100px', borderRadius: '50%', overflow: 'hidden' }}>
+                                                    <Image src="/assets/images/testi-3.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                                </div>
                                             </div>
                                             <div className="testimonial-content">
-                                                <img src="/assets/images/testi-icon.png" alt=""/>
+                                                <div style={{ position: 'relative', width: '60px', height: '60px' }}>
+                                                    <Image src="/assets/images/testi-icon.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                                </div>
                                                 <p>Accelerate innovation with world-className tech teams Beyond more
                                                     stoic this
                                                     along goodness hey this this wow manatee </p>
@@ -32,10 +38,14 @@ export default function TestimonialSection() {
                                     <div className="swiper-slide">
                                         <div className="single-testimonial-02">
                                             <div className="testimonial-thumb">
-                                                <img src="/assets/images/testi-4.jpg" alt=""/>
+                                                <div style={{ position: 'relative', width: '100px', height: '100px', borderRadius: '50%', overflow: 'hidden' }}>
+                                                    <Image src="/assets/images/testi-4.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                                </div>
                                             </div>
                                             <div className="testimonial-content">
-                                                <img src="/assets/images/testi-icon.png" alt=""/>
+                                                <div style={{ position: 'relative', width: '60px', height: '60px' }}>
+                                                    <Image src="/assets/images/testi-icon.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                                </div>
                                                 <p>Accelerate innovation with world-className tech teams Beyond more
                                                     stoic this
                                                     along goodness hey this this wow manatee </p>
@@ -47,10 +57,14 @@ export default function TestimonialSection() {
                                     <div className="swiper-slide">
                                         <div className="single-testimonial-02">
                                             <div className="testimonial-thumb">
-                                                <img src="/assets/images/testi-3.jpg" alt=""/>
+                                                <div style={{ position: 'relative', width: '100px', height: '100px', borderRadius: '50%', overflow: 'hidden' }}>
+                                                    <Image src="/assets/images/testi-3.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                                </div>
                                             </div>
                                             <div className="testimonial-content">
-                                                <img src="/assets/images/testi-icon.png" alt=""/>
+                                                <div style={{ position: 'relative', width: '60px', height: '60px' }}>
+                                                    <Image src="/assets/images/testi-icon.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                                </div>
                                                 <p>Accelerate innovation with world-className tech teams Beyond more
                                                     stoic this
                                                     along goodness hey this this wow manatee </p>

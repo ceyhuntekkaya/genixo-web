@@ -3,6 +3,7 @@
 import {Dictionary} from "@/i18n/types";
 import {Locale} from "@/i18n/config";
 import Link from "next/link";
+import Image from "next/image";
 
 interface PageProps {
     dict: Dictionary;
@@ -59,7 +60,15 @@ export default function BlogSection({ dict, locale }: PageProps) {
                                 <div className="single-blog">
                                     <div className="blog-image">
                                         <Link href={`/${locale}/blog/${slug}`}>
-                                            <img src={blog.image} alt={blog.title} />
+                                            <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '250px' }}>
+                                                <Image 
+                                                    src={blog.image} 
+                                                    alt={blog.title}
+                                                    fill
+                                                    style={{ objectFit: 'cover' }}
+                                                    unoptimized
+                                                />
+                                            </div>
                                             <div className="top-meta">
                                                 <span className="date">
                                                     <span>{new Date(blog.date).getDate()}</span>

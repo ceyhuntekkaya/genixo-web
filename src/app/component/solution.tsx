@@ -1,5 +1,6 @@
 'use client';
 
+import Image from "next/image";
 
 export default function SolutionSection() {
     return (
@@ -21,7 +22,11 @@ export default function SolutionSection() {
                             <div className="swiper-slide">
                                 <div className="single-case-study-02">
                                     <div className="case-study-img">
-                                        <a href="#"><img src="/assets/images/case-4.jpg" alt=""/></a>
+                                        <a href="#">
+                                            <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '300px' }}>
+                                                <Image src="/assets/images/case-4.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                            </div>
+                                        </a>
                                     </div>
                                     <div className="case-study-content">
                                         <p className="sub-title">Database Security</p>
@@ -37,7 +42,11 @@ export default function SolutionSection() {
                             <div className="swiper-slide">
                                 <div className="single-case-study-02">
                                     <div className="case-study-img">
-                                        <a href="#"><img src="/assets/images/case-5.jpg" alt=""/></a>
+                                        <a href="#">
+                                            <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '300px' }}>
+                                                <Image src="/assets/images/case-5.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                            </div>
+                                        </a>
                                     </div>
                                     <div className="case-study-content">
                                         <p className="sub-title">Database Security</p>
@@ -53,7 +62,11 @@ export default function SolutionSection() {
                             <div className="swiper-slide">
                                 <div className="single-case-study-02">
                                     <div className="case-study-img">
-                                        <a href="#"><img src="/assets/images/case-6.jpg" alt=""/></a>
+                                        <a href="#">
+                                            <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '300px' }}>
+                                                <Image src="/assets/images/case-6.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                            </div>
+                                        </a>
                                     </div>
                                     <div className="case-study-content">
                                         <p className="sub-title">Database Security</p>

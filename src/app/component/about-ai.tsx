@@ -2,6 +2,7 @@
 
 import {Dictionary} from "@/i18n/types";
 import {Locale} from "@/i18n/config";
+import Image from "next/image";
 
 interface PageProps {
     dict: Dictionary;
@@ -9,10 +10,6 @@ interface PageProps {
 }
 export default function AboutAISection({ dict, locale }: PageProps) {
     // Get first two values for the list items
-    const values = dict.about.values;
-    const valueKeys = Object.keys(values);
-    const firstValue = values[valueKeys[0] as keyof typeof values];
-    const secondValue = values[valueKeys[1] as keyof typeof values];
 
     return (
         <div className="section techwix-about-section-05 section-padding">
@@ -27,10 +24,14 @@ export default function AboutAISection({ dict, locale }: PageProps) {
                             <div className="col-lg-6">
                                 <div className="about-img-wrap">
                                     <div className="about-img about-img-big">
-                                        <img src="/assets/images/about-big3.jpg" alt=""/>
+                                        <div style={{ position: 'relative', width: '100%', height: '400px' }}>
+                                            <Image src="/assets/images/about-big3.jpg" alt="" fill style={{ objectFit: 'cover', borderRadius: '10px' }} unoptimized />
+                                        </div>
                                     </div>
                                     <div className="about-img about-img-sm">
-                                        <img src="/assets/images/about-sm3.jpg" alt=""/>
+                                        <div style={{ position: 'relative', width: '250px', height: '250px' }}>
+                                            <Image src="/assets/images/about-sm3.jpg" alt="" fill style={{ objectFit: 'cover', borderRadius: '10px' }} unoptimized />
+                                        </div>
                                         <div className="shape-01"></div>
                                     </div>
                                 </div>

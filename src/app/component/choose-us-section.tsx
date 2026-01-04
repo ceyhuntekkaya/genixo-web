@@ -1,6 +1,7 @@
 import chooseUsLogo from "@/app/assets/images/bg/choose-us-bg3.jpg";
 import { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/getDictionary";
+import Image from "next/image";
 
 export default async function ChooseUsSection({ locale }: { locale: Locale }) {
     const dict = await getDictionary(locale);
@@ -22,7 +23,9 @@ export default async function ChooseUsSection({ locale }: { locale: Locale }) {
                                 <div key={index} className="col-xl-3 col-lg-4 col-md-6">
                                     <div className="choose-us-item-02">
                                         <div className="choose-us-img">
-                                            <img src={item.image} alt={item.title.replace(/<[^>]*>/g, '')} />
+                                            <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '200px' }}>
+                                                <Image src={item.image} alt={item.title.replace(/<[^>]*>/g, '')} fill style={{ objectFit: 'cover' }} unoptimized />
+                                            </div>
                                         </div>
                                         <div className="choose-us-content">
                                             <h3 className="title">

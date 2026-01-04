@@ -46,66 +46,82 @@ export default async function NGSDPage({
                 ]}
             />
 
+
+
             <div className="section techwix-about-section-07 section-padding">
                 <div className="shape-1"></div>
                 <div className="container">
                     <div className="about-wrap">
                         <div className="row">
-                            <div className="col-lg-12">
-                                <div className="section-title text-center mb-5">
-                                    <h2 className="title">{dict.ngsd.title}</h2>
+                            <div className="col-lg-6">
+                                <div className="about-img-wrap">
+                                    <img className="shape-1" src="/assets/images/shape/about-shape2.png" alt="" />
+                                    <div className="about-img">
+                                        <img src="/assets/images/about-3.jpg" alt="" />
+                                    </div>
+                                    <div className="about-img about-img-2">
+                                        <img src="/assets/images/about-4.jpg" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-6">
+                                <div className="about-content-wrap">
+                                    <div className="section-title">
+                                        <h3 className="sub-title">{dict.ngsd.forWho.content}</h3>
+                                        <h2 className="title">{dict.ngsd.title}</h2>
+                                    </div>
+                                   
+                                    
+
+                                    <div className="col-lg-12">
+                                <div className="section-title mb-4">
                                     <h3 className="sub-title">{dict.ngsd.subtitle}</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="row mt-4">
-                            <div className="col-lg-12">
-                                <div className="section-title mb-4">
-                                    <h3 className="title">{dict.ngsd.forWho.title}</h3>
-                                    <p className="text">{dict.ngsd.forWho.content}</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="row mt-4">
-                            <div className="col-lg-12">
-                                <div className="section-title mb-4">
-                                    <h3 className="title">{dict.ngsd.whatIs.title}</h3>
                                     <p className="text">{dict.ngsd.whatIs.content}</p>
                                 </div>
                             </div>
-                        </div>
-
-                        <div className="row mt-4">
-                            <div className="col-lg-12">
-                                <div className="section-title mb-4">
-                                    <h3 className="title">{dict.ngsd.remote.title}</h3>
-                                    <p className="text">{dict.ngsd.remote.content}</p>
                                 </div>
                             </div>
-                        </div>
 
-                        <div className="row mt-4">
-                            <div className="col-lg-12">
-                                <div className="section-title mb-4">
-                                    <h3 className="title">{dict.ngsd.dynamic.title}</h3>
-                                    <p className="text">{dict.ngsd.dynamic.content}</p>
+                            <div className="row mt-4">
+                                <div className="col-lg-12">
+            
+
+                                    <div className="row mt-4">
+                                        <div className="col-lg-12">
+                                            <div className="section-title mb-4">
+                                                <h3 className="title">{dict.ngsd.remote.title}</h3>
+                                                <p className="text">{dict.ngsd.remote.content}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="row mt-4">
+                                        <div className="col-lg-12">
+                                            <div className="section-title mb-4">
+                                                <h3 className="title">{dict.ngsd.dynamic.title}</h3>
+                                                <p className="text">{dict.ngsd.dynamic.content}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="row mt-4">
+                                        <div className="col-lg-12">
+                                            <div className="section-title mb-4">
+                                                <h3 className="title">{dict.ngsd.global.title}</h3>
+                                                <p className="text">{dict.ngsd.global.content}</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div className="row mt-4">
-                            <div className="col-lg-12">
-                                <div className="section-title mb-4">
-                                    <h3 className="title">{dict.ngsd.global.title}</h3>
-                                    <p className="text">{dict.ngsd.global.content}</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+
+
         </>
     )
 }

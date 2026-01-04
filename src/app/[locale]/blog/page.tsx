@@ -4,6 +4,7 @@ import {generateMetadata as generateSEOMetadata} from "@/utils/seo";
 import {locales} from "@/i18n/config";
 import PageBanner from "@/app/component/page-banner";
 import pageBannerImage from "@/app/assets/images/bg/page-banner.jpg";
+import Image from "next/image";
 
 export async function generateMetadata({
     params,
@@ -81,7 +82,9 @@ export default async function BlogPage({
                                             <div className="single-blog">
                                                 <div className="blog-image">
                                                     <a href={`/${locale}/blog/${slug}`}>
-                                                        <img src={blog.image} alt={blog.title} />
+                                                        <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '250px' }}>
+                                                            <Image src={blog.image} alt={blog.title} fill style={{ objectFit: 'cover' }} unoptimized />
+                                                        </div>
                                                         <div className="top-meta">
                                                             <span className="date">
                                                                 <span>{new Date(blog.date).getDate()}</span>

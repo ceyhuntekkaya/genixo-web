@@ -2,6 +2,7 @@
 import {Dictionary} from "@/i18n/types";
 import Link from "next/link";
 import {Locale} from "@/i18n/config";
+import Image from "next/image";
 
 interface PageProps {
     locale: Locale;
@@ -18,7 +19,9 @@ export default function ServiceSection({ dict, locale }: PageProps) {
                             <div className="col-xl-3 col-md-6">
                                 <div className="service-item-03">
                                     <div className="service-img">
-                                        <img src="/assets/images/ser-icon9.png" alt=""  />
+                                        <div style={{ position: 'relative', width: '80px', height: '80px' }}>
+                                            <Image src="/assets/images/ser-icon9.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                        </div>
                                     </div>
                                     <div className="service-content">
                                         <h3 className="title"><Link href={`/${locale}/solutions/web`}>{dict.services.WebApplication.name}</Link></h3>
@@ -32,7 +35,9 @@ export default function ServiceSection({ dict, locale }: PageProps) {
                             <div className="col-xl-3 col-md-6">
                                 <div className="service-item-03">
                                     <div className="service-img">
-                                        <img src="/assets/images/ser-icon10.png" alt="" />
+                                        <div style={{ position: 'relative', width: '80px', height: '80px' }}>
+                                            <Image src="/assets/images/ser-icon10.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                        </div>
                                     </div>
                                     <div className="service-content">
                                         <h3 className="title"><Link href={`/${locale}/solutions/custom`}>{dict.services.CustomSoftwareDevelopment.name}</Link></h3>
@@ -46,7 +51,9 @@ export default function ServiceSection({ dict, locale }: PageProps) {
                             <div className="col-xl-3 col-md-6">
                                 <div className="service-item-03">
                                     <div className="service-img">
-                                        <img src="/assets/images/ser-icon11.png" alt="" />
+                                        <div style={{ position: 'relative', width: '80px', height: '80px' }}>
+                                            <Image src="/assets/images/ser-icon11.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                        </div>
                                     </div>
                                     <div className="service-content">
                                         <h3 className="title"><Link href={`/${locale}/solutions/data`}>{dict.services.DataScience.name}</Link></h3>
@@ -60,7 +67,9 @@ export default function ServiceSection({ dict, locale }: PageProps) {
                             <div className="col-xl-3 col-md-6">
                                 <div className="service-item-03">
                                     <div className="service-img">
-                                        <img src="/assets/images/ser-icon12.png" alt="" />
+                                        <div style={{ position: 'relative', width: '80px', height: '80px' }}>
+                                            <Image src="/assets/images/ser-icon12.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                        </div>
                                     </div>
                                     <div className="service-content">
                                         <h3 className="title"><Link href={`/${locale}/solutions/mobile`}>{dict.services.MobileDevelopment.name}</Link></h3>

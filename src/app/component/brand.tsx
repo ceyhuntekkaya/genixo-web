@@ -1,5 +1,7 @@
 'use client';
 
+import Image from "next/image";
+
 export default function BrandSection() {
     return (
         <>
@@ -12,22 +14,34 @@ export default function BrandSection() {
                             <div className="swiper-container">
                                 <div className="swiper-wrapper">
                                     <div className="swiper-slide single-brand">
-                                        <img src="/assets/images/brand/brand-1.png" alt="Brand"/>
+                                        <div style={{ position: 'relative', width: '150px', height: '80px' }}>
+                                            <Image src="/assets/images/brand/brand-1.png" alt="Brand" fill style={{ objectFit: 'contain' }} unoptimized />
+                                        </div>
                                     </div>
                                     <div className="swiper-slide single-brand">
-                                        <img src="/assets/images/brand/brand-2.png" alt="Brand"/>
+                                        <div style={{ position: 'relative', width: '150px', height: '80px' }}>
+                                            <Image src="/assets/images/brand/brand-2.png" alt="Brand" fill style={{ objectFit: 'contain' }} unoptimized />
+                                        </div>
                                     </div>
                                     <div className="swiper-slide single-brand">
-                                        <img src="/assets/images/brand/brand-3.png" alt="Brand"/>
+                                        <div style={{ position: 'relative', width: '150px', height: '80px' }}>
+                                            <Image src="/assets/images/brand/brand-3.png" alt="Brand" fill style={{ objectFit: 'contain' }} unoptimized />
+                                        </div>
                                     </div>
                                     <div className="swiper-slide single-brand">
-                                        <img src="/assets/images/brand/brand-4.png" alt="Brand"/>
+                                        <div style={{ position: 'relative', width: '150px', height: '80px' }}>
+                                            <Image src="/assets/images/brand/brand-4.png" alt="Brand" fill style={{ objectFit: 'contain' }} unoptimized />
+                                        </div>
                                     </div>
                                     <div className="swiper-slide single-brand">
-                                        <img src="/assets/images/brand/brand-5.png" alt="Brand"/>
+                                        <div style={{ position: 'relative', width: '150px', height: '80px' }}>
+                                            <Image src="/assets/images/brand/brand-5.png" alt="Brand" fill style={{ objectFit: 'contain' }} unoptimized />
+                                        </div>
                                     </div>
                                     <div className="swiper-slide single-brand">
-                                        <img src="/assets/images/brand/brand-2.png" alt="Brand"/>
+                                        <div style={{ position: 'relative', width: '150px', height: '80px' }}>
+                                            <Image src="/assets/images/brand/brand-2.png" alt="Brand" fill style={{ objectFit: 'contain' }} unoptimized />
+                                        </div>
                                     </div>
                                 </div>
                             </div>

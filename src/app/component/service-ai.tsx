@@ -3,6 +3,7 @@
 import {Dictionary} from "@/i18n/types";
 import {Locale} from "@/i18n/config";
 import Link from "next/link";
+import Image from "next/image";
 
 interface PageProps {
     dict: Dictionary;
@@ -35,7 +36,9 @@ export default function ServiceAISection({ dict, locale }: PageProps) {
                                 <div key={index} className="col-xl-4 col-sm-6">
                                     <div className="service-item-04">
                                         <div className="service-img">
-                                            <img src={feature.icon} alt={feature.title}/>
+                                            <div style={{ position: 'relative', width: '80px', height: '80px' }}>
+                                                <Image src={feature.icon} alt={feature.title} fill style={{ objectFit: 'contain' }} unoptimized />
+                                            </div>
                                         </div>
                                         <div className="service-content">
                                             <h3 className="title">

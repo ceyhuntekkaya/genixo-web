@@ -4,6 +4,7 @@ import {Dictionary} from "@/i18n/types";
 import {Locale} from "@/i18n/config";
 import {getProductSlug} from "@/utils/slugMapping";
 import Link from "next/link";
+import Image from "next/image";
 
 interface PageProps {
     dict: Dictionary;
@@ -52,7 +53,11 @@ export default function SolutionAISection({ dict, locale }: PageProps) {
                                 <div className="col-lg-7">
                                     <div className="solution-item solution-item-big">
                                         <div className="solution-img">
-                                            <a href="#"><img src={firstProduct.product.image1 || "/assets/images/solution-1.jpg"} alt={firstProduct.product.name}/></a>
+                                            <a href="#">
+                                                <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '400px' }}>
+                                                    <Image src={firstProduct.product.image1 || "/assets/images/solution-1.jpg"} alt={firstProduct.product.name} fill style={{ objectFit: 'cover' }} unoptimized />
+                                                </div>
+                                            </a>
                                         </div>
                                         <div className="solution-content">
                                             <div className="solution-title">
@@ -76,11 +81,13 @@ export default function SolutionAISection({ dict, locale }: PageProps) {
                                         <div key={item.key} style={{ flex: '1', minHeight: 0 }}>
                                             <div className="solution-item solution-item-sm" style={{ height: '100%' }}>
                                                 <div className="solution-img" style={{ height: '100%' }}>
-                                                    <a href="#" style={{ display: 'block', height: '100%' }}>
-                                                        <img 
+                                                    <a href="#" style={{ display: 'block', height: '100%', position: 'relative' }}>
+                                                        <Image 
                                                             src={item.product.image1 || (index === 0 ? "/assets/images/solution-img2.jpg" : "/assets/images/solution-img3.jpg")} 
                                                             alt={item.product.name}
-                                                            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                                            fill
+                                                            style={{ objectFit: 'cover' }}
+                                                            unoptimized
                                                         />
                                                     </a>
                                                 </div>

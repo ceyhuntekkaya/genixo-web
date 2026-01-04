@@ -5,6 +5,7 @@ import ChooseUsSection from "@/app/component/choose-us-section";
 import type { Dictionary } from "@/i18n/types";
 import { productSlugToKey } from "@/utils/slugMapping";
 import { Locale } from "@/i18n/config";
+import Image from "next/image";
 
 interface ProductDetailProps {
     productKey: keyof Dictionary['products'];
@@ -49,7 +50,7 @@ export default function ProductDetail({ productKey, dict, locale }: ProductDetai
                     <div className="about-wrap">
                         <div className="row">
                             <div className="col-lg-6">
-                                <div className="about-img-wrap">
+                            <div className="about-img-wrap">
                                     <img className="shape-1" src="/assets/images/shape/about-shape2.png" alt="" />
                                     <div className="about-img">
                                         <img 

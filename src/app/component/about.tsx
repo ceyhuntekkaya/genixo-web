@@ -3,6 +3,7 @@
 
 import {Dictionary} from "@/i18n/types";
 import {Locale} from "@/i18n/config";
+import Image from "next/image";
 
 interface PageProps {
     locale: Locale;
@@ -27,7 +28,9 @@ export default function AboutSection({ dict, locale }: PageProps) {
                                     <p className="text">{dict.about.short}</p>
                                     <div className="about-author-info-wrap">
                                         <div className="about-author">
-                                            <img src="/assets/images/sign.png" alt=""/>
+                                            <div style={{ position: 'relative', width: '150px', height: '80px' }}>
+                                                <Image src="/assets/images/sign.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                            </div>
                                             <h3 className="name">{dict.about.authorName}</h3>
                                             <span className="designation">{dict.about.authorTitle}</span>
                                         </div>
@@ -46,10 +49,14 @@ export default function AboutSection({ dict, locale }: PageProps) {
                                             className="fas fa-play"></i></a>
                                     </div>
                                     <div className="about-img about-img-big">
-                                        <img src="/assets/images/about-big2.jpg" alt=""/>
+                                        <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '400px' }}>
+                                            <Image src="/assets/images/about-big2.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                        </div>
                                     </div>
                                     <div className="about-img about-img-sm">
-                                        <img src="/assets/images/about-sm2.jpg" alt=""/>
+                                        <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '250px' }}>
+                                            <Image src="/assets/images/about-sm2.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                        </div>
                                     </div>
                                 </div>
                             </div>

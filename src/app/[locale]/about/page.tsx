@@ -7,6 +7,7 @@ import { getDictionary } from "@/i18n/getDictionary";
 import { generateMetadata as generateSEOMetadata, generateStructuredData } from "@/utils/seo";
 import { locales } from "@/i18n/config";
 import Script from "next/script";
+import Image from "next/image";
 
 export async function generateMetadata({
     params,
@@ -35,7 +36,7 @@ export default async function AboutPage({
 }) {
     const { locale } = await params;
     const dict = await getDictionary(locale);
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://genixo.ai';
+    const siteUrl = process.env.NEXT_PaiLIC_SITE_URL || 'https://genixo.ai';
 
     // Organization Structured Data
     const organizationStructuredData = generateStructuredData({
@@ -70,7 +71,7 @@ export default async function AboutPage({
                     <div className="about-wrap">
                         <div className="row">
                             <div className="col-lg-6">
-                                <div className="about-img-wrap">
+                            <div className="about-img-wrap">
                                     <img className="shape-1" src="/assets/images/shape/about-shape2.png" alt="" />
                                     <div className="about-img">
                                         <img src="/assets/images/about-3.jpg" alt="" />
@@ -96,12 +97,16 @@ export default async function AboutPage({
                                         <p>{dict.about.values.dynamism.content}</p>
                                     </div>
                                     <div className="col-sm-4">
-                                        <img src="/assets/images/about-4.jpg" alt="" />
+                                        <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '200px' }}>
+                                            <Image src="/assets/images/about-4.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="row mt-4">
                                     <div className="col-sm-4">
-                                        <img src="/assets/images/about-4.jpg" alt="" />
+                                        <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '200px' }}>
+                                            <Image src="/assets/images/about-4.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                        </div>
                                     </div>
                                     <div className="col-sm-8">
                                         <h3 className="title">{dict.about.values.passion.title}</h3>
@@ -114,7 +119,9 @@ export default async function AboutPage({
                                         <p>{dict.about.values.professionalism.content}</p>
                                     </div>
                                     <div className="col-sm-4">
-                                        <img src="/assets/images/about-4.jpg" alt="" />
+                                        <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '200px' }}>
+                                            <Image src="/assets/images/about-4.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                        </div>
                                     </div>
                                 </div>
                             </div>

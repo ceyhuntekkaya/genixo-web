@@ -1,5 +1,7 @@
 'use client';
 
+import Image from "next/image";
+
 export default function CounterSection() {
     return (
         <>
@@ -11,7 +13,9 @@ export default function CounterSection() {
                             <div className="col-xl-3 col-md-6">
                                 <div className="single-counter">
                                     <div className="counter-img">
-                                        <img src="/assets/images/counter-1.png" alt=""/>
+                                        <div style={{ position: 'relative', width: '80px', height: '80px' }}>
+                                            <Image src="/assets/images/counter-1.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                        </div>
                                     </div>
                                     <div className="counter-content">
                                         <span className="counter">1790</span>
@@ -22,7 +26,9 @@ export default function CounterSection() {
                             <div className="col-xl-3 col-md-6">
                                 <div className="single-counter">
                                     <div className="counter-img">
-                                        <img src="/assets/images/counter-2.png" alt=""/>
+                                        <div style={{ position: 'relative', width: '80px', height: '80px' }}>
+                                            <Image src="/assets/images/counter-2.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                        </div>
                                     </div>
                                     <div className="counter-content">
                                         <span className="counter">491</span>
@@ -33,7 +39,9 @@ export default function CounterSection() {
                             <div className="col-xl-3 col-md-6">
                                 <div className="single-counter">
                                     <div className="counter-img">
-                                        <img src="/assets/images/counter-3.png" alt=""/>
+                                        <div style={{ position: 'relative', width: '80px', height: '80px' }}>
+                                            <Image src="/assets/images/counter-3.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                        </div>
                                     </div>
                                     <div className="counter-content">
                                         <span className="counter">245</span>
@@ -44,7 +52,9 @@ export default function CounterSection() {
                             <div className="col-xl-3 col-md-6">
                                 <div className="single-counter single-counter-4">
                                     <div className="counter-img">
-                                        <img src="/assets/images/counter-1.png" alt=""/>
+                                        <div style={{ position: 'relative', width: '80px', height: '80px' }}>
+                                            <Image src="/assets/images/counter-1.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
+                                        </div>
                                     </div>
                                     <div className="counter-content">
                                         <span className="counter">1090</span>

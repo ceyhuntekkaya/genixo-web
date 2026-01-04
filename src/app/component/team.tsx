@@ -1,5 +1,7 @@
 'use client';
 
+import Image from "next/image";
+
 export default function TeamSection() {
     return (
         <>
@@ -17,8 +19,11 @@ export default function TeamSection() {
                                     <div className="swiper-slide">
                                         <div className="single-team">
                                             <div className="team-img">
-                                                <a href="team.html"><img src="/assets/images/team/team-1.jpg"
-                                                                         alt=""/></a>
+                                                <a href="team.html">
+                                                    <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '300px' }}>
+                                                        <Image src="/assets/images/team/team-1.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                                    </div>
+                                                </a>
                                             </div>
                                             <div className="team-content">
                                                 <h3 className="name"><a href="team.html">Andrew <br/> Max Fetcher</a>
@@ -38,8 +43,11 @@ export default function TeamSection() {
                                     <div className="swiper-slide">
                                         <div className="single-team">
                                             <div className="team-img">
-                                                <a href="team.html"><img src="/assets/images/team/team-2.jpg"
-                                                                         alt=""/></a>
+                                                <a href="team.html">
+                                                    <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '300px' }}>
+                                                        <Image src="/assets/images/team/team-2.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                                    </div>
+                                                </a>
                                             </div>
                                             <div className="team-content">
                                                 <h3 className="name"><a href="team.html">Arnold <br/> human</a></h3>
@@ -58,8 +66,11 @@ export default function TeamSection() {
                                     <div className="swiper-slide">
                                         <div className="single-team">
                                             <div className="team-img">
-                                                <a href="team.html"><img src="/assets/images/team/team-3.jpg"
-                                                                         alt=""/></a>
+                                                <a href="team.html">
+                                                    <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '300px' }}>
+                                                        <Image src="/assets/images/team/team-3.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                                    </div>
+                                                </a>
                                             </div>
                                             <div className="team-content">
                                                 <h3 className="name"><a href="team.html">Mike <br/> Holder</a></h3>
@@ -78,8 +89,11 @@ export default function TeamSection() {
                                     <div className="swiper-slide">
                                         <div className="single-team">
                                             <div className="team-img">
-                                                <a href="team.html"><img src="/assets/images/team/team-4.jpg"
-                                                                         alt=""/></a>
+                                                <a href="team.html">
+                                                    <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '300px' }}>
+                                                        <Image src="/assets/images/team/team-4.jpg" alt="" fill style={{ objectFit: 'cover' }} unoptimized />
+                                                    </div>
+                                                </a>
                                             </div>
                                             <div className="team-content">
                                                 <h3 className="name"><a href="team.html">Joakim <br/> Ken</a></h3>

@@ -62,6 +62,12 @@
   "welcome": {
     "title": "Genixo BT ve Teknoloji"
   },
+  "hero": {
+    "subtitle": "BİLİŞİM - TEKNOLOJİ - YAPAY ZEKA ÇÖZÜMLERİ",
+    "title": "Akıllı Teknolojilerle Değer Yaratıyoruz.",
+    "description": "Karmaşık problemlere akıllı çözümler...",
+    "button": "Hizmetlerimiz"
+  },
   "services": {
     "WebApplication": {
       "summary": "Genixo, geleneksel web sitesi oluşturmanın sınırlarının ötesinde karmaşık projeleri teslim edebilen tutkulu bir web geliştirme şirketidir.",
@@ -157,7 +163,8 @@
         "Ölçeklenebilir mimari"
       ],
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "StudyScoreAI": {
       "name": "Study Score AI",
@@ -174,7 +181,8 @@
         "Kapsamlı raporlama paneli"
       ],
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "Egitimiste": {
       "name": "egitimiste.com",
@@ -191,7 +199,8 @@
         "Çoklu dil desteği"
       ],
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "GenixoWorkAI": {
       "name": "Genixo Work AI",
@@ -208,7 +217,8 @@
         "Gelişmiş analitik ve içgörüler"
       ],
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "GenixoAssistant": {
       "name": "Genixo Assistant",
@@ -225,7 +235,8 @@
         "Sürekli öğrenme ve iyileştirme"
       ],
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "TOMEREYadis": {
       "name": "TÖMER E-Yadis",
@@ -259,7 +270,8 @@
         "Gezgin bağlantıları için sosyal özellikler"
       ],
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     }
   },
   "counter": {
@@ -313,50 +325,42 @@
       {
         "image": "/assets/images/ser-icon9.png",
         "title": "Altyapı <br/> Teknolojisi",
-        "description": "Dünya standartlarında teknoloji ekipleriyle yeniliği hızlandırın. Size tam bir uzaktan ekip eşleştireceğiz.",
-        "link": "service.html"
+        "description": "Güvenilir ve ölçeklenebilir altyapı çözümleriyle işinizi geleceğe taşıyın. Kesintisiz hizmet garantisi."
       },
       {
         "image": "/assets/images/counter-3.png",
         "title": "Yüksek profesyonel ekip üyeleri",
-        "description": "Dünya standartlarında teknoloji ekipleriyle yeniliği hızlandırın. Size tam bir uzaktan ekip eşleştireceğiz.",
-        "link": "service.html"
+        "description": "Alanında uzman, deneyimli profesyonellerle projelerinizi hayata geçirin. Kalite odaklı çalışma."
       },
       {
         "image": "/assets/images/ser-icon10.png",
         "title": "Güvenlik <br/> Yönetimi",
-        "description": "Dünya standartlarında teknoloji ekipleriyle yeniliği hızlandırın. Size tam bir uzaktan ekip eşleştireceğiz.",
-        "link": "service.html"
+        "description": "Verilerinizi ve sistemlerinizi en üst düzey güvenlik protokolleriyle koruyun. Sıfır risk hedefi."
       },
       {
         "image": "/assets/images/ser-icon12.png",
         "title": "Masaüstü <br/> Hesaplama",
-        "description": "Dünya standartlarında teknoloji ekipleriyle yeniliği hızlandırın. Size tam bir uzaktan ekip eşleştireceğiz.",
-        "link": "service.html"
+        "description": "Yüksek performanslı masaüstü çözümleriyle iş verimliliğinizi artırın. Optimize edilmiş sistemler."
       },
       {
         "image": "/assets/images/counter-1.png",
         "title": "Altyapı <br/> Teknolojisi",
-        "description": "Dünya standartlarında teknoloji ekipleriyle yeniliği hızlandırın. Size tam bir uzaktan ekip eşleştireceğiz.",
-        "link": "service.html"
+        "description": "Modern teknolojilerle kurumsal altyapınızı güçlendirin. Esnek ve sürdürülebilir çözümler sunuyoruz."
       },
       {
         "image": "/assets/images/counter-2.png",
         "title": "Yüksek getirili yatırım fikirleri",
-        "description": "Dünya standartlarında teknoloji ekipleriyle yeniliği hızlandırın. Size tam bir uzaktan ekip eşleştireceğiz.",
-        "link": "service.html"
+        "description": "Teknoloji yatırımlarınızdan maksimum değer alın. Stratejik danışmanlık ve ROI odaklı planlama."
       },
       {
         "image": "/assets/images/ser-icon21.png",
         "title": "Tam yüksek BT <br/> Yönetimi",
-        "description": "Dünya standartlarında teknoloji ekipleriyle yeniliği hızlandırın. Size tam bir uzaktan ekip eşleştireceğiz.",
-        "link": "service.html"
+        "description": "BT süreçlerinizi baştan sona profesyonelce yönetin. Sorunsuz operasyon için kapsamlı destek."
       },
       {
         "image": "/assets/images/ser-icon22.png",
         "title": "Veri güvenliği ve yönetimi",
-        "description": "Dünya standartlarında teknoloji ekipleriyle yeniliği hızlandırın. Size tam bir uzaktan ekip eşleştireceğiz.",
-        "link": "service.html"
+        "description": "Kurumsal verilerinizi güvenle saklayın ve yönetin. Uyumluluk standartlarında tam koruma sağlıyorız."
       }
     ]
   },

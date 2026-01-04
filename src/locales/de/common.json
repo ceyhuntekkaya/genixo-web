@@ -62,6 +62,12 @@
   "welcome": {
     "title": "Genixo IT und Technologie"
   },
+  "hero": {
+    "subtitle": "INFORMATIONSTECHNOLOGIE - KI-LÖSUNGEN",
+    "title": "Wir schaffen Wert mit intelligenten Technologien.",
+    "description": "Intelligente Lösungen für komplexe Probleme...",
+    "button": "Unsere Dienstleistungen"
+  },
   "services": {
     "WebApplication": {
       "summary": "Genixo ist ein leidenschaftliches Webentwicklungsunternehmen, das in der Lage ist, komplexe Projekte jenseits der Grenzen der üblichen Website-Erstellung zu liefern.",
@@ -155,7 +161,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "StudyScoreAI": {
       "name": "Study Score AI",
@@ -172,7 +179,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "Egitimiste": {
       "name": "egitimiste.com",
@@ -189,7 +197,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "GenixoWorkAI": {
       "name": "Genixo Work AI",
@@ -206,7 +215,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "GenixoAssistant": {
       "name": "Genixo Assistant",
@@ -223,7 +233,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "TOMEREYadis": {
       "name": "TÖMER E-Yadis",
@@ -257,7 +268,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     }
   },
   "counter": {
@@ -311,50 +323,42 @@
       {
         "image": "/assets/images/ser-icon9.png",
         "title": "Infrastruktur <br/> Technologie",
-        "description": "Beschleunigen Sie Innovationen mit erstklassigen Technologie-Teams. Wir vermitteln Ihnen ein komplettes Team.",
-        "link": "service.html"
+        "description": "Bringen Sie Ihr Geschäft mit zuverlässigen und skalierbaren Infrastrukturlösungen in die Zukunft. Unterbrechungsfreie Servicegarantie."
       },
       {
         "image": "/assets/images/counter-3.png",
         "title": "Hochprofessionelle Teammitglieder",
-        "description": "Beschleunigen Sie Innovationen mit erstklassigen Technologie-Teams. Wir vermitteln Ihnen ein komplettes Team.",
-        "link": "service.html"
+        "description": "Verwirklichen Sie Ihre Projekte mit Experten und erfahrenen Fachleuten. Qualitätsorientierte Arbeit."
       },
       {
         "image": "/assets/images/ser-icon10.png",
         "title": "Sicherheit <br/> Management",
-        "description": "Beschleunigen Sie Innovationen mit erstklassigen Technologie-Teams. Wir vermitteln Ihnen ein komplettes Team.",
-        "link": "service.html"
+        "description": "Schützen Sie Ihre Daten und Systeme mit höchsten Sicherheitsprotokollen. Null-Risiko-Ziel."
       },
       {
         "image": "/assets/images/ser-icon12.png",
         "title": "Desktop <br/> Computing",
-        "description": "Beschleunigen Sie Innovationen mit erstklassigen Technologie-Teams. Wir vermitteln Ihnen ein komplettes Team.",
-        "link": "service.html"
+        "description": "Steigern Sie Ihre Geschäftseffizienz mit leistungsstarken Desktop-Lösungen. Optimierte Systeme."
       },
       {
         "image": "/assets/images/counter-1.png",
         "title": "Infrastruktur <br/> Technologie",
-        "description": "Beschleunigen Sie Innovationen mit erstklassigen Technologie-Teams. Wir vermitteln Ihnen ein komplettes Team.",
-        "link": "service.html"
+        "description": "Stärken Sie Ihre Unternehmensinfrastruktur mit modernen Technologien. Wir bieten flexible und nachhaltige Lösungen."
       },
       {
         "image": "/assets/images/counter-2.png",
         "title": "Ideen für hohe Renditeinvestitionen",
-        "description": "Beschleunigen Sie Innovationen mit erstklassigen Technologie-Teams. Wir vermitteln Ihnen ein komplettes Team.",
-        "link": "service.html"
+        "description": "Erzielen Sie maximalen Wert aus Ihren Technologieinvestitionen. Strategische Beratung und ROI-orientierte Planung."
       },
       {
         "image": "/assets/images/ser-icon21.png",
         "title": "Vollständiges IT <br/> Management",
-        "description": "Beschleunigen Sie Innovationen mit erstklassigen Technologie-Teams. Wir vermitteln Ihnen ein komplettes Team.",
-        "link": "service.html"
+        "description": "Verwalten Sie Ihre IT-Prozesse professionell von Anfang bis Ende. Umfassende Unterstützung für nahtlose Operationen."
       },
       {
         "image": "/assets/images/ser-icon22.png",
         "title": "Datensicherheit & Management",
-        "description": "Beschleunigen Sie Innovationen mit erstklassigen Technologie-Teams. Wir vermitteln Ihnen ein komplettes Team.",
-        "link": "service.html"
+        "description": "Speichern und verwalten Sie Ihre Unternehmensdaten sicher. Wir bieten vollständigen Schutz nach Compliance-Standards."
       }
     ]
   },

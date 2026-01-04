@@ -1,12 +1,13 @@
 'use client';
 
-
 import {Dictionary} from "@/i18n/types";
+import {Locale} from "@/i18n/config";
 
 interface PageProps {
     dict: Dictionary;
+    locale: Locale;
 }
-export default function CounterAISection({ dict }: PageProps) {
+export default function CounterAISection({ dict, locale }: PageProps) {
     return (
         <>
 

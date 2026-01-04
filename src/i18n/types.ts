@@ -66,6 +66,12 @@ export type Dictionary = {
     welcome: {
         title: string;
     };
+    hero: {
+        subtitle: string;
+        title: string;
+        description: string;
+        button: string;
+    };
 
 
     "services": {
@@ -165,6 +171,7 @@ export type Dictionary = {
             "longDescription"?: string;
             "active"?: boolean;
             "showOnHomepage"?: boolean;
+            "videoLink"?: string;
         };
         "StudyScoreAI": {
             "name": string;
@@ -176,6 +183,7 @@ export type Dictionary = {
             "longDescription"?: string;
             "active"?: boolean;
             "showOnHomepage"?: boolean;
+            "videoLink"?: string;
         };
         "Egitimiste": {
             "name": string;
@@ -187,6 +195,7 @@ export type Dictionary = {
             "longDescription"?: string;
             "active"?: boolean;
             "showOnHomepage"?: boolean;
+            "videoLink"?: string;
         };
         "GenixoWorkAI": {
             "name": string;
@@ -198,6 +207,7 @@ export type Dictionary = {
             "longDescription"?: string;
             "active"?: boolean;
             "showOnHomepage"?: boolean;
+            "videoLink"?: string;
         };
         "GenixoAssistant": {
             "name": string;
@@ -209,6 +219,7 @@ export type Dictionary = {
             "longDescription"?: string;
             "active"?: boolean;
             "showOnHomepage"?: boolean;
+            "videoLink"?: string;
         };
         "TOMEREYadis": {
             "name": string;
@@ -220,6 +231,7 @@ export type Dictionary = {
             "longDescription"?: string;
             "active"?: boolean;
             "showOnHomepage"?: boolean;
+            "videoLink"?: string;
         };
         "RetiredTravelApp": {
             "name": string;
@@ -231,6 +243,7 @@ export type Dictionary = {
             "longDescription"?: string;
             "active"?: boolean;
             "showOnHomepage"?: boolean;
+            "videoLink"?: string;
         };
     };
     "ngsd": {

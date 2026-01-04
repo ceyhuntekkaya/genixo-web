@@ -62,6 +62,12 @@
   "welcome": {
     "title": "Genixo IT et Technologie"
   },
+  "hero": {
+    "subtitle": "TECHNOLOGIES DE L'INFORMATION - SOLUTIONS IA",
+    "title": "Nous créons de la valeur avec des technologies intelligentes.",
+    "description": "Des solutions intelligentes à des problèmes complexes...",
+    "button": "Nos Services"
+  },
   "services": {
     "WebApplication": {
       "summary": "Genixo est une entreprise de développement web passionnée qui est capable de livrer des projets complexes au-delà des limites de la création de sites web conventionnels.",
@@ -70,7 +76,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "ArchitectureAsAService": {
       "summary": "Avantages de l'Architecture de Solution\nL'architecture d'une solution logicielle se concentre sur l'obtention d'un résultat qualitatif car vous disposez d'un plan des fonctionnalités et de leurs exigences.",
@@ -79,7 +86,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "CustomSoftwareDevelopment": {
       "summary": "L'équipe professionnelle de Genixo conçoit, crée, déploie et maintient vos besoins en logiciels personnalisés pour des ensembles spécifiques d'utilisateurs, de fonctions et d'organisations.",
@@ -88,7 +96,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "DevOpsServices": {
       "summary": "Un modèle DevOps réussi repose sur quatre éléments clés: Développer, Construire et Tester, Déployer, Exploiter et Surveiller.",
@@ -97,7 +106,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "CloudDevelopment": {
       "summary": "En raison de son évolutivité, de sa vitesse et de son rapport qualité-prix, les solutions cloud sont de plus en plus préférées par les entreprises",
@@ -106,7 +116,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "MobileDevelopment": {
       "summary": "Les applications mobiles sont des actifs importants pour le produit. Elles augmentent l'accessibilité, la visibilité et l'auto-promotion des plateformes.",
@@ -115,7 +126,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "ApplicationMaintenanceAndSupportServices": {
       "summary": "Avantages pour votre entreprise avec notre support technique\nico-bkg\nAttitude Proactive\nNous renforçons votre fondation, c'est-à-dire votre infrastructure, jour après jour",
@@ -124,7 +136,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "DataScience": {
       "summary": "Au 21ème siècle, également appelé l'ère de l'information, les données sont devenues de plus en plus précieuses en raison des développements technologiques",
@@ -133,7 +146,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "general": {
       "ReadMore": "Lire la suite"
@@ -155,7 +169,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "StudyScoreAI": {
       "name": "Study Score AI",
@@ -172,7 +187,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "Egitimiste": {
       "name": "egitimiste.com",
@@ -189,7 +205,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "GenixoWorkAI": {
       "name": "Genixo Work AI",
@@ -206,7 +223,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "GenixoAssistant": {
       "name": "Genixo Assistant",
@@ -223,7 +241,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "TOMEREYadis": {
       "name": "TÖMER E-Yadis",
@@ -240,7 +259,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "RetiredTravelApp": {
       "name": "Retired Travel App",
@@ -257,7 +277,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     }
   },
   "counter": {
@@ -311,50 +332,42 @@
       {
         "image": "/assets/images/ser-icon9.png",
         "title": "Infrastructure <br/> Technologie",
-        "description": "Accélérez l'innovation avec des équipes technologiques de classe mondiale. Nous vous mettrons en relation avec une équipe complète.",
-        "link": "service.html"
+        "description": "Transportez votre entreprise vers l'avenir avec des solutions d'infrastructure fiables et évolutives. Garantie de service sans interruption."
       },
       {
         "image": "/assets/images/counter-3.png",
         "title": "Membres d'équipe hautement professionnels",
-        "description": "Accélérez l'innovation avec des équipes technologiques de classe mondiale. Nous vous mettrons en relation avec une équipe complète.",
-        "link": "service.html"
+        "description": "Donnez vie à vos projets avec des professionnels experts et expérimentés. Travail axé sur la qualité."
       },
       {
         "image": "/assets/images/ser-icon10.png",
         "title": "Sécurité <br/> Gestion",
-        "description": "Accélérez l'innovation avec des équipes technologiques de classe mondiale. Nous vous mettrons en relation avec une équipe complète.",
-        "link": "service.html"
+        "description": "Protégez vos données et systèmes avec les protocoles de sécurité de plus haut niveau. Objectif zéro risque."
       },
       {
         "image": "/assets/images/ser-icon12.png",
         "title": "Informatique <br/> de Bureau",
-        "description": "Accélérez l'innovation avec des équipes technologiques de classe mondiale. Nous vous mettrons en relation avec une équipe complète.",
-        "link": "service.html"
+        "description": "Augmentez l'efficacité de votre entreprise avec des solutions de bureau haute performance. Systèmes optimisés."
       },
       {
         "image": "/assets/images/counter-1.png",
         "title": "Infrastructure <br/> Technologie",
-        "description": "Accélérez l'innovation avec des équipes technologiques de classe mondiale. Nous vous mettrons en relation avec une équipe complète.",
-        "link": "service.html"
+        "description": "Renforcez votre infrastructure d'entreprise avec des technologies modernes. Nous offrons des solutions flexibles et durables."
       },
       {
         "image": "/assets/images/counter-2.png",
         "title": "Idées pour investissement à haut rendement",
-        "description": "Accélérez l'innovation avec des équipes technologiques de classe mondiale. Nous vous mettrons en relation avec une équipe complète.",
-        "link": "service.html"
+        "description": "Tirez le maximum de valeur de vos investissements technologiques. Conseil stratégique et planification axée sur le ROI."
       },
       {
         "image": "/assets/images/ser-icon21.png",
         "title": "Gestion IT <br/> Complète",
-        "description": "Accélérez l'innovation avec des équipes technologiques de classe mondiale. Nous vous mettrons en relation avec une équipe complète.",
-        "link": "service.html"
+        "description": "Gérez vos processus informatiques de manière professionnelle de bout en bout. Support complet pour des opérations sans faille."
       },
       {
         "image": "/assets/images/ser-icon22.png",
         "title": "Sécurité et gestion des données",
-        "description": "Accélérez l'innovation avec des équipes technologiques de classe mondiale. Nous vous mettrons en relation avec une équipe complète.",
-        "link": "service.html"
+        "description": "Stockez et gérez en toute sécurité les données de votre entreprise. Nous fournissons une protection complète selon les normes de conformité."
       }
     ]
   },

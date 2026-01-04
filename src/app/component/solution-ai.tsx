@@ -1,81 +1,104 @@
 'use client';
 
-
 import {Dictionary} from "@/i18n/types";
+import {Locale} from "@/i18n/config";
+import {getProductSlug} from "@/utils/slugMapping";
+import Link from "next/link";
 
 interface PageProps {
     dict: Dictionary;
+    locale: Locale;
 }
-export default function SolutionAISection({ dict }: PageProps) {
-    return (
-        <>
+export default function SolutionAISection({ dict, locale }: PageProps) {
+    // Ana sayfada gösterilecek product'ları al
+    const homepageProducts = Object.keys(dict.products)
+        .filter(key => {
+            const product = dict.products[key as keyof typeof dict.products];
+            return product && product.active !== false && product.showOnHomepage === true;
+        })
+        .slice(0, 2) // İlk 3 product'ı al
+        .map(key => {
+            const product = dict.products[key as keyof typeof dict.products];
+            const productSlug = getProductSlug(key as keyof typeof dict.products);
+            return { key, product, slug: productSlug };
+        })
+        .filter(item => item.product && item.slug);
 
-            <div className="section techwix-solution-section section-padding">
-                <div className="container">
-                    <div className="solution-wrap">
-                        <div className="section-title text-center">
-                            <h3 className="sub-title"> WE Deliver Excellence</h3>
-                            <h2 className="title">Solutions To Common AI Problems</h2>
-                        </div>
-                        <div className="solution-content-wrap">
-                            <div className="row">
+    if (homepageProducts.length === 0) {
+        return null;
+    }
+
+    const firstProduct = homepageProducts[0];
+    const otherProducts = homepageProducts.slice(1);
+
+    return (
+        <div className="section techwix-solution-section section-padding">
+            <div className="container">
+                <div className="solution-wrap">
+                    <div className="section-title text-center">
+                        <h3 className="sub-title">{locale === 'tr' ? 'Mükemmelliği Sunuyoruz' : locale === 'en' ? 'We Deliver Excellence' : locale === 'de' ? 'Wir liefern Exzellenz' : locale === 'fr' ? 'Nous offrons l\'excellence' : 'Мы обеспечиваем превосходство'}</h3>
+                        <h2 className="title">{locale === 'tr' ? 'Yaygın AI Problemlerine Çözümler' : locale === 'en' ? 'Solutions To Common AI Problems' : locale === 'de' ? 'Lösungen für häufige KI-Probleme' : locale === 'fr' ? 'Solutions aux problèmes courants de l\'IA' : 'Решения общих проблем ИИ'}</h2>
+                    </div>
+                    <div className="solution-content-wrap">
+                        <div className="row">
+                            {firstProduct && (
                                 <div className="col-lg-7">
                                     <div className="solution-item solution-item-big">
                                         <div className="solution-img">
-                                            <a href="#"><img src="/assets/images/solution-1.jpg" alt=""/></a>
+                                            <a href="#"><img src={firstProduct.product.image1 || "/assets/images/solution-1.jpg"} alt={firstProduct.product.name}/></a>
                                         </div>
                                         <div className="solution-content">
                                             <div className="solution-title">
-                                                <h4 className="sub-title">Machine</h4>
-                                                <h3 className="title"><a href="#">Categorizing Airbnb Listing Photos Using Tensorflow</a></h3>
+                                                <h4 className="sub-title">{firstProduct.product.summary?.substring(0, 20) || 'Product'}</h4>
+                                                <h3 className="title">
+                                                    <Link href={`/${locale}/products/${firstProduct.slug}`}>{firstProduct.product.name}</Link>
+                                                </h3>
                                             </div>
-                                            <a className="play-btn popup-video" href="https://www.youtube.com/watch?time_continue=3&amp;v=_X0eYtY8T_U"><i className="fas fa-play"></i></a>
+                                            {firstProduct.product.videoLink && (
+                                                <a className="play-btn popup-video" href={firstProduct.product.videoLink}>
+                                                    <i className="fas fa-play"></i>
+                                                </a>
+                                            )}
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-5">
-                                    <div className="row">
-                                        <div className="col-lg-12">
-                                            <div className="solution-item solution-item-sm">
-                                                <div className="solution-img">
-                                                    <a href="#"><img src="/assets/images/solution-img2.jpg" alt=""/></a>
+                            )}
+                            {otherProducts.length > 0 && (
+                                <div className="col-lg-5" style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
+                                    {otherProducts.map((item, index) => (
+                                        <div key={item.key} style={{ flex: '1', minHeight: 0 }}>
+                                            <div className="solution-item solution-item-sm" style={{ height: '100%' }}>
+                                                <div className="solution-img" style={{ height: '100%' }}>
+                                                    <a href="#" style={{ display: 'block', height: '100%' }}>
+                                                        <img 
+                                                            src={item.product.image1 || (index === 0 ? "/assets/images/solution-img2.jpg" : "/assets/images/solution-img3.jpg")} 
+                                                            alt={item.product.name}
+                                                            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                                        />
+                                                    </a>
                                                 </div>
                                                 <div className="solution-content">
                                                     <div className="solution-title">
-                                                        <h4 className="sub-title">Data Mining</h4>
-                                                        <h3 className="title"><a href="#">Generative Adversarial Networks With Ml</a></h3>
+                                                        <h4 className="sub-title">{item.product.summary?.substring(0, 20) || 'Product'}</h4>
+                                                        <h3 className="title">
+                                                            <Link href={`/${locale}/products/${item.slug}`}>{item.product.name}</Link>
+                                                        </h3>
                                                     </div>
-                                                    <a className="play-btn popup-video" href="https://www.youtube.com/watch?time_continue=3&amp;v=_X0eYtY8T_U"><i className="fas fa-play"></i></a>
+                                                    {item.product.videoLink && (
+                                                        <a className="play-btn popup-video" href={item.product.videoLink}>
+                                                            <i className="fas fa-play"></i>
+                                                        </a>
+                                                    )}
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-lg-12">
-                                            <div className="solution-item solution-item-sm">
-                                                <div className="solution-img">
-                                                    <a href="#"><img src="/assets/images/solution-img3.jpg" alt=""/></a>
-                                                </div>
-                                                <div className="solution-content">
-                                                    <div className="solution-title">
-                                                        <h4 className="sub-title">Data Mining</h4>
-                                                        <h3 className="title"><a href="#">Generative Adversarial Networks With Ml</a></h3>
-                                                    </div>
-                                                    <a className="play-btn popup-video" href="https://www.youtube.com/watch?time_continue=3&amp;v=_X0eYtY8T_U"><i className="fas fa-play"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    ))}
                                 </div>
-                            </div>
+                            )}
                         </div>
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-        </>
-    )
+        </div>
+    );
 }

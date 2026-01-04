@@ -62,6 +62,12 @@
   "welcome": {
     "title": "Genixo ИТ и Технологии"
   },
+  "hero": {
+    "subtitle": "ИНФОРМАЦИОННЫЕ ТЕХНОЛОГИИ - РЕШЕНИЯ ИИ",
+    "title": "Мы создаем ценность с помощью интеллектуальных технологий.",
+    "description": "Умные решения для сложных проблем...",
+    "button": "Наши Услуги"
+  },
   "services": {
     "WebApplication": {
       "summary": "Genixo - это увлеченная компания веб-разработки, способная реализовывать сложные проекты за пределами обычного создания веб-сайтов.",
@@ -70,7 +76,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "ArchitectureAsAService": {
       "summary": "Преимущества архитектуры решений\nПроектирование архитектуры программного решения фокусируется на достижении качественного результата, поскольку у вас есть план функциональности и ее требований.",
@@ -79,7 +86,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "CustomSoftwareDevelopment": {
       "summary": "Профессиональная команда Genixo проектирует, создает, развертывает и поддерживает ваши индивидуальные программные потребности для конкретных наборов пользователей, функций и организаций.",
@@ -88,7 +96,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "DevOpsServices": {
       "summary": "Успешная модель DevOps основана на четырех ключевых строительных блоках: разработка, сборка и тестирование, развертывание, эксплуатация и мониторинг.",
@@ -97,7 +106,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "CloudDevelopment": {
       "summary": "Благодаря масштабируемости, скорости и соотношению цены и качества облачные решения все чаще предпочитаются предприятиями",
@@ -106,7 +116,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "MobileDevelopment": {
       "summary": "Мобильные приложения являются важными активами для продукта. Они повышают доступность, видимость и самопродвижение платформ.",
@@ -115,7 +126,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "ApplicationMaintenanceAndSupportServices": {
       "summary": "Преимущества для вашего бизнеса с нашей технической поддержкой\nico-bkg\nПроактивный подход\nМы делаем ваш фундамент, то есть вашу инфраструктуру, сильнее день ото дня",
@@ -124,7 +136,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "DataScience": {
       "summary": "В 21 веке, который также называют информационной эпохой, данные стали все более бесценными благодаря технологическим разработкам",
@@ -133,7 +146,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "general": {
       "ReadMore": "Читать далее"
@@ -155,7 +169,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "StudyScoreAI": {
       "name": "Study Score AI",
@@ -172,7 +187,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "Egitimiste": {
       "name": "egitimiste.com",
@@ -189,7 +205,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "GenixoWorkAI": {
       "name": "Genixo Work AI",
@@ -206,7 +223,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "GenixoAssistant": {
       "name": "Genixo Assistant",
@@ -223,7 +241,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "TOMEREYadis": {
       "name": "TÖMER E-Yadis",
@@ -240,7 +259,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "RetiredTravelApp": {
       "name": "Retired Travel App",
@@ -257,7 +277,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     }
   },
   "counter": {
@@ -311,50 +332,42 @@
       {
         "image": "/assets/images/ser-icon9.png",
         "title": "Инфраструктура <br/> Технологии",
-        "description": "Ускоряйте инновации с командами мирового класса. Мы подберем вам полную команду.",
-        "link": "service.html"
+        "description": "Перенесите свой бизнес в будущее с надежными и масштабируемыми инфраструктурными решениями. Гарантия бесперебойного обслуживания."
       },
       {
         "image": "/assets/images/counter-3.png",
         "title": "Высокопрофессиональные члены команды",
-        "description": "Ускоряйте инновации с командами мирового класса. Мы подберем вам полную команду.",
-        "link": "service.html"
+        "description": "Воплощайте свои проекты в жизнь с экспертами и опытными профессионалами. Работа, ориентированная на качество."
       },
       {
         "image": "/assets/images/ser-icon10.png",
         "title": "Безопасность <br/> Управление",
-        "description": "Ускоряйте инновации с командами мирового класса. Мы подберем вам полную команду.",
-        "link": "service.html"
+        "description": "Защитите свои данные и системы протоколами безопасности высшего уровня. Цель - нулевой риск."
       },
       {
         "image": "/assets/images/ser-icon12.png",
         "title": "Настольные <br/> Вычисления",
-        "description": "Ускоряйте инновации с командами мирового класса. Мы подберем вам полную команду.",
-        "link": "service.html"
+        "description": "Повысьте эффективность вашего бизнеса с высокопроизводительными настольными решениями. Оптимизированные системы."
       },
       {
         "image": "/assets/images/counter-1.png",
         "title": "Инфраструктура <br/> Технологии",
-        "description": "Ускоряйте инновации с командами мирового класса. Мы подберем вам полную команду.",
-        "link": "service.html"
+        "description": "Усилите корпоративную инфраструктуру современными технологиями. Мы предлагаем гибкие и устойчивые решения."
       },
       {
         "image": "/assets/images/counter-2.png",
         "title": "Идеи для инвестиций с высокой доходностью",
-        "description": "Ускоряйте инновации с командами мирового класса. Мы подберем вам полную команду.",
-        "link": "service.html"
+        "description": "Получите максимальную ценность от ваших технологических инвестиций. Стратегическое консультирование и планирование, ориентированное на ROI."
       },
       {
         "image": "/assets/images/ser-icon21.png",
         "title": "Полное ИТ <br/> Управление",
-        "description": "Ускоряйте инновации с командами мирового класса. Мы подберем вам полную команду.",
-        "link": "service.html"
+        "description": "Управляйте вашими ИТ-процессами профессионально от начала до конца. Комплексная поддержка для бесперебойных операций."
       },
       {
         "image": "/assets/images/ser-icon22.png",
         "title": "Безопасность и управление данными",
-        "description": "Ускоряйте инновации с командами мирового класса. Мы подберем вам полную команду.",
-        "link": "service.html"
+        "description": "Безопасно храните и управляйте корпоративными данными. Мы обеспечиваем полную защиту в соответствии со стандартами соответствия."
       }
     ]
   },

@@ -3,12 +3,13 @@
 import banner from "@/app/assets/images/hero-bg3.jpg";
 import Link from "next/link";
 import {Dictionary} from "@/i18n/types";
-
+import {Locale} from "@/i18n/config";
 
 interface PageProps {
     dict: Dictionary;
+    locale: Locale;
 }
-export default function HeroSection({ dict }: PageProps) {
+export default function HeroSection({ dict, locale }: PageProps) {
     return (
         <>
 
@@ -61,13 +62,11 @@ export default function HeroSection({ dict }: PageProps) {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="hero-content">
-                                <h3 className="sub-title">BİLİŞİM - TEKNOLOJİ - YAPAY ZEKA ÇÖZÜMLERİ
-                                </h3>
-                                <h2 className="title">Akıllı Teknolojilerle Değer Yaratıyoruz.
-                                </h2>
-                                <p>Karmaşık problemlere akıllı çözümler...</p>
+                                <h3 className="sub-title">{dict.hero.subtitle}</h3>
+                                <h2 className="title">{dict.hero.title}</h2>
+                                <p>{dict.hero.description}</p>
                                 <div className="hero-btn">
-                                    <Link className="btn" href="/service">Hizmetlerimiz</Link>
+                                    <Link className="btn" href={`/${locale}/solutions`}>{dict.hero.button}</Link>
                                 </div>
                             </div>
                         </div>

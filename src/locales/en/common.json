@@ -62,6 +62,12 @@
   "welcome": {
     "title": "Genixo IT and Technology"
   },
+  "hero": {
+    "subtitle": "INFORMATION TECHNOLOGY - AI SOLUTIONS",
+    "title": "We Create Value with Smart Technologies.",
+    "description": "Smart solutions to complex problems...",
+    "button": "Our Services"
+  },
   "services": {
     "WebApplication": {
       "summary": "Genixo is a passionate web development company that is capable of delivering complex projects beyond the limits of conventional website creation.",
@@ -155,7 +161,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "StudyScoreAI": {
       "name": "Study Score AI",
@@ -172,7 +179,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "Egitimiste": {
       "name": "egitimiste.com",
@@ -189,7 +197,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "GenixoWorkAI": {
       "name": "Genixo Work AI",
@@ -206,7 +215,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "GenixoAssistant": {
       "name": "Genixo Assistant",
@@ -223,7 +233,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "TOMEREYadis": {
       "name": "TÖMER E-Yadis",
@@ -257,7 +268,8 @@
       "image1": "/assets/images/about-3.jpg",
       "image2": "/assets/images/about-4.jpg",
       "active": true,
-      "showOnHomepage": true
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     }
   },
   "counter": {
@@ -311,50 +323,42 @@
       {
         "image": "/assets/images/ser-icon9.png",
         "title": "Infrastructure <br/> Technology",
-        "description": "Accelerate innovation with world-class tech teams We'll match you to an entire.",
-        "link": "service.html"
+        "description": "Take your business to the future with reliable and scalable infrastructure solutions. Uninterrupted service guarantee."
       },
       {
         "image": "/assets/images/counter-3.png",
         "title": "Highly professional team members",
-        "description": "Accelerate innovation with world-class tech teams We'll match you to an entire.",
-        "link": "service.html"
+        "description": "Bring your projects to life with expert, experienced professionals. Quality-focused work."
       },
       {
         "image": "/assets/images/ser-icon10.png",
         "title": "Security <br/> Management",
-        "description": "Accelerate innovation with world-class tech teams We'll match you to an entire.",
-        "link": "service.html"
+        "description": "Protect your data and systems with the highest level security protocols. Zero risk target."
       },
       {
         "image": "/assets/images/ser-icon12.png",
         "title": "Desktop <br/> Computing",
-        "description": "Accelerate innovation with world-class tech teams We'll match you to an entire.",
-        "link": "service.html"
+        "description": "Increase your business efficiency with high-performance desktop solutions. Optimized systems."
       },
       {
         "image": "/assets/images/counter-1.png",
         "title": "Infrastructure <br/> Technology",
-        "description": "Accelerate innovation with world-class tech teams We'll match you to an entire.",
-        "link": "service.html"
+        "description": "Strengthen your corporate infrastructure with modern technologies. We offer flexible and sustainable solutions."
       },
       {
         "image": "/assets/images/counter-2.png",
         "title": "Ideas for high return investment",
-        "description": "Accelerate innovation with world-class tech teams We'll match you to an entire.",
-        "link": "service.html"
+        "description": "Get maximum value from your technology investments. Strategic consulting and ROI-focused planning."
       },
       {
         "image": "/assets/images/ser-icon21.png",
         "title": "Fully high IT <br/> Management",
-        "description": "Accelerate innovation with world-class tech teams We'll match you to an entire.",
-        "link": "service.html"
+        "description": "Manage your IT processes professionally from start to finish. Comprehensive support for seamless operations."
       },
       {
         "image": "/assets/images/ser-icon22.png",
         "title": "Data secure & Management",
-        "description": "Accelerate innovation with world-class tech teams We'll match you to an entire.",
-        "link": "service.html"
+        "description": "Safely store and manage your corporate data. We provide complete protection at compliance standards."
       }
     ]
   },

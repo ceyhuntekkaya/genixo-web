@@ -4,13 +4,40 @@ import Image from "next/image";
 import footerLogo from "@/app/assets/Genixo_Logo_White.png";
 import { Locale } from "@/i18n/config";
 import {Dictionary} from "@/i18n/types";
+import {getProductSlug, getSolutionSlug} from "@/utils/slugMapping";
 
 interface FooterSectionProps {
     locale: Locale;
     dict: Dictionary;
 }
 
-export default function FooterSection({ locale }: FooterSectionProps) {
+export default function FooterSection({ locale, dict }: FooterSectionProps) {
+    // Aktif ürünleri al
+    const activeProducts = Object.keys(dict.products)
+        .filter(key => {
+            const product = dict.products[key as keyof typeof dict.products];
+            return product && product.active !== false;
+        })
+        .map(key => {
+            const product = dict.products[key as keyof typeof dict.products];
+            const productSlug = getProductSlug(key as keyof typeof dict.products);
+            return { key, product, slug: productSlug };
+        })
+        .filter(item => item.product && item.slug);
+
+    // Aktif hizmetleri al
+    const activeServices = Object.keys(dict.services)
+        .filter(key => {
+            if (key === 'general') return false;
+            const service = dict.services[key as keyof typeof dict.services];
+            return service && 'active' in service && service.active !== false && 'name' in service;
+        })
+        .map(key => {
+            const service = dict.services[key as keyof typeof dict.services];
+            const solutionSlug = getSolutionSlug(key as keyof typeof dict.services);
+            return { key, service, slug: solutionSlug };
+        })
+        .filter(item => item.service && item.slug && 'name' in item.service);
     return (
         <div className="section footer-section footer-section-03"
              style={{
@@ -28,11 +55,9 @@ export default function FooterSection({ locale }: FooterSectionProps) {
                                         className="w-35 h-auto mt-4"
                                     />
                                 </Link>
-                                <p>Accelerate innovation with world-class tech teams. We will match you to an entire remote team of incredible freelance talent.</p>
+                              
                                 <div className="footer-social">
                                     <ul className="social">
-                                        <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i className="fab fa-twitter"></i></a></li>
                                         <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
                                     </ul>
                                 </div>
@@ -40,37 +65,37 @@ export default function FooterSection({ locale }: FooterSectionProps) {
                         </div>
                         <div className="col-lg-3 col-sm-6">
                             <div className="footer-widget">
-                                <h4 className="footer-widget-title">Useful Links</h4>
+                                <h4 className="footer-widget-title">{dict.menu.Products}</h4>
                                 <div className="widget-link">
                                     <ul className="link">
-                                        <li><a href="#">Terms & Conditions</a></li>
-                                        <li><a href="#">About Company</a></li>
-                                        <li><a href="#">Payment Gateway</a></li>
-                                        <li><a href="#">Policy</a></li>
+                                        {activeProducts.map((item) => (
+                                            <li key={item.key}>
+                                                <Link href={`/${locale}/products/${item.slug}`}>{item.product.name}</Link>
+                                            </li>
+                                        ))}
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-3 col-sm-6">
                             <div className="footer-widget">
-                                <h4 className="footer-widget-title">Our Services</h4>
+                                <h4 className="footer-widget-title">{dict.menu.Solutions}</h4>
                                 <div className="widget-link">
                                     <ul className="link">
-                                        <li><Link href={`/${locale}/solutions/web`}>Web Application</Link></li>
-                                        <li><Link href={`/${locale}/solutions/arch`}>Solution Architecture</Link></li>
-                                        <li><Link href={`/${locale}/solutions/custom`}>Custom Software Development</Link></li>
-                                        <li><Link href={`/${locale}/solutions/dev`}>DevOps Services</Link></li>
-                                        <li><Link href={`/${locale}/solutions/cloud`}>Cloud Development</Link></li>
-                                        <li><Link href={`/${locale}/solutions/mobile`}>Mobile Development</Link></li>
-                                        <li><Link href={`/${locale}/solutions/support`}>Support Services</Link></li>
-                                        <li><Link href={`/${locale}/solutions/data`}>Data Science</Link></li>
+                                        {activeServices.map((item) => (
+                                            <li key={item.key}>
+                                                <Link href={`/${locale}/solutions/${item.slug}`}>
+                                                    {'name' in item.service ? item.service.name : item.key}
+                                                </Link>
+                                            </li>
+                                        ))}
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-3 col-sm-6">
                             <div className="footer-widget">
-                                <h4 className="footer-widget-title">Contact Information</h4>
+                                <h4 className="footer-widget-title">{locale === 'tr' ? 'İletişim Bilgileri' : locale === 'en' ? 'Contact Information' : locale === 'de' ? 'Kontaktinformationen' : locale === 'fr' ? 'Informations de contact' : 'Контактная информация'}</h4>
                                 <div className="widget-info">
                                     <ul>
                                         <li>
@@ -78,7 +103,7 @@ export default function FooterSection({ locale }: FooterSectionProps) {
                                                 <i className="flaticon-phone-call"></i>
                                             </div>
                                             <div className="info-text">
-                                                <span><a href="#">+91 458 654 528</a></span>
+                                                <span><a href="#">+90 532 207 67 30</a></span>
                                             </div>
                                         </li>
                                         <li>
@@ -111,7 +136,7 @@ export default function FooterSection({ locale }: FooterSectionProps) {
                         <div className="row align-items-center">
                             <div className="col-lg-12">
                                 <div className="copyright-text text-center">
-                                    <p>© Copyrights 2022 techwix All rights reserved.</p>
+                                    <p>© Copyrights 2026 genixo.ai All rights reserved.</p>
                                 </div>
                             </div>
                         </div>

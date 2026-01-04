@@ -10,6 +10,12 @@ interface PageProps {
     locale: Locale;
 }
 export default function SolutionAISection({ dict, locale }: PageProps) {
+    if (!dict.solutionAI) {
+        return null;
+    }
+
+    const solutionAI = dict.solutionAI;
+
     // Ana sayfada gösterilecek product'ları al
     const homepageProducts = Object.keys(dict.products)
         .filter(key => {
@@ -18,8 +24,9 @@ export default function SolutionAISection({ dict, locale }: PageProps) {
         })
         .slice(0, 2) // İlk 3 product'ı al
         .map(key => {
-            const product = dict.products[key as keyof typeof dict.products];
-            const productSlug = getProductSlug(key as keyof typeof dict.products);
+            const productKey = key as keyof import('@/i18n/types').Dictionary['products'];
+            const product = dict.products[productKey];
+            const productSlug = getProductSlug(productKey);
             return { key, product, slug: productSlug };
         })
         .filter(item => item.product && item.slug);
@@ -36,8 +43,8 @@ export default function SolutionAISection({ dict, locale }: PageProps) {
             <div className="container">
                 <div className="solution-wrap">
                     <div className="section-title text-center">
-                        <h3 className="sub-title">{dict.solutionAI.weDeliverExcellence}</h3>
-                        <h2 className="title">{dict.solutionAI.solutionsToCommonAIProblems}</h2>
+                        <h3 className="sub-title">{solutionAI.weDeliverExcellence}</h3>
+                        <h2 className="title">{solutionAI.solutionsToCommonAIProblems}</h2>
                     </div>
                     <div className="solution-content-wrap">
                         <div className="row">

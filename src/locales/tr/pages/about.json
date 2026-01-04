@@ -1,0 +1,27 @@
+{
+  "about": {
+    "WhoWeAre": "Genixo",
+    "slogan": "Yazılım Çözüm Ortağı & İnovasyon Şirketi",
+    "short": "Başarılı bir yazılım oluşturmak için iş gereksinimlerinizi anlayan bir geliştirme ekibine ihtiyacınız vardır. Uzmanlarımız fikrinize, zaman çizelgenize ve bütçenize uygun özel bir çözüm belirleyecek, ardından uygulamayı tasarlayıp oluşturacak ve gerçek kullanıcılarla test etmenize yardımcı olacaktır. Sonuç olarak, işinize fayda sağlayan, kullanıcılar tarafından sevilen modern bir dijital ürün elde edeceksiniz.",
+    "description": "Genixo, Bilkent Üniversitesi Cyberpark'ta faaliyet gösteren, yapay zeka odaklı eğitim platformları ve kurumsal çözümler geliştiren bir teknoloji şirketidir. Ekibimiz, modern web teknolojileri ve yapay zeka entegrasyonları konusunda derin uzmanlığa sahip geliştiricilerden oluşmaktadır. Spring Boot, Next.js ve PostgreSQL gibi güçlü teknolojileri kullanarak ölçeklenebilir, güvenli ve kullanıcı dostu sistemler inşa ediyoruz. StudyScore AI ve Egitimiste.com gibi başarılı projelerimizle Türkiye'nin eğitim teknolojisi ekosisteminde fark yaratıyoruz. Yapay zeka destekli adaptif öğrenme platformlarından kurumsal belge yönetim sistemlerine, gerçek zamanlı sınav uygulamalarından eğitim keşif platformlarına kadar geniş bir yelpazede çözümler sunuyoruz. Müşterilerimizin dijital dönüşüm yolculuğunda güvenilir teknoloji partneri olarak, iş ihtiyaçlarını anlamak ve en uygun çözümleri üretmek için çalışıyoruz.",
+    "values": {
+      "dynamism": {
+        "title": "Dinamizm",
+        "content": "Bilişim, dünyada izlenebilir en büyük pazar payına sahip sektör ve ilginç olan bu büyüklüğe ulaşması uzun sürmedi. Peki bu nasıl oldu? Teknolojiyle ve dolayısıyla yenilikle. Gelişim ve değişim o kadar hızlı ki takip etmek zor olabiliyor. Yeni dinamiklere ayak uydurmak ve proaktif davranmak giderek zorlaşıyor. Genixo olarak buradaki misyonumuz belli, o da dinamik kalmak. Genixo'nun bu konudaki vizyonu, bilişim dünyası ne kadar hızlı değişirse değişsin ve ihtiyaçlar ne kadar farklı olursa olsun, daima güncel kalmak ve günün ihtiyaçlarına cevap vermektir. Sürekli proaktif bir tutum benimseyerek geleceği hesaplayan ve öngörülemeyen sorunlar karşısında uygun tepkiyi verebilen bir kurumsal anlayışa sahibiz. Böylece her zaman dinamik kalabiliriz!"
+      },
+      "passion": {
+        "title": "Tutku ve Bağlılık",
+        "content": "Burada tutku olmadan bağlılık olmaz. Bağlılık olmadan, bir tutku asla potansiyeline yaklaşamaz ve daha az başarılı olmaya mahkumdur. Bunun bilincinde olan Genixo, bir şirketten daha fazlası, kişisel gelişimin sınırı olmadığının bilincinde, kendini sürekli geliştirmeyi hedefleyen, hedeflerine tutkuyla bağlı ve bu hedeflere ulaşmaya kendini adamış insanlardan oluşan bir topluluktur. hedefler. Tutku ve özveri üzerine kurulu bu toplum bilinci doğrultusunda kendimizi ve birlikte çalıştığımız herkesi potansiyellerini geliştirmeye, daha büyük düşünmeye, daha özverili çalışmaya ve daha başarılı olmaya davet ediyoruz!"
+      },
+      "professionalism": {
+        "title": "Profesyonellik",
+        "content": "Bir işte yetenekli veya deneyimli olduğunuzda başarıya ulaşılabilir. Ancak elde edilen başarının kalıcı olması için profesyonel bir yaklaşım şarttır, aksi takdirde elde ettiğiniz başarının ömrünü mutlaka kısaltırsınız. Genixo anlayışı, yetenekli ve deneyimli kişilerin profesyonel olarak çalıştığı bir marka kültürüne sahip olarak hem bireysel hem de kurumsal bazda her zaman kalıcılığı ve sürdürülebilir başarıyı hedeflemektedir. Profesyonel iş bilincimizle başarıyı şansa bırakmıyoruz."
+      }
+    },
+    "authorName": "Ceyhun Tekkaya",
+    "authorTitle": "CEO, Genixo",
+    "callToAsk": "Sorularınız için arayın",
+    "phoneNumber": "+90 532 207 67 30"
+  }
+}
+

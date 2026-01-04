@@ -144,7 +144,7 @@ export function generateStructuredData(config: {
     };
     breadcrumbs?: Array<{ name: string; url: string }>;
     dict?: Dictionary;
-    [key: string]: any;
+    [key: string]: unknown;
 }) {
     const { type, dict, ...data } = config;
     
@@ -152,7 +152,7 @@ export function generateStructuredData(config: {
     const siteNameValue = dict?.company?.name || siteName;
     const defaultDescriptionValue = dict?.company?.defaultDescription || defaultDescription;
 
-    const baseStructuredData: Record<string, any> = {
+    const baseStructuredData: Record<string, unknown> = {
         '@context': 'https://schema.org',
         '@type': type,
     };
@@ -221,19 +221,20 @@ export function generateStructuredData(config: {
 
         case 'Product':
         case 'Service':
-            return {
+            const productData: Record<string, unknown> = {
                 ...baseStructuredData,
                 name: data.name,
                 description: data.description,
                 image: data.image,
                 url: data.url,
-                ...(data.offers && {
-                    offers: {
-                        '@type': 'Offer',
-                        ...data.offers,
-                    },
-                }),
             };
+            if (data.offers && typeof data.offers === 'object' && data.offers !== null) {
+                productData.offers = {
+                    '@type': 'Offer',
+                    ...(data.offers as Record<string, unknown>),
+                };
+            }
+            return productData;
 
         case 'BreadcrumbList':
             return {

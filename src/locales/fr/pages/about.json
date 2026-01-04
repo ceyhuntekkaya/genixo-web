@@ -1,0 +1,26 @@
+{
+  "about": {
+    "WhoWeAre": "Qui nous sommes",
+    "slogan": "Partenaire de Solutions Logicielles & Société d'Innovation",
+    "short": "Pour créer un logiciel réussi, vous avez besoin d'une équipe de développement qui comprend vos besoins commerciaux. Nos experts détermineront une solution personnalisée qui correspond à votre idée, votre calendrier et votre budget, puis concevront et construiront l'application et vous aideront à la tester avec de vrais utilisateurs. En conséquence, vous obtiendrez un produit numérique moderne qui profite à votre entreprise et qui est apprécié par les utilisateurs.",
+    "description": "Genixo est une entreprise technologique opérant dans le Cyberpark de l'Université Bilkent, développant des plateformes éducatives axées sur l'IA et des solutions d'entreprise. Notre équipe est composée de développeurs ayant une expertise approfondie dans les technologies web modernes et les intégrations IA. Nous construisons des systèmes évolutifs, sécurisés et conviviaux en utilisant des technologies puissantes telles que Spring Boot, Next.js et PostgreSQL. Nous faisons la différence dans l'écosystème de la technologie éducative turque avec des projets réussis comme StudyScore AI et Egitimiste.com. Nous offrons une large gamme de solutions, des plateformes d'apprentissage adaptatif alimentées par l'IA aux systèmes de gestion de documents d'entreprise, des applications d'examen en temps réel aux plateformes de découverte éducative. En tant que partenaire technologique de confiance dans le parcours de transformation numérique de nos clients, nous travaillons à comprendre les besoins commerciaux et à produire les solutions les plus appropriées.",
+    "values": {
+      "dynamism": {
+        "title": "Dynamisme",
+        "content": "Les technologies de l'information sont le secteur avec la plus grande part de marché observable au monde, et il est intéressant de noter qu'il n'a pas fallu longtemps pour atteindre cette taille. Alors, comment cela s'est-il produit ? Grâce à la technologie et donc à l'innovation. Le développement et le changement sont si rapides qu'il peut être difficile de suivre. Il devient de plus en plus difficile de suivre les nouvelles dynamiques et d'agir de manière proactive. En tant que Genixo, notre mission ici est claire : rester dynamique. La vision de Genixo à cet égard est de toujours rester à jour et de répondre aux besoins du jour, peu importe la rapidité avec laquelle le monde informatique change et peu importe la différence des besoins. Nous avons une compréhension d'entreprise qui calcule l'avenir en adoptant constamment une attitude proactive et peut donner des réponses appropriées aux problèmes imprévus. Ainsi, nous pouvons toujours rester dynamiques !"
+      },
+      "passion": {
+        "title": "Passion et Engagement",
+        "content": "Ici, il n'y a pas d'engagement sans passion. Sans engagement, une passion ne peut jamais atteindre son potentiel et est condamnée à être moins réussie. Genixo, conscient de cela, est plus qu'une entreprise ; c'est une communauté de personnes qui sont conscientes que le développement personnel n'a pas de limites, qui visent à s'améliorer constamment, qui sont passionnément engagées envers leurs objectifs et dédiées à la réalisation de ces objectifs. Conformément à cette conscience communautaire construite sur la passion et le dévouement, nous nous invitons nous-mêmes et tous ceux avec qui nous travaillons à développer leur potentiel, à penser plus grand, à travailler plus dévouément et à être plus réussis !"
+      },
+      "professionalism": {
+        "title": "Professionalisme",
+        "content": "Le succès peut être atteint lorsque vous êtes talentueux ou expérimenté dans un travail. Cependant, pour que le succès atteint soit permanent, une approche professionnelle est essentielle ; sinon, vous raccourcirez définitivement la durée de vie du succès que vous avez atteint. La compréhension Genixo vise la permanence et le succès durable à la fois individuellement et en entreprise, avec une culture de marque où des personnes talentueuses et expérimentées travaillent professionnellement. Nous ne laissons pas le succès au hasard avec notre conscience professionnelle des affaires."
+      }
+    },
+    "authorName": "Ceyhun Tekkaya",
+    "authorTitle": "CEO, Genixo",
+    "callToAsk": "Appelez pour poser des questions",
+    "phoneNumber": "+90 532 207 67 30"
+  }
+}

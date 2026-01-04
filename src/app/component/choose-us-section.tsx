@@ -18,7 +18,7 @@ export default async function ChooseUsSection({ locale }: { locale: Locale }) {
                     </div>
                     <div className="choose-us-content-wrap">
                         <div className="row">
-                            {dict.chooseUs.items.map((item, index) => (
+                            {dict.chooseUs.items.map((item: { image: string; title: string; description: string; link?: string }, index: number) => (
                                 <div key={index} className="col-xl-3 col-lg-4 col-md-6">
                                     <div className="choose-us-item-02">
                                         <div className="choose-us-img">

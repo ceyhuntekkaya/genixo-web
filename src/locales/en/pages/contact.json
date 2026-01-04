@@ -1,0 +1,29 @@
+{
+  "contact": {
+    "pageContent": "Contact page content will be added here."
+  },
+  "team": {
+    "ourExpertTeam": "Our expert team",
+    "worldExpertTeam": "We have world expert team"
+  },
+  "testimonial": {
+    "title": "Testimonial",
+    "subtitle": "20k+ satisfied clients worldwide"
+  },
+  "caseStudy": {
+    "reasonToChooseUs": "REASON TO CHOOSE US",
+    "prominentSolutions": "We provide truly prominent IT solutions.",
+    "learnMore": "Learn more about",
+    "moreReason": "More reason"
+  },
+  "solutionAI": {
+    "weDeliverExcellence": "We Deliver Excellence",
+    "solutionsToCommonAIProblems": "Solutions To Common AI Problems"
+  },
+  "counterAI": {
+    "completedProjects": "Completed Projects",
+    "roboticAutomation": "Robotic Automation",
+    "webSiteAnalyse": "Web Site Analyse",
+    "clientsSupportDone": "Clients Support Done"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "seo": {
+    "home": {
+      "keywords": "software development, web application, mobile application, cloud solutions, AI software, software consulting, DevOps, data science, Genixo"
+    },
+    "about": {
+      "keywords": "about us, software company, technology company"
+    },
+    "contact": {
+      "keywords": "contact, contact form, software consulting",
+      "description": "Contact Genixo IT and Technology. Reach out to us for software solutions and consulting services."
+    },
+    "blog": {
+      "keywords": "blog, software blog, technology news, software development",
+      "description": "Genixo IT and Technology blog page. Current content about software development, technology trends and industry news."
+    },
+    "products": {
+      "keywords": "software products, AI software, education software, enterprise software",
+      "description": "Genixo IT and Technology products. AI-powered software solutions, educational platforms and enterprise software products."
+    },
+    "solutions": {
+      "keywords": "software solutions, web application, mobile development, cloud solutions, DevOps, data science",
+      "description": "Genixo IT and Technology solutions. Web application, mobile development, cloud solutions, DevOps and data science services."
+    },
+    "caseStudy": {
+      "keywords": "success stories, case study, customer projects, software projects"
+    },
+    "governmentSupport": {
+      "keywords": "government support, KOSGEB, TÜBİTAK, consulting, software consulting",
+      "description": "Genixo IT and Technology government support and consulting services. Consulting for KOSGEB, TÜBİTAK and other government support programs.",
+      "comingSoon": "This content is being prepared and will be available soon."
+    },
+    "ngsd": {
+      "keywords": "NGSD, next generation software department, software solutions"
+    },
+    "common": {
+      "blog": "blog",
+      "softwareProducts": "software products",
+      "softwareSolutions": "software solutions"
+    }
+  }
+}

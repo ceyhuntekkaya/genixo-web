@@ -1,0 +1,130 @@
+{
+  "products": {
+    "ILC": {
+      "name": "ILC International Language Certification",
+      "summary": "Une plateforme complète pour la certification et l'évaluation linguistique internationale.",
+      "description": "ILC International Language Certification est une plateforme moderne conçue pour faciliter les processus d'apprentissage et de certification des langues. Notre plateforme fournit des outils d'évaluation complets, la gestion des certificats et des capacités de reporting détaillées.",
+      "features": [
+        "Support multilingue",
+        "Évaluation et notation automatiques",
+        "Génération et gestion de certificats",
+        "Suivi complet des progrès",
+        "Analyses et rapports avancés",
+        "Architecture évolutive"
+      ],
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg",
+      "active": true,
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+    },
+    "StudyScoreAI": {
+      "name": "Study Score AI",
+      "summary": "Plateforme basée sur l'IA pour l'évaluation éducative et l'analyse de la performance des étudiants.",
+      "description": "Study Score AI exploite l'intelligence artificielle pour fournir une évaluation et une analyse intelligentes de la performance des étudiants. La plateforme utilise des algorithmes d'apprentissage automatique avancés pour identifier les modèles d'apprentissage, prédire les résultats et fournir des recommandations personnalisées.",
+      "features": [
+        "Analyse de performance basée sur l'IA",
+        "Analyses prédictives",
+        "Recommandations d'apprentissage personnalisées",
+        "Suivi des progrès en temps réel",
+        "Système de notation automatique",
+        "Tableau de bord de reporting complet"
+      ],
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg",
+      "active": true,
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+    },
+    "Egitimiste": {
+      "name": "egitimiste.com",
+      "summary": "Plateforme éducative complète connectant les étudiants à des ressources éducatives de qualité.",
+      "description": "egitimiste.com est une plateforme éducative complète conçue pour connecter les étudiants à des ressources éducatives, des cours et des institutions de qualité. La plateforme sert de pont entre les apprenants et les opportunités éducatives.",
+      "features": [
+        "Base de données de programmes complète",
+        "Recherche et filtrage avancés",
+        "Gestion des candidatures",
+        "Profils d'institutions",
+        "Ressources et guides pour étudiants",
+        "Support multilingue"
+      ],
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg",
+      "active": true,
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+    },
+    "GenixoWorkAI": {
+      "name": "Genixo Work AI",
+      "summary": "Plateforme de productivité et de collaboration en milieu de travail basée sur l'IA.",
+      "description": "Genixo Work AI est une plateforme de lieu de travail intelligente qui exploite l'intelligence artificielle pour améliorer la productivité, rationaliser les flux de travail et améliorer la collaboration. La plateforme offre une suite d'outils conçus pour aider les équipes à travailler plus efficacement.",
+      "features": [
+        "Automatisation des tâches basée sur l'IA",
+        "Planification intelligente",
+        "Gestion de documents et collaboration",
+        "Outils de communication d'équipe",
+        "Optimisation des flux de travail",
+        "Analyses et insights avancés"
+      ],
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg",
+      "active": true,
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+    },
+    "GenixoAssistant": {
+      "name": "Genixo Assistant",
+      "summary": "Assistant virtuel intelligent pour les opérations commerciales et le support client.",
+      "description": "Genixo Assistant est un assistant virtuel avancé alimenté par l'intelligence artificielle, conçu pour gérer un large éventail d'opérations commerciales et de tâches de support client. L'assistant peut comprendre le langage naturel, traiter les demandes et fournir des réponses intelligentes.",
+      "features": [
+        "Traitement du langage naturel",
+        "Disponibilité 24/7",
+        "Support multilingue",
+        "Réponses personnalisables",
+        "Capacités d'intégration",
+        "Apprentissage et amélioration continus"
+      ],
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg",
+      "active": true,
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+    },
+    "TOMEREYadis": {
+      "name": "TÖMER E-Yadis",
+      "summary": "Plateforme numérique pour l'éducation et la certification en langue turque.",
+      "description": "TÖMER E-Yadis est une plateforme numérique complète conçue pour l'éducation et la certification en langue turque. La plateforme fournit un système complet de gestion de l'apprentissage pour les cours de turc, du niveau débutant au niveau avancé.",
+      "features": [
+        "Gestion complète des cours",
+        "Matériels d'apprentissage interactifs",
+        "Outils d'évaluation et de certification",
+        "Suivi des progrès et analyses",
+        "Structure de cours multi-niveaux",
+        "Options d'apprentissage flexibles"
+      ],
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg",
+      "active": true,
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+    },
+    "RetiredTravelApp": {
+      "name": "Retired Travel App",
+      "summary": "Application mobile conçue pour les voyageurs retraités, offrant des services de planification de voyage et d'assistance.",
+      "description": "L'application Retired Travel App est une application mobile spécialisée conçue pour répondre aux besoins uniques des voyageurs retraités. L'application fournit des outils complets de planification de voyage, des informations sur les destinations et des services d'assistance adaptés aux voyageurs seniors.",
+      "features": [
+        "Conception d'interface conviviale pour seniors",
+        "Outils complets de planification de voyage",
+        "Guides de destination et recommandations",
+        "Alertes et mises à jour de voyage",
+        "Fonctionnalités d'assistance d'urgence",
+        "Fonctionnalités sociales pour les connexions de voyageurs"
+      ],
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg",
+      "active": true,
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+    }
+  }
+}

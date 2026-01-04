@@ -1,0 +1,75 @@
+{
+  "hero": {
+    "subtitle": "BİLİŞİM - TEKNOLOJİ - YAPAY ZEKA ÇÖZÜMLERİ",
+    "title": "Akıllı Teknolojilerle Değer Yaratıyoruz.",
+    "description": "Karmaşık problemlere akıllı çözümler...",
+    "button": "Hizmetlerimiz"
+  },
+  "counter": {
+    "items": [
+      {
+        "value": "354+",
+        "label": "Tamamlanan Proje"
+      },
+      {
+        "value": "119+",
+        "label": "Robotik Otomasyon"
+      },
+      {
+        "value": "99%",
+        "label": "Web Sitesi Analizi"
+      },
+      {
+        "value": "321+",
+        "label": "Müşteri Desteği"
+      }
+    ]
+  },
+  "chooseUs": {
+    "subtitle": "BİZİ SEÇME NEDENİNİZ",
+    "title": "Gerçekten öne çıkan BT çözümleri sunuyoruz.",
+    "items": [
+      {
+        "image": "/assets/images/ser-icon9.png",
+        "title": "Altyapı <br/> Teknolojisi",
+        "description": "Güvenilir ve ölçeklenebilir altyapı çözümleriyle işinizi geleceğe taşıyın. Kesintisiz hizmet garantisi."
+      },
+      {
+        "image": "/assets/images/counter-3.png",
+        "title": "Yüksek profesyonel ekip üyeleri",
+        "description": "Alanında uzman, deneyimli profesyonellerle projelerinizi hayata geçirin. Kalite odaklı çalışma."
+      },
+      {
+        "image": "/assets/images/ser-icon10.png",
+        "title": "Güvenlik <br/> Yönetimi",
+        "description": "Verilerinizi ve sistemlerinizi en üst düzey güvenlik protokolleriyle koruyun. Sıfır risk hedefi."
+      },
+      {
+        "image": "/assets/images/ser-icon12.png",
+        "title": "Masaüstü <br/> Hesaplama",
+        "description": "Yüksek performanslı masaüstü çözümleriyle iş verimliliğinizi artırın. Optimize edilmiş sistemler."
+      },
+      {
+        "image": "/assets/images/counter-1.png",
+        "title": "Altyapı <br/> Teknolojisi",
+        "description": "Modern teknolojilerle kurumsal altyapınızı güçlendirin. Esnek ve sürdürülebilir çözümler sunuyoruz."
+      },
+      {
+        "image": "/assets/images/counter-2.png",
+        "title": "Yüksek getirili yatırım fikirleri",
+        "description": "Teknoloji yatırımlarınızdan maksimum değer alın. Stratejik danışmanlık ve ROI odaklı planlama."
+      },
+      {
+        "image": "/assets/images/ser-icon21.png",
+        "title": "Tam yüksek BT <br/> Yönetimi",
+        "description": "BT süreçlerinizi baştan sona profesyonelce yönetin. Sorunsuz operasyon için kapsamlı destek."
+      },
+      {
+        "image": "/assets/images/ser-icon22.png",
+        "title": "Veri güvenliği ve yönetimi",
+        "description": "Kurumsal verilerinizi güvenle saklayın ve yönetin. Uyumluluk standartlarında tam koruma sağlıyorız."
+      }
+    ]
+  }
+}
+

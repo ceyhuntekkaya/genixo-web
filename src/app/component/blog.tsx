@@ -9,14 +9,15 @@ interface PageProps {
     locale: Locale;
 }
 export default function BlogSection({ dict, locale }: PageProps) {
-    const blogs = dict.blogs ? Object.keys(dict.blogs)
+    const blogsData = dict.blogs;
+    const blogs = blogsData ? Object.keys(blogsData)
         .filter(key => {
-            const blog = dict.blogs[key];
+            const blog = blogsData[key];
             return blog && blog.active !== false;
         })
         .slice(0, 3) // Show maximum 3 items on homepage
         .map((key) => {
-            const blog = dict.blogs[key];
+            const blog = blogsData[key];
             const slug = key === 'ai-not-just-technology' 
                 ? (locale === 'tr' ? 'yapay-zeka-sadece-bir-teknoloji-degil-yeni-bir-calisma-kulturu' : 'ai-not-just-technology')
                 : key;
@@ -38,16 +39,18 @@ export default function BlogSection({ dict, locale }: PageProps) {
         });
     };
 
-    if (blogs.length === 0) {
+    if (blogs.length === 0 || !dict.blog) {
         return null;
     }
+
+    const blogDict = dict.blog;
 
     return (
         <div className="section techwix-blog-section section-padding-02">
             <div className="container">
                 <div className="section-title text-center">
-                    <h4 className="sub-title">{dict.blog.latestBlog}</h4>
-                    <h2 className="title">{dict.blog.fromNewsRoom}</h2>
+                    <h4 className="sub-title">{blogDict.latestBlog}</h4>
+                    <h2 className="title">{blogDict.fromNewsRoom}</h2>
                 </div>
                 <div className="techwix-blog-wrap">
                     <div className="row">
@@ -79,7 +82,7 @@ export default function BlogSection({ dict, locale }: PageProps) {
                                         )}
                                         <div className="blog-btn">
                                             <Link className="blog-btn-link" href={`/${locale}/blog/${slug}`}>
-                                                {dict.blog.readFull} <i className="fas fa-long-arrow-alt-right"></i>
+                                                {blogDict.readFull} <i className="fas fa-long-arrow-alt-right"></i>
                                             </Link>
                                         </div>
                                     </div>

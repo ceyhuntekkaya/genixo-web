@@ -1,0 +1,42 @@
+{
+  "seo": {
+    "home": {
+      "keywords": "développement logiciel, application web, application mobile, solutions cloud, logiciel IA, conseil en logiciel, DevOps, science des données, Genixo"
+    },
+    "about": {
+      "keywords": "à propos de nous, entreprise de logiciels, entreprise technologique"
+    },
+    "contact": {
+      "keywords": "contact, formulaire de contact, conseil en logiciel",
+      "description": "Contactez Genixo IT et Technologie. Contactez-nous pour des solutions logicielles et des services de conseil."
+    },
+    "blog": {
+      "keywords": "blog, blog logiciel, actualités technologiques, développement logiciel",
+      "description": "Page de blog Genixo IT et Technologie. Contenu actuel sur le développement logiciel, les tendances technologiques et les actualités de l'industrie."
+    },
+    "products": {
+      "keywords": "produits logiciels, logiciel IA, logiciel éducatif, logiciel d'entreprise",
+      "description": "Produits Genixo IT et Technologie. Solutions logicielles alimentées par l'IA, plateformes éducatives et produits logiciels d'entreprise."
+    },
+    "solutions": {
+      "keywords": "solutions logicielles, application web, développement mobile, solutions cloud, DevOps, science des données",
+      "description": "Solutions Genixo IT et Technologie. Application web, développement mobile, solutions cloud, services DevOps et science des données."
+    },
+    "caseStudy": {
+      "keywords": "histoires de succès, étude de cas, projets clients, projets logiciels"
+    },
+    "governmentSupport": {
+      "keywords": "soutien gouvernemental, KOSGEB, TÜBİTAK, conseil, conseil en logiciel",
+      "description": "Services de soutien gouvernemental et de conseil Genixo IT et Technologie. Conseil pour KOSGEB, TÜBİTAK et autres programmes de soutien gouvernemental.",
+      "comingSoon": "Ce contenu est en cours de préparation et sera bientôt disponible."
+    },
+    "ngsd": {
+      "keywords": "NGSD, département logiciel de nouvelle génération, solutions logicielles"
+    },
+    "common": {
+      "blog": "blog",
+      "softwareProducts": "produits logiciels",
+      "softwareSolutions": "solutions logicielles"
+    }
+  }
+}

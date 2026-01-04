@@ -1,0 +1,26 @@
+{
+  "about": {
+    "WhoWeAre": "Who we are",
+    "slogan": "Software Solution Partner & Innovation Company",
+    "short": "To create successful software, you need a development team that understands your business requirements. Our experts will determine a custom solution that fits your idea, timeline, and budget, then design and build the application and help you test it with real users. As a result, you will get a modern digital product that benefits your business and is loved by users.",
+    "description": "Genixo is a technology company operating in Bilkent University Cyberpark, developing AI-focused educational platforms and corporate solutions. Our team consists of developers with deep expertise in modern web technologies and AI integrations. We build scalable, secure, and user-friendly systems using powerful technologies such as Spring Boot, Next.js, and PostgreSQL. We make a difference in Turkey's educational technology ecosystem with successful projects like StudyScore AI and Egitimiste.com. We offer a wide range of solutions, from AI-powered adaptive learning platforms to corporate document management systems, from real-time exam applications to educational discovery platforms. As a trusted technology partner in our clients' digital transformation journey, we work to understand business needs and produce the most suitable solutions.",
+    "values": {
+      "dynamism": {
+        "title": "Dynamism",
+        "content": "Information technology is the sector with the largest observable market share in the world, and interestingly, it didn't take long to reach this size. So how did this happen? Through technology and therefore innovation. Development and change are so fast that it can be difficult to keep up. It is becoming increasingly difficult to keep up with new dynamics and act proactively. As Genixo, our mission here is clear: to stay dynamic. Genixo's vision in this regard is to always stay current and respond to the needs of the day, no matter how fast the IT world changes and no matter how different the needs are. We have a corporate understanding that calculates the future by constantly adopting a proactive attitude and can give appropriate responses to unforeseen problems. This way we can always stay dynamic!"
+      },
+      "passion": {
+        "title": "Passion and Commitment",
+        "content": "Here, there is no commitment without passion. Without commitment, a passion can never reach its potential and is doomed to be less successful. Genixo, aware of this, is more than a company; it is a community of people who are aware that personal development has no limits, who aim to constantly improve themselves, who are passionately committed to their goals and dedicated to achieving these goals. In line with this community consciousness built on passion and dedication, we invite ourselves and everyone we work with to develop their potential, think bigger, work more dedicatedly, and be more successful!"
+      },
+      "professionalism": {
+        "title": "Professionalism",
+        "content": "Success can be achieved when you are talented or experienced in a job. However, for the success achieved to be permanent, a professional approach is essential; otherwise, you will definitely shorten the lifespan of the success you have achieved. The Genixo understanding aims for permanence and sustainable success both individually and corporately, with a brand culture where talented and experienced people work professionally. We don't leave success to chance with our professional business awareness."
+      }
+    },
+    "authorName": "Ceyhun Tekkaya",
+    "authorTitle": "CEO, Genixo",
+    "callToAsk": "Call to ask any question",
+    "phoneNumber": "+90 532 207 67 30"
+  }
+}

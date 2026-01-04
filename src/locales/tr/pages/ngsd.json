@@ -1,0 +1,27 @@
+{
+  "ngsd": {
+    "title": "Genixo NGSD",
+    "subtitle": "Genixo Yeni Nesil Yazılım Departmanı - Uçtan uca en iyi yazılım çözümü!",
+    "forWho": {
+      "title": "Kimin için?",
+      "content": "Bir yazılım ekibiniz yoksa, bu sizin için en iyi çözüm olabilir!"
+    },
+    "whatIs": {
+      "title": "NGSD nedir?",
+      "content": "Bizi ve sizi pazarda bir adım öteye taşıyan en kapsamlı 360 Derece, Dinamik, Uluslararası ve Uzak çözümümüz. Yazılım ihtiyaçlarınızı karşılayacak bir ekip oluşturmak her zaman en net çözüm olarak görülebilir ancak bilindiği üzere yazılım ekibi/departmanı kurmak oldukça maliyetli bir iş olabilir. Genixo NGSD burada devreye giriyor ve sizi bir ekip/departman kurma zahmetinden kurtarıyor. Markanıza atanan Genixo proje yöneticisi yazılım yöneticiniz, Genixo ise yazılım departmanınız oluyor!"
+    },
+    "remote": {
+      "title": "Uzak",
+      "content": "Uzak ama yakın! Nasıl? Ayrıcalıklı bir müşteri deneyimi ile. Genixo olarak mesafelerin bir anlam ifade etmemesini hedefliyoruz. Şeffaf bir operasyon anlayışı ile süreçleri sürekli takip etmenizi sağlıyor, planlı toplantılar yaparak ve anlık müşteri desteği sağlayarak iletişimimizi en üst seviyede tutmaya özen gösteriyoruz. Uzaktan yazılım departmanı ile biz verimliliğinizi artırır, siz maliyetlerinizi düşürürsünüz."
+    },
+    "dynamic": {
+      "title": "Dinamik",
+      "content": "İşinizin dinamiklerine hızla uyum sağlamak bizim işimiz! NGSD ile birlikte ihtiyaçlarınızı sürekli olarak analiz edebiliyor ve projelerinizin durumuna göre ekibi büyütüp küçültebiliyoruz, böylece ihtiyaçlarınız için her zaman en uygun şekilde konumlanıyoruz."
+    },
+    "global": {
+      "title": "Küresel",
+      "content": "Bırak dünya küçülsün, sen büyü! Dünya küçülürken kimse yerel olarak sınırlandırılmak istemez. Biz de bu motivasyonu taşıyor, projelerimizi global ölçekte faaliyet gösterebilecek bir vizyon ve altyapı üzerine inşa ediyoruz. Ulusötesi vizyonumuz ve Genixo NGSD modelimizle, global olarak faaliyet gösterebileceğiniz bir yapıda tüm yazılım ihtiyaçlarınızı hayata geçirmemiz ve geliştirmemiz mümkün. Bizimle aynı fikirde olan tüm tutkulu markaları bu yolda birlikte yürümeye davet ediyoruz."
+    }
+  }
+}
+

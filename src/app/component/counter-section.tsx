@@ -10,7 +10,7 @@ export default async function CounterSection({ locale }: { locale: Locale }) {
             <div className="container">
                 <div className="counter-wrap" style={{ backgroundImage: `url(${counterLogo.src})` }}>
                     <div className="row">
-                        {dict.counter.items.map((item, index) => (
+                        {dict.counter.items.map((item: { value: string; label: string }, index: number) => (
                             <div key={index} className="col-lg-3 col-sm-6">
                                 <div className="single-counter-02 text-center">
                                     <span>{item.value}</span>

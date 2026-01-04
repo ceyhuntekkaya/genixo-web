@@ -1,0 +1,75 @@
+{
+  "seo": {
+    "home": {
+      "keywords": "yazılım geliştirme, web uygulaması, mobil uygulama, bulut çözümleri, AI yazılım, yazılım danışmanlığı, DevOps, veri bilimi, Genixo"
+    },
+    "about": {
+      "keywords": "hakkımızda, yazılım şirketi, teknoloji şirketi"
+    },
+    "contact": {
+      "keywords": "iletişim, iletişim formu, yazılım danışmanlığı",
+      "description": "Genixo Bilişim ve Teknoloji ile iletişime geçin. Yazılım çözümleri ve danışmanlık hizmetleri için bize ulaşın."
+    },
+    "blog": {
+      "keywords": "blog, yazılım blog, teknoloji haberleri, yazılım geliştirme",
+      "description": "Genixo Bilişim ve Teknoloji blog sayfası. Yazılım geliştirme, teknoloji trendleri ve sektör haberleri hakkında güncel içerikler."
+    },
+    "products": {
+      "keywords": "yazılım ürünleri, AI yazılım, eğitim yazılımı, kurumsal yazılım",
+      "description": "Genixo Bilişim ve Teknoloji ürünleri. AI destekli yazılım çözümleri, eğitim platformları ve kurumsal yazılım ürünleri."
+    },
+    "solutions": {
+      "keywords": "yazılım çözümleri, web uygulaması, mobil geliştirme, bulut çözümleri, DevOps, veri bilimi",
+      "description": "Genixo Bilişim ve Teknoloji çözümleri. Web uygulaması, mobil geliştirme, bulut çözümleri, DevOps ve veri bilimi hizmetleri."
+    },
+    "caseStudy": {
+      "keywords": "başarı hikayeleri, case study, müşteri projeleri, yazılım projeleri"
+    },
+    "governmentSupport": {
+      "keywords": "devlet destekleri, KOSGEB, TÜBİTAK, danışmanlık, yazılım danışmanlığı",
+      "description": "Genixo Bilişim ve Teknoloji devlet destekleri ve danışmanlık hizmetleri. KOSGEB, TÜBİTAK ve diğer devlet destekleri için danışmanlık.",
+      "title": "Dijital Dönüşüm Destek Programı",
+      "subtitle": "20 Milyon TL'ye Kadar Kredi Faiz Desteği",
+      "summary": {
+        "title": "Program Hakkında Özet",
+        "content": "Türkiye'deki sanayi işletmelerinin dijitalleşme süreçlerini hızlandırmak ve teknolojik altyapılarını güçlendirmek amacıyla hayata geçirilen bir finansman destek modelidir."
+      },
+      "supportLimit": {
+        "title": "Destek Üst Limiti:",
+        "amount": "20.000.000 TL",
+        "note": "(Kredi faiz veya kâr payı giderleri için sağlanan destek tutarıdır.)"
+      },
+      "expenses": {
+        "title": "Destek Kapsamındaki Harcamalar:",
+        "hardware": {
+          "title": "Donanım:",
+          "content": "Sunucu, ağ bileşenleri ve akıllı üretim sistemleri."
+        },
+        "software": {
+          "title": "Yazılım:",
+          "content": "ERP, CRM, veri analitiği ve siber güvenlik çözümleri."
+        },
+        "service": {
+          "title": "Hizmet:",
+          "content": "Dijital dönüşüm danışmanlığı ve entegrasyon süreçleri."
+        }
+      },
+      "eligibility": {
+        "title": "Kimler Başvurabilir?",
+        "content": "Dijital Dönüşüm Olgunluk Analizi yaptırmış ve onaylı bir yol haritasına sahip sanayi işletmeleri."
+      },
+      "footer": {
+        "content": "Daha detaylı bilgi ve başvuru süreci için ilgili bakanlık portalını ziyaret edebilirsiniz."
+      }
+    },
+    "ngsd": {
+      "keywords": "NGSD, yeni nesil yazılım departmanı, yazılım çözümleri"
+    },
+    "common": {
+      "blog": "blog",
+      "softwareProducts": "yazılım ürünleri",
+      "softwareSolutions": "yazılım çözümleri"
+    }
+  }
+}
+

@@ -1,0 +1,22 @@
+{
+  "blogs": {
+    "ai-not-just-technology": {
+      "title": "Yapay Zeka Sadece Bir Teknoloji Değil, Yeni Bir Çalışma Kültürü",
+      "excerpt": "Yapay zeka, artık yalnızca belirli görevleri hızlandıran bir teknoloji değil. İş yapma biçimimizi, ekipler arası iletişimi ve hatta kurum içi karar alma süreçlerini dönüştüren yeni bir çalışma kültürü hâline geliyor.",
+      "content": "<p>Uzun süredir iş dünyasını takip eden biri olarak şunu açıkça görüyorum: Yapay zeka, artık yalnızca belirli görevleri hızlandıran bir teknoloji değil. İş yapma biçimimizi, ekipler arası iletişimi ve hatta kurum içi karar alma süreçlerini dönüştüren yeni bir çalışma kültürü hâline geliyor.</p><p>Geçmişte verimlilik, genellikle süreçlerin dijitalleştirilmesiyle sağlanırken; bugün bu tanım, yapay zeka destekli otomasyon, öngörü ve hız eksenine kaymış durumda. McKinsey'in 2024 verilerine göre, generatif yapay zeka kullanan çalışanlar haftalık ortalama %5,4 zaman tasarrufu sağlıyor. Bu da, 40 saatlik bir çalışma haftasında yaklaşık 2 saatlik kazanım demek. Görünüşte küçük gibi duran bu fark, büyük ekiplerde ve uzun vadede ekonomik üretkenliği %1,1 oranında artırabilecek potansiyele sahip.</p><p>Daha da çarpıcı olan ise, bu teknolojilerin sadece bireysel üretkenlik değil, kolektif iş yapma biçimini de dönüştürüyor olması. Artık kararlar; hissiyatla değil, veriye dayalı analizlerle şekilleniyor. Yapay zeka araçları, yöneticilere daha isabetli tahminler sunarken; çalışanlar da bu sayede zamanlarının büyük kısmını tekrarlayan işlerden kurtararak yaratıcı süreçlere ayırabiliyor. Öyle ki, Amerika'daki şirketlerin %93'ü halihazırda yapay zeka tabanlı çözümler kullanıyor. Ancak çalışanların yalnızca yarısı bu araçlarla nasıl çalışacağını biliyor. Bu da, teknolojiye değil kültüre yatırım yapılması gerektiğini gösteriyor.</p><p>Çalışma kültürünün dönüşümü sadece üretkenlikle sınırlı değil. Toplantılar artık daha kısa; iletişim daha öz. E-posta trafiği yerine yapay zekâ destekli özetlemeler, doküman analizleri ve bilgiye doğrudan ulaşımı mümkün kılan öneri sistemleri öne çıkıyor. IBM'in 2024 raporuna göre, yapay zeka kullanan çalışanların %90'ı bu araçların zaman kazandırdığını söylüyor. Bu da bize gösteriyor ki, yapay zekâ araçları yalnızca \"yardımcı\" değil, aslında yeni bir iş arkadaşı haline gelmiş durumda.</p><p>Tüm bu dönüşümün içinde, sadece gözlemleyen değil, katkı sunan biri olma hedefiyle bir süredir üzerinde çalıştığımız projeyi hayata geçirmeye başladık: Genixo Work AI. Amacımız, yapay zekayı çalışma hayatının doğal bir parçası haline getirmek. Takımların bilgiye daha hızlı ulaşmasını, daha bilinçli kararlar almasını ve daha verimli süreçler oluşturmasını sağlamak için bu platformu geliştiriyoruz. Yani biz sadece bir yazılım üretmiyoruz; yeni nesil çalışma kültürünü tasarlıyoruz.</p><p>Bu platform, ekiplerin doğal dilde verdiği basit komutlarla (örneğin, \"geçen ayki satış raporunu hazırla ve yeni müşterilere teklif oluştur\") karmaşık iş süreçlerini başlatabileceği; yapay zekanın sadece destekleyici değil, işin içinde aktif bir aktör olduğu bir yeni nesil iş kültürünü hedefliyor.</p><p>Proje henüz ilk aşamalarında — ama her satır kodda, her karar anında temel soruya sadığız: \"Yapay zekâ ile sadece daha hızlı mı, yoksa tamamen farklı mı çalışacağız?\"</p><p>Yapay zekayı yalnızca bir teknoloji değil, iş dünyasının geleceğini şekillendiren bir zihin yapısı olarak gören herkesle bağlantı kurmak, fikir alışverişinde bulunmak isterim. Bu dönüşümün bir parçası olmak isteyenlerle birlikte öğrenmek ve ilerlemek için buradayım.</p>",
+      "date": "2025-07-29",
+      "author": {
+        "name": "Ceyhun Tekkaya",
+        "title": "Co-Founder of Genixo"
+      },
+      "image": "/images/1753787699394.png",
+      "active": true
+    }
+  },
+  "blog": {
+    "latestBlog": "Son Blog",
+    "fromNewsRoom": "Haberlerden",
+    "readFull": "Devamını Oku"
+  }
+}
+

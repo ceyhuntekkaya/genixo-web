@@ -12,6 +12,12 @@ interface FooterSectionProps {
 }
 
 export default function FooterSection({ locale, dict }: FooterSectionProps) {
+    if (!dict.footer) {
+        return null;
+    }
+
+    const footer = dict.footer;
+
     // Aktif ürünleri al
     const activeProducts = Object.keys(dict.products)
         .filter(key => {
@@ -19,8 +25,9 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
             return product && product.active !== false;
         })
         .map(key => {
-            const product = dict.products[key as keyof typeof dict.products];
-            const productSlug = getProductSlug(key as keyof typeof dict.products);
+            const productKey = key as keyof import('@/i18n/types').Dictionary['products'];
+            const product = dict.products[productKey];
+            const productSlug = getProductSlug(productKey);
             return { key, product, slug: productSlug };
         })
         .filter(item => item.product && item.slug);
@@ -33,8 +40,9 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
             return service && 'active' in service && service.active !== false && 'name' in service;
         })
         .map(key => {
-            const service = dict.services[key as keyof typeof dict.services];
-            const solutionSlug = getSolutionSlug(key as keyof typeof dict.services);
+            const serviceKey = key as keyof import('@/i18n/types').Dictionary['services'];
+            const service = dict.services[serviceKey];
+            const solutionSlug = getSolutionSlug(serviceKey);
             return { key, service, slug: solutionSlug };
         })
         .filter(item => item.service && item.slug && 'name' in item.service);
@@ -95,7 +103,7 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
                         </div>
                         <div className="col-lg-3 col-sm-6">
                             <div className="footer-widget">
-                                <h4 className="footer-widget-title">{dict.footer.contactInfo}</h4>
+                                <h4 className="footer-widget-title">{footer.contactInfo}</h4>
                                 <div className="widget-info">
                                     <ul>
                                         <li>
@@ -119,7 +127,7 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
                                                 <i className="flaticon-pin"></i>
                                             </div>
                                             <div className="info-text">
-                                                <span>{dict.footer.address}</span>
+                                                <span>{footer.address}</span>
                                             </div>
                                         </li>
                                     </ul>
@@ -136,7 +144,7 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
                         <div className="row align-items-center">
                             <div className="col-lg-12">
                                 <div className="copyright-text text-center">
-                                    <p>{dict.footer.copyright}</p>
+                                    <p>{footer.copyright}</p>
                                 </div>
                             </div>
                         </div>

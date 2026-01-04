@@ -1,0 +1,131 @@
+{
+  "products": {
+    "ILC": {
+      "name": "ILC International Language Certification",
+      "summary": "Uluslararası dil sertifikasyonu ve değerlendirme için kapsamlı bir platform.",
+      "description": "ILC International Language Certification, dil öğrenme ve sertifikasyon süreçlerini kolaylaştırmak için tasarlanmış modern bir platformdur.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg",
+      "longDescription": "<p>Platformumuz kapsamlı değerlendirme araçları, sertifika yönetimi ve detaylı raporlama özellikleri sunar.</p><p>Platform birden fazla dili destekler ve tüm seviyelerdeki öğrenciler için esnek sertifikasyon yolları sunar. Gelişmiş analitik ve raporlama özellikleriyle, eğitimciler ve kurumlar ilerlemeyi takip edebilir ve kalite standartlarını sağlayabilir.</p><h3>Temel Özellikler</h3><p>Temel yetenekler arasında otomatik değerlendirme, sertifika oluşturma, ilerleme takibi ve kapsamlı raporlama bulunur. Platform ölçeklenebilir olarak tasarlanmıştır ve her boyuttaki kurumu barındırabilir.</p>",
+      "features": [
+        "Çoklu dil desteği",
+        "Otomatik değerlendirme ve notlandırma",
+        "Sertifika oluşturma ve yönetimi",
+        "Kapsamlı ilerleme takibi",
+        "Gelişmiş analitik ve raporlama",
+        "Ölçeklenebilir mimari"
+      ],
+      "active": true,
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+    },
+    "StudyScoreAI": {
+      "name": "Study Score AI",
+      "summary": "Eğitim değerlendirmesi ve öğrenci performans analizi için AI destekli platform.",
+      "description": "Study Score AI, öğrenci performansının akıllı değerlendirmesi ve analizini sağlamak için yapay zekayı kullanır. Platform, öğrenme kalıplarını belirlemek, sonuçları tahmin etmek ve kişiselleştirilmiş öneriler sunmak için gelişmiş makine öğrenimi algoritmaları kullanır.\n\nStudy Score AI ile eğitimciler, öğrenci öğrenme davranışları hakkında daha derin içgörüler elde edebilir, dikkat gerektiren alanları belirleyebilir ve hedeflenmiş destek sağlayabilir. Platform gerçek zamanlı analitik, otomatik notlandırma ve kapsamlı raporlama araçları sunar.\n\nSistem, mevcut eğitim altyapısıyla sorunsuz bir şekilde entegre olacak şekilde tasarlanmıştır ve belirli kurumsal ihtiyaçları karşılamak için özelleştirilebilir.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg",
+      "features": [
+        "AI destekli performans analizi",
+        "Tahmine dayalı analitik",
+        "Kişiselleştirilmiş öğrenme önerileri",
+        "Gerçek zamanlı ilerleme takibi",
+        "Otomatik notlandırma sistemi",
+        "Kapsamlı raporlama paneli"
+      ],
+      "active": true,
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+    },
+    "Egitimiste": {
+      "name": "egitimiste.com",
+      "summary": "Öğrencileri kaliteli eğitim kaynaklarıyla buluşturan kapsamlı eğitim platformu.",
+      "description": "egitimiste.com, öğrencileri kaliteli eğitim kaynakları, kurslar ve kurumlarla buluşturmak için tasarlanmış kapsamlı bir eğitim platformudur. Platform, öğrenenler ve eğitim fırsatları arasında bir köprü görevi görür.\n\nPlatform, kapsamlı bir eğitim programları, kurumlar ve kaynaklar veritabanına sahiptir. Öğrenciler ilgi ve hedeflerine uygun programları arayabilir, karşılaştırabilir ve başvurabilir.\n\nKullanıcı dostu arayüzler ve güçlü arama yetenekleriyle, egitimiste.com öğrencilerin doğru eğitim yolunu bulmasını kolaylaştırır. Platform ayrıca kurumların programlarını sergilemesi ve potansiyel öğrencilerle bağlantı kurması için araçlar sağlar.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg",
+      "features": [
+        "Kapsamlı program veritabanı",
+        "Gelişmiş arama ve filtreleme",
+        "Başvuru yönetimi",
+        "Kurum profilleri",
+        "Öğrenci kaynakları ve rehberler",
+        "Çoklu dil desteği"
+      ],
+      "active": true,
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+    },
+    "GenixoWorkAI": {
+      "name": "Genixo Work AI",
+      "summary": "AI destekli işyeri verimliliği ve işbirliği platformu.",
+      "description": "Genixo Work AI, verimliliği artırmak, iş akışlarını kolaylaştırmak ve işbirliğini iyileştirmek için yapay zekayı kullanan akıllı bir işyeri platformudur. Platform, ekiplerin daha verimli çalışmasına yardımcı olmak için tasarlanmış bir araç seti sunar.\n\nGelişmiş AI yetenekleriyle, Genixo Work AI rutin görevleri otomatikleştirebilir, akıllı içgörüler sağlayabilir ve daha iyi karar vermeyi kolaylaştırabilir. Platform popüler iş araçlarıyla entegre olur ve ekipler için birleşik bir çalışma alanı sağlar.\n\nTemel özellikler arasında görev otomasyonu, akıllı zamanlama, belge yönetimi, ekip işbirliği araçları ve kapsamlı analitik bulunur. Platform, organizasyonunuzla birlikte ölçeklenecek ve belirli iş akışı ihtiyaçlarınıza uyum sağlayacak şekilde tasarlanmıştır.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg",
+      "features": [
+        "AI destekli görev otomasyonu",
+        "Akıllı zamanlama ve planlama",
+        "Belge yönetimi ve işbirliği",
+        "Ekip iletişim araçları",
+        "İş akışı optimizasyonu",
+        "Gelişmiş analitik ve içgörüler"
+      ],
+      "active": true,
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+    },
+    "GenixoAssistant": {
+      "name": "Genixo Assistant",
+      "summary": "İş operasyonları ve müşteri desteği için akıllı sanal asistan.",
+      "description": "Genixo Assistant, geniş bir iş operasyonları ve müşteri desteği görevlerini yerine getirmek için tasarlanmış, yapay zeka destekli gelişmiş bir sanal asistandır. Asistan doğal dili anlayabilir, istekleri işleyebilir ve akıllı yanıtlar sağlayabilir.\n\nPlatform, 7/24 destek sağlamak için web sitelerine, uygulamalara ve iş sistemlerine entegre edilebilir. Müşteri sorgularını yanıtlayabilir, randevu planlayabilir, bilgi sağlayabilir ve çeşitli iş süreçlerinde yardımcı olabilir.\n\nSürekli öğrenme yetenekleriyle, Genixo Assistant zamanla gelişir ve giderek daha doğru ve yardımcı yanıtlar sağlar. Platform birden fazla dili destekler ve marka sesinize ve belirli iş ihtiyaçlarınıza uyacak şekilde özelleştirilebilir.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg",
+      "features": [
+        "Doğal dil işleme",
+        "7/24 erişilebilirlik",
+        "Çoklu dil desteği",
+        "Özelleştirilebilir yanıtlar",
+        "Entegrasyon yetenekleri",
+        "Sürekli öğrenme ve iyileştirme"
+      ],
+      "active": true,
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+    },
+    "TOMEREYadis": {
+      "name": "TÖMER E-Yadis",
+      "summary": "Türkçe dil eğitimi ve sertifikasyonu için dijital platform.",
+      "description": "TÖMER E-Yadis, Türkçe dil eğitimi ve sertifikasyonu için tasarlanmış kapsamlı bir dijital platformdur. Platform, başlangıçtan ileri seviyeye kadar Türkçe dil kursları için eksiksiz bir öğrenme yönetim sistemi sağlar.\n\nPlatform interaktif dersler, değerlendirme araçları, ilerleme takibi ve sertifika yönetimi özelliklerine sahiptir. Öğrenciler ders materyallerine erişebilir, ödevleri tamamlayabilir, değerlendirmeler yapabilir ve platform üzerinden ilerlemelerini takip edebilir.\n\nEğitimciler kursları yönetebilir, içerik oluşturabilir, öğrenci performansını değerlendirebilir ve sertifika verebilir. Platform hem senkron hem de asenkron öğrenmeyi destekler, bu da farklı öğrenme stilleri ve programlar için esneklik sağlar.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg",
+      "features": [
+        "Kapsamlı kurs yönetimi",
+        "İnteraktif öğrenme materyalleri",
+        "Değerlendirme ve sertifikasyon araçları",
+        "İlerleme takibi ve analitik",
+        "Çok seviyeli kurs yapısı",
+        "Esnek öğrenme seçenekleri"
+      ],
+      "active": true,
+      "showOnHomepage": true
+    },
+    "RetiredTravelApp": {
+      "name": "Retired Travel App",
+      "summary": "Emekli gezginler için tasarlanmış, seyahat planlama ve yardım hizmetleri sunan mobil uygulama.",
+      "description": "Retired Travel App, emekli gezginlerin benzersiz ihtiyaçlarını karşılamak için tasarlanmış özel bir mobil uygulamadır. Uygulama, yaşlı gezginler için özel olarak hazırlanmış kapsamlı seyahat planlama araçları, destinasyon bilgileri ve yardım hizmetleri sunar.\n\nUygulama, tüm kullanıcılar için rahat olmasını sağlamak için kullanımı kolay arayüzler, büyük metin seçenekleri ve erişilebilirlik özelliklerine sahiptir. Yaşlı dostu destinasyonlar, seyahat ipuçları ve yardım hizmetleri hakkında bilgi sağlar.\n\nTemel özellikler arasında seyahat planlama, destinasyon rehberleri, seyahat uyarıları, acil yardım ve diğer gezginlerle bağlantı kurmak için sosyal özellikler bulunur. Uygulama, emekli bireyler için seyahat planlama ve navigasyonu daha kolay ve keyifli hale getirmek için tasarlanmıştır.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg",
+      "features": [
+        "Yaşlı dostu arayüz tasarımı",
+        "Kapsamlı seyahat planlama araçları",
+        "Destinasyon rehberleri ve öneriler",
+        "Seyahat uyarıları ve güncellemeler",
+        "Acil yardım özellikleri",
+        "Gezgin bağlantıları için sosyal özellikler"
+      ],
+      "active": true,
+      "showOnHomepage": true,
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+    }
+  }
+}
+

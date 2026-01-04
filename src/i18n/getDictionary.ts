@@ -1,12 +1,48 @@
 import 'server-only';
 import type { Locale } from './config';
 
+const loadDictionary = async (locale: Locale) => {
+    const [
+        common,
+        services,
+        products,
+        home,
+        about,
+        blog,
+        ngsd,
+        contact,
+        seo
+    ] = await Promise.all([
+        import(`@/locales/${locale}/common.json`).then((m) => m.default),
+        import(`@/locales/${locale}/services.json`).then((m) => m.default),
+        import(`@/locales/${locale}/products.json`).then((m) => m.default),
+        import(`@/locales/${locale}/pages/home.json`).then((m) => m.default),
+        import(`@/locales/${locale}/pages/about.json`).then((m) => m.default),
+        import(`@/locales/${locale}/pages/blog.json`).then((m) => m.default),
+        import(`@/locales/${locale}/pages/ngsd.json`).then((m) => m.default),
+        import(`@/locales/${locale}/pages/contact.json`).then((m) => m.default),
+        import(`@/locales/${locale}/seo.json`).then((m) => m.default),
+    ]);
+
+    return {
+        ...common,
+        ...services,
+        ...products,
+        ...home,
+        ...about,
+        ...blog,
+        ...ngsd,
+        ...contact,
+        ...seo,
+    };
+};
+
 const dictionaries = {
-    en: () => import('@/locales/en/common.json').then((module) => module.default),
-    tr: () => import('@/locales/tr/common.json').then((module) => module.default),
-    de: () => import('@/locales/de/common.json').then((module) => module.default),
-    fr: () => import('@/locales/fr/common.json').then((module) => module.default),
-    ru: () => import('@/locales/ru/common.json').then((module) => module.default),
+    en: () => loadDictionary('en'),
+    tr: () => loadDictionary('tr'),
+    de: () => loadDictionary('de'),
+    fr: () => loadDictionary('fr'),
+    ru: () => loadDictionary('ru'),
 };
 
 export const getDictionary = async (locale: Locale) => {

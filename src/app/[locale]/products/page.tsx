@@ -54,8 +54,9 @@ export default async function ProductsPage({
                         <div className="choose-us-content-wrap">
                             <div className="row">
                                 {Object.keys(dict.products).map((key) => {
-                                    const product = dict.products[key as keyof typeof dict.products];
-                                    const productSlug = getProductSlug(key as keyof typeof dict.products);
+                                    const productKey = key as keyof import('@/i18n/types').Dictionary['products'];
+                                    const product = dict.products[productKey];
+                                    const productSlug = getProductSlug(productKey);
                                     
                                     if (!product || !productSlug || !('name' in product) || !('summary' in product)) {
                                         return null;

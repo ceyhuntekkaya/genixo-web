@@ -54,8 +54,9 @@ export default async function SolutionsPage({
                         <div className="choose-us-content-wrap">
                             <div className="row">
                                 {Object.keys(dict.services).filter(key => key !== 'general').map((key) => {
-                                    const solution = dict.services[key as keyof typeof dict.services];
-                                    const solutionSlug = getSolutionSlug(key as keyof typeof dict.services);
+                                    const solutionKey = key as keyof import('@/i18n/types').Dictionary['services'];
+                                    const solution = dict.services[solutionKey];
+                                    const solutionSlug = getSolutionSlug(solutionKey);
                                     
                                     if (!solution || !solutionSlug || !('name' in solution) || !('summary' in solution)) {
                                         return null;

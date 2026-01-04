@@ -1,0 +1,26 @@
+{
+  "about": {
+    "WhoWeAre": "Wer wir sind",
+    "slogan": "Software-Lösungspartner & Innovationsunternehmen",
+    "short": "Um erfolgreiche Software zu erstellen, benötigen Sie ein Entwicklungsteam, das Ihre Geschäftsanforderungen versteht. Unsere Experten werden eine maßgeschneiderte Lösung bestimmen, die zu Ihrer Idee, Ihrem Zeitplan und Ihrem Budget passt, dann die Anwendung entwerfen und erstellen und Ihnen helfen, sie mit echten Benutzern zu testen. Als Ergebnis erhalten Sie ein modernes digitales Produkt, das Ihrem Unternehmen nützt und von Benutzern geschätzt wird.",
+    "description": "Genixo ist ein Technologieunternehmen, das im Cyberpark der Bilkent-Universität tätig ist und KI-fokussierte Bildungsplattformen und Unternehmenslösungen entwickelt. Unser Team besteht aus Entwicklern mit fundiertem Fachwissen in modernen Webtechnologien und KI-Integrationen. Wir bauen skalierbare, sichere und benutzerfreundliche Systeme mit leistungsstarken Technologien wie Spring Boot, Next.js und PostgreSQL. Wir machen einen Unterschied im türkischen Bildungstechnologie-Ökosystem mit erfolgreichen Projekten wie StudyScore AI und Egitimiste.com. Wir bieten eine breite Palette von Lösungen, von KI-gestützten adaptiven Lernplattformen bis hin zu Unternehmensdokumentenmanagementsystemen, von Echtzeit-Prüfungsanwendungen bis hin zu Bildungsentdeckungsplattformen. Als vertrauenswürdiger Technologiepartner auf der digitalen Transformationsreise unserer Kunden arbeiten wir daran, Geschäftsanforderungen zu verstehen und die am besten geeigneten Lösungen zu entwickeln.",
+    "values": {
+      "dynamism": {
+        "title": "Dynamik",
+        "content": "Die Informationstechnologie ist der Sektor mit dem größten beobachtbaren Marktanteil der Welt, und interessanterweise hat es nicht lange gedauert, diese Größe zu erreichen. Wie ist das passiert? Durch Technologie und damit Innovation. Entwicklung und Wandel sind so schnell, dass es schwierig sein kann, Schritt zu halten. Es wird immer schwieriger, mit neuen Dynamiken Schritt zu halten und proaktiv zu handeln. Als Genixo ist unsere Mission hier klar: dynamisch zu bleiben. Genixos Vision in dieser Hinsicht ist es, immer aktuell zu bleiben und auf die Bedürfnisse des Tages zu reagieren, egal wie schnell sich die IT-Welt ändert und egal wie unterschiedlich die Bedürfnisse sind. Wir haben ein unternehmerisches Verständnis, das die Zukunft berechnet, indem wir ständig eine proaktive Haltung einnehmen und angemessene Antworten auf unvorhergesehene Probleme geben können. So können wir immer dynamisch bleiben!"
+      },
+      "passion": {
+        "title": "Leidenschaft und Engagement",
+        "content": "Hier gibt es kein Engagement ohne Leidenschaft. Ohne Engagement kann eine Leidenschaft niemals ihr Potenzial erreichen und ist dazu verdammt, weniger erfolgreich zu sein. Genixo, sich dessen bewusst, ist mehr als ein Unternehmen; es ist eine Gemeinschaft von Menschen, die sich bewusst sind, dass persönliche Entwicklung keine Grenzen hat, die darauf abzielen, sich ständig zu verbessern, die leidenschaftlich an ihre Ziele gebunden sind und sich der Verwirklichung dieser Ziele widmen. Im Einklang mit diesem Gemeinschaftsbewusstsein, das auf Leidenschaft und Hingabe aufbaut, laden wir uns selbst und alle, mit denen wir zusammenarbeiten, ein, ihr Potenzial zu entwickeln, größer zu denken, hingebungsvoller zu arbeiten und erfolgreicher zu sein!"
+      },
+      "professionalism": {
+        "title": "Professionalität",
+        "content": "Erfolg kann erreicht werden, wenn Sie talentiert oder erfahren in einem Job sind. Damit der erzielte Erfolg jedoch dauerhaft ist, ist ein professioneller Ansatz unerlässlich; andernfalls verkürzen Sie definitiv die Lebensdauer des erzielten Erfolgs. Das Genixo-Verständnis zielt auf Beständigkeit und nachhaltigen Erfolg sowohl individuell als auch unternehmerisch ab, mit einer Markenkultur, in der talentierte und erfahrene Menschen professionell arbeiten. Wir überlassen den Erfolg nicht dem Zufall mit unserem professionellen Geschäftsbewusstsein."
+      }
+    },
+    "authorName": "Ceyhun Tekkaya",
+    "authorTitle": "CEO, Genixo",
+    "callToAsk": "Rufen Sie an, um Fragen zu stellen",
+    "phoneNumber": "+90 532 207 67 30"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "services": {
+    "WebApplication": {
+      "summary": "Genixo, geleneksel web sitesi oluşturmanın sınırlarının ötesinde karmaşık projeleri teslim edebilen tutkulu bir web geliştirme şirketidir.",
+      "name": "Web Uygulaması",
+      "description": "Genixo, geleneksel web sitesi oluşturmanın sınırlarının ötesinde karmaşık projeleri teslim edebilen tutkulu bir web geliştirme şirketidir.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg",
+      "longDescription": "<p>Web Uygulaması ve Bulut Geliştirme</p><p>Genixo ile vizyonlarınız ve fikirleriniz yüksek kaliteli bir ürüne dönüşür. İhtiyaçlarınıza göre, zorlu bir web uygulaması bile organize bir şekilde uygulanabilir. Sağlanan çözümler ve geliştirme ışığında, projeleriniz başarıya ulaşır, vizyonunuz hayata geçer.</p><h3>Web Tasarım</h3><p>Genixo, kullanıcı odaklı ve isabetli UI/UX tasarımları sunar. Bu sektör lideri fikirler kullanılarak, vizyonunuz netleşir ve kitleniz coşku kazanır.</p><h3>Web Entegrasyonu ve Kalite Güvencesi</h3><p>Projelerinizin entegrasyon gereksinimlerinden bağımsız olarak, Genixo web varlıkları veya uygulamalar için tam bir üçüncü taraf desteği sağlar. Buna ek olarak, metodolojimiz bizi kapsamlı, hatasız ve istikrarlı bir uygulamanın başarıyla geliştirilmesine bağlar.</p><h3>Kullandığımız Teknolojiler:</h3><ul><li>Next.js</li><li>React</li><li>Spring Boot</li><li>PostgreSQL</li></ul>",
+      "active": true,
+      "showOnHomepage": true
+    },
+    "ArchitectureAsAService": {
+      "summary": "Çözüm Mimarisinin Faydaları\nBir yazılım çözümü için mimari tasarlama, işlevlerin ve gereksinimlerinin bir planına sahip olduğunuz için niteliksel çıktıya ulaşmaya odaklanır.",
+      "name": "Hizmet Olarak Mimari",
+      "description": "Çözüm Mimarisinin Faydaları\nBir yazılım çözümü için mimari tasarlama, işlevlerin ve gereksinimlerinin bir planına sahip olduğunuz için niteliksel çıktıya ulaşmaya odaklanır. Genel çözüm yapısını sağlayarak proje yaşam döngüsünü planlamaya yardımcı olur. Zorlukları ile birlikte büyük resmi gözlemleyebildiğiniz için karmaşıklıkla başa çıkmayı basitleştirir. Ana paydaşın gereksinimlerini karşılayarak tahmin ve maliyetleme konusunda tavsiyelerde bulunur.\nİş, Operasyonlar ve Teknoloji\nVurgu sonuç odaklı prosedürdedir, odak akıllı ve sağlam çözümlerdir, öncelik çözüm teslimatının maddi yönüdür. Çözüm Mimarisi\n\nEkosisteminize ve kitlenize göre, Genixo BT çözümlerini kişiselleştirerek projeleriniz için bir temel sağlar.\n\nİş ihtiyaçlarınıza göre fonksiyonel gereksinimleri ve uygulama aşamalarını tanımlarız.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg",
+      "active": true,
+      "showOnHomepage": true
+    },
+    "CustomSoftwareDevelopment": {
+      "summary": "Genixo'nun profesyonel ekibi, belirli kullanıcılar, işlevler ve organizasyonlar için özel yazılım ihtiyaçlarınızı tasarlar",
+      "name": "Özel Yazılım Geliştirme",
+      "description": "Genixo'nun profesyonel ekibi, belirli kullanıcılar, işlevler ve organizasyonlar için özel yazılım ihtiyaçlarınızı tasarlar, oluşturur, dağıtır ve sürdürür. Burada sunduğumuz çözümler işletmeniz için benzersiz bir şekilde oluşturulmuştur ve tüm web, mobil ve masaüstü uygulamalarını içerebilir.\n\nYazılım Ürün Geliştirme\n\nMüşteri Çözümleri!\nBir yazılım ürünü geliştirmek istiyorsanız, bazı faydalardan bahsedelim:\n- Gizlilik\n- Özelleştirilmiş İzlenebilirlik ve Yönetim\n- Entegrasyonların Kolaylığı/Maliyet Verimliliği\n- Hızlı Adaptasyon\n- Gelişmiş Verimlilik\n\nKurumsal Yazılım Geliştirme\n\nKurumsal Çözümler!\nBir kurumsal yazılım geliştirmek istiyorsanız, bazı faydalardan bahsedelim:\n- Ekip için faydalar\n- Aidiyet\n- Üretkenlik\n\nYönetim için faydalar\n- Prestij\n- Gizlilik\n- Bağımsızlık\n- Özelleştirilmiş İzlenebilirlik ve Yönetim\n- Entegrasyonların Kolaylığı/Maliyet Verimliliği\n- Hızlı Adaptasyon\n- Gelişmiş Verimlilik",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg",
+      "active": true,
+      "showOnHomepage": true
+    },
+    "DevOpsServices": {
+      "summary": "Başarılı bir DevOps modeli dört temel yapı taşına dayanır: Geliştirme, Oluşturma ve Test, Dağıtım, İşletme ve İzleme.",
+      "name": "DevOps Hizmetleri",
+      "description": "Başarılı bir DevOps modeli dört temel yapı taşına dayanır: Geliştirme, Oluşturma ve Test, Dağıtım, İşletme ve İzleme. Genixo bunu sizin için yapabilir!\n\nDeğerlendirme ve Planlama\nİzlenebilir metrikleri belirleyerek istenen durumu analiz edip sanallaştırarak bir yol haritası oluştururuz.\nCI/CD Pipeline\nSürekli Dağıtım - Entegrasyon - Test - Dağıtım yoluyla geliştirme operasyonlarını birleştiririz.\nSüreç Otomasyonu\nKodlamanın başlangıcından üretime kadar CI/CD pipeline'ını yapıları, test senaryolarını, sürümlemeyi ve dağıtımı kapsülleyerek otomatize ederiz.\nGüvenlik Entegrasyonu\n'Kod Olarak Güvenlik' mekanizması aracılığıyla uçtan uca güvenlik entegrasyonu gerçekleştiririz.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg",
+      "active": true,
+      "showOnHomepage": true
+    },
+    "CloudDevelopment": {
+      "summary": "Ölçeklenebilirliği, hızı ve fiyat performansı nedeniyle bulut çözümleri işletmeler tarafından giderek daha fazla tercih edilmektedir",
+      "name": "Bulut Geliştirme",
+      "description": "Ölçeklenebilirliği, hızı ve fiyat performansı nedeniyle bulut çözümleri işletmeler tarafından giderek daha fazla tercih edilmektedir ve Genixo bu alanda işletmenizin ihtiyaçları için uçtan uca çözümler sunmaktadır.\nBulut Tabanlı Geliştirme\n\nÜrününüz için hangi hizmetleri ve ne yoğunlukta bulut seçeneklerini kullanacağınızı belirliyor ve ürününüzü sıfırdan bulut üzerinde inşa ediyoruz.\nBulut Göçü\n\nGenixo, verilerinizi şirket içi altyapıdan buluta taşır ve güvenliğini sağlar.\nUygulama Yeniden Mimarileme\n\nİhtiyaçlara göre mevcut bir ürünü Bulut'ta iyileştiriyor veya yeniden geliştiriyoruz.\nBulut Danışmanlığı\n\nYenilikçi bulut uygulamalarıyla iş dönüşümünü organize etmek ve geçişin her aşamasında detaylı tavsiyelerde bulunmak.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg",
+      "active": true,
+      "showOnHomepage": true
+    },
+    "MobileDevelopment": {
+      "summary": "Mobil uygulamalar ürün için önemli varlıklardır. Platformların erişilebilirliğini, görünürlüğünü ve kendi kendine işlemesini artırır.",
+      "name": "Mobil Geliştirme",
+      "description": "Mobil uygulamalar ürün için önemli varlıklardır. Platformların erişilebilirliğini, görünürlüğünü ve kendi kendine işlemesini artırır. Mobil uygulamaları kullanarak, kullanıcıların veya müşterilerin fonksiyonel erişimleri yapılandırılabilir, odakları düzenlenebilir veya tercihler kullanıcının ihtiyaçlarına uyacak şekilde özelleştirilebilir.\nfeature-icon\niOS Uygulama Geliştirme\nGenixo, kullanıcı dostu, zengin özellikli ve güvenilir iOS mobil uygulamaları oluşturma bilgi ve becerisine sahiptir.\nfeature-icon\nAndroid Uygulama Geliştirme\nBizimle mümkün olan en iyi performansı ve kullanıcı deneyimini sağlayın. Genixo'nun Android ve iOS geliştirme ekibi, birden fazla android cihazda ölçeklenebilir ve profesyonel uygulamalar oluşturmanıza yardımcı olacaktır.\nfeature-icon\nÇapraz Platform Uygulama Geliştirme\nGenixo size çapraz platform uygulama geliştirme de sunabilir. Dinamizmimiz ve tutkumuzla ayarlanabilir ve üst düzey performans gösteren uygulamaların keyfini çıkarın.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg",
+      "active": true,
+      "showOnHomepage": true
+    },
+    "ApplicationMaintenanceAndSupportServices": {
+      "summary": "Teknik desteğimizle işletmeniz için faydalar\nico-bkg\nProaktif tutum\nTemeli, yani altyapınızı her geçen gün daha güçlü hale getiriyoruz",
+      "name": "Uygulama Bakım ve Destek Hizmetleri",
+      "description": "Teknik desteğimizle işletmeniz için faydalar\nico-bkg\nProaktif tutum\nTemeli, yani altyapınızı her geçen gün daha güçlü hale getiriyoruz.\nico-bkg\nTemellilik\nGenixo'nun uzmanlarının yardımıyla, süreciniz için sıfırdan tüm departman kurulabilir ve oluşturulabilir.\nico-bkg\nGelişmiş ölçeklenebilirlik\nGenixo profesyonelleri, esnek kalırken büyümeniz için işletmenize çeviklik sağlar.\nico-bkg\n7/24 erişilebilirlik\nGenixo'nun teknoloji ekipleri size 7/24 destek verebilir. Her zaman hazırız ve her zaman aktifiz.\nico-bkg\nMutlak veri güvenliği\nSiber güvenlik ve veri koruma konularını en büyük öncelik olarak ele alıyoruz.\nico-bkg\nMaliyet verimliliği\nGenixo uzmanları sizin için fiyatları nasıl kontrol altında tutacağını biliyor.",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg",
+      "active": true,
+      "showOnHomepage": true
+    },
+    "DataScience": {
+      "summary": "Bilgi Çağı olarak da adlandırılan 21. yüzyılda, teknolojik gelişmeler nedeniyle veri giderek daha değerli hale geldi",
+      "name": "Veri Bilimi",
+      "description": "Bilgi Çağı olarak da adlandırılan 21. yüzyılda, teknolojik gelişmeler nedeniyle veri giderek daha değerli hale geldi. Makineler o kadar 'akıllı' hale geliyor ki, bilim insanları bile bu yolculuğun nereye varacağını tahmin edemiyorlar. Harvard Business Review'un '21. yüzyılın en seksi işi' olarak ilan ettiği Veri Bilimi, insanlara kıyasla içgörü çıkarma veya daha iyi ve daha hızlı tahminler yapma yeteneğine sahip modeller tasarlamak için programlama ve matematiğin birleşimidir. İşlenmemiş veriler işletmenizi verimsiz kılar. Ancak veriler işlendikten sonra doğru içgörüler ortaya çıkarılabilir ve bu içgörüler ışığında oluşturulan analiz işletmenizi potansiyelinin zirvesine taşıyacaktır. Çünkü veri çağımızın en değerli şeyidir, verinin değerini ortaya çıkarın.\n\nVeri Toplama\nAnaliz edilecek yeterli veri yoksa, erişilebilir ise veri hattını oluşturabiliriz veya uygun bir veri toplama sistemi oluşturmanız için size rehberlik edebiliriz.\nVeri Ön İşleme\nVeri kaynakları güvenilir değildir. Bu nedenle, daha doğru modeller oluşturmak için verileri yanlış, aykırı ve gürültülü olanlardan temizledik.\nModel Tasarımı\nSisteminizi mümkün olduğunca iyi tanımlayan matematiksel veya makine öğrenimi modeli tasarladık.\nVeri Analizi\nVerilerinizle eğitilmiş modeli kullanarak, mevcut veya yaklaşan veri akışınızdan içgörü ortaya çıkarabiliriz.\nRapor/Sonuç\nModelimiz tarafından ortaya çıkarılan içgörüyü kullanıcı dostu bir gösterge panosunda gösterebiliriz.\nVeri biliminde başlıca 3 teknik vardır;\n\nSınıflandırma\nModeller, kullanıcıların tercihlerine göre verileri etiketleyecek şekilde eğitilir. Bu yöntemin en açıklayıcı ve klişe örneği spam veya ham posta etiketlemesidir. Veri setinden model, ham ve spam postalar arasındaki farkı öğrenir ve gelen postaları buna göre kolayca etiketleyebilir.\nRegresyon\nTemel olarak regresyon, veri seti için en uygun fonksiyonu bulmaktır. Bu fonksiyonu kullanarak, veri setindeki korelasyon veya gelecek hakkında tahmin elde edilebilir.\nKümeleme\nSınıflandırma problemlerinde olduğu gibi sınıf sayılarının önceden tanımlanmadığı senaryolarda, modeller veri setini bölecek şekilde eğitilebilir. Bu sınıflar, veri setindeki ilişkiyi ve dağılımı anlamamıza yardımcı olacaktır.\nVeri Bilimi teknikleri esas olarak şunlarda kullanılır;\n\nKarar ve Tahmin Yapma\nSüreç Optimizasyonu\nDesen Tanıma\nVeri Analitiği\nÖneri Sistemleri\nBilgisayarlı Görü\nKullandığımız Teknolojiler:\n\n",
+      "image1": "/assets/images/about-3.jpg",
+      "image2": "/assets/images/about-4.jpg",
+      "active": true,
+      "showOnHomepage": true
+    },
+    "general": {
+      "ReadMore": "devamı..."
+    }
+  }
+}
+

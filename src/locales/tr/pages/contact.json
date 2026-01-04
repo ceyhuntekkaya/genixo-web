@@ -1,0 +1,30 @@
+{
+  "contact": {
+    "pageContent": "İletişim sayfası içeriği buraya eklenecek."
+  },
+  "team": {
+    "ourExpertTeam": "Uzman Ekibimiz",
+    "worldExpertTeam": "Dünya çapında uzman ekibimiz var"
+  },
+  "testimonial": {
+    "title": "Referanslar",
+    "subtitle": "Dünya çapında 20k+ memnun müşteri"
+  },
+  "caseStudy": {
+    "reasonToChooseUs": "BİZİ SEÇME NEDENİNİZ",
+    "prominentSolutions": "Gerçekten öne çıkan BT çözümleri sunuyoruz.",
+    "learnMore": "Daha fazla bilgi için",
+    "moreReason": "Daha fazla neden"
+  },
+  "solutionAI": {
+    "weDeliverExcellence": "Mükemmelliği Sunuyoruz",
+    "solutionsToCommonAIProblems": "Yaygın AI Problemlerine Çözümler"
+  },
+  "counterAI": {
+    "completedProjects": "Tamamlanan Proje",
+    "roboticAutomation": "Robotik Otomasyon",
+    "webSiteAnalyse": "Web Sitesi Analizi",
+    "clientsSupportDone": "Müşteri Desteği"
+  }
+}
+

@@ -10,6 +10,12 @@ interface PageProps {
     locale: Locale;
 }
 export default function CaseStudySection({ dict, locale }: PageProps) {
+    if (!dict.caseStudy) {
+        return null;
+    }
+
+    const caseStudyDict = dict.caseStudy;
+
     return (
         <>
 
@@ -18,8 +24,8 @@ export default function CaseStudySection({ dict, locale }: PageProps) {
                 <div className="container">
                     <div className="choose-us-wrap">
                         <div className="section-title text-center">
-                            <h3 className="sub-title">{dict.caseStudy.reasonToChooseUs}</h3>
-                            <h2 className="title">{dict.caseStudy.prominentSolutions}</h2>
+                            <h3 className="sub-title">{caseStudyDict.reasonToChooseUs}</h3>
+                            <h2 className="title">{caseStudyDict.prominentSolutions}</h2>
                         </div>
                         <div className="choose-us-content-wrap">
                             <div className="row">
@@ -34,8 +40,9 @@ export default function CaseStudySection({ dict, locale }: PageProps) {
                                     })
                                     .slice(0, 3) // Show maximum 3 items
                                     .map((key) => {
-                                        const solution = dict.services[key as keyof typeof dict.services];
-                                        const solutionSlug = getSolutionSlug(key as keyof typeof dict.services);
+                                        const solutionKey = key as keyof import('@/i18n/types').Dictionary['services'];
+                                        const solution = dict.services[solutionKey];
+                                        const solutionSlug = getSolutionSlug(solutionKey);
                                         
                                         if (!solution || !solutionSlug || !('name' in solution) || !('summary' in solution)) {
                                             return null;
@@ -64,7 +71,7 @@ export default function CaseStudySection({ dict, locale }: PageProps) {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="more-choose-content text-center">
-                                        <p>{dict.caseStudy.learnMore} <Link href={`/${locale}/solutions`}>{dict.caseStudy.moreReason} <i
+                                        <p>{caseStudyDict.learnMore} <Link href={`/${locale}/solutions`}>{caseStudyDict.moreReason} <i
                                             className="fas fa-long-arrow-alt-right"></i></Link></p>
                                     </div>
                                 </div>

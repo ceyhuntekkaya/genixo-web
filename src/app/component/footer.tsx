@@ -56,14 +56,14 @@ export default function FooterSection({ locale }: FooterSectionProps) {
                                 <h4 className="footer-widget-title">Our Services</h4>
                                 <div className="widget-link">
                                     <ul className="link">
-                                        <li><Link href={`/${locale}/service/web`}>Web Application</Link></li>
-                                        <li><Link href={`/${locale}/service/arch`}>Solution Architecture</Link></li>
-                                        <li><Link href={`/${locale}/service/custom`}>Custom Software Development</Link></li>
-                                        <li><Link href={`/${locale}/service/dev`}>DevOps Services</Link></li>
-                                        <li><Link href={`/${locale}/service/cloud`}>Cloud Development</Link></li>
-                                        <li><Link href={`/${locale}/service/mebile`}>Mobile Development</Link></li>
-                                        <li><Link href={`/${locale}/service/support`}>Support Services</Link></li>
-                                        <li><Link href={`/${locale}/service/data`}>Data Science</Link></li>
+                                        <li><Link href={`/${locale}/solutions/web`}>Web Application</Link></li>
+                                        <li><Link href={`/${locale}/solutions/arch`}>Solution Architecture</Link></li>
+                                        <li><Link href={`/${locale}/solutions/custom`}>Custom Software Development</Link></li>
+                                        <li><Link href={`/${locale}/solutions/dev`}>DevOps Services</Link></li>
+                                        <li><Link href={`/${locale}/solutions/cloud`}>Cloud Development</Link></li>
+                                        <li><Link href={`/${locale}/solutions/mobile`}>Mobile Development</Link></li>
+                                        <li><Link href={`/${locale}/solutions/support`}>Support Services</Link></li>
+                                        <li><Link href={`/${locale}/solutions/data`}>Data Science</Link></li>
                                     </ul>
                                 </div>
                             </div>

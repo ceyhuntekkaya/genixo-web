@@ -1,7 +1,19 @@
 'use client';
 
-export default function PageBanner(props: { bannerLink: string }) {
-    const { bannerLink } = props;
+import Link from 'next/link';
+
+interface BreadcrumbItem {
+    label: string;
+    href: string;
+}
+
+interface PageBannerProps {
+    bannerLink: string;
+    title: string;
+    breadcrumbs?: BreadcrumbItem[];
+}
+
+export default function PageBanner({ bannerLink, title, breadcrumbs = [] }: PageBannerProps) {
     return (
         <div className="section page-banner-section"
              style={{backgroundImage: `url(${bannerLink})`}}>
@@ -54,11 +66,24 @@ export default function PageBanner(props: { bannerLink: string }) {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="page-banner text-center">
-                                <h2 className="title">About Us</h2>
-                                <ul className="breadcrumb justify-content-center">
-                                    <li className="breadcrumb-item"><a href="#">Home</a></li>
-                                    <li className="breadcrumb-item active" aria-current="page">About Us</li>
-                                </ul>
+                                <h2 className="title">{title}</h2>
+                                {breadcrumbs && breadcrumbs.length > 0 && (
+                                    <ul className="breadcrumb justify-content-center">
+                                        {breadcrumbs.map((crumb, index) => (
+                                            <li 
+                                                key={index}
+                                                className={`breadcrumb-item ${index === breadcrumbs.length - 1 ? 'active' : ''}`}
+                                                aria-current={index === breadcrumbs.length - 1 ? 'page' : undefined}
+                                            >
+                                                {index === breadcrumbs.length - 1 ? (
+                                                    crumb.label
+                                                ) : (
+                                                    <Link href={crumb.href}>{crumb.label}</Link>
+                                                )}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                )}
                             </div>
 
                         </div>

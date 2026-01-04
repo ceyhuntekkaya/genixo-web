@@ -9,9 +9,13 @@
   },
   "menu": {
     "Home": "Home",
-    "AboutUs": "About Us",
-    "Services": "Services",
-    "ContactUs": "Contact Us",
+    "Solutions": "Solutions",
+    "Products": "Products",
+    "SuccessStories": "Success",
+    "GovernmentSupport": "Consulting",
+    "AboutUs": "About",
+    "Blog": "Blog",
+    "ContactUs": "Contact",
     "WebApplication": "Web Application",
     "SolutionArchitecture": "Solution Architecture",
     "CustomSoftwareDevelopment": "Custom Software Development",
@@ -19,7 +23,14 @@
     "CloudDevelopment": "Cloud Development",
     "MobileDevelopment": "Mobile Development",
     "SupportServices": "Support Services",
-    "DataScience": "Data Science"
+    "DataScience": "Data Science",
+    "ILC": "ILC International Language Certification",
+    "StudyScoreAI": "Study Score AI",
+    "Egitimiste": "egitimiste.com",
+    "GenixoWorkAI": "Genixo Work AI",
+    "GenixoAssistant": "Genixo Assistant",
+    "TOMEREYadis": "TÖMER E-Yadis",
+    "RetiredTravelApp": "Retired Travel App"
   },
   "welcome": {
     "title": "Genixo IT and Technology"
@@ -64,6 +75,176 @@
       "summary": "In the 21st century, also called the Information Age, data has become increasingly valuable due to technological developments",
       "name": "Data Science",
       "description": "In the 21st century, also called the Information Age, data has become increasingly valuable due to technological developments. Machines become extremely 'intelligent' to the point that even scientists cannot predict where this journey will lead. Data Science, 'the sexiest job of the 21st century' as declared by Harvard Business Review, is the combination of programming and mathematics in order to design models capable of extracting insights or making predictions better and faster compared to humans. Unprocessed data makes your business inefficient. It is only after the data has been processed that the right insights can be revealed and the analysis created in the light of these insights will carry your business to the peak of its potential. Because data is the most valuable thing of our age, reveal the value of data.\n\nData Acquisition\nIf there is not enough data to analyze, we could create the data pipeline if it is accessible or guide you to create an appropriate data acquisition system.\nData Preprocessing\nData sources are not reliable. Therefore, we cleaned the data of inaccurate, aberrant and noisy ones to create more accurate models.\nModel Design\nWe designed a mathematical or machine learning model that describes your system as well as possible.\nData Analysis\nBy using the model trained by your data, we could reveal the insights of your current or upcoming data stream.\nReport/Result\nWe could demonstrate the insights revealed by our model in a user-friendly dashboard.\nThere are mainly 3 techniques in data science;\n\nClassification\nModels are trained in such a way as to label data according to users' preferences. The most explanatory and cliché example of this method is spam or ham mail labeling. From the dataset, the model learns the difference between ham and spam mails and could easily label upcoming mails accordingly.\nRegression\nBasically, regression is finding the best-fitting function for the dataset. By using this function, correlation in the dataset or prediction of the future could be achieved.\nClustering\nIn scenarios where the number of classes is not predefined as in classification problems, models could be trained in such a way as to divide the dataset. These classes would help us understand the relationship and distribution in the dataset.\nData Science techniques are mainly used in;\n\nDecision Making and Prediction\nProcess Optimization\nPattern Recognition\nData Analytics\nRecommendation Systems\nComputer Vision\nTechnologies we use:\n\n"
+    },
+    "general": {
+      "ReadMore": "Read More"
     }
+  },
+  "products": {
+    "ILC": {
+      "name": "ILC International Language Certification",
+      "summary": "A comprehensive platform for international language certification and assessment.",
+      "description": "ILC International Language Certification is a cutting-edge platform designed to facilitate language learning and certification processes. Our platform provides comprehensive assessment tools, certification management, and detailed reporting capabilities.\n\nThe platform supports multiple languages and offers flexible certification pathways for learners of all levels. With advanced analytics and reporting features, educators and institutions can track progress and ensure quality standards.\n\nKey capabilities include automated assessment, certificate generation, progress tracking, and comprehensive reporting. The platform is designed to be scalable and can accommodate institutions of all sizes.",
+      "features": [
+        "Multi-language support",
+        "Automated assessment and grading",
+        "Certificate generation and management",
+        "Comprehensive progress tracking",
+        "Advanced analytics and reporting",
+        "Scalable architecture"
+      ]
+    },
+    "StudyScoreAI": {
+      "name": "Study Score AI",
+      "summary": "AI-powered platform for educational assessment and student performance analysis.",
+      "description": "Study Score AI leverages artificial intelligence to provide intelligent assessment and analysis of student performance. The platform uses advanced machine learning algorithms to identify learning patterns, predict outcomes, and provide personalized recommendations.\n\nWith Study Score AI, educators can gain deeper insights into student learning behaviors, identify areas that need attention, and provide targeted support. The platform offers real-time analytics, automated grading, and comprehensive reporting tools.\n\nThe system is designed to integrate seamlessly with existing educational infrastructure and can be customized to meet specific institutional needs.",
+      "features": [
+        "AI-powered performance analysis",
+        "Predictive analytics",
+        "Personalized learning recommendations",
+        "Real-time progress tracking",
+        "Automated grading system",
+        "Comprehensive reporting dashboard"
+      ]
+    },
+    "Egitimiste": {
+      "name": "egitimiste.com",
+      "summary": "Comprehensive educational platform connecting students with quality educational resources.",
+      "description": "egitimiste.com is a comprehensive educational platform designed to connect students with quality educational resources, courses, and institutions. The platform serves as a bridge between learners and educational opportunities.\n\nThe platform features an extensive database of educational programs, institutions, and resources. Students can search, compare, and apply for programs that match their interests and goals.\n\nWith user-friendly interfaces and powerful search capabilities, egitimiste.com makes it easy for students to find the right educational path. The platform also provides tools for institutions to showcase their programs and connect with prospective students.",
+      "features": [
+        "Comprehensive program database",
+        "Advanced search and filtering",
+        "Application management",
+        "Institution profiles",
+        "Student resources and guides",
+        "Multi-language support"
+      ]
+    },
+    "GenixoWorkAI": {
+      "name": "Genixo Work AI",
+      "summary": "AI-powered workplace productivity and collaboration platform.",
+      "description": "Genixo Work AI is an intelligent workplace platform that leverages artificial intelligence to enhance productivity, streamline workflows, and improve collaboration. The platform offers a suite of tools designed to help teams work more efficiently.\n\nWith advanced AI capabilities, Genixo Work AI can automate routine tasks, provide intelligent insights, and facilitate better decision-making. The platform integrates with popular business tools and provides a unified workspace for teams.\n\nKey features include task automation, intelligent scheduling, document management, team collaboration tools, and comprehensive analytics. The platform is designed to scale with your organization and adapt to your specific workflow needs.",
+      "features": [
+        "AI-powered task automation",
+        "Intelligent scheduling and planning",
+        "Document management and collaboration",
+        "Team communication tools",
+        "Workflow optimization",
+        "Advanced analytics and insights"
+      ]
+    },
+    "GenixoAssistant": {
+      "name": "Genixo Assistant",
+      "summary": "Intelligent virtual assistant for business operations and customer support.",
+      "description": "Genixo Assistant is an advanced virtual assistant powered by artificial intelligence, designed to handle a wide range of business operations and customer support tasks. The assistant can understand natural language, process requests, and provide intelligent responses.\n\nThe platform can be integrated into websites, applications, and business systems to provide 24/7 support. It can handle customer inquiries, schedule appointments, provide information, and assist with various business processes.\n\nWith continuous learning capabilities, Genixo Assistant improves over time, providing increasingly accurate and helpful responses. The platform supports multiple languages and can be customized to match your brand voice and specific business needs.",
+      "features": [
+        "Natural language processing",
+        "24/7 availability",
+        "Multi-language support",
+        "Customizable responses",
+        "Integration capabilities",
+        "Continuous learning and improvement"
+      ]
+    },
+    "TOMEREYadis": {
+      "name": "TÖMER E-Yadis",
+      "summary": "Digital platform for Turkish language education and certification.",
+      "description": "TÖMER E-Yadis is a comprehensive digital platform designed for Turkish language education and certification. The platform provides a complete learning management system for Turkish language courses, from beginner to advanced levels.\n\nThe platform features interactive lessons, assessment tools, progress tracking, and certification management. Students can access course materials, complete assignments, take assessments, and track their progress through the platform.\n\nEducators can manage courses, create content, assess student performance, and issue certificates. The platform supports both synchronous and asynchronous learning, making it flexible for different learning styles and schedules.",
+      "features": [
+        "Comprehensive course management",
+        "Interactive learning materials",
+        "Assessment and certification tools",
+        "Progress tracking and analytics",
+        "Multi-level course structure",
+        "Flexible learning options"
+      ]
+    },
+    "RetiredTravelApp": {
+      "name": "Retired Travel App",
+      "summary": "Mobile application designed for retired travelers, providing travel planning and assistance services.",
+      "description": "The Retired Travel App is a specialized mobile application designed to meet the unique needs of retired travelers. The app provides comprehensive travel planning tools, destination information, and assistance services tailored for senior travelers.\n\nThe app features easy-to-use interfaces, large text options, and accessibility features to ensure it's comfortable for all users. It provides information about senior-friendly destinations, travel tips, and assistance services.\n\nKey features include trip planning, destination guides, travel alerts, emergency assistance, and social features to connect with other travelers. The app is designed to make travel planning and navigation easier and more enjoyable for retired individuals.",
+      "features": [
+        "Senior-friendly interface design",
+        "Comprehensive travel planning tools",
+        "Destination guides and recommendations",
+        "Travel alerts and updates",
+        "Emergency assistance features",
+        "Social features for traveler connections"
+      ]
+    }
+  },
+  "counter": {
+    "items": [
+      {
+        "value": "354+",
+        "label": "Completed Projects"
+      },
+      {
+        "value": "119+",
+        "label": "Robotic Automation"
+      },
+      {
+        "value": "99%",
+        "label": "Web Site Analyse"
+      },
+      {
+        "value": "321+",
+        "label": "Clients Support Done"
+      }
+    ]
+  },
+  "chooseUs": {
+    "subtitle": "REASON TO CHOOSE US",
+    "title": "We provide truly prominent IT solutions.",
+    "items": [
+      {
+        "image": "/assets/images/ser-icon9.png",
+        "title": "Infrastructure <br/> Technology",
+        "description": "Accelerate innovation with world-class tech teams We'll match you to an entire.",
+        "link": "service.html"
+      },
+      {
+        "image": "/assets/images/counter-3.png",
+        "title": "Highly professional team members",
+        "description": "Accelerate innovation with world-class tech teams We'll match you to an entire.",
+        "link": "service.html"
+      },
+      {
+        "image": "/assets/images/ser-icon10.png",
+        "title": "Security <br/> Management",
+        "description": "Accelerate innovation with world-class tech teams We'll match you to an entire.",
+        "link": "service.html"
+      },
+      {
+        "image": "/assets/images/ser-icon12.png",
+        "title": "Desktop <br/> Computing",
+        "description": "Accelerate innovation with world-class tech teams We'll match you to an entire.",
+        "link": "service.html"
+      },
+      {
+        "image": "/assets/images/counter-1.png",
+        "title": "Infrastructure <br/> Technology",
+        "description": "Accelerate innovation with world-class tech teams We'll match you to an entire.",
+        "link": "service.html"
+      },
+      {
+        "image": "/assets/images/counter-2.png",
+        "title": "Ideas for high return investment",
+        "description": "Accelerate innovation with world-class tech teams We'll match you to an entire.",
+        "link": "service.html"
+      },
+      {
+        "image": "/assets/images/ser-icon21.png",
+        "title": "Fully high IT <br/> Management",
+        "description": "Accelerate innovation with world-class tech teams We'll match you to an entire.",
+        "link": "service.html"
+      },
+      {
+        "image": "/assets/images/ser-icon22.png",
+        "title": "Data secure & Management",
+        "description": "Accelerate innovation with world-class tech teams We'll match you to an entire.",
+        "link": "service.html"
+      }
+    ]
   }
 }

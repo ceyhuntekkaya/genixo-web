@@ -9,8 +9,12 @@
   },
   "menu": {
     "Home": "Accueil",
+    "Solutions": "Solutions",
+    "Products": "Produits",
+    "SuccessStories": "Réussites",
+    "GovernmentSupport": "Conseil",
     "AboutUs": "À propos",
-    "Services": "Services",
+    "Blog": "Blog",
     "ContactUs": "Contact",
     "WebApplication": "Application Web",
     "SolutionArchitecture": "Architecture de Solution",
@@ -19,7 +23,14 @@
     "CloudDevelopment": "Développement Cloud",
     "MobileDevelopment": "Développement Mobile",
     "SupportServices": "Services d'Assistance",
-    "DataScience": "Science des Données"
+    "DataScience": "Science des Données",
+    "ILC": "ILC International Language Certification",
+    "StudyScoreAI": "Study Score AI",
+    "Egitimiste": "egitimiste.com",
+    "GenixoWorkAI": "Genixo Work AI",
+    "GenixoAssistant": "Genixo Assistant",
+    "TOMEREYadis": "TÖMER E-Yadis",
+    "RetiredTravelApp": "Retired Travel App"
   },
   "welcome": {
     "title": "Genixo IT et Technologie"
@@ -64,6 +75,176 @@
       "summary": "Au 21ème siècle, également appelé l'ère de l'information, les données sont devenues de plus en plus précieuses en raison des développements technologiques",
       "name": "Science des Données",
       "description": "Au 21ème siècle, également appelé l'ère de l'information, les données sont devenues de plus en plus précieuses en raison des développements technologiques. Les machines deviennent extrêmement 'intelligentes' au point que même les scientifiques ne peuvent pas prédire où ce voyage mènera. La science des données, 'le travail le plus sexy du 21ème siècle' comme l'a déclaré la Harvard Business Review, est la combinaison de la programmation et des mathématiques afin de concevoir des modèles capables d'extraire des informations ou de faire des prédictions meilleures et plus rapides par rapport aux humains. Les données non traitées rendent votre entreprise inefficace. Ce n'est qu'après que les données ont été traitées que les bonnes informations peuvent être révélées et l'analyse créée à la lumière de ces informations portera votre entreprise au sommet de son potentiel. Parce que les données sont la chose la plus précieuse de notre époque, révélez la valeur des données.\n\nAcquisition de Données\nS'il n'y a pas suffisamment de données à analyser, nous pourrions créer le pipeline de données s'il est accessible ou vous guider pour créer un système d'acquisition de données approprié.\nPrétraitement des Données\nLes sources de données ne sont pas fiables. Nous avons donc nettoyé les données des éléments inexacts, aberrants et bruyants pour créer des modèles plus précis.\nConception de Modèle\nNous avons conçu un modèle mathématique ou d'apprentissage automatique qui décrit votre système aussi bien que possible.\nAnalyse de Données\nEn utilisant le modèle formé par vos données, nous pourrions révéler les informations de votre flux de données actuel ou à venir.\nRapport/Résultat\nNous pourrions démontrer les informations révélées par notre modèle dans un tableau de bord convivial.\nIl existe principalement 3 techniques en science des données;\n\nClassification\nLes modèles sont formés de manière à étiqueter les données selon les préférences des utilisateurs. L'exemple le plus explicatif et cliché de cette méthode est l'étiquetage des mails spam ou ham. À partir de l'ensemble de données, le modèle apprend la différence entre les mails ham et spam et pourrait facilement étiqueter les mails à venir en conséquence.\nRégression\nFondamentalement, la régression consiste à trouver la fonction la mieux adaptée à l'ensemble de données. En utilisant cette fonction, la corrélation dans l'ensemble de données ou la prédiction de l'avenir pourrait être réalisée.\nClustering\nDans les scénarios où le nombre de classes n'est pas prédéfini comme dans les problèmes de classification, les modèles pourraient être formés de manière à diviser l'ensemble de données. Ces classes nous aideraient à comprendre la relation et la distribution dans l'ensemble de données.\nLes techniques de science des données sont principalement utilisées dans;\n\nPrise de Décision et Prédiction\nOptimisation des Processus\nReconnaissance de Motifs\nAnalyse de Données\nSystèmes de Recommandation\nVision par Ordinateur\nTechnologies que nous utilisons:\n\n"
+    },
+    "general": {
+      "ReadMore": "Lire la suite"
     }
+  },
+  "products": {
+    "ILC": {
+      "name": "ILC International Language Certification",
+      "summary": "Une plateforme complète pour la certification et l'évaluation linguistique internationale.",
+      "description": "ILC International Language Certification est une plateforme moderne conçue pour faciliter les processus d'apprentissage et de certification des langues. Notre plateforme fournit des outils d'évaluation complets, la gestion des certificats et des capacités de reporting détaillées.",
+      "features": [
+        "Support multilingue",
+        "Évaluation et notation automatiques",
+        "Génération et gestion de certificats",
+        "Suivi complet des progrès",
+        "Analyses et rapports avancés",
+        "Architecture évolutive"
+      ]
+    },
+    "StudyScoreAI": {
+      "name": "Study Score AI",
+      "summary": "Plateforme basée sur l'IA pour l'évaluation éducative et l'analyse de la performance des étudiants.",
+      "description": "Study Score AI exploite l'intelligence artificielle pour fournir une évaluation et une analyse intelligentes de la performance des étudiants. La plateforme utilise des algorithmes d'apprentissage automatique avancés pour identifier les modèles d'apprentissage, prédire les résultats et fournir des recommandations personnalisées.",
+      "features": [
+        "Analyse de performance basée sur l'IA",
+        "Analyses prédictives",
+        "Recommandations d'apprentissage personnalisées",
+        "Suivi des progrès en temps réel",
+        "Système de notation automatique",
+        "Tableau de bord de reporting complet"
+      ]
+    },
+    "Egitimiste": {
+      "name": "egitimiste.com",
+      "summary": "Plateforme éducative complète connectant les étudiants à des ressources éducatives de qualité.",
+      "description": "egitimiste.com est une plateforme éducative complète conçue pour connecter les étudiants à des ressources éducatives, des cours et des institutions de qualité. La plateforme sert de pont entre les apprenants et les opportunités éducatives.",
+      "features": [
+        "Base de données de programmes complète",
+        "Recherche et filtrage avancés",
+        "Gestion des candidatures",
+        "Profils d'institutions",
+        "Ressources et guides pour étudiants",
+        "Support multilingue"
+      ]
+    },
+    "GenixoWorkAI": {
+      "name": "Genixo Work AI",
+      "summary": "Plateforme de productivité et de collaboration en milieu de travail basée sur l'IA.",
+      "description": "Genixo Work AI est une plateforme de lieu de travail intelligente qui exploite l'intelligence artificielle pour améliorer la productivité, rationaliser les flux de travail et améliorer la collaboration. La plateforme offre une suite d'outils conçus pour aider les équipes à travailler plus efficacement.",
+      "features": [
+        "Automatisation des tâches basée sur l'IA",
+        "Planification intelligente",
+        "Gestion de documents et collaboration",
+        "Outils de communication d'équipe",
+        "Optimisation des flux de travail",
+        "Analyses et insights avancés"
+      ]
+    },
+    "GenixoAssistant": {
+      "name": "Genixo Assistant",
+      "summary": "Assistant virtuel intelligent pour les opérations commerciales et le support client.",
+      "description": "Genixo Assistant est un assistant virtuel avancé alimenté par l'intelligence artificielle, conçu pour gérer un large éventail d'opérations commerciales et de tâches de support client. L'assistant peut comprendre le langage naturel, traiter les demandes et fournir des réponses intelligentes.",
+      "features": [
+        "Traitement du langage naturel",
+        "Disponibilité 24/7",
+        "Support multilingue",
+        "Réponses personnalisables",
+        "Capacités d'intégration",
+        "Apprentissage et amélioration continus"
+      ]
+    },
+    "TOMEREYadis": {
+      "name": "TÖMER E-Yadis",
+      "summary": "Plateforme numérique pour l'éducation et la certification en langue turque.",
+      "description": "TÖMER E-Yadis est une plateforme numérique complète conçue pour l'éducation et la certification en langue turque. La plateforme fournit un système complet de gestion de l'apprentissage pour les cours de turc, du niveau débutant au niveau avancé.",
+      "features": [
+        "Gestion complète des cours",
+        "Matériels d'apprentissage interactifs",
+        "Outils d'évaluation et de certification",
+        "Suivi des progrès et analyses",
+        "Structure de cours multi-niveaux",
+        "Options d'apprentissage flexibles"
+      ]
+    },
+    "RetiredTravelApp": {
+      "name": "Retired Travel App",
+      "summary": "Application mobile conçue pour les voyageurs retraités, offrant des services de planification de voyage et d'assistance.",
+      "description": "L'application Retired Travel App est une application mobile spécialisée conçue pour répondre aux besoins uniques des voyageurs retraités. L'application fournit des outils complets de planification de voyage, des informations sur les destinations et des services d'assistance adaptés aux voyageurs seniors.",
+      "features": [
+        "Conception d'interface conviviale pour seniors",
+        "Outils complets de planification de voyage",
+        "Guides de destination et recommandations",
+        "Alertes et mises à jour de voyage",
+        "Fonctionnalités d'assistance d'urgence",
+        "Fonctionnalités sociales pour les connexions de voyageurs"
+      ]
+    }
+  },
+  "counter": {
+    "items": [
+      {
+        "value": "354+",
+        "label": "Projets Terminés"
+      },
+      {
+        "value": "119+",
+        "label": "Automatisation Robotique"
+      },
+      {
+        "value": "99%",
+        "label": "Analyse de Site Web"
+      },
+      {
+        "value": "321+",
+        "label": "Support Client"
+      }
+    ]
+  },
+  "chooseUs": {
+    "subtitle": "RAISON DE NOUS CHOISIR",
+    "title": "Nous fournissons de véritables solutions IT de premier plan.",
+    "items": [
+      {
+        "image": "/assets/images/ser-icon9.png",
+        "title": "Infrastructure <br/> Technologie",
+        "description": "Accélérez l'innovation avec des équipes technologiques de classe mondiale. Nous vous mettrons en relation avec une équipe complète.",
+        "link": "service.html"
+      },
+      {
+        "image": "/assets/images/counter-3.png",
+        "title": "Membres d'équipe hautement professionnels",
+        "description": "Accélérez l'innovation avec des équipes technologiques de classe mondiale. Nous vous mettrons en relation avec une équipe complète.",
+        "link": "service.html"
+      },
+      {
+        "image": "/assets/images/ser-icon10.png",
+        "title": "Sécurité <br/> Gestion",
+        "description": "Accélérez l'innovation avec des équipes technologiques de classe mondiale. Nous vous mettrons en relation avec une équipe complète.",
+        "link": "service.html"
+      },
+      {
+        "image": "/assets/images/ser-icon12.png",
+        "title": "Informatique <br/> de Bureau",
+        "description": "Accélérez l'innovation avec des équipes technologiques de classe mondiale. Nous vous mettrons en relation avec une équipe complète.",
+        "link": "service.html"
+      },
+      {
+        "image": "/assets/images/counter-1.png",
+        "title": "Infrastructure <br/> Technologie",
+        "description": "Accélérez l'innovation avec des équipes technologiques de classe mondiale. Nous vous mettrons en relation avec une équipe complète.",
+        "link": "service.html"
+      },
+      {
+        "image": "/assets/images/counter-2.png",
+        "title": "Idées pour investissement à haut rendement",
+        "description": "Accélérez l'innovation avec des équipes technologiques de classe mondiale. Nous vous mettrons en relation avec une équipe complète.",
+        "link": "service.html"
+      },
+      {
+        "image": "/assets/images/ser-icon21.png",
+        "title": "Gestion IT <br/> Complète",
+        "description": "Accélérez l'innovation avec des équipes technologiques de classe mondiale. Nous vous mettrons en relation avec une équipe complète.",
+        "link": "service.html"
+      },
+      {
+        "image": "/assets/images/ser-icon22.png",
+        "title": "Sécurité et gestion des données",
+        "description": "Accélérez l'innovation avec des équipes technologiques de classe mondiale. Nous vous mettrons en relation avec une équipe complète.",
+        "link": "service.html"
+      }
+    ]
   }
 }

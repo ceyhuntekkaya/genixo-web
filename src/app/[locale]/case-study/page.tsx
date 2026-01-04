@@ -15,16 +15,16 @@ export async function generateMetadata({
     const alternateLocales = locales.filter(l => l !== locale) as Locale[];
 
     return generateSEOMetadata({
-        title: dict.menu.ContactUs,
-        description: `Genixo Bilişim ve Teknoloji ile iletişime geçin. Yazılım çözümleri ve danışmanlık hizmetleri için bize ulaşın.`,
-        keywords: `iletişim, iletişim formu, yazılım danışmanlığı, ${dict.about.slogan}`,
-        url: `/${locale}/contact`,
+        title: dict.menu.SuccessStories,
+        description: `Genixo Bilişim ve Teknoloji başarı hikayeleri. Müşterilerimizin başarılı projeleri ve çözümlerimiz.`,
+        keywords: `başarı hikayeleri, case study, müşteri projeleri, yazılım projeleri, ${dict.about.slogan}`,
+        url: `/${locale}/case-study`,
         locale,
         alternateLocales,
     });
 }
 
-export default async function ContactPage({
+export default async function CaseStudyPage({
     params,
 }: {
     params: Promise<{ locale: Locale }>;
@@ -38,18 +38,19 @@ export default async function ContactPage({
         <>
             <PageBanner
                 bannerLink={pageBannerImage.src}
-                title={dict.menu.ContactUs}
+                title={dict.menu.SuccessStories}
                 breadcrumbs={[
                     { label: homeLabel, href: `/${locale}` },
-                    { label: dict.menu.ContactUs, href: `/${locale}/contact` },
+                    { label: dict.menu.SuccessStories, href: `/${locale}/case-study` },
                 ]}
             />
             <div className="section section-padding">
                 <div className="container">
-                    <h1>{dict.menu.ContactUs}</h1>
-                    <p>İletişim sayfası içeriği buraya eklenecek.</p>
+                    <h1>{dict.menu.SuccessStories}</h1>
+                    <p>Success stories page content will be added here.</p>
                 </div>
             </div>
         </>
     )
 }
+

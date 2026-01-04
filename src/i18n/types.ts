@@ -13,9 +13,14 @@ export type Dictionary = {
 
     menu: {
         Home: string;
+        Solutions: string;
+        Products: string;
+        SuccessStories: string;
+        GovernmentSupport: string;
         AboutUs: string;
-        Services: string;
+        Blog: string;
         ContactUs: string;
+        // Solutions submenu (services)
         WebApplication: string;
         SolutionArchitecture: string;
         CustomSoftwareDevelopment: string;
@@ -24,6 +29,14 @@ export type Dictionary = {
         MobileDevelopment: string;
         SupportServices: string;
         DataScience: string;
+        // Products submenu
+        ILC: string;
+        StudyScoreAI: string;
+        Egitimiste: string;
+        GenixoWorkAI: string;
+        GenixoAssistant: string;
+        TOMEREYadis: string;
+        RetiredTravelApp: string;
     };
     welcome: {
         title: string;
@@ -76,5 +89,72 @@ export type Dictionary = {
         }
     };
 
+    "products": {
+        "ILC": {
+            "name": string;
+            "summary": string;
+            "description": string;
+            "features"?: string[];
+            "image"?: string;
+        };
+        "StudyScoreAI": {
+            "name": string;
+            "summary": string;
+            "description": string;
+            "features"?: string[];
+            "image"?: string;
+        };
+        "Egitimiste": {
+            "name": string;
+            "summary": string;
+            "description": string;
+            "features"?: string[];
+            "image"?: string;
+        };
+        "GenixoWorkAI": {
+            "name": string;
+            "summary": string;
+            "description": string;
+            "features"?: string[];
+            "image"?: string;
+        };
+        "GenixoAssistant": {
+            "name": string;
+            "summary": string;
+            "description": string;
+            "features"?: string[];
+            "image"?: string;
+        };
+        "TOMEREYadis": {
+            "name": string;
+            "summary": string;
+            "description": string;
+            "features"?: string[];
+            "image"?: string;
+        };
+        "RetiredTravelApp": {
+            "name": string;
+            "summary": string;
+            "description": string;
+            "features"?: string[];
+            "image"?: string;
+        };
+    };
+    "counter": {
+        "items": Array<{
+            "value": string;
+            "label": string;
+        }>;
+    };
+    "chooseUs": {
+        "subtitle": string;
+        "title": string;
+        "items": Array<{
+            "image": string;
+            "title": string;
+            "description": string;
+            "link"?: string;
+        }>;
+    };
 
 };

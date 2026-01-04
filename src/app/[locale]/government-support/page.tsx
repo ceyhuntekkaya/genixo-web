@@ -15,16 +15,16 @@ export async function generateMetadata({
     const alternateLocales = locales.filter(l => l !== locale) as Locale[];
 
     return generateSEOMetadata({
-        title: dict.menu.ContactUs,
-        description: `Genixo Bilişim ve Teknoloji ile iletişime geçin. Yazılım çözümleri ve danışmanlık hizmetleri için bize ulaşın.`,
-        keywords: `iletişim, iletişim formu, yazılım danışmanlığı, ${dict.about.slogan}`,
-        url: `/${locale}/contact`,
+        title: dict.menu.GovernmentSupport,
+        description: `Genixo Bilişim ve Teknoloji devlet destekleri ve danışmanlık hizmetleri. KOSGEB, TÜBİTAK ve diğer devlet destekleri için danışmanlık.`,
+        keywords: `devlet destekleri, KOSGEB, TÜBİTAK, danışmanlık, yazılım danışmanlığı, ${dict.about.slogan}`,
+        url: `/${locale}/government-support`,
         locale,
         alternateLocales,
     });
 }
 
-export default async function ContactPage({
+export default async function GovernmentSupportPage({
     params,
 }: {
     params: Promise<{ locale: Locale }>;
@@ -38,18 +38,19 @@ export default async function ContactPage({
         <>
             <PageBanner
                 bannerLink={pageBannerImage.src}
-                title={dict.menu.ContactUs}
+                title={dict.menu.GovernmentSupport}
                 breadcrumbs={[
                     { label: homeLabel, href: `/${locale}` },
-                    { label: dict.menu.ContactUs, href: `/${locale}/contact` },
+                    { label: dict.menu.GovernmentSupport, href: `/${locale}/government-support` },
                 ]}
             />
             <div className="section section-padding">
                 <div className="container">
-                    <h1>{dict.menu.ContactUs}</h1>
-                    <p>İletişim sayfası içeriği buraya eklenecek.</p>
+                    <h1>{dict.menu.GovernmentSupport}</h1>
+                    <p>Government support & consulting page content will be added here.</p>
                 </div>
             </div>
         </>
     )
 }
+

@@ -56,27 +56,45 @@ export default async function LocaleLayout({
                 <div className="offcanvas-body">
                     <div className="offcanvas-menu">
                         <ul className="main-menu">
-                            <li className="active-menu">
-                                <Link href={`/${locale}`}>Home</Link>
-                            </li>
                             <li>
-                                <Link href={`/${locale}/about`}>About Us</Link>
-                            </li>
-                            <li>
-                                <Link href={`/${locale}/service`}>Services</Link>
+                                <Link href={`/${locale}/solutions`}>{dict.menu.Solutions}</Link>
                                 <ul className="sub-menu">
-                                    <li><Link href={`/${locale}/service/web`}>Web Application</Link></li>
-                                    <li><Link href={`/${locale}/service/arch`}>Solution Architecture</Link></li>
-                                    <li><Link href={`/${locale}/service/custom`}>Custom Software</Link></li>
-                                    <li><Link href={`/${locale}/service/dev`}>DevOps Services</Link></li>
-                                    <li><Link href={`/${locale}/service/cloud`}>Cloud Development</Link></li>
-                                    <li><Link href={`/${locale}/service/mebile`}>Mobile Development</Link></li>
-                                    <li><Link href={`/${locale}/service/support`}>Support Services</Link></li>
-                                    <li><Link href={`/${locale}/service/data`}>Data Science</Link></li>
+                                    <li><Link href={`/${locale}/solutions/web`}>{dict.menu.WebApplication}</Link></li>
+                                    <li><Link href={`/${locale}/solutions/arch`}>{dict.menu.SolutionArchitecture}</Link></li>
+                                    <li><Link href={`/${locale}/solutions/custom`}>{dict.menu.CustomSoftwareDevelopment}</Link></li>
+                                    <li><Link href={`/${locale}/solutions/dev`}>{dict.menu.DevOpsServices}</Link></li>
+                                    <li><Link href={`/${locale}/solutions/cloud`}>{dict.menu.CloudDevelopment}</Link></li>
+                                    <li><Link href={`/${locale}/solutions/mobile`}>{dict.menu.MobileDevelopment}</Link></li>
+                                    <li><Link href={`/${locale}/solutions/support`}>{dict.menu.SupportServices}</Link></li>
+                                    <li><Link href={`/${locale}/solutions/data`}>{dict.menu.DataScience}</Link></li>
                                 </ul>
                             </li>
                             <li>
-                                <Link href={`/${locale}/contact`}>Contact Us</Link>
+                                <Link href={`/${locale}/products`}>{dict.menu.Products}</Link>
+                                <ul className="sub-menu">
+                                    <li><Link href={`/${locale}/products/ilc`}>{dict.menu.ILC}</Link></li>
+                                    <li><Link href={`/${locale}/products/study-score-ai`}>{dict.menu.StudyScoreAI}</Link></li>
+                                    <li><Link href={`/${locale}/products/egitimiste`}>{dict.menu.Egitimiste}</Link></li>
+                                    <li><Link href={`/${locale}/products/genixo-work-ai`}>{dict.menu.GenixoWorkAI}</Link></li>
+                                    <li><Link href={`/${locale}/products/genixo-assistant`}>{dict.menu.GenixoAssistant}</Link></li>
+                                    <li><Link href={`/${locale}/products/tomer-e-yadis`}>{dict.menu.TOMEREYadis}</Link></li>
+                                    <li><Link href={`/${locale}/products/retired-travel-app`}>{dict.menu.RetiredTravelApp}</Link></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <Link href={`/${locale}/case-study`}>{dict.menu.SuccessStories}</Link>
+                            </li>
+                            <li>
+                                <Link href={`/${locale}/government-support`}>{dict.menu.GovernmentSupport}</Link>
+                            </li>
+                            <li>
+                                <Link href={`/${locale}/about`}>{dict.menu.AboutUs}</Link>
+                            </li>
+                            <li>
+                                <Link href={`/${locale}/blog`}>{dict.menu.Blog}</Link>
+                            </li>
+                            <li>
+                                <Link href={`/${locale}/contact`}>{dict.menu.ContactUs}</Link>
                             </li>
                         </ul>
                     </div>

@@ -21,10 +21,10 @@ export default function ServiceSection({ dict, locale }: PageProps) {
                                         <img src="/assets/images/ser-icon9.png" alt=""  />
                                     </div>
                                     <div className="service-content">
-                                        <h3 className="title"><Link href={`/${locale}/service/web`}>{dict.services.WebApplication.name}</Link></h3>
+                                        <h3 className="title"><Link href={`/${locale}/solutions/web`}>{dict.services.WebApplication.name}</Link></h3>
                                         <p>{dict.services.WebApplication.summary}</p>
                                         <div className="read-more">
-                                            <Link href={`/${locale}/service/web`}><i className="fas fa-plus"></i> {dict.general.ReadMore}</Link>
+                                            <Link href={`/${locale}/solutions/web`}><i className="fas fa-plus"></i> {dict.general.ReadMore}</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -35,10 +35,10 @@ export default function ServiceSection({ dict, locale }: PageProps) {
                                         <img src="/assets/images/ser-icon10.png" alt="" />
                                     </div>
                                     <div className="service-content">
-                                        <h3 className="title"><Link href={`/${locale}/service/custom`}>{dict.services.CustomSoftwareDevelopment.name}</Link></h3>
+                                        <h3 className="title"><Link href={`/${locale}/solutions/custom`}>{dict.services.CustomSoftwareDevelopment.name}</Link></h3>
                                         <p>{dict.services.CustomSoftwareDevelopment.summary}</p>
                                         <div className="read-more">
-                                            <Link href={`/${locale}/service/custom`}><i className="fas fa-plus"></i> {dict.general.ReadMore}</Link>
+                                            <Link href={`/${locale}/solutions/custom`}><i className="fas fa-plus"></i> {dict.general.ReadMore}</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -49,10 +49,10 @@ export default function ServiceSection({ dict, locale }: PageProps) {
                                         <img src="/assets/images/ser-icon11.png" alt="" />
                                     </div>
                                     <div className="service-content">
-                                        <h3 className="title"><Link href={`/${locale}/service/data`}>{dict.services.DataScience.name}</Link></h3>
+                                        <h3 className="title"><Link href={`/${locale}/solutions/data`}>{dict.services.DataScience.name}</Link></h3>
                                         <p>{dict.services.DataScience.summary}</p>
                                         <div className="read-more">
-                                            <Link href={`/${locale}/service/data`}><i className="fas fa-plus"></i> {dict.general.ReadMore}</Link>
+                                            <Link href={`/${locale}/solutions/data`}><i className="fas fa-plus"></i> {dict.general.ReadMore}</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -63,10 +63,10 @@ export default function ServiceSection({ dict, locale }: PageProps) {
                                         <img src="/assets/images/ser-icon12.png" alt="" />
                                     </div>
                                     <div className="service-content">
-                                        <h3 className="title"><Link href={`/${locale}/service/mobile`}>{dict.services.MobileDevelopment.name}</Link></h3>
+                                        <h3 className="title"><Link href={`/${locale}/solutions/mobile`}>{dict.services.MobileDevelopment.name}</Link></h3>
                                         <p>{dict.services.MobileDevelopment.summary}</p>
                                         <div className="read-more">
-                                            <Link href={`/${locale}/service/mobile`}><i className="fas fa-plus"></i> R{dict.general.ReadMore}</Link>
+                                            <Link href={`/${locale}/solutions/mobile`}><i className="fas fa-plus"></i> {dict.general.ReadMore}</Link>
                                         </div>
                                     </div>
                                 </div>

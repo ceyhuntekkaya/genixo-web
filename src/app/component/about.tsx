@@ -28,9 +28,14 @@ export default function AboutSection({ dict, locale }: PageProps) {
                                     <p className="text">{dict.about.short}</p>
                                     <div className="about-author-info-wrap">
                                         <div className="about-author">
-                                            <div style={{ position: 'relative', width: '150px', height: '80px' }}>
+                                            {
+                                                /*
+                                                 <div style={{ position: 'relative', width: '150px', height: '80px' }}>
                                                 <Image src="/images/sign.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
                                             </div>
+                                                */
+                                            }
+                                           
                                             <h3 className="name">{dict.about.authorName}</h3>
                                             <span className="designation">{dict.about.authorTitle}</span>
                                         </div>

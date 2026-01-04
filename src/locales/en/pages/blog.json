@@ -15,7 +15,7 @@
   },
   "blog": {
     "latestBlog": "Latest Blog",
-    "fromNewsRoom": "From the news room",
+    "fromNewsRoom": "From recent articles",
     "readFull": "Read Full"
   }
 }

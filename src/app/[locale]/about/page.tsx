@@ -65,7 +65,6 @@ export default async function AboutPage({
                 ]}
             />
 
-
             <div className="section genixo-about-section-07 section-padding">
                 <div className="shape-1"></div>
                 <div className="container">

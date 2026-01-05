@@ -16,3 +16,6 @@ frontend:
       - .npm/**/*
       - node_modules/**/*
       - .next/cache/**/*
+# AWS Amplify Next.js SSR desteği için platform WEB_COMPUTE olmalı
+# Bu ayar AWS Console'dan yapılmalı: App Settings > General > Platform = WEB_COMPUTE
+# Branch ayarları: App Settings > Build settings > Framework = 'Next.js - SSR'

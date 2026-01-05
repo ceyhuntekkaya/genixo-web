@@ -6,19 +6,24 @@ import Link from "next/link";
 import MenuSection from "@/app/component/menu";
 import MenuList from "@/app/component/menu-list";
 import BootstrapScript from "@/app/component/bootstrap-script";
-import { Locale } from "@/i18n/config";
+import { Locale, locales } from "@/i18n/config";
 import { getDictionary } from '@/i18n/getDictionary';
 import {companyInfo} from "@/utils/company";
+
+export function generateStaticParams() {
+    return locales.map((locale) => ({ locale }));
+}
 
 export default async function LocaleLayout({
                                                children,
                                                params,
                                            }: {
     children: React.ReactNode;
-    params: Promise<{ locale: Locale }>;  // ← Promise oldu
+    params: Promise<{ locale: string }>;
 }) {
-    const { locale } = await params;  // ← await eklendi
-    const dict = await getDictionary(locale);
+    const { locale } = await params;
+    const typedLocale = locale as Locale;
+    const dict = await getDictionary(typedLocale);
 
     return (
         <>
@@ -28,7 +33,7 @@ export default async function LocaleLayout({
                 <div className="container">
                     <div className="header-wrap">
                         <div className="header-logo">
-                            <Link href={`/${locale}`}>
+                            <Link href={`/${typedLocale}`}>
                                 <Image
                                     src={logo}
                                     alt="Logo"
@@ -36,7 +41,7 @@ export default async function LocaleLayout({
                                 />
                             </Link>
                         </div>
-                        <MenuSection locale={locale} dict={dict} />
+                        <MenuSection locale={typedLocale} dict={dict} />
                     </div>
                 </div>
             </div>
@@ -44,7 +49,7 @@ export default async function LocaleLayout({
             <div className="offcanvas offcanvas-start" id="offcanvasExample">
                 <div className="offcanvas-header">
                     <div className="offcanvas-logo">
-                        <Link href={`/${locale}`}>
+                        <Link href={`/${typedLocale}`}>
                             <Image 
                                 src={logo} 
                                 alt="Logo" 
@@ -66,7 +71,7 @@ export default async function LocaleLayout({
 
                 <div className="offcanvas-body">
                     <div className="offcanvas-menu">
-                        <MenuList locale={locale} dict={dict} />
+                        <MenuList locale={typedLocale} dict={dict} />
                     </div>
                 </div>
             </div>
@@ -97,7 +102,7 @@ export default async function LocaleLayout({
                 </div>
             </div>
 
-            <FooterSection locale={locale} dict={dict} />
+            <FooterSection locale={typedLocale} dict={dict} />
 
             <div className="progress-wrap">
                 <svg className="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">

@@ -1,12 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  // SEO Optimizations
+  output: 'standalone', // EKLE - Amplify için gerekli
   compress: true,
   poweredByHeader: false,
   
-  // Image optimization
   images: {
     formats: ['image/avif', 'image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
@@ -14,7 +12,6 @@ const nextConfig: NextConfig = {
     minimumCacheTTL: 60,
   },
 
-  // Headers for security and SEO
   async headers() {
     return [
       {
@@ -41,11 +38,8 @@ const nextConfig: NextConfig = {
     ];
   },
 
-  // Redirects for SEO (if needed)
   async redirects() {
-    return [
-      // Add any redirects here if needed
-    ];
+    return [];
   },
 };
 

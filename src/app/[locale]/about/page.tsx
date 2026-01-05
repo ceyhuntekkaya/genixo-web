@@ -80,7 +80,7 @@ export default async function AboutPage({
                                 <div className="about-img about-img-2">
                                     <img src="/images/about-2-img.jpg" alt="" />
                                     </div>
-                                </div>
+                                </div> 
                             </div>
                             <div className="col-lg-6">
                                 <div className="about-content-wrap">

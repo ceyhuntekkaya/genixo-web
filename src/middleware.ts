@@ -21,7 +21,7 @@ export function middleware(request: NextRequest) {
         pathname.startsWith('/assets') ||
         pathname.includes('.')
     ) {
-        return;
+        return NextResponse.next();
     }
 
     // Pathname'de zaten locale var mı kontrol et
@@ -29,7 +29,9 @@ export function middleware(request: NextRequest) {
         (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
     );
 
-    if (pathnameHasLocale) return;
+    if (pathnameHasLocale) {
+        return NextResponse.next();
+    }
 
     // Kullanıcının ülkesine göre locale belirle
     const req = request as RequestWithGeo;
@@ -37,10 +39,14 @@ export function middleware(request: NextRequest) {
     const locale = countryToLocale[country] || defaultLocale;
 
     // Yeni URL'e yönlendir
-    request.nextUrl.pathname = `/${locale}${pathname}`;
-    return NextResponse.redirect(request.nextUrl);
+    const url = request.nextUrl.clone();
+    url.pathname = `/${locale}${pathname}`;
+    return NextResponse.redirect(url);
 }
 
 export const config = {
-    matcher: ['/((?!api|_next/static|_next/image|favicon.ico|assets).*)'],
+    matcher: [
+        // Root path dahil tüm pathler
+        '/((?!api|_next/static|_next/image|favicon.ico|assets|.*\\..*).*)',
+    ],
 };

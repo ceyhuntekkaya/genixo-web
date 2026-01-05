@@ -34,13 +34,18 @@ export function middleware(request: NextRequest) {
     }
 
     // Kullanıcının ülkesine göre locale belirle
+    // AWS Amplify'da geo bilgisi olmayabilir, bu durumda default locale kullan
     const req = request as RequestWithGeo;
     const country = req.geo?.country || '';
     const locale = countryToLocale[country] || defaultLocale;
 
-    // Yeni URL'e yönlendir
+    // Root path için locale'e yönlendir
     const url = request.nextUrl.clone();
-    url.pathname = `/${locale}${pathname}`;
+    if (pathname === '/') {
+        url.pathname = `/${locale}`;
+    } else {
+        url.pathname = `/${locale}${pathname}`;
+    }
     return NextResponse.redirect(url);
 }
 

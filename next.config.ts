@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'standalone', // EKLE - Amplify için gerekli
+  // output: 'standalone' kaldırıldı - AWS Amplify için gerekli değil
   compress: true,
   poweredByHeader: false,
   

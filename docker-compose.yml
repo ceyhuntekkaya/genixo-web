@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: genixo-web-app
+    image: ctekkaya/genixo-web-app:1.0
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - "3005:3000"

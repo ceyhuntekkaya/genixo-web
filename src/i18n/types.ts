@@ -373,6 +373,7 @@ export type Dictionary = {
             "successMessage"?: string;
             "errorMessage"?: string;
             "connectionError"?: string;
+            "botDetectedMessage"?: string;
         };
     };
     "team"?: {

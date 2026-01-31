@@ -34,7 +34,8 @@
       "submitting": "Gönderiliyor...",
       "successMessage": "Mesajınız başarıyla gönderildi!",
       "errorMessage": "Bir hata oluştu. Lütfen tekrar deneyin.",
-      "connectionError": "Bağlantı hatası. Lütfen tekrar deneyin."
+      "connectionError": "Bağlantı hatası. Lütfen tekrar deneyin.",
+      "botDetectedMessage": "Gönderiminizi doğrulayamadık. Lütfen tekrar deneyin."
     }
   },
   "team": {

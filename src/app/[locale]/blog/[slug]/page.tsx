@@ -8,13 +8,16 @@ import {notFound} from "next/navigation";
 import Script from "next/script";
 import Image from "next/image";
 
-// Blog slug mapping
-function getBlogKey(slug: string): string | null {
+// Blog slug mapping: özel slug'lar (örn. TR başlık slug'ı) -> JSON key. Yoksa slug = key kabul et.
+function getBlogKey(slug: string, blogKeys?: string[]): string | null {
     const slugMap: Record<string, string> = {
         'yapay-zeka-sadece-bir-teknoloji-degil-yeni-bir-calisma-kulturu': 'ai-not-just-technology',
         'ai-not-just-technology': 'ai-not-just-technology',
     };
-    return slugMap[slug] || null;
+    if (slugMap[slug]) return slugMap[slug];
+    // Slug doğrudan blog key'i ise (örn. sisteminiz-sizi-yavaslatiyor-mu) kabul et
+    if (blogKeys?.includes(slug)) return slug;
+    return null;
 }
 
 export async function generateMetadata({
@@ -24,7 +27,8 @@ export async function generateMetadata({
 }) {
     const { locale, slug } = await params;
     const dict = await getDictionary(locale);
-    const blogKey = getBlogKey(slug);
+    const blogKeys = dict.blogs ? Object.keys(dict.blogs) : [];
+    const blogKey = getBlogKey(slug, blogKeys);
     
     if (!blogKey) {
         return generateSEOMetadata({
@@ -69,7 +73,8 @@ export default async function BlogDetailPage({
 }) {
     const { locale, slug } = await params;
     const dict = await getDictionary(locale);
-    const blogKey = getBlogKey(slug);
+    const blogKeys = dict.blogs ? Object.keys(dict.blogs) : [];
+    const blogKey = getBlogKey(slug, blogKeys);
     
     if (!blogKey) {
         notFound();

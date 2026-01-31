@@ -34,7 +34,8 @@
       "submitting": "Wird gesendet...",
       "successMessage": "Ihre Nachricht wurde erfolgreich gesendet!",
       "errorMessage": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
-      "connectionError": "Verbindungsfehler. Bitte versuchen Sie es erneut."
+      "connectionError": "Verbindungsfehler. Bitte versuchen Sie es erneut.",
+      "botDetectedMessage": "Wir konnten Ihre Übermittlung nicht überprüfen. Bitte versuchen Sie es erneut."
     }
   },
   "team": {

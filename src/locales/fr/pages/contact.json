@@ -34,7 +34,8 @@
       "submitting": "Envoi en cours...",
       "successMessage": "Votre message a été envoyé avec succès !",
       "errorMessage": "Une erreur s'est produite. Veuillez réessayer.",
-      "connectionError": "Erreur de connexion. Veuillez réessayer."
+      "connectionError": "Erreur de connexion. Veuillez réessayer.",
+      "botDetectedMessage": "Nous n'avons pas pu vérifier votre envoi. Veuillez réessayer."
     }
   },
   "team": {

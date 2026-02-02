@@ -73,7 +73,11 @@ export default async function Home({
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteStructuredData) }}
             />
             <HeroSection dict={dict} locale={locale} />
-            <ServiceSection dict={dict} locale={locale} />
+            <BlogSection dict={dict} locale={locale} />
+            {
+                //    <ServiceSection dict={dict} locale={locale} />
+            }
+         
             <AboutSection dict={dict} locale={locale} />
             {
                 //  <CounterSection/>
@@ -86,10 +90,17 @@ export default async function Home({
                 // <BrandSection/>
                 // <TeamSection/>
             }
-            <BlogSection dict={dict} locale={locale} />
+         
             <AboutAISection dict={dict} locale={locale} />
             <ServiceAISection dict={dict} locale={locale} />
-            <CounterAISection dict={dict} locale={locale} />
+           
+
+            {
+                //   <CounterAISection dict={dict} locale={locale} />
+            }
+
+
+
             <SolutionAISection dict={dict} locale={locale} />
         </>
     )

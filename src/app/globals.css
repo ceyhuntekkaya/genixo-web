@@ -6551,7 +6551,8 @@ textarea:-ms-input-placeholder {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding-top: 210px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .genixo-choose-us-section .section-title {
@@ -6859,6 +6860,26 @@ textarea:-ms-input-placeholder {
   font-size: 22px;
   line-height: 30px;
   margin-top: 20px;
+}
+
+/* Kart başlık tasarımı: sol çizgi (card'lardaki gibi) */
+.genixo-choose-us-section .choose-us-item-02 .choose-us-content .title.card-title-accent {
+  position: relative;
+  padding-left: 18px;
+  font-weight: 700;
+  color: #0e0e0e;
+}
+
+.genixo-choose-us-section .choose-us-item-02 .choose-us-content .title.card-title-accent::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  background: var(--card-accent, #086ad8);
+  width: 4px;
+  height: 28px;
+  transform: translateY(-50%);
+  border-radius: 2px;
 }
 
 .choose-us-item-02 .choose-us-content p {

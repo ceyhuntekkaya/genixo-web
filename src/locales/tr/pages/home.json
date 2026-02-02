@@ -13,7 +13,7 @@
       },
       {
         "value": "119+",
-        "label": "Robotik Otomasyon"
+        "label": "Çalışılan Kurum"
       },
       {
         "value": "99%",
@@ -25,51 +25,46 @@
       }
     ]
   },
-  "chooseUs": {
-    "subtitle": "BİZİ SEÇME NEDENİNİZ",
-    "title": "Gerçekten öne çıkan BT çözümleri sunuyoruz.",
+  "whyDigitalTransformation": {
+    "subtitle": "Dijital Dönüşüm Neden Artık Bir Seçenek Değil, Zorunluluk",
+    "title": "Başarılı işletmelerin ortak özelliği: Bu sorunları çözdüler.",
     "items": [
       {
-        "image": "/images/ser-icon9.png",
-        "title": "Altyapı <br/> Teknolojisi",
-        "description": "Güvenilir ve ölçeklenebilir altyapı çözümleriyle işinizi geleceğe taşıyın. Kesintisiz hizmet garantisi."
-      },
-      {
-        "image": "/images/counter-3.png",
-        "title": "Yüksek profesyonel ekip üyeleri",
-        "description": "Alanında uzman, deneyimli profesyonellerle projelerinizi hayata geçirin. Kalite odaklı çalışma."
-      },
-      {
-        "image": "/images/ser-icon10.png",
-        "title": "Güvenlik <br/> Yönetimi",
-        "description": "Verilerinizi ve sistemlerinizi en üst düzey güvenlik protokolleriyle koruyun. Sıfır risk hedefi."
+        "image": "/images/ser-icon12.png",
+        "title": "Rakipler Hızlanıyor, Siz Geride Kalıyorsunuz",
+        "description": "Müşteriniz size sipariş veriyor, '2-3 güne fiyat teklifi gönderirim' diyorsunuz. Rakibiniz 10 dakikada gönderiyor. Müşteri kimi seçer?",
+        "solution": "Dijital sistemler size hız kazandırır. Daha hızlı teklif verir, daha hızlı karar alır, müşteriye daha çabuk yanıt verirsiniz."
       },
       {
         "image": "/images/ser-icon12.png",
-        "title": "Masaüstü <br/> Hesaplama",
-        "description": "Yüksek performanslı masaüstü çözümleriyle iş verimliliğinizi artırın. Optimize edilmiş sistemler."
+        "title": "Bilgi Var Ama Göremiyorsunuz",
+        "description": "'Bu ay ne kadar kar ettik?' diye soruyorsunuz. 3 gün sonra Excel ile yanıt geliyor. Önemli bir karar alacaksınız ama elinizde veri yok.",
+        "solution": "Gerçek zamanlı raporlama ve dashboard'larla verilerinizi anlık görürsünüz. Kararları tahmine değil, veriye dayandırırsınız."
       },
       {
-        "image": "/images/counter-1.png",
-        "title": "Altyapı <br/> Teknolojisi",
-        "description": "Modern teknolojilerle kurumsal altyapınızı güçlendirin. Esnek ve sürdürülebilir çözümler sunuyoruz."
+        "image": "/images/ser-icon12.png",
+        "title": "Ekibiniz Gereksiz İşlerle Boğuşuyor",
+        "description": "Satış ekibi günde 2 saat rapor hazırlıyor. Muhasebe elle fatura giriyor. Depo sürekli stok sayıyor. Herkes çalışıyor ama gerçek işe zaman kalmıyor.",
+        "solution": "Otomasyonla tekrarlayan işleri sistemler halleder. Ekibiniz asıl değer yaratan işlere odaklanır: müşteriye hizmet, yeni fırsatlar, büyüme."
       },
       {
-        "image": "/images/counter-2.png",
-        "title": "Yüksek getirili yatırım fikirleri",
-        "description": "Teknoloji yatırımlarınızdan maksimum değer alın. Stratejik danışmanlık ve ROI odaklı planlama."
+        "image": "/images/ser-icon12.png",
+        "title": "Büyüyemiyorsunuz Çünkü Sistem Ölçeklenmiyor",
+        "description": "İş büyüyor ama her yeni müşteri, her yeni sipariş daha fazla kaos yaratıyor. Daha fazla Excel, daha fazla WhatsApp grubu, daha fazla karmaşa.",
+        "solution": "Dijital sistemler sizinle birlikte büyür. 10 müşteri yönetmek ile 100 müşteri yönetmek aynı enerjiyi alır. Ölçeklenebilir altyapı kuruyoruz."
       },
       {
-        "image": "/images/ser-icon21.png",
-        "title": "Tam yüksek BT <br/> Yönetimi",
-        "description": "BT süreçlerinizi baştan sona profesyonelce yönetin. Sorunsuz operasyon için kapsamlı destek."
+        "image": "/images/ser-icon12.png",
+        "title": "Maliyetler Kontrolsüz Artıyor",
+        "description": "Çalışan sayısı artıyor ama verim artmıyor. Her yeni iş için yeni insan alıyorsunuz. Maliyetler şişiyor ama kâr marjları düşüyor.",
+        "solution": "Dijital dönüşümle aynı işi daha az kaynakla yaparsınız. Hem maliyet düşer, hem hata azalır, hem de iş daha hızlı biter."
       },
       {
-        "image": "/images/ser-icon22.png",
-        "title": "Veri güvenliği ve yönetimi",
-        "description": "Kurumsal verilerinizi güvenle saklayın ve yönetin. Uyumluluk standartlarında tam koruma sağlıyorız."
+        "image": "/images/ser-icon12.png",
+        "title": "Müşteri Beklentileri Değişti",
+        "description": "10 yıl önce müşteri 3 gün beklerdi. Bugün anında yanıt, anında teslimat, 7/24 erişim bekliyor. Dijital olmayan şirketler bu beklentiyi karşılayamıyor.",
+        "solution": "Modern müşteri deneyimi sunuyoruz. Otomatik yanıtlar, online takip, self-servis sistemler ile müşterileriniz beklemiyor."
       }
     ]
   }
 }
-

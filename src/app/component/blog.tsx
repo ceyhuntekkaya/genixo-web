@@ -46,17 +46,21 @@ export default function BlogSection({ dict, locale }: PageProps) {
 
     const blogDict = dict.blog;
 
+    // 1 blog: tek kolon, 2 blog: iki kolon, 3+: üç kolon
+    const colClass = blogs.length === 1
+        ? 'col-12'
+        : blogs.length === 2
+            ? 'col-lg-6 col-md-6'
+            : 'col-lg-4 col-md-4';
+
     return (
-        <div className="section genixo-blog-section section-padding-02">
+        <div className="section genixo-blog-section">
             <div className="container">
-                <div className="section-title text-center">
-                    <h4 className="sub-title">{blogDict.latestBlog}</h4>
-                    <h2 className="title">{blogDict.fromNewsRoom}</h2>
-                </div>
+               
                 <div className="genixo-blog-wrap">
                     <div className="row">
                         {blogs.map(({ key, blog, slug }) => (
-                            <div key={key} className="col-lg-4 col-md-6">
+                            <div key={key} className={colClass}>
                                 <div className="single-blog">
                                     <div className="blog-image">
                                         <Link href={`/${locale}/blog/${slug}`}>
@@ -68,25 +72,39 @@ export default function BlogSection({ dict, locale }: PageProps) {
                                                     style={{ objectFit: 'cover' }}
                                                     unoptimized
                                                 />
-                                            </div>
-                                            <div className="top-meta">
-                                                <span className="date">
-                                                    <span>{new Date(blog.date).getDate()}</span>
-                                                    {formatDate(blog.date, locale)}
+                                                <span
+                                                    style={{
+                                                        position: 'absolute',
+                                                        top: 0,
+                                                        left: 0,
+                                                        right: 0,
+                                                        bottom: 0,
+                                                        display: 'flex',
+                                                        alignItems: 'center',
+                                                        justifyContent: 'center',
+                                                        padding: '20px',
+                                                        background: 'rgba(0,0,0,0.4)',
+                                                        color: '#fff',
+                                                        fontSize: '1.75rem',
+                                                        fontWeight: 700,
+                                                        lineHeight: 1.3,
+                                                        textAlign: 'center',
+                                                    }}
+                                                >
+                                                    {blog.title}
                                                 </span>
                                             </div>
+                                           
                                         </Link>
                                     </div>
                                     <div className="blog-content">
-                                        <div className="blog-meta">
-                                            <span><i className="fas fa-user"></i> <a href="#">{blog.author.name}</a></span>
-                                        </div>
+                                        
                                         <h3 className="title">
                                             <Link href={`/${locale}/blog/${slug}`}>{blog.title}</Link>
                                         </h3>
                                         {blog.excerpt && (
                                             <p className="mb-3" style={{ fontSize: '14px', color: '#666' }}>
-                                                {blog.excerpt.substring(0, 100)}...
+                                                {blog.excerpt.substring(0, 300)}...
                                             </p>
                                         )}
                                         <div className="blog-btn">

@@ -1,12 +1,14 @@
 import {Locale} from "@/i18n/config";
 import {getDictionary} from "@/i18n/getDictionary";
+import type {Dictionary} from "@/i18n/types";
 import {generateMetadata as generateSEOMetadata} from "@/utils/seo";
 import {locales} from "@/i18n/config";
 import PageBanner from "@/app/component/page-banner";
 
 import Link from "next/link";
-import {getSolutionSlug} from "@/utils/slugMapping";
 import Image from "next/image";
+
+type ServiceItem = Dictionary['services'][number];
 
 export async function generateMetadata({
     params,
@@ -54,25 +56,14 @@ export default async function SolutionsPage({
                     <div className="choose-us-wrap">
                         <div className="choose-us-content-wrap">
                             <div className="row">
-                                {Object.keys(dict.services).filter(key => key !== 'general').map((key) => {
-                                    const solutionKey = key as keyof import('@/i18n/types').Dictionary['services'];
-                                    const solution = dict.services[solutionKey];
-                                    const solutionSlug = getSolutionSlug(solutionKey);
-                                    
-                                    if (!solution || !solutionSlug || !('name' in solution) || !('summary' in solution)) {
-                                        return null;
-                                    }
-
-                                    // Only show active solutions (default is true if not set)
-                                    if (solution.active === false) {
-                                        return null;
-                                    }
-
-                                    return (
-                                        <div key={key} className="col-lg-4 col-md-6">
+                                {Array.isArray(dict.services) && (dict.services as ServiceItem[])
+                                    .filter((s) => s.active !== false)
+                                    .sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
+                                    .map((solution) => (
+                                        <div key={solution.slug} className="col-lg-4 col-md-6">
                                             <div className="choose-us-item">
                                                 <div className="choose-us-img">
-                                                    <Link href={`/${locale}/solutions/${solutionSlug}`}>
+                                                    <Link href={`/${locale}/solutions/${solution.slug}`}>
                                                         <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '300px' }}>
                                                             <Image 
                                                                 src={solution.image1 || "/images/choose-us1.jpg"} 
@@ -90,8 +81,7 @@ export default async function SolutionsPage({
                                                 </div>
                                             </div>
                                         </div>
-                                    );
-                                })}
+                                    ))}
                             </div>
                         </div>
                     </div>

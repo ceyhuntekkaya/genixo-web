@@ -34,7 +34,8 @@
       "submitting": "Sending...",
       "successMessage": "Your message has been sent successfully!",
       "errorMessage": "An error occurred. Please try again.",
-      "connectionError": "Connection error. Please try again."
+      "connectionError": "Connection error. Please try again.",
+      "botDetectedMessage": "We could not verify your submission. Please try again."
     }
   },
   "team": {

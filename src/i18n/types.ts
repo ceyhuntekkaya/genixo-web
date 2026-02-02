@@ -49,15 +49,7 @@ export type Dictionary = {
             Blog?: boolean;
             ContactUs?: boolean;
         };
-        // Solutions submenu (services)
-        WebApplication: string;
-        SolutionArchitecture: string;
-        CustomSoftwareDevelopment: string;
-        DevOpsServices: string;
-        CloudDevelopment: string;
-        MobileDevelopment: string;
-        SupportServices: string;
-        DataScience: string;
+        // Solutions submenu items come from services array (service.name)
         // Products submenu
         ILC: string;
         StudyScoreAI: string;
@@ -83,91 +75,17 @@ export type Dictionary = {
     };
 
 
-    "services": {
-        "WebApplication": {
-            "summary": string;
-            "name": string;
-            "description": string;
-            "image1"?: string;
-            "image2"?: string;
-            "longDescription"?: string;
-            "active"?: boolean;
-            "showOnHomepage"?: boolean;
-        },
-        "ArchitectureAsAService": {
-            "summary": string;
-            "name": string;
-            "description": string;
-            "image1"?: string;
-            "image2"?: string;
-            "longDescription"?: string;
-            "active"?: boolean;
-            "showOnHomepage"?: boolean;
-        },
-        "CustomSoftwareDevelopment": {
-            "summary": string;
-            "name": string;
-            "description": string;
-            "image1"?: string;
-            "image2"?: string;
-            "longDescription"?: string;
-            "active"?: boolean;
-            "showOnHomepage"?: boolean;
-        },
-        "DevOpsServices": {
-            "summary": string;
-            "name": string;
-            "description": string;
-            "image1"?: string;
-            "image2"?: string;
-            "longDescription"?: string;
-            "active"?: boolean;
-            "showOnHomepage"?: boolean;
-        },
-        "CloudDevelopment": {
-            "summary": string;
-            "name": string;
-            "description": string;
-            "image1"?: string;
-            "image2"?: string;
-            "longDescription"?: string;
-            "active"?: boolean;
-            "showOnHomepage"?: boolean;
-        },
-        "MobileDevelopment": {
-            "summary": string;
-            "name": string;
-            "description": string;
-            "image1"?: string;
-            "image2"?: string;
-            "longDescription"?: string;
-            "active"?: boolean;
-            "showOnHomepage"?: boolean;
-        },
-        "ApplicationMaintenanceAndSupportServices": {
-            "summary": string;
-            "name": string;
-            "description": string;
-            "image1"?: string;
-            "image2"?: string;
-            "longDescription"?: string;
-            "active"?: boolean;
-            "showOnHomepage"?: boolean;
-        },
-        "DataScience": {
-            "summary": string;
-            "name": string;
-            "description": string;
-            "image1"?: string;
-            "image2"?: string;
-            "longDescription"?: string;
-            "active"?: boolean;
-            "showOnHomepage"?: boolean;
-        },
-        "general":{
-            "ReadMore":string;
-        }
-    };
+    "services": Array<{
+        slug: string;
+        name: string;
+        summary: string;
+        description: string;
+        image1?: string;
+        image2?: string;
+        active?: boolean;
+        showOnHomepage?: boolean;
+        order?: number;
+    }>;
 
     "products": {
         "ILC": {
@@ -292,14 +210,14 @@ export type Dictionary = {
             "label": string;
         }>;
     };
-    "chooseUs": {
+    "whyDigitalTransformation": {
         "subtitle": string;
         "title": string;
         "items": Array<{
             "image": string;
             "title": string;
             "description": string;
-            "link"?: string;
+            "solution": string;
         }>;
     };
     "blogs"?: {
@@ -373,6 +291,7 @@ export type Dictionary = {
             "successMessage"?: string;
             "errorMessage"?: string;
             "connectionError"?: string;
+            "botDetectedMessage"?: string;
         };
     };
     "team"?: {

@@ -110,30 +110,14 @@ export default function MenuSection({ locale, dict }: MenuSectionProps) {
                         <li>
                             <Link href={`/${locale}/solutions`}>{dict.menu.Solutions}</Link>
                             <ul className="sub-menu">
-                                {dict.services.WebApplication?.active !== false && (
-                                    <li><Link href={`/${locale}/solutions/web`}>{dict.menu.WebApplication}</Link></li>
-                                )}
-                                {dict.services.ArchitectureAsAService?.active !== false && (
-                                    <li><Link href={`/${locale}/solutions/arch`}>{dict.menu.SolutionArchitecture}</Link></li>
-                                )}
-                                {dict.services.CustomSoftwareDevelopment?.active !== false && (
-                                    <li><Link href={`/${locale}/solutions/custom`}>{dict.menu.CustomSoftwareDevelopment}</Link></li>
-                                )}
-                                {dict.services.DevOpsServices?.active !== false && (
-                                    <li><Link href={`/${locale}/solutions/dev`}>{dict.menu.DevOpsServices}</Link></li>
-                                )}
-                                {dict.services.CloudDevelopment?.active !== false && (
-                                    <li><Link href={`/${locale}/solutions/cloud`}>{dict.menu.CloudDevelopment}</Link></li>
-                                )}
-                                {dict.services.MobileDevelopment?.active !== false && (
-                                    <li><Link href={`/${locale}/solutions/mobile`}>{dict.menu.MobileDevelopment}</Link></li>
-                                )}
-                                {dict.services.ApplicationMaintenanceAndSupportServices?.active !== false && (
-                                    <li><Link href={`/${locale}/solutions/support`}>{dict.menu.SupportServices}</Link></li>
-                                )}
-                                {dict.services.DataScience?.active !== false && (
-                                    <li><Link href={`/${locale}/solutions/data`}>{dict.menu.DataScience}</Link></li>
-                                )}
+                                {Array.isArray(dict.services) && dict.services
+                                    .filter((s) => s.active !== false)
+                                    .sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
+                                    .map((service) => (
+                                        <li key={service.slug}>
+                                            <Link href={`/${locale}/solutions/${service.slug}`}>{service.name}</Link>
+                                        </li>
+                                    ))}
                             </ul>
                         </li>
                     )}

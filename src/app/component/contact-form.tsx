@@ -1,7 +1,9 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { Dictionary } from '@/i18n/types';
+
+const MIN_FILL_SECONDS = 4; // Insanlar en az bu sürede formu doldurur; daha hızlı gönderim bot sayılır
 
 interface ContactFormProps {
   dict: Dictionary;
@@ -12,6 +14,11 @@ export default function ContactForm({ dict, locale }: ContactFormProps) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
   const [statusMessage, setStatusMessage] = useState('');
+  const formMountedAt = useRef<number | null>(null);
+
+  useEffect(() => {
+    formMountedAt.current = Date.now();
+  }, []);
 
   if (!dict.contact?.form) {
     return <div>Contact form data not available</div>;
@@ -43,6 +50,24 @@ export default function ContactForm({ dict, locale }: ContactFormProps) {
     const companyNameInput = document.getElementById('companyName') as HTMLInputElement;
     const questionAboutSelect = document.getElementById('questionAbout') as HTMLSelectElement;
     const tellUsMoreTextarea = document.getElementById('tellUsMore') as HTMLTextAreaElement;
+    const honeypotInput = document.getElementById('website_hp') as HTMLInputElement | null;
+
+    // Bot koruması: honeypot doluysa (gizli alan – sadece botlar doldurur) gönderme
+    if (honeypotInput?.value?.trim()) {
+      setSubmitStatus('error');
+      setStatusMessage(formDict.botDetectedMessage || 'We could not verify your submission. Please try again.');
+      return;
+    }
+
+    // Bot koruması: form çok hızlı gönderildiyse (insan en az birkaç saniye doldurur)
+    if (formMountedAt.current != null) {
+      const elapsed = (Date.now() - formMountedAt.current) / 1000;
+      if (elapsed < MIN_FILL_SECONDS) {
+        setSubmitStatus('error');
+        setStatusMessage(formDict.botDetectedMessage || 'We could not verify your submission. Please try again.');
+        return;
+      }
+    }
 
     const name = nameInput?.value.trim();
     const email = emailInput?.value.trim();
@@ -204,6 +229,21 @@ export default function ContactForm({ dict, locale }: ContactFormProps) {
                   className="form-control email"
                   placeholder={formDict.emailPlaceholder}
                   required
+                />
+              </div>
+              {/* Honeypot: Gizli alan – kullanıcıya görünmez, botlar doldurur. Doluysa gönderim reddedilir. */}
+              <div
+                className="col-md-12"
+                style={{ position: 'absolute', left: '-9999px', width: '1px', height: '1px', overflow: 'hidden' }}
+                aria-hidden="true"
+              >
+                <label htmlFor="website_hp">Website (leave blank)</label>
+                <input
+                  type="text"
+                  id="website_hp"
+                  name="website"
+                  tabIndex={-1}
+                  autoComplete="off"
                 />
               </div>
               <div className="col-md-12">

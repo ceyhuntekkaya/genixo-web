@@ -1,11 +1,12 @@
-import {Locale} from "@/i18n/config";
+import {Locale, locales} from "@/i18n/config";
 import {getDictionary} from "@/i18n/getDictionary";
-import {getSolutionKey} from "@/utils/slugMapping";
+import type {Dictionary} from "@/i18n/types";
 import SolutionDetail from "@/app/component/solution-detail";
 import {notFound} from "next/navigation";
 import {generateMetadata as generateSEOMetadata, generateStructuredData} from "@/utils/seo";
-import {locales} from "@/i18n/config";
 import Script from "next/script";
+
+type ServiceItem = Dictionary['services'][number];
 
 export async function generateMetadata({
     params,
@@ -14,9 +15,11 @@ export async function generateMetadata({
 }) {
     const { locale, type } = await params;
     const dict = await getDictionary(locale);
-    const solutionKey = getSolutionKey(type);
-    
-    if (!solutionKey) {
+    const solution = Array.isArray(dict.services)
+        ? dict.services.find((s: ServiceItem) => s.slug === type)
+        : undefined;
+
+    if (!solution) {
         return generateSEOMetadata({
             title: '404 - Sayfa Bulunamadı',
             description: 'Aradığınız sayfa bulunamadı.',
@@ -26,21 +29,8 @@ export async function generateMetadata({
         });
     }
 
-    const solution = dict.services[solutionKey];
     const alternateLocales = locales.filter(l => l !== locale) as Locale[];
 
-    // Type guard to ensure solution has required properties
-    if (!solution || !('name' in solution) || !('description' in solution)) {
-        return generateSEOMetadata({
-            title: '404 - Sayfa Bulunamadı',
-            description: 'Aradığınız sayfa bulunamadı.',
-            locale,
-            noindex: true,
-            dict,
-        });
-    }
-
-    // Check if solution is active
     if (solution.active === false) {
         return generateSEOMetadata({
             title: '404 - Sayfa Bulunamadı',
@@ -51,14 +41,12 @@ export async function generateMetadata({
         });
     }
 
-    // For metadata, use summary if available, otherwise use first 160 chars of description
-    // If description is a file path, we'll just use summary or a default description
-    const metaDescription = ('summary' in solution && solution.summary) 
-        ? solution.summary 
-        : (solution.description.startsWith('@/') 
+    const metaDescription = solution.summary
+        ? solution.summary
+        : (solution.description.startsWith('@/')
             ? solution.summary || `${solution.name} hizmeti hakkında detaylı bilgi.`
             : solution.description.substring(0, 160));
-    
+
     return generateSEOMetadata({
         title: solution.name,
         description: metaDescription,
@@ -72,6 +60,21 @@ export async function generateMetadata({
     });
 }
 
+export async function generateStaticParams() {
+    const result: { locale: Locale; type: string }[] = [];
+    for (const locale of locales) {
+        const dict = await getDictionary(locale);
+        if (Array.isArray(dict.services)) {
+            for (const service of dict.services) {
+                if (service.active !== false) {
+                    result.push({ locale, type: service.slug });
+                }
+            }
+        }
+    }
+    return result;
+}
+
 export default async function SolutionDetailPage({
     params,
 }: {
@@ -79,53 +82,41 @@ export default async function SolutionDetailPage({
 }) {
     const { locale, type } = await params;
     const dict = await getDictionary(locale);
-    
-    // URL slug'ını JSON key'ine çevir
-    const solutionKey = getSolutionKey(type);
-    
-    // Eğer geçersiz bir slug ise 404 döndür
-    if (!solutionKey) {
+
+    const solution = Array.isArray(dict.services)
+        ? dict.services.find((s: ServiceItem) => s.slug === type)
+        : undefined;
+
+    if (!solution) {
         notFound();
     }
 
-    const solution = dict.services[solutionKey];
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://genixo.ai';
-    
-    // Type guard to ensure solution has required properties
-    if (!solution || !('name' in solution) || !('description' in solution)) {
-        notFound();
-    }
-
-    // Check if solution is active
     if (solution.active === false) {
         notFound();
     }
 
-    const solutionName = solution.name;
-    // For structured data, use summary if available, otherwise handle file path
-    const solutionDescription = ('summary' in solution && solution.summary) 
-        ? solution.summary 
-        : (solution.description.startsWith('@/') 
+    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://genixo.ai';
+    const solutionDescription = solution.summary
+        ? solution.summary
+        : (solution.description.startsWith('@/')
             ? solution.summary || `${solution.name} hizmeti hakkında detaylı bilgi.`
             : solution.description.substring(0, 200));
-    
-    // Structured Data for Service
+
     const serviceStructuredData = generateStructuredData({
         type: 'Service',
-        name: solutionName,
+        name: solution.name,
         description: solutionDescription,
         url: `${siteUrl}/${locale}/solutions/${type}`,
         image: `${siteUrl}/images/solutions/${type}.jpg`,
         dict,
     });
 
-    // Breadcrumb Structured Data
     const breadcrumbStructuredData = generateStructuredData({
         type: 'BreadcrumbList',
         breadcrumbs: [
             { name: dict.menu.Home, url: `${siteUrl}/${locale}` },
             { name: dict.menu.Solutions, url: `${siteUrl}/${locale}/solutions` },
-            { name: solutionName, url: `${siteUrl}/${locale}/solutions/${type}` },
+            { name: solution.name, url: `${siteUrl}/${locale}/solutions/${type}` },
         ],
         dict,
     });
@@ -142,8 +133,7 @@ export default async function SolutionDetailPage({
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }}
             />
-            <SolutionDetail solutionKey={solutionKey} dict={dict} locale={locale} />
+            <SolutionDetail service={solution} dict={dict} locale={locale} />
         </>
     );
 }
-

@@ -46,6 +46,13 @@ export default function BlogSection({ dict, locale }: PageProps) {
 
     const blogDict = dict.blog;
 
+    // 1 blog: tek kolon, 2 blog: iki kolon, 3+: üç kolon
+    const colClass = blogs.length === 1
+        ? 'col-12'
+        : blogs.length === 2
+            ? 'col-lg-6 col-md-6'
+            : 'col-lg-4 col-md-4';
+
     return (
         <div className="section genixo-blog-section">
             <div className="container">
@@ -53,7 +60,7 @@ export default function BlogSection({ dict, locale }: PageProps) {
                 <div className="genixo-blog-wrap">
                     <div className="row">
                         {blogs.map(({ key, blog, slug }) => (
-                            <div key={key} className="col-lg-6 col-md-6">
+                            <div key={key} className={colClass}>
                                 <div className="single-blog">
                                     <div className="blog-image">
                                         <Link href={`/${locale}/blog/${slug}`}>

@@ -129,7 +129,9 @@ export default async function AboutPage({
                     </div>
                 </div>
             </div>
-            <CounterSection locale={locale} />
+            {
+                //   <CounterSection locale={locale} />
+            }
 
             <ChooseUsSection locale={locale} />
         </>

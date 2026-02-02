@@ -25,49 +25,45 @@
       }
     ]
   },
-  "chooseUs": {
-    "subtitle": "RAISON DE NOUS CHOISIR",
-    "title": "Nous fournissons de véritables solutions IT de premier plan.",
+  "whyDigitalTransformation": {
+    "subtitle": "Pourquoi la transformation numérique n'est plus une option mais une nécessité",
+    "title": "Ce que les entreprises qui réussissent ont en commun : elles ont résolu ces problèmes.",
     "items": [
       {
-        "image": "/images/ser-icon9.png",
-        "title": "Infrastructure <br/> Technologie",
-        "description": "Transportez votre entreprise vers l'avenir avec des solutions d'infrastructure fiables et évolutives. Garantie de service sans interruption."
-      },
-      {
-        "image": "/images/counter-3.png",
-        "title": "Membres d'équipe hautement professionnels",
-        "description": "Donnez vie à vos projets avec des professionnels experts et expérimentés. Travail axé sur la qualité."
-      },
-      {
-        "image": "/images/ser-icon10.png",
-        "title": "Sécurité <br/> Gestion",
-        "description": "Protégez vos données et systèmes avec les protocoles de sécurité de plus haut niveau. Objectif zéro risque."
+        "image": "/images/ser-icon12.png",
+        "title": "Les concurrents accélèrent, vous prenez du retard",
+        "description": "Votre client passe commande ; vous dites « j'envoie un devis sous 2-3 jours ». Votre concurrent en envoie un en 10 minutes. Qui le client choisit-il ?",
+        "solution": "Les systèmes numériques vous donnent de la vitesse. Devis plus rapides, décisions plus rapides, réponses clients plus vite."
       },
       {
         "image": "/images/ser-icon12.png",
-        "title": "Informatique <br/> de Bureau",
-        "description": "Augmentez l'efficacité de votre entreprise avec des solutions de bureau haute performance. Systèmes optimisés."
+        "title": "Vous avez des données mais ne les voyez pas",
+        "description": "Vous demandez « Combien avons-nous gagné ce mois-ci ? ». La réponse arrive 3 jours plus tard dans Excel. Vous devez prendre une décision importante mais n'avez pas de données.",
+        "solution": "Avec des rapports et tableaux de bord en temps réel, vous voyez vos données instantanément. Basez les décisions sur les données, pas sur des suppositions."
       },
       {
-        "image": "/images/counter-1.png",
-        "title": "Infrastructure <br/> Technologie",
-        "description": "Renforcez votre infrastructure d'entreprise avec des technologies modernes. Nous offrons des solutions flexibles et durables."
+        "image": "/images/ser-icon12.png",
+        "title": "Votre équipe noie dans le travail administratif",
+        "description": "Les ventes passent 2 heures par jour en rapports. La compta saisit les factures à la main. L'entrepôt compte sans cesse les stocks. Tout le monde est occupé mais il n'y a pas de temps pour le vrai travail.",
+        "solution": "L'automatisation gère les tâches répétitives. Votre équipe se concentre sur la valeur : servir les clients, saisir les opportunités, croître."
       },
       {
-        "image": "/images/counter-2.png",
-        "title": "Idées pour investissement à haut rendement",
-        "description": "Tirez le maximum de valeur de vos investissements technologiques. Conseil stratégique et planification axée sur le ROI."
+        "image": "/images/ser-icon12.png",
+        "title": "Vous ne pouvez pas scaler car le système ne suit pas",
+        "description": "L'activité grandit mais chaque nouveau client, chaque nouvelle commande crée plus de chaos. Plus d'Excel, plus de groupes WhatsApp, plus de désordre.",
+        "solution": "Les systèmes numériques évoluent avec vous. Gérer 10 ou 100 clients demande le même effort. Nous construisons une infrastructure scalable."
       },
       {
-        "image": "/images/ser-icon21.png",
-        "title": "Gestion IT <br/> Complète",
-        "description": "Gérez vos processus informatiques de manière professionnelle de bout en bout. Support complet pour des opérations sans faille."
+        "image": "/images/ser-icon12.png",
+        "title": "Les coûts augmentent de façon incontrôlée",
+        "description": "Les effectifs augmentent mais pas la productivité. Vous embauchez pour chaque nouvelle tâche. Les coûts montent, les marges baissent.",
+        "solution": "Avec la transformation numérique, vous faites le même travail avec moins de ressources. Les coûts baissent, les erreurs diminuent, le travail va plus vite."
       },
       {
-        "image": "/images/ser-icon22.png",
-        "title": "Sécurité et gestion des données",
-        "description": "Stockez et gérez en toute sécurité les données de votre entreprise. Nous fournissons une protection complète selon les normes de conformité."
+        "image": "/images/ser-icon12.png",
+        "title": "Les attentes clients ont changé",
+        "description": "Il y a dix ans les clients attendaient 3 jours. Aujourd'hui ils attendent une réponse immédiate, une livraison immédiate, un accès 24/7. Les entreprises non numériques ne peuvent pas suivre.",
+        "solution": "Nous offrons une expérience client moderne. Réponses automatiques, suivi en ligne, self-service pour que vos clients n'attendent pas."
       }
     ]
   }

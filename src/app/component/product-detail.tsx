@@ -93,7 +93,9 @@ export default function ProductDetail({ productKey, dict, locale }: ProductDetai
                 </div>
             </div>
 
-            <CounterSection locale={locale} />
+            {
+                //   <CounterSection locale={locale} />
+            }
 
             <ChooseUsSection locale={locale} />
         </>

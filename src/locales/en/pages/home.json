@@ -25,49 +25,45 @@
       }
     ]
   },
-  "chooseUs": {
-    "subtitle": "REASON TO CHOOSE US",
-    "title": "We provide truly prominent IT solutions.",
+  "whyDigitalTransformation": {
+    "subtitle": "Why Digital Transformation Is No Longer Optional But Essential",
+    "title": "What successful businesses have in common: They solved these problems.",
     "items": [
       {
-        "image": "/images/ser-icon9.png",
-        "title": "Infrastructure <br/> Technology",
-        "description": "Take your business to the future with reliable and scalable infrastructure solutions. Uninterrupted service guarantee."
-      },
-      {
-        "image": "/images/counter-3.png",
-        "title": "Highly professional team members",
-        "description": "Bring your projects to life with expert, experienced professionals. Quality-focused work."
-      },
-      {
-        "image": "/images/ser-icon10.png",
-        "title": "Security <br/> Management",
-        "description": "Protect your data and systems with the highest level security protocols. Zero risk target."
+        "image": "/images/ser-icon12.png",
+        "title": "Competitors Are Speeding Up, You're Falling Behind",
+        "description": "Your customer places an order; you say 'I'll send a quote in 2-3 days'. Your competitor sends one in 10 minutes. Who does the customer choose?",
+        "solution": "Digital systems give you speed. Quote faster, decide faster, respond to customers sooner."
       },
       {
         "image": "/images/ser-icon12.png",
-        "title": "Desktop <br/> Computing",
-        "description": "Increase your business efficiency with high-performance desktop solutions. Optimized systems."
+        "title": "You Have Data But Can't See It",
+        "description": "You ask 'How much profit did we make this month?'. The answer comes 3 days later in Excel. You need to make an important decision but have no data.",
+        "solution": "With real-time reporting and dashboards you see your data instantly. Base decisions on data, not guesswork."
       },
       {
-        "image": "/images/counter-1.png",
-        "title": "Infrastructure <br/> Technology",
-        "description": "Strengthen your corporate infrastructure with modern technologies. We offer flexible and sustainable solutions."
+        "image": "/images/ser-icon12.png",
+        "title": "Your Team Is Drowning in Busywork",
+        "description": "Sales spends 2 hours a day on reports. Accounting enters invoices manually. Warehouse keeps counting stock. Everyone is busy but there's no time for real work.",
+        "solution": "Automation handles repetitive tasks. Your team focuses on value: serving customers, finding opportunities, growing."
       },
       {
-        "image": "/images/counter-2.png",
-        "title": "Ideas for high return investment",
-        "description": "Get maximum value from your technology investments. Strategic consulting and ROI-focused planning."
+        "image": "/images/ser-icon12.png",
+        "title": "You Can't Scale Because the System Doesn't",
+        "description": "Business is growing but every new customer, every new order creates more chaos. More Excel, more WhatsApp groups, more mess.",
+        "solution": "Digital systems scale with you. Managing 10 customers or 100 takes the same effort. We build scalable infrastructure."
       },
       {
-        "image": "/images/ser-icon21.png",
-        "title": "Fully high IT <br/> Management",
-        "description": "Manage your IT processes professionally from start to finish. Comprehensive support for seamless operations."
+        "image": "/images/ser-icon12.png",
+        "title": "Costs Are Rising Out of Control",
+        "description": "Headcount grows but productivity doesn't. You hire more people for every new task. Costs go up but profit margins go down.",
+        "solution": "With digital transformation you do the same work with fewer resources. Costs drop, errors decrease, work finishes faster."
       },
       {
-        "image": "/images/ser-icon22.png",
-        "title": "Data secure & Management",
-        "description": "Safely store and manage your corporate data. We provide complete protection at compliance standards."
+        "image": "/images/ser-icon12.png",
+        "title": "Customer Expectations Have Changed",
+        "description": "Ten years ago customers waited 3 days. Today they expect instant response, instant delivery, 24/7 access. Non-digital companies can't meet that.",
+        "solution": "We deliver modern customer experience. Automated responses, online tracking, self-service so your customers don't wait."
       }
     ]
   }

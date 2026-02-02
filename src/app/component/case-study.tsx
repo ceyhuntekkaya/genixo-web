@@ -3,7 +3,6 @@
 import {Dictionary} from "@/i18n/types";
 import {Locale} from "@/i18n/config";
 import Link from "next/link";
-import {getSolutionSlug} from "@/utils/slugMapping";
 import Image from "next/image";
 
 interface PageProps {
@@ -30,49 +29,33 @@ export default function CaseStudySection({ dict, locale }: PageProps) {
                         </div>
                         <div className="choose-us-content-wrap">
                             <div className="row">
-                                {Object.keys(dict.services)
-                                    .filter(key => key !== 'general')
-                                    .filter(key => {
-                                        const solution = dict.services[key as keyof typeof dict.services];
-                                        return solution && 
-                                               ('showOnHomepage' in solution) && 
-                                               solution.showOnHomepage === true &&
-                                               solution.active !== false;
-                                    })
-                                    .slice(0, 3) // Show maximum 3 items
-                                    .map((key) => {
-                                        const solutionKey = key as keyof import('@/i18n/types').Dictionary['services'];
-                                        const solution = dict.services[solutionKey];
-                                        const solutionSlug = getSolutionSlug(solutionKey);
-                                        
-                                        if (!solution || !solutionSlug || !('name' in solution) || !('summary' in solution)) {
-                                            return null;
-                                        }
-
-                                        return (
-                                            <div key={key} className="col-lg-4 col-md-6">
-                                                <div className="choose-us-item">
-                                                    <div className="choose-us-img">
-                                                        <Link href={`/${locale}/solutions/${solutionSlug}`}>
-                                                            <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '300px' }}>
-                                                                <Image 
-                                                                    src={solution.image1 || "/images/choose-us1.jpg"} 
-                                                                    alt={solution.name}
-                                                                    fill
-                                                                    style={{ objectFit: 'cover' }}
-                                                                    unoptimized
-                                                                />
-                                                            </div>
-                                                            <div className="choose-us-content">
-                                                                <h3 className="title">{solution.name}</h3>
-                                                                <p>{solution.summary}</p>
-                                                            </div>
-                                                        </Link>
-                                                    </div>
+                                {Array.isArray(dict.services) && dict.services
+                                    .filter((s) => s.showOnHomepage === true && s.active !== false)
+                                    .sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
+                                    .slice(0, 3)
+                                    .map((solution) => (
+                                        <div key={solution.slug} className="col-lg-4 col-md-6">
+                                            <div className="choose-us-item">
+                                                <div className="choose-us-img">
+                                                    <Link href={`/${locale}/solutions/${solution.slug}`}>
+                                                        <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '300px' }}>
+                                                            <Image
+                                                                src={solution.image1 || "/images/choose-us1.jpg"}
+                                                                alt={solution.name}
+                                                                fill
+                                                                style={{ objectFit: 'cover' }}
+                                                                unoptimized
+                                                            />
+                                                        </div>
+                                                        <div className="choose-us-content">
+                                                            <h3 className="title">{solution.name}</h3>
+                                                            <p>{solution.summary}</p>
+                                                        </div>
+                                                    </Link>
                                                 </div>
                                             </div>
-                                        );
-                                    })}
+                                        </div>
+                                    ))}
                             </div>
                             <div className="row">
                                 <div className="col-lg-12">

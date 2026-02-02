@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 import { locales } from '@/i18n/config';
-import { solutionSlugToKey, productSlugToKey } from '@/utils/slugMapping';
+import { solutionSlugs, productSlugToKey } from '@/utils/slugMapping';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://genixo.ai';
 
@@ -36,7 +36,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         });
 
         // Solution detail pages
-        Object.keys(solutionSlugToKey).forEach((slug) => {
+        solutionSlugs.forEach((slug) => {
             routes.push({
                 url: `${siteUrl}/${locale}/solutions/${slug}`,
                 lastModified: new Date(),

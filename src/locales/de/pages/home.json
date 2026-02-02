@@ -25,49 +25,45 @@
       }
     ]
   },
-  "chooseUs": {
-    "subtitle": "GRUND, UNS ZU WÄHLEN",
-    "title": "Wir bieten wirklich herausragende IT-Lösungen.",
+  "whyDigitalTransformation": {
+    "subtitle": "Warum digitale Transformation keine Option mehr ist, sondern Pflicht",
+    "title": "Was erfolgreiche Unternehmen gemeinsam haben: Sie haben diese Probleme gelöst.",
     "items": [
       {
-        "image": "/images/ser-icon9.png",
-        "title": "Infrastruktur <br/> Technologie",
-        "description": "Bringen Sie Ihr Geschäft mit zuverlässigen und skalierbaren Infrastrukturlösungen in die Zukunft. Unterbrechungsfreie Servicegarantie."
-      },
-      {
-        "image": "/images/counter-3.png",
-        "title": "Hochprofessionelle Teammitglieder",
-        "description": "Verwirklichen Sie Ihre Projekte mit Experten und erfahrenen Fachleuten. Qualitätsorientierte Arbeit."
-      },
-      {
-        "image": "/images/ser-icon10.png",
-        "title": "Sicherheit <br/> Management",
-        "description": "Schützen Sie Ihre Daten und Systeme mit höchsten Sicherheitsprotokollen. Null-Risiko-Ziel."
+        "image": "/images/ser-icon12.png",
+        "title": "Wettbewerber werden schneller, Sie fallen zurück",
+        "description": "Ihr Kunde bestellt; Sie sagen „in 2–3 Tagen sende ich ein Angebot“. Ihr Wettbewerber sendet in 10 Minuten. Wen wählt der Kunde?",
+        "solution": "Digitale Systeme geben Ihnen Geschwindigkeit. Schneller anbieten, schneller entscheiden, Kunden schneller antworten."
       },
       {
         "image": "/images/ser-icon12.png",
-        "title": "Desktop <br/> Computing",
-        "description": "Steigern Sie Ihre Geschäftseffizienz mit leistungsstarken Desktop-Lösungen. Optimierte Systeme."
+        "title": "Daten sind da, aber Sie sehen sie nicht",
+        "description": "Sie fragen „Wie viel Gewinn haben wir diesen Monat gemacht?“ Die Antwort kommt 3 Tage später per Excel. Sie müssen eine wichtige Entscheidung treffen, haben aber keine Daten.",
+        "solution": "Mit Echtzeit-Berichten und Dashboards sehen Sie Ihre Daten sofort. Entscheidungen auf Daten basieren, nicht auf Vermutungen."
       },
       {
-        "image": "/images/counter-1.png",
-        "title": "Infrastruktur <br/> Technologie",
-        "description": "Stärken Sie Ihre Unternehmensinfrastruktur mit modernen Technologien. Wir bieten flexible und nachhaltige Lösungen."
+        "image": "/images/ser-icon12.png",
+        "title": "Ihr Team ertrinkt in Routinearbeiten",
+        "description": "Vertrieb verbringt 2 Stunden täglich mit Berichten. Buchhaltung gibt Rechnungen manuell ein. Lager zählt ständig Inventar. Alle sind beschäftigt, aber für echte Arbeit fehlt die Zeit.",
+        "solution": "Automatisierung übernimmt wiederkehrende Aufgaben. Ihr Team konzentriert sich auf Mehrwert: Kunden betreuen, Chancen nutzen, wachsen."
       },
       {
-        "image": "/images/counter-2.png",
-        "title": "Ideen für hohe Renditeinvestitionen",
-        "description": "Erzielen Sie maximalen Wert aus Ihren Technologieinvestitionen. Strategische Beratung und ROI-orientierte Planung."
+        "image": "/images/ser-icon12.png",
+        "title": "Sie können nicht skalieren, weil das System es nicht kann",
+        "description": "Das Geschäft wächst, aber jeder neue Kunde, jede neue Bestellung schafft mehr Chaos. Mehr Excel, mehr WhatsApp-Gruppen, mehr Durcheinander.",
+        "solution": "Digitale Systeme skalieren mit Ihnen. 10 oder 100 Kunden zu verwalten kostet dieselbe Anstrengung. Wir bauen skalierbare Infrastruktur."
       },
       {
-        "image": "/images/ser-icon21.png",
-        "title": "Vollständiges IT <br/> Management",
-        "description": "Verwalten Sie Ihre IT-Prozesse professionell von Anfang bis Ende. Umfassende Unterstützung für nahtlose Operationen."
+        "image": "/images/ser-icon12.png",
+        "title": "Kosten steigen unkontrolliert",
+        "description": "Die Mitarbeiterzahl wächst, die Produktivität nicht. Für jede neue Aufgabe stellen Sie mehr Leute ein. Kosten steigen, Gewinnmargen sinken.",
+        "solution": "Mit digitaler Transformation erledigen Sie dieselbe Arbeit mit weniger Ressourcen. Kosten sinken, Fehler nehmen ab, die Arbeit geht schneller."
       },
       {
-        "image": "/images/ser-icon22.png",
-        "title": "Datensicherheit & Management",
-        "description": "Speichern und verwalten Sie Ihre Unternehmensdaten sicher. Wir bieten vollständigen Schutz nach Compliance-Standards."
+        "image": "/images/ser-icon12.png",
+        "title": "Kundenerwartungen haben sich geändert",
+        "description": "Vor zehn Jahren warteten Kunden 3 Tage. Heute erwarten sie sofortige Antwort, sofortige Lieferung, 24/7-Zugang. Nicht-digitale Unternehmen können das nicht erfüllen.",
+        "solution": "Wir liefern moderne Kundenerfahrung. Automatische Antworten, Online-Tracking, Self-Service – Ihre Kunden warten nicht."
       }
     ]
   }

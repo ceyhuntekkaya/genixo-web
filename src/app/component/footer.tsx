@@ -4,7 +4,7 @@ import Image from "next/image";
 import footerLogo from "@/app/assets/Genixo_Logo_White.png";
 import { Locale } from "@/i18n/config";
 import {Dictionary} from "@/i18n/types";
-import {getProductSlug, getSolutionSlug} from "@/utils/slugMapping";
+import {getProductSlug} from "@/utils/slugMapping";
 import {companyInfo} from "@/utils/company";
 
 interface FooterSectionProps {
@@ -33,20 +33,13 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
         })
         .filter(item => item.product && item.slug);
 
-    // Aktif hizmetleri al
-    const activeServices = Object.keys(dict.services)
-        .filter(key => {
-            if (key === 'general') return false;
-            const service = dict.services[key as keyof typeof dict.services];
-            return service && 'active' in service && service.active !== false && 'name' in service;
-        })
-        .map(key => {
-            const serviceKey = key as keyof import('@/i18n/types').Dictionary['services'];
-            const service = dict.services[serviceKey];
-            const solutionSlug = getSolutionSlug(serviceKey);
-            return { key, service, slug: solutionSlug };
-        })
-        .filter(item => item.service && item.slug && 'name' in item.service);
+    // Aktif hizmetleri al (services artık array)
+    const activeServices = Array.isArray(dict.services)
+        ? dict.services
+            .filter((s) => s.active !== false)
+            .sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
+            .map((service) => ({ service, slug: service.slug }))
+        : [];
     return (
         <div className="section footer-section footer-section-03"
              style={{
@@ -92,9 +85,9 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
                                 <div className="widget-link">
                                     <ul className="link">
                                         {activeServices.map((item) => (
-                                            <li key={item.key}>
+                                            <li key={item.slug}>
                                                 <Link href={`/${locale}/solutions/${item.slug}`}>
-                                                    {'name' in item.service ? item.service.name : item.key}
+                                                    {item.service.name}
                                                 </Link>
                                             </li>
                                         ))}

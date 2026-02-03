@@ -144,28 +144,28 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 /*--Section Spacing--*/
 .section-padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 @media only screen and (max-width: 1199px) {
   .section-padding {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 }
 
 @media only screen and (max-width: 991px) {
   .section-padding {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .section-padding {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 }
 
@@ -242,6 +242,70 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-bottom: 12px;
+}
+
+/* Modern Section Subtitle Styling */
+.section-title .sub-title-modern {
+  font-size: 13px;
+  line-height: 1.6;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  color: #086ad8;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  display: inline-block;
+  position: relative;
+  padding-left: 25px;
+}
+
+.section-title .sub-title-modern::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 2px;
+  background-color: #086ad8;
+}
+
+/* White variant for dark backgrounds */
+.section-title .sub-title-modern.white {
+  color: #ffffff;
+}
+
+.section-title .sub-title-modern.white::before {
+  background-color: #ffffff;
+}
+
+/* Color variants */
+.section-title .sub-title-modern.color-2 {
+  color: #ff5538;
+}
+
+.section-title .sub-title-modern.color-2::before {
+  background-color: #ff5538;
+}
+
+.section-title .sub-title-modern.color-3 {
+  color: #11ddf5;
+}
+
+.section-title .sub-title-modern.color-3::before {
+  background-color: #11ddf5;
+}
+
+@media only screen and (max-width: 767px) {
+  .section-title .sub-title-modern {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    padding-left: 20px;
+  }
+  
+  .section-title .sub-title-modern::before {
+    width: 12px;
+  }
 }
 
 .section-title .sub-title.color-2 {
@@ -7476,15 +7540,13 @@ textarea:-ms-input-placeholder {
 /*  13 - Blog CSS
 /*----------------------------------------*/
 .genixo-blog-section {
-  padding-bottom: 70px;
-}
-
-.genixo-blog-wrap {
-  padding-top: 20px;
+  padding-bottom: 0px;
 }
 
 .single-blog {
-  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .single-blog .blog-image {
@@ -7533,7 +7595,7 @@ textarea:-ms-input-placeholder {
 }
 
 .single-blog .blog-content {
-  padding: 25px 30px 40px;
+  padding: 18px 20px;
   background: #ffffff;
   width: 90%;
   position: relative;
@@ -7541,11 +7603,16 @@ textarea:-ms-input-placeholder {
   bottom: 10px;
   transform: translateX(-48%);
   margin-top: -40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 12px;
 }
 
 @media only screen and (max-width: 1199px) {
   .single-blog .blog-content {
-    padding: 25px 20px 40px;
+    padding: 16px;
     width: 95%;
   }
 }
@@ -7571,17 +7638,22 @@ textarea:-ms-input-placeholder {
 
 .single-blog .blog-content .title {
   font-size: 22px;
-  line-height: 30px;
+  line-height: 28px;
   font-weight: 600;
   color: #0e0e0e;
-  padding-right: 15px;
-  margin-top: 15px;
+  padding-right: 0;
+  margin: 0;
 }
 
 @media only screen and (max-width: 1199px) {
   .single-blog .blog-content .title {
     padding-right: 0;
   }
+}
+
+.single-blog .blog-btn {
+  margin-top: auto;
+  padding-top: 0;
 }
 
 .single-blog .blog-btn .blog-btn-link {
@@ -7591,7 +7663,7 @@ textarea:-ms-input-placeholder {
   color: #086ad8;
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin-top: 15px;
+  margin: 0;
   transition: all 0.3s linear;
 }
 

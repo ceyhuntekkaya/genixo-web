@@ -2233,7 +2233,8 @@ textarea:-ms-input-placeholder {
 }
 
 .genixo-hero-section-03 {
-  height: 1020px;
+  height: 654px;
+  min-height: 654px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -2242,160 +2243,557 @@ textarea:-ms-input-placeholder {
   z-index: 1;
 }
 
+/* Hero Animations */
+@keyframes heroFadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes heroFadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes heroShapeFloat {
+  from {
+    opacity: 0;
+    transform: scale(0.8) rotate(-5deg);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+.hero-shape-animate {
+  animation: heroShapeFloat 1s ease-out forwards;
+}
+
+/* Desktop animations - from left */
+.hero-content-animate .sub-title {
+  animation: heroFadeInLeft 0.8s ease-out 0.2s backwards;
+}
+
+.hero-content-animate .title {
+  animation: heroFadeInLeft 0.8s ease-out 0.4s backwards;
+}
+
+.hero-content-animate .description {
+  animation: heroFadeInLeft 0.8s ease-out 0.6s backwards;
+}
+
+.hero-content-animate .hero-btn {
+  animation: heroFadeInLeft 0.8s ease-out 0.8s backwards;
+}
+
+/* Mobile animations - from bottom */
+@media only screen and (max-width: 767px) {
+  .hero-content-animate .sub-title {
+    animation: heroFadeInUp 0.8s ease-out 0.2s backwards;
+  }
+
+  .hero-content-animate .title {
+    animation: heroFadeInUp 0.8s ease-out 0.4s backwards;
+  }
+
+  .hero-content-animate .description {
+    animation: heroFadeInUp 0.8s ease-out 0.6s backwards;
+  }
+
+  .hero-content-animate .hero-btn {
+    animation: heroFadeInUp 0.8s ease-out 0.8s backwards;
+  }
+}
+
 .genixo-hero-section-03 .shape-1 {
   position: absolute;
-  top: -34%;
-  left: -9%;
+  top: -50%;
+  left: -12%;
   z-index: -1;
+  opacity: 0.9;
+  display: block;
+  pointer-events: none;
+  width: 944px;
+}
+
+.genixo-hero-section-03 .shape-1 svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  overflow: visible;
 }
 
 .genixo-hero-section-03 .shape-2 {
   position: absolute;
-  left: 10%;
-  top: -27%;
+  left: 8%;
+  top: -42%;
   z-index: -1;
+  opacity: 0.8;
+  display: block;
+  pointer-events: none;
+  width: 726px;
+}
+
+.genixo-hero-section-03 .shape-2 svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  overflow: visible;
 }
 
 .genixo-hero-section-03 .shape-3 {
   position: absolute;
-  right: -4%;
-  bottom: -19%;
+  right: -8%;
+  bottom: -35%;
   z-index: -1;
+  opacity: 0.9;
+  display: block;
+  pointer-events: none;
+  width: 515px;
+}
+
+.genixo-hero-section-03 .shape-3 svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  overflow: visible;
 }
 
 .genixo-hero-section-03 .shape-4 {
   position: absolute;
-  top: 20%;
-  right: -29%;
+  top: 15%;
+  right: -35%;
   z-index: -1;
+  opacity: 0.7;
+  display: block;
+  pointer-events: none;
+  width: 972px;
+}
+
+.genixo-hero-section-03 .shape-4 svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  overflow: visible;
+}
+
+.genixo-hero-section-03 .hero-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+  z-index: 2;
+  text-align: left;
 }
 
 .genixo-hero-section-03 .hero-content .sub-title {
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 14px;
+  line-height: 24px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   color: #ffffff;
+  opacity: 0.95;
+  margin-bottom: 15px;
 }
 
 .genixo-hero-section-03 .hero-content .title {
-  font-size: 70px;
-  line-height: 78px;
-  font-weight: 600;
+  font-size: 56px;
+  line-height: 66px;
+  font-weight: 700;
   color: #ffffff;
-  margin-top: 10px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  letter-spacing: -0.5px;
 }
 
-.genixo-hero-section-03 .hero-content p {
-  font-size: 24px;
-  line-height: 36px;
-  font-weight: 500;
+.genixo-hero-section-03 .hero-content .description {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
   color: #ffffff;
-  margin-top: 30px;
+  opacity: 0.95;
+  margin-top: 0;
+  max-width: 90%;
+}
+
+.genixo-hero-section-03 .hero-content .hero-btn {
+  margin-top: 35px;
+  display: inline-block;
 }
 
 .genixo-hero-section-03 .hero-content .hero-btn .btn {
-  margin-top: 40px;
+  height: 55px;
+  line-height: 53px;
+  padding: 0 50px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 1399px) {
   .genixo-hero-section-03 .hero-content .title {
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 52px;
+    line-height: 62px;
+  }
+  .genixo-hero-section-03 .hero-content .description {
+    font-size: 19px;
+    line-height: 30px;
   }
 }
 
 @media only screen and (max-width: 1199px) {
   .genixo-hero-section-03 {
-    height: 850px;
+    height: 580px;
+    min-height: 580px;
   }
   .genixo-hero-section-03 .shape-1 {
-    top: -65%;
+    top: -68%;
     left: -20%;
   }
   .genixo-hero-section-03 .shape-2 {
     left: 4%;
-    top: -48%;
+    top: -55%;
   }
   .genixo-hero-section-03 .shape-3 {
     right: -16%;
-    bottom: -26%;
+    bottom: -42%;
   }
   .genixo-hero-section-03 .shape-4 {
-    top: 25%;
-    right: -61%;
+    top: 20%;
+    right: -50%;
   }
   .genixo-hero-section-03 .hero-content .title {
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 48px;
+    line-height: 58px;
   }
-  .genixo-hero-section-03 .hero-content p {
-    font-size: 20px;
-    line-height: 32px;
+  .genixo-hero-section-03 .hero-content .description {
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 100%;
   }
 }
 
 @media only screen and (max-width: 991px) {
   .genixo-hero-section-03 {
-    height: 750px;
+    height: 550px;
+    min-height: 550px;
   }
   .genixo-hero-section-03 .shape-1 {
-    top: -79%;
-    left: -30%;
+    top: -45%;
+    left: -18%;
+    opacity: 0.7;
+    width: 650px;
   }
   .genixo-hero-section-03 .shape-2 {
-    left: -4%;
-    top: -59%;
+    left: 5%;
+    top: -38%;
+    opacity: 0.6;
+    width: 520px;
+  }
+  .genixo-hero-section-03 .shape-3 {
+    right: -10%;
+    bottom: -32%;
+    opacity: 0.7;
+    width: 420px;
   }
   .genixo-hero-section-03 .shape-4 {
-    top: 17%;
-    right: -73%;
+    top: 22%;
+    right: -42%;
+    opacity: 0.5;
+    width: 600px;
+  }
+  .genixo-hero-section-03 .hero-content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+  }
+  .genixo-hero-section-03 .hero-content .sub-title {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+  }
+  .genixo-hero-section-03 .hero-content .title {
+    font-size: 42px;
+    line-height: 52px;
+    margin-bottom: 18px;
+  }
+  .genixo-hero-section-03 .hero-content .description {
+    font-size: 17px;
+    line-height: 28px;
+    max-width: 100%;
+  }
+  .genixo-hero-section-03 .hero-content .hero-btn {
+    margin-top: 30px;
+    display: inline-block;
+  }
+  .genixo-hero-section-03 .hero-content .hero-btn .btn {
+    height: 52px;
+    line-height: 50px;
+    padding: 0 45px;
+    font-size: 15px;
   }
 }
 
 @media only screen and (max-width: 767px) {
+  .genixo-hero-section-03 {
+    height: auto;
+    min-height: 100vh;
+    min-height: 100dvh;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .genixo-hero-section-03 .container {
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
   .genixo-hero-section-03 .shape-1 {
-    top: -85%;
-    left: -45%;
+    top: -10%;
+    left: -15%;
+    opacity: 0.25;
+    width: 400px;
+    transform: none;
   }
   .genixo-hero-section-03 .shape-2 {
-    left: -12%;
-    top: -65%;
+    left: auto;
+    right: -12%;
+    top: 8%;
+    opacity: 0.2;
+    width: 320px;
+    transform: none;
   }
   .genixo-hero-section-03 .shape-3 {
-    right: -30%;
-    bottom: -35%;
+    right: auto;
+    left: -10%;
+    bottom: -8%;
+    opacity: 0.25;
+    width: 280px;
+    transform: none;
   }
   .genixo-hero-section-03 .shape-4 {
     display: none;
   }
-  .genixo-hero-section-03 .hero-content .title {
-    font-size: 40px;
-    line-height: 50px;
-  }
-  .genixo-hero-section-03 .hero-content p {
-    font-size: 18px;
-    line-height: 30px;
-  }
-}
-
-@media only screen and (max-width: 575px) {
-  .genixo-hero-section-03 .shape-1 {
-    display: none;
-  }
-  .genixo-hero-section-03 .shape-2 {
-    display: none;
-  }
-  .genixo-hero-section-03 .shape-3 {
-    display: none;
+  .genixo-hero-section-03 .hero-content {
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
   }
   .genixo-hero-section-03 .hero-content .sub-title {
-    font-size: 15px;
+    font-size: 11px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
   }
   .genixo-hero-section-03 .hero-content .title {
     font-size: 32px;
     line-height: 42px;
+    margin-bottom: 22px;
+  }
+  .genixo-hero-section-03 .hero-content .description {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 0;
+    max-width: 100%;
+    opacity: 0.92;
+    padding: 0 15px;
+  }
+  .genixo-hero-section-03 .hero-content .hero-btn {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+  }
+  .genixo-hero-section-03 .hero-content .hero-btn .btn {
+    height: 52px;
+    line-height: 50px;
+    padding: 0 45px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .genixo-hero-section-03 {
+    height: auto;
+    min-height: 100vh;
+    min-height: 100dvh;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .genixo-hero-section-03 .container {
+    padding-top: 90px;
+    padding-bottom: 50px;
+  }
+  .genixo-hero-section-03 .shape-1 {
+    top: -8%;
+    left: -18%;
+    opacity: 0.2;
+    width: 320px;
+    transform: none;
+  }
+  .genixo-hero-section-03 .shape-2 {
+    left: auto;
+    right: -15%;
+    top: 10%;
+    opacity: 0.15;
+    width: 260px;
+    transform: none;
+  }
+  .genixo-hero-section-03 .shape-3 {
+    right: auto;
+    left: -12%;
+    bottom: -5%;
+    opacity: 0.2;
+    width: 220px;
+    transform: none;
+  }
+  .genixo-hero-section-03 .shape-4 {
+    display: none;
+  }
+  .genixo-hero-section-03 .hero-content {
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    max-width: 100%;
+  }
+  .genixo-hero-section-03 .hero-content .sub-title {
+    font-size: 10px;
+    letter-spacing: 1.8px;
+    margin-bottom: 18px;
+    line-height: 16px;
+  }
+  .genixo-hero-section-03 .hero-content .title {
+    font-size: 27px;
+    line-height: 37px;
+    margin-bottom: 20px;
+  }
+  .genixo-hero-section-03 .hero-content .description {
+    font-size: 15px;
+    line-height: 25px;
+    max-width: 100%;
+    opacity: 0.9;
+    padding: 0 20px;
+  }
+  .genixo-hero-section-03 .hero-content .hero-btn {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+  }
+  .genixo-hero-section-03 .hero-content .hero-btn .btn {
+    height: 50px;
+    line-height: 48px;
+    padding: 0 40px;
+    font-size: 14px;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .genixo-hero-section-03 .container {
+    padding-top: 80px;
+    padding-bottom: 45px;
+  }
+  .genixo-hero-section-03 .shape-1 {
+    top: -6%;
+    left: -20%;
+    opacity: 0.18;
+    width: 280px;
+  }
+  .genixo-hero-section-03 .shape-2 {
+    right: -18%;
+    top: 12%;
+    opacity: 0.12;
+    width: 220px;
+  }
+  .genixo-hero-section-03 .shape-3 {
+    left: -15%;
+    bottom: -3%;
+    opacity: 0.18;
+    width: 200px;
+  }
+  .genixo-hero-section-03 .hero-content .sub-title {
+    font-size: 9px;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+  }
+  .genixo-hero-section-03 .hero-content .title {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 18px;
+  }
+  .genixo-hero-section-03 .hero-content .description {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0 15px;
+  }
+  .genixo-hero-section-03 .hero-content .hero-btn {
+    margin-top: 28px;
+  }
+  .genixo-hero-section-03 .hero-content .hero-btn .btn {
+    height: 48px;
+    line-height: 46px;
+    padding: 0 35px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .genixo-hero-section-03 .container {
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+  .genixo-hero-section-03 .shape-1 {
+    top: -5%;
+    left: -22%;
+    opacity: 0.15;
+    width: 250px;
+  }
+  .genixo-hero-section-03 .shape-2 {
+    right: -20%;
+    top: 15%;
+    opacity: 0.1;
+    width: 200px;
+  }
+  .genixo-hero-section-03 .shape-3 {
+    left: -18%;
+    bottom: -2%;
+    opacity: 0.15;
+    width: 180px;
+  }
+  .genixo-hero-section-03 .hero-content .sub-title {
+    font-size: 8px;
+    letter-spacing: 1.2px;
+  }
+  .genixo-hero-section-03 .hero-content .title {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .genixo-hero-section-03 .hero-content .description {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 0 10px;
+  }
+  .genixo-hero-section-03 .hero-content .hero-btn .btn {
+    padding: 0 32px;
   }
 }
 

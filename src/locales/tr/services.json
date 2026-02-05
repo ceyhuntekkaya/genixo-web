@@ -5,6 +5,26 @@
       "name": "Dijital Dönüşüm Danışmanlığı",
       "summary": "İşletmenizin dijital yolculuğunda doğru adımları birlikte belirleyin. Süreçlerinizi analiz eder, size özel bir dönüşüm yol haritası çıkarırız.",
       "description": "<h3>Neye İhtiyacınız Olduğunu Birlikte Keşfedelim</h3><p>Dijital dönüşüm, hazır bir reçete değildir. Her işletmenin kendine özgü ihtiyaçları, öncelikleri ve darboğazları vardır. Biz de bu yüzden önce <strong>dinliyoruz</strong>.</p><h4>Neler Yapıyoruz?</h4><ul><li><strong>Süreç Analizi:</strong> Mevcut iş süreçlerinizi yerinde inceliyor, nerede zaman kaybı olduğunu, hangi bilgilerin kaybolduğunu tespit ediyoruz.</li><li><strong>Dijital Dönüşüm Yol Haritası:</strong> Size özel, adım adım uygulanabilir bir plan çıkarıyoruz. Hangi süreçler önce dijitalleşmeli, hangi teknolojiler işe yarar—bunları netleştiriyoruz.</li><li><strong>Teknoloji Seçimi Danışmanlığı:</strong> Piyasada onlarca çözüm var. Hangisi sizin için doğru, hangisi gereksiz? Bunu birlikte belirliyoruz.</li></ul><h4>Kimler İçin?</h4><p>Dijital dönüşüme nereden başlayacağını bilmeyen, mevcut teknolojilerden verim alamayan veya yatırım yapmadan önce doğru stratejiye ihtiyaç duyan işletmeler için.</p>",
+      "problemsTitle": "Dijital Dönüşüm Neden Artık Bir Seçenek Değil, Zorunluluk",
+      "problemsSubtitle": "Başarılı işletmelerin ortak özelliği: Bu sorunları çözdüler.",
+      "problems": [
+        {
+          "title": "Rakipler Hızlanıyor, Siz Geride Kalıyorsunuz",
+          "description": "Müşteriniz size sipariş veriyor, '2-3 güne fiyat teklifi gönderirim' diyorsunuz. Rakibiniz 10 dakikada gönderiyor. Müşteri kimi seçer? Dijital sistemler size hız kazandırır."
+        },
+        {
+          "title": "Bilgi Var Ama Göremiyorsunuz",
+          "description": "'Bu ay ne kadar kar ettik?' diye soruyorsunuz. 3 gün sonra Excel ile yanıt geliyor. Gerçek zamanlı dashboard'larla verilerinizi anlık görürsünüz. Kararları veriye dayandırırsınız."
+        },
+        {
+          "title": "Ekibiniz Gereksiz İşlerle Boğuşuyor",
+          "description": "Satış ekibi günde 2 saat rapor hazırlıyor. Muhasebe elle fatura giriyor. Otomasyonla tekrarlayan işleri sistemler halleder. Ekibiniz asıl değer yaratan işlere odaklanır."
+        },
+        {
+          "title": "Müşteri Beklentileri Değişti",
+          "description": "10 yıl önce müşteri 3 gün beklerdi. Bugün anında yanıt, anında teslimat, 7/24 erişim bekliyor. Modern müşteri deneyimi sunuyoruz: otomatik yanıtlar, online takip, self-servis sistemler."
+        }
+      ],
       "image1": "/images/solutions-1.jpg",
       "image2": "/images/solutions-1.jpg",
       "active": true,
@@ -16,6 +36,26 @@
       "name": "İş Süreçleri Dijitalleştirme",
       "summary": "Manuel işleri, Excel dosyalarını ve WhatsApp gruplarını geride bırakın. İş süreçlerinizi hızlı, kontrol edilebilir ve hatasız hale getirin.",
       "description": "<h3>Manuel İşleri Otomatikleştirin</h3><p>Çoğu şirket, büyürken sistemleri büyümüyor. Excel tabloları, WhatsApp grupları ve elle yapılan takipler bir yerden sonra şirketin ayağına dolanıyor. Bilgi kaybolur, iş tekrarlanır, kararlar geç alınır.</p><h4>Hangi Süreçleri Dijitalleştiriyoruz?</h4><ul><li><strong>Stok ve Envanter Yönetimi:</strong> Gerçek zamanlı stok takibi, otomatik uyarılar, hızlı raporlama.</li><li><strong>Müşteri İlişkileri Yönetimi (CRM):</strong> Müşteri bilgilerini tek bir yerde toplayın, satış süreçlerini takip edin, fırsatları kaçırmayın.</li><li><strong>İç Süreç Sistemleri:</strong> İnsan kaynakları, satın alma, onay süreçleri gibi tekrarlayan işleri dijitalleştiriyoruz.</li><li><strong>Form ve Onay Süreçleri:</strong> Kağıt formlar yerine dijital formlar, otomatik onay akışları, anlık bildirimler.</li></ul><h4>Sonuç Ne Olur?</h4><p>Ekipleriniz daha az zaman kaybeder, bilgi kaybolmaz, kararlar daha hızlı alınır. Şirketiniz büyüdükçe sistem de büyür.</p>",
+      "problemsTitle": "Manuel Süreçler Şirketinizi Nasıl Yavaşlatıyor",
+      "problemsSubtitle": "Başarılı işletmelerin ortak özelliği: Bu sorunları çözdüler.",
+      "problems": [
+        {
+          "title": "Her Şey WhatsApp'ta, Hiçbir Şey Kayıt Altında Değil",
+          "description": "Sipariş WhatsApp'tan geldi mi? Hangi grupta? Kim onayladı? 3 ay sonra dava açılınca kanıt bulamıyorsunuz. Dijital sistemlerle her işlem kayıt altında ve izlenebilir."
+        },
+        {
+          "title": "Aynı İş 3 Kere Yapılıyor",
+          "description": "Satış girdi, muhasebe tekrar girdi, depo bir daha girdi. 3 farklı Excel dosyası, 3 farklı rakam. Bir anda kaos. Tek sistem, tek kayıt, sıfır tekrar ile çalışın."
+        },
+        {
+          "title": "Büyüyemiyorsunuz Çünkü Sistem Ölçeklenmiyor",
+          "description": "İş büyüyor ama her yeni müşteri daha fazla kaos. 10 müşteri yönetmek ile 100 müşteri yönetmek aynı enerjiyi almalı. Dijital sistemler sizinle birlikte büyür."
+        },
+        {
+          "title": "Maliyetler Kontrolsüz Artıyor",
+          "description": "Her yeni iş için yeni insan alıyorsunuz. Maliyetler şişiyor ama kâr marjları düşüyor. Dijital dönüşümle aynı işi daha az kaynakla yaparsınız. Hem maliyet düşer, hem hata azalır."
+        }
+      ],
       "image1": "/images/solutions-2.jpg",
       "image2": "/images/solutions-2.jpg",
       "active": true,
@@ -27,6 +67,26 @@
       "name": "Yapay Zeka Entegrasyonu",
       "summary": "Yapay zeka ile sistemlerinizi akıllı hale getirin. Tekrarlayan işleri otomatikleştirin, müşterilerinize 7/24 hizmet verin, verilerinizden anlam çıkarın.",
       "description": "<h3>Sistemlerinizi Akıllı Hale Getirin</h3><p>Yapay zeka artık bir gelecek teknolojisi değil, bugünün rekabet aracı. Ama yapay zeka tek başına bir çözüm değil—doğru yerde, doğru amaçla kullanıldığında değer yaratır.</p><h4>Yapay Zeka ile Neler Yapabiliriz?</h4><ul><li><strong>Akıllı Chatbot'lar:</strong> Müşteri sorularına 7/24 otomatik yanıt verin. Tekrarlayan soruları yapay zeka yanıtlasın, ekibiniz gerçek problemlere odaklansın.</li><li><strong>Doküman İşleme:</strong> Faturalar, sözleşmeler, belgeler—yapay zeka ile otomatik okutur, kategorize eder, işleme alırsınız.</li><li><strong>Tahmine Dayalı Analiz:</strong> Geçmiş verilerinizden yola çıkarak satış tahminleri, stok ihtiyaçları, müşteri davranışları hakkında öngörüler elde edin.</li><li><strong>Otomatik Kategorizasyon:</strong> Gelen talepler, e-postalar, formlar—yapay zeka ile otomatik sınıflandırılır ve ilgili kişiye yönlendirilir.</li></ul><h4>Nasıl Başlıyoruz?</h4><p>Önce mevcut süreçlerinize bakıyoruz. Yapay zeka nerede işe yarar, nerede gereksiz—bunu birlikte belirliyoruz. Sonra küçük bir pilot projeyle başlıyor, sonuçları görüyor, gerekirse genişletiyoruz.</p>",
+      "problemsTitle": "İşletmeniz Yapay Zekaya Şimdi İhtiyaç Duyuyor, Sonra Değil",
+      "problemsSubtitle": "Başarılı işletmelerin ortak noktası: Bu sorunları çözdüler.",
+      "problems": [
+        {
+          "title": "Tekrarlayan Görevler Zaman Kaybettiriyor",
+          "description": "Yetenekli çalışanlarınız saatlerini aynı müşteri sorularını yanıtlayarak, benzer belgeleri işleyerek ve rutin veri girişi yaparak harcıyor. Yapay zeka bunu anında yapabilir."
+        },
+        {
+          "title": "7/24 Müşteri Desteği Pahalı",
+          "description": "Müşteriler her zaman anında yanıt bekliyor. Kesintisiz destek için personel işe almak maliyetli ve yönetimi zor. Yapay zeka mola vermeden anında destek sağlar."
+        },
+        {
+          "title": "Veri İçgörüleri Gizli Kalıyor",
+          "description": "Dağlar gibi veriniz var ama düzgün analiz edecek zamanınız yok. Yapay zeka insanların gözden kaçırabileceği kalıpları tespit edebilir, trendleri tahmin edebilir ve uygulanabilir içgörüler sağlayabilir."
+        },
+        {
+          "title": "Manuel İşleme Hata Yaratır",
+          "description": "Belge işleme, veri girişi ve kategorizasyonda insan hatası zaman ve para kaybettiren hatalara yol açar. Yapay zeka tutarlı bir şekilde neredeyse mükemmel doğrulukla işler."
+        }
+      ],
       "image1": "/images/solutions-3.jpg",
       "image2": "/images/solutions-3.jpg",
       "active": true,
@@ -38,6 +98,26 @@
       "name": "Akıllı Raporlama ve Analiz",
       "summary": "Verileriniz var ama göremiyorsunuz. Gerçek zamanlı dashboard'lar ve otomatik raporlarla işinizi anlık takip edin, doğru kararları hızlı verin.",
       "description": "<h3>Verilerinizi Görün, Karar Verin</h3><p>Çoğu şirkette veri var ama <strong>görünmüyor</strong>. Excel dosyalarına dağılmış rakamlar, elle hazırlanan raporlar, günlerce beklenen analizler... Sonuç? Kararlar geç alınır, fırsatlar kaçar.</p><h4>Ne Sunuyoruz?</h4><ul><li><strong>Gerçek Zamanlı Dashboard'lar:</strong> Satışlar, stoklar, maliyetler, müşteri davranışları—hepsini tek bir ekranda, anlık olarak görün.</li><li><strong>Otomatik Raporlar:</strong> Her hafta aynı raporu elle hazırlamak yerine, sistem sizin için otomatik oluştursun. E-postanıza gelsin, ekranınızda hazır olsun.</li><li><strong>Veri Görselleştirme:</strong> Karmaşık tablolar yerine anlaşılır grafikler, trendler, karşılaştırmalar. Bakar bakmaz anlayın.</li><li><strong>Performans Takibi:</strong> Ekip performansı, satış hedefleri, operasyonel verimlilik—her şeyi ölçebilir, takip edebilir hale getiriyoruz.</li></ul><h4>Fark Ne?</h4><p>Artık kararları veriye dayanarak alırsınız. 'Sanırım', 'galiba' yerine 'veriler gösteriyor ki' dersiniz. Ve bunu yapmak için günlerce beklemenize gerek kalmaz.</p>",
+      "problemsTitle": "Kör Uçmak Size Para Kaybettiriyor",
+      "problemsSubtitle": "Başarılı işletmelerin ortak noktası: Bu sorunları çözdüler.",
+      "problems": [
+        {
+          "title": "Raporlar Hazırlanması Günler Alıyor",
+          "description": "Haftalık veya aylık raporunuz hazır olduğunda, veriler çoktan eskimiştir. Eski bilgiye dayalı kararlar verirken piyasa ilerlemiştir."
+        },
+        {
+          "title": "Performans Takip Edilemiyor",
+          "description": "Ekibiniz nasıl performans gösteriyor? Hangi ürünler satıyor? Kar marjınız ne? Uygun analitik olmadan tahmin yürütüyorsunuz, bilmiyorsunuz."
+        },
+        {
+          "title": "Veriler Her Yerde Dağınık",
+          "description": "Satış verileri bir sistemde, envanter başka bir yerde, finansallar Excel'de. Bilgileri manuel olarak birleştirmek zaman alıcı ve hataya açık."
+        },
+        {
+          "title": "Fırsatlar Kaçırılıyor",
+          "description": "Gerçek zamanlı içgörüler olmadan trendleri kaçırırsınız, sorunları erken fark edemezsiniz ve fırsatlar ortaya çıktığında hızlı hareket edemezsiniz. Verilerini net görebilen rakipleriniz kazanır."
+        }
+      ],
       "image1": "/images/solutions-4.jpg",
       "image2": "/images/solutions-4.jpg",
       "active": true,
@@ -49,6 +129,26 @@
       "name": "Sistem İyileştirme ve Modernizasyon",
       "summary": "Eski, yavaş veya verimsiz çalışan sistemlerinizi yenileyin. Mevcut yazılımlarınızı hızlandırın, güncelleyin ve işletmenizle birlikte büyümesini sağlayın.",
       "description": "<h3>Var Olan Sistemlerinizi Güçlendirin</h3><p>Bazen sıfırdan bir sistem kurmaya gerek yoktur. Mevcut sisteminiz var ama yavaş çalışıyor, güncel değil, entegre olmuyor veya güvenlik açıkları var. Bu durumda doğru yaklaşım <strong>iyileştirme ve modernizasyon</strong>dır.</p><h4>Ne Tür İyileştirmeler Yapıyoruz?</h4><ul><li><strong>Eski Sistemleri Yenileme:</strong> 10 yıllık yazılımınız hala çalışıyor ama artık günümüz ihtiyaçlarını karşılamıyor. Mimariyi koruyarak, modern teknolojilerle yeniliyoruz.</li><li><strong>Hız Optimizasyonu:</strong> Sistemler yavaşladı mı? Veritabanı sorguları, kod yapısı, altyapı—her şeyi gözden geçirip hızlandırıyoruz.</li><li><strong>Entegrasyon Sorunlarını Çözme:</strong> Muhasebe yazılımıyla, e-fatura sistemiyle, CRM ile entegre olması gereken yerler mi var? Sistemler arasında köprü kuruyoruz.</li><li><strong>Güvenlik Güncellemeleri:</strong> Eski sistemlerde güvenlik açıkları oluşabilir. Güncel güvenlik standartlarına uygun hale getiriyoruz.</li></ul><h4>Kimler İçin?</h4><p>Mevcut bir yazılımınız var ama artık ihtiyaçlarınızı karşılamıyor, yavaş çalışıyor veya güncel değil. Sıfırdan başlamak yerine, elimizdekileri güçlendiriyoruz.</p>",
+      "problemsTitle": "Eski Sisteminiz Sizi Geri Tutuyor",
+      "problemsSubtitle": "Başarılı işletmelerin ortak noktası: Bu sorunları çözdüler.",
+      "problems": [
+        {
+          "title": "Sistem Çok Yavaş",
+          "description": "Eskiden saniyeler süren şeyler artık dakikalar alıyor. Ekibiniz sayfaların yüklenmesini ve raporların oluşturulmasını bekleyerek zaman kaybediyor. Yavaş sistemler verimliliği öldürür."
+        },
+        {
+          "title": "Güvenlik Açıkları",
+          "description": "Eski sistemler modern güvenlik tehditleri göz önünde bulundurularak yapılmadı. Veri ihlalleri, fidye yazılımı saldırıları ve uyumluluk sorunları işletmenizi ciddi riske atar."
+        },
+        {
+          "title": "Yeni Araçlarla Entegre Edilemiyor",
+          "description": "Sisteminiz modern yazılımlarla konuşmuyor. Muhasebe sisteminize, CRM'inize veya diğer araçlara bağlanamıyorsunuz. Manuel veri aktarımı hata yaratır ve zaman kaybettirir."
+        },
+        {
+          "title": "Sistem Büyümeyi Sınırlıyor",
+          "description": "Mevcut sisteminiz artan yükü, yeni özellikleri veya ek kullanıcıları kaldıramıyor. Büyümek istiyorsunuz ama teknolojiniz izin vermiyor."
+        }
+      ],
       "image1": "/images/solutions-5.jpg",
       "image2": "/images/solutions-5.jpg",
       "active": true,
@@ -60,6 +160,26 @@
       "name": "Maliyet Optimizasyonu",
       "summary": "Teknoloji maliyetleriniz şişti mi? Gereksiz harcamalar mı var? Mevcut sistemlerinizi analiz eder, maliyetleri düşürürken verimliliği artırırız.",
       "description": "<h3>Teknoloji Maliyetlerinizi Düşürün</h3><p>Birçok şirket teknolojiye yatırım yapar ama gereksiz yere fazla ödeme yapar. Kullanılmayan lisanslar, verimsiz altyapılar, gereksiz yazılımlar... Sonuç? Bütçe şişiyor ama verim artmıyor.</p><h4>Nasıl Maliyet Düşürüyoruz?</h4><ul><li><strong>Sistem Analizi ve İyileştirme:</strong> Mevcut sistemlerinizi inceliyor, hangi kaynak gereksiz tüketiliyor, nerede iyileştirme yapılabilir—bunları tespit ediyoruz.</li><li><strong>Bulut Geçiş Danışmanlığı:</strong> Fiziksel sunucular pahalı ve bakımı zor. Bulut altyapıya geçerek hem maliyet düşürüyor hem esneklik kazanıyorsunuz.</li><li><strong>Lisans Optimizasyonu:</strong> Kaç kullanıcınız var, hangi lisanslar kullanılıyor, hangisi gereksiz? Lisans maliyetlerini optimize ediyoruz.</li><li><strong>Süreç Verimliliği Artırma:</strong> Manuel işleri otomatikleştirerek, tekrarlayan görevleri dijitalleştirerek insan kaynağı maliyetlerini düşürüyoruz.</li></ul><h4>Sonuç Ne Olur?</h4><p>Aynı hizmeti daha az maliyetle alırsınız. Veya aynı bütçeyle daha fazla verim elde edersiniz. Her iki durumda da kazanç sizin.</p>",
+      "problemsTitle": "Teknoloji Bütçeniz Kontrolden Çıktı",
+      "problemsSubtitle": "Başarılı işletmelerin ortak noktası: Bu sorunları çözdüler.",
+      "problems": [
+        {
+          "title": "Kullanılmayan Lisanslar İçin Ödeme",
+          "description": "100 yazılım lisansı için ödeme yapıyorsunuz ama sadece 40 kişi aktif olarak kullanıyor. Bunu birden fazla araçta çarpın ve aylık binlerce para israf ediyorsunuz."
+        },
+        {
+          "title": "Verimsiz Altyapı",
+          "description": "Fiziksel sunucuların bakımı pahalı. Yüksek enerji maliyetleri, donanım yükseltmeleri, BT personel zamanı—bulut çözümleri bu maliyetleri %40-60 azaltabilir."
+        },
+        {
+          "title": "Manuel İş Bütçeyi Yiyor",
+          "description": "Yetenekli çalışanlara otomatikleştirilebilecek tekrarlayan manuel görevleri yaptırmak için ödeme yapıyorsunuz. Zamanları pahalı ve stratejik işlere harcanabilir."
+        },
+        {
+          "title": "Teknoloji Yayılımı",
+          "description": "Farklı departmanlar benzer şeyler yapan farklı araçlar satın aldı. 5 iletişim aracınız, 3 proje yönetim sisteminiz ve her yerde çift işlevsellik var."
+        }
+      ],
       "image1": "/images/solutions-6.jpg",
       "image2": "/images/solutions-6.jpg",
       "active": true,
@@ -71,6 +191,26 @@
       "name": "Ürün ve Proje Geliştirme",
       "summary": "Aklınızda bir fikir var ama nasıl hayata geçireceğinizi bilmiyor musunuz? Fikrinizi gerçek bir ürüne dönüştürüyoruz.",
       "description": "<h3>Fikrinizi Gerçeğe Dönüştürün</h3><p>Belki bir mobil uygulama fikriniz var. Belki sektörünüzdeki bir sorunu çözecek bir platform düşünüyorsunuz. Belki müşterilerinize sunacağınız yeni bir dijital hizmet tasarlıyorsunuz. Fikir var ama <strong>nasıl yapılacağı</strong> belirsiz.</p><p>İşte tam bu noktada devreye giriyoruz.</p><h4>Nasıl Çalışıyoruz?</h4><ul><li><strong>Fikir Geliştirme:</strong> Siz fikri anlatıyorsunuz, biz birlikte detaylandırıyoruz. Hangi özellikler olmalı, kimler kullanacak, nasıl çalışmalı—bunları netleştiriyoruz.</li><li><strong>Teknik Tasarım:</strong> Fikriniz için en uygun teknolojileri, mimariyi ve çözüm yolunu belirliyoruz. Mobil mi web mi? Bulut mu yerelde mi? Hangi entegrasyonlar gerekli?</li><li><strong>Adım Adım Geliştirme:</strong> Sıfırdan geliştiriyoruz. Ama büyük bir lansman yerine, küçük adımlarla ilerliyoruz. İlk versiyon çıkıyor, test ediliyor, geri bildirimler alınıyor, geliştiriliyor.</li><li><strong>Piyasaya Çıkış Desteği:</strong> Sadece yapmakla bitmiyor. Sistemin nasıl kullanılacağı, nasıl tanıtılacağı, nasıl büyütüleceği konusunda da yanınızdayız.</li></ul><h4>Kimler İçin?</h4><p>Girişimciler, iş fikirleri olan profesyoneller, kendi dijital ürününü çıkarmak isteyen şirketler. Eğer bir fikriniz var ve 'bunu nasıl yaparım?' diye düşünüyorsanız, doğru yerdesiniz.</p><h4>Örnek Projeler</h4><p>Eğitim platformları, rezervasyon sistemleri, sektöre özel çözümler, mobil uygulamalar, e-ticaret platformları, SaaS ürünler...</p>",
+      "problemsTitle": "Harika Fikirleriniz Neden Sadece Fikir Olarak Kalıyor",
+      "problemsSubtitle": "Başarılı işletmelerin ortak noktası: Bu sorunları çözdüler.",
+      "problems": [
+        {
+          "title": "Nereden Başlayacağınızı Bilmiyorsunuz",
+          "description": "Parlak bir fikriniz var ama teknik geçmişiniz yok. Geliştirici mi tutmalısınız? No-code araçlar mı kullanmalısınız? Bir ajansa mı yaptırmalısınız? Seçenekler bunaltıcı."
+        },
+        {
+          "title": "Bütçe Belirsizliği",
+          "description": "Ürününüzü yapmanın ne kadara mal olacağı hakkında hiçbir fikriniz yok. Teklifler 50 bin TL'den 2 milyon TL'ye kadar değişiyor. Düzgün kapsam belirleme olmadan, aşırı harcama veya düşük kalite riski var."
+        },
+        {
+          "title": "Teknik Karmaşıklık",
+          "description": "Mobil mi web mi? Hangi programlama dili? Hangi veritabanı? Bulut hosting? Bu teknik kararlar kritik ama onları verme uzmanlığınız yok."
+        },
+        {
+          "title": "Başarısızlık Korkusu",
+          "description": "Ya kimsenin istemediği bir şeyi yapmak için aylar ve para harcar mıysa? Düzgün doğrulama ve yinelemeli yaklaşım olmadan, yanlış şeyi yapma riski var."
+        }
+      ],
       "image1": "/images/solutions-7.jpg",
       "image2": "/images/solutions-7.jpg",
       "active": true,

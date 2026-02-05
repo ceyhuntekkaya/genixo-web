@@ -1,4 +1,5 @@
 import RelatedSolutionsSection from "@/app/component/related-solutions";
+import SolutionProblems from "@/app/component/solution-problems";
 import type { Dictionary } from "@/i18n/types";
 import { Locale } from "@/i18n/config";
 import { getServiceDescription } from "@/utils/serviceDescription";
@@ -192,6 +193,9 @@ export default async function SolutionDetail({
           </div>
         </div>
       </div>
+
+      {/* Problems Section */}
+      <SolutionProblems service={service} />
 
       {/* Related Solutions Section */}
       <RelatedSolutionsSection

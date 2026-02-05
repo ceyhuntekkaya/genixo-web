@@ -9985,3 +9985,116 @@ textarea:-ms-input-placeholder {
     padding-left: 28px;
   }
 }
+
+/* Solution Benefits Cards - choose-us-item-02 based with gradient icon */
+.benefit-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+  transition: all 0.3s ease;
+}
+
+.benefit-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 70px 0px rgba(102, 126, 234, 0.15);
+}
+
+.benefit-icon-wrapper {
+  flex-shrink: 0;
+}
+
+.benefit-icon-box {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.benefit-item:hover .benefit-icon-box {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.benefit-icon-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: brightness(0) invert(1);
+}
+
+.benefit-item .choose-us-content {
+  flex: 1;
+}
+
+.benefit-item .choose-us-content .title {
+  font-size: 20px;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.benefit-item .choose-us-content p {
+  font-size: 15px;
+  line-height: 1.7;
+  padding-top: 0;
+  color: #6b6b84;
+}
+
+@media only screen and (max-width: 991px) {
+  .benefit-item {
+    gap: 20px;
+  }
+  
+  .benefit-icon-box {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .benefit-icon-inner img {
+    width: 45px !important;
+    height: 45px !important;
+  }
+  
+  .benefit-item .choose-us-content .title {
+    font-size: 19px;
+  }
+  
+  .benefit-item .choose-us-content p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .benefit-item {
+    gap: 18px;
+  }
+  
+  .benefit-icon-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+  }
+  
+  .benefit-icon-inner img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  
+  .benefit-item .choose-us-content .title {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  
+  .benefit-item .choose-us-content .title::before {
+    height: 35px;
+  }
+  
+  .benefit-item .choose-us-content p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}

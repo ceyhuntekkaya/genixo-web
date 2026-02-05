@@ -5,6 +5,26 @@
       "name": "Conseil en transformation digitale",
       "summary": "Définissez ensemble les bonnes étapes pour le parcours digital de votre entreprise. Nous analysons vos processus et créons une feuille de route sur mesure.",
       "description": "<h3>Découvrez ensemble ce dont vous avez besoin</h3><p>La transformation digitale n'est pas une recette toute faite. Chaque entreprise a des besoins, priorités et goulots d'étranglement uniques. C'est pourquoi nous <strong>écoutons d'abord</strong>.</p><h4>Que faisons-nous ?</h4><ul><li><strong>Analyse des processus :</strong> Nous examinons vos processus métier sur site, identifions les pertes de temps et d'information.</li><li><strong>Feuille de route transformation :</strong> Nous créons un plan sur mesure, étape par étape. Quels processus digitaliser en premier, quelles technologies—nous clarifions tout.</li><li><strong>Conseil en choix technologique :</strong> Des dizaines de solutions existent. Laquelle vous convient ? Nous déterminons ensemble.</li></ul><h4>Pour qui ?</h4><p>Pour les entreprises qui ne savent pas par où commencer la transformation digitale, qui ne tirent pas profit de leurs outils actuels ou qui ont besoin d'une stratégie avant d'investir.</p>",
+      "problemsTitle": "Pourquoi la transformation digitale n'est plus optionnelle mais essentielle",
+      "problemsSubtitle": "Ce que les entreprises qui réussissent ont en commun : elles ont résolu ces problèmes.",
+      "problems": [
+        {
+          "title": "Prendre du retard sur les concurrents",
+          "description": "Vos concurrents adoptent des solutions digitales, améliorent l'expérience client et gagnent des parts de marché. Sans transformation digitale, vous risquez de devenir obsolète."
+        },
+        {
+          "title": "Les processus manuels freinent la croissance",
+          "description": "Se fier aux tableurs, formulaires papier et workflows manuels limite l'évolutivité. En grandissant, les inefficacités se multiplient et les erreurs augmentent."
+        },
+        {
+          "title": "Mauvaise prise de décision",
+          "description": "Sans données temps réel et analytique, vous décidez au feeling plutôt qu'aux faits. Cela mène à des opportunités manquées et des erreurs coûteuses."
+        },
+        {
+          "title": "Les attentes clients augmentent",
+          "description": "Les clients modernes attendent des réponses instantanées, un service personnalisé et des expériences digitales fluides. Ne pas répondre à ces attentes signifie perdre des clients."
+        }
+      ],
       "image1": "/images/solutions-1.jpg",
       "image2": "/images/solutions-1.jpg",
       "active": true,
@@ -16,6 +36,26 @@
       "name": "Digitalisation des processus métier",
       "summary": "Laissez derrière vous le travail manuel, les fichiers Excel et les groupes WhatsApp. Rendez vos processus rapides, contrôlables et sans erreur.",
       "description": "<h3>Automatisez les tâches manuelles</h3><p>La plupart des entreprises grandissent sans que leurs systèmes suivent. Tableaux Excel, groupes WhatsApp et suivi manuel finissent par freiner l'entreprise. L'information se perd, le travail se répète, les décisions arrivent en retard.</p><h4>Quels processus digitalisons-nous ?</h4><ul><li><strong>Gestion des stocks :</strong> Suivi en temps réel, alertes automatiques, reporting rapide.</li><li><strong>CRM :</strong> Centralisez les informations clients, suivez les ventes, ne manquez aucune opportunité.</li><li><strong>Systèmes de processus internes :</strong> RH, achats, validations—nous digitalisons les tâches répétitives.</li><li><strong>Formulaires et validations :</strong> Formulaires digitaux, flux d'approbation automatiques, notifications instantanées.</li></ul><h4>Résultat ?</h4><p>Moins de temps perdu, plus d'information préservée, décisions plus rapides. Quand l'entreprise grandit, le système grandit avec.</p>",
+      "problemsTitle": "Pourquoi les processus manuels tuent votre productivité",
+      "problemsSubtitle": "Ce que les entreprises qui réussissent ont en commun : elles ont résolu ces problèmes.",
+      "problems": [
+        {
+          "title": "L'information se perd",
+          "description": "Fichiers Excel dans les e-mails, messages WhatsApp oubliés, infos dans la tête de quelqu'un. Quand cette personne est absente, tout s'arrête."
+        },
+        {
+          "title": "Le travail est dupliqué",
+          "description": "Sans système centralisé, plusieurs personnes travaillent sur la même tâche sans le savoir. Perte de temps, confusion, frustration."
+        },
+        {
+          "title": "Aucune visibilité ni contrôle",
+          "description": "Le management ne voit rien en temps réel. Où en est-on ? Qui est responsable ? Quel statut ? Réponses qui prennent des heures."
+        },
+        {
+          "title": "Impossible de scaler",
+          "description": "Les processus manuels qui marchent à 10 personnes explosent à 50. La croissance stagne car les opérations ne scalent pas sans recruter exponentiellement."
+        }
+      ],
       "image1": "/images/solutions-2.jpg",
       "image2": "/images/solutions-2.jpg",
       "active": true,

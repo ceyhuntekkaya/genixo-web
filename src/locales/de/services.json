@@ -5,6 +5,26 @@
       "name": "Digitale Transformationsberatung",
       "summary": "Bestimmen Sie gemeinsam die richtigen Schritte für die digitale Reise Ihres Unternehmens. Wir analysieren Ihre Prozesse und erstellen eine maßgeschneiderte Transformations-Roadmap.",
       "description": "<h3>Entdecken Sie gemeinsam, was Sie brauchen</h3><p>Digitale Transformation ist kein Einheitsrezept. Jedes Unternehmen hat eigene Bedürfnisse, Prioritäten und Engpässe. Deshalb <strong>hören wir zuerst zu</strong>.</p><h4>Was tun wir?</h4><ul><li><strong>Prozessanalyse:</strong> Wir prüfen Ihre aktuellen Geschäftsprozesse vor Ort und identifizieren Zeit- und Informationsverluste.</li><li><strong>Digitale Transformations-Roadmap:</strong> Wir erstellen einen maßgeschneiderten, schrittweise umsetzbaren Plan. Welche Prozesse zuerst digitalisiert werden, welche Technologien passen—wir klären das.</li><li><strong>Technologieauswahl-Beratung:</strong> Es gibt Dutzende Lösungen am Markt. Welche passt zu Ihnen? Wir bestimmen das gemeinsam.</li></ul><h4>Für wen?</h4><p>Für Unternehmen, die nicht wissen, wo sie mit der digitalen Transformation starten sollen, die mit aktuellen Technologien keinen Mehrwert erzielen oder vor Investitionen die richtige Strategie brauchen.</p>",
+      "problemsTitle": "Warum digitale Transformation nicht mehr optional, sondern essentiell ist",
+      "problemsSubtitle": "Was erfolgreiche Unternehmen gemeinsam haben: Sie haben diese Probleme gelöst.",
+      "problems": [
+        {
+          "title": "Rückstand gegenüber Wettbewerbern",
+          "description": "Ihre Wettbewerber setzen digitale Lösungen ein, verbessern die Customer Experience und gewinnen Marktanteile. Ohne digitale Transformation riskieren Sie, irrelevant zu werden."
+        },
+        {
+          "title": "Manuelle Prozesse bremsen Wachstum",
+          "description": "Die Abhängigkeit von Tabellen, Papierformularen und manuellen Workflows begrenzt die Skalierbarkeit. Mit Wachstum multiplizieren sich Ineffizienzen und Fehler nehmen zu."
+        },
+        {
+          "title": "Schlechte Entscheidungsfindung",
+          "description": "Ohne Echtzeit-Daten und Analytics entscheiden Sie aus dem Bauch heraus statt faktenbasiert. Das führt zu verpassten Chancen und teuren Fehlern."
+        },
+        {
+          "title": "Steigende Kundenerwartungen",
+          "description": "Moderne Kunden erwarten sofortige Antworten, personalisierten Service und nahtlose digitale Erlebnisse. Diese Erwartungen nicht zu erfüllen bedeutet Kundenverlust."
+        }
+      ],
       "image1": "/images/solutions-1.jpg",
       "image2": "/images/solutions-1.jpg",
       "active": true,

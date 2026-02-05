@@ -80,6 +80,12 @@ export type Dictionary = {
         name: string;
         summary: string;
         description: string;
+        problemsTitle?: string;
+        problemsSubtitle?: string;
+        problems?: Array<{
+            title: string;
+            description: string;
+        }>;
         image1?: string;
         image2?: string;
         active?: boolean;

@@ -15,6 +15,9 @@ export default function HeroSection({ dict, locale }: PageProps) {
         className="section genixo-hero-section-03 d-flex align-items-center justify-content-center"
         style={{ backgroundImage: `url(/images/hero-bg3.jpg)` }}
       >
+        {/* Overlay for better text readability */}
+        <div className="hero-overlay"></div>
+        
         <div className="shape-1 hero-shape-animate">
           <svg
             xmlns="http://www.w3.org/2000/svg"

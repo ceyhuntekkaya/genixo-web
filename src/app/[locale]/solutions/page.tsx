@@ -3,7 +3,7 @@ import {getDictionary} from "@/i18n/getDictionary";
 import type {Dictionary} from "@/i18n/types";
 import {generateMetadata as generateSEOMetadata} from "@/utils/seo";
 import {locales} from "@/i18n/config";
-import PageBanner from "@/app/component/page-banner";
+import SolutionsHero from "@/app/component/solutions-hero";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -38,18 +38,11 @@ export default async function SolutionsPage({
     const { locale } = await params;
     const dict = await getDictionary(locale);
 
-    const homeLabel = dict.menu.Home;
-
     return (
         <>
-            <PageBanner
-                bannerLink={"/images/bg/page-banner.jpg"}
-                title={dict.menu.Solutions}
-                breadcrumbs={[
-                    { label: homeLabel, href: `/${locale}` },
-                    { label: dict.menu.Solutions, href: `/${locale}/solutions` },
-                ]}
-            />
+            <SolutionsHero dict={dict} />
+
+            {/* Solutions Cards Section */}
             <div className="section genixo-choose-us-section section-padding"
                  style={{backgroundImage: 'url(/images/bg/choose-us-bg.jpg)'}}>
                 <div className="container">

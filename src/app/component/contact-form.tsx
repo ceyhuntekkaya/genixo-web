@@ -164,131 +164,165 @@ export default function ContactForm({ dict, locale }: ContactFormProps) {
   };
 
   return (
-    <div className="container">
-      <div className="row justify-content-center">
-        <div className="col-md-10 col-lg-8">
-          <div className="section-title title-02 mb-20">
-            <h2 className="h2-xs">{formDict.mainTitle || formDict.title}</h2>
-          </div>
+    <div className="modern-contact-form">
+      <form name="contactform" className="contact-form-modern">
+        <div className="form-group-modern">
+          {formDict.serviceLabel && (
+            <label htmlFor="questionAbout" className="form-label-modern">
+              {formDict.serviceLabel}
+            </label>
+          )}
+          {formDict.serviceDescription && (
+            <p className="form-description">{formDict.serviceDescription}</p>
+          )}
+          <select
+            id="questionAbout"
+            className="form-input-modern form-select-modern"
+            aria-label="Service selection"
+            defaultValue={formDict.servicePlaceholder || ''}
+          >
+            <option value={formDict.servicePlaceholder || ''}>
+              {formDict.servicePlaceholder || 'Select Service'}
+            </option>
+            {activeServices.map((service) => (
+              <option key={service.key} value={service.key}>
+                {service.name}
+              </option>
+            ))}
+            {formDict.otherOption && (
+              <option value={formDict.otherOption}>{formDict.otherOption}</option>
+            )}
+          </select>
         </div>
-      </div>
-      <div className="row justify-content-center">
-        <div className="col-lg-10 col-xl-8">
-          <div className="form-holder">
-            <form name="contactform" className="row contact-form">
-              <div className="col-md-12 input-subject">
-                {formDict.serviceLabel && <p className="p-lg">{formDict.serviceLabel}</p>}
-                {formDict.serviceDescription && <span>{formDict.serviceDescription}</span>}
-                <select
-                  id="questionAbout"
-                  className="form-select subject"
-                  aria-label="Default select example"
-                  defaultValue={formDict.servicePlaceholder || ''}
-                >
-                  <option value={formDict.servicePlaceholder || ''}>{formDict.servicePlaceholder || 'Select Service'}</option>
-                  {activeServices.map((service) => (
-                    <option key={service.key} value={service.key}>
-                      {service.name}
-                    </option>
-                  ))}
-                  {formDict.otherOption && (
-                    <option value={formDict.otherOption}>{formDict.otherOption}</option>
-                  )}
-                </select>
-              </div>
-              <div className="col-md-12">
-                {formDict.nameLabel && <p className="p-lg">{formDict.nameLabel}</p>}
-                {formDict.nameDescription && <span>{formDict.nameDescription}</span>}
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  className="form-control name"
-                  placeholder={formDict.namePlaceholder}
-                  required
-                />
-              </div>
-              <div className="col-md-12">
-                {formDict.companyLabel && <p className="p-lg">{formDict.companyLabel}</p>}
-                {formDict.companyDescription && <span>{formDict.companyDescription}</span>}
-                <input
-                  type="text"
-                  name="companyName"
-                  id="companyName"
-                  className="form-control name"
-                  placeholder={formDict.companyPlaceholder || ''}
-                />
-              </div>
-              <div className="col-md-12">
-                {formDict.emailLabel && <p className="p-lg">{formDict.emailLabel}</p>}
-                {formDict.emailDescription && <span>{formDict.emailDescription}</span>}
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  className="form-control email"
-                  placeholder={formDict.emailPlaceholder}
-                  required
-                />
-              </div>
-              {/* Honeypot: Gizli alan – kullanıcıya görünmez, botlar doldurur. Doluysa gönderim reddedilir. */}
-              <div
-                className="col-md-12"
-                style={{ position: 'absolute', left: '-9999px', width: '1px', height: '1px', overflow: 'hidden' }}
-                aria-hidden="true"
-              >
-                <label htmlFor="website_hp">Website (leave blank)</label>
-                <input
-                  type="text"
-                  id="website_hp"
-                  name="website"
-                  tabIndex={-1}
-                  autoComplete="off"
-                />
-              </div>
-              <div className="col-md-12">
-                {formDict.messageLabel && <p className="p-lg">{formDict.messageLabel}</p>}
-                {formDict.messageDescription && <span>{formDict.messageDescription}</span>}
-                <textarea
-                  className="form-control message"
-                  id="tellUsMore"
-                  name="tellUsMore"
-                  rows={6}
-                  placeholder={formDict.messagePlaceholder}
-                  required
-                ></textarea>
-              </div>
-              <div className="col-md-12 mt-15 form-btn text-right">
-                <button
-                  type="button"
-                  onClick={submitForm}
-                  className="btn btn-skyblue tra-grey-hover submit"
-                  disabled={isSubmitting}
-                >
-                  {isSubmitting ? (formDict.submitting || 'Sending...') : formDict.submitButton}
-                </button>
-              </div>
-              <div className="col-lg-12 contact-form-msg">
-                {submitStatus === 'success' && (
-                  <span className="text-success" style={{ display: 'block', marginTop: '10px' }}>
-                    {statusMessage}
-                  </span>
-                )}
-                {submitStatus === 'error' && (
-                  <span className="text-danger" style={{ display: 'block', marginTop: '10px' }}>
-                    {statusMessage}
-                  </span>
-                )}
-                {isSubmitting && (
-                  <span className="loading" style={{ display: 'block', marginTop: '10px' }}>
-                    {formDict.submitting || 'Sending...'}
-                  </span>
-                )}
-              </div>
-            </form>
-          </div>
+
+        <div className="form-group-modern">
+          {formDict.nameLabel && (
+            <label htmlFor="name" className="form-label-modern">
+              {formDict.nameLabel}
+            </label>
+          )}
+          {formDict.nameDescription && (
+            <p className="form-description">{formDict.nameDescription}</p>
+          )}
+          <input
+            type="text"
+            name="name"
+            id="name"
+            className="form-input-modern"
+            placeholder={formDict.namePlaceholder}
+            required
+          />
         </div>
-      </div>
+
+        <div className="form-group-modern">
+          {formDict.companyLabel && (
+            <label htmlFor="companyName" className="form-label-modern">
+              {formDict.companyLabel}
+            </label>
+          )}
+          {formDict.companyDescription && (
+            <p className="form-description">{formDict.companyDescription}</p>
+          )}
+          <input
+            type="text"
+            name="companyName"
+            id="companyName"
+            className="form-input-modern"
+            placeholder={formDict.companyPlaceholder || ''}
+          />
+        </div>
+
+        <div className="form-group-modern">
+          {formDict.emailLabel && (
+            <label htmlFor="email" className="form-label-modern">
+              {formDict.emailLabel}
+            </label>
+          )}
+          {formDict.emailDescription && (
+            <p className="form-description">{formDict.emailDescription}</p>
+          )}
+          <input
+            type="email"
+            name="email"
+            id="email"
+            className="form-input-modern"
+            placeholder={formDict.emailPlaceholder}
+            required
+          />
+        </div>
+
+        {/* Honeypot: Gizli alan – kullanıcıya görünmez, botlar doldurur. Doluysa gönderim reddedilir. */}
+        <div
+          className="form-group-modern"
+          style={{ position: 'absolute', left: '-9999px', width: '1px', height: '1px', overflow: 'hidden' }}
+          aria-hidden="true"
+        >
+          <label htmlFor="website_hp">Website (leave blank)</label>
+          <input
+            type="text"
+            id="website_hp"
+            name="website"
+            tabIndex={-1}
+            autoComplete="off"
+          />
+        </div>
+
+        <div className="form-group-modern">
+          {formDict.messageLabel && (
+            <label htmlFor="tellUsMore" className="form-label-modern">
+              {formDict.messageLabel}
+            </label>
+          )}
+          {formDict.messageDescription && (
+            <p className="form-description">{formDict.messageDescription}</p>
+          )}
+          <textarea
+            className="form-input-modern form-textarea-modern"
+            id="tellUsMore"
+            name="tellUsMore"
+            rows={6}
+            placeholder={formDict.messagePlaceholder}
+            required
+          ></textarea>
+        </div>
+
+        <div className="form-submit-wrapper">
+          <button
+            type="button"
+            onClick={submitForm}
+            className="btn-submit-modern"
+            disabled={isSubmitting}
+          >
+            {isSubmitting ? (
+              <>
+                <span className="spinner-modern"></span>
+                {formDict.submitting || 'Sending...'}
+              </>
+            ) : (
+              formDict.submitButton
+            )}
+          </button>
+        </div>
+
+        <div className="form-message-wrapper">
+          {submitStatus === 'success' && (
+            <div className="alert-modern alert-success-modern">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 0C4.486 0 0 4.486 0 10C0 15.514 4.486 20 10 20C15.514 20 20 15.514 20 10C20 4.486 15.514 0 10 0ZM8 15L3 10L4.41 8.59L8 12.17L15.59 4.58L17 6L8 15Z" fill="#10b981"/>
+              </svg>
+              {statusMessage}
+            </div>
+          )}
+          {submitStatus === 'error' && (
+            <div className="alert-modern alert-error-modern">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 0C4.486 0 0 4.486 0 10C0 15.514 4.486 20 10 20C15.514 20 20 15.514 20 10C20 4.486 15.514 0 10 0ZM11 15H9V13H11V15ZM11 11H9V5H11V11Z" fill="#ef4444"/>
+              </svg>
+              {statusMessage}
+            </div>
+          )}
+        </div>
+      </form>
     </div>
   );
 }

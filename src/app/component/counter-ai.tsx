@@ -7,7 +7,7 @@ interface PageProps {
     dict: Dictionary;
     locale: Locale;
 }
-export default function CounterAISection({ dict, locale }: PageProps) {
+export default function CounterAISection({ dict }: PageProps) {
     if (!dict.counter || !dict.counter.items || dict.counter.items.length === 0) {
         return null;
     }

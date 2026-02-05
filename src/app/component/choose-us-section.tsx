@@ -1,6 +1,5 @@
 import { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/getDictionary";
-import Image from "next/image";
 
 /** Site renk paletine uygun 6 border rengi (madde 6'dan fazlaysa başa döner) */
 const CARD_BORDER_COLORS = [

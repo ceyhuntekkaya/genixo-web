@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
-import { locales, defaultLocale, countryToLocale, type Locale } from './i18n/config';
+import { locales, defaultLocale, countryToLocale } from './i18n/config';
 
 // Vercel geo tipini genişletelim
 interface RequestWithGeo extends NextRequest {

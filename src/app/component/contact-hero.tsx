@@ -122,13 +122,13 @@ export default function ContactHero({ dict }: ContactHeroProps) {
           <div className="col-12 col-sm-11 col-md-10 col-lg-10 col-xl-8 mx-auto mx-md-0">
             <div className="hero-content hero-content-animate">
               <h3 className="sub-title hero-subtitle-animate">
-                {dict.menu.ContactInfo || "Bizimle İletişime Geçin"}
+                {dict.contact?.form?.subtitle || "Get In Touch"}
               </h3>
               <h1 className="title hero-title-animate">
                 {dict.menu.ContactUs}
               </h1>
               <p className="description hero-description-animate">
-                {dict.contact.form.mainTitle}
+                {dict.contact?.form?.mainTitle || ""}
               </p>
             </div>
           </div>

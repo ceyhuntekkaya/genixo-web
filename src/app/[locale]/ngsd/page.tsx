@@ -3,6 +3,7 @@ import { getDictionary } from "@/i18n/getDictionary";
 import { generateMetadata as generateSEOMetadata } from "@/utils/seo";
 import { locales } from "@/i18n/config";
 import NgsdHero from "@/app/component/ngsd-hero";
+import Image from "next/image";
 
 export async function generateMetadata({
   params,
@@ -43,16 +44,19 @@ export default async function NGSDPage({
             <div className="row">
               <div className="col-lg-6">
                 <div className="about-img-wrap">
-                  <img
+                  <Image
                     className="shape-1"
                     src="/images/shape/about-shape2.png"
                     alt=""
+                    width={100}
+                    height={100}
+                    unoptimized
                   />
                   <div className="about-img">
-                    <img src="/images/solutions-1.jpg" alt="" />
+                    <Image src="/images/solutions-1.jpg" alt="" width={600} height={400} unoptimized />
                   </div>
                   <div className="about-img about-img-2">
-                    <img src="/images/solutions-1.jpg" alt="" />
+                    <Image src="/images/solutions-1.jpg" alt="" width={600} height={400} unoptimized />
                   </div>
                 </div>
               </div>

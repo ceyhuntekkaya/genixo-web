@@ -53,7 +53,7 @@ export default function ProductProblems({ product }: ProductProblemsProps) {
 
           <div className="choose-us-content-wrap">
             <div className="row">
-              {product.problems.map((problem: any, index: number) => (
+              {product.problems.map((problem: { title: string; description: string }, index: number) => (
                 <div key={index} className="col-lg-6 col-md-6">
                   <div className="choose-us-item-02 benefit-item">
                     <div className="benefit-icon-wrapper">

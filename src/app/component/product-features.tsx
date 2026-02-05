@@ -62,8 +62,8 @@ export default function ProductFeatures({ product, locale }: ProductFeaturesProp
             <div className="row">
               {product.features.map((feature, index) => {
                 // Support both string and object formats
-                const featureTitle = isObjectFeatures ? (feature as any).title : feature;
-                const featureDescription = isObjectFeatures ? (feature as any).description : undefined;
+                const featureTitle = isObjectFeatures ? (feature as { title: string; description?: string }).title : (feature as string);
+                const featureDescription = isObjectFeatures ? (feature as { title: string; description?: string }).description : undefined;
                 
                 return (
                   <div key={index} className="col-lg-6 col-md-6">

@@ -10,7 +10,7 @@ interface ContactFormProps {
   locale: string;
 }
 
-export default function ContactForm({ dict, locale }: ContactFormProps) {
+export default function ContactForm({ dict }: ContactFormProps) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
   const [statusMessage, setStatusMessage] = useState('');
@@ -155,7 +155,7 @@ export default function ContactForm({ dict, locale }: ContactFormProps) {
         setSubmitStatus('error');
         setStatusMessage(data.detail || formDict.errorMessage || 'An error occurred. Please try again.');
       }
-    } catch (error) {
+    } catch {
       setSubmitStatus('error');
       setStatusMessage(formDict.connectionError || 'Connection error. Please try again.');
     } finally {

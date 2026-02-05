@@ -97,7 +97,7 @@ export default async function Home({
         // <TeamSection/>
       }
 
-      <AboutAISection dict={dict} locale={locale} />
+      <AboutAISection dict={dict} />
       <ServiceAISection dict={dict} locale={locale} />
 
       {

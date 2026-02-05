@@ -1,8 +1,8 @@
-import PageBanner from "@/app/component/page-banner";
 import { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/getDictionary";
 import { generateMetadata as generateSEOMetadata } from "@/utils/seo";
 import { locales } from "@/i18n/config";
+import NgsdHero from "@/app/component/ngsd-hero";
 
 export async function generateMetadata({
   params,
@@ -32,18 +32,9 @@ export default async function NGSDPage({
   const { locale } = await params;
   const dict = await getDictionary(locale);
 
-  const homeLabel = dict.menu.Home;
-
   return (
     <>
-      <PageBanner
-        bannerLink={"/images/bg/page-banner.jpg"}
-        title={dict.menu.NGSD}
-        breadcrumbs={[
-          { label: homeLabel, href: `/${locale}` },
-          { label: dict.menu.NGSD, href: `/${locale}/ngsd` },
-        ]}
-      />
+      <NgsdHero dict={dict} />
 
       <div className="section genixo-about-section-07 section-padding">
         <div className="shape-1"></div>

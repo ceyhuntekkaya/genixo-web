@@ -31,6 +31,35 @@ export default function BootstrapScript() {
         };
 
         loadBootstrap();
+
+        // Offcanvas kapandığında backdrop'u temizle
+        const handleOffcanvasHidden = () => {
+            // Tüm backdrop'ları temizle
+            const backdrops = document.querySelectorAll('.offcanvas-backdrop');
+            backdrops.forEach((backdrop) => {
+                backdrop.remove();
+            });
+            
+            // Body stillerini temizle
+            document.body.classList.remove('modal-open');
+            document.body.style.overflow = '';
+            document.body.style.paddingRight = '';
+        };
+
+        // Bootstrap offcanvas hide event listener
+        const offcanvasElement = document.getElementById('offcanvasExample');
+        if (offcanvasElement) {
+            offcanvasElement.addEventListener('hidden.bs.offcanvas', handleOffcanvasHidden);
+            offcanvasElement.addEventListener('hide.bs.offcanvas', handleOffcanvasHidden);
+        }
+
+        // Cleanup
+        return () => {
+            if (offcanvasElement) {
+                offcanvasElement.removeEventListener('hidden.bs.offcanvas', handleOffcanvasHidden);
+                offcanvasElement.removeEventListener('hide.bs.offcanvas', handleOffcanvasHidden);
+            }
+        };
     }, []);
 
     return null;

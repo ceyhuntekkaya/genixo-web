@@ -46,13 +46,13 @@ export default async function LocaleLayout({
                 </div>
             </div>
 
-            <div className="offcanvas offcanvas-start" id="offcanvasExample">
+            <div className="offcanvas offcanvas-start" id="offcanvasExample" tabIndex={-1} aria-labelledby="offcanvasExampleLabel">
                 <div className="offcanvas-header">
                     <div className="offcanvas-logo">
-                        <Link href={`/${typedLocale}`}>
+                        <Link href={`/${typedLocale}`} aria-label="Ana Sayfa">
                             <Image 
                                 src={logo} 
-                                alt="Logo" 
+                                alt="Genixo Logo" 
                                 width={130}
                                 height={50}
                                 style={{ width: '130px', height: 'auto' }}
@@ -64,6 +64,7 @@ export default async function LocaleLayout({
                         type="button"
                         className="close-btn"
                         data-bs-dismiss="offcanvas"
+                        aria-label="Menüyü Kapat"
                     >
                         <i className="flaticon-close"></i>
                     </button>

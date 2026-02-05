@@ -32,6 +32,14 @@ export default function MenuSection({ locale, dict }: MenuSectionProps) {
             const win = window as BootstrapWindow;
             let Bootstrap = win.bootstrap;
             
+            // Önce eski backdrop'ları temizle
+            const removeAllBackdrops = () => {
+                const backdrops = document.querySelectorAll('.offcanvas-backdrop');
+                backdrops.forEach((backdrop) => backdrop.remove());
+            };
+            
+            removeAllBackdrops();
+            
             // Eğer Bootstrap henüz yüklenmemişse, yüklemeyi dene
             if (!Bootstrap) {
                 try {
@@ -66,11 +74,12 @@ export default function MenuSection({ locale, dict }: MenuSectionProps) {
                     offcanvasElement.classList.remove('show');
                     offcanvasElement.setAttribute('aria-hidden', 'true');
                     offcanvasElement.removeAttribute('aria-modal');
+                    offcanvasElement.removeAttribute('role');
                     document.body.classList.remove('modal-open');
                     document.body.style.overflow = '';
                     document.body.style.paddingRight = '';
-                    backdrop.classList.remove('show');
-                    setTimeout(() => backdrop.remove(), 150);
+                    backdrop.classList.remove('show', 'fade');
+                    backdrop.remove();
                 };
                 document.body.appendChild(backdrop);
             }

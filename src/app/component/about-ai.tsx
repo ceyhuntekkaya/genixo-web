@@ -20,7 +20,10 @@ export default function AboutAISection({ dict }: PageProps) {
           <div className="about-content-wrap">
             <div className="row">
               <div className="col-lg-6">
-                <div className="about-img-wrap">
+                <div 
+                  className="about-img-wrap"
+                  style={{ position: "relative" }}
+                >
                   <div className="about-img about-img-big">
                     <div
                       style={{
@@ -37,24 +40,6 @@ export default function AboutAISection({ dict }: PageProps) {
                         unoptimized
                       />
                     </div>
-                  </div>
-                  <div className="about-img about-img-sm">
-                    <div
-                      style={{
-                        position: "relative",
-                        width: "250px",
-                        height: "250px",
-                      }}
-                    >
-                      <Image
-                        src="/images/about-sm3.jpg"
-                        alt=""
-                        fill
-                        style={{ objectFit: "cover", borderRadius: "10px" }}
-                        unoptimized
-                      />
-                    </div>
-                    <div className="shape-01"></div>
                   </div>
                 </div>
               </div>

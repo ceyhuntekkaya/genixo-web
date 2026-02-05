@@ -6,9 +6,9 @@ import Link from "next/link";
 import MenuSection from "@/app/component/menu";
 import MenuList from "@/app/component/menu-list";
 import BootstrapScript from "@/app/component/bootstrap-script";
+import CTASection from "@/app/component/cta-section";
 import { Locale, locales } from "@/i18n/config";
 import { getDictionary } from '@/i18n/getDictionary';
-import {companyInfo} from "@/utils/company";
 
 export function generateStaticParams() {
     return locales.map((locale) => ({ locale }));
@@ -78,29 +78,7 @@ export default async function LocaleLayout({
 
             {children}
 
-            <div className="section genixo-cta-section-02">
-                <div className="container">
-                    <div className="cta-wrap" style={{ backgroundImage: "url(/images/bg/cta-bg.jpg)" }}>
-                        <div className="row align-items-center">
-                            <div className="col-xl-9 col-lg-8">
-                                <div className="cta-content">
-                                    <div className="cta-icon">
-                                        <Image src="/images/cta-icon2.png" alt="" fill style={{ objectFit: 'contain' }} unoptimized />
-                                    </div>
-                                    <p>{dict.general.ctaMessage}</p>
-                                </div>
-                            </div>
-                            <div className="col-xl-3 col-lg-4">
-                                <div className="cta-btn">
-                                    <a className="btn btn-white" href="#">
-                                        {companyInfo.phone}
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <CTASection dict={dict} />
 
             <FooterSection locale={typedLocale} dict={dict} />
 

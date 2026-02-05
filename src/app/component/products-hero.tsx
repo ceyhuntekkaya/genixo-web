@@ -10,7 +10,7 @@ export default function ProductsHero({ dict }: ProductsHeroProps) {
   return (
     <div
       className="section genixo-hero-section-03 d-flex align-items-center justify-content-center"
-      style={{ backgroundImage: `url(/images/products-main.jpg)` }}
+      style={{ backgroundImage: `url(/images/products-main-final.jpg)` }}
     >
       {/* Overlay for better text readability */}
       <div className="hero-overlay"></div>

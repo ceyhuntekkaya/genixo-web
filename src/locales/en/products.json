@@ -6,18 +6,36 @@
       "description": "ILC International Language Certification is a cutting-edge platform designed to facilitate language learning and certification processes. Our platform provides comprehensive assessment tools, certification management, and detailed reporting capabilities.\n\nThe platform supports multiple languages and offers flexible certification pathways for learners of all levels. With advanced analytics and reporting features, educators and institutions can track progress and ensure quality standards.\n\nKey capabilities include automated assessment, certificate generation, progress tracking, and comprehensive reporting. The platform is designed to be scalable and can accommodate institutions of all sizes.",
       "webLink":"",
       "features": [
-        "Multi-language support",
-        "Automated assessment and grading",
-        "Certificate generation and management",
-        "Comprehensive progress tracking",
-        "Advanced analytics and reporting",
-        "Scalable architecture"
+        {
+          "title": "Multi-Language Support",
+          "description": "Turkish, English, German, French... Platform supports 20+ languages. Serve international students, manage all languages in one system."
+        },
+        {
+          "title": "Automated Assessment and Grading",
+          "description": "Exam finishes, results ready. AI evaluates writing, speaking, reading instantly. Teachers get reports in minutes, not days."
+        },
+        {
+          "title": "Certificate Generation and Management",
+          "description": "No paper certificates, no loss, no forgery. Digital certificates created instantly, electronically signed, blockchain verified."
+        },
+        {
+          "title": "Comprehensive Progress Tracking",
+          "description": "See each student's level, where they struggle, how much they've progressed. Create personalized learning plans with detailed reports."
+        },
+        {
+          "title": "Advanced Analytics and Reporting",
+          "description": "Don't ask 'How many students passed?' Just look at the dashboard and see. Real-time reports, performance metrics, trend analysis always at hand."
+        },
+        {
+          "title": "Scalable Architecture",
+          "description": "10 students or 10,000 students work at the same speed. With cloud infrastructure, system never slows down, never crashes, never limits your growth."
+        }
       ],
       "image1": "/images/about-3.jpg",
       "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": ""
     },
     "StudyScoreAI": {
       "name": "Study Score AI",
@@ -25,18 +43,36 @@
       "description": "Study Score AI leverages artificial intelligence to provide intelligent assessment and analysis of student performance. The platform uses advanced machine learning algorithms to identify learning patterns, predict outcomes, and provide personalized recommendations.\n\nWith Study Score AI, educators can gain deeper insights into student learning behaviors, identify areas that need attention, and provide targeted support. The platform offers real-time analytics, automated grading, and comprehensive reporting tools.\n\nThe system is designed to integrate seamlessly with existing educational infrastructure and can be customized to meet specific institutional needs.",
       "webLink":"",
       "features": [
-        "AI-powered performance analysis",
-        "Predictive analytics",
-        "Personalized learning recommendations",
-        "Real-time progress tracking",
-        "Automated grading system",
-        "Comprehensive reporting dashboard"
+        {
+          "title": "AI-Powered Performance Analysis",
+          "description": "Where is the student struggling? Which topic don't they understand? AI analyzes, tells you. Make data-driven decisions instead of guessing."
+        },
+        {
+          "title": "Predictive Analytics",
+          "description": "See at-risk students before exam results come. AI says 'this student may fail', you intervene early. Prevention, not reaction."
+        },
+        {
+          "title": "Personalized Learning Recommendations",
+          "description": "Every student learns differently. Some visual, some auditory, some kinesthetic. AI recommends personalized content, everyone progresses at their own pace."
+        },
+        {
+          "title": "Real-Time Progress Tracking",
+          "description": "Parent asks 'How's my child doing?', you show immediately. Instant reports, live data, transparent process. Everyone knows what's happening."
+        },
+        {
+          "title": "Automated Grading System",
+          "description": "Teachers don't grade papers until midnight anymore. AI evaluates even open-ended questions. Objective, fast, error-free grading."
+        },
+        {
+          "title": "Comprehensive Reporting Dashboard",
+          "description": "Open dashboard, see everything. Which class succeeds, which topic is hard, which teacher is effective. All data on one screen, instantly."
+        }
       ],
       "image1": "/images/about-3.jpg",
       "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": ""
     },
     "Egitimiste": {
       "name": "egitimiste.com",
@@ -44,18 +80,36 @@
       "description": "egitimiste.com is a comprehensive educational platform designed to connect students with quality educational resources, courses, and institutions. The platform serves as a bridge between learners and educational opportunities.\n\nThe platform features an extensive database of educational programs, institutions, and resources. Students can search, compare, and apply for programs that match their interests and goals.\n\nWith user-friendly interfaces and powerful search capabilities, egitimiste.com makes it easy for students to find the right educational path. The platform also provides tools for institutions to showcase their programs and connect with prospective students.",
       "webLink":"",
       "features": [
-        "Comprehensive program database",
-        "Advanced search and filtering",
-        "Application management",
-        "Institution profiles",
-        "Student resources and guides",
-        "Multi-language support"
+        {
+          "title": "Comprehensive Program Database",
+          "description": "Which university should I attend? Which course suits me? 10,000+ programs on one platform. Compare, read, decide. Find everything in one place."
+        },
+        {
+          "title": "Advanced Search and Filtering",
+          "description": "Search 'software course in Istanbul, 2 years' and find it in seconds. Price, location, duration, subject... Filter by any criteria you want."
+        },
+        {
+          "title": "Application Management",
+          "description": "No going to school to apply, no filling paper forms. Apply online, upload documents, track status. Everything digital, everything fast."
+        },
+        {
+          "title": "Institution Profiles",
+          "description": "Is the school really good? What do graduates say? How's the campus? Detailed profile for each institution, real student reviews, photos. Make informed decisions."
+        },
+        {
+          "title": "Student Resources and Guides",
+          "description": "Which career should I choose? Any scholarships? How to prepare for exams? Career guidance, scholarship info, exam resources... You're not alone."
+        },
+        {
+          "title": "Multi-Language Support",
+          "description": "Turkish students and international students both use the platform. Turkish, English, Arabic... Everyone discovers opportunities in their own language."
+        }
       ],
       "image1": "/images/about-3.jpg",
       "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": ""
     },
     "GenixoWorkAI": {
       "name": "Genixo Work AI",
@@ -74,7 +128,7 @@
       "image2": "/images/about-4.jpg",
       "active": false,
       "showOnHomepage": false,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": ""
     },
     "GenixoAssistant": {
       "name": "Genixo Assistant",
@@ -93,7 +147,7 @@
       "image2": "/images/about-4.jpg",
       "active": false,
       "showOnHomepage": false,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": ""
     },
     "TOMEREYadis": {
       "name": "TÖMER E-Yadis",
@@ -130,7 +184,7 @@
       "image2": "/images/about-4.jpg",
       "active": false,
       "showOnHomepage": false,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": ""
     }
   }
 }

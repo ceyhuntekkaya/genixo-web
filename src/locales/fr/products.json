@@ -6,18 +6,36 @@
       "description": "ILC International Language Certification est une plateforme moderne conçue pour faciliter les processus d'apprentissage et de certification des langues. Notre plateforme fournit des outils d'évaluation complets, la gestion des certificats et des capacités de reporting détaillées.",
       "webLink":"",
       "features": [
-        "Support multilingue",
-        "Évaluation et notation automatiques",
-        "Génération et gestion de certificats",
-        "Suivi complet des progrès",
-        "Analyses et rapports avancés",
-        "Architecture évolutive"
+        {
+          "title": "Support Multilingue",
+          "description": "Turc, anglais, allemand, français... La plateforme prend en charge plus de 20 langues. Servez les étudiants internationaux, gérez toutes les langues dans un seul système."
+        },
+        {
+          "title": "Évaluation et Notation Automatiques",
+          "description": "L'examen se termine, les résultats sont prêts. L'IA évalue l'écriture, la parole, la lecture instantanément. Les enseignants reçoivent des rapports en minutes, pas en jours."
+        },
+        {
+          "title": "Génération et Gestion de Certificats",
+          "description": "Pas de certificats papier, pas de perte, pas de contrefaçon. Certificats numériques créés instantanément, signés électroniquement, vérifiés par blockchain."
+        },
+        {
+          "title": "Suivi Complet des Progrès",
+          "description": "Voyez le niveau de chaque étudiant, où ils ont des difficultés, combien ils ont progressé. Créez des plans d'apprentissage personnalisés avec des rapports détaillés."
+        },
+        {
+          "title": "Analyses et Rapports Avancés",
+          "description": "Ne demandez pas 'Combien d'étudiants ont réussi?' Regardez simplement le tableau de bord et voyez. Rapports en temps réel, métriques de performance, analyse des tendances toujours à portée de main."
+        },
+        {
+          "title": "Architecture Évolutive",
+          "description": "10 étudiants ou 10 000 étudiants fonctionnent à la même vitesse. Avec l'infrastructure cloud, le système ne ralentit jamais, ne plante jamais, ne limite jamais votre croissance."
+        }
       ],
       "image1": "/images/about-3.jpg",
       "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": ""
     },
     "StudyScoreAI": {
       "name": "Study Score AI",
@@ -25,18 +43,36 @@
       "description": "Study Score AI exploite l'intelligence artificielle pour fournir une évaluation et une analyse intelligentes de la performance des étudiants. La plateforme utilise des algorithmes d'apprentissage automatique avancés pour identifier les modèles d'apprentissage, prédire les résultats et fournir des recommandations personnalisées.",
       "webLink":"",
       "features": [
-        "Analyse de performance basée sur l'IA",
-        "Analyses prédictives",
-        "Recommandations d'apprentissage personnalisées",
-        "Suivi des progrès en temps réel",
-        "Système de notation automatique",
-        "Tableau de bord de reporting complet"
+        {
+          "title": "Analyse de Performance Basée sur l'IA",
+          "description": "Où l'étudiant a-t-il des difficultés? Quel sujet ne comprend-il pas? L'IA analyse, vous le dit. Prenez des décisions basées sur les données au lieu de deviner."
+        },
+        {
+          "title": "Analyses Prédictives",
+          "description": "Voyez les étudiants à risque avant les résultats d'examen. L'IA dit 'cet étudiant pourrait échouer', vous intervenez tôt. Prévention, pas réaction."
+        },
+        {
+          "title": "Recommandations d'Apprentissage Personnalisées",
+          "description": "Chaque étudiant apprend différemment. Certains visuels, certains auditifs, certains kinesthésiques. L'IA recommande du contenu personnalisé, chacun progresse à son propre rythme."
+        },
+        {
+          "title": "Suivi des Progrès en Temps Réel",
+          "description": "Le parent demande 'Comment va mon enfant?', vous montrez immédiatement. Rapports instantanés, données en direct, processus transparent. Tout le monde sait ce qui se passe."
+        },
+        {
+          "title": "Système de Notation Automatique",
+          "description": "Les enseignants ne corrigent plus jusqu'à minuit. L'IA évalue même les questions ouvertes. Notation objective, rapide, sans erreur."
+        },
+        {
+          "title": "Tableau de Bord de Reporting Complet",
+          "description": "Ouvrez le tableau de bord, voyez tout. Quelle classe réussit, quel sujet est difficile, quel enseignant est efficace. Toutes les données sur un écran, instantanément."
+        }
       ],
       "image1": "/images/about-3.jpg",
       "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": ""
     },
     "Egitimiste": {
       "name": "egitimiste.com",
@@ -44,18 +80,36 @@
       "description": "egitimiste.com est une plateforme éducative complète conçue pour connecter les étudiants à des ressources éducatives, des cours et des institutions de qualité. La plateforme sert de pont entre les apprenants et les opportunités éducatives.",
       "webLink":"",
       "features": [
-        "Base de données de programmes complète",
-        "Recherche et filtrage avancés",
-        "Gestion des candidatures",
-        "Profils d'institutions",
-        "Ressources et guides pour étudiants",
-        "Support multilingue"
+        {
+          "title": "Base de Données de Programmes Complète",
+          "description": "Quelle université dois-je fréquenter? Quel cours me convient? Plus de 10 000 programmes sur une plateforme. Comparez, lisez, décidez. Trouvez tout en un seul endroit."
+        },
+        {
+          "title": "Recherche et Filtrage Avancés",
+          "description": "Recherchez 'cours de logiciel à Istanbul, 2 ans' et trouvez-le en quelques secondes. Prix, lieu, durée, sujet... Filtrez selon n'importe quel critère souhaité."
+        },
+        {
+          "title": "Gestion des Candidatures",
+          "description": "Pas besoin d'aller à l'école pour postuler, pas de formulaires papier à remplir. Postulez en ligne, téléchargez des documents, suivez le statut. Tout est numérique, tout est rapide."
+        },
+        {
+          "title": "Profils d'Institutions",
+          "description": "L'école est-elle vraiment bonne? Que disent les diplômés? Comment est le campus? Profil détaillé pour chaque institution, avis réels d'étudiants, photos. Prenez des décisions éclairées."
+        },
+        {
+          "title": "Ressources et Guides pour Étudiants",
+          "description": "Quelle carrière dois-je choisir? Y a-t-il des bourses? Comment me préparer aux examens? Orientation professionnelle, infos bourses, ressources d'examen... Vous n'êtes pas seul."
+        },
+        {
+          "title": "Support Multilingue",
+          "description": "Les étudiants turcs et internationaux utilisent tous deux la plateforme. Turc, anglais, arabe... Chacun découvre les opportunités dans sa propre langue."
+        }
       ],
       "image1": "/images/about-3.jpg",
       "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": ""
     },
     "GenixoWorkAI": {
       "name": "Genixo Work AI",
@@ -74,7 +128,7 @@
       "image2": "/images/about-4.jpg",
       "active": false,
       "showOnHomepage": false,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": ""
     },
     "GenixoAssistant": {
       "name": "Genixo Assistant",
@@ -93,7 +147,7 @@
       "image2": "/images/about-4.jpg",
       "active": false,
       "showOnHomepage": false,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": ""
     },
     "TOMEREYadis": {
       "name": "TÖMER E-Yadis",
@@ -112,7 +166,7 @@
       "image2": "/images/about-4.jpg",
       "active": false,
       "showOnHomepage": false,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": ""
     },
     "RetiredTravelApp": {
       "name": "Retired Travel App",
@@ -131,7 +185,7 @@
       "image2": "/images/about-4.jpg",
       "active": false,
       "showOnHomepage": false,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": ""
     }
   }
 }

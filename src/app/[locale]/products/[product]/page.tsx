@@ -1,11 +1,12 @@
 import {Locale} from "@/i18n/config";
 import {getDictionary} from "@/i18n/getDictionary";
-import {getProductKey} from "@/utils/slugMapping";
+import {getProductKey, getProductSlug} from "@/utils/slugMapping";
 import ProductDetail from "@/app/component/product-detail";
 import {notFound} from "next/navigation";
 import {generateMetadata as generateSEOMetadata, generateStructuredData} from "@/utils/seo";
 import {locales} from "@/i18n/config";
 import Script from "next/script";
+import type { Dictionary } from "@/i18n/types";
 
 export async function generateMetadata({
     params,
@@ -51,6 +52,24 @@ export async function generateMetadata({
         image: `/images/products/${product}.jpg`,
         dict,
     });
+}
+
+export async function generateStaticParams() {
+    const result: { locale: Locale; product: string }[] = [];
+    for (const locale of locales) {
+        const dict = await getDictionary(locale);
+        const productKeys = Object.keys(dict.products) as (keyof Dictionary['products'])[];
+        for (const key of productKeys) {
+            const product = dict.products[key];
+            if (product.active !== false) {
+                const slug = getProductSlug(key);
+                if (slug) {
+                    result.push({ locale, product: slug });
+                }
+            }
+        }
+    }
+    return result;
 }
 
 export default async function ProductDetailPage({

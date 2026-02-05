@@ -2,7 +2,7 @@ import {Locale} from "@/i18n/config";
 import {getDictionary} from "@/i18n/getDictionary";
 import {generateMetadata as generateSEOMetadata} from "@/utils/seo";
 import {locales} from "@/i18n/config";
-import PageBanner from "@/app/component/page-banner";
+import ProductsHero from "@/app/component/products-hero";
 
 import Link from "next/link";
 import {getProductSlug} from "@/utils/slugMapping";
@@ -36,19 +36,12 @@ export default async function ProductsPage({
     const { locale } = await params;
     const dict = await getDictionary(locale);
 
-    const homeLabel = dict.menu.Home;
-
     return (
         <>
-            <PageBanner
-                bannerLink={"/images/bg/page-banner.jpg"}
-                title={dict.menu.Products}
-                breadcrumbs={[
-                    { label: homeLabel, href: `/${locale}` },
-                    { label: dict.menu.Products, href: `/${locale}/products` },
-                ]}
-            />
-            <div className="section genixo-choose-us-section section-padding"
+            <ProductsHero dict={dict} />
+
+            {/* Products Cards Section */}
+            <div className="section genixo-choose-us-section section-padding products-section"
                  style={{backgroundImage: 'url(/images/bg/choose-us-bg.jpg)'}}>
                 <div className="container">
                     <div className="choose-us-wrap">

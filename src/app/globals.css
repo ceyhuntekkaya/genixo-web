@@ -145,7 +145,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 /*--Section Spacing--*/
 .section-padding {
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 64px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -7055,17 +7055,11 @@ textarea:-ms-input-placeholder {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .genixo-choose-us-section .section-title {
   max-width: 570px;
   margin: 0 auto;
-}
-
-.choose-us-content-wrap {
-  padding-top: 30px;
 }
 
 .choose-us-content-wrap .more-choose-content {

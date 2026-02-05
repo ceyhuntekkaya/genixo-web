@@ -47,7 +47,7 @@ export default async function RelatedSolutionsSection({
             <div className="container">
                 <div className="choose-us-wrap">
                     <div className="section-title text-center">
-                        <h3 className="sub-title">{sectionSubtitle}</h3>
+                        <h3 className="sub-title-modern">{sectionSubtitle}</h3>
                         <h2 className="title">{sectionTitle}</h2>
                     </div>
                     <div className="choose-us-content-wrap">

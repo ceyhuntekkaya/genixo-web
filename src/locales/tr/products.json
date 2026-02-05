@@ -9,16 +9,62 @@
       "longDescription": "<p>Platformumuz kapsamlı değerlendirme araçları, sertifika yönetimi ve detaylı raporlama özellikleri sunar.</p><p>Platform birden fazla dili destekler ve tüm seviyelerdeki öğrenciler için esnek sertifikasyon yolları sunar. Gelişmiş analitik ve raporlama özellikleriyle, eğitimciler ve kurumlar ilerlemeyi takip edebilir ve kalite standartlarını sağlayabilir.</p><h3>Temel Özellikler</h3><p>Temel yetenekler arasında otomatik değerlendirme, sertifika oluşturma, ilerleme takibi ve kapsamlı raporlama bulunur. Platform ölçeklenebilir olarak tasarlanmıştır ve her boyuttaki kurumu barındırabilir.</p>",
       "webLink":"",
       "features": [
-        "Çoklu dil desteği",
-        "Otomatik değerlendirme ve notlandırma",
-        "Sertifika oluşturma ve yönetimi",
-        "Kapsamlı ilerleme takibi",
-        "Gelişmiş analitik ve raporlama",
-        "Ölçeklenebilir mimari"
+        {
+          "title": "Çoklu Dil Desteği",
+          "description": "Türkçe, İngilizce, Almanca, Fransızca... Platform 20+ dili destekler. Uluslararası öğrencilere hizmet verin, tek sistemde tüm dilleri yönetin."
+        },
+        {
+          "title": "Otomatik Değerlendirme ve Notlandırma",
+          "description": "Sınav biter bitmez sonuçlar hazır. AI ile yazma, konuşma, okuma anında değerlendirilir. Öğretmenler günler yerine dakikalar içinde rapor alır."
+        },
+        {
+          "title": "Sertifika Oluşturma ve Yönetimi",
+          "description": "Kağıt sertifika yok, kaybolma yok, sahtecilik yok. Dijital sertifikalar anında oluşturulur, elektronik imzalanır, blockchain ile doğrulanır."
+        },
+        {
+          "title": "Kapsamlı İlerleme Takibi",
+          "description": "Her öğrencinin hangi seviyede olduğunu, nerede zorlandığını, ne kadar ilerlediğini görün. Detaylı raporlarla kişiye özel öğrenme planları oluşturun."
+        },
+        {
+          "title": "Gelişmiş Analitik ve Raporlama",
+          "description": "'Kaç öğrenci sınavı geçti?' diye sormayın, dashboard'a bakın ve görün. Gerçek zamanlı raporlar, performans metrikleri, trend analizleri hep elinizin altında."
+        },
+        {
+          "title": "Ölçeklenebilir Mimari",
+          "description": "10 öğrenci de 10.000 öğrenci de aynı hızda çalışır. Bulut altyapı ile sistem asla yavaşlamaz, tıkanmaz, büyümeniz engellemez."
+        }
       ],
       "active": true,
       "showOnHomepage": true,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": "",
+      "problemsTitle": "Dil Sertifikasyonunda Neden Dijital Platform Şart",
+      "problemsSubtitle": "Başarılı eğitim kurumlarının ortak özelliği: Bu sorunları çözdüler.",
+      "problems": [
+        {
+          "title": "Manuel Sınav Değerlendirmesi Haftalar Alıyor",
+          "description": "Öğrenci sınava giriyor, sonucu 2 hafta bekliyor. Bu sürede başka kuruma başvuruyor, sizi kaybediyorsunuz. Otomatik değerlendirme ile sonuçlar anında hazır."
+        },
+        {
+          "title": "Kağıt Sertifikalar Kayboluyor ve Sahte Olabiliyor",
+          "description": "Basılı sertifika kayboluyor, yeniden basılması için para ve zaman kaybı. Sahtecilik riski var, doğrulama zor. Dijital sertifikalarla her şey güvenli ve anlık doğrulanabilir."
+        },
+        {
+          "title": "Öğrenci İlerleme Takibi Excel'de Kaybolmuş",
+          "description": "'Bu öğrenci hangi seviyede?' diye soruyorsunuz, Excel dosyaları arasında kayboluyorsunuz. Gerçek zamanlı takip sistemi ile her öğrencinin durumunu anında görürsünüz."
+        },
+        {
+          "title": "Çoklu Dil Yönetimi Karmaşa Yaratıyor",
+          "description": "Her dil için ayrı sistem, ayrı Excel, ayrı kağıt. Karmaşa çok, verim az. Tek platformda 20+ dili yönetin, tüm veriler merkezi ve düzenli."
+        },
+        {
+          "title": "Raporlama ve Analiz Elle Yapılıyor",
+          "description": "Aylık raporları hazırlamak için günlerce Excel'de uğraşıyorsunuz. Dashboard'a bakın, tüm metrikleri görün. Başarı oranları, öğrenci dağılımı, gelir analizleri hepsi hazır."
+        },
+        {
+          "title": "Büyüyemiyorsunuz Çünkü Sistem Ölçeklenmiyor",
+          "description": "100 öğrenci için çalışan sistem, 1000 öğrencide çöküyor. Her şeyi manuel yapıyorsunuz, büyüdükçe kaos artıyor. Bulut altyapı ile 10.000 öğrenci de aynı hızda."
+        }
+      ]
     },
     "StudyScoreAI": {
       "name": "Study Score AI",
@@ -28,16 +74,62 @@
       "image2": "/images/about-4.jpg",
       "webLink":"",
       "features": [
-        "AI destekli performans analizi",
-        "Tahmine dayalı analitik",
-        "Kişiselleştirilmiş öğrenme önerileri",
-        "Gerçek zamanlı ilerleme takibi",
-        "Otomatik notlandırma sistemi",
-        "Kapsamlı raporlama paneli"
+        {
+          "title": "AI Destekli Performans Analizi",
+          "description": "Öğrenci nerede zorlanıyor? Hangi konuyu anlayamıyor? AI analiz eder, size söyler. Tahmin yerine veriye dayalı kararlar alırsınız."
+        },
+        {
+          "title": "Tahmine Dayalı Analitik",
+          "description": "Sınav sonucunu beklemeden risk altındaki öğrencileri görün. AI 'bu öğrenci başarısız olabilir' der, siz önceden müdahale edersiniz."
+        },
+        {
+          "title": "Kişiselleştirilmiş Öğrenme Önerileri",
+          "description": "Her öğrenci farklı öğrenir. Biri görsel, biri işiterek, biri yaparak öğrenir. AI her öğrenciye özel içerik önerir, herkes kendi hızında ilerler."
+        },
+        {
+          "title": "Gerçek Zamanlı İlerleme Takibi",
+          "description": "Ebeveyn 'Çocuğum nasıl?' diye sorar, siz hemen gösterirsiniz. Anlık raporlar, canlı veriler, şeffaf süreç. Herkes ne olup bittiğini bilir."
+        },
+        {
+          "title": "Otomatik Notlandırma Sistemi",
+          "description": "Öğretmen gece 12'ye kadar sınav kağıdı okumaz artık. AI açık uçlu soruları bile değerlendirir. Objektif, hızlı, hatasız notlandırma."
+        },
+        {
+          "title": "Kapsamlı Raporlama Paneli",
+          "description": "Dashboard açıyorsunuz, her şeyi görüyorsunuz. Hangi sınıf başarılı, hangi konu zor, hangi öğretmen etkili. Tüm veriler tek ekranda, anında."
+        }
       ],
       "active": true,
       "showOnHomepage": true,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": "",
+      "problemsTitle": "Eğitim Değerlendirmesinde AI Kullanmamanın Bedeli",
+      "problemsSubtitle": "Başarılı eğitim kurumlarının ortak özelliği: Bu sorunları çözdüler.",
+      "problems": [
+        {
+          "title": "Risk Altındaki Öğrencileri Geç Fark Ediyorsunuz",
+          "description": "Öğrenci sınavda kalınca anlıyorsunuz sorun olduğunu. O zaman çok geç. AI erken uyarı verir, 'bu öğrenci zorlanıyor' der, müdahale edersiniz."
+        },
+        {
+          "title": "Her Öğrenciye Aynı İçerik Sunuyorsunuz",
+          "description": "Kimi görsel öğrenir, kimi dinleyerek, kimi yaparak. Herkes aynı müfredata tıkılmış, kimse verimli öğrenemiyor. AI kişiselleştirir, herkes kendi yolundan ilerler."
+        },
+        {
+          "title": "Öğretmenler Notlandırmakla Tükeniyor",
+          "description": "Öğretmen gece yarısına kadar sınav kağıdı okur, ertesi gün yorgun gelir. Asıl işi öğretmek, ama zamanı notlandırmakla geçiyor. AI otomatik değerlendirir, öğretmen öğretir."
+        },
+        {
+          "title": "Ebeveynler Sürekli Soruyor, Siz Cevap Bulamıyorsunuz",
+          "description": "'Çocuğum nasıl?' diye soruyorlar, siz de bilmiyorsunuz. Veri yok, rapor yok. Gerçek zamanlı raporlama ile her ebeveyn kendi çocuğunu online takip eder."
+        },
+        {
+          "title": "Hangi Konuların Zor Olduğunu Bilmiyorsunuz",
+          "description": "Matematik zor mu? Fizik mi? Hangi ünite anlaşılmıyor? Bilmiyorsunuz. AI analiz eder, 'bu konu %70 başarısız' der, müfredatı düzeltirsiniz."
+        },
+        {
+          "title": "Karar Almak İçin Veri Yok, Tahmin Ediyorsunuz",
+          "description": "Yeni öğretmen almalı mıyız? Sınıf açmalı mıyız? Bilmiyorsunuz, tahmin ediyorsunuz. Dashboard açıyorsunuz, veriler net: işte öğrenci sayısı, işte başarı oranı, işte ihtiyaçlar."
+        }
+      ]
     },
     "Egitimiste": {
       "name": "egitimiste.com",
@@ -47,16 +139,62 @@
       "image2": "/images/about-4.jpg",
       "webLink":"",
       "features": [
-        "Kapsamlı program veritabanı",
-        "Gelişmiş arama ve filtreleme",
-        "Başvuru yönetimi",
-        "Kurum profilleri",
-        "Öğrenci kaynakları ve rehberler",
-        "Çoklu dil desteği"
+        {
+          "title": "Kapsamlı Program Veritabanı",
+          "description": "Hangi üniversiteye gideceğim? Hangi kurs bana uygun? 10.000+ program tek platformda. Karşılaştır, oku, karar ver. Hepsini tek yerde bul."
+        },
+        {
+          "title": "Gelişmiş Arama ve Filtreleme",
+          "description": "'İstanbul'da, 2 yıllık, yazılım kursu' diye arıyorsunuz, saniyede buluyorsunuz. Fiyat, yer, süre, konu... İstediğiniz kritere göre filtreleyin."
+        },
+        {
+          "title": "Başvuru Yönetimi",
+          "description": "Başvuru yapmak için okula gitmek yok, kağıt doldurmak yok. Online başvur, belgelerini yükle, durumunu takip et. Her şey dijital, her şey hızlı."
+        },
+        {
+          "title": "Kurum Profilleri",
+          "description": "Okul gerçekten iyi mi? Mezunlar ne diyor? Kampüs nasıl? Her kurum için detaylı profil, gerçek öğrenci yorumları, fotoğraflar. Bilinçli karar verin."
+        },
+        {
+          "title": "Öğrenci Kaynakları ve Rehberler",
+          "description": "Hangi mesleği seçmeliyim? Burs var mı? Sınava nasıl hazırlanmalıyım? Kariyer rehberliği, burs bilgileri, sınav kaynakları... Yalnız değilsiniz."
+        },
+        {
+          "title": "Çoklu Dil Desteği",
+          "description": "Türk öğrenci de yabancı öğrenci de platformu kullanır. Türkçe, İngilizce, Arapça... Herkes kendi dilinde eğitim fırsatlarını keşfeder."
+        }
       ],
       "active": true,
       "showOnHomepage": true,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": "",
+      "problemsTitle": "Eğitim Arama Sürecindeki Kaosu Bitirin",
+      "problemsSubtitle": "Başarılı platformların ortak özelliği: Bu sorunları çözdüler.",
+      "problems": [
+        {
+          "title": "Öğrenciler Binlerce Seçenek Arasında Kaybolmuş",
+          "description": "Hangi okula gideceğim? Hangi kurs bana uygun? Her yerde farklı bilgi, neresi doğru bilmiyorlar. 10.000+ program tek platformda, karşılaştır, en uygununu bul."
+        },
+        {
+          "title": "Başvuru Süreçleri Kağıt İşleriyle Boğuşuyor",
+          "description": "Öğrenci okula gidiyor, formlar dolduruyor, belgeler fotokopi çektiriyor. Zaman kaybı, stres. Online başvuru ile her şey dijital, anında, kolay."
+        },
+        {
+          "title": "Kurumlar Doğru Öğrencilere Ulaşamıyor",
+          "description": "Harika programlarınız var ama kimse bilmiyor. Reklamlar pahalı, etkili değil. Platform size doğru hedef kitleyi getirir, ilgilenen öğrenciler sizi buluyor."
+        },
+        {
+          "title": "Öğrenciler Yanlış Kariyere Yönleniyor",
+          "description": "'Bu bölümü bitirince ne iş bulacağım?' Bilmiyorlar, sonra pişman oluyorlar. Kariyer rehberliği, mezun yorumları, gerçek verilerle doğru kararlar alıyorlar."
+        },
+        {
+          "title": "Burs ve Fırsatlar Gizli Kalıyor",
+          "description": "Binlerce burs var ama öğrenciler bilmiyor, kaçırıyor. Platform tüm bursları, fırsatları toplar. Öğrenci profiline uygun olanları önerir."
+        },
+        {
+          "title": "Başvuru Durumu Takip Edilemiyor",
+          "description": "'Başvurum ne oldu?' diye soruyorlar, cevap yok. Telefon açıyorlar, sıraya giriyorlar. Online takip ile her aşamayı görüyorlar, kimse beklemiyor."
+        }
+      ]
     },
     "GenixoWorkAI": {
       "name": "Genixo Work AI",

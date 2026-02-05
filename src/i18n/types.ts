@@ -98,7 +98,7 @@ export type Dictionary = {
             "name": string;
             "summary": string;
             "description": string;
-            "features"?: string[];
+            "features"?: (string | { title: string; description: string })[];
             "webLink"?: string;
             "image1"?: string;
             "image2"?: string;
@@ -106,84 +106,126 @@ export type Dictionary = {
             "active"?: boolean;
             "showOnHomepage"?: boolean;
             "videoLink"?: string;
+            "problemsTitle"?: string;
+            "problemsSubtitle"?: string;
+            "problems"?: Array<{
+                title: string;
+                description: string;
+            }>;
         };
         "StudyScoreAI": {
             "name": string;
             "summary": string;
             "description": string;
             "webLink"?: string;
-            "features"?: string[];
+            "features"?: (string | { title: string; description: string })[];
             "image1"?: string;
             "image2"?: string;
             "longDescription"?: string;
             "active"?: boolean;
             "showOnHomepage"?: boolean;
             "videoLink"?: string;
+            "problemsTitle"?: string;
+            "problemsSubtitle"?: string;
+            "problems"?: Array<{
+                title: string;
+                description: string;
+            }>;
         };
         "Egitimiste": {
             "name": string;
             "summary": string;
             "description": string;
             "webLink"?: string;
-            "features"?: string[];
+            "features"?: (string | { title: string; description: string })[];
             "image1"?: string;
             "image2"?: string;
             "longDescription"?: string;
             "active"?: boolean;
             "showOnHomepage"?: boolean;
             "videoLink"?: string;
+            "problemsTitle"?: string;
+            "problemsSubtitle"?: string;
+            "problems"?: Array<{
+                title: string;
+                description: string;
+            }>;
         };
         "GenixoWorkAI": {
             "name": string;
             "summary": string;
             "description": string;
             "webLink"?: string;
-            "features"?: string[];
+            "features"?: (string | { title: string; description: string })[];
             "image1"?: string;
             "image2"?: string;
             "longDescription"?: string;
             "active"?: boolean;
             "showOnHomepage"?: boolean;
             "videoLink"?: string;
+            "problemsTitle"?: string;
+            "problemsSubtitle"?: string;
+            "problems"?: Array<{
+                title: string;
+                description: string;
+            }>;
         };
         "GenixoAssistant": {
             "name": string;
             "summary": string;
             "description": string;
             "webLink"?: string;
-            "features"?: string[];
+            "features"?: (string | { title: string; description: string })[];
             "image1"?: string;
             "image2"?: string;
             "longDescription"?: string;
             "active"?: boolean;
             "showOnHomepage"?: boolean;
             "videoLink"?: string;
+            "problemsTitle"?: string;
+            "problemsSubtitle"?: string;
+            "problems"?: Array<{
+                title: string;
+                description: string;
+            }>;
         };
         "TOMEREYadis": {
             "name": string;
             "summary": string;
             "description": string;
             "webLink"?: string;
-            "features"?: string[];
+            "features"?: (string | { title: string; description: string })[];
             "image1"?: string;
             "image2"?: string;
             "longDescription"?: string;
             "active"?: boolean;
             "showOnHomepage"?: boolean;
             "videoLink"?: string;
+            "problemsTitle"?: string;
+            "problemsSubtitle"?: string;
+            "problems"?: Array<{
+                title: string;
+                description: string;
+            }>;
         };
         "RetiredTravelApp": {
             "name": string;
             "summary": string;
             "description": string;
             "webLink"?: string;
-            "features"?: string[];
+            "features"?: (string | { title: string; description: string })[];
             "image1"?: string;
             "image2"?: string;
             "longDescription"?: string;
             "active"?: boolean;
             "showOnHomepage"?: boolean;
             "videoLink"?: string;
+            "problemsTitle"?: string;
+            "problemsSubtitle"?: string;
+            "problems"?: Array<{
+                title: string;
+                description: string;
+            }>;
         };
     };
     "ngsd": {

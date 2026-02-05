@@ -1,18 +1,18 @@
-import PageBanner from "@/app/component/page-banner";
-import CounterSection from "@/app/component/counter-section";
-import ChooseUsSection from "@/app/component/choose-us-section";
+import RelatedProductsSection from "@/app/component/related-products";
+import ProductFeatures from "@/app/component/product-features";
+import ProductProblems from "@/app/component/product-problems";
 import type { Dictionary } from "@/i18n/types";
-import { productSlugToKey } from "@/utils/slugMapping";
 import { Locale } from "@/i18n/config";
-import Image from "next/image";
+
+type ProductKey = keyof Dictionary["products"];
 
 interface ProductDetailProps {
-  productKey: keyof Dictionary["products"];
+  productKey: ProductKey;
   dict: Dictionary;
   locale: Locale;
 }
 
-export default function ProductDetail({
+export default async function ProductDetail({
   productKey,
   dict,
   locale,
@@ -20,99 +20,228 @@ export default function ProductDetail({
   const product = dict.products[productKey];
 
   if (!product) {
-    return (
-      <div className="section section-padding">
-        <div className="container">
-          <h1>Product Not Found</h1>
-          <p>The requested product could not be found.</p>
-        </div>
-      </div>
-    );
+    return null;
   }
-
-  const homeLabel = dict.menu.Home;
-
-  // Get product slug from key
-  const productSlug =
-    Object.keys(productSlugToKey).find(
-      (slug) => productSlugToKey[slug] === productKey
-    ) || productKey.toLowerCase();
 
   return (
     <>
-      <PageBanner
-        bannerLink="/images/bg/page-banner.jpg"
-        title={product.name}
-        breadcrumbs={[
-          { label: homeLabel, href: `/${locale}` },
-          { label: dict.menu.Products, href: `/${locale}/products` },
-          { label: product.name, href: `/${locale}/products/${productSlug}` },
-        ]}
-      />
-
-      <div className="section genixo-about-section-07 section-padding">
-        <div className="shape-1"></div>
+      {/* Hero Section - Similar to Products Main Page */}
+      <div
+        className="section genixo-hero-section-03 d-flex align-items-center justify-content-center"
+        style={{
+          backgroundImage: `url(${
+            product.image1 || "/images/bg/page-banner.jpg"
+          })`,
+        }}
+      >
+        {/* Overlay for better text readability */}
+        <div className="hero-overlay"></div>
+        
+        <div className="shape-1 hero-shape-animate">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 944 894"
+            preserveAspectRatio="xMidYMid meet"
+          >
+            <defs>
+              <linearGradient
+                id="PSgrad_0_product"
+                x1="88.295%"
+                x2="0%"
+                y1="0%"
+                y2="46.947%"
+              >
+                <stop offset="0%" stopColor="rgb(67,186,255)" stopOpacity="1" />
+                <stop
+                  offset="100%"
+                  stopColor="rgb(113,65,177)"
+                  stopOpacity="1"
+                />
+              </linearGradient>
+            </defs>
+            <path
+              fillRule="evenodd"
+              fill="rgb(43, 142, 254)"
+              d="M39.612,410.76 L467.344,29.823 C516.51,-13.476 590.638,-9.94 633.939,39.612 L914.192,317.344 C957.492,366.50 953.109,440.638 904.402,483.939 L476.671,864.191 C427.964,907.492 353.376,903.109 310.76,854.402 L29.823,576.670 C-13.477,527.963 -9.94,453.376 39.612,410.76 Z"
+            />
+            <path
+              fill="url(#PSgrad_0_product)"
+              d="M39.612,410.76 L467.344,29.823 C516.51,-13.476 590.638,-9.94 633.939,39.612 L914.192,317.344 C957.492,366.50 953.109,440.638 904.402,483.939 L476.671,864.191 C427.964,907.492 353.376,903.109 310.76,854.402 L29.823,576.670 C-13.477,527.963 -9.94,453.376 39.612,410.76 Z"
+            />
+          </svg>
+        </div>
+        <div
+          className="shape-2 hero-shape-animate"
+          style={{ animationDelay: "0.2s" }}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 726.5 726.5"
+            preserveAspectRatio="xMidYMid meet"
+          >
+            <path
+              fillRule="evenodd"
+              stroke="rgb(255, 255, 255)"
+              strokeWidth="1px"
+              strokeLinecap="butt"
+              strokeLinejoin="miter"
+              opacity="0.302"
+              fill="none"
+              d="M28.14,285.269 L325.37,21.216 C358.860,-8.852 410.655,-5.808 440.723,28.14 L704.777,325.37 C734.846,358.860 731.802,410.654 697.979,440.723 L400.956,704.777 C367.133,734.845 315.338,731.802 285.269,697.979 L21.216,400.955 C-8.852,367.132 -5.808,315.337 28.14,285.269 Z"
+            />
+          </svg>
+        </div>
+        <div
+          className="shape-3 hero-shape-animate"
+          style={{ animationDelay: "0.4s" }}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 515 515"
+            preserveAspectRatio="xMidYMid meet"
+          >
+            <defs>
+              <linearGradient
+                id="PSgrad_1_product"
+                x1="0%"
+                x2="89.879%"
+                y1="0%"
+                y2="43.837%"
+              >
+                <stop offset="0%" stopColor="rgb(67,186,255)" stopOpacity="1" />
+                <stop
+                  offset="100%"
+                  stopColor="rgb(113,65,177)"
+                  stopOpacity="1"
+                />
+              </linearGradient>
+            </defs>
+            <path
+              fillRule="evenodd"
+              fill="rgb(43, 142, 254)"
+              d="M19.529,202.281 L230.531,14.699 C254.559,-6.660 291.353,-4.498 312.714,19.529 L500.295,230.531 C521.656,254.559 519.493,291.353 495.466,312.714 L284.463,500.295 C260.436,521.656 223.641,519.493 202.281,495.466 L14.699,284.463 C-6.660,260.435 -4.498,223.641 19.529,202.281 Z"
+            />
+            <path
+              fill="url(#PSgrad_1_product)"
+              d="M19.529,202.281 L230.531,14.699 C254.559,-6.660 291.353,-4.498 312.714,19.529 L500.295,230.531 C521.656,254.559 519.493,291.353 495.466,312.714 L284.463,500.295 C260.436,521.656 223.641,519.493 202.281,495.466 L14.699,284.463 C-6.660,260.435 -4.498,223.641 19.529,202.281 Z"
+            />
+          </svg>
+        </div>
+        <div
+          className="shape-4 hero-shape-animate"
+          style={{ animationDelay: "0.3s" }}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 972.5 970.5"
+            preserveAspectRatio="xMidYMid meet"
+          >
+            <path
+              fillRule="evenodd"
+              stroke="rgb(255, 255, 255)"
+              strokeWidth="1px"
+              strokeLinecap="butt"
+              strokeLinejoin="miter"
+              fill="none"
+              d="M38.245,381.103 L435.258,28.158 C480.467,-12.32 549.697,-7.964 589.888,37.244 L942.832,434.257 C983.23,479.466 978.955,548.697 933.746,588.888 L536.733,941.832 C491.524,982.23 422.293,977.955 382.103,932.746 L29.158,535.733 C-11.32,490.524 -6.963,421.293 38.245,381.103 Z"
+            />
+          </svg>
+        </div>
         <div className="container">
-          <div className="about-wrap">
-            <div className="row">
-              <div className="col-lg-6">
-                <div className="about-img-wrap">
-                  <img
-                    className="shape-1"
-                    src="/images/shape/about-shape2.png"
-                    alt=""
-                  />
-                  <div className="about-img">
-                    <img
-                      src={
-                        product.image1 || `/images/products/${productSlug}.jpg`
-                      }
-                      alt={product.name}
-                    />
-                  </div>
-                  <div className="about-img about-img-2">
-                    <img
-                      src={
-                        product.image2 ||
-                        product.image1 ||
-                        `/images/products/${productSlug}.jpg`
-                      }
-                      alt={product.name}
-                    />
-                  </div>
-                </div>
+          <div className="row align-items-center h-100">
+            <div className="col-12 col-sm-11 col-md-10 col-lg-10 col-xl-8 mx-auto mx-md-0">
+              <div className="hero-content hero-content-animate">
+                <h3 className="sub-title hero-subtitle-animate">
+                  {dict.about.slogan}
+                </h3>
+                <h1 className="title hero-title-animate">{product.name}</h1>
+                <p className="description hero-description-animate">
+                  {product.summary}
+                </p>
               </div>
-              <div className="col-lg-6">
-                <div className="about-content-wrap">
-                  <div className="section-title">
-                    <h3 className="sub-title-modern">{dict.menu.Products}</h3>
-                    <h2 className="title">{product.name}</h2>
-                  </div>
-                  {product.summary && <p className="text">{product.summary}</p>}
-                </div>
-              </div>
-              {(product.longDescription || product.description) && (
-                <div className="row mt-4">
-                  <div className="col-lg-12">
-                    <div
-                      className="content"
-                      dangerouslySetInnerHTML={{
-                        __html: product.longDescription || product.description,
-                      }}
-                    />
-                  </div>
-                </div>
-              )}
             </div>
           </div>
         </div>
       </div>
 
-      {
-        //   <CounterSection locale={locale} />
-      }
+      {/* Content Section */}
+      <div className="section genixo-about-section-07 section-padding products-section">
+        <div className="shape-1"></div>
+        <div className="container">
+          <div className="about-wrap">
+            <div className="row justify-content-center">
+              <div className="col-lg-10">
+                {product.description && (
+                  <div className="product-content">
+                    <p style={{ whiteSpace: 'pre-line' }}>{product.description}</p>
+                  </div>
+                )}
+                
+                {product.longDescription && (
+                  <div 
+                    className="product-content mt-4"
+                    dangerouslySetInnerHTML={{ __html: product.longDescription }}
+                  />
+                )}
 
-      <ChooseUsSection locale={locale} />
+                {product.webLink && product.webLink.trim() !== '' && (
+                  <div className="mt-5 text-center">
+                    <a 
+                      href={product.webLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn-primary btn-lg"
+                    >
+                      {locale === 'tr' ? 'Web Sitesini Ziyaret Edin' : 'Visit Website'}
+                    </a>
+                  </div>
+                )}
+
+                {product.videoLink && product.videoLink.trim() !== '' && (
+                  <div className="mt-5">
+                    <h3 className="mb-4">
+                      {locale === 'tr' ? 'Ürün Videosu' : 'Product Video'}
+                    </h3>
+                    <div className="video-wrapper" style={{ 
+                      position: 'relative', 
+                      paddingBottom: '56.25%', 
+                      height: 0,
+                      overflow: 'hidden'
+                    }}>
+                      <iframe
+                        src={product.videoLink.replace('watch?v=', 'embed/')}
+                        style={{
+                          position: 'absolute',
+                          top: 0,
+                          left: 0,
+                          width: '100%',
+                          height: '100%'
+                        }}
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      />
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Problems Section */}
+      <ProductProblems product={product} />
+
+      {/* Features Section */}
+      <ProductFeatures product={product} locale={locale} />
+
+      {/* Related Products Section */}
+      <RelatedProductsSection
+        locale={locale}
+        currentProductKey={productKey}
+        maxItems={3}
+      />
     </>
   );
 }

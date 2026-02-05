@@ -6,18 +6,36 @@
       "description": "ILC International Language Certification ist eine moderne Plattform zur Erleichterung von Sprachlern- und Zertifizierungsprozessen. Unsere Plattform bietet umfassende Bewertungstools, Zertifikatsverwaltung und detaillierte Berichtsfunktionen.\n\nDie Plattform unterstützt mehrere Sprachen und bietet flexible Zertifizierungswege für Lernende aller Niveaus. Mit erweiterten Analyse- und Berichtsfunktionen können Pädagogen und Institutionen den Fortschritt verfolgen und Qualitätsstandards sicherstellen.",
       "webLink":"",
       "features": [
-        "Mehrsprachige Unterstützung",
-        "Automatische Bewertung und Benotung",
-        "Zertifikatsgenerierung und -verwaltung",
-        "Umfassende Fortschrittsverfolgung",
-        "Erweiterte Analysen und Berichterstattung",
-        "Skalierbare Architektur"
+        {
+          "title": "Mehrsprachige Unterstützung",
+          "description": "Türkisch, Englisch, Deutsch, Französisch... Plattform unterstützt 20+ Sprachen. Betreuen Sie internationale Studenten, verwalten Sie alle Sprachen in einem System."
+        },
+        {
+          "title": "Automatische Bewertung und Benotung",
+          "description": "Prüfung beendet, Ergebnisse fertig. KI bewertet Schreiben, Sprechen, Lesen sofort. Lehrer erhalten Berichte in Minuten, nicht Tagen."
+        },
+        {
+          "title": "Zertifikatsgenerierung und -verwaltung",
+          "description": "Keine Papierzertifikate, kein Verlust, keine Fälschung. Digitale Zertifikate sofort erstellt, elektronisch signiert, Blockchain-verifiziert."
+        },
+        {
+          "title": "Umfassende Fortschrittsverfolgung",
+          "description": "Sehen Sie das Niveau jedes Schülers, wo sie kämpfen, wie viel sie fortgeschritten sind. Erstellen Sie personalisierte Lernpläne mit detaillierten Berichten."
+        },
+        {
+          "title": "Erweiterte Analysen und Berichterstattung",
+          "description": "Fragen Sie nicht 'Wie viele Schüler haben bestanden?' Schauen Sie einfach auf das Dashboard und sehen Sie. Echtzeitberichte, Leistungsmetriken, Trendanalyse immer griffbereit."
+        },
+        {
+          "title": "Skalierbare Architektur",
+          "description": "10 Studenten oder 10.000 Studenten arbeiten mit gleicher Geschwindigkeit. Mit Cloud-Infrastruktur wird das System nie langsam, stürzt nie ab, begrenzt nie Ihr Wachstum."
+        }
       ],
       "image1": "/images/about-3.jpg",
       "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": ""
     },
     "StudyScoreAI": {
       "name": "Study Score AI",
@@ -25,18 +43,36 @@
       "description": "Study Score AI nutzt künstliche Intelligenz, um intelligente Bewertung und Analyse der Schülerleistung zu bieten. Die Plattform verwendet erweiterte Machine-Learning-Algorithmen, um Lernmuster zu identifizieren, Ergebnisse vorherzusagen und personalisierte Empfehlungen zu geben.",
       "webLink":"",
       "features": [
-        "KI-gestützte Leistungsanalyse",
-        "Prädiktive Analysen",
-        "Personalisierte Lernempfehlungen",
-        "Echtzeit-Fortschrittsverfolgung",
-        "Automatisches Benotungssystem",
-        "Umfassendes Berichtsdashboard"
+        {
+          "title": "KI-gestützte Leistungsanalyse",
+          "description": "Wo hat der Schüler Schwierigkeiten? Welches Thema versteht er nicht? KI analysiert, sagt es Ihnen. Treffen Sie datenbasierte Entscheidungen statt zu raten."
+        },
+        {
+          "title": "Prädiktive Analysen",
+          "description": "Sehen Sie gefährdete Schüler bevor Prüfungsergebnisse kommen. KI sagt 'dieser Schüler könnte scheitern', Sie intervenieren früh. Prävention, nicht Reaktion."
+        },
+        {
+          "title": "Personalisierte Lernempfehlungen",
+          "description": "Jeder Schüler lernt anders. Manche visuell, manche auditiv, manche kinästhetisch. KI empfiehlt personalisierte Inhalte, jeder macht in seinem eigenen Tempo Fortschritte."
+        },
+        {
+          "title": "Echtzeit-Fortschrittsverfolgung",
+          "description": "Eltern fragen 'Wie geht es meinem Kind?', Sie zeigen es sofort. Sofortberichte, Live-Daten, transparenter Prozess. Jeder weiß, was passiert."
+        },
+        {
+          "title": "Automatisches Benotungssystem",
+          "description": "Lehrer korrigieren nicht mehr bis Mitternacht Prüfungen. KI bewertet sogar offene Fragen. Objektive, schnelle, fehlerfreie Bewertung."
+        },
+        {
+          "title": "Umfassendes Berichtsdashboard",
+          "description": "Dashboard öffnen, alles sehen. Welche Klasse erfolgreich ist, welches Thema schwer ist, welcher Lehrer effektiv ist. Alle Daten auf einem Bildschirm, sofort."
+        }
       ],
       "image1": "/images/about-3.jpg",
       "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": ""
     },
     "Egitimiste": {
       "name": "egitimiste.com",
@@ -44,18 +80,36 @@
       "description": "egitimiste.com ist eine umfassende Bildungsplattform, die darauf ausgelegt ist, Schüler mit qualitativ hochwertigen Bildungsressourcen, Kursen und Institutionen zu verbinden. Die Plattform dient als Brücke zwischen Lernenden und Bildungsmöglichkeiten.",
       "webLink":"",
       "features": [
-        "Umfassende Programmdatenbank",
-        "Erweiterte Suche und Filterung",
-        "Bewerbungsverwaltung",
-        "Institutionsprofile",
-        "Schülerressourcen und -führer",
-        "Mehrsprachige Unterstützung"
+        {
+          "title": "Umfassende Programmdatenbank",
+          "description": "Welche Universität soll ich besuchen? Welcher Kurs passt zu mir? 10.000+ Programme auf einer Plattform. Vergleichen, lesen, entscheiden. Alles an einem Ort finden."
+        },
+        {
+          "title": "Erweiterte Suche und Filterung",
+          "description": "Suchen Sie 'Softwarekurs in Istanbul, 2 Jahre' und finden Sie es in Sekunden. Preis, Standort, Dauer, Thema... Nach jedem gewünschten Kriterium filtern."
+        },
+        {
+          "title": "Bewerbungsverwaltung",
+          "description": "Nicht zur Schule gehen um sich zu bewerben, keine Papierformulare ausfüllen. Online bewerben, Dokumente hochladen, Status verfolgen. Alles digital, alles schnell."
+        },
+        {
+          "title": "Institutionsprofile",
+          "description": "Ist die Schule wirklich gut? Was sagen Absolventen? Wie ist der Campus? Detailliertes Profil für jede Institution, echte Schülerbewertungen, Fotos. Informierte Entscheidungen treffen."
+        },
+        {
+          "title": "Schülerressourcen und -führer",
+          "description": "Welche Karriere soll ich wählen? Gibt es Stipendien? Wie bereite ich mich auf Prüfungen vor? Karriereberatung, Stipendieninfo, Prüfungsressourcen... Sie sind nicht allein."
+        },
+        {
+          "title": "Mehrsprachige Unterstützung",
+          "description": "Türkische Studenten und internationale Studenten nutzen beide die Plattform. Türkisch, Englisch, Arabisch... Jeder entdeckt Möglichkeiten in seiner eigenen Sprache."
+        }
       ],
       "image1": "/images/about-3.jpg",
       "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": ""
     },
     "GenixoWorkAI": {
       "name": "Genixo Work AI",
@@ -74,7 +128,7 @@
       "image2": "/images/about-4.jpg",
       "active": false,
       "showOnHomepage": false,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": ""
     },
     "GenixoAssistant": {
       "name": "Genixo Assistant",
@@ -93,7 +147,7 @@
       "image2": "/images/about-4.jpg",
       "active": false,
       "showOnHomepage": false,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": ""
     },
     "TOMEREYadis": {
       "name": "TÖMER E-Yadis",
@@ -130,7 +184,7 @@
       "image2": "/images/about-4.jpg",
       "active": false,
       "showOnHomepage": false,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": ""
     }
   }
 }

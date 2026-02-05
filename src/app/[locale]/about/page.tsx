@@ -64,8 +64,8 @@ export default async function AboutPage({
         <div className="container">
           <div className="about-wrap">
             <div className="row">
-              <div className="col-lg-6">
-                <div className="about-img-wrap" style={{ position: "relative", minHeight: "500px" }}>
+              <div className="col-lg-6 col-12 mb-5 mb-lg-0 d-none d-md-block">
+                <div className="about-img-wrap about-img-wrap-responsive" style={{ position: "relative", minHeight: "400px" }}>
                   <Image
                     className="shape-1"
                     src="/images/shape/about-shape2.png"
@@ -74,7 +74,7 @@ export default async function AboutPage({
                     height={380}
                     unoptimized
                   />
-                  <div className="about-img" style={{ position: "relative", width: "55%", height: "350px", zIndex: 2 }}>
+                  <div className="about-img about-img-main" style={{ position: "relative", width: "55%", height: "350px", zIndex: 2 }}>
                     <Image
                       src="/images/about-1-img.jpg"
                       alt="About Genixo"
@@ -83,7 +83,7 @@ export default async function AboutPage({
                       unoptimized
                     />
                   </div>
-                  <div className="about-img about-img-2" style={{ position: "absolute", right: 0, top: "75px", width: "55%", height: "280px", zIndex: 1 }}>
+                  <div className="about-img about-img-2 about-img-secondary" style={{ position: "absolute", right: 0, top: "75px", width: "55%", height: "280px", zIndex: 1 }}>
                     <Image
                       src="/images/about-2-img.jpg"
                       alt="Genixo Team"
@@ -94,7 +94,7 @@ export default async function AboutPage({
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-12">
                 <div className="about-content-wrap">
                   <div className="section-title">
                     <h3 className="sub-title-modern">{dict.about.WhoWeAre}</h3>
@@ -104,77 +104,85 @@ export default async function AboutPage({
                 </div>
               </div>
               <div className="row mt-4">
-                <div className="row mt-4">
-                  <div className="col-sm-8">
+                {/* Dinamizm */}
+                <div className="row mt-4 align-items-center">
+                  <div className="col-lg-8 col-md-7 col-12 order-1 order-md-1 mb-3 mb-md-0">
                     <h3 className="title">
                       {dict.about.values.dynamism.title}
                     </h3>
                     <p>{dict.about.values.dynamism.content}</p>
                   </div>
-                  <div className="col-sm-4">
+                  <div className="col-lg-4 col-md-5 col-12 order-2 order-md-2 mb-4 mb-md-0 d-none d-md-block">
                     <div
                       style={{
                         position: "relative",
                         width: "100%",
                         height: "100%",
-                        minHeight: "200px",
+                        minHeight: "250px",
+                        maxHeight: "350px",
                       }}
                     >
                       <Image
                         src="/images/img-16.png"
-                        alt=""
+                        alt="Dinamizm"
                         fill
-                        style={{ objectFit: "cover" }}
+                        style={{ objectFit: "cover", borderRadius: "10px" }}
                         unoptimized
                       />
                     </div>
                   </div>
                 </div>
-                <div className="row mt-4">
-                  <div className="col-sm-4">
+                
+                {/* Tutku ve Bağlılık */}
+                <div className="row mt-4 align-items-center">
+                  <div className="col-lg-4 col-md-5 col-12 order-2 order-md-1 mb-3 mb-md-0 d-none d-md-block">
                     <div
                       style={{
                         position: "relative",
                         width: "100%",
                         height: "100%",
-                        minHeight: "200px",
+                        minHeight: "250px",
+                        maxHeight: "350px",
                       }}
                     >
                       <Image
                         src="/images/img-17.png"
-                        alt=""
+                        alt="Tutku ve Bağlılık"
                         fill
-                        style={{ objectFit: "cover" }}
+                        style={{ objectFit: "cover", borderRadius: "10px" }}
                         unoptimized
                       />
                     </div>
                   </div>
-                  <div className="col-sm-8">
+                  <div className="col-lg-8 col-md-7 col-12 order-1 order-md-2 mb-3 mb-md-0">
                     <h3 className="title">{dict.about.values.passion.title}</h3>
                     <p>{dict.about.values.passion.content}</p>
                   </div>
                 </div>
-                <div className="row mt-4">
-                  <div className="col-sm-8">
+                
+                {/* Profesyonellik */}
+                <div className="row mt-4 align-items-center">
+                  <div className="col-lg-8 col-md-7 col-12 order-1 order-md-1 mb-3 mb-md-0">
                     <h3 className="title">
                       {dict.about.values.professionalism.title}
                     </h3>
                     <p>{dict.about.values.professionalism.content}</p>
                   </div>
-                  <div className="col-sm-4">
+                  <div className="col-lg-4 col-md-5 col-12 order-2 order-md-2 mb-3 mb-md-0 d-none d-md-block">
                     <div
                       style={{
                         position: "relative",
                         width: "100%",
                         height: "100%",
-                        minHeight: "200px",
+                        minHeight: "250px",
+                        maxHeight: "350px",
                       }}
                     >
                       <Image
                         src="/images/img-15.png"
-                        alt=""
+                        alt="Profesyonellik"
                         fill
-                        style={{ objectFit: "cover" }}
+                        style={{ objectFit: "cover", borderRadius: "10px" }}
                         unoptimized
                       />
                     </div>

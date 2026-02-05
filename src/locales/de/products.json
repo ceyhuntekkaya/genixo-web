@@ -31,11 +31,11 @@
           "description": "10 Studenten oder 10.000 Studenten arbeiten mit gleicher Geschwindigkeit. Mit Cloud-Infrastruktur wird das System nie langsam, stürzt nie ab, begrenzt nie Ihr Wachstum."
         }
       ],
-      "image1": "/images/about-3.jpg",
+      "image1": "/images/product-ilc.png",
       "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
-      "videoLink": ""
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "StudyScoreAI": {
       "name": "Study Score AI",
@@ -68,7 +68,7 @@
           "description": "Dashboard öffnen, alles sehen. Welche Klasse erfolgreich ist, welches Thema schwer ist, welcher Lehrer effektiv ist. Alle Daten auf einem Bildschirm, sofort."
         }
       ],
-      "image1": "/images/about-3.jpg",
+      "image1": "/images/product-studyscore.png",
       "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
@@ -105,7 +105,7 @@
           "description": "Türkische Studenten und internationale Studenten nutzen beide die Plattform. Türkisch, Englisch, Arabisch... Jeder entdeckt Möglichkeiten in seiner eigenen Sprache."
         }
       ],
-      "image1": "/images/about-3.jpg",
+      "image1": "/images/egitimiste-hero.jpg",
       "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,

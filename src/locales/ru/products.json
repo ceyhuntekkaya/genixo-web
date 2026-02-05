@@ -31,11 +31,11 @@
           "description": "10 студентов или 10 000 студентов работают с одинаковой скоростью. С облачной инфраструктурой система никогда не замедляется, не зависает, не ограничивает ваш рост."
         }
       ],
-      "image1": "/images/about-3.jpg",
+      "image1": "/images/product-ilc.png",
       "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
-      "videoLink": ""
+      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
     },
     "StudyScoreAI": {
       "name": "Study Score AI",
@@ -68,7 +68,7 @@
           "description": "Откройте панель, увидьте все. Какой класс успешен, какая тема сложна, какой преподаватель эффективен. Все данные на одном экране, мгновенно."
         }
       ],
-      "image1": "/images/about-3.jpg",
+      "image1": "/images/product-studyscore.png",
       "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,
@@ -105,7 +105,7 @@
           "description": "И турецкие студенты, и иностранные студенты используют платформу. Турецкий, английский, арабский... Каждый открывает возможности на своем родном языке."
         }
       ],
-      "image1": "/images/about-3.jpg",
+      "image1": "/images/egitimiste-hero.jpg",
       "image2": "/images/about-4.jpg",
       "active": true,
       "showOnHomepage": true,

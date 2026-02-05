@@ -5850,6 +5850,58 @@ body.modal-open {
   }
 }
 
+/* Mobile responsive improvements for about images */
+@media only screen and (max-width: 767px) {
+  .about-img-wrap-responsive {
+    min-height: 350px !important;
+  }
+  
+  .about-img-main {
+    width: 65% !important;
+    height: 280px !important;
+  }
+  
+  .about-img-secondary {
+    width: 65% !important;
+    height: 220px !important;
+    top: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .about-img-wrap-responsive {
+    min-height: 300px !important;
+  }
+  
+  .about-img-main {
+    width: 70% !important;
+    height: 240px !important;
+  }
+  
+  .about-img-secondary {
+    width: 70% !important;
+    height: 190px !important;
+    top: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 449px) {
+  .about-img-wrap-responsive {
+    min-height: 280px !important;
+  }
+  
+  .about-img-main {
+    width: 75% !important;
+    height: 220px !important;
+  }
+  
+  .about-img-secondary {
+    width: 75% !important;
+    height: 170px !important;
+    top: 35px !important;
+  }
+}
+
 /*--
 /*  03 - Counter CSS
 /*----------------------------------------*/

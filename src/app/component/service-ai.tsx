@@ -26,19 +26,26 @@ export default function ServiceAISection({ dict, locale }: PageProps) {
           <div className="section-title text-center">
             <h3 className="sub-title-modern">{ngsd.title}</h3>
             <h2 className="title">{ngsd.subtitle}</h2>
-            <p
-              className="text mt-3"
-              style={{ maxWidth: "800px", margin: "20px auto 0" }}
-            >
+            <p className="text" style={{ 
+              maxWidth: "800px", 
+              margin: "20px auto 0",
+              fontSize: "16px",
+              lineHeight: "1.8",
+              color: "#666"
+            }}>
               {ngsd.whatIs.content}
             </p>
           </div>
           <div className="service-content-wrap">
-            <div className="row">
+            <div className="row justify-content-center">
               {ngsdFeatures.map((feature, index) => (
-                <div key={index} className="col-xl-4 col-sm-6">
+                <div key={index} className="col-xl-4 col-md-6">
                   <div className="service-item-04">
-                    <div className="service-img">
+                    <div className="service-img" style={{ 
+                      display: "flex", 
+                      justifyContent: "center",
+                      alignItems: "center"
+                    }}>
                       <div
                         style={{
                           position: "relative",
@@ -59,7 +66,13 @@ export default function ServiceAISection({ dict, locale }: PageProps) {
                       <h3 className="title">
                         <Link href={`/${locale}/ngsd`}>{feature.title}</Link>
                       </h3>
-                      <p>{feature.content.substring(0, 120)}...</p>
+                      <p style={{ 
+                        fontSize: "15px", 
+                        lineHeight: "1.8",
+                        color: "#666"
+                      }}>
+                        {feature.content.substring(0, 150)}...
+                      </p>
                     </div>
                   </div>
                 </div>

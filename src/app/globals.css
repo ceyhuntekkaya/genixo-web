@@ -220,6 +220,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   font-family: "Barlow", sans-serif;
   font-weight: 600;
   color: #0e0e0e;
+  margin-bottom: 0;
 }
 
 @media only screen and (max-width: 767px) {
@@ -3717,13 +3718,13 @@ textarea:-ms-input-placeholder {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding-bottom: 160px;
+  padding-bottom: 32px;
   z-index: 1;
 }
 
 @media only screen and (max-width: 1199px) {
   .genixo-service-section-05 {
-    padding-bottom: 120px;
+    padding-bottom: 0;
   }
 }
 
@@ -3731,20 +3732,23 @@ textarea:-ms-input-placeholder {
   content: "";
   position: absolute;
   left: 0;
-  bottom: 0;
-  background-image: url('http://localhost:3000/images/bg/service-bg4.jpg');
+  top: 0;
+  background-image: url('/images/bg/service-bg4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   width: 100%;
-  height: 75%;
+  height: 100%;
   z-index: -1;
+  opacity: 0.05;
 }
 
 .genixo-service-section-05 .service-wrap {
   background: #ffffff;
   border: 1px solid #e1e1e1;
   border-radius: 15px;
-  padding-left: 105px;
-  padding-right: 105px;
-  padding-bottom: 90px;
+  padding: 60px 105px 90px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
 }
 
 .genixo-service-section-05 .section-title {
@@ -3758,6 +3762,17 @@ textarea:-ms-input-placeholder {
 
 .genixo-service-section-05 .service-item-04 {
   margin-top: 30px;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.genixo-service-section-05 .service-item-04:hover {
+  transform: translateY(-5px);
+}
+
+.genixo-service-section-05 .service-item-04 .service-img {
+  margin-bottom: 20px;
 }
 
 .genixo-service-section-05 .service-item-04 .service-img img {
@@ -3765,17 +3780,29 @@ textarea:-ms-input-placeholder {
 }
 
 .genixo-service-section-05 .service-item-04 .service-content .title {
-  font-size: 24px;
-  line-height: 27px;
+  font-size: 22px;
+  line-height: 1.4;
   font-weight: 600;
-  margin-top: 30px;
-  padding-right: 70px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding: 0;
+  transition: color 0.3s ease;
+}
+
+.genixo-service-section-05 .service-item-04 .service-content .title a {
+  color: #0e0e0e;
+  text-decoration: none;
+}
+
+.genixo-service-section-05 .service-item-04:hover .service-content .title a {
+  color: #667eea;
 }
 
 .genixo-service-section-05 .service-item-04 .service-content p {
-  font-size: 16px;
-  line-height: 30px;
-  margin-top: 20px;
+  font-size: 15px;
+  line-height: 1.8;
+  margin-top: 0;
+  color: #666;
 }
 
 .genixo-service-section-05 .service-item-04:hover .service-img img {
@@ -3784,27 +3811,32 @@ textarea:-ms-input-placeholder {
 
 @media only screen and (max-width: 1399px) {
   .genixo-service-section-05 .service-item-04 .service-content .title {
-    padding-right: 30px;
+    padding: 0;
   }
 }
 
 @media only screen and (max-width: 991px) {
   .genixo-service-section-05 {
-    padding-bottom: 100px;
+    padding-bottom: 0;
   }
   .genixo-service-section-05 .service-wrap {
-    padding-left: 70px;
-    padding-right: 70px;
+    padding: 50px 70px 70px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .genixo-service-section-05 .service-wrap {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 40px 30px 60px;
+  }
+  .genixo-service-section-05 .service-item-04 {
+    padding: 15px;
   }
   .genixo-service-section-05 .service-item-04 .service-content .title {
-    padding-right: 0px;
+    font-size: 20px;
+    padding: 0;
+  }
+  .genixo-service-section-05 .service-item-04 .service-content p {
+    font-size: 14px;
   }
 }
 
@@ -5212,24 +5244,34 @@ textarea:-ms-input-placeholder {
 }
 
 .genixo-about-section-05 .about-content-wrap {
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 .genixo-about-section-05 .about-content {
-  padding-left: 120px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 .genixo-about-section-05 .about-content .title {
   font-size: 24px;
-  line-height: 40px;
-  font-weight: 500;
+  line-height: 1.4;
+  font-weight: 600;
   color: #0e0e0e;
+  margin-bottom: 20px;
 }
 
 .genixo-about-section-05 .about-content .text {
   font-size: 16px;
-  line-height: 30px;
-  margin-top: 30px;
+  line-height: 1.8;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.genixo-about-section-05 .about-content .text:last-of-type {
+  margin-bottom: 0;
 }
 
 .genixo-about-section-05 .about-content .about-list-item-wrap {
@@ -5260,23 +5302,23 @@ textarea:-ms-input-placeholder {
 
 @media only screen and (max-width: 1199px) {
   .genixo-about-section-05 .about-content-wrap {
-    padding-top: 80px;
+    padding-top: 50px;
   }
   .genixo-about-section-05 .about-content {
-    padding-left: 60px;
+    padding-left: 40px;
   }
 }
 
 @media only screen and (max-width: 991px) {
   .genixo-about-section-05 .about-content-wrap {
-    padding-top: 60px;
+    padding-top: 40px;
   }
   .genixo-about-section-05 .about-img-wrap .about-img-big {
     text-align: center;
   }
   .genixo-about-section-05 .about-content {
     padding-left: 0px;
-    margin-top: 60px;
+    margin-top: 40px;
   }
 }
 

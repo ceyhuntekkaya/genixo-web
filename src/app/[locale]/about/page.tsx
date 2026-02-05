@@ -1,6 +1,3 @@
-import PageBanner from "@/app/component/page-banner";
-import CounterSection from "@/app/component/counter-section";
-import ChooseUsSection from "@/app/component/choose-us-section";
 import { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/getDictionary";
 import {
@@ -10,6 +7,8 @@ import {
 import { locales } from "@/i18n/config";
 import Script from "next/script";
 import Image from "next/image";
+import AboutHero from "@/app/component/about-hero";
+import AboutProblems from "@/app/component/about-problems";
 
 export async function generateMetadata({
   params,
@@ -49,8 +48,6 @@ export default async function AboutPage({
     dict,
   });
 
-  const homeLabel = dict.menu.Home;
-
   return (
     <>
       <Script
@@ -60,14 +57,7 @@ export default async function AboutPage({
           __html: JSON.stringify(organizationStructuredData),
         }}
       />
-      <PageBanner
-        bannerLink={"/images/bg/page-banner.jpg"}
-        title={dict.menu.AboutUs}
-        breadcrumbs={[
-          { label: homeLabel, href: `/${locale}` },
-          { label: dict.menu.AboutUs, href: `/${locale}/about` },
-        ]}
-      />
+      <AboutHero dict={dict} />
 
       <div className="section genixo-about-section-07 section-padding">
         <div className="shape-1"></div>
@@ -75,17 +65,32 @@ export default async function AboutPage({
           <div className="about-wrap">
             <div className="row">
               <div className="col-lg-6">
-                <div className="about-img-wrap">
-                  <img
+                <div className="about-img-wrap" style={{ position: "relative", minHeight: "500px" }}>
+                  <Image
                     className="shape-1"
                     src="/images/shape/about-shape2.png"
-                    alt=""
+                    alt="About shape"
+                    width={380}
+                    height={380}
+                    unoptimized
                   />
-                  <div className="about-img">
-                    <img src="/images/about-1-img.jpg" alt="" />
+                  <div className="about-img" style={{ position: "relative", width: "55%", height: "350px", zIndex: 2 }}>
+                    <Image
+                      src="/images/about-1-img.jpg"
+                      alt="About Genixo"
+                      fill
+                      style={{ objectFit: "cover", borderRadius: "10px" }}
+                      unoptimized
+                    />
                   </div>
-                  <div className="about-img about-img-2">
-                    <img src="/images/about-2-img.jpg" alt="" />
+                  <div className="about-img about-img-2" style={{ position: "absolute", right: 0, top: "75px", width: "55%", height: "280px", zIndex: 1 }}>
+                    <Image
+                      src="/images/about-2-img.jpg"
+                      alt="Genixo Team"
+                      fill
+                      style={{ objectFit: "cover", borderRadius: "10px" }}
+                      unoptimized
+                    />
                   </div>
                 </div>
               </div>
@@ -180,11 +185,13 @@ export default async function AboutPage({
           </div>
         </div>
       </div>
+
+      <AboutProblems dict={dict} />
       {
         //   <CounterSection locale={locale} />
       }
 
-      <ChooseUsSection locale={locale} />
+      {/* <ChooseUsSection locale={locale} /> */}
     </>
   );
 }

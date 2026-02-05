@@ -27,6 +27,15 @@ export type Dictionary = {
                 "content": string;
             };
         };
+        "whyDigitalTransformation"?: {
+            "subtitle": string;
+            "title": string;
+            "problems": Array<{
+                title: string;
+                problem: string;
+                solution: string;
+            }>;
+        };
     },
 
     menu: {

@@ -21,6 +21,42 @@
     "authorName": "Ceyhun Tekkaya",
     "authorTitle": "CEO, Genixo",
     "callToAsk": "Rufen Sie an, um Fragen zu stellen",
-    "phoneNumber": "+90 312 265 04 56"
+    "phoneNumber": "+90 312 265 04 56",
+    "whyDigitalTransformation": {
+      "subtitle": "Warum digitale Transformation keine Option mehr ist, sondern eine Notwendigkeit",
+      "title": "Was erfolgreiche Unternehmen gemeinsam haben: Sie haben diese Probleme gelöst.",
+      "problems": [
+        {
+          "title": "Konkurrenten beschleunigen, Sie fallen zurück",
+          "problem": "Ihr Kunde erteilt eine Bestellung, Sie sagen 'Ich sende in 2-3 Tagen ein Angebot.' Ihr Konkurrent sendet es in 10 Minuten. Wen wählt der Kunde?",
+          "solution": "Digitale Systeme geben Ihnen Geschwindigkeit. Sie erstellen schneller Angebote, entscheiden schneller und antworten Kunden schneller."
+        },
+        {
+          "title": "Sie haben Informationen, können sie aber nicht sehen",
+          "problem": "Sie fragen 'Wie viel Gewinn haben wir diesen Monat gemacht?' Die Antwort kommt 3 Tage später in Excel. Sie müssen eine wichtige Entscheidung treffen, haben aber keine Daten.",
+          "solution": "Mit Echtzeit-Berichten und Dashboards sehen Sie Ihre Daten sofort. Treffen Sie Entscheidungen basierend auf Daten, nicht auf Vermutungen."
+        },
+        {
+          "title": "Ihr Team ertrinkt in unnötiger Arbeit",
+          "problem": "Das Vertriebsteam verbringt 2 Stunden pro Tag mit der Berichterstellung. Die Buchhaltung gibt manuell Rechnungen ein. Das Lager zählt ständig Inventar. Alle arbeiten, aber es bleibt keine Zeit für echte Arbeit.",
+          "solution": "Automatisierung übernimmt sich wiederholende Aufgaben. Ihr Team konzentriert sich auf wertschöpfende Arbeit: Kundenservice, neue Chancen, Wachstum."
+        },
+        {
+          "title": "Sie können nicht wachsen, weil Systeme nicht skalieren",
+          "problem": "Das Geschäft wächst, aber jeder neue Kunde, jede neue Bestellung schafft mehr Chaos. Mehr Excel-Tabellen, mehr WhatsApp-Gruppen, mehr Komplexität.",
+          "solution": "Digitale Systeme wachsen mit Ihnen. Die Verwaltung von 10 Kunden oder 100 Kunden erfordert denselben Aufwand. Wir bauen skalierbare Infrastruktur."
+        },
+        {
+          "title": "Kosten wachsen unkontrolliert",
+          "problem": "Die Mitarbeiterzahl steigt, aber die Produktivität nicht. Sie stellen neue Leute für jede neue Aufgabe ein. Kosten steigen, aber Gewinnmargen schrumpfen.",
+          "solution": "Mit digitaler Transformation erledigen Sie dieselbe Arbeit mit weniger Ressourcen. Kosten sinken, Fehler reduzieren sich und Arbeit wird schneller erledigt."
+        },
+        {
+          "title": "Kundenerwartungen haben sich geändert",
+          "problem": "Vor 10 Jahren warteten Kunden 3 Tage. Heute erwarten sie sofortige Antwort, sofortige Lieferung, 24/7-Zugang. Nicht-digitale Unternehmen können diese Erwartungen nicht erfüllen.",
+          "solution": "Wir bieten moderne Kundenerfahrung. Automatische Antworten, Online-Tracking, Self-Service-Systeme - Ihre Kunden warten nicht."
+        }
+      ]
+    }
   }
 }

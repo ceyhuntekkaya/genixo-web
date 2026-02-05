@@ -21,6 +21,42 @@
     "authorName": "Ceyhun Tekkaya",
     "authorTitle": "CEO, Genixo",
     "callToAsk": "Call to ask any question",
-    "phoneNumber": "+90 312 265 04 56"
+    "phoneNumber": "+90 312 265 04 56",
+    "whyDigitalTransformation": {
+      "subtitle": "Why Digital Transformation is No Longer an Option, but a Necessity",
+      "title": "What successful businesses have in common: They solved these problems.",
+      "problems": [
+        {
+          "title": "Competitors Are Speeding Up, You're Falling Behind",
+          "problem": "Your customer places an order, you say 'I'll send a quote in 2-3 days.' Your competitor sends it in 10 minutes. Who does the customer choose?",
+          "solution": "Digital systems give you speed. You quote faster, decide faster, and respond to customers faster."
+        },
+        {
+          "title": "You Have Information But Can't See It",
+          "problem": "You ask 'How much profit did we make this month?' The answer comes 3 days later in Excel. You need to make an important decision but have no data.",
+          "solution": "With real-time reporting and dashboards, you see your data instantly. Base decisions on data, not guesses."
+        },
+        {
+          "title": "Your Team is Drowning in Unnecessary Work",
+          "problem": "Sales team spends 2 hours a day preparing reports. Accounting manually enters invoices. Warehouse constantly counts inventory. Everyone is working but there's no time for real work.",
+          "solution": "Automation handles repetitive tasks. Your team focuses on value-creating work: customer service, new opportunities, growth."
+        },
+        {
+          "title": "You Can't Grow Because Systems Don't Scale",
+          "problem": "Business is growing but each new customer, each new order creates more chaos. More Excel sheets, more WhatsApp groups, more complexity.",
+          "solution": "Digital systems grow with you. Managing 10 customers or 100 customers takes the same effort. We build scalable infrastructure."
+        },
+        {
+          "title": "Costs Are Growing Uncontrollably",
+          "problem": "Employee count is rising but productivity isn't. You hire new people for each new task. Costs are ballooning but profit margins are shrinking.",
+          "solution": "With digital transformation, you do the same work with fewer resources. Costs decrease, errors reduce, and work gets done faster."
+        },
+        {
+          "title": "Customer Expectations Have Changed",
+          "problem": "10 years ago, customers would wait 3 days. Today they expect instant response, instant delivery, 24/7 access. Non-digital companies can't meet these expectations.",
+          "solution": "We provide modern customer experience. Automated responses, online tracking, self-service systems - your customers don't wait."
+        }
+      ]
+    }
   }
 }

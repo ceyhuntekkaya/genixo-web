@@ -21,6 +21,42 @@
     "authorName": "Ceyhun Tekkaya",
     "authorTitle": "CEO, Genixo",
     "callToAsk": "Appelez pour poser des questions",
-    "phoneNumber": "+90 312 265 04 56"
+    "phoneNumber": "+90 312 265 04 56",
+    "whyDigitalTransformation": {
+      "subtitle": "Pourquoi la transformation numérique n'est plus une option, mais une nécessité",
+      "title": "Ce que les entreprises prospères ont en commun : Elles ont résolu ces problèmes.",
+      "problems": [
+        {
+          "title": "Les concurrents accélèrent, vous prenez du retard",
+          "problem": "Votre client passe une commande, vous dites 'J'enverrai un devis dans 2-3 jours.' Votre concurrent l'envoie en 10 minutes. Qui le client choisit-il?",
+          "solution": "Les systèmes numériques vous donnent de la vitesse. Vous faites des devis plus rapidement, décidez plus vite et répondez aux clients plus rapidement."
+        },
+        {
+          "title": "Vous avez des informations mais ne pouvez pas les voir",
+          "problem": "Vous demandez 'Combien de bénéfices avons-nous fait ce mois-ci?' La réponse arrive 3 jours plus tard dans Excel. Vous devez prendre une décision importante mais n'avez pas de données.",
+          "solution": "Avec les rapports en temps réel et les tableaux de bord, vous voyez vos données instantanément. Basez les décisions sur les données, pas sur des suppositions."
+        },
+        {
+          "title": "Votre équipe se noie dans un travail inutile",
+          "problem": "L'équipe commerciale passe 2 heures par jour à préparer des rapports. La comptabilité saisit manuellement les factures. L'entrepôt compte constamment les stocks. Tout le monde travaille mais il n'y a pas de temps pour le vrai travail.",
+          "solution": "L'automatisation gère les tâches répétitives. Votre équipe se concentre sur le travail créateur de valeur: service client, nouvelles opportunités, croissance."
+        },
+        {
+          "title": "Vous ne pouvez pas grandir car les systèmes ne s'adaptent pas",
+          "problem": "L'entreprise grandit mais chaque nouveau client, chaque nouvelle commande crée plus de chaos. Plus de feuilles Excel, plus de groupes WhatsApp, plus de complexité.",
+          "solution": "Les systèmes numériques grandissent avec vous. Gérer 10 clients ou 100 clients demande le même effort. Nous construisons une infrastructure évolutive."
+        },
+        {
+          "title": "Les coûts augmentent de manière incontrôlable",
+          "problem": "Le nombre d'employés augmente mais pas la productivité. Vous embauchez de nouvelles personnes pour chaque nouvelle tâche. Les coûts explosent mais les marges bénéficiaires diminuent.",
+          "solution": "Avec la transformation numérique, vous faites le même travail avec moins de ressources. Les coûts diminuent, les erreurs se réduisent et le travail est fait plus rapidement."
+        },
+        {
+          "title": "Les attentes des clients ont changé",
+          "problem": "Il y a 10 ans, les clients attendaient 3 jours. Aujourd'hui, ils attendent une réponse instantanée, une livraison instantanée, un accès 24/7. Les entreprises non numériques ne peuvent pas répondre à ces attentes.",
+          "solution": "Nous offrons une expérience client moderne. Réponses automatiques, suivi en ligne, systèmes en libre-service - vos clients n'attendent pas."
+        }
+      ]
+    }
   }
 }

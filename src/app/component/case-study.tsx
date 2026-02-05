@@ -63,6 +63,19 @@ export default function CaseStudySection({ dict, locale }: PageProps) {
                                   style={{ objectFit: "cover" }}
                                   unoptimized
                                 />
+                                {/* Dark gradient overlay for better text readability */}
+                                <div
+                                  style={{
+                                    position: "absolute",
+                                    top: 0,
+                                    left: 0,
+                                    right: 0,
+                                    bottom: 0,
+                                    background:
+                                      "linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.75) 100%)",
+                                    pointerEvents: "none",
+                                  }}
+                                />
                               </div>
                               <div className="choose-us-content">
                                 <h3 className="title">{solution.name}</h3>

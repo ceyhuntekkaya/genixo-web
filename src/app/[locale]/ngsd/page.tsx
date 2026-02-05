@@ -58,10 +58,10 @@ export default async function NGSDPage({
                     alt=""
                   />
                   <div className="about-img">
-                    <img src="/images/about-3.jpg" alt="" />
+                    <img src="/images/solutions-1.jpg" alt="" />
                   </div>
                   <div className="about-img about-img-2">
-                    <img src="/images/about-4.jpg" alt="" />
+                    <img src="/images/solutions-1.jpg" alt="" />
                   </div>
                 </div>
               </div>

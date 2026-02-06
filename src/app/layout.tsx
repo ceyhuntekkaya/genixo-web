@@ -1,24 +1,27 @@
-import type { Metadata } from 'next';
+import type { Metadata } from "next";
 
-import '@/app/assets/css/plugins/bootstrap.min.css';
-import '@/app/assets/css/plugins/all.min.css';
-import '@/app/assets/css/plugins/magnific-popup.css';
+import "@/app/assets/css/plugins/bootstrap.min.css";
+import "@/app/assets/css/plugins/all.min.css";
+import "@/app/assets/css/plugins/magnific-popup.css";
 
-import '@/app/globals.css';
+import "@/app/globals.css";
 
 export const metadata: Metadata = {
-    title: 'Genixo Bilişim ve Teknoloji',
-    description: 'Genixo Bilişim ve Teknoloji',
+  title: "Genixo Bilişim ve Teknoloji",
+  description: "Genixo Bilişim ve Teknoloji",
+  icons: {
+    icon: "/images/fav.png",
+  },
 };
 
 export default function RootLayout({
-                                       children,
-                                   }: {
-    children: React.ReactNode;
+  children,
+}: {
+  children: React.ReactNode;
 }) {
-    return (
-        <html lang="tr">
-        <body>{children}</body>
-        </html>
-    );
+  return (
+    <html lang="tr">
+      <body>{children}</body>
+    </html>
+  );
 }

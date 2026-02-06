@@ -13,7 +13,6 @@
       "logo": "/images/logos/ilccenter-logo.png",
       "longDescription": "<p>Platformumuz kapsamlı değerlendirme araçları, sertifika yönetimi ve detaylı raporlama özellikleri sunar.</p><p>Platform birden fazla dili destekler ve tüm seviyelerdeki öğrenciler için esnek sertifikasyon yolları sunar. Gelişmiş analitik ve raporlama özellikleriyle, eğitimciler ve kurumlar ilerlemeyi takip edebilir ve kalite standartlarını sağlayabilir.</p><h3>Temel Özellikler</h3><p>Temel yetenekler arasında otomatik değerlendirme, sertifika oluşturma, ilerleme takibi ve kapsamlı raporlama bulunur. Platform ölçeklenebilir olarak tasarlanmıştır ve her boyuttaki kurumu barındırabilir.</p>",
       "webLink":"https://www.ilccenter.com/",
-      "videoLink": "https://www.egitimiste.com/assets/video/tanitim_video.mp4",
       "features": [
         {
           "title": "Çoklu Dil Desteği",
@@ -77,8 +76,8 @@
       "summary": "Eğitim değerlendirmesi ve öğrenci performans analizi için AI destekli platform.",
       "description": "Study Score AI, öğrenci performansının akıllı değerlendirmesi ve analizini sağlamak için yapay zekayı kullanır. Platform, öğrenme kalıplarını belirlemek, sonuçları tahmin etmek ve kişiselleştirilmiş öneriler sunmak için gelişmiş makine öğrenimi algoritmaları kullanır.\n\nStudy Score AI ile eğitimciler, öğrenci öğrenme davranışları hakkında daha derin içgörüler elde edebilir, dikkat gerektiren alanları belirleyebilir ve hedeflenmiş destek sağlayabilir. Platform gerçek zamanlı analitik, otomatik notlandırma ve kapsamlı raporlama araçları sunar.\n\nSistem, mevcut eğitim altyapısıyla sorunsuz bir şekilde entegre olacak şekilde tasarlanmıştır ve belirli kurumsal ihtiyaçları karşılamak için özelleştirilebilir.",
       "heroImage": "/images/products/studyscore-hero.png",
-      "image1": "/images/product-studyscore.png",
-      "image2": "/images/about-4.jpg",
+      "image1": "/images/products/studyscore-hero.png",
+      "image2": "/images/products/studyscore-hero.png",
       "logo": "/images/logos/studyscore-logo.png",
       "webLink":"https://studyscore.ai/",
       "features": [
@@ -142,7 +141,7 @@
       "name": "Eğitim İste",
       "summary": "Öğrencileri kaliteli eğitim kaynaklarıyla buluşturan kapsamlı eğitim platformu.",
       "description": "Eğitim İste, öğrencileri kaliteli eğitim kaynakları, kurslar ve kurumlarla buluşturmak için tasarlanmış kapsamlı bir eğitim platformudur. Platform, öğrenenler ve eğitim fırsatları arasında bir köprü görevi görür.\n\nPlatform, kapsamlı bir eğitim programları, kurumlar ve kaynaklar veritabanına sahiptir. Öğrenciler ilgi ve hedeflerine uygun programları arayabilir, karşılaştırabilir ve başvurabilir.\n\nKullanıcı dostu arayüzler ve güçlü arama yetenekleriyle, Eğitim İste öğrencilerin doğru eğitim yolunu bulmasını kolaylaştırır. Platform ayrıca kurumların programlarını sergilemesi ve potansiyel öğrencilerle bağlantı kurması için araçlar sağlar.",
-      "heroImage": "/images/products/studyscore-hero.png",
+      "heroImage": "/images/product-egitimiste.png",
       "image1": "/images/product-egitimiste.png",
       "image2": "/images/about-4.jpg",
       "logo": "/images/logos/egitimiste-logo.png",

@@ -76,7 +76,7 @@ function ContentSection({
       style={{ background: "#f8f9fa" }}
     >
       <div className="container">
-        <div className="row align-items-center g-4 g-lg-5">
+        <div className="row align-items-start g-4 g-lg-5">
           {/* Image Column */}
           <div className="col-lg-6">
             <div className="product-detail-image">
@@ -94,18 +94,18 @@ function ContentSection({
               <div className="mt-4">
                 {/* Logo */}
                 {"logo" in product &&
-                  product.logo &&
-                  typeof product.logo === "string" ? (
-                    <div className="product-logo-box">
-                      <Image
-                        src={product.logo}
-                        alt={`${product.name} Logo`}
-                        width={200}
-                        height={60}
-                        unoptimized
-                      />
-                    </div>
-                  ) : null}
+                product.logo &&
+                typeof product.logo === "string" ? (
+                  <div className="product-logo-box">
+                    <Image
+                      src={product.logo}
+                      alt={`${product.name} Logo`}
+                      width={200}
+                      height={60}
+                      unoptimized
+                    />
+                  </div>
+                ) : null}
 
                 {/* CTA Button */}
                 <a
@@ -124,7 +124,7 @@ function ContentSection({
           </div>
 
           {/* Content Column */}
-          <div className="col-lg-6 d-flex align-items-center">
+          <div className="col-lg-6">
             <div className="w-100">
               <h2 className="product-content-title">{product.summary}</h2>
 
@@ -150,32 +150,6 @@ function ContentSection({
         {product.videoLink && product.videoLink.trim() !== "" && (
           <div className="row mt-5 pt-5">
             <div className="col-12">
-              <div
-                className="text-center mb-5"
-                style={{
-                  maxWidth: "600px",
-                  margin: "0 auto",
-                }}
-              >
-                <h3
-                  style={{
-                    fontSize: "clamp(24px, 3vw, 36px)",
-                    fontWeight: "700",
-                    color: "#1a1a1a",
-                    marginBottom: "16px",
-                  }}
-                >
-                  {locale === "tr" ? "Ürün Videosu" : "Product Video"}
-                </h3>
-                <p
-                  style={{ fontSize: "16px", color: "#666", lineHeight: "1.6" }}
-                >
-                  {locale === "tr"
-                    ? "Ürünümüzü daha yakından tanımak için videomuzu izleyin"
-                    : "Watch our video to learn more about the product"}
-                </p>
-              </div>
-
               <div
                 className="video-wrapper mx-auto"
                 style={{

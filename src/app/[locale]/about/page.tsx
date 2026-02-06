@@ -180,11 +180,6 @@ export default async function AboutPage({
       </div>
 
       <AboutProblems dict={dict} />
-      {
-        //   <CounterSection locale={locale} />
-      }
-
-      {/* <ChooseUsSection locale={locale} /> */}
     </>
   );
 }

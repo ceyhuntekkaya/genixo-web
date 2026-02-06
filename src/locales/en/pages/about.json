@@ -3,7 +3,13 @@
     "WhoWeAre": "Who we are",
     "slogan": "Software Solution Partner & Innovation Company",
     "short": "To create successful software, you need a development team that understands your business requirements. Our experts will determine a custom solution that fits your idea, timeline, and budget, then design and build the application and help you test it with real users. As a result, you will get a modern digital product that benefits your business and is loved by users.",
-    "description": "Genixo is a technology company operating in Bilkent University Cyberpark, developing AI-focused educational platforms and corporate solutions. Our team consists of developers with deep expertise in modern web technologies and AI integrations. We build scalable, secure, and user-friendly systems using powerful technologies such as Spring Boot, Next.js, and PostgreSQL. We make a difference in Turkey's educational technology ecosystem with successful projects like StudyScore AI and Egitimiste.com. We offer a wide range of solutions, from AI-powered adaptive learning platforms to corporate document management systems, from real-time exam applications to educational discovery platforms. As a trusted technology partner in our clients' digital transformation journey, we work to understand business needs and produce the most suitable solutions.",
+    "description": "Genixo is a technology company operating in Bilkent University Cyberpark, developing AI-focused educational platforms and corporate solutions. Our team consists of developers with deep expertise in modern web technologies and AI integrations. We build scalable, secure, and user-friendly systems using powerful technologies such as Spring Boot, Next.js, and PostgreSQL. We make a difference in Turkey's educational technology ecosystem with successful projects like StudyScore AI and Eğitim İste. We offer a wide range of solutions, from AI-powered adaptive learning platforms to corporate document management systems, from real-time exam applications to educational discovery platforms. As a trusted technology partner in our clients' digital transformation journey, we work to understand business needs and produce the most suitable solutions.",
+    "images": {
+      "mainAlt": "Genixo Team and Technology Solutions",
+      "dynamismAlt": "Fast Technology Development and Innovation",
+      "passionAlt": "Passionate Team Collaboration and Commitment",
+      "professionalismAlt": "Professional Business Approach and Quality"
+    },
     "values": {
       "dynamism": {
         "title": "Dynamism",

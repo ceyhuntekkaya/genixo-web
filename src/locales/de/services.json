@@ -1,4 +1,7 @@
 {
+  "solutionsHero": {
+    "backgroundImage": "/images/solutions-main-final.jpg"
+  },
   "services": [
     {
       "slug": "digital-transformation",

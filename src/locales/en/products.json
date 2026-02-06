@@ -1,10 +1,14 @@
 {
   "products": {
+    "hero": {
+      "backgroundImage": "/images/products-main-final.jpg"
+    },
     "ILC": {
       "name": "ILC International Language Certification",
       "summary": "A comprehensive platform for international language certification and assessment.",
       "description": "ILC International Language Certification is a cutting-edge platform designed to facilitate language learning and certification processes. Our platform provides comprehensive assessment tools, certification management, and detailed reporting capabilities.\n\nThe platform supports multiple languages and offers flexible certification pathways for learners of all levels. With advanced analytics and reporting features, educators and institutions can track progress and ensure quality standards.\n\nKey capabilities include automated assessment, certificate generation, progress tracking, and comprehensive reporting. The platform is designed to be scalable and can accommodate institutions of all sizes.",
-      "webLink":"",
+      "heroImage": "/images/products/ilccenter-hero.png",
+      "webLink":"https://www.ilccenter.com/",
       "features": [
         {
           "title": "Multi-Language Support",
@@ -33,15 +37,17 @@
       ],
       "image1": "/images/product-ilc.png",
       "image2": "/images/about-4.jpg",
+      "logo": "/images/logos/ilccenter-logo.png",
+      "videoLink": "https://www.egitimiste.com/assets/video/tanitim_video.mp4",
       "active": true,
-      "showOnHomepage": true,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "showOnHomepage": true
     },
     "StudyScoreAI": {
       "name": "Study Score AI",
       "summary": "AI-powered platform for educational assessment and student performance analysis.",
       "description": "Study Score AI leverages artificial intelligence to provide intelligent assessment and analysis of student performance. The platform uses advanced machine learning algorithms to identify learning patterns, predict outcomes, and provide personalized recommendations.\n\nWith Study Score AI, educators can gain deeper insights into student learning behaviors, identify areas that need attention, and provide targeted support. The platform offers real-time analytics, automated grading, and comprehensive reporting tools.\n\nThe system is designed to integrate seamlessly with existing educational infrastructure and can be customized to meet specific institutional needs.",
-      "webLink":"",
+      "heroImage": "/images/products/studyscore-hero.png",
+      "webLink":"https://studyscore.ai/",
       "features": [
         {
           "title": "AI-Powered Performance Analysis",
@@ -70,15 +76,17 @@
       ],
       "image1": "/images/product-studyscore.png",
       "image2": "/images/about-4.jpg",
+      "logo": "/images/logos/studyscore-logo.png",
       "active": true,
       "showOnHomepage": true,
       "videoLink": ""
     },
     "Egitimiste": {
-      "name": "egitimiste.com",
+      "name": "Eğitim İste",
       "summary": "Comprehensive educational platform connecting students with quality educational resources.",
-      "description": "egitimiste.com is a comprehensive educational platform designed to connect students with quality educational resources, courses, and institutions. The platform serves as a bridge between learners and educational opportunities.\n\nThe platform features an extensive database of educational programs, institutions, and resources. Students can search, compare, and apply for programs that match their interests and goals.\n\nWith user-friendly interfaces and powerful search capabilities, egitimiste.com makes it easy for students to find the right educational path. The platform also provides tools for institutions to showcase their programs and connect with prospective students.",
-      "webLink":"",
+      "description": "Eğitim İste is a comprehensive educational platform designed to connect students with quality educational resources, courses, and institutions. The platform serves as a bridge between learners and educational opportunities.\n\nThe platform features an extensive database of educational programs, institutions, and resources. Students can search, compare, and apply for programs that match their interests and goals.\n\nWith user-friendly interfaces and powerful search capabilities, Eğitim İste makes it easy for students to find the right educational path. The platform also provides tools for institutions to showcase their programs and connect with prospective students.",
+      "heroImage": "/images/products/studyscore-hero.png",
+      "webLink":"https://www.egitimiste.com/",
       "features": [
         {
           "title": "Comprehensive Program Database",
@@ -105,11 +113,40 @@
           "description": "Turkish students and international students both use the platform. Turkish, English, Arabic... Everyone discovers opportunities in their own language."
         }
       ],
-      "image1": "/images/egitimiste-hero.jpg",
+      "image1": "/images/product-egitimiste.png",
       "image2": "/images/about-4.jpg",
+      "logo": "/images/logos/egitimiste-logo.png",
+      "videoLink": "https://www.egitimiste.com/assets/video/tanitim_video.mp4",
       "active": true,
       "showOnHomepage": true,
-      "videoLink": ""
+      "problemsTitle": "End the Chaos in the Education Search Process",
+      "problemsSubtitle": "What successful platforms have in common: They solved these problems.",
+      "problems": [
+        {
+          "title": "Students Are Lost Among Thousands of Options",
+          "description": "Which school should I go to? Which course suits me? Different information everywhere, they don't know what's right. 10,000+ programs on one platform, compare and find the best fit."
+        },
+        {
+          "title": "Application Processes Drowning in Paperwork",
+          "description": "Students go to school, fill out forms, photocopy documents. Time waste, stress. With online application, everything is digital, instant, easy."
+        },
+        {
+          "title": "Institutions Can't Reach the Right Students",
+          "description": "You have great programs but nobody knows. Ads are expensive, not effective. The platform brings you the right audience, interested students find you."
+        },
+        {
+          "title": "Students Are Directed to Wrong Careers",
+          "description": "'What job will I get after this degree?' They don't know, then regret. With career guidance, graduate reviews, real data, they make the right decisions."
+        },
+        {
+          "title": "Scholarships and Opportunities Remain Hidden",
+          "description": "Thousands of scholarships exist but students don't know, they miss out. Platform collects all scholarships, opportunities. Recommends those suitable for student profile."
+        },
+        {
+          "title": "Application Status Cannot Be Tracked",
+          "description": "'What happened to my application?' they ask, no answer. They call, wait in line. With online tracking, they see every stage, nobody waits."
+        }
+      ]
     },
     "GenixoWorkAI": {
       "name": "Genixo Work AI",

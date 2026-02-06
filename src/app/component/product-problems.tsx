@@ -1,13 +1,16 @@
 import type { Dictionary } from "@/i18n/types";
 import Image from "next/image";
 
-type ProductKey = keyof Dictionary['products'];
+type ProductsDict = Dictionary["products"];
+type ProductKey = Exclude<keyof ProductsDict, "hero">;
+type Product = ProductsDict[ProductKey];
 
 interface ProductProblemsProps {
-  product: Dictionary['products'][ProductKey];
+  product: Product;
 }
 
 export default function ProductProblems({ product }: ProductProblemsProps) {
+  if (!product) return null;
   // Check if product has problems data
   if (
     !product.problems ||

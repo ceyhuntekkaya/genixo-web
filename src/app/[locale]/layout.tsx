@@ -1,5 +1,6 @@
 import FooterSection from "@/app/component/footer";
 import logo from "@/app/assets/logo.png";
+import whiteLogo from "@/app/assets/Genixo_Logo_White.png";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -51,7 +52,7 @@ export default async function LocaleLayout({
                     <div className="offcanvas-logo">
                         <Link href={`/${typedLocale}`} aria-label="Ana Sayfa">
                             <Image 
-                                src={logo} 
+                                src={whiteLogo} 
                                 alt="Genixo Logo" 
                                 width={130}
                                 height={50}

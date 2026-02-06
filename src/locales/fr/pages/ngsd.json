@@ -1,5 +1,8 @@
 {
   "ngsd": {
+    "hero": {
+      "backgroundImage": "/images/ngsd-hero-final.jpg"
+    },
     "title": "Genixo NGSD",
     "subtitle": "Genixo Next Generation Software Department - Meilleure solution logicielle de bout en bout !",
     "forWho": {
@@ -9,6 +12,12 @@
     "whatIs": {
       "title": "Qu'est-ce que NGSD ?",
       "content": "Notre solution la plus complète à 360 degrés, dynamique, internationale et à distance qui nous fait faire un pas de plus sur le marché. Créer une équipe pour répondre à vos besoins logiciels peut toujours être considéré comme la solution la plus claire, mais comme on le sait, créer une équipe/département logiciel peut être une entreprise très coûteuse. C'est là qu'intervient Genixo NGSD et vous évite la peine de mettre en place une équipe/un département. Le chef de projet Genixo assigné à votre marque devient votre responsable logiciel, et Genixo devient votre département logiciel !"
+    },
+    "images": {
+      "mainAlt": "Collaboration d'équipe de développement logiciel",
+      "remoteAlt": "Travail à distance et vidéoconférence",
+      "dynamicAlt": "Travail d'équipe dynamique et flexible",
+      "globalAlt": "Collaboration mondiale et vision internationale"
     },
     "remote": {
       "title": "À distance",

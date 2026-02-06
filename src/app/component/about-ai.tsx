@@ -46,39 +46,34 @@ export default function AboutAISection({ dict }: PageProps) {
               <div className="col-lg-6">
                 <div className="about-content">
                   <div className="about-content-text">
-                    <h3 className="title">Yazılım Çözüm Ortağınız</h3>
-                    <p className="text">
-                      Başarılı bir yazılım oluşturmak için iş gereksinimlerinizi
-                      anlayan bir geliştirme ekibine ihtiyacınız vardır.
-                    </p>
-                    <p className="text">
-                      Uzmanlarımız fikrinize, zaman çizelgenize ve bütçenize
-                      uygun özel bir çözüm belirleyecek, ardından uygulamayı
-                      tasarlayıp oluşturacak ve gerçek kullanıcılarla test
-                      etmenize yardımcı olacaktır.
-                    </p>
+                    {/* Split short text into sentences for better readability */}
+                    {dict.about.short.split(/(?<=[.!?])\s+/).filter(s => s.trim()).map((sentence, index) => (
+                      <p key={index} className="text" style={{ marginBottom: "15px" }}>
+                        {sentence.trim()}
+                      </p>
+                    ))}
+                    
                     <div
                       className="about-success"
                       style={{
                         background:
                           "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-                        padding: "20px 25px",
-                        borderRadius: "10px",
-                        marginTop: "20px",
+                        padding: "30px",
+                        borderRadius: "12px",
+                        marginTop: "25px",
+                        boxShadow: "0 10px 30px rgba(102, 126, 234, 0.3)",
                       }}
                     >
                       <p
                         style={{
                           color: "#fff",
-                          fontSize: "16px",
+                          fontSize: "15px",
                           lineHeight: "1.8",
                           margin: 0,
-                          fontWeight: "500",
+                          fontWeight: "400",
                         }}
                       >
-                        💡 Sonuç olarak, işinize fayda sağlayan, kullanıcılar
-                        tarafından sevilen modern bir dijital ürün elde
-                        edeceksiniz.
+                        {dict.about.description}
                       </p>
                     </div>
                   </div>

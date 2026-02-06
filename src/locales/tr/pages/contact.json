@@ -1,5 +1,8 @@
 {
   "contact": {
+    "hero": {
+      "backgroundImage": "/images/contact-hero-final.jpg"
+    },
     "pageContent": "İletişim sayfası içeriği buraya eklenecek.",
     "phone": {
       "title": "Bizi Arayın"
@@ -47,6 +50,9 @@
     "subtitle": "Dünya çapında 20k+ memnun müşteri"
   },
   "caseStudy": {
+    "hero": {
+      "backgroundImage": "/images/bg/page-banner.jpg"
+    },
     "reasonToChooseUs": "BİZİ SEÇME NEDENİNİZ",
     "prominentSolutions": "Gerçekten öne çıkan BT çözümleri sunuyoruz.",
     "learnMore": "Daha fazla bilgi için",

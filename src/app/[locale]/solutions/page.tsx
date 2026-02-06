@@ -3,7 +3,7 @@ import {getDictionary} from "@/i18n/getDictionary";
 import type {Dictionary} from "@/i18n/types";
 import {generateMetadata as generateSEOMetadata} from "@/utils/seo";
 import {locales} from "@/i18n/config";
-import SolutionsHero from "@/app/component/solutions-hero";
+import PageHero from "@/app/component/page-hero";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -40,7 +40,12 @@ export default async function SolutionsPage({
 
     return (
         <>
-            <SolutionsHero dict={dict} />
+            <PageHero
+                title={dict.menu.Solutions}
+                subtitle={dict.about.slogan}
+                description={dict.seo?.solutions?.description || "Web uygulaması, mobil geliştirme, bulut çözümleri, DevOps ve veri bilimi hizmetleri."}
+                backgroundImage={dict.solutionsHero?.backgroundImage}
+            />
 
             {/* Solutions Cards Section */}
             <div className="section genixo-choose-us-section section-padding"

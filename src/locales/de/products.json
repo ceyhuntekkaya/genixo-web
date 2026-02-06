@@ -1,10 +1,14 @@
 {
   "products": {
+    "hero": {
+      "backgroundImage": "/images/products-main-final.jpg"
+    },
     "ILC": {
       "name": "ILC International Language Certification",
       "summary": "Eine umfassende Plattform für internationale Sprachzertifizierung und -bewertung.",
       "description": "ILC International Language Certification ist eine moderne Plattform zur Erleichterung von Sprachlern- und Zertifizierungsprozessen. Unsere Plattform bietet umfassende Bewertungstools, Zertifikatsverwaltung und detaillierte Berichtsfunktionen.\n\nDie Plattform unterstützt mehrere Sprachen und bietet flexible Zertifizierungswege für Lernende aller Niveaus. Mit erweiterten Analyse- und Berichtsfunktionen können Pädagogen und Institutionen den Fortschritt verfolgen und Qualitätsstandards sicherstellen.",
-      "webLink":"",
+      "heroImage": "/images/products/ilccenter-hero.png",
+      "webLink":"https://www.ilccenter.com/",
       "features": [
         {
           "title": "Mehrsprachige Unterstützung",
@@ -33,15 +37,17 @@
       ],
       "image1": "/images/product-ilc.png",
       "image2": "/images/about-4.jpg",
+      "logo": "/images/logos/ilccenter-logo.png",
+      "videoLink": "https://www.egitimiste.com/assets/video/tanitim_video.mp4",
       "active": true,
-      "showOnHomepage": true,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "showOnHomepage": true
     },
     "StudyScoreAI": {
       "name": "Study Score AI",
       "summary": "KI-gestützte Plattform für Bildungsbewertung und Schülerleistungsanalyse.",
       "description": "Study Score AI nutzt künstliche Intelligenz, um intelligente Bewertung und Analyse der Schülerleistung zu bieten. Die Plattform verwendet erweiterte Machine-Learning-Algorithmen, um Lernmuster zu identifizieren, Ergebnisse vorherzusagen und personalisierte Empfehlungen zu geben.",
-      "webLink":"",
+      "heroImage": "/images/products/studyscore-hero.png",
+      "webLink":"https://studyscore.ai/",
       "features": [
         {
           "title": "KI-gestützte Leistungsanalyse",
@@ -70,15 +76,17 @@
       ],
       "image1": "/images/product-studyscore.png",
       "image2": "/images/about-4.jpg",
+      "logo": "/images/logos/studyscore-logo.png",
       "active": true,
       "showOnHomepage": true,
       "videoLink": ""
     },
     "Egitimiste": {
-      "name": "egitimiste.com",
+      "name": "Eğitim İste",
       "summary": "Umfassende Bildungsplattform, die Schüler mit qualitativ hochwertigen Bildungsressourcen verbindet.",
-      "description": "egitimiste.com ist eine umfassende Bildungsplattform, die darauf ausgelegt ist, Schüler mit qualitativ hochwertigen Bildungsressourcen, Kursen und Institutionen zu verbinden. Die Plattform dient als Brücke zwischen Lernenden und Bildungsmöglichkeiten.",
-      "webLink":"",
+      "description": "Eğitim İste ist eine umfassende Bildungsplattform, die darauf ausgelegt ist, Schüler mit qualitativ hochwertigen Bildungsressourcen, Kursen und Institutionen zu verbinden. Die Plattform dient als Brücke zwischen Lernenden und Bildungsmöglichkeiten.",
+      "heroImage": "/images/products/studyscore-hero.png",
+      "webLink":"https://www.egitimiste.com/",
       "features": [
         {
           "title": "Umfassende Programmdatenbank",
@@ -105,11 +113,40 @@
           "description": "Türkische Studenten und internationale Studenten nutzen beide die Plattform. Türkisch, Englisch, Arabisch... Jeder entdeckt Möglichkeiten in seiner eigenen Sprache."
         }
       ],
-      "image1": "/images/egitimiste-hero.jpg",
+      "image1": "/images/product-egitimiste.png",
       "image2": "/images/about-4.jpg",
+      "logo": "/images/logos/egitimiste-logo.png",
+      "videoLink": "https://www.egitimiste.com/assets/video/tanitim_video.mp4",
       "active": true,
       "showOnHomepage": true,
-      "videoLink": ""
+      "problemsTitle": "Beenden Sie das Chaos im Bildungssuchprozess",
+      "problemsSubtitle": "Was erfolgreiche Plattformen gemeinsam haben: Sie haben diese Probleme gelöst.",
+      "problems": [
+        {
+          "title": "Schüler Sind Unter Tausenden von Optionen Verloren",
+          "description": "Welche Schule soll ich besuchen? Welcher Kurs passt zu mir? Überall unterschiedliche Informationen, sie wissen nicht, was richtig ist. 10.000+ Programme auf einer Plattform, vergleichen und das Beste finden."
+        },
+        {
+          "title": "Bewerbungsprozesse Ertrinken in Papierkram",
+          "description": "Schüler gehen zur Schule, füllen Formulare aus, kopieren Dokumente. Zeitverschwendung, Stress. Mit Online-Bewerbung ist alles digital, sofort, einfach."
+        },
+        {
+          "title": "Institutionen Können die Richtigen Schüler Nicht Erreichen",
+          "description": "Sie haben großartige Programme, aber niemand weiß es. Werbung ist teuer, nicht effektiv. Die Plattform bringt Ihnen die richtige Zielgruppe, interessierte Schüler finden Sie."
+        },
+        {
+          "title": "Schüler Werden in Falsche Karrieren Gelenkt",
+          "description": "'Welchen Job bekomme ich nach diesem Abschluss?' Sie wissen es nicht, dann bereuen sie. Mit Karriereberatung, Absolventenbewertungen, echten Daten treffen sie die richtigen Entscheidungen."
+        },
+        {
+          "title": "Stipendien und Möglichkeiten Bleiben Verborgen",
+          "description": "Tausende Stipendien existieren, aber Schüler wissen es nicht, sie verpassen sie. Plattform sammelt alle Stipendien, Möglichkeiten. Empfiehlt die für das Schülerprofil geeigneten."
+        },
+        {
+          "title": "Bewerbungsstatus Kann Nicht Verfolgt Werden",
+          "description": "'Was ist mit meiner Bewerbung passiert?' fragen sie, keine Antwort. Sie rufen an, warten in der Schlange. Mit Online-Tracking sehen sie jede Phase, niemand wartet."
+        }
+      ]
     },
     "GenixoWorkAI": {
       "name": "Genixo Work AI",

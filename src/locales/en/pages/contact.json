@@ -1,5 +1,8 @@
 {
   "contact": {
+    "hero": {
+      "backgroundImage": "/images/contact-hero-final.jpg"
+    },
     "pageContent": "Contact page content will be added here.",
     "phone": {
       "title": "Give us a call"
@@ -47,6 +50,9 @@
     "subtitle": "20k+ satisfied clients worldwide"
   },
   "caseStudy": {
+    "hero": {
+      "backgroundImage": "/images/bg/page-banner.jpg"
+    },
     "reasonToChooseUs": "REASON TO CHOOSE US",
     "prominentSolutions": "We provide truly prominent IT solutions.",
     "learnMore": "Learn more about",

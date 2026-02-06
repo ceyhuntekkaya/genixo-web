@@ -1,10 +1,14 @@
 {
   "products": {
+    "hero": {
+      "backgroundImage": "/images/products-main-final.jpg"
+    },
     "ILC": {
       "name": "ILC International Language Certification",
       "summary": "Une plateforme complète pour la certification et l'évaluation linguistique internationale.",
       "description": "ILC International Language Certification est une plateforme moderne conçue pour faciliter les processus d'apprentissage et de certification des langues. Notre plateforme fournit des outils d'évaluation complets, la gestion des certificats et des capacités de reporting détaillées.",
-      "webLink":"",
+      "heroImage": "/images/products/ilccenter-hero.png",
+      "webLink":"https://www.ilccenter.com/",
       "features": [
         {
           "title": "Support Multilingue",
@@ -33,15 +37,17 @@
       ],
       "image1": "/images/product-ilc.png",
       "image2": "/images/about-4.jpg",
+      "logo": "/images/logos/ilccenter-logo.png",
+      "videoLink": "https://www.egitimiste.com/assets/video/tanitim_video.mp4",
       "active": true,
-      "showOnHomepage": true,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "showOnHomepage": true
     },
     "StudyScoreAI": {
       "name": "Study Score AI",
       "summary": "Plateforme basée sur l'IA pour l'évaluation éducative et l'analyse de la performance des étudiants.",
       "description": "Study Score AI exploite l'intelligence artificielle pour fournir une évaluation et une analyse intelligentes de la performance des étudiants. La plateforme utilise des algorithmes d'apprentissage automatique avancés pour identifier les modèles d'apprentissage, prédire les résultats et fournir des recommandations personnalisées.",
-      "webLink":"",
+      "heroImage": "/images/products/studyscore-hero.png",
+      "webLink":"https://studyscore.ai/",
       "features": [
         {
           "title": "Analyse de Performance Basée sur l'IA",
@@ -70,15 +76,17 @@
       ],
       "image1": "/images/product-studyscore.png",
       "image2": "/images/about-4.jpg",
+      "logo": "/images/logos/studyscore-logo.png",
       "active": true,
       "showOnHomepage": true,
       "videoLink": ""
     },
     "Egitimiste": {
-      "name": "egitimiste.com",
+      "name": "Eğitim İste",
       "summary": "Plateforme éducative complète connectant les étudiants à des ressources éducatives de qualité.",
-      "description": "egitimiste.com est une plateforme éducative complète conçue pour connecter les étudiants à des ressources éducatives, des cours et des institutions de qualité. La plateforme sert de pont entre les apprenants et les opportunités éducatives.",
-      "webLink":"",
+      "description": "Eğitim İste est une plateforme éducative complète conçue pour connecter les étudiants à des ressources éducatives, des cours et des institutions de qualité. La plateforme sert de pont entre les apprenants et les opportunités éducatives.",
+      "heroImage": "/images/products/studyscore-hero.png",
+      "webLink":"https://www.egitimiste.com/",
       "features": [
         {
           "title": "Base de Données de Programmes Complète",
@@ -105,11 +113,40 @@
           "description": "Les étudiants turcs et internationaux utilisent tous deux la plateforme. Turc, anglais, arabe... Chacun découvre les opportunités dans sa propre langue."
         }
       ],
-      "image1": "/images/egitimiste-hero.jpg",
+      "image1": "/images/product-egitimiste.png",
       "image2": "/images/about-4.jpg",
+      "logo": "/images/logos/egitimiste-logo.png",
+      "videoLink": "https://www.egitimiste.com/assets/video/tanitim_video.mp4",
       "active": true,
       "showOnHomepage": true,
-      "videoLink": ""
+      "problemsTitle": "Mettez Fin au Chaos dans le Processus de Recherche Éducative",
+      "problemsSubtitle": "Ce que les plateformes réussies ont en commun : Elles ont résolu ces problèmes.",
+      "problems": [
+        {
+          "title": "Les Étudiants Sont Perdus Parmi Des Milliers d'Options",
+          "description": "Quelle école dois-je fréquenter? Quel cours me convient? Informations différentes partout, ils ne savent pas ce qui est juste. 10 000+ programmes sur une plateforme, comparez et trouvez le meilleur."
+        },
+        {
+          "title": "Les Processus de Candidature Se Noient dans la Paperasse",
+          "description": "Les étudiants vont à l'école, remplissent des formulaires, photocopient des documents. Perte de temps, stress. Avec la candidature en ligne, tout est numérique, instantané, facile."
+        },
+        {
+          "title": "Les Institutions Ne Peuvent Pas Atteindre les Bons Étudiants",
+          "description": "Vous avez d'excellents programmes mais personne ne le sait. Les publicités sont chères, pas efficaces. La plateforme vous apporte le bon public, les étudiants intéressés vous trouvent."
+        },
+        {
+          "title": "Les Étudiants Sont Orientés Vers de Mauvaises Carrières",
+          "description": "'Quel emploi vais-je obtenir après ce diplôme?' Ils ne savent pas, puis regrettent. Avec l'orientation professionnelle, les avis des diplômés, les données réelles, ils prennent les bonnes décisions."
+        },
+        {
+          "title": "Les Bourses et Opportunités Restent Cachées",
+          "description": "Des milliers de bourses existent mais les étudiants ne le savent pas, ils les manquent. La plateforme collecte toutes les bourses, opportunités. Recommande celles adaptées au profil de l'étudiant."
+        },
+        {
+          "title": "Le Statut de Candidature Ne Peut Pas Être Suivi",
+          "description": "'Qu'est-il arrivé à ma candidature?' demandent-ils, pas de réponse. Ils appellent, attendent en ligne. Avec le suivi en ligne, ils voient chaque étape, personne n'attend."
+        }
+      ]
     },
     "GenixoWorkAI": {
       "name": "Genixo Work AI",

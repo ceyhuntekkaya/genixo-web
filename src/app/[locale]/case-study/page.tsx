@@ -2,7 +2,7 @@ import {Locale} from "@/i18n/config";
 import {getDictionary} from "@/i18n/getDictionary";
 import {generateMetadata as generateSEOMetadata} from "@/utils/seo";
 import {locales} from "@/i18n/config";
-import PageBanner from "@/app/component/page-banner";
+import PageHero from "@/app/component/page-hero";
 
 
 export async function generateMetadata({
@@ -33,17 +33,12 @@ export default async function CaseStudyPage({
     const { locale } = await params;
     const dict = await getDictionary(locale);
 
-    const homeLabel = dict.menu.Home;
-
     return (
         <>
-            <PageBanner
-                bannerLink={"/images/bg/page-banner.jpg"}
+            <PageHero
                 title={dict.menu.SuccessStories}
-                breadcrumbs={[
-                    { label: homeLabel, href: `/${locale}` },
-                    { label: dict.menu.SuccessStories, href: `/${locale}/case-study` },
-                ]}
+                subtitle={dict.about.slogan}
+                backgroundImage={dict.caseStudy?.hero?.backgroundImage}
             />
             <div className="section section-padding">
                 <div className="container">

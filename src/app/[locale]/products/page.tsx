@@ -2,7 +2,7 @@ import {Locale} from "@/i18n/config";
 import {getDictionary} from "@/i18n/getDictionary";
 import {generateMetadata as generateSEOMetadata} from "@/utils/seo";
 import {locales} from "@/i18n/config";
-import ProductsHero from "@/app/component/products-hero";
+import PageHero from "@/app/component/page-hero";
 
 import Link from "next/link";
 import {getProductSlug} from "@/utils/slugMapping";
@@ -38,7 +38,12 @@ export default async function ProductsPage({
 
     return (
         <>
-            <ProductsHero dict={dict} />
+            <PageHero
+                title={dict.menu.Products}
+                subtitle={dict.about.slogan}
+                description={dict.seo?.products?.description || "Yenilikçi dijital ürünlerimiz ile işinizi güçlendirin."}
+                backgroundImage={dict.products?.hero?.backgroundImage}
+            />
 
             {/* Products Cards Section */}
             <div className="section genixo-choose-us-section section-padding products-section"

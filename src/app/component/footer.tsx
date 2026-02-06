@@ -4,7 +4,6 @@ import Image from "next/image";
 import footerLogo from "@/app/assets/Genixo_Logo_White.png";
 import { Locale } from "@/i18n/config";
 import {Dictionary} from "@/i18n/types";
-import {getProductSlug} from "@/utils/slugMapping";
 import {companyInfo} from "@/utils/company";
 
 interface FooterSectionProps {
@@ -18,28 +17,6 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
     }
 
     const footer = dict.footer;
-
-    // Aktif ürünleri al
-    const activeProducts = Object.keys(dict.products)
-        .filter(key => {
-            const product = dict.products[key as keyof typeof dict.products];
-            return product && product.active !== false;
-        })
-        .map(key => {
-            const productKey = key as keyof import('@/i18n/types').Dictionary['products'];
-            const product = dict.products[productKey];
-            const productSlug = getProductSlug(productKey);
-            return { key, product, slug: productSlug };
-        })
-        .filter(item => item.product && item.slug);
-
-    // Aktif hizmetleri al (services artık array)
-    const activeServices = Array.isArray(dict.services)
-        ? dict.services
-            .filter((s) => s.active !== false)
-            .sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
-            .map((service) => ({ service, slug: service.slug }))
-        : [];
     return (
         <div className="section footer-section footer-section-03"
              style={{
@@ -60,40 +37,68 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
                               
                                 <div className="footer-social">
                                     <ul className="social">
-                                        <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/company/genixoglobal/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="https://www.instagram.com/genixo.global/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-3 col-sm-6">
                             <div className="footer-widget">
-                                <h4 className="footer-widget-title">{dict.menu.Products}</h4>
+                                <h4 className="footer-widget-title">{footer?.partnerships}</h4>
                                 <div className="widget-link">
-                                    <ul className="link">
-                                        {activeProducts.map((item) => (
-                                            <li key={item.key}>
-                                                <Link href={`/${locale}/products/${item.slug}`}>{item.product.name}</Link>
-                                            </li>
-                                        ))}
+                                    <ul className="link" style={{ listStyle: 'none', padding: 0 }}>
+                                        <li style={{ marginBottom: '20px' }}>
+                                            <a href="https://www.cyberpark.com.tr/" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'flex-start', textDecoration: 'none' }}>
+                                                <Image 
+                                                    src="/images/logos/cyberpark-logo.png" 
+                                                    alt="Bilkent Cyberpark Logo"
+                                                    width={50}
+                                                    height={50}
+                                                    style={{ objectFit: 'contain', marginRight: '15px', filter: 'brightness(0) invert(1)' }}
+                                                />
+                                                <div>
+                                                    <strong style={{ display: 'block', color: '#fff' }}>{footer?.cyberpark?.title}</strong>
+                                                    <small style={{ color: '#aaa' }}>{footer?.cyberpark?.description}</small>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li style={{ marginBottom: '20px' }}>
+                                            <a href="https://www.tbd.org.tr/" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'flex-start', textDecoration: 'none' }}>
+                                                <Image 
+                                                    src="/images/logos/tbd-logo.png" 
+                                                    alt="TBD Logo"
+                                                    width={50}
+                                                    height={50}
+                                                    style={{ objectFit: 'contain', marginRight: '15px', filter: 'brightness(0) invert(1)' }}
+                                                />
+                                                <div>
+                                                    <strong style={{ display: 'block', color: '#fff' }}>{footer?.tbd?.title}</strong>
+                                                    <small style={{ color: '#aaa' }}>{footer?.tbd?.description}</small>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li style={{ marginBottom: '20px' }}>
+                                            <a href="https://www.alte.org/" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'flex-start', textDecoration: 'none' }}>
+                                                <Image 
+                                                    src="/images/logos/alte-logo.png" 
+                                                    alt="ALTE Logo"
+                                                    width={50}
+                                                    height={50}
+                                                    style={{ objectFit: 'contain', marginRight: '15px', filter: 'brightness(0) invert(1)' }}
+                                                />
+                                                <div>
+                                                    <strong style={{ display: 'block', color: '#fff' }}>{footer?.alte?.title}</strong>
+                                                    <small style={{ color: '#aaa' }}>{footer?.alte?.description}</small>
+                                                </div>
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-3 col-sm-6">
-                            <div className="footer-widget">
-                                <h4 className="footer-widget-title">{dict.menu.Solutions}</h4>
-                                <div className="widget-link">
-                                    <ul className="link">
-                                        {activeServices.map((item) => (
-                                            <li key={item.slug}>
-                                                <Link href={`/${locale}/solutions/${item.slug}`}>
-                                                    {item.service.name}
-                                                </Link>
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </div>
-                            </div>
+                            {/* Empty column for spacing */}
                         </div>
                         <div className="col-lg-3 col-sm-6">
                             <div className="footer-widget">

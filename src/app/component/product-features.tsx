@@ -1,14 +1,17 @@
 import type { Dictionary } from "@/i18n/types";
 import Image from "next/image";
 
-type ProductKey = keyof Dictionary['products'];
+type ProductsDict = Dictionary["products"];
+type ProductKey = Exclude<keyof ProductsDict, "hero">;
+type Product = ProductsDict[ProductKey];
 
 interface ProductFeaturesProps {
-  product: Dictionary['products'][ProductKey];
+  product: Product;
   locale: string;
 }
 
 export default function ProductFeatures({ product, locale }: ProductFeaturesProps) {
+  if (!product) return null;
   // Check if product has features data
   if (
     !product.features ||

@@ -26,6 +26,9 @@
       "keywords": "başarı hikayeleri, case study, müşteri projeleri, yazılım projeleri"
     },
     "governmentSupport": {
+      "hero": {
+        "backgroundImage": "/images/bg/page-banner.jpg"
+      },
       "keywords": "devlet destekleri, KOSGEB, TÜBİTAK, danışmanlık, yazılım danışmanlığı",
       "description": "Genixo Bilişim ve Teknoloji devlet destekleri ve danışmanlık hizmetleri. KOSGEB, TÜBİTAK ve diğer devlet destekleri için danışmanlık.",
       "title": "Dijital Dönüşüm Destek Programı",

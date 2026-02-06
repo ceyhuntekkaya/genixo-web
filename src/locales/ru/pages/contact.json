@@ -1,5 +1,8 @@
 {
   "contact": {
+    "hero": {
+      "backgroundImage": "/images/contact-hero-final.jpg"
+    },
     "pageContent": "Содержимое страницы контактов будет добавлено здесь.",
     "phone": {
       "title": "Позвоните нам"
@@ -47,6 +50,9 @@
     "subtitle": "20k+ довольных клиентов по всему миру"
   },
   "caseStudy": {
+    "hero": {
+      "backgroundImage": "/images/bg/page-banner.jpg"
+    },
     "reasonToChooseUs": "ПРИЧИНА ВЫБРАТЬ НАС",
     "prominentSolutions": "Мы предоставляем действительно выдающиеся ИТ-решения.",
     "learnMore": "Узнать больше о",

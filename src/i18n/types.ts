@@ -84,6 +84,9 @@ export type Dictionary = {
     };
 
 
+    "solutionsHero"?: {
+        "backgroundImage": string;
+    };
     "services": Array<{
         slug: string;
         name: string;
@@ -103,6 +106,9 @@ export type Dictionary = {
     }>;
 
     "products": {
+        hero?: {
+            "backgroundImage": string;
+        };
         "ILC": {
             "name": string;
             "summary": string;
@@ -238,6 +244,9 @@ export type Dictionary = {
         };
     };
     "ngsd": {
+        hero?: {
+            "backgroundImage": string;
+        };
         "title": string;
         "subtitle": string;
         "forWho": {
@@ -295,6 +304,19 @@ export type Dictionary = {
         "contactInfo": string;
         "copyright": string;
         "address": string;
+        "partnerships"?: string;
+        "cyberpark"?: {
+            "title": string;
+            "description": string;
+        };
+        "tbd"?: {
+            "title": string;
+            "description": string;
+        };
+        "alte"?: {
+            "title": string;
+            "description": string;
+        };
     };
     "blog"?: {
         "latestBlog": string;
@@ -302,6 +324,9 @@ export type Dictionary = {
         "readFull": string;
     };
     "caseStudy"?: {
+        hero?: {
+            "backgroundImage": string;
+        };
         "reasonToChooseUs": string;
         "prominentSolutions": string;
         "learnMore": string;
@@ -312,6 +337,9 @@ export type Dictionary = {
         "solutionsToCommonAIProblems": string;
     };
     "contact"?: {
+        hero?: {
+            "backgroundImage": string;
+        };
         "pageContent": string;
         "phone": {
             "title": string;
@@ -386,6 +414,9 @@ export type Dictionary = {
             "keywords": string;
         };
         "governmentSupport"?: {
+            hero?: {
+                "backgroundImage": string;
+            };
             "keywords": string;
             "description"?: string;
             "title"?: string;

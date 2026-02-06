@@ -26,6 +26,9 @@
       "keywords": "success stories, case study, customer projects, software projects"
     },
     "governmentSupport": {
+      "hero": {
+        "backgroundImage": "/images/bg/page-banner.jpg"
+      },
       "keywords": "government support, KOSGEB, TÜBİTAK, consulting, software consulting",
       "description": "Genixo IT and Technology government support and consulting services. Consulting for KOSGEB, TÜBİTAK and other government support programs.",
       "comingSoon": "This content is being prepared and will be available soon."

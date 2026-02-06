@@ -1,5 +1,8 @@
 {
   "ngsd": {
+    "hero": {
+      "backgroundImage": "/images/ngsd-hero-final.jpg"
+    },
     "title": "Genixo NGSD",
     "subtitle": "Genixo Next Generation Software Department - End-to-End beste Softwarelösung!",
     "forWho": {
@@ -9,6 +12,12 @@
     "whatIs": {
       "title": "Was ist NGSD?",
       "content": "Unsere umfassendste 360-Grad-, dynamische, internationale und Remote-Lösung, die uns und Sie einen Schritt weiter auf dem Markt bringt. Ein Team zu gründen, das Ihre Softwareanforderungen erfüllt, kann immer als die klarste Lösung angesehen werden, aber wie bekannt ist, kann die Gründung eines Softwareteams/-abteilung ein sehr kostspieliges Geschäft sein. Hier kommt Genixo NGSD ins Spiel und erspart Ihnen die Mühe, ein Team/eine Abteilung einzurichten. Der Ihrer Marke zugewiesene Genixo-Projektmanager wird Ihr Softwaremanager, und Genixo wird Ihre Softwareabteilung!"
+    },
+    "images": {
+      "mainAlt": "Zusammenarbeit im Softwareentwicklungsteam",
+      "remoteAlt": "Remote-Arbeit und Videokonferenz",
+      "dynamicAlt": "Dynamische und flexible Teamarbeit",
+      "globalAlt": "Globale Zusammenarbeit und internationale Vision"
     },
     "remote": {
       "title": "Remote",

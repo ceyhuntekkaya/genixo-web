@@ -1,5 +1,8 @@
 {
   "ngsd": {
+    "hero": {
+      "backgroundImage": "/images/ngsd-hero-final.jpg"
+    },
     "title": "Genixo NGSD",
     "subtitle": "Genixo Yeni Nesil Yazılım Departmanı - Uçtan uca en iyi yazılım çözümü!",
     "forWho": {
@@ -9,6 +12,12 @@
     "whatIs": {
       "title": "NGSD nedir?",
       "content": "Bizi ve sizi pazarda bir adım öteye taşıyan en kapsamlı 360 Derece, Dinamik, Uluslararası ve Uzak çözümümüz. Yazılım ihtiyaçlarınızı karşılayacak bir ekip oluşturmak her zaman en net çözüm olarak görülebilir ancak bilindiği üzere yazılım ekibi/departmanı kurmak oldukça maliyetli bir iş olabilir. Genixo NGSD burada devreye giriyor ve sizi bir ekip/departman kurma zahmetinden kurtarıyor. Markanıza atanan Genixo proje yöneticisi yazılım yöneticiniz, Genixo ise yazılım departmanınız oluyor!"
+    },
+    "images": {
+      "mainAlt": "Yazılım Geliştirme Ekibi İşbirliği",
+      "remoteAlt": "Uzaktan Çalışma ve Video Konferans",
+      "dynamicAlt": "Dinamik ve Esnek Ekip Çalışması",
+      "globalAlt": "Küresel İş Birliği ve Uluslararası Vizyon"
     },
     "remote": {
       "title": "Uzak",

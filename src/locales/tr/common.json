@@ -16,7 +16,7 @@
     "ContactInfo": "İletişim Bilgileri",
     "ILC": "ILC International Language Certification",
     "StudyScoreAI": "Study Score AI",
-    "Egitimiste": "egitimiste.com",
+    "Egitimiste": "Eğitim İste",
     "GenixoWorkAI": "Genixo Work AI",
     "GenixoAssistant": "Genixo Assistant",
     "TOMEREYadis": "TÖMER E-Yadis",
@@ -43,6 +43,19 @@
   "footer": {
     "contactInfo": "İletişim Bilgileri",
     "copyright": "© Copyrights 2026 genixo.ai All rights reserved.",
-    "address": "Bilkent Cyberpark"
+    "address": "Bilkent Cyberpark",
+    "partnerships": "Bağlı Olduğumuz Kurumlar",
+    "cyberpark": {
+      "title": "Bilkent Cyberpark",
+      "description": "Ar-Ge Şirketi"
+    },
+    "tbd": {
+      "title": "TBD",
+      "description": "Türkiye Bilişim Derneği Üyesi"
+    },
+    "alte": {
+      "title": "ALTE",
+      "description": "Association of Language Testers in Europe Üyesi"
+    }
   }
 }

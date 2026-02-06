@@ -2,7 +2,7 @@ import {Locale} from "@/i18n/config";
 import {getDictionary} from "@/i18n/getDictionary";
 import {generateMetadata as generateSEOMetadata} from "@/utils/seo";
 import {locales} from "@/i18n/config";
-import ContactHero from "@/app/component/contact-hero";
+import PageHero from "@/app/component/page-hero";
 import Image from "next/image";
 import {companyInfo} from "@/utils/company";
 import ContactForm from "@/app/component/contact-form";
@@ -40,7 +40,12 @@ export default async function ContactPage({
 
     return (
         <>
-            <ContactHero dict={dict} />
+            <PageHero
+                title={dict.menu.ContactUs}
+                subtitle={dict.contact?.form?.subtitle || "Get In Touch"}
+                description={dict.contact?.form?.mainTitle || ""}
+                backgroundImage={dict.contact?.hero?.backgroundImage}
+            />
 
             {/* Contact Info Cards Section */}
             <div className="section contact-info-section section-padding" style={{backgroundColor: '#f8f9fa'}}>

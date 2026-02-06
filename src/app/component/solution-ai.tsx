@@ -7,6 +7,10 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 
+type ProductsDict = Dictionary["products"];
+type RealProductKey = Exclude<keyof ProductsDict, "hero">;
+type RealProduct = ProductsDict[RealProductKey];
+
 interface PageProps {
   dict: Dictionary;
   locale: Locale;
@@ -48,23 +52,29 @@ export default function SolutionAISection({ dict, locale }: PageProps) {
     return url;
   };
 
-  // Ana sayfada gösterilecek product'ları al
+  // Ana sayfada gösterilecek product'ları al (hero entry hariç)
   const homepageProducts = Object.keys(dict.products)
     .filter((key) => {
+      if (key === "hero") return false;
       const product = dict.products[key as keyof typeof dict.products];
       return (
-        product && product.active !== false && product.showOnHomepage === true
+        product &&
+        "active" in product &&
+        product.active !== false &&
+        product.showOnHomepage === true
       );
     })
     .slice(0, 2) // İlk 2 product'ı al
     .map((key) => {
-      const productKey =
-        key as keyof import("@/i18n/types").Dictionary["products"];
+      const productKey = key as RealProductKey;
       const product = dict.products[productKey];
       const productSlug = getProductSlug(productKey);
-      return { key, product, slug: productSlug };
+      return { key: productKey, product, slug: productSlug };
     })
-    .filter((item) => item.product && item.slug);
+    .filter(
+      (item): item is { key: RealProductKey; product: RealProduct; slug: string } =>
+        item.product != null && item.slug != null && "name" in item.product
+    );
 
   if (homepageProducts.length === 0) {
     return null;

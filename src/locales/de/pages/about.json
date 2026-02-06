@@ -3,7 +3,13 @@
     "WhoWeAre": "Wer wir sind",
     "slogan": "Software-Lösungspartner & Innovationsunternehmen",
     "short": "Um erfolgreiche Software zu erstellen, benötigen Sie ein Entwicklungsteam, das Ihre Geschäftsanforderungen versteht. Unsere Experten werden eine maßgeschneiderte Lösung bestimmen, die zu Ihrer Idee, Ihrem Zeitplan und Ihrem Budget passt, dann die Anwendung entwerfen und erstellen und Ihnen helfen, sie mit echten Benutzern zu testen. Als Ergebnis erhalten Sie ein modernes digitales Produkt, das Ihrem Unternehmen nützt und von Benutzern geschätzt wird.",
-    "description": "Genixo ist ein Technologieunternehmen, das im Cyberpark der Bilkent-Universität tätig ist und KI-fokussierte Bildungsplattformen und Unternehmenslösungen entwickelt. Unser Team besteht aus Entwicklern mit fundiertem Fachwissen in modernen Webtechnologien und KI-Integrationen. Wir bauen skalierbare, sichere und benutzerfreundliche Systeme mit leistungsstarken Technologien wie Spring Boot, Next.js und PostgreSQL. Wir machen einen Unterschied im türkischen Bildungstechnologie-Ökosystem mit erfolgreichen Projekten wie StudyScore AI und Egitimiste.com. Wir bieten eine breite Palette von Lösungen, von KI-gestützten adaptiven Lernplattformen bis hin zu Unternehmensdokumentenmanagementsystemen, von Echtzeit-Prüfungsanwendungen bis hin zu Bildungsentdeckungsplattformen. Als vertrauenswürdiger Technologiepartner auf der digitalen Transformationsreise unserer Kunden arbeiten wir daran, Geschäftsanforderungen zu verstehen und die am besten geeigneten Lösungen zu entwickeln.",
+    "description": "Genixo ist ein Technologieunternehmen, das im Cyberpark der Bilkent-Universität tätig ist und KI-fokussierte Bildungsplattformen und Unternehmenslösungen entwickelt. Unser Team besteht aus Entwicklern mit fundiertem Fachwissen in modernen Webtechnologien und KI-Integrationen. Wir bauen skalierbare, sichere und benutzerfreundliche Systeme mit leistungsstarken Technologien wie Spring Boot, Next.js und PostgreSQL. Wir machen einen Unterschied im türkischen Bildungstechnologie-Ökosystem mit erfolgreichen Projekten wie StudyScore AI und Eğitim İste. Wir bieten eine breite Palette von Lösungen, von KI-gestützten adaptiven Lernplattformen bis hin zu Unternehmensdokumentenmanagementsystemen, von Echtzeit-Prüfungsanwendungen bis hin zu Bildungsentdeckungsplattformen. Als vertrauenswürdiger Technologiepartner auf der digitalen Transformationsreise unserer Kunden arbeiten wir daran, Geschäftsanforderungen zu verstehen und die am besten geeigneten Lösungen zu entwickeln.",
+    "images": {
+      "mainAlt": "Genixo Team und Technologielösungen",
+      "dynamismAlt": "Schnelle Technologieentwicklung und Innovation",
+      "passionAlt": "Leidenschaftliche Teamzusammenarbeit und Engagement",
+      "professionalismAlt": "Professioneller Geschäftsansatz und Qualität"
+    },
     "values": {
       "dynamism": {
         "title": "Dynamik",

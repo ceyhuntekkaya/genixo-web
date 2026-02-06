@@ -4,7 +4,6 @@ import CaseStudySection from "@/app/component/case-study";
 import BlogSection from "@/app/component/blog";
 import AboutAISection from "@/app/component/about-ai";
 import ServiceAISection from "@/app/component/service-ai";
-// import SolutionAISection from "@/app/component/solution-ai";
 import { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/getDictionary";
 import {
@@ -80,31 +79,10 @@ export default async function Home({
       />
       <HeroSection dict={dict} locale={locale} />
       <BlogSection dict={dict} locale={locale} />
-      {
-        //    <ServiceSection dict={dict} locale={locale} />
-      }
-
       <AboutSection dict={dict} locale={locale} />
-      {
-        //  <CounterSection/>
-      }
       <CaseStudySection dict={dict} locale={locale} />
-      {
-        //  <SkillSection/>
-        // <SolutionSection/>
-        //  <TestimonialSection/>
-        // <BrandSection/>
-        // <TeamSection/>
-      }
-
       <AboutAISection dict={dict} />
       <ServiceAISection dict={dict} locale={locale} />
-
-      {
-        //   <CounterAISection dict={dict} locale={locale} />
-      }
-
-      {/* <SolutionAISection dict={dict} locale={locale} /> */}
     </>
   );
 }

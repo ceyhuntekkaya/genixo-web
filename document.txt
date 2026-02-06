@@ -1,6 +1,10 @@
+185.123.156.110
 
 
 docker buildx build \
   --platform linux/amd64,linux/arm64 \
   -t ctekkaya/genixo-web-app:1.0 \
   --push .
+
+
+  ujk!vpm5rwk9NDV6apd

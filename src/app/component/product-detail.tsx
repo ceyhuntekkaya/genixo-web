@@ -81,7 +81,7 @@ function ContentSection({
           <div className="col-lg-6">
             <div className="product-detail-image">
               <Image
-                src={product.image1 || "/images/about/about-3.jpg"}
+                src={product.image1 || "/images/about-3.jpg"}
                 alt={product.name}
                 width={700}
                 height={700}

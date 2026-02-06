@@ -50,13 +50,27 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
                                     <ul className="link" style={{ listStyle: 'none', padding: 0 }}>
                                         <li style={{ marginBottom: '20px' }}>
                                             <a href="https://www.cyberpark.com.tr/" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'flex-start', textDecoration: 'none' }}>
-                                                <Image 
-                                                    src="/images/logos/cyberpark-logo.png" 
-                                                    alt="Bilkent Cyberpark Logo"
-                                                    width={50}
-                                                    height={50}
-                                                    style={{ objectFit: 'contain', marginRight: '15px', filter: 'brightness(0) invert(1)' }}
-                                                />
+                                                <span style={{
+                                                    display: 'inline-flex',
+                                                    alignItems: 'center',
+                                                    justifyContent: 'center',
+                                                    width: 56,
+                                                    height: 56,
+                                                    backgroundColor: '#fff',
+                                                    borderRadius: 8,
+                                                    padding: 8,
+                                                    marginRight: 15,
+                                                    flexShrink: 0,
+                                                    boxShadow: '0 1px 4px rgba(0,0,0,0.15)'
+                                                }}>
+                                                    <Image 
+                                                        src="/images/logos/cyberpark-logo.png" 
+                                                        alt="Bilkent Cyberpark Logo"
+                                                        width={40}
+                                                        height={40}
+                                                        style={{ objectFit: 'contain' }}
+                                                    />
+                                                </span>
                                                 <div>
                                                     <strong style={{ display: 'block', color: '#fff' }}>{footer?.cyberpark?.title}</strong>
                                                     <small style={{ color: '#aaa' }}>{footer?.cyberpark?.description}</small>
@@ -65,13 +79,27 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
                                         </li>
                                         <li style={{ marginBottom: '20px' }}>
                                             <a href="https://www.tbd.org.tr/" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'flex-start', textDecoration: 'none' }}>
-                                                <Image 
-                                                    src="/images/logos/tbd-logo.png" 
-                                                    alt="TBD Logo"
-                                                    width={50}
-                                                    height={50}
-                                                    style={{ objectFit: 'contain', marginRight: '15px', filter: 'brightness(0) invert(1)' }}
-                                                />
+                                                <span style={{
+                                                    display: 'inline-flex',
+                                                    alignItems: 'center',
+                                                    justifyContent: 'center',
+                                                    width: 56,
+                                                    height: 56,
+                                                    backgroundColor: '#fff',
+                                                    borderRadius: 8,
+                                                    padding: 8,
+                                                    marginRight: 15,
+                                                    flexShrink: 0,
+                                                    boxShadow: '0 1px 4px rgba(0,0,0,0.15)'
+                                                }}>
+                                                    <Image 
+                                                        src="/images/logos/tbd-logo.png" 
+                                                        alt="TBD Logo"
+                                                        width={40}
+                                                        height={40}
+                                                        style={{ objectFit: 'contain' }}
+                                                    />
+                                                </span>
                                                 <div>
                                                     <strong style={{ display: 'block', color: '#fff' }}>{footer?.tbd?.title}</strong>
                                                     <small style={{ color: '#aaa' }}>{footer?.tbd?.description}</small>
@@ -80,13 +108,27 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
                                         </li>
                                         <li style={{ marginBottom: '20px' }}>
                                             <a href="https://www.alte.org/" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'flex-start', textDecoration: 'none' }}>
-                                                <Image 
-                                                    src="/images/logos/alte-logo.png" 
-                                                    alt="ALTE Logo"
-                                                    width={50}
-                                                    height={50}
-                                                    style={{ objectFit: 'contain', marginRight: '15px', filter: 'brightness(0) invert(1)' }}
-                                                />
+                                                <span style={{
+                                                    display: 'inline-flex',
+                                                    alignItems: 'center',
+                                                    justifyContent: 'center',
+                                                    width: 56,
+                                                    height: 56,
+                                                    backgroundColor: '#fff',
+                                                    borderRadius: 8,
+                                                    padding: 8,
+                                                    marginRight: 15,
+                                                    flexShrink: 0,
+                                                    boxShadow: '0 1px 4px rgba(0,0,0,0.15)'
+                                                }}>
+                                                    <Image 
+                                                        src="/images/logos/alte-logo.png" 
+                                                        alt="ALTE Logo"
+                                                        width={40}
+                                                        height={40}
+                                                        style={{ objectFit: 'contain' }}
+                                                    />
+                                                </span>
                                                 <div>
                                                     <strong style={{ display: 'block', color: '#fff' }}>{footer?.alte?.title}</strong>
                                                     <small style={{ color: '#aaa' }}>{footer?.alte?.description}</small>

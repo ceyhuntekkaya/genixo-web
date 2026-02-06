@@ -4050,7 +4050,7 @@ body.modal-open {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding-bottom: 32px;
+  padding-bottom: 64px;
   z-index: 1;
 }
 

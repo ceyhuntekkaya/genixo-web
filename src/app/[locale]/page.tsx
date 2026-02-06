@@ -4,7 +4,7 @@ import CaseStudySection from "@/app/component/case-study";
 import BlogSection from "@/app/component/blog";
 import AboutAISection from "@/app/component/about-ai";
 import ServiceAISection from "@/app/component/service-ai";
-import SolutionAISection from "@/app/component/solution-ai";
+// import SolutionAISection from "@/app/component/solution-ai";
 import { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/getDictionary";
 import {
@@ -104,7 +104,7 @@ export default async function Home({
         //   <CounterAISection dict={dict} locale={locale} />
       }
 
-      <SolutionAISection dict={dict} locale={locale} />
+      {/* <SolutionAISection dict={dict} locale={locale} /> */}
     </>
   );
 }

@@ -9,12 +9,14 @@ type ServiceItem = Dictionary['services'][number];
 interface RelatedSolutionsProps {
     locale: Locale;
     currentSlug?: string;
+    currentSolutionTitle?: string;
     maxItems?: number;
 }
 
 export default async function RelatedSolutionsSection({ 
     locale, 
     currentSlug,
+    currentSolutionTitle,
     maxItems = 3 
 }: RelatedSolutionsProps) {
     const dict = await getDictionary(locale);
@@ -31,9 +33,12 @@ export default async function RelatedSolutionsSection({
         return null;
     }
 
-    const sectionTitle = currentSlug 
-        ? (locale === 'tr' ? 'Diğer Çözümlerimiz' : 'Other Solutions')
-        : (locale === 'tr' ? 'Çözümlerimiz' : 'Our Solutions');
+    // Sayfa hero title ile ilişkili başlık: mevcut çözüm adı varsa ona göre
+    const sectionTitle = currentSlug && currentSolutionTitle
+        ? (locale === 'tr' ? `${currentSolutionTitle} ile İlgili Diğer Çözümler` : `Other Solutions Related to ${currentSolutionTitle}`)
+        : currentSlug 
+            ? (locale === 'tr' ? 'Diğer Çözümlerimiz' : 'Other Solutions')
+            : (locale === 'tr' ? 'Çözümlerimiz' : 'Our Solutions');
 
     const sectionSubtitle = currentSlug
         ? (locale === 'tr' ? 'Keşfedin' : 'Explore More')

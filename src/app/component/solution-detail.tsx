@@ -48,13 +48,18 @@ export default async function SolutionDetail({
         backgroundImage={service.image1 || "/images/bg/page-banner.jpg"}
       />
 
-      {/* Content Section */}
+      {/* Content Section - Hero title bu bölümde başlık olarak gösterilir */}
       <div className="section genixo-about-section-07 section-padding">
         <div className="shape-1"></div>
         <div className="container">
           <div className="about-wrap">
             <div className="row justify-content-center">
               <div className="col-lg-10">
+                <div className="section-title text-center mb-5">
+                  <h3 className="sub-title-modern">{dict.menu.Solutions}</h3>
+                  <h2 className="title">{service.name}</h2>
+                </div>
+
                 {service.description && (
                   <ServiceDescription description={service.description} />
                 )}
@@ -71,6 +76,7 @@ export default async function SolutionDetail({
       <RelatedSolutionsSection
         locale={locale}
         currentSlug={solutionSlug}
+        currentSolutionTitle={service.name}
         maxItems={3}
       />
     </>

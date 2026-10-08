@@ -21,6 +21,9 @@ RUN npm run build
 FROM node:20-alpine AS runner
 WORKDIR /app
 
+# Dış API'lere HTTPS isteği için CA sertifikaları (chat API fetch için gerekli)
+RUN apk add --no-cache ca-certificates
+
 ENV NODE_ENV=production
 ENV NEXT_TELEMETRY_DISABLED=1
 

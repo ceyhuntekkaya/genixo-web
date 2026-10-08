@@ -3,7 +3,7 @@ ujk!vpm5rwk9NDV6apd
 
 
 docker buildx build \
-  --platform linux/amd64,linux/arm64 \
+  --platform linux/amd64 \
   -t ctekkaya/genixo-web-app:1.0 \
   --push .
 

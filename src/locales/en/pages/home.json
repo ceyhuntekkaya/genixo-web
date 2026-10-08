@@ -1,4 +1,93 @@
 {
+  "landing": {
+    "hero": {
+      "eyebrow": "Bilkent Cyberpark · Software & AI",
+      "titleBefore": "We bring scattered work into ",
+      "titleMark": "one system",
+      "titleAfter": ".",
+      "lead": "Quotes in Excel, orders in WhatsApp groups, and the monthly report three days late? The problem isn't your team, it's your system. We study how you work, then roll out custom software and AI integrations together with your team.",
+      "primary": "Book a call",
+      "secondary": "Explore solutions"
+    },
+    "board": {
+      "toggleLabel": "View",
+      "before": "Today",
+      "after": "With Genixo",
+      "caption": "Illustrative view",
+      "items": [
+        {
+          "id": "quote",
+          "before": { "label": "XLSX", "value": "quote_FINAL_final2.xlsx", "meta": "Edited by 4 people" },
+          "after": { "label": "Quote", "value": "10 min", "meta": "Generated from template" }
+        },
+        {
+          "id": "stock",
+          "before": { "label": "Sales team · 14:32", "value": "How many are left in the warehouse? Can someone check?", "meta": "3 unread" },
+          "after": { "label": "Stock", "value": "1,284 units", "meta": "Live · synced with warehouse" }
+        },
+        {
+          "id": "report",
+          "before": { "label": "Monthly profit report", "value": "Preparing… day 3", "meta": "Waiting on accounting" },
+          "after": { "label": "Profit margin", "value": "18.4%", "meta": "Updated today at 08:00" }
+        },
+        {
+          "id": "invoice",
+          "before": { "label": "Note", "value": "Enter invoices by hand. Due Friday!", "meta": "" },
+          "after": { "label": "Invoices", "value": "Auto-matched", "meta": "312 this month" }
+        },
+        {
+          "id": "customer",
+          "before": { "label": "Missed call", "value": "“I called yesterday, nobody got back to me.”", "meta": "Customer · 2 days ago" },
+          "after": { "label": "Customer request", "value": "Answered in 2 min", "meta": "AI assistant · handed to team" }
+        }
+      ]
+    },
+    "problems": {
+      "eyebrow": "Sound familiar?",
+      "title": "Six bottlenecks we see most often in growing companies"
+    },
+    "solutions": {
+      "eyebrow": "What we do",
+      "title": "From first consultation to a live system, one team",
+      "all": "See all solutions"
+    },
+    "process": {
+      "eyebrow": "How we work",
+      "title": "We listen first, then write code",
+      "steps": [
+        { "title": "We listen", "text": "We study your processes on site and find where time gets lost and where information breaks down." },
+        { "title": "We plan", "text": "We define a solution that fits your goals, timeline and budget, and map it out step by step." },
+        { "title": "We build", "text": "We design and build the application and share progress with you regularly." },
+        { "title": "We test with real users", "text": "We test the system with your team, refine it based on feedback and put it into use." }
+      ]
+    },
+    "products": {
+      "eyebrow": "Our own products",
+      "title": "The same team builds its own products",
+      "lead": "The education technology platforms we've built are live and in use today. We build your system with the same care.",
+      "visit": "Visit site"
+    },
+    "ngsd": {
+      "eyebrow": "Genixo NGSD",
+      "title": "Get a software team without building a software department",
+      "lead": "A remote software team that scales with your needs, with no hiring, office or management overhead.",
+      "remote": "Transparent operations and regular reporting. Distance doesn't matter.",
+      "dynamic": "As your needs change, the team and the plan change with them.",
+      "global": "We think about your projects at international scale from day one.",
+      "cta": "Explore NGSD"
+    },
+    "reading": {
+      "eyebrow": "Blog",
+      "title": "Worth reading",
+      "read": "Read article"
+    },
+    "contact": {
+      "title": "Which process costs your business the most time?",
+      "lead": "Tell us and we'll look at it together. In the first call we listen to where you are today and talk about where it makes sense to start.",
+      "primary": "Book a call",
+      "direct": "or reach us directly"
+    }
+  },
   "hero": {
     "subtitle": "INFORMATION TECHNOLOGY - AI SOLUTIONS",
     "title": "We Create Value with Smart Technologies.",

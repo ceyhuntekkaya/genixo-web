@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { companyInfo } from "@/utils/company";
 import { Dictionary } from "@/i18n/types";
 
@@ -9,6 +10,10 @@ interface CTASectionProps {
 }
 
 export default function CTASection({ dict }: CTASectionProps) {
+  const pathname = usePathname();
+  // The homepage ends with its own contact section.
+  if (/^\/[a-z]{2}\/?$/.test(pathname ?? "")) return null;
+
   return (
     <div className="section genixo-cta-section-02">
       <div className="container">

@@ -1,4 +1,93 @@
 {
+  "landing": {
+    "hero": {
+      "eyebrow": "Bilkent Cyberpark · Logiciel & IA",
+      "titleBefore": "Nous réunissons le travail dispersé dans ",
+      "titleMark": "un seul système",
+      "titleAfter": ".",
+      "lead": "Devis sur Excel, commandes sur WhatsApp, rapport mensuel avec trois jours de retard ? Le problème n'est pas votre équipe, c'est votre système. Nous analysons vos processus, puis déployons avec votre équipe des logiciels sur mesure et des intégrations d'IA.",
+      "primary": "Planifier un échange",
+      "secondary": "Voir les solutions"
+    },
+    "board": {
+      "toggleLabel": "Vue",
+      "before": "Aujourd'hui",
+      "after": "Avec Genixo",
+      "caption": "Vue d'exemple",
+      "items": [
+        {
+          "id": "quote",
+          "before": { "label": "XLSX", "value": "devis_FINAL_final2.xlsx", "meta": "Modifié par 4 personnes" },
+          "after": { "label": "Devis", "value": "10 min", "meta": "Généré depuis un modèle" }
+        },
+        {
+          "id": "stock",
+          "before": { "label": "Équipe commerciale · 14:32", "value": "Il en reste combien en stock ? Quelqu'un peut vérifier ?", "meta": "3 non lus" },
+          "after": { "label": "Stock", "value": "1 284 unités", "meta": "En direct · synchronisé avec l'entrepôt" }
+        },
+        {
+          "id": "report",
+          "before": { "label": "Rapport mensuel des bénéfices", "value": "En préparation… jour 3", "meta": "En attente de la comptabilité" },
+          "after": { "label": "Marge bénéficiaire", "value": "18,4 %", "meta": "Mis à jour aujourd'hui à 08:00" }
+        },
+        {
+          "id": "invoice",
+          "before": { "label": "Note", "value": "Saisir les factures à la main, avant vendredi !", "meta": "" },
+          "after": { "label": "Factures", "value": "Rapprochées automatiquement", "meta": "312 ce mois-ci" }
+        },
+        {
+          "id": "customer",
+          "before": { "label": "Appel manqué", "value": "« J'ai appelé hier, personne ne m'a rappelé. »", "meta": "Client · il y a 2 jours" },
+          "after": { "label": "Demande client", "value": "Réponse en 2 min", "meta": "Assistant IA · transmis à l'équipe" }
+        }
+      ]
+    },
+    "problems": {
+      "eyebrow": "Ça vous parle ?",
+      "title": "Les six blocages que nous voyons le plus souvent dans les entreprises en croissance"
+    },
+    "solutions": {
+      "eyebrow": "Ce que nous faisons",
+      "title": "Du premier conseil au système en production, une seule équipe",
+      "all": "Voir toutes les solutions"
+    },
+    "process": {
+      "eyebrow": "Notre méthode",
+      "title": "D'abord écouter, ensuite coder",
+      "steps": [
+        { "title": "Nous écoutons", "text": "Nous étudions vos processus sur place pour repérer où le temps se perd et où l'information ne circule plus." },
+        { "title": "Nous planifions", "text": "Nous définissons une solution adaptée à vos objectifs, à votre calendrier et à votre budget, avec une feuille de route étape par étape." },
+        { "title": "Nous développons", "text": "Nous concevons et développons l'application, et partageons régulièrement l'avancement avec vous." },
+        { "title": "Nous testons avec de vrais utilisateurs", "text": "Nous testons le système avec votre équipe, l'améliorons selon les retours, puis le mettons en service." }
+      ]
+    },
+    "products": {
+      "eyebrow": "Nos propres produits",
+      "title": "La même équipe développe ses propres produits",
+      "lead": "Les plateformes edtech que nous avons créées sont en ligne et utilisées aujourd'hui. Nous construisons votre système avec le même soin.",
+      "visit": "Visiter le site"
+    },
+    "ngsd": {
+      "eyebrow": "Genixo NGSD",
+      "title": "Une équipe logicielle sans créer de département informatique",
+      "lead": "Une équipe de développement à distance qui s'adapte à vos besoins, sans recrutement, bureaux ni charge de gestion.",
+      "remote": "Opérations transparentes et reporting régulier. La distance ne compte pas.",
+      "dynamic": "Quand vos besoins évoluent, l'équipe et le plan évoluent aussi.",
+      "global": "Nous pensons vos projets à l'échelle internationale dès le départ.",
+      "cta": "Découvrir NGSD"
+    },
+    "reading": {
+      "eyebrow": "Blog",
+      "title": "À lire",
+      "read": "Lire l'article"
+    },
+    "contact": {
+      "title": "Quel processus vous fait perdre le plus de temps ?",
+      "lead": "Racontez-nous, nous regarderons ensemble. Lors du premier échange, nous écoutons votre situation actuelle et voyons par où il est logique de commencer.",
+      "primary": "Planifier un échange",
+      "direct": "ou contactez-nous directement"
+    }
+  },
   "hero": {
     "subtitle": "TECHNOLOGIES DE L'INFORMATION - SOLUTIONS IA",
     "title": "Nous créons de la valeur avec des technologies intelligentes.",

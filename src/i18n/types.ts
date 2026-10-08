@@ -1,3 +1,74 @@
+export type BoardFace = {
+    label: string;
+    value: string;
+    meta: string;
+};
+
+export type BoardItem = {
+    id: "quote" | "stock" | "report" | "invoice" | "customer";
+    before: BoardFace;
+    after: BoardFace;
+};
+
+export type Landing = {
+    hero: {
+        eyebrow: string;
+        titleBefore: string;
+        titleMark: string;
+        titleAfter: string;
+        lead: string;
+        primary: string;
+        secondary: string;
+    };
+    board: {
+        toggleLabel: string;
+        before: string;
+        after: string;
+        caption: string;
+        items: BoardItem[];
+    };
+    problems: {
+        eyebrow: string;
+        title: string;
+    };
+    solutions: {
+        eyebrow: string;
+        title: string;
+        all: string;
+    };
+    process: {
+        eyebrow: string;
+        title: string;
+        steps: Array<{ title: string; text: string }>;
+    };
+    products: {
+        eyebrow: string;
+        title: string;
+        lead: string;
+        visit: string;
+    };
+    ngsd: {
+        eyebrow: string;
+        title: string;
+        lead: string;
+        remote: string;
+        dynamic: string;
+        global: string;
+        cta: string;
+    };
+    reading: {
+        eyebrow: string;
+        title: string;
+        read: string;
+    };
+    contact: {
+        title: string;
+        lead: string;
+        primary: string;
+        direct: string;
+    };
+};
+
 export type Dictionary = {
 
     "general": {
@@ -270,6 +341,7 @@ export type Dictionary = {
             "content": string;
         };
     };
+    "landing"?: Landing;
     "counter": {
         "items": Array<{
             "value": string;

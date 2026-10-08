@@ -1,9 +1,4 @@
-import HeroSection from "@/app/component/hero";
-import AboutSection from "@/app/component/about";
-import CaseStudySection from "@/app/component/case-study";
-import BlogSection from "@/app/component/blog";
-import AboutAISection from "@/app/component/about-ai";
-import ServiceAISection from "@/app/component/service-ai";
+import HomeLanding from "@/app/component/home/home-landing";
 import { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/getDictionary";
 import {
@@ -77,12 +72,7 @@ export default async function Home({
           __html: JSON.stringify(websiteStructuredData),
         }}
       />
-      <HeroSection dict={dict} locale={locale} />
-      <BlogSection dict={dict} locale={locale} />
-      <AboutSection dict={dict} locale={locale} />
-      <CaseStudySection dict={dict} locale={locale} />
-      <AboutAISection dict={dict} />
-      <ServiceAISection dict={dict} locale={locale} />
+      <HomeLanding dict={dict} locale={locale} />
     </>
   );
 }

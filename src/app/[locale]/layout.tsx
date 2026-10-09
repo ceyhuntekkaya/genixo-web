@@ -1,14 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import FooterSection from "@/app/component/footer";
-import logo from "@/app/assets/logo.png";
-import whiteLogo from "@/app/assets/Genixo_Logo_White.png";
-import Image from "next/image";
-import Link from "next/link";
-import MenuSection from "@/app/component/menu";
-import MenuList from "@/app/component/menu-list";
-import BootstrapScript from "@/app/component/bootstrap-script";
-import CTASection from "@/app/component/cta-section";
+import SiteHeader from "@/app/component/site/site-header";
+import SiteFooter from "@/app/component/site/site-footer";
+import { buildNav, footerGroups } from "@/app/component/site/nav";
 import JsonLd from "@/app/component/json-ld";
 import ConsentBanner from "@/app/component/consent-banner";
 import Analytics from "@/app/component/analytics";
@@ -38,8 +32,7 @@ export async function generateMetadata({
   if (!(locales as readonly string[]).includes(locale)) return {};
   const typed = locale as Locale;
   const dict = await getDictionary(typed);
-  const homeTitle = dict.seo?.pages?.home?.title || (typed === "tr" ? "Genixo" : "Genixo");
-  const description = dict.seo?.pages?.home?.description || shortDefinitionFor(typed);
+  const description = shortDefinitionFor(typed);
   const indexable = isIndexable(typed);
 
   const verification: Metadata["verification"] = {};
@@ -57,7 +50,7 @@ export async function generateMetadata({
     metadataBase: new URL(SITE_URL),
     title: {
       template: "%s | Genixo",
-      default: homeTitle,
+      default: `Genixo – ${dict.chrome.tagline}`,
     },
     description,
     robots: indexable ? { index: true, follow: true } : { index: false, follow: true },
@@ -77,65 +70,24 @@ export default async function LocaleLayout({
   if (!(locales as readonly string[]).includes(locale)) notFound();
   const typedLocale = locale as Locale;
   const dict = await getDictionary(typedLocale);
+  const nav = buildNav(dict, typedLocale);
 
   return (
     <html lang={typedLocale}>
-      <body className={`${displayFont.variable} ${bodyFont.variable} ${monoFont.variable}`}>
+      <body
+        id="top"
+        className={`${displayFont.variable} ${bodyFont.variable} ${monoFont.variable}`}
+        suppressHydrationWarning
+      >
         <noscript>
           <style>{`[data-aos]{opacity:1!important;transform:none!important}`}</style>
         </noscript>
         <JsonLd data={siteGraph(typedLocale)} />
-        <BootstrapScript />
-        <div className="main-wrapper">
-          <div id="header" className="section header-section">
-            <div className="container">
-              <div className="header-wrap">
-                <div className="header-logo">
-                  <Link href={`/${typedLocale}`}>
-                    <Image src={logo} alt="Genixo" className="w-35 h-auto mt-4" />
-                  </Link>
-                </div>
-                <MenuSection locale={typedLocale} dict={dict} />
-              </div>
-            </div>
-          </div>
-
-          <div className="offcanvas offcanvas-start" id="offcanvasExample" tabIndex={-1} aria-labelledby="offcanvasExampleLabel">
-            <div className="offcanvas-header">
-              <div className="offcanvas-logo">
-                <Link href={`/${typedLocale}`} aria-label="Ana Sayfa">
-                  <Image
-                    src={whiteLogo}
-                    alt="Genixo"
-                    width={130}
-                    height={50}
-                    style={{ width: "130px", height: "auto" }}
-                    priority={false}
-                  />
-                </Link>
-              </div>
-              <button type="button" className="close-btn" data-bs-dismiss="offcanvas" aria-label="Menüyü Kapat">
-                <i className="flaticon-close"></i>
-              </button>
-            </div>
-            <div className="offcanvas-body">
-              <div className="offcanvas-menu">
-                <MenuList locale={typedLocale} dict={dict} />
-              </div>
-            </div>
-          </div>
-
+        <SiteHeader locale={typedLocale} nav={nav} chrome={dict.chrome} />
+        <main id="main" tabIndex={-1}>
           {children}
-
-          <CTASection dict={dict} />
-          <FooterSection locale={typedLocale} dict={dict} />
-
-          <div className="progress-wrap">
-            <svg className="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-              <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-            </svg>
-          </div>
-        </div>
+        </main>
+        <SiteFooter locale={typedLocale} dict={dict} groups={footerGroups(dict, typedLocale)} />
         <ConsentBanner locale={typedLocale} />
         <Analytics />
       </body>

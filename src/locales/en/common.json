@@ -1,61 +1,129 @@
 {
-  "general": {
-    "ReadMore": "Read More",
-    "ctaMessage": "We are Delivering the best customer Experience"
-  },
   "menu": {
     "Home": "Home",
-    "Solutions": "Solutions",
-    "Products": "Products",
-    "SuccessStories": "Success",
-    "GovernmentSupport": "Consulting",
-    "NGSD": "NGSD",
+    "Services": "Services",
+    "CaseStudies": "Case studies",
+    "HowWeWork": "How we work",
+    "Pricing": "Pricing",
     "AboutUs": "About",
     "Blog": "Blog",
     "ContactUs": "Contact",
-    "ContactInfo": "Contact Information",
+    "Products": "Products",
     "ILC": "ILC International Language Certification",
     "StudyScoreAI": "Study Score AI",
     "Egitimiste": "Eğitim İste",
     "GenixoWorkAI": "Genixo Work AI",
     "GenixoAssistant": "Genixo Assistant",
     "TOMEREYadis": "TÖMER E-Yadis",
-    "RetiredTravelApp": "Retired Travel App",
-    "active": {
-      "Solutions": true,
-      "Products": true,
-      "SuccessStories": false,
-      "GovernmentSupport": false,
-      "NGSD": true,
-      "AboutUs": true,
-      "Blog": true,
-      "ContactUs": true
+    "RetiredTravelApp": "Retired Travel App"
+  },
+  "offers": {
+    "ai-automation": {
+      "name": "AI process automation",
+      "summary": "AI reads, drafts and sorts. Your team approves. We start with one process and measure it."
+    },
+    "custom-software": {
+      "name": "Custom software",
+      "summary": "Systems built around how you already work, connected to your ERP, accounting and field teams."
+    },
+    "product-studio": {
+      "name": "Product studio",
+      "summary": "From an idea to a live web or mobile product. The code, accounts and designs are yours."
+    },
+    "ngsd": {
+      "name": "NGSD: external software department",
+      "summary": "An ongoing team with an assigned project manager, for companies that need software all year."
     }
   },
-  "welcome": {
-    "title": "Genixo"
-  },
-  "company": {
-    "name": "Genixo IT and Technology",
-    "defaultDescription": "Software Solution Partner & Innovation Company - Web applications, mobile development, cloud solutions and AI-powered software development services.",
-    "defaultKeywords": "software development, web application, mobile application, cloud solutions, AI software, software consulting, DevOps, data science"
+  "chrome": {
+    "cta": "Book a first call",
+    "tagline": "Your software department, AI included",
+    "menuOpen": "Menu",
+    "menuClose": "Close",
+    "language": "Language",
+    "viewAll": "Overview",
+    "pages": "Pages",
+    "skip": "Skip to content",
+    "backToTop": "Back to top",
+    "primaryNav": "Main menu"
   },
   "footer": {
-    "contactInfo": "Contact Information",
-    "copyright": "© Copyrights 2026 genixo.ai All rights reserved.",
-    "address": "Bilkent Cyberpark",
-    "partnerships": "Our Affiliated Organizations",
+    "services": "Services",
+    "company": "Company",
+    "resources": "How we operate",
+    "contact": "Contact",
+    "memberships": "Memberships",
+    "aiReadiness": "AI readiness assessment",
+    "howWeWork": "How we work",
+    "whatWeDontDo": "What we don't do",
+    "dataSecurity": "Data security and KVKK",
     "cyberpark": {
       "title": "Bilkent Cyberpark",
-      "description": "R&D Company"
+      "description": "R&D company"
     },
     "tbd": {
       "title": "TBD",
-      "description": "Member of Turkish Informatics Association"
+      "description": "Member of the Turkish Informatics Association"
     },
     "alte": {
       "title": "ALTE",
-      "description": "Member of Association of Language Testers in Europe"
+      "description": "Member of the Association of Language Testers in Europe"
     }
+  },
+  "ui": {
+    "inShort": "In short",
+    "home": "Home",
+    "sources": "Sources",
+    "related": "Related",
+    "updated": "Updated",
+    "author": "Author",
+    "faq": "Common questions",
+    "today": "Today",
+    "withAi": "With AI",
+    "measure": "What we measure",
+    "readScenario": "See how it works",
+    "readCase": "Read the case",
+    "bookCall": "Book a first call",
+    "direct": "or reach us directly",
+    "todo": "To be confirmed",
+    "notFoundTitle": "Page not found",
+    "notFoundBody": "This address is not published. These pages may help:",
+    "profile": {
+      "articles": "Articles",
+      "ctaTitle": "Talk to me directly.",
+      "ctaLead": "Tell me which process slows your team down. I'll tell you honestly whether we can help."
+    },
+    "articleCta": {
+      "title": "Which process costs your business the most time?",
+      "lead": "Tell us in a few sentences. In the first call we tell you where software or AI would make a measurable difference, or that we're not the right fit."
+    },
+    "caseFacts": {
+      "industry": "Industry",
+      "size": "Company size",
+      "duration": "Duration",
+      "stack": "Technology"
+    }
+  },
+  "blog": {
+    "latestBlog": "Latest articles",
+    "fromNewsRoom": "From recent articles",
+    "readFull": "Read the article"
+  },
+  "contactForm": {
+    "nameLabel": "Your name",
+    "namePlaceholder": "Name and surname",
+    "emailLabel": "Work email",
+    "emailPlaceholder": "name@company.com",
+    "messageLabel": "What takes your team the most time?",
+    "messageDescription": "One or two sentences is enough. Tell us the process, roughly how often it happens, and which systems you use today.",
+    "messagePlaceholder": "For example: we prepare around 40 quotes a month in Excel and each one takes half a day.",
+    "budgetLabel": "Budget range (optional)",
+    "budgetPlaceholder": "Leave empty if you are not sure yet",
+    "submitButton": "Send",
+    "submitting": "Sending...",
+    "successMessage": "Thank you. Your message reached us and we will reply by email.",
+    "errorMessage": "Please fill in your name, a valid email address and your message.",
+    "connectionError": "The message could not be sent. Please try again, or email hello@genixo.ai.",
+    "botDetectedMessage": "We could not verify your submission. Please try again."
   }
 }

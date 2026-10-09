@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "Nice to Meet You",
+    "description": "You scanned our card or met us at an event. Genixo is a software and AI team at Bilkent Cyberpark, Ankara. Here is what we do and how to reach us directly."
+  },
+  "breadcrumb": "Hello",
+  "hero": {
+    "eyebrow": "Genixo · Bilkent Cyberpark, Ankara",
+    "title": "Nice to meet you.",
+    "lead": "We're the software department for companies that don't have one, AI included. Here is the short version, and the fastest way to reach us.",
+    "primary": { "label": "Book a first call", "href": "/contact" },
+    "secondary": { "label": "How we work", "href": "/how-we-work" }
+  },
+  "sections": [
+    {
+      "kind": "prose",
+      "label": "In 60 seconds",
+      "title": "A word from our founder",
+      "paragraphs": ["[[TODO-068]]"]
+    },
+    {
+      "kind": "doors",
+      "label": "What we do",
+      "title": "Which one sounds like you?",
+      "items": [
+        {
+          "quote": "My team does the same work by hand every day, and mistakes slip through.",
+          "name": "AI process automation",
+          "text": "AI reads, drafts and sorts. Your team approves.",
+          "step": "See how it works",
+          "href": "/ai-automation"
+        },
+        {
+          "quote": "Off-the-shelf software doesn't fit us and doesn't talk to our ERP.",
+          "name": "Custom software",
+          "text": "Systems and integrations built around how you work.",
+          "step": "See how it works",
+          "href": "/custom-software"
+        },
+        {
+          "quote": "I have a product idea but no team to build it.",
+          "name": "Product studio",
+          "text": "From idea to a live web or mobile product you own.",
+          "step": "See how it works",
+          "href": "/product-studio"
+        },
+        {
+          "quote": "We need software all the time, but not a whole department.",
+          "name": "NGSD",
+          "text": "An ongoing Genixo team with an assigned project manager.",
+          "step": "See how it works",
+          "href": "/ngsd"
+        }
+      ]
+    },
+    {
+      "kind": "cases",
+      "limit": 3,
+      "label": "Proof",
+      "title": "Recent work"
+    },
+    {
+      "kind": "list",
+      "label": "Reach us directly",
+      "title": "Talk to a person, not a form",
+      "items": [
+        "Phone: [+90 312 265 04 56](tel:+903122650456)",
+        "Email: [hello@genixo.ai](mailto:hello@genixo.ai)",
+        "WhatsApp: [[TODO-007]]",
+        "Network: [[TODO-017]]"
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Let's continue the conversation.",
+    "lead": "Tell us which process takes your team the most time. We'll come back with an honest first view.",
+    "primary": { "label": "Book a first call", "href": "/contact" }
+  }
+}

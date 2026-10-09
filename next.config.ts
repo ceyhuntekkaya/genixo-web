@@ -1,5 +1,23 @@
 import type { NextConfig } from "next";
 
+/** Site v1 paths and where their content lives now. More specific paths first. */
+const LEGACY_REDIRECTS: Array<[string, string]> = [
+  ["/service", "/services"],
+  ["/service/:type", "/services"],
+  ["/solutions/ai-integration", "/ai-automation"],
+  ["/solutions/digital-transformation", "/ai-readiness-assessment"],
+  ["/solutions/business-process-digitalization", "/custom-software"],
+  ["/solutions/smart-reporting-analytics", "/custom-software"],
+  ["/solutions/system-improvement-modernization", "/custom-software"],
+  ["/solutions/cost-optimization", "/custom-software"],
+  ["/solutions/product-project-development", "/product-studio"],
+  ["/solutions", "/services"],
+  ["/government-support", "/pricing"],
+  ["/case-study", "/case-studies"],
+  ["/case-study/:slug", "/case-studies/:slug"],
+  ["/authors/:slug", "/team/:slug"],
+];
+
 const nextConfig: NextConfig = {
   output: "standalone",
   compress: true,
@@ -41,15 +59,20 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: "/:locale(tr|en|de|fr|ru)/service",
-        destination: "/:locale/solutions",
+        source: "/:old(de|fr|ru)",
+        destination: "/en",
         permanent: true,
       },
       {
-        source: "/:locale(tr|en|de|fr|ru)/service/:type",
-        destination: "/:locale/solutions/:type",
+        source: "/:old(de|fr|ru)/:path*",
+        destination: "/en/:path*",
         permanent: true,
       },
+      ...LEGACY_REDIRECTS.map(([from, to]) => ({
+        source: `/:locale(tr|en)${from}`,
+        destination: `/:locale${to}`,
+        permanent: true,
+      })),
     ];
   },
 };

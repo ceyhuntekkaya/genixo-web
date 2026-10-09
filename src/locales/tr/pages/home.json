@@ -1,211 +1,188 @@
 {
-  "landing": {
-    "hero": {
-      "eyebrow": "Bilkent Cyberpark · Yazılım ve yapay zekâ",
-      "titleBefore": "Dağınık işleri ",
-      "titleMark": "tek sisteme",
-      "titleAfter": " topluyoruz.",
-      "lead": "Teklifler Excel'de, siparişler WhatsApp gruplarında, aylık rapor üç gün gecikmeli mi geliyor? Sorun ekibiniz değil, sisteminiz. Süreçlerinizi inceliyor, size özel yazılımı ve yapay zekâ entegrasyonunu ekibinizle birlikte devreye alıyoruz.",
-      "primary": "Görüşme planlayın",
-      "secondary": "Çözümleri inceleyin"
-    },
-    "board": {
-      "toggleLabel": "Görünüm",
-      "before": "Bugün",
-      "after": "Genixo ile",
-      "caption": "Örnek görünüm",
-      "items": [
-        {
-          "id": "quote",
-          "before": {
-            "label": "XLSX",
-            "value": "teklif_SON_son2.xlsx",
-            "meta": "4 kişi düzenledi"
-          },
-          "after": {
-            "label": "Teklif",
-            "value": "10 dk",
-            "meta": "Şablondan otomatik hazırlandı"
-          }
-        },
-        {
-          "id": "stock",
-          "before": {
-            "label": "Satış Ekibi · 14:32",
-            "value": "Depoda kaç tane kaldı? Biri bakabilir mi?",
-            "meta": "3 okunmamış"
-          },
-          "after": {
-            "label": "Stok",
-            "value": "1.284 adet",
-            "meta": "Canlı · depoyla senkron"
-          }
-        },
-        {
-          "id": "report",
-          "before": {
-            "label": "Aylık kâr raporu",
-            "value": "Hazırlanıyor… 3. gün",
-            "meta": "Muhasebeden bekleniyor"
-          },
-          "after": {
-            "label": "Kâr marjı",
-            "value": "%18,4",
-            "meta": "Bugün 08:00'de güncellendi"
-          }
-        },
-        {
-          "id": "invoice",
-          "before": {
-            "label": "Not",
-            "value": "Faturaları elle gir, Cuma'ya yetişsin!",
-            "meta": ""
-          },
-          "after": {
-            "label": "Faturalar",
-            "value": "Otomatik eşleşti",
-            "meta": "Bu ay 312 fatura"
-          }
-        },
-        {
-          "id": "customer",
-          "before": {
-            "label": "Cevapsız arama",
-            "value": "“Dün aradım, kimse dönmedi.”",
-            "meta": "Müşteri · 2 gün önce"
-          },
-          "after": {
-            "label": "Müşteri talebi",
-            "value": "2 dk'da yanıtlandı",
-            "meta": "Yapay zekâ asistanı · ekibe aktarıldı"
-          }
-        }
-      ]
-    },
-    "problems": {
-      "eyebrow": "Tanıdık geldi mi?",
-      "title": "Büyüyen şirketlerde en sık gördüğümüz altı tıkanıklık"
-    },
-    "solutions": {
-      "eyebrow": "Ne yapıyoruz",
-      "title": "Danışmanlıktan canlı sisteme, tek ekip",
-      "all": "Tüm çözümleri görün"
-    },
-    "process": {
-      "eyebrow": "Nasıl çalışıyoruz",
-      "title": "Önce dinliyoruz, sonra kod yazıyoruz",
-      "steps": [
-        {
-          "title": "Dinliyoruz",
-          "text": "Süreçlerinizi yerinde inceliyor; zamanın nerede kaybolduğunu, bilginin nerede koptuğunu buluyoruz."
-        },
-        {
-          "title": "Planlıyoruz",
-          "text": "Hedefinize, takviminize ve bütçenize uyan çözümü belirliyor, adım adım bir yol haritası çıkarıyoruz."
-        },
-        {
-          "title": "Geliştiriyoruz",
-          "text": "Uygulamayı tasarlayıp inşa ediyor, ilerlemeyi düzenli olarak sizinle paylaşıyoruz."
-        },
-        {
-          "title": "Gerçek kullanıcılarla deniyoruz",
-          "text": "Sistemi ekibinizle birlikte test ediyor, geri bildirime göre iyileştirip devreye alıyoruz."
-        }
-      ]
-    },
-    "products": {
-      "eyebrow": "Kendi ürünlerimiz",
-      "title": "Aynı ekip, kendi ürünlerini de geliştiriyor",
-      "lead": "Eğitim teknolojisi alanında geliştirdiğimiz platformlar bugün canlıda ve kullanılıyor. Size kuracağımız sistemi de aynı özenle inşa ediyoruz.",
-      "visit": "Siteyi ziyaret edin"
-    },
-    "ngsd": {
-      "eyebrow": "Genixo NGSD",
-      "title": "Yazılım departmanı kurmadan bir yazılım ekibiniz olsun",
-      "lead": "İşe alım, ofis ve yönetim yükü olmadan; ihtiyacınıza göre büyüyüp küçülen, uzaktan çalışan bir yazılım ekibi.",
-      "remote": "Şeffaf operasyon ve düzenli raporlama. Mesafe fark etmez.",
-      "dynamic": "İhtiyaçlarınız değiştikçe ekip ve plan da değişir.",
-      "global": "Projelerinizi baştan uluslararası ölçekte düşünüyoruz.",
-      "cta": "NGSD'yi keşfedin"
-    },
-    "reading": {
-      "eyebrow": "Blog",
-      "title": "Okumaya değer",
-      "read": "Yazıyı okuyun"
-    },
-    "contact": {
-      "title": "İşinizde en çok zaman kaybettiren süreç hangisi?",
-      "lead": "Anlatın, birlikte bakalım. İlk görüşmede mevcut durumunuzu dinliyor, nereden başlamanın mantıklı olduğunu konuşuyoruz.",
-      "primary": "Görüşme planlayın",
-      "direct": "ya da doğrudan ulaşın"
-    }
+  "meta": {
+    "title": "Genixo – Yazılım departmanınız, yapay zekâ dahil",
+    "description": "Genixo, Ankara Bilkent Cyberpark'ta bir yazılım ve yapay zekâ ekibidir. Süreçleri insan onayıyla otomatikleştirir, özel yazılım kurar ve NGSD ekipleri yürütürüz."
   },
   "hero": {
-    "subtitle": "BİLİŞİM - TEKNOLOJİ - YAPAY ZEKA ÇÖZÜMLERİ",
-    "title": "Akıllı Teknolojilerle Değer Yaratıyoruz.",
-    "description": "Karmaşık problemlere akıllı çözümler...",
-    "button": "Hizmetlerimiz"
+    "eyebrow": "Bilkent Cyberpark, Ankara · Yazılım ve yapay zekâ",
+    "titleBefore": "Yazılım departmanınız, ",
+    "titleMark": "yapay zekâ dahil",
+    "titleAfter": ".",
+    "lead": "İşin bugün nasıl yürüdüğünü ölçer, yapay zekâyı ekibinizin onayladığı adımlar olarak ekler, sistemi kurar ve işletmek için kalırız.",
+    "primary": { "label": "30 dakikalık görüşme planlayın", "href": "/contact" },
+    "secondary": { "label": "Nasıl çalışıyoruz", "href": "/how-we-work" },
+    "secondaryWithCases": { "label": "Vaka çalışmalarını görün", "href": "/case-studies" }
   },
-  "counter": {
-    "items": [
-      {
-        "value": "354+",
-        "label": "Tamamlanan Proje"
-      },
-      {
-        "value": "119+",
-        "label": "Çalışılan Kurum"
-      },
-      {
-        "value": "99%",
-        "label": "Web Sitesi Analizi"
-      },
-      {
-        "value": "321+",
-        "label": "Müşteri Desteği"
-      }
+  "journey": {
+    "title": "Bir siparişin ömrü",
+    "caption": "Örnek senaryo",
+    "toggleLabel": "Görünüm",
+    "before": "Bugün",
+    "after": "Genixo ile",
+    "lanes": ["Müşteri", "Satış", "Depo", "Muhasebe", "Yönetim"],
+    "totalLabel": "Siparişten faturaya",
+    "beforeTotal": "2 gün 7 saat",
+    "afterTotal": "9 dakika",
+    "beforeSteps": [
+      { "time": "Pzt 09:12", "text": "Sipariş WhatsApp'tan gelir" },
+      { "time": "Pzt 11:40", "text": "Fiyat eski bir Excel dosyasında aranır" },
+      { "time": "Pzt 15:05", "text": "Stok telefonda sorulur" },
+      { "time": "Sal 10:30", "text": "quote_FINAL_v4.xlsx gönderilir" },
+      { "time": "Çar 09:50", "text": "“Dün aradım. Kimse dönmedi.”" },
+      { "time": "Çar 16:20", "text": "Fatura elle girilir" },
+      { "time": "Ay sonu", "text": "Rapor hâlâ hazır değil" }
+    ],
+    "afterSteps": [
+      { "time": "09:12", "text": "Sipariş portaldan girilir" },
+      { "time": "09:13", "text": "Teklif taslağı hazır, satış onaylar" },
+      { "time": "09:13", "text": "Stok otomatik ayrılır" },
+      { "time": "09:16", "text": "Müşteri onaylar, takip bağlantısı alır" },
+      { "time": "09:21", "text": "E-fatura kesilir" },
+      { "time": "09:21", "text": "Panelde anında görünür" }
     ]
   },
-  "whyDigitalTransformation": {
-    "subtitle": "Dijital Dönüşüm Neden Artık Bir Seçenek Değil, Zorunluluk",
-    "title": "Başarılı işletmelerin ortak özelliği: Bu sorunları çözdüler.",
-    "items": [
-      {
-        "image": "/images/ser-icon12.png",
-        "title": "Rakipler Hızlanıyor, Siz Geride Kalıyorsunuz",
-        "description": "Müşteriniz size sipariş veriyor, '2-3 güne fiyat teklifi gönderirim' diyorsunuz. Rakibiniz 10 dakikada gönderiyor. Müşteri kimi seçer?",
-        "solution": "Dijital sistemler size hız kazandırır. Daha hızlı teklif verir, daha hızlı karar alır, müşteriye daha çabuk yanıt verirsiniz."
-      },
-      {
-        "image": "/images/ser-icon12.png",
-        "title": "Bilgi Var Ama Göremiyorsunuz",
-        "description": "'Bu ay ne kadar kar ettik?' diye soruyorsunuz. 3 gün sonra Excel ile yanıt geliyor. Önemli bir karar alacaksınız ama elinizde veri yok.",
-        "solution": "Gerçek zamanlı raporlama ve dashboard'larla verilerinizi anlık görürsünüz. Kararları tahmine değil, veriye dayandırırsınız."
-      },
-      {
-        "image": "/images/ser-icon12.png",
-        "title": "Ekibiniz Gereksiz İşlerle Boğuşuyor",
-        "description": "Satış ekibi günde 2 saat rapor hazırlıyor. Muhasebe elle fatura giriyor. Depo sürekli stok sayıyor. Herkes çalışıyor ama gerçek işe zaman kalmıyor.",
-        "solution": "Otomasyonla tekrarlayan işleri sistemler halleder. Ekibiniz asıl değer yaratan işlere odaklanır: müşteriye hizmet, yeni fırsatlar, büyüme."
-      },
-      {
-        "image": "/images/ser-icon12.png",
-        "title": "Büyüyemiyorsunuz Çünkü Sistem Ölçeklenmiyor",
-        "description": "İş büyüyor ama her yeni müşteri, her yeni sipariş daha fazla kaos yaratıyor. Daha fazla Excel, daha fazla WhatsApp grubu, daha fazla karmaşa.",
-        "solution": "Dijital sistemler sizinle birlikte büyür. 10 müşteri yönetmek ile 100 müşteri yönetmek aynı enerjiyi alır. Ölçeklenebilir altyapı kuruyoruz."
-      },
-      {
-        "image": "/images/ser-icon12.png",
-        "title": "Maliyetler Kontrolsüz Artıyor",
-        "description": "Çalışan sayısı artıyor ama verim artmıyor. Her yeni iş için yeni insan alıyorsunuz. Maliyetler şişiyor ama kâr marjları düşüyor.",
-        "solution": "Dijital dönüşümle aynı işi daha az kaynakla yaparsınız. Hem maliyet düşer, hem hata azalır, hem de iş daha hızlı biter."
-      },
-      {
-        "image": "/images/ser-icon12.png",
-        "title": "Müşteri Beklentileri Değişti",
-        "description": "10 yıl önce müşteri 3 gün beklerdi. Bugün anında yanıt, anında teslimat, 7/24 erişim bekliyor. Dijital olmayan şirketler bu beklentiyi karşılayamıyor.",
-        "solution": "Modern müşteri deneyimi sunuyoruz. Otomatik yanıtlar, online takip, self-servis sistemler ile müşterileriniz beklemiyor."
-      }
-    ]
+  "sections": [
+    {
+      "kind": "statement",
+      "label": "Kısaca Genixo",
+      "members": "Üyelikler"
+    },
+    {
+      "kind": "doors",
+      "id": "start",
+      "label": "Nereden başlamalı",
+      "title": "Hangisi size daha yakın?",
+      "lead": "Dört giriş. Her biri, kapsamı net tek bir ilk adımla başlar.",
+      "items": [
+        {
+          "quote": "Ekibim her gün aynı işi elle yapıyor, hatalar da aradan kaçıyor.",
+          "name": "Yapay zekâ süreç otomasyonu",
+          "text": "Yapay zekâ belgeleri okur, teklif taslağı hazırlar ve talepleri ayırır. Sonucu etkileyen her çıktıyı ekibiniz kontrol eder ve onaylar.",
+          "step": "İlk adım: yapay zekâ hazırlık değerlendirmesi",
+          "href": "/ai-automation"
+        },
+        {
+          "quote": "Hazır yazılımlar bize uymuyor, ERP'mizle de konuşmuyor.",
+          "name": "Özel yazılım",
+          "text": "İç sistemler, ERP ve e-fatura entegrasyonları, saha uygulamaları ve raporlama; işinizin bugünkü akışına göre.",
+          "step": "İlk adım: keşif çalışması",
+          "href": "/custom-software"
+        },
+        {
+          "quote": "Bir ürün fikrim var ama kuracak ekibim yok.",
+          "name": "Ürün stüdyosu",
+          "text": "Doğrulanmış bir fikirden canlı bir web veya mobil ürüne. Kod, mağaza hesapları ve tasarım dosyaları sizindir.",
+          "step": "İlk adım: ürün keşif çalıştayı",
+          "href": "/product-studio"
+        },
+        {
+          "quote": "Yazılıma sürekli ihtiyacımız var ama koca bir departmana değil.",
+          "name": "NGSD",
+          "text": "Atanmış bir proje yöneticisi, haftalık öncelikler ve haftalık demo ile sürekli bir Genixo ekibi.",
+          "step": "İlk adım: tanışma görüşmesi",
+          "href": "/ngsd"
+        }
+      ]
+    },
+    {
+      "kind": "cases",
+      "limit": 2,
+      "label": "Kanıt",
+      "title": "Ölçtüğümüz ve izinle yayımladığımız işler",
+      "links": [{ "label": "Tüm vaka çalışmaları", "href": "/case-studies" }]
+    },
+    {
+      "kind": "products",
+      "label": "Kurduğumuz ürünler",
+      "title": "Aynı ekip kendi ürünlerini de kurar ve işletir",
+      "lead": "Bu ürünler bugün yayında. Ne tür yazılım teslim edip ayakta tuttuğumuzu gösterirler. [[TODO-073]]",
+      "visit": "Siteyi ziyaret edin"
+    },
+    {
+      "kind": "points",
+      "layout": "grid",
+      "label": "Yapay zekâya yaklaşımımız",
+      "title": "Yapay zekâ pilotlarının çoğu modelde değil, entegrasyonda tökezler",
+      "lead": "MIT NANDA'nın 2025 çalışmasında, Fortune'un aktardığına göre, kurumsal üretken yapay zekâ pilotlarının yalnızca yaklaşık yüzde 5'i hızlı bir gelir artışı sağlamış; çoğunun kâr-zarar üzerinde ölçülebilir bir etkisi olmamış. Araştırmacılar bunu model kalitesine değil, araçların gerçek iş akışına oturup oturmadığına bağlamış. Biz de bu bulgudan hareket ediyoruz.",
+      "items": [
+        {
+          "title": "Önce ölçeriz.",
+          "text": "Kurmadan önce işin bugün ne kadar sürdüğünü ve “daha iyi”nin ne anlama geldiğini yazarız. Pilot, bir demoya göre değil, bu başlangıç ölçümüne göre değerlendirilir."
+        },
+        {
+          "title": "Kontrol sizde kalır.",
+          "text": "Yapay zekâ önerir, ekibiniz onaylar. Verinin nerede duracağına siz karar verirsiniz. Kod ve fikri mülkiyet size aittir. [[TODO-028]]"
+        },
+        {
+          "title": "Canlıya aldıktan sonra da kalırız.",
+          "text": "Süreçler değişir, modellerin kontrol edilmesi gerekir. Canlıya aldıktan sonra ölçmeye ve ayarlamaya devam ederiz; ayrı bir takip fazı ya da NGSD ile. [[TODO-033]]"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fortune, 18 Ağustos 2025: Üretken yapay zekâ pilotları üzerine MIT raporu (MIT NANDA, “The GenAI Divide”)",
+          "url": "https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/"
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "label": "Nasıl çalışıyoruz",
+      "title": "Ölç, pilotla, canlıya al, iyileştir",
+      "items": [
+        {
+          "title": "Ölç",
+          "text": "Tek bir süreci çıkarırız: hacmi, süresi ve hataların nerede çıktığı.",
+          "meta": "[[TODO-031]]"
+        },
+        {
+          "title": "Pilot",
+          "text": "Gerçek iş üzerinde çalışabilecek en küçük sürümü kurarız. Başlangıç ölçümü ve hedef yazılı olarak kararlaştırılır.",
+          "meta": "[[TODO-031]]"
+        },
+        {
+          "title": "Canlıya al",
+          "text": "Sistemlerinize bağlarız, kullananları eğitiriz ve geçişi ekibinizle planlarız.",
+          "meta": "[[TODO-031]]"
+        },
+        {
+          "title": "İyileştir",
+          "text": "Canlıya aldıktan sonra rakamlara bakar, ölçümün işaret ettiği yerleri iyileştirmeye devam ederiz.",
+          "meta": "[[TODO-031]]"
+        }
+      ],
+      "links": [{ "label": "Nasıl çalıştığımız, ayrıntılı", "href": "/how-we-work" }]
+    },
+    {
+      "kind": "team",
+      "label": "Ekip",
+      "title": "Birlikte çalışacağınız kişiler"
+    },
+    {
+      "kind": "credentials",
+      "label": "Araştırma ve ağlar",
+      "title": "Ar-Ge projeleri ve içinde olduğumuz ağlar"
+    },
+    {
+      "kind": "prose",
+      "label": "Bunu neden yapıyoruz",
+      "title": "Yapay zekâ bir mühendislik aracıdır. Yeri, ölçülebilir iş yaptığı yerdir.",
+      "paragraphs": [
+        "Yapay zekâ artık işin kalıcı bir parçası. Onu bir moda ya da kestirme yol olarak görmüyoruz. Doğru yere konduğunda, ekibinizin aynı sürede daha az hatayla daha çok iş çıkarmasını sağlayan bir araçtır.",
+        "O yeri bulmak için önce işinizi anlarız, kararların kontrolünü insanlarda tutarız ve sistem canlıya çıktıktan sonra da ölçmeye devam ederiz. Bunu tek başınıza yapmak zorunda değilsiniz: adım adım birlikte ilerler, giderken ölçeriz."
+      ]
+    },
+    {
+      "kind": "posts",
+      "label": "Blog",
+      "title": "Okumaya değer",
+      "read": "Yazıyı okuyun"
+    }
+  ],
+  "cta": {
+    "title": "İşletmenizde en çok zamanı hangi süreç alıyor?",
+    "lead": "30 dakikada yazılımın ve yapay zekânın gerçekten fark yaratacağı yeri söyleriz. Doğru ekip değilsek onu da söyleriz.",
+    "primary": { "label": "İlk görüşmeyi planlayın", "href": "/contact" },
+    "secondary": { "label": "Fiyat ve süreleri görün", "href": "/pricing" }
   }
 }

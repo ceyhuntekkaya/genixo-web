@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { getProductSlug } from "@/utils/slugMapping";
 
-type ProductKey = keyof Dictionary['products'];
+type ProductKey = Exclude<keyof Dictionary['products'], 'hero'>;
 
 interface RelatedProductsProps {
     locale: Locale;
@@ -21,7 +21,9 @@ export default async function RelatedProductsSection({
     const dict = await getDictionary(locale);
 
     // Get all products and filter out current one if provided
-    const allProductKeys = Object.keys(dict.products) as ProductKey[];
+    const allProductKeys = (Object.keys(dict.products) as Array<keyof Dictionary['products']>).filter(
+        (key): key is ProductKey => key !== 'hero',
+    );
     const productsList = allProductKeys
         .filter((key) => {
             const product = dict.products[key];

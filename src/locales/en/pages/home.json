@@ -1,159 +1,188 @@
 {
-  "landing": {
-    "hero": {
-      "eyebrow": "Bilkent Cyberpark · Software & AI",
-      "titleBefore": "We bring scattered work into ",
-      "titleMark": "one system",
-      "titleAfter": ".",
-      "lead": "Quotes in Excel, orders in WhatsApp groups, and the monthly report three days late? The problem isn't your team, it's your system. We study how you work, then roll out custom software and AI integrations together with your team.",
-      "primary": "Book a call",
-      "secondary": "Explore solutions"
+  "meta": {
+    "title": "Genixo – Your Software Department, AI Included",
+    "description": "Genixo is a software and AI team at Bilkent Cyberpark, Ankara. We automate processes with human approval, build custom software and run NGSD teams."
+  },
+  "hero": {
+    "eyebrow": "Bilkent Cyberpark, Ankara · Software & AI",
+    "titleBefore": "Your software department, ",
+    "titleMark": "AI included",
+    "titleAfter": ".",
+    "lead": "We measure how the work gets done today, add AI as steps your team approves, build the system and stay to run it.",
+    "primary": { "label": "Book a 30-minute call", "href": "/contact" },
+    "secondary": { "label": "How we work", "href": "/how-we-work" },
+    "secondaryWithCases": { "label": "See case studies", "href": "/case-studies" }
+  },
+  "journey": {
+    "title": "The life of one order",
+    "caption": "Illustrative scenario",
+    "toggleLabel": "View",
+    "before": "Today",
+    "after": "With Genixo",
+    "lanes": ["Customer", "Sales", "Warehouse", "Accounting", "Management"],
+    "totalLabel": "Order to invoice",
+    "beforeTotal": "2 days 7 hours",
+    "afterTotal": "9 minutes",
+    "beforeSteps": [
+      { "time": "Mon 09:12", "text": "Order arrives on WhatsApp" },
+      { "time": "Mon 11:40", "text": "Price hunted in an old Excel file" },
+      { "time": "Mon 15:05", "text": "Stock checked by phone" },
+      { "time": "Tue 10:30", "text": "quote_FINAL_v4.xlsx sent" },
+      { "time": "Wed 09:50", "text": "“I called yesterday. No one called back.”" },
+      { "time": "Wed 16:20", "text": "Invoice keyed in by hand" },
+      { "time": "Month end", "text": "Report still pending" }
+    ],
+    "afterSteps": [
+      { "time": "09:12", "text": "Order placed through the portal" },
+      { "time": "09:13", "text": "Quote drafted, sales approves" },
+      { "time": "09:13", "text": "Stock reserved automatically" },
+      { "time": "09:16", "text": "Customer approves, gets a tracking link" },
+      { "time": "09:21", "text": "E-invoice issued" },
+      { "time": "09:21", "text": "Live on the dashboard" }
+    ]
+  },
+  "sections": [
+    {
+      "kind": "statement",
+      "label": "Genixo in brief",
+      "members": "Memberships"
     },
-    "board": {
-      "toggleLabel": "View",
-      "before": "Today",
-      "after": "With Genixo",
-      "caption": "Illustrative view",
+    {
+      "kind": "doors",
+      "id": "start",
+      "label": "Where to start",
+      "title": "Which one sounds like you?",
+      "lead": "Four ways in. Each one begins with a single, clearly scoped first step.",
       "items": [
         {
-          "id": "quote",
-          "before": { "label": "XLSX", "value": "quote_FINAL_final2.xlsx", "meta": "Edited by 4 people" },
-          "after": { "label": "Quote", "value": "10 min", "meta": "Generated from template" }
+          "quote": "My team does the same work by hand every day, and mistakes slip through.",
+          "name": "AI process automation",
+          "text": "AI reads documents, drafts quotes and sorts requests. Your team checks and approves every result that matters.",
+          "step": "First step: AI readiness assessment",
+          "href": "/ai-automation"
         },
         {
-          "id": "stock",
-          "before": { "label": "Sales team · 14:32", "value": "How many are left in the warehouse? Can someone check?", "meta": "3 unread" },
-          "after": { "label": "Stock", "value": "1,284 units", "meta": "Live · synced with warehouse" }
+          "quote": "Off-the-shelf software doesn't fit us and doesn't talk to our ERP.",
+          "name": "Custom software",
+          "text": "Internal systems, ERP and e-invoice integrations, field apps and reporting built around how you already work.",
+          "step": "First step: discovery sprint",
+          "href": "/custom-software"
         },
         {
-          "id": "report",
-          "before": { "label": "Monthly profit report", "value": "Preparing… day 3", "meta": "Waiting on accounting" },
-          "after": { "label": "Profit margin", "value": "18.4%", "meta": "Updated today at 08:00" }
+          "quote": "I have a product idea but no team to build it.",
+          "name": "Product studio",
+          "text": "From a validated idea to a live web or mobile product. The code, store accounts and design files are yours.",
+          "step": "First step: product discovery workshop",
+          "href": "/product-studio"
         },
         {
-          "id": "invoice",
-          "before": { "label": "Note", "value": "Enter invoices by hand. Due Friday!", "meta": "" },
-          "after": { "label": "Invoices", "value": "Auto-matched", "meta": "312 this month" }
-        },
-        {
-          "id": "customer",
-          "before": { "label": "Missed call", "value": "“I called yesterday, nobody got back to me.”", "meta": "Customer · 2 days ago" },
-          "after": { "label": "Customer request", "value": "Answered in 2 min", "meta": "AI assistant · handed to team" }
+          "quote": "We need software all the time, but not a whole department.",
+          "name": "NGSD",
+          "text": "An ongoing Genixo team with an assigned project manager, weekly priorities and a weekly demo.",
+          "step": "First step: intro call",
+          "href": "/ngsd"
         }
       ]
     },
-    "problems": {
-      "eyebrow": "Sound familiar?",
-      "title": "Six bottlenecks we see most often in growing companies"
+    {
+      "kind": "cases",
+      "limit": 2,
+      "label": "Proof",
+      "title": "Work we measured, published with permission",
+      "links": [{ "label": "All case studies", "href": "/case-studies" }]
     },
-    "solutions": {
-      "eyebrow": "What we do",
-      "title": "From first consultation to a live system, one team",
-      "all": "See all solutions"
-    },
-    "process": {
-      "eyebrow": "How we work",
-      "title": "We listen first, then write code",
-      "steps": [
-        { "title": "We listen", "text": "We study your processes on site and find where time gets lost and where information breaks down." },
-        { "title": "We plan", "text": "We define a solution that fits your goals, timeline and budget, and map it out step by step." },
-        { "title": "We build", "text": "We design and build the application and share progress with you regularly." },
-        { "title": "We test with real users", "text": "We test the system with your team, refine it based on feedback and put it into use." }
-      ]
-    },
-    "products": {
-      "eyebrow": "Our own products",
-      "title": "The same team builds its own products",
-      "lead": "The education technology platforms we've built are live and in use today. We build your system with the same care.",
+    {
+      "kind": "products",
+      "label": "Products we built",
+      "title": "The same team builds and runs its own products",
+      "lead": "These products are live today. They show the kind of software we ship and keep running. [[TODO-073]]",
       "visit": "Visit site"
     },
-    "ngsd": {
-      "eyebrow": "Genixo NGSD",
-      "title": "Get a software team without building a software department",
-      "lead": "A remote software team that scales with your needs, with no hiring, office or management overhead.",
-      "remote": "Transparent operations and regular reporting. Distance doesn't matter.",
-      "dynamic": "As your needs change, the team and the plan change with them.",
-      "global": "We think about your projects at international scale from day one.",
-      "cta": "Explore NGSD"
+    {
+      "kind": "points",
+      "layout": "grid",
+      "label": "How we approach AI",
+      "title": "Most AI pilots fail at integration, not at the model",
+      "lead": "In MIT NANDA's 2025 study, as reported by Fortune, only about 5% of enterprise generative AI pilots produced rapid revenue growth; most had little measurable effect on profit and loss. The researchers pointed to how the tools fit real workflows, not to model quality. We work from that finding.",
+      "items": [
+        {
+          "title": "We measure first.",
+          "text": "Before we build, we write down how long the work takes today and what “better” means. The pilot is judged against that baseline, not against a demo."
+        },
+        {
+          "title": "You stay in control.",
+          "text": "AI suggests, your team approves. You decide where the data lives. The code and the intellectual property belong to you. [[TODO-028]]"
+        },
+        {
+          "title": "We stay after launch.",
+          "text": "Processes change and models need checking. After go-live we keep measuring and adjusting, as a follow-up phase or through NGSD. [[TODO-033]]"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fortune, 18 August 2025: MIT report on generative AI pilots (MIT NANDA, “The GenAI Divide”)",
+          "url": "https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/"
+        }
+      ]
     },
-    "reading": {
-      "eyebrow": "Blog",
+    {
+      "kind": "steps",
+      "label": "How we work",
+      "title": "Measure, pilot, launch, improve",
+      "items": [
+        {
+          "title": "Measure",
+          "text": "We map one process: its volume, the time it takes and where errors appear.",
+          "meta": "[[TODO-031]]"
+        },
+        {
+          "title": "Pilot",
+          "text": "We build the smallest version that can run on real work, with a baseline and a target agreed in writing.",
+          "meta": "[[TODO-031]]"
+        },
+        {
+          "title": "Launch",
+          "text": "We connect it to your systems, train the people who use it and plan the switch-over with your team.",
+          "meta": "[[TODO-031]]"
+        },
+        {
+          "title": "Improve",
+          "text": "We review the numbers after go-live and keep refining what the measurements point to.",
+          "meta": "[[TODO-031]]"
+        }
+      ],
+      "links": [{ "label": "How we work, in detail", "href": "/how-we-work" }]
+    },
+    {
+      "kind": "team",
+      "label": "Team",
+      "title": "The people you will work with"
+    },
+    {
+      "kind": "credentials",
+      "label": "Research and networks",
+      "title": "R&D projects and the networks we belong to"
+    },
+    {
+      "kind": "prose",
+      "label": "Why we do this",
+      "title": "AI is an engineering tool. It belongs where it does measurable work.",
+      "paragraphs": [
+        "AI is now a lasting part of how work gets done. We don't treat it as a trend or a shortcut. Put in the right place, it is a tool that lets your team get more done in the same time, with fewer errors.",
+        "To find that place, we first understand your work, keep people in control of the decisions and keep measuring after the system is live. You don't have to do this alone: we move together, step by step, and we measure as we go."
+      ]
+    },
+    {
+      "kind": "posts",
+      "label": "Blog",
       "title": "Worth reading",
-      "read": "Read article"
-    },
-    "contact": {
-      "title": "Which process costs your business the most time?",
-      "lead": "Tell us and we'll look at it together. In the first call we listen to where you are today and talk about where it makes sense to start.",
-      "primary": "Book a call",
-      "direct": "or reach us directly"
+      "read": "Read the article"
     }
-  },
-  "hero": {
-    "subtitle": "INFORMATION TECHNOLOGY - AI SOLUTIONS",
-    "title": "We Create Value with Smart Technologies.",
-    "description": "Smart solutions to complex problems...",
-    "button": "Our Services"
-  },
-  "counter": {
-    "items": [
-      {
-        "value": "354+",
-        "label": "Completed Projects"
-      },
-      {
-        "value": "119+",
-        "label": "Institutions Worked With"
-      },
-      {
-        "value": "99%",
-        "label": "Web Site Analyse"
-      },
-      {
-        "value": "321+",
-        "label": "Clients Support Done"
-      }
-    ]
-  },
-  "whyDigitalTransformation": {
-    "subtitle": "Why Digital Transformation Is No Longer Optional But Essential",
-    "title": "What successful businesses have in common: They solved these problems.",
-    "items": [
-      {
-        "image": "/images/ser-icon12.png",
-        "title": "Competitors Are Speeding Up, You're Falling Behind",
-        "description": "Your customer places an order; you say 'I'll send a quote in 2-3 days'. Your competitor sends one in 10 minutes. Who does the customer choose?",
-        "solution": "Digital systems give you speed. Quote faster, decide faster, respond to customers sooner."
-      },
-      {
-        "image": "/images/ser-icon12.png",
-        "title": "You Have Data But Can't See It",
-        "description": "You ask 'How much profit did we make this month?'. The answer comes 3 days later in Excel. You need to make an important decision but have no data.",
-        "solution": "With real-time reporting and dashboards you see your data instantly. Base decisions on data, not guesswork."
-      },
-      {
-        "image": "/images/ser-icon12.png",
-        "title": "Your Team Is Drowning in Busywork",
-        "description": "Sales spends 2 hours a day on reports. Accounting enters invoices manually. Warehouse keeps counting stock. Everyone is busy but there's no time for real work.",
-        "solution": "Automation handles repetitive tasks. Your team focuses on value: serving customers, finding opportunities, growing."
-      },
-      {
-        "image": "/images/ser-icon12.png",
-        "title": "You Can't Scale Because the System Doesn't",
-        "description": "Business is growing but every new customer, every new order creates more chaos. More Excel, more WhatsApp groups, more mess.",
-        "solution": "Digital systems scale with you. Managing 10 customers or 100 takes the same effort. We build scalable infrastructure."
-      },
-      {
-        "image": "/images/ser-icon12.png",
-        "title": "Costs Are Rising Out of Control",
-        "description": "Headcount grows but productivity doesn't. You hire more people for every new task. Costs go up but profit margins go down.",
-        "solution": "With digital transformation you do the same work with fewer resources. Costs drop, errors decrease, work finishes faster."
-      },
-      {
-        "image": "/images/ser-icon12.png",
-        "title": "Customer Expectations Have Changed",
-        "description": "Ten years ago customers waited 3 days. Today they expect instant response, instant delivery, 24/7 access. Non-digital companies can't meet that.",
-        "solution": "We deliver modern customer experience. Automated responses, online tracking, self-service so your customers don't wait."
-      }
-    ]
+  ],
+  "cta": {
+    "title": "Which process costs your business the most time?",
+    "lead": "In 30 minutes we'll tell you where software and AI would make a real difference. If we're not the right fit, we'll say so.",
+    "primary": { "label": "Book a first call", "href": "/contact" },
+    "secondary": { "label": "See pricing and timelines", "href": "/pricing" }
   }
 }

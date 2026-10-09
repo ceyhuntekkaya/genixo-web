@@ -38,7 +38,7 @@ export default async function ProductDetail({
       {/* Hero Section */}
       <PageHero
         title={product.name}
-        subtitle={dict.about.slogan}
+        subtitle={dict.chrome.tagline}
         description={product.summary}
         backgroundImage={heroImage}
       />

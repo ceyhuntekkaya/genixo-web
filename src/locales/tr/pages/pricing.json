@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "title": "Yazılım ve yapay zekâ projelerinde fiyat ve süreler",
+    "description": "Genixo'nun başlangıç teklifleri, yazılım ve yapay zekâ projelerinin maliyetini belirleyen etkenler, çoğu zaman unutulan maliyetler ve başlamadan geri dönüşü nasıl tahmin edeceğiniz."
+  },
+  "breadcrumb": "Fiyatlandırma",
+  "hero": {
+    "eyebrow": "Fiyat ve süreler",
+    "title": "Bir proje ne tutar, maliyeti ne belirler",
+    "lead": "Her proje küçük ve kapsamı belli bir ilk adımla başlar. Aşağıda bu adımlar, fiyatı oynatan etkenler ve tekliflerin çoğu zaman dışarıda bıraktığı maliyetler var.",
+    "primary": { "label": "Teklif isteyin", "href": "/contact" },
+    "secondary": { "label": "Nasıl çalışıyoruz", "href": "/how-we-work" }
+  },
+  "answer": {
+    "label": "Kısaca",
+    "text": "Genixo işi, kapsamı belli bir ilk adımla başlar: yapay zekâ hazırlık değerlendirmesi, sabit kapsamlı bir yapay zekâ pilotu, özel yazılım için keşif çalışması, ürün keşif çalıştayı veya NGSD tanışması. Bir projenin nihai maliyeti esas olarak entegrasyonlara, verinizin durumuna, doğruluk beklentisine ve sistemin nerede çalıştığına bağlıdır."
+  },
+  "sections": [
+    {
+      "kind": "table",
+      "id": "offers",
+      "label": "Başlangıç teklifleri",
+      "title": "İlk adımlar, süre ve fiyatla",
+      "lead": "Türkiye'deki müşterilere fiyat Türk lirası olarak verilir. Ödeme koşulları: [[TODO-027]]",
+      "columns": ["Teklif", "Süre", "Ne alırsınız", "Fiyat"],
+      "rows": [
+        [
+          "Yapay zekâ hazırlık değerlendirmesi, kısa",
+          "[[TODO-021]]",
+          "Bir görüşme ve en fazla üç süreci uygun, koşullu uygun veya uygun değil diye işaretleyen bir sayfalık özet.",
+          "[[TODO-021]]"
+        ],
+        [
+          "Yapay zekâ hazırlık değerlendirmesi, kapsamlı",
+          "[[TODO-022]]",
+          "Süreç haritası, veri envanteri, KVKK incelemesi, kabaca geri dönüş tahmini ve bir pilot planı.",
+          "[[TODO-022]]"
+        ],
+        [
+          "Sabit kapsamlı yapay zekâ pilotu",
+          "[[TODO-023]]",
+          "Tek bir süreç, gerçek iş üzerinde, yazılı bir başlangıç ölçümüne göre ölçülerek.",
+          "[[TODO-023]]"
+        ],
+        [
+          "Keşif çalışması (özel yazılım)",
+          "[[TODO-024]]",
+          "Kapsam, mimari ve kurulum için sabit bir teklif.",
+          "[[TODO-024]]"
+        ],
+        [
+          "Ürün keşif çalıştayı",
+          "[[TODO-025]]",
+          "Kullanıcılar, ana akış, ilk sürümün kapsamı, ekranlar ve bir teklif.",
+          "[[TODO-025]]"
+        ],
+        [
+          "NGSD",
+          "Aylık, asgari süre [[TODO-026]]",
+          "Atanmış bir proje yöneticisi ve Genixo ekip kapasitesi.",
+          "[[TODO-026]]"
+        ]
+      ]
+    },
+    {
+      "kind": "points",
+      "label": "Maliyeti ne belirler",
+      "title": "Fiyatı oynatan altı etken",
+      "items": [
+        {
+          "title": "Entegrasyonlar",
+          "text": "Çözümün okuması veya yazması gereken her sistem — ERP, CRM, e-fatura veya santral gibi — iş ve test ekler."
+        },
+        {
+          "title": "Verinizin durumu",
+          "text": "Temiz ve düzenli veriyle çalışmak, taranmış belgeler, mükerrer kayıtlar veya tutarsız kodlardan daha ucuzdur."
+        },
+        {
+          "title": "Doğruluk beklentisi",
+          "text": "İstenen doğruluk yükseldikçe test seti büyür, kontrol adımları artar ve pilot uzar."
+        },
+        {
+          "title": "Sistemin nerede çalıştığı",
+          "text": "Modelleri kendi sunucularınızda çalıştırmak uygun donanım ister. Bir API sağlayıcısı kullanmanın donanım maliyeti yoktur; kullanım ücreti ve KVKK sonucu vardır."
+        },
+        {
+          "title": "Kullanıcılar ve yetkiler",
+          "text": "Çok rol, onay zinciri ve belge düzeyinde yetki daha fazla tasarım ve test ister."
+        },
+        {
+          "title": "Canlıya alma sonrası destek",
+          "text": "Canlıya aldıktan sonra izleme, düzeltme ve iyileştirme gerçek maliyetin parçasıdır. [[TODO-033]]"
+        }
+      ]
+    },
+    {
+      "kind": "list",
+      "variant": "checks",
+      "label": "Çoğu zaman unutulanlar",
+      "title": "Ayrı satır olarak gösterdiğimiz maliyetler",
+      "lead": "Bunlar yapay zekâ ve yazılım projelerinin gerçek maliyetleridir. Sonraya bırakmak yerine teklifte listeleriz.",
+      "items": [
+        "Veri hazırlığı ve temizlik",
+        "Test setini kurmak ve sürdürmek",
+        "Model veya API kullanım ücretleri",
+        "Model veya istem güncellendiğinde yeniden test",
+        "Barındırma, yedekleme ve izleme",
+        "Kullanıcı eğitimi",
+        "Canlıya alma sonrası bakım ve küçük değişiklikler"
+      ]
+    },
+    {
+      "kind": "prose",
+      "label": "Geri dönüşü tahmin etmek",
+      "title": "Başlamadan geri dönüş nasıl tahmin edilir",
+      "lead": "Örnek bir yöntem, bir vaat değil. Pilotta girdiler ölçülmüş değerlerle değiştirilir.",
+      "paragraphs": [
+        "Aylık fayda = ayda kazanılan saat × yüklü saatlik maliyet + ayda önlenen hata maliyeti − aylık işletme maliyeti.",
+        "Geri ödeme süresi = tek seferlik maliyet ÷ aylık fayda.",
+        "Üç yıllık toplam sahip olma maliyeti = tek seferlik maliyet + 36 × aylık işletme maliyeti; yukarıdaki unutulan maliyetler dahil.",
+        "Aylık fayda küçük veya belirsizse doğru sonraki adım kurulum değil, ölçümüdür."
+      ]
+    },
+    {
+      "kind": "prose",
+      "id": "funding",
+      "label": "Kamu destekleri",
+      "title": "KOSGEB ve diğer destek programları",
+      "paragraphs": [
+        "KOSGEB, KOBİ'lerin dijital dönüşümünü destekleyen programlar yürütür. Programın kapsamı, uygun sektörler ve limitler zamanla değişir; birçok küçük yazılım projesi bunların dışında kalır. Bir programın geçerli olduğunu önermeden önce güncel resmî koşulları sizinle kontrol ederiz. [[TODO-071]]",
+        "Resmî bilgi: [KOSGEB](https://www.kosgeb.gov.tr)."
+      ]
+    },
+    {
+      "kind": "faq",
+      "label": "SSS",
+      "title": "Fiyatlandırma hakkında sorular",
+      "items": [
+        {
+          "q": "Neden proje başına sabit bir fiyat yayımlamıyorsunuz?",
+          "a": "Aynı adı taşıyan iki proje, entegrasyon, veri durumu ve doğruluk beklentisi bakımından birkaç kat farklı olabilir. Yukarıdaki ilk adımların yayımlanmış koşulları vardır; kurulum, kapsam netleştikten sonra fiyatlanır."
+        },
+        {
+          "q": "Keşif maliyeti projeden düşülebilir mi?",
+          "a": "Keşif çalışmasının koşulları: [[TODO-024]]."
+        },
+        {
+          "q": "Sabit fiyatla mı, yoksa zaman ve malzeme ile mi çalışıyorsunuz?",
+          "a": "Keşif çalışması veya çalıştaydan sonra tanımlı kapsamı fiyatlarız. NGSD aylıktır. Ödeme koşulları: [[TODO-027]]."
+        },
+        {
+          "q": "Euro ile fiyat veriyor musunuz?",
+          "a": "Türkiye'deki müşterilere Türk lirası ile fiyat verilir. Uluslararası işler euro ile fiyatlandırılabilir. [[TODO-026]]"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "İlk adımınız için teklif alın.",
+    "lead": "Süreci veya ürünü birkaç cümleyle anlatın. Doğru ilk adımı ve maliyetini öneririz.",
+    "primary": { "label": "Teklif isteyin", "href": "/contact" },
+    "secondary": { "label": "Yapay zekâ hazırlık değerlendirmesi", "href": "/ai-readiness-assessment" }
+  }
+}

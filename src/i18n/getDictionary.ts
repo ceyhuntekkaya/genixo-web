@@ -1,54 +1,19 @@
 import 'server-only';
 import type { Locale } from './config';
+import type { Dictionary } from './types';
 
-const loadDictionary = async (locale: Locale) => {
-    const [
-        common,
-        services,
-        products,
-        home,
-        about,
-        blog,
-        ngsd,
-        contact,
-        seo
-    ] = await Promise.all([
-        import(`@/locales/${locale}/common.json`).then((m) => m.default),
-        import(`@/locales/${locale}/services.json`).then((m) => m.default),
-        import(`@/locales/${locale}/products.json`).then((m) => m.default),
-        import(`@/locales/${locale}/pages/home.json`).then((m) => m.default),
-        import(`@/locales/${locale}/pages/about.json`).then((m) => m.default),
-        import(`@/locales/${locale}/pages/blog.json`).then((m) => m.default),
-        import(`@/locales/${locale}/pages/ngsd.json`).then((m) => m.default),
-        import(`@/locales/${locale}/pages/contact.json`).then((m) => m.default),
-        import(`@/locales/${locale}/seo.json`).then((m) => m.default),
-    ]);
+const FILES = ['common', 'products', 'seo'] as const;
 
-    return {
-        ...common,
-        ...services,
-        ...products,
-        ...home,
-        ...about,
-        ...blog,
-        ...ngsd,
-        ...contact,
-        ...seo,
-    };
-};
-
-const dictionaries = {
-    en: () => loadDictionary('en'),
-    tr: () => loadDictionary('tr'),
-    de: () => loadDictionary('de'),
-    fr: () => loadDictionary('fr'),
-    ru: () => loadDictionary('ru'),
-};
-
-export const getDictionary = async (locale: Locale) => {
-    const loader = dictionaries[locale];
-    if (!loader) {
-        throw new Error(`Unknown locale: ${String(locale)}`);
+/** A locale file that has not been translated yet falls back to English. */
+async function load(locale: Locale, file: (typeof FILES)[number]) {
+    try {
+        return (await import(`@/locales/${locale}/${file}.json`)).default;
+    } catch {
+        return (await import(`@/locales/en/${file}.json`)).default;
     }
-    return loader();
+}
+
+export const getDictionary = async (locale: Locale): Promise<Dictionary> => {
+    const parts = await Promise.all(FILES.map((file) => load(locale, file)));
+    return Object.assign({}, ...parts) as Dictionary;
 };

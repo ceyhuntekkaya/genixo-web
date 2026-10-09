@@ -1,65 +1,78 @@
 {
-  "contact": {
-    "hero": {
-      "backgroundImage": "/images/contact-hero-final.jpg"
+  "meta": {
+    "title": "Book a First Call with Genixo",
+    "description": "Book a 30-minute first call with Genixo. We listen to how the work gets done today and tell you where software and AI would help, or that we're not a fit."
+  },
+  "breadcrumb": "Contact",
+  "hero": {
+    "eyebrow": "Contact",
+    "title": "Book a first call",
+    "lead": "Thirty minutes about the process that costs your team the most time. You leave with an honest view of where to start, or a clear “we're not the right fit”."
+  },
+  "answer": {
+    "label": "In short",
+    "text": "To start working with Genixo, send the form below or call +90 312 265 04 56. The first call takes about 30 minutes: we ask how the work is done today, which systems you use and what you have tried, then suggest a first step. Our office is at Bilkent Cyberpark, Ankara."
+  },
+  "sections": [
+    {
+      "kind": "form",
+      "id": "form",
+      "label": "Send a message",
+      "title": "Tell us about the process",
+      "lead": "Four fields; only the budget is optional. We reply by email. [[TODO-008]]",
+      "details": {
+        "phone": "Phone",
+        "email": "Email",
+        "address": "Office",
+        "extra": [
+          { "label": "Working hours", "value": "[[TODO-005]]" },
+          { "label": "Book a time directly", "value": "[[TODO-006]]" }
+        ]
+      }
     },
-    "pageContent": "Contact page content will be added here.",
-    "phone": {
-      "title": "Give us a call"
+    {
+      "kind": "steps",
+      "label": "The first call",
+      "title": "What we'll cover in 30 minutes",
+      "items": [
+        {
+          "title": "How it works today",
+          "text": "Who does the work, how often, with which tools, and where it slows down or goes wrong."
+        },
+        {
+          "title": "What you've tried",
+          "text": "Packages, spreadsheets, earlier projects: what worked, what didn't and why."
+        },
+        {
+          "title": "Constraints",
+          "text": "Budget range, timing, systems that must stay, and where your data may be processed."
+        },
+        {
+          "title": "A first step",
+          "text": "Our honest view of where to start, or that we're not the right team for it."
+        }
+      ]
     },
-    "email": {
-      "title": "Drop us a line"
+    {
+      "kind": "list",
+      "variant": "checks",
+      "label": "To prepare",
+      "title": "Questions worth thinking about before the call",
+      "items": [
+        "Which task takes your team the most hours each week?",
+        "Roughly how many times a month does it happen?",
+        "Which systems are involved, such as your ERP, CRM, spreadsheets or messaging groups?",
+        "What would “better” look like in six months?"
+      ]
     },
-    "address": {
-      "title": "Visit our office"
-    },
-    "form": {
-      "subtitle": "Request a quote",
-      "title": "How May We Help You!",
-      "mainTitle": "Have a question? Need help? Don't hesitate, leave us a message",
-      "serviceLabel": "About this service:",
-      "serviceDescription": "Select a topic so we know who to send your request to:",
-      "servicePlaceholder": "Select Service",
-      "otherOption": "Other",
-      "nameLabel": "Your Name:",
-      "nameDescription": "Please enter your real name.",
-      "namePlaceholder": "Your Name",
-      "companyLabel": "Company Name:",
-      "companyDescription": "Please enter the company name.",
-      "companyPlaceholder": "Company Name",
-      "emailLabel": "Your Email Address:",
-      "emailDescription": "Please double-check your email address.",
-      "emailPlaceholder": "Your Email Address",
-      "messageLabel": "Describe your question in detail:",
-      "messageDescription": "Please describe your question in detail.",
-      "messagePlaceholder": "Describe your question in detail",
-      "submitButton": "SEND",
-      "submitting": "Sending...",
-      "successMessage": "Your message has been sent successfully!",
-      "errorMessage": "An error occurred. Please try again.",
-      "connectionError": "Connection error. Please try again.",
-      "botDetectedMessage": "We could not verify your submission. Please try again."
+    {
+      "kind": "prose",
+      "label": "After the call",
+      "title": "What happens next",
+      "paragraphs": [
+        "After the call we send a short written summary of what we heard and the first step we suggest. [[TODO-009]]",
+        "If there is a fit, the first step is scoped and priced separately: see [pricing and timelines](/pricing)."
+      ]
     }
-  },
-  "team": {
-    "ourExpertTeam": "Our expert team",
-    "worldExpertTeam": "We have world expert team"
-  },
-  "testimonial": {
-    "title": "Testimonial",
-    "subtitle": "20k+ satisfied clients worldwide"
-  },
-  "caseStudy": {
-    "hero": {
-      "backgroundImage": "/images/bg/page-banner.jpg"
-    },
-    "reasonToChooseUs": "REASON TO CHOOSE US",
-    "prominentSolutions": "We provide truly prominent IT solutions.",
-    "learnMore": "Learn more about",
-    "moreReason": "More reason"
-  },
-  "solutionAI": {
-    "weDeliverExcellence": "We Deliver Excellence",
-    "solutionsToCommonAIProblems": "Solutions To Common AI Problems"
-  }
+  ]
 }

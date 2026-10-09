@@ -1,66 +1,78 @@
 {
-  "contact": {
-    "hero": {
-      "backgroundImage": "/images/contact-hero-final.jpg"
+  "meta": {
+    "title": "Genixo ile ilk görüşmeyi planlayın",
+    "description": "Genixo ile 30 dakikalık bir ilk görüşme planlayın. İşin bugün nasıl yürüdüğünü dinler, yazılımın ve yapay zekânın nerede işe yarayacağını ya da uygun olmadığımızı söyleriz."
+  },
+  "breadcrumb": "İletişim",
+  "hero": {
+    "eyebrow": "İletişim",
+    "title": "İlk görüşmeyi planlayın",
+    "lead": "Ekibinizin en çok zamanını alan süreç üzerine otuz dakika. Elinizde, nereden başlayacağınıza dair dürüst bir görüş ya da net bir “doğru ekip değiliz” kalır."
+  },
+  "answer": {
+    "label": "Kısaca",
+    "text": "Genixo ile çalışmaya başlamak için aşağıdaki formu gönderin ya da +90 312 265 04 56 numaralı telefonu arayın. İlk görüşme yaklaşık 30 dakika sürer: işin bugün nasıl yürüdüğünü, hangi sistemleri kullandığınızı ve daha önce ne denediğinizi sorar, ardından bir ilk adım öneririz. Ofisimiz Ankara Bilkent Cyberpark'tadır."
+  },
+  "sections": [
+    {
+      "kind": "form",
+      "id": "form",
+      "label": "Mesaj gönderin",
+      "title": "Süreci anlatın",
+      "lead": "Dört alan; yalnızca bütçe isteğe bağlı. E-posta ile dönüş yaparız. [[TODO-008]]",
+      "details": {
+        "phone": "Telefon",
+        "email": "E-posta",
+        "address": "Ofis",
+        "extra": [
+          { "label": "Çalışma saatleri", "value": "[[TODO-005]]" },
+          { "label": "Doğrudan saat seçin", "value": "[[TODO-006]]" }
+        ]
+      }
     },
-    "pageContent": "İletişim sayfası içeriği buraya eklenecek.",
-    "phone": {
-      "title": "Bizi Arayın"
+    {
+      "kind": "steps",
+      "label": "İlk görüşme",
+      "title": "30 dakikada neleri konuşuruz",
+      "items": [
+        {
+          "title": "Bugün nasıl işliyor",
+          "text": "İşi kim yapıyor, ne sıklıkla, hangi araçlarla; nerede yavaşlıyor ya da bozuluyor."
+        },
+        {
+          "title": "Daha önce ne denediniz",
+          "text": "Paketler, tablolar, eski projeler: ne işe yaradı, ne yaramadı ve neden."
+        },
+        {
+          "title": "Kısıtlar",
+          "text": "Bütçe aralığı, zamanlama, kalması gereken sistemler ve verinizin nerede işlenebileceği."
+        },
+        {
+          "title": "Bir ilk adım",
+          "text": "Nereden başlanacağına dair dürüst görüşümüz, ya da bunun için doğru ekip olmadığımız."
+        }
+      ]
     },
-    "email": {
-      "title": "Bize Yazın"
+    {
+      "kind": "list",
+      "variant": "checks",
+      "label": "Hazırlık",
+      "title": "Görüşmeden önce düşünmeye değer sorular",
+      "items": [
+        "Ekibinizin her hafta en çok saatini hangi iş alıyor?",
+        "Bu iş ayda kabaca kaç kez oluyor?",
+        "Hangi sistemler devrede: ERP, CRM, tablolar veya mesaj grupları?",
+        "Altı ay sonra “daha iyi” size nasıl görünür?"
+      ]
     },
-    "address": {
-      "title": "Ofisimizi Ziyaret Edin"
-    },
-    "form": {
-      "subtitle": "Teklif İste",
-      "title": "Size Nasıl Yardımcı Olabiliriz!",
-      "mainTitle": "Bir sorunuz mu var? Yardıma mı ihtiyacınız var? Tereddüt etmeyin, bize bir mesaj bırakın",
-      "serviceLabel": "Bu hizmet hakkında:",
-      "serviceDescription": "Bir konu seçin, böylece talebinizi kime göndereceğimizi bilelim:",
-      "servicePlaceholder": "Hizmet Seçiniz",
-      "otherOption": "Diğer",
-      "nameLabel": "İsminiz:",
-      "nameDescription": "Lütfen gerçek adınızı girin.",
-      "namePlaceholder": "İsminiz",
-      "companyLabel": "Kurum Adı:",
-      "companyDescription": "Lütfen kurum adını girin.",
-      "companyPlaceholder": "Kurum Adı",
-      "emailLabel": "E-mail Adresiniz:",
-      "emailDescription": "Lütfen e-posta adresinizi tekrar kontrol edin.",
-      "emailPlaceholder": "E-mail Adresiniz",
-      "messageLabel": "Sorunuzu ayrıntılı olarak açıklayın:",
-      "messageDescription": "Lütfen sorunuzu ayrıntılı olarak açıklayın.",
-      "messagePlaceholder": "Sorunuzu ayrıntılı olarak açıklayın",
-      "submitButton": "GÖNDER",
-      "submitting": "Gönderiliyor...",
-      "successMessage": "Mesajınız başarıyla gönderildi!",
-      "errorMessage": "Bir hata oluştu. Lütfen tekrar deneyin.",
-      "connectionError": "Bağlantı hatası. Lütfen tekrar deneyin.",
-      "botDetectedMessage": "Gönderiminizi doğrulayamadık. Lütfen tekrar deneyin."
+    {
+      "kind": "prose",
+      "label": "Görüşmeden sonra",
+      "title": "Sonra ne olur",
+      "paragraphs": [
+        "Görüşmeden sonra duyduklarımızın ve önerdiğimiz ilk adımın kısa bir yazılı özetini göndeririz. [[TODO-009]]",
+        "Uyum varsa ilk adımın kapsamı ve fiyatı ayrıca çıkarılır: bkz. [fiyat ve süreler](/pricing)."
+      ]
     }
-  },
-  "team": {
-    "ourExpertTeam": "Uzman Ekibimiz",
-    "worldExpertTeam": "Dünya çapında uzman ekibimiz var"
-  },
-  "testimonial": {
-    "title": "Referanslar",
-    "subtitle": "Dünya çapında 20k+ memnun müşteri"
-  },
-  "caseStudy": {
-    "hero": {
-      "backgroundImage": "/images/bg/page-banner.jpg"
-    },
-    "reasonToChooseUs": "BİZİ SEÇME NEDENİNİZ",
-    "prominentSolutions": "Gerçekten öne çıkan BT çözümleri sunuyoruz.",
-    "learnMore": "Daha fazla bilgi için",
-    "moreReason": "Daha fazla neden"
-  },
-  "solutionAI": {
-    "weDeliverExcellence": "Mükemmelliği Sunuyoruz",
-    "solutionsToCommonAIProblems": "Yaygın AI Problemlerine Çözümler"
-  }
+  ]
 }
-

@@ -3,7 +3,9 @@ import path from "path";
 import matter from "gray-matter";
 import { locales, type Locale } from "@/i18n/config";
 
-export type ContentType = "post" | "guide" | "case-study";
+export type ContentType = "post" | "guide" | "case-study" | "scenario";
+
+export type ScenarioCard = { today: string; withAi: string; measure: string };
 
 export type FaqItem = { q: string; a: string };
 
@@ -34,6 +36,10 @@ export type ContentDoc = {
   duration?: string;
   stack?: string[];
   permission?: string;
+  order: number;
+  card?: ScenarioCard;
+  relatedCases: string[];
+  cta?: { title: string; lead: string };
 };
 
 export type AuthorDoc = {
@@ -53,6 +59,7 @@ const DIRS: Record<ContentType, string> = {
   post: "blog",
   guide: "guides",
   "case-study": "case-studies",
+  scenario: "scenarios",
 };
 
 function fail(message: string): never {
@@ -119,7 +126,23 @@ function loadDoc(filePath: string, type: ContentType, locale: Locale, slug: stri
     duration: typeof data.duration === "string" ? data.duration : undefined,
     stack: Array.isArray(data.stack) ? (data.stack as string[]) : undefined,
     permission: typeof data.permission === "string" ? data.permission : undefined,
+    order: typeof data.order === "number" ? data.order : 0,
+    card: readCard(data.card, type, filePath),
+    relatedCases: Array.isArray(data.relatedCases) ? (data.relatedCases as string[]) : [],
+    cta: readCta(data.cta),
   };
+}
+
+function readCta(value: unknown): ContentDoc["cta"] {
+  const cta = value as Partial<{ title: string; lead: string }> | undefined;
+  return cta?.title && cta?.lead ? { title: cta.title, lead: cta.lead } : undefined;
+}
+
+function readCard(value: unknown, type: ContentType, file: string): ScenarioCard | undefined {
+  if (type !== "scenario") return undefined;
+  const card = value as Partial<ScenarioCard> | undefined;
+  if (!card?.today || !card?.withAi || !card?.measure) fail(`${file} scenario card needs today, withAi, measure`);
+  return card as ScenarioCard;
 }
 
 let cache: ContentDoc[] | null = null;
@@ -158,7 +181,8 @@ function isPublic(doc: ContentDoc): boolean {
 export function contentPath(doc: Pick<ContentDoc, "type" | "slug">): string {
   if (doc.type === "post") return `/blog/${doc.slug}`;
   if (doc.type === "guide") return `/guides/${doc.slug}`;
-  return `/case-study/${doc.slug}`;
+  if (doc.type === "scenario") return `/ai-automation/${doc.slug}`;
+  return `/case-studies/${doc.slug}`;
 }
 
 export function getAllPosts(locale?: Locale, type?: ContentType): ContentDoc[] {
@@ -167,6 +191,17 @@ export function getAllPosts(locale?: Locale, type?: ContentType): ContentDoc[] {
     .filter((doc) => (locale ? doc.locale === locale : true))
     .filter((doc) => (type ? doc.type === type : true))
     .sort((a, b) => (a.datePublished < b.datePublished ? 1 : -1));
+}
+
+/** A locale with no scenario files falls back to English. Those pages stay noindex. */
+export function getScenarios(locale: Locale): ContentDoc[] {
+  const own = getAllPosts(locale, "scenario");
+  const docs = own.length ? own : getAllPosts("en", "scenario");
+  return [...docs].sort((a, b) => a.order - b.order);
+}
+
+export function getScenario(locale: Locale, slug: string): ContentDoc | null {
+  return getScenarios(locale).find((doc) => doc.slug === slug) ?? null;
 }
 
 export function getPost(locale: Locale, slug: string, type?: ContentType): ContentDoc | null {

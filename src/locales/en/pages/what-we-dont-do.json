@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "What We Don't Do, and Why",
+    "description": "Projects and promises Genixo turns down: AI without success criteria, unapproved automation of key decisions, applicant screening and lock-in contracts."
+  },
+  "breadcrumb": "What we don't do",
+  "hero": {
+    "eyebrow": "What we don't do",
+    "title": "Some projects we turn down, on purpose",
+    "lead": "Knowing where a team draws the line tells you more than a list of services. These are ours. [[TODO-030]]",
+    "primary": { "label": "Book a first call", "href": "/contact" },
+    "secondary": { "label": "How we work", "href": "/how-we-work" }
+  },
+  "answer": {
+    "label": "In short",
+    "text": "Genixo does not start AI projects without a written success criterion, does not automate decisions about money, customers or staff without human approval, does not build systems that automatically reject job applicants, does not send your data outside the company without your permission, and does not sign contracts that hold your code or data hostage."
+  },
+  "sections": [
+    {
+      "kind": "points",
+      "label": "The list",
+      "title": "What we don't do, and the reason behind each",
+      "items": [
+        {
+          "title": "AI projects without a success criterion",
+          "text": "If nobody can say what “better” means before the build, nobody can say afterwards whether it worked. We write the baseline and target down first."
+        },
+        {
+          "title": "Unapproved automation of decisions about money, customers or staff",
+          "text": "AI can prepare these decisions. A person approves them. Errors in these areas are expensive and hard to undo."
+        },
+        {
+          "title": "Systems that automatically reject job applicants",
+          "text": "Automated screening carries a high risk of unfair outcomes and is classified as high-risk under the EU AI Act. We can help summarise applications; the decision stays with people."
+        },
+        {
+          "title": "Sending your data out without permission",
+          "text": "Where your data is processed is your decision. We don't route it to an outside AI service unless you have agreed to it."
+        },
+        {
+          "title": "Promising “autonomous agents” that run your business",
+          "text": "Multi-step systems that act without approval are not reliable enough for business processes today. Gartner expects over 40% of agentic AI projects to be cancelled by the end of 2027."
+        },
+        {
+          "title": "Taking on more than we can staff",
+          "text": "If we don't have the people to do a project properly, we say so instead of stretching the team."
+        },
+        {
+          "title": "Contracts that hold your code or data hostage",
+          "text": "You should be able to leave with your code, data and documentation. Exit terms are written into the contract. [[TODO-029]]"
+        },
+        {
+          "title": "Using AI where it isn't needed",
+          "text": "If a rule, a report or a simple form solves the problem more cheaply, we recommend that."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Gartner, 25 June 2025: Over 40% of agentic AI projects will be canceled by end of 2027",
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027"
+        },
+        {
+          "title": "EU AI Act, Annex III: high-risk AI systems, point 4 (employment)",
+          "url": "https://artificialintelligenceact.eu/annex/3/"
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "label": "Why publish this",
+      "title": "Saying no early saves both sides time",
+      "paragraphs": [
+        "In our view, software projects go wrong more often because expectations were never written down, or because the wrong problem was chosen, than because of the code. Publishing our limits lets you check the fit before the first call.",
+        "If your project falls into one of these areas, we'll tell you in the first conversation and, where we can, suggest a different approach."
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Not sure where your project falls?",
+    "lead": "Describe it in a few sentences. We'll tell you honestly whether we're the right team.",
+    "primary": { "label": "Book a first call", "href": "/contact" },
+    "secondary": { "label": "How we work", "href": "/how-we-work" }
+  }
+}

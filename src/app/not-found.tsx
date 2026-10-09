@@ -9,7 +9,7 @@ export default function NotFound() {
         <p>
           <Link href="/tr">Ana sayfa</Link>
           {" · "}
-          <Link href="/tr/solutions">Çözümler</Link>
+          <Link href="/tr/services">Hizmetler</Link>
           {" · "}
           <Link href="/tr/contact">İletişim</Link>
           {" · "}

@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "title": "Services: AI Automation, Software, Product, NGSD",
+    "description": "Four ways to work with Genixo: AI process automation with human approval, custom software, a product studio and NGSD, an ongoing software team."
+  },
+  "breadcrumb": "Services",
+  "hero": {
+    "eyebrow": "Services",
+    "title": "Four ways in, one engineering team",
+    "lead": "Genixo works as the software department of companies that don't have one, or need more than the one they have. Pick the door that matches your situation.",
+    "primary": { "label": "Book a first call", "href": "/contact" },
+    "secondary": { "label": "See pricing and timelines", "href": "/pricing" }
+  },
+  "answer": {
+    "label": "In short",
+    "text": "Genixo offers four services: AI process automation with human approval, custom software and integrations, a product studio for new web and mobile products, and NGSD, an ongoing external software team. The first three describe what we build. NGSD describes how we keep building it."
+  },
+  "sections": [
+    {
+      "kind": "doors",
+      "label": "Choose a door",
+      "title": "Start from the problem you have today",
+      "items": [
+        {
+          "quote": "My team does the same work by hand every day, and mistakes slip through.",
+          "name": "AI process automation",
+          "text": "Document processing, quote drafting, order matching, call analysis and knowledge assistants, each with a person approving the result.",
+          "step": "First step: AI readiness assessment",
+          "href": "/ai-automation"
+        },
+        {
+          "quote": "Off-the-shelf software doesn't fit us and doesn't talk to our ERP.",
+          "name": "Custom software",
+          "text": "Internal systems, ERP, CRM and e-invoice integrations, field apps that work on weak connections, and reporting from one source.",
+          "step": "First step: discovery sprint",
+          "href": "/custom-software"
+        },
+        {
+          "quote": "I have a product idea but no team to build it.",
+          "name": "Product studio",
+          "text": "Discovery workshop, first version, launch and iteration for web and mobile products that you fully own.",
+          "step": "First step: product discovery workshop",
+          "href": "/product-studio"
+        },
+        {
+          "quote": "We need software all the time, but not a whole department.",
+          "name": "NGSD",
+          "text": "Next Generation Software Department: an assigned project manager and a Genixo team that works as your software department.",
+          "step": "First step: intro call",
+          "href": "/ngsd"
+        }
+      ]
+    },
+    {
+      "kind": "points",
+      "label": "How the doors connect",
+      "title": "Projects often start small and continue through NGSD",
+      "items": [
+        {
+          "title": "A pilot proves one thing",
+          "text": "AI automation and custom software usually start with one process, a written baseline and a fixed scope. The pilot answers one question: does this work on your real data?"
+        },
+        {
+          "title": "Software needs an owner after launch",
+          "text": "Once a system is live, someone has to fix, extend and measure it. Some clients book that as a separate phase; others move to NGSD."
+        },
+        {
+          "title": "Clean data is what AI needs later",
+          "text": "Custom software often comes first. A well-built order or field system creates the structured data that later makes AI automation possible."
+        }
+      ]
+    },
+    {
+      "kind": "list",
+      "variant": "checks",
+      "label": "Common to every service",
+      "title": "What stays the same whichever door you choose",
+      "items": [
+        "The baseline and the success criteria are written down before the build starts.",
+        "AI suggests; a person approves anything that touches money, customers or staff.",
+        "You decide where your data is stored: on your servers, in your cloud account or with an API provider.",
+        "You see working software every week, not only status reports. [[TODO-032]]",
+        "The source code and documentation are handed over to you. [[TODO-028]] [[TODO-029]]"
+      ],
+      "links": [
+        { "label": "How we work", "href": "/how-we-work" },
+        { "label": "What we don't do", "href": "/what-we-dont-do" },
+        { "label": "Data security and KVKK", "href": "/data-security" }
+      ]
+    },
+    {
+      "kind": "cases",
+      "limit": 3,
+      "label": "Proof",
+      "title": "Case studies",
+      "links": [{ "label": "All case studies", "href": "/case-studies" }]
+    },
+    {
+      "kind": "faq",
+      "label": "FAQ",
+      "title": "Questions about our services",
+      "items": [
+        {
+          "q": "Which service should I start with?",
+          "a": "Start from the problem. If a repetitive task with documents or messages is the bottleneck, look at AI process automation. If your tools don't fit or don't connect, look at custom software. If you have a new product idea, look at the product studio. If you need software work every month, look at NGSD. In the first call we tell you which one fits, or that none does."
+        },
+        {
+          "q": "Do you only do AI projects?",
+          "a": "No. Genixo is a software engineering company and AI is one of its strongest skills. Many projects are classic software: integrations, internal systems, mobile apps and reporting."
+        },
+        {
+          "q": "Can a project move from one service to another?",
+          "a": "Yes. A common path is a fixed-scope pilot or first version, followed by NGSD to keep improving the system after launch."
+        },
+        {
+          "q": "Where is the Genixo team based?",
+          "a": "At Bilkent Cyberpark, Cyberplaza H Blok, in Çankaya, Ankara, Türkiye. You can meet us there or online."
+        },
+        {
+          "q": "How much does a project cost?",
+          "a": "It depends on scope, integrations and data preparation. Our [pricing page](/pricing) lists the starting offers, what drives cost and the costs that are often forgotten."
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Not sure which door is yours?",
+    "lead": "Describe the process that takes your team the most time. In the first call we tell you where to start, or that we're not the right fit.",
+    "primary": { "label": "Book a first call", "href": "/contact" },
+    "secondary": { "label": "Take the AI readiness assessment", "href": "/ai-readiness-assessment" }
+  }
+}

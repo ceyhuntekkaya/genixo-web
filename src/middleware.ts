@@ -3,18 +3,31 @@ import type { NextRequest } from "next/server";
 import { defaultLocale, locales, type Locale } from "./i18n/config";
 
 const KNOWN_ROOTS = new Set([
+  "services",
+  "ai-automation",
+  "custom-software",
+  "product-studio",
+  "ngsd",
+  "case-studies",
+  "how-we-work",
+  "what-we-dont-do",
+  "pricing",
+  "data-security",
+  "ai-readiness-assessment",
   "about",
+  "team",
   "contact",
+  "hello",
   "blog",
+  "guides",
   "products",
+  "chat",
+  // v1 paths; next.config redirects them once they carry a locale
   "solutions",
   "case-study",
   "government-support",
-  "ngsd",
-  "chat",
   "service",
   "authors",
-  "guides",
 ]);
 
 function localeFromHeader(header: string | null): Locale {

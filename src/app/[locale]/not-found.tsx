@@ -3,13 +3,20 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { locales, type Locale } from "@/i18n/config";
+import h from "@/app/component/home/home.module.css";
+import s from "@/app/component/page/page.module.css";
 
-const copy: Record<Locale, { title: string; body: string; home: string; solutions: string; contact: string }> = {
-  tr: { title: "Sayfa bulunamadı", body: "Aradığınız adres yayında değil.", home: "Ana sayfa", solutions: "Çözümler", contact: "İletişim" },
-  en: { title: "Page not found", body: "This address is not published.", home: "Home", solutions: "Solutions", contact: "Contact" },
-  de: { title: "Seite nicht gefunden", body: "Diese Adresse ist nicht veröffentlicht.", home: "Startseite", solutions: "Lösungen", contact: "Kontakt" },
-  fr: { title: "Page introuvable", body: "Cette adresse n'est pas publiée.", home: "Accueil", solutions: "Solutions", contact: "Contact" },
-  ru: { title: "Страница не найдена", body: "Этот адрес не опубликован.", home: "Главная", solutions: "Решения", contact: "Контакты" },
+const copy: Record<Locale, { title: string; body: string; links: Array<[string, string]> }> = {
+  tr: {
+    title: "Sayfa bulunamadı",
+    body: "Aradığınız adres yayında değil. Şu sayfalar yardımcı olabilir:",
+    links: [["Ana sayfa", ""], ["Hizmetler", "/services"], ["Nasıl çalışıyoruz", "/how-we-work"], ["İletişim", "/contact"]],
+  },
+  en: {
+    title: "Page not found",
+    body: "This address is not published. These pages may help:",
+    links: [["Home", ""], ["Services", "/services"], ["How we work", "/how-we-work"], ["Contact", "/contact"]],
+  },
 };
 
 export default function LocaleNotFound() {
@@ -19,18 +26,22 @@ export default function LocaleNotFound() {
   const text = copy[locale];
 
   return (
-    <div className="section section-padding">
-      <div className="container" style={{ maxWidth: 720 }}>
-        <h1>{text.title}</h1>
-        <p>{text.body}</p>
-        <p>
-          <Link href={`/${locale}`}>{text.home}</Link>
-          {" · "}
-          <Link href={`/${locale}/solutions`}>{text.solutions}</Link>
-          {" · "}
-          <Link href={`/${locale}/contact`}>{text.contact}</Link>
-        </p>
-      </div>
+    <div className={h.page}>
+      <section className={s.hero}>
+        <div className={h.shell}>
+          <h1 className={s.heroTitle}>{text.title}</h1>
+          <p className={h.lead}>{text.body}</p>
+          <ul className={s.links}>
+            {text.links.map(([label, path]) => (
+              <li key={path}>
+                <Link className={h.textLink} href={`/${locale}${path}`}>
+                  {label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
     </div>
   );
 }

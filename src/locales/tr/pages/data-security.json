@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "title": "Veri güvenliği, KVKK ve kurum içi yapay zekâ",
+    "description": "Bir Genixo yapay zekâ projesinde veriniz nereye gider: kendi sunucularınız, kendi bulutunuz veya bir API. KVKK madde 9, istem enjeksiyonu, yetkiler ve AB müşterileri için notlar."
+  },
+  "breadcrumb": "Veri güvenliği",
+  "hero": {
+    "eyebrow": "Veri güvenliği ve KVKK",
+    "title": "Verinizin nereye gideceğine siz karar verirsiniz",
+    "lead": "Herhangi bir model verinizi görmeden önce nerede işlendiğini, kimin neyi görebileceğini ve neyin kayda geçeceğini kararlaştırırız. Bu sayfa seçenekleri ve sonuçlarını anlatır.",
+    "primary": { "label": "Veri kurallarınızı konuşalım", "href": "/contact" },
+    "secondary": { "label": "Yapay zekâ süreç otomasyonu", "href": "/ai-automation" }
+  },
+  "answer": {
+    "label": "Kısaca",
+    "text": "Genixo projelerinde verinin nerede işlendiğini siz seçersiniz: kendi sunucularınızda, size ait bir bulut hesabında veya bir yapay zekâ sağlayıcısının API'si üzerinden. Kişisel veriyi yurt dışındaki bir hizmete göndermek, 6698 sayılı Kişisel Verilerin Korunması Kanunu'nun (KVKK) 9. maddesi kapsamında yurt dışına aktarımdır ve geçerli bir dayanak ister. Sistemi veri sorumlusu ve hukuk danışmanınızla birlikte tasarlarız; sizin adınıza topyekûn KVKK uyumu iddia etmeyiz."
+  },
+  "sections": [
+    {
+      "kind": "table",
+      "label": "Üç seçenek",
+      "title": "Model nerede çalışır, bundan ne çıkar",
+      "columns": ["Seçenek", "Veri nereye gider", "Kime uyar", "Karşılıklar"],
+      "rows": [
+        [
+          "Kendi sunucularınızda (kurum içi)",
+          "Ağınızın içinde kalır",
+          "Kişisel veya gizli veri, sıkı iç kurallar",
+          "Uygun donanım ve işletecek biri gerekir. Yalnızca açık modeller."
+        ],
+        [
+          "Kendi bulut hesabınız",
+          "Sizin sözleşmeniz altında, sizin seçtiğiniz bir bulut bölgesi",
+          "Sistemlerini zaten bulutta çalıştıran şirketler",
+          "KVKK konumunu bölge ve sağlayıcı koşulları belirler."
+        ],
+        [
+          "Yapay zekâ sağlayıcısı API'si",
+          "Sağlayıcının sunucuları, çoğu zaman yurt dışında",
+          "Kişisel olmayan veri, hızlı prototipler",
+          "En hızlı başlangıç. Yurt dışına gönderilen kişisel veri, KVKK madde 9 kapsamında yurt dışına aktarımdır. Kullanım ücreti vardır."
+        ]
+      ]
+    },
+    {
+      "kind": "prose",
+      "label": "KVKK",
+      "title": "KVKK yapay zekâ projeleri için ne anlama gelir",
+      "paragraphs": [
+        "KVKK'da kişisel verinin neden ve nasıl işleneceğine karar veren şirket veri sorumlusudur. Çoğu projede bu sizsiniz; Genixo sizin talimatınızla hareket eder.",
+        "Kanunun 9. maddesi kişisel verinin yurt dışına aktarımını düzenler. Sunucuları Türkiye dışında olan bir yapay zekâ hizmetini kullanmak, kişisel veri içerdiğinde böyle bir aktarım sayılır; geçerli bir aktarım mekanizmasının ve ilgili yükümlülüklerin yerinde olması gerekir. Modeli kendi sunucularınızda çalıştırmak veriyi şirketin içinde tutar ve aktarımı ortadan kaldırır.",
+        "Verisi işlenen kişiler, örneğin kayıtlı çağrılardaki arayanlar, işleme ve amacına dair bilgilendirilmelidir.",
+        "Bu bölüm genel bilgidir, hukuk danışmanlığı değildir. [[TODO-036]]"
+      ],
+      "sources": [
+        {
+          "title": "6698 sayılı Kişisel Verilerin Korunması Kanunu (Mevzuat Bilgi Sistemi)",
+          "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6698.pdf"
+        },
+        {
+          "title": "Kişisel Verileri Koruma Kurumu (KVKK)",
+          "url": "https://www.kvkk.gov.tr"
+        }
+      ]
+    },
+    {
+      "kind": "points",
+      "label": "Tasarımdan gelen güvenlik",
+      "title": "Yapay zekâ sistemlerine özgü riskler ve nasıl ele aldığımız",
+      "items": [
+        {
+          "title": "İstem enjeksiyonu",
+          "text": "Bir e-postanın veya PDF'in içindeki metin, modele komut gibi görünecek biçimde yazılabilir. Belge içeriğinin tamamını komut değil, veri olarak ele alır ve buna karşı test ederiz."
+        },
+        {
+          "title": "En az yetki",
+          "text": "Yapay zekâ bileşeni yalnızca ihtiyaç duyduğu erişimi alır. Sistemlerinize yazan işlemler — kayıt açmak veya e-posta göndermek gibi — bir kişinin onayını ister."
+        },
+        {
+          "title": "Belge düzeyinde yetkiler",
+          "text": "Bilgi asistanlarında her yanıt yalnızca kullanıcının görmesine izin verilen belgelerden kurulur. Yetkiler yanıttan sonra değil, getirmeden önce kontrol edilir."
+        },
+        {
+          "title": "Kayıt ve inceleme",
+          "text": "Girdiler, çıktılar ve onaylar saklama kurallarınıza göre kaydedilir; kararlar izlenebilir."
+        },
+        {
+          "title": "Sayılar koddan gelir",
+          "text": "Fiyatlar, toplamlar ve diğer hesaplar koddan veya sistemlerinizden gelir; üretilmiş metinden asla."
+        }
+      ]
+    },
+    {
+      "kind": "points",
+      "layout": "grid",
+      "label": "AB müşterileri için",
+      "title": "GDPR ve AB Yapay Zekâ Yasası",
+      "items": [
+        {
+          "title": "GDPR",
+          "text": "AB'de yerleşik kişilerin kişisel verisini sizin adınıza işlediğimizde koşulları GDPR kapsamındaki bir veri işleme sözleşmesi belirler. Türk tarafında KVKK geçerlidir."
+        },
+        {
+          "title": "Yapay Zekâ Yasası madde 50",
+          "text": "2 Ağustos 2026'dan itibaren bir sohbet botu gibi bir yapay zekâ sistemiyle etkileşen kişilere bunun söylenmesi ve yapay zekâ üretimi içeriğin işaretlenmesi gerekir. Bu bildirimleri arayüze kurarız."
+        },
+        {
+          "title": "Yüksek riskli kullanımlar",
+          "text": "İşe alım elemesi gibi kullanımlar Yapay Zekâ Yasası'nda yüksek riskli olarak sınıflanır. Otomatik aday eleme sistemleri kurmayız."
+        }
+      ],
+      "sources": [
+        {
+          "title": "AB Yapay Zekâ Yasası, madde 50: Şeffaflık yükümlülükleri",
+          "url": "https://artificialintelligenceact.eu/article/50/"
+        },
+        {
+          "title": "AB Yapay Zekâ Yasası, Ek III: Yüksek riskli yapay zekâ sistemleri",
+          "url": "https://artificialintelligenceact.eu/annex/3/"
+        }
+      ]
+    },
+    {
+      "kind": "list",
+      "variant": "checks",
+      "label": "Kendi düzenimiz",
+      "title": "Genixo'nun kendisi veriyi nasıl ele alır",
+      "items": [
+        "İşlettiğimiz sistemlerin barındırılması: [[TODO-034]]",
+        "Kullanabileceğimiz üçüncü taraf yapay zekâ hizmetleri ve hangi koşullarla: [[TODO-035]]",
+        "Gerçekleştirdiğimiz kurum içi model kurulumları: [[TODO-019]]",
+        "İletişim formu veri işleme: [[TODO-038]]"
+      ]
+    },
+    {
+      "kind": "list",
+      "variant": "limits",
+      "label": "Sınırlar",
+      "title": "İddia etmediklerimiz",
+      "items": [
+        "Bir sistemin sizi KVKK'ya uyumlu kıldığını iddia etmeyiz. Uyum, süreçlerinize, aydınlatmalarınıza ve sözleşmelerinize bir bütün olarak bağlıdır.",
+        "Yazılı anlaşmanız olmadan verinizi dışarıdaki bir yapay zekâ hizmetine göndermeyiz.",
+        "Hukuk danışmanınızın yerini almayız. Onlara ihtiyaç duydukları teknik olguları veririz."
+      ]
+    },
+    {
+      "kind": "faq",
+      "label": "SSS",
+      "title": "Veri güvenliği hakkında sorular",
+      "items": [
+        {
+          "q": "Yapay zekâ tamamen kendi sunucularımızda çalışabilir mi?",
+          "a": "Evet, ağınızın içinde çalışan açık modellerle. Uygun donanım gerekir; model boyutu işe bağlıdır, bunu pilot sırasında test ederiz."
+        },
+        {
+          "q": "ChatGPT veya benzeri bir API kullanmak KVKK'ya göre serbest mi?",
+          "a": "Kişisel veriyi yurt dışındaki bir sağlayıcıya göndermek, KVKK madde 9 kapsamında yurt dışına aktarımdır ve geçerli bir dayanak ister. Kişisel olmayan veri veya usulüne uygun anonimleştirilmiş veri ayrı bir durumdur. Kurulumu hukuk danışmanınız teyit etmelidir."
+        },
+        {
+          "q": "Bir Genixo projesinde veri sorumlusu kimdir?",
+          "a": "Genellikle siz, çünkü işlemenin amacına ve araçlarına siz karar verirsiniz. Genixo sizin talimatınızla hareket eder. Roller sözleşmede yazılır."
+        },
+        {
+          "q": "İstem enjeksiyonuna karşı nasıl korunuyorsunuz?",
+          "a": "Belge içeriği talimat değil, veri olarak ele alınır; yapay zekâ bileşeninin yetkileri asgaridedir; sistemlerinizi değiştiren işlemler insan onayı ister; enjekte edilmiş örneklerle test ederiz."
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Önce veri kurallarınızı söyleyin.",
+    "lead": "İlk görüşmede verinizin nereye gidip nereye gidemeyeceğini sorar, buna uyan bir mimari öneririz.",
+    "primary": { "label": "İlk görüşmeyi planlayın", "href": "/contact" },
+    "secondary": { "label": "Yapay zekâ hazırlık değerlendirmesi", "href": "/ai-readiness-assessment" }
+  }
+}

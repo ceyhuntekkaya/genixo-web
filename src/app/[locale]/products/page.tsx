@@ -1,97 +1,83 @@
-import {Locale} from "@/i18n/config";
-import {getDictionary} from "@/i18n/getDictionary";
-import {buildMetadata} from "@/utils/seo";
-import PageHero from "@/app/component/page-hero";
-import {shortDefinitionFor} from "@/content/entity";
-
-import Link from "next/link";
-import {getProductSlug} from "@/utils/slugMapping";
 import Image from "next/image";
+import Link from "next/link";
+import { getDictionary } from "@/i18n/getDictionary";
+import type { Dictionary } from "@/i18n/types";
+import { SITE_URL, shortDefinitionFor } from "@/content/entity";
+import { getProductSlug } from "@/utils/slugMapping";
+import { collectionPage } from "@/utils/schema";
+import { buildMetadata } from "@/utils/seo";
+import JsonLd from "@/app/component/json-ld";
+import { PageHero } from "@/app/component/page/page-view";
+import { Arrow, domainOf, localHref } from "@/app/component/page/text";
+import h from "@/app/component/home/home.module.css";
+import { toLocale, type LocaleParams } from "../standard-page";
 
-export async function generateMetadata({
-    params,
-}: {
-    params: Promise<{ locale: Locale }>;
-}) {
-    const { locale } = await params;
-    const dict = await getDictionary(locale);
-    const copy = dict.seo?.pages?.products;
-    return buildMetadata({
-        locale,
-        path: "/products",
-        title: copy?.title || dict.menu.Products,
-        description: copy?.description || shortDefinitionFor(locale),
-    });
+type ProductKey = Exclude<keyof Dictionary["products"], "hero">;
+
+export async function generateMetadata({ params }: LocaleParams) {
+  const locale = toLocale((await params).locale);
+  const dict = await getDictionary(locale);
+  const copy = dict.seo?.pages?.products;
+  return buildMetadata({
+    locale,
+    path: "/products",
+    title: copy?.title || dict.menu.Products,
+    description: copy?.description || shortDefinitionFor(locale),
+  });
 }
 
-export default async function ProductsPage({
-    params,
-}: {
-    params: Promise<{ locale: Locale }>;
-}) {
-    const { locale } = await params;
-    const dict = await getDictionary(locale);
+export default async function ProductsPage({ params }: LocaleParams) {
+  const locale = toLocale((await params).locale);
+  const dict = await getDictionary(locale);
+  const copy = dict.seo?.pages?.products;
+  const products = (Object.keys(dict.products) as Array<keyof Dictionary["products"]>)
+    .filter((key): key is ProductKey => key !== "hero")
+    .map((key) => ({ key, slug: getProductSlug(key), ...dict.products[key] }))
+    .filter((product) => product.active !== false && product.slug);
 
-    return (
-        <>
-            <PageHero
-                title={dict.menu.Products}
-                subtitle={dict.about.slogan}
-                description={dict.seo?.pages?.products?.description}
-                backgroundImage={dict.products?.hero?.backgroundImage}
-            />
-
-            {/* Products Cards Section */}
-            <div className="section genixo-choose-us-section section-padding products-section"
-                 style={{backgroundImage: 'url(/images/bg/choose-us-bg.jpg)'}}>
-                <div className="container">
-                    <div className="choose-us-wrap">
-                        <div className="choose-us-content-wrap">
-                            <div className="row">
-                                {Object.keys(dict.products).map((key) => {
-                                    const productKey = key as keyof import('@/i18n/types').Dictionary['products'];
-                                    const product = dict.products[productKey];
-                                    const productSlug = getProductSlug(productKey);
-                                    
-                                    if (!product || !productSlug || !('name' in product) || !('summary' in product)) {
-                                        return null;
-                                    }
-
-                                    // Only show active products (default is true if not set)
-                                    if (product.active === false) {
-                                        return null;
-                                    }
-
-                                    return (
-                                        <div key={key} className="col-lg-4 col-md-6">
-                                            <div className="choose-us-item">
-                                                <div className="choose-us-img">
-                                                    <Link href={`/${locale}/products/${productSlug}`}>
-                                                        <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '300px' }}>
-                                                            <Image 
-                                                                src={product.image1 || "/images/choose-us1.jpg"} 
-                                                                alt={product.name}
-                                                                fill
-                                                                style={{ objectFit: 'cover' }}
-                                                                unoptimized
-                                                            />
-                                                        </div>
-                                                        <div className="choose-us-content">
-                                                            <h3 className="title">{product.name}</h3>
-                                                            <p>{product.summary}</p>
-                                                        </div>
-                                                    </Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    );
-                                })}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </>
-    )
+  return (
+    <>
+      <JsonLd
+        data={collectionPage({
+          url: `${SITE_URL}/${locale}/products`,
+          name: copy?.title || dict.menu.Products,
+          description: copy?.description || shortDefinitionFor(locale),
+          locale,
+          items: products.map((p) => ({ name: p.name, url: `${SITE_URL}/${locale}/products/${p.slug}` })),
+        })}
+      />
+      <div className={h.page}>
+        <PageHero
+          locale={locale}
+          crumbs={[{ name: dict.ui.home, path: "/" }, { name: dict.menu.Products }]}
+          eyebrow={dict.menu.Products}
+          title={copy?.title || dict.menu.Products}
+          lead={copy?.description}
+        />
+        <section className={`${h.band} ${h.bandMist}`}>
+          <ul className={`${h.shell} ${h.products}`} style={{ marginTop: 0 }}>
+            {products.map((product) => (
+              <li key={product.key}>
+                <Link className={h.product} href={localHref(locale, `/products/${product.slug}`)}>
+                  {product.webLink && (
+                    <span className={h.productDomain}>
+                      {domainOf(product.webLink)}
+                      <Arrow />
+                    </span>
+                  )}
+                  {product.logo && (
+                    <span className={h.productLogo}>
+                      <Image src={product.logo} alt="" fill sizes="180px" style={{ objectFit: "contain", objectPosition: "left center" }} />
+                    </span>
+                  )}
+                  <span className={h.productName}>{product.name}</span>
+                  <span className={h.productSummary}>{product.summary}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      </div>
+    </>
+  );
 }
-

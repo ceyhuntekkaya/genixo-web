@@ -991,3 +991,4 @@ Genixo Bilişim ve Teknoloji A.Ş. — Bilkent Cyberpark, Ankara, Türkiye. Tel:
 - [ ] GA4 yalnızca onayla yükleniyor; `generate_lead` ve `phone_click` dönüşüm
 - [ ] GA4 "AI Assistants" kanal grubu
 - [ ] Baseline ve aylık prompt seti ölçümü kayıtlı
+

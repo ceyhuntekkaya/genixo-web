@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "title": "Vaka çalışmaları: Ölçülmüş yazılım ve yapay zekâ işleri",
+    "description": "Genixo vaka çalışmaları: sorun, kısıtlar, kurduğumuz şey ve ölçtüğümüz sonuç; yöntem ve dönemle birlikte. Yalnızca müşteri izniyle yayımlanır."
+  },
+  "breadcrumb": "Vaka çalışmaları",
+  "hero": {
+    "eyebrow": "Vaka çalışmaları",
+    "title": "Ne kurduk, neyi ölçtük",
+    "lead": "Her vaka çalışması sorunu, kısıtları, yaklaşımı — bilinçli olarak yapmadıklarımız dahil — ve sonucu, ölçüm yöntemi ve dönemiyle birlikte verir."
+  },
+  "answer": {
+    "label": "Kısaca",
+    "text": "Genixo vaka çalışmalarını yalnızca yazılı müşteri izniyle yayımlar. Her birinde her sayının arkasında başlangıç ölçümü, yeni değer, dönem ve örneklem vardır. Ölçülmeyen bir şeyi tahmin etmek yerine öyle deriz."
+  },
+  "sections": [
+    {
+      "kind": "cases",
+      "label": "Vaka çalışmaları",
+      "title": "Yayımlanmış vaka çalışmaları"
+    },
+    {
+      "kind": "list",
+      "variant": "checks",
+      "label": "Nasıl yazarız",
+      "title": "Her vaka çalışmasının uyduğu kurallar",
+      "items": [
+        "Her metriğin başlangıç değeri, yeni değeri, dönemi ve örneklem büyüklüğü yazılır.",
+        "“10 kat daha hızlı” gibi yuvarlanmış çarpanlar kullanılmaz.",
+        "Ölçülmeyen faydalar müşteri geri bildirimi olarak işaretlenir.",
+        "Müşteri adı yalnızca yazılı izinle geçer; aksi halde sektör, büyüklük ve bölge yazılır.",
+        "Ekran görüntülerinde sentetik veri kullanılır."
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Sıradaki vaka çalışması siz olmak ister misiniz?",
+    "lead": "Tek bir süreç ve bir sayıyla başlayın. Öncesini ve sonrasını sizinle birlikte ölçeriz.",
+    "primary": { "label": "İlk görüşmeyi planlayın", "href": "/contact" },
+    "secondary": { "label": "Nasıl çalışıyoruz", "href": "/how-we-work" }
+  }
+}

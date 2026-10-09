@@ -1,36 +1,143 @@
 {
-  "ngsd": {
-    "hero": {
-      "backgroundImage": "/images/ngsd-hero-final.jpg"
+  "meta": {
+    "title": "NGSD: Dış yazılım departmanınız",
+    "description": "NGSD (Yeni Nesil Yazılım Departmanı), her ay yazılım departmanınız olarak çalışan, size atanmış bir Genixo proje yöneticisi ve ekibi verir."
+  },
+  "breadcrumb": "NGSD",
+  "hero": {
+    "eyebrow": "NGSD · Yeni Nesil Yazılım Departmanı",
+    "title": "Bir yazılım departmanı, kurmadan",
+    "lead": "Size atanmış bir Genixo proje yöneticisi yazılım yöneticiniz, Genixo ekibi yazılım departmanınız olur. Öncelikleri birlikte koyar, her hafta biteni gösteririz.",
+    "primary": { "label": "Tanışma görüşmesi planlayın", "href": "/contact" },
+    "secondary": { "label": "Fiyatları görün", "href": "/pricing#offers" }
+  },
+  "answer": {
+    "label": "Kısaca",
+    "text": "NGSD (Yeni Nesil Yazılım Departmanı), Genixo'nun sürekli hizmet modelidir: şirketinize atanmış bir proje yöneticisi ve yazılım işinizi aydan aya yürüten bir Genixo mühendislik ekibi. Öncelikler sizinle belirlenir, biten iş her hafta gösterilir, her şey belgelenir; kendi ekibinizi kurarsanız kod ve birikmiş bilgi düzenli biçimde devredilebilir."
+  },
+  "sections": [
+    {
+      "kind": "prose",
+      "label": "NGSD neden var",
+      "title": "Yazılım ihtiyacı süreklidir. Kalıcı bir ekip her zaman doğru yatırım değildir.",
+      "paragraphs": [
+        "İşe almak, farklı yetkinlikleri bir araya getirmek ve bir yazılım ekibini tutmak ciddi zaman ve para ister. Birçok şirketin bir ay arka uç geliştiricisine, sonraki ay mobil geliştiriciye, ondan sonra veri mühendisine ihtiyacı olur; üçünü de tam zamanlı tutmaya değil.",
+        "NGSD'de şirketinize atanmış bir Genixo proje yöneticisi yazılım yöneticiniz gibi hareket eder, Genixo ekibi yazılım departmanınız olarak çalışır. Bir gün kendi ekibinizi kurmaya karar verirseniz kodu, belgeleri ve birikmiş bilgiyi düzenli biçimde devrederiz."
+      ]
     },
-    "title": "Genixo NGSD",
-    "subtitle": "Genixo Yeni Nesil Yazılım Departmanı - Uçtan uca en iyi yazılım çözümü!",
-    "forWho": {
-      "title": "Kimin için?",
-      "content": "Bir yazılım ekibiniz yoksa, bu sizin için en iyi çözüm olabilir!"
+    {
+      "kind": "points",
+      "label": "Nasıl işler",
+      "title": "NGSD ile çalışmak nasıl görünür",
+      "items": [
+        {
+          "title": "Atanmış bir proje yöneticisi",
+          "text": "İşinizi, sistemlerinizi ve önceliklerinizi bilen, tek muhatabınız olan bir kişi."
+        },
+        {
+          "title": "Haftalık öncelikler",
+          "text": "Her hafta en önemli olanı birlikte netleştiririz. İhtiyacınız değişince plan da onunla değişir. [[TODO-032]]"
+        },
+        {
+          "title": "Haftalık demo",
+          "text": "Yalnızca durum raporu değil, çalışan yazılım görürsünüz. Biten, süren ve takılan işler size görünür."
+        },
+        {
+          "title": "Giderken belgelemek",
+          "text": "Mimari, kararlar ve işletme notları yazılır; bilgi yalnızca insanların kafasında kalmaz."
+        },
+        {
+          "title": "Doğru yetkinlik, doğru zamanda",
+          "text": "Arka uç, ön yüz, mobil, veri ve yapay zekâ işi, yol haritanız gerektirdikçe ekipten karşılanır."
+        }
+      ]
     },
-    "whatIs": {
-      "title": "NGSD nedir?",
-      "content": "Bizi ve sizi pazarda bir adım öteye taşıyan en kapsamlı 360 Derece, Dinamik, Uluslararası ve Uzak çözümümüz. Yazılım ihtiyaçlarınızı karşılayacak bir ekip oluşturmak her zaman en net çözüm olarak görülebilir ancak bilindiği üzere yazılım ekibi/departmanı kurmak oldukça maliyetli bir iş olabilir. Genixo NGSD burada devreye giriyor ve sizi bir ekip/departman kurma zahmetinden kurtarıyor. Markanıza atanan Genixo proje yöneticisi yazılım yöneticiniz, Genixo ise yazılım departmanınız oluyor!"
+    {
+      "kind": "table",
+      "label": "Karşılaştırma",
+      "title": "Kurum içi ekip ya da NGSD: ne değişir",
+      "lead": "Kendi karşılaştırmanız için bir çerçeve. Rakamlarınız maaşlara, iş yüküne ve kaç yetkinliğe ihtiyaç duyduğunuza bağlıdır.",
+      "columns": ["", "Kurum içi ekip kurmak", "NGSD"],
+      "rows": [
+        ["Başlamak", "İşe alma, oryantasyon ve araç kurulumu", "Tanışma görüşmesi ve bir planlama döneminden sonra başlar"],
+        ["Yetkinlik yelpazesi", "İşe aldığınız kişilerle sınırlı", "İhtiyaç oldukça Genixo ekibinden"],
+        ["Biri ayrıldığında", "Bilgi onunla gidebilir", "Belgelenmiş iş ve birbirinin yerini tutan bir ekip"],
+        ["Yönetim", "Geliştiricileri siz yönetirsiniz", "Atanmış bir Genixo proje yöneticisi yönetir"],
+        ["Kapasiteyi değiştirmek", "İşe almak veya işten çıkarmak", "İhtiyacınız değiştikçe bizimle kararlaştırılır"],
+        ["Sahiplik", "Sizin", "Sizin, devir maddesiyle [[TODO-029]]"]
+      ]
     },
-    "images": {
-      "mainAlt": "Yazılım Geliştirme Ekibi İşbirliği",
-      "remoteAlt": "Uzaktan Çalışma ve Video Konferans",
-      "dynamicAlt": "Dinamik ve Esnek Ekip Çalışması",
-      "globalAlt": "Küresel İş Birliği ve Uluslararası Vizyon"
+    {
+      "kind": "list",
+      "variant": "checks",
+      "label": "Koşullar",
+      "title": "Taahhütler ve koşullar",
+      "items": [
+        "Asgari süre ve aylık ücret: [[TODO-026]]",
+        "Kod ve fikri mülkiyet size aittir. [[TODO-028]]",
+        "İhbar süresi ve devir: [[TODO-029]]",
+        "Destek ve yanıt düzenlemeleri: [[TODO-033]]"
+      ],
+      "links": [{ "label": "Fiyat ve süreler", "href": "/pricing#offers" }]
     },
-    "remote": {
-      "title": "Uzak",
-      "content": "Uzak ama yakın! Nasıl? Ayrıcalıklı bir müşteri deneyimi ile. Genixo olarak mesafelerin bir anlam ifade etmemesini hedefliyoruz. Şeffaf bir operasyon anlayışı ile süreçleri sürekli takip etmenizi sağlıyor, planlı toplantılar yaparak ve anlık müşteri desteği sağlayarak iletişimimizi en üst seviyede tutmaya özen gösteriyoruz. Uzaktan yazılım departmanı ile biz verimliliğinizi artırır, siz maliyetlerinizi düşürürsünüz."
+    {
+      "kind": "points",
+      "layout": "grid",
+      "label": "Yurt dışından çalışmak",
+      "title": "Türkiye dışındaki şirketler için",
+      "items": [
+        {
+          "title": "Saat dilimi",
+          "text": "Türkiye yıl boyunca UTC+3'tedir. Çalışma saatleri Orta Avrupa ile örtüşür; Suudi Arabistan, Katar ve Kuveyt ile aynıdır. Ortak saatlerimiz: [[TODO-005]]"
+        },
+        {
+          "title": "Veri koruma",
+          "text": "AB müşterileri genellikle GDPR kapsamında bir veri işleme sözleşmesine ihtiyaç duyar; Türk tarafında KVKK geçerlidir. Verinin nerede duracağı iş başlamadan önce kararlaştırılır. Bkz. [veri güvenliği](/data-security)."
+        },
+        {
+          "title": "Para birimi ve sözleşmeler",
+          "text": "Uluslararası işler euro ile fiyatlandırılabilir. [[TODO-026]]"
+        }
+      ]
     },
-    "dynamic": {
-      "title": "Dinamik",
-      "content": "İşinizin dinamiklerine hızla uyum sağlamak bizim işimiz! NGSD ile birlikte ihtiyaçlarınızı sürekli olarak analiz edebiliyor ve projelerinizin durumuna göre ekibi büyütüp küçültebiliyoruz, böylece ihtiyaçlarınız için her zaman en uygun şekilde konumlanıyoruz."
+    {
+      "kind": "cases",
+      "service": "ngsd",
+      "label": "Kanıt",
+      "title": "Gösterebildiğimiz NGSD işleri"
     },
-    "global": {
-      "title": "Küresel",
-      "content": "Bırak dünya küçülsün, sen büyü! Dünya küçülürken kimse yerel olarak sınırlandırılmak istemez. Biz de bu motivasyonu taşıyor, projelerimizi global ölçekte faaliyet gösterebilecek bir vizyon ve altyapı üzerine inşa ediyoruz. Ulusötesi vizyonumuz ve Genixo NGSD modelimizle, global olarak faaliyet gösterebileceğiniz bir yapıda tüm yazılım ihtiyaçlarınızı hayata geçirmemiz ve geliştirmemiz mümkün. Bizimle aynı fikirde olan tüm tutkulu markaları bu yolda birlikte yürümeye davet ediyoruz."
+    {
+      "kind": "faq",
+      "label": "SSS",
+      "title": "NGSD hakkında sorular",
+      "items": [
+        {
+          "q": "NGSD neyin kısaltması?",
+          "a": "Yeni Nesil Yazılım Departmanı (Next Generation Software Department). Genixo'nun, bir şirketin dış yazılım departmanı olarak sürekli çalıştığı modeldir."
+        },
+        {
+          "q": "NGSD, bir projeyi dışarıya vermekten nasıl farklı?",
+          "a": "Bir projenin sabit kapsamı ve bitiş tarihi vardır. NGSD süreklidir: öncelikler her hafta sizinle yeniden konur, aynı ekip sistemlerinizin bilgisini zaman içinde taşır."
+        },
+        {
+          "q": "Asgari bir süre var mı?",
+          "a": "Asgari süre ve aylık ücret: [[TODO-026]]."
+        },
+        {
+          "q": "Kendi ekibimizi kurmak istersek ne olur?",
+          "a": "Kodu, dokümantasyonu ve birikmiş bilgiyi düzenli biçimde devrederiz. İhbar süresi ve devir ayrıntıları: [[TODO-029]]."
+        },
+        {
+          "q": "NGSD bir projenin veya pilotun ardından gelebilir mi?",
+          "a": "Evet. Sık görülen yol, önce sabit kapsamlı bir proje veya yapay zekâ pilotu, sonra kurulanı işletmeye ve iyileştirmeye devam etmek için NGSD'dir."
+        }
+      ]
     }
+  ],
+  "cta": {
+    "title": "Her ay yazılıma ihtiyacınız var ama bir departmana değil mi?",
+    "lead": "Yol haritanızda ne olduğunu anlatın. Tanışma görüşmesinde NGSD'nin uyup uymadığını ve ilk ayın neyi kapsayacağını konuşuruz.",
+    "primary": { "label": "Tanışma görüşmesi planlayın", "href": "/contact" },
+    "secondary": { "label": "Nasıl çalışıyoruz", "href": "/how-we-work" }
   }
 }
-

@@ -16,7 +16,7 @@ faq:
     a: "Yaramaz. Önce süreç ve veri düzeni kurulur; yapay zekâ ancak bu zeminin üstüne binince hız kazandırır."
 sources:
   - title: "Ceyhun Tekkaya, kurucu gözlemi. Bu sürümde üçüncü taraf istatistik yoktur."
-    url: "https://genixo.ai/tr/authors/ceyhun-tekkaya"
+    url: "https://genixo.ai/tr/team/ceyhun-tekkaya"
     accessed: "2026-10-09"
 image: "/images/1753787699394.png"
 draft: false

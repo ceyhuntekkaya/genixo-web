@@ -12,22 +12,26 @@ const PERSON_ID = `${SITE_URL}/#person-${entity.founder.id}`;
 
 const knowsAbout: Record<"tr" | "en", string[]> = {
   tr: [
-    "Dijital dönüşüm",
-    "İş süreçleri dijitalleştirme",
-    "Yapay zekâ entegrasyonu",
+    "Yapay zekâ süreç otomasyonu",
+    "Özel yazılım geliştirme",
+    "ERP entegrasyonu",
+    "Mobil uygulama geliştirme",
     "RAG",
-    "On-premise LLM",
+    "Kurum içi (on-prem) büyük dil modelleri",
     "Konuşma tanıma (STT)",
     "Seslendirme (TTS)",
+    "KVKK uyumlu yazılım mimarisi",
   ],
   en: [
-    "Digital transformation",
-    "Business process digitalization",
-    "AI integration",
-    "RAG",
-    "On-premise LLM",
+    "AI process automation",
+    "Custom software development",
+    "ERP integration",
+    "Mobile app development",
+    "Retrieval-augmented generation",
+    "On-premise large language models",
     "Speech-to-text",
     "Text-to-speech",
+    "Data protection by design",
   ],
 };
 
@@ -51,7 +55,7 @@ export function siteGraph(locale: Locale): Record<string, unknown> {
     name: entity.founder.name,
     jobTitle: jobTitleFor(locale),
     worksFor: { "@id": ORG_ID },
-    url: `${SITE_URL}/${authorLocale(locale)}/authors/${entity.founder.id}`,
+    url: `${SITE_URL}/${authorLocale(locale)}/team/${entity.founder.id}`,
   };
 
   return {
@@ -78,7 +82,7 @@ export function siteGraph(locale: Locale): Record<string, unknown> {
           latitude: entity.geo.latitude,
           longitude: entity.geo.longitude,
         },
-        areaServed: [{ "@type": "Country", name: locale === "tr" ? "Türkiye" : "Türkiye" }],
+        areaServed: [{ "@type": "Country", name: "Türkiye" }],
         founder: { "@id": PERSON_ID },
         memberOf: entity.memberships.map((item) => ({
           "@type": "Organization",

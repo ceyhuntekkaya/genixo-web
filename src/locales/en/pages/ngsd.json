@@ -1,35 +1,143 @@
 {
-  "ngsd": {
-    "hero": {
-      "backgroundImage": "/images/ngsd-hero-final.jpg"
+  "meta": {
+    "title": "NGSD: Your External Software Department",
+    "description": "NGSD (Next Generation Software Department) gives you an assigned Genixo project manager and team that work as your software department, every month."
+  },
+  "breadcrumb": "NGSD",
+  "hero": {
+    "eyebrow": "NGSD · Next Generation Software Department",
+    "title": "A software department, without building one",
+    "lead": "An assigned Genixo project manager becomes your software manager, and the Genixo team becomes your software department. We set priorities together and show what's done every week.",
+    "primary": { "label": "Book an intro call", "href": "/contact" },
+    "secondary": { "label": "See pricing", "href": "/pricing#offers" }
+  },
+  "answer": {
+    "label": "In short",
+    "text": "NGSD (Next Generation Software Department) is Genixo's ongoing service model: a project manager assigned to your company and a Genixo engineering team that handle your software work month after month. Priorities are set with you, finished work is shown every week, everything is documented, and the code and knowledge can be handed over if you build your own team."
+  },
+  "sections": [
+    {
+      "kind": "prose",
+      "label": "Why NGSD",
+      "title": "Software needs are continuous. A permanent team isn't always the right investment.",
+      "paragraphs": [
+        "Hiring, combining different skills and keeping a software team takes serious time and money. Many companies need a backend developer one month, a mobile developer the next and a data engineer after that, but not all three full time.",
+        "With NGSD, a Genixo project manager assigned to your company acts as your software manager, and the Genixo team works as your software department. If you decide to build your own team one day, we hand over the code, the documents and the accumulated knowledge in an orderly way."
+      ]
     },
-    "title": "Genixo NGSD",
-    "subtitle": "Genixo Next Generation Software Department - End-to-end best software solution!",
-    "forWho": {
-      "title": "For whom?",
-      "content": "If you don't have a software team, this could be the best solution for you!"
+    {
+      "kind": "points",
+      "label": "How it works",
+      "title": "What working with NGSD looks like",
+      "items": [
+        {
+          "title": "An assigned project manager",
+          "text": "One person who knows your business, your systems and your priorities, and who is your single point of contact."
+        },
+        {
+          "title": "Weekly priorities",
+          "text": "Each week we agree on what matters most. When your needs change, the plan changes with them. [[TODO-032]]"
+        },
+        {
+          "title": "A weekly demo",
+          "text": "You see working software, not only status reports. Finished, in-progress and blocked items are visible to you."
+        },
+        {
+          "title": "Documentation as we go",
+          "text": "Architecture, decisions and operating notes are written down, so knowledge doesn't live only in people's heads."
+        },
+        {
+          "title": "The right skill at the right time",
+          "text": "Backend, frontend, mobile, data and AI work are covered by the team as your roadmap requires."
+        }
+      ]
     },
-    "whatIs": {
-      "title": "What is NGSD?",
-      "content": "Our most comprehensive 360 Degree, Dynamic, International and Remote solution that takes us and you one step further in the market. Establishing a team to meet your software needs can always be seen as the clearest solution, but as it is known, establishing a software team/department can be a very costly business. This is where Genixo NGSD comes in and saves you the trouble of setting up a team/department. The Genixo project manager assigned to your brand becomes your software manager, and Genixo becomes your software department!"
+    {
+      "kind": "table",
+      "label": "Comparison",
+      "title": "In-house team or NGSD: what changes",
+      "lead": "A framework for your own comparison. Your numbers depend on salaries, workload and how many skills you need.",
+      "columns": ["", "Building an in-house team", "NGSD"],
+      "rows": [
+        ["Getting started", "Recruiting, onboarding and setting up tools", "Starts after an intro call and a planning period"],
+        ["Range of skills", "Limited to the people you hire", "Drawn from the Genixo team as needed"],
+        ["When someone leaves", "Knowledge can leave with them", "Documented work and a team that covers for each other"],
+        ["Management", "You manage the developers", "An assigned Genixo project manager does"],
+        ["Changing capacity", "Hiring or letting people go", "Agreed with us as your needs change"],
+        ["Ownership", "Yours", "Yours, with a handover clause [[TODO-029]]"]
+      ]
     },
-    "images": {
-      "mainAlt": "Software Development Team Collaboration",
-      "remoteAlt": "Remote Work and Video Conference",
-      "dynamicAlt": "Dynamic and Flexible Team Work",
-      "globalAlt": "Global Collaboration and International Vision"
+    {
+      "kind": "list",
+      "variant": "checks",
+      "label": "Terms",
+      "title": "Commitments and terms",
+      "items": [
+        "Minimum term and monthly fee: [[TODO-026]]",
+        "Code and intellectual property belong to you. [[TODO-028]]",
+        "Notice period and handover: [[TODO-029]]",
+        "Support and response arrangements: [[TODO-033]]"
+      ],
+      "links": [{ "label": "Pricing and timelines", "href": "/pricing#offers" }]
     },
-    "remote": {
-      "title": "Remote",
-      "content": "Remote but close! How? With a privileged customer experience. As Genixo, we aim for distances to be meaningless. We ensure you can continuously track processes with a transparent operational understanding, and we strive to keep our communication at the highest level by holding planned meetings and providing instant customer support. With a remote software department, we increase your efficiency, and you reduce your costs."
+    {
+      "kind": "points",
+      "layout": "grid",
+      "label": "Working from abroad",
+      "title": "For companies outside Türkiye",
+      "items": [
+        {
+          "title": "Time zone",
+          "text": "Türkiye is on UTC+3 all year. Working hours overlap with Central Europe and match Saudi Arabia, Qatar and Kuwait. Our shared hours: [[TODO-005]]"
+        },
+        {
+          "title": "Data protection",
+          "text": "EU clients usually need a data processing agreement under the GDPR; KVKK applies on the Turkish side. Where data is stored is agreed before work starts. See [data security](/data-security)."
+        },
+        {
+          "title": "Currency and contracts",
+          "text": "International engagements can be quoted in euros. [[TODO-026]]"
+        }
+      ]
     },
-    "dynamic": {
-      "title": "Dynamic",
-      "content": "Our job is to adapt quickly to the dynamics of your business! Together with NGSD, we are able to continuously analyze your requirements and scale up or down the team according to the status of your projects, so we are always optimally positioned for your needs."
+    {
+      "kind": "cases",
+      "service": "ngsd",
+      "label": "Proof",
+      "title": "NGSD engagements we can show"
     },
-    "global": {
-      "title": "Global",
-      "content": "Let the world get smaller and, you get bigger! As the world gets smaller, nobody wants to be limited locally. We also carry this motivation, we build our projects on a vision and infrastructure that can operate globally. With our transnational vision and Genixo NGSD model, it is possible for us to implement and develop all your software requirements in a structure where you can operate globally. We invite all passionate brands who agree with us to walk this path together."
+    {
+      "kind": "faq",
+      "label": "FAQ",
+      "title": "Questions about NGSD",
+      "items": [
+        {
+          "q": "What does NGSD stand for?",
+          "a": "Next Generation Software Department. It is Genixo's model for acting as a company's external software department on an ongoing basis."
+        },
+        {
+          "q": "How is NGSD different from outsourcing a project?",
+          "a": "A project has a fixed scope and an end date. NGSD is continuous: priorities are reset with you every week, and the same team keeps the knowledge of your systems over time."
+        },
+        {
+          "q": "Is there a minimum term?",
+          "a": "Minimum term and monthly fee: [[TODO-026]]."
+        },
+        {
+          "q": "What happens if we want to build our own team?",
+          "a": "We hand over the code, the documentation and the accumulated knowledge in an orderly way. Notice period and handover details: [[TODO-029]]."
+        },
+        {
+          "q": "Can NGSD follow a project or pilot?",
+          "a": "Yes. A common path is a fixed-scope project or AI pilot first, then NGSD to keep running and improving what was built."
+        }
+      ]
     }
+  ],
+  "cta": {
+    "title": "Need software every month, but not a department?",
+    "lead": "Tell us what's on your roadmap. In the intro call we discuss whether NGSD fits and what the first month would cover.",
+    "primary": { "label": "Book an intro call", "href": "/contact" },
+    "secondary": { "label": "How we work", "href": "/how-we-work" }
   }
 }

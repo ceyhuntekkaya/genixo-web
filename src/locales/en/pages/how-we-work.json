@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "title": "How We Work: Measure, Pilot, Launch, Improve",
+    "description": "How Genixo runs software and AI projects: measure the process, pilot on real work, launch with your team and keep improving. Weekly demos, written targets."
+  },
+  "breadcrumb": "How we work",
+  "hero": {
+    "eyebrow": "How we work",
+    "title": "We measure first, then build, then keep measuring",
+    "lead": "Every project follows the same four phases, with a written baseline, a weekly demo and clear terms about who owns what.",
+    "primary": { "label": "Book a first call", "href": "/contact" },
+    "secondary": { "label": "What we don't do", "href": "/what-we-dont-do" }
+  },
+  "answer": {
+    "label": "In short",
+    "text": "Genixo projects run in four phases: measure the current process, pilot the smallest useful version on real work, launch it into daily operations, and improve it based on measurements. The baseline and target are agreed in writing before the build, you see working software every week, and the code and documentation are handed over to you."
+  },
+  "sections": [
+    {
+      "kind": "steps",
+      "label": "The four phases",
+      "title": "Measure, pilot, launch, improve",
+      "items": [
+        {
+          "title": "Measure",
+          "text": "We study one process on site or online: who does what, how often, how long it takes and where errors appear. Output: a baseline and a written success criterion.",
+          "meta": "[[TODO-031]]"
+        },
+        {
+          "title": "Pilot",
+          "text": "We build the smallest version that can run on real work, in parallel with your current process, and report the numbers every week.",
+          "meta": "[[TODO-031]]"
+        },
+        {
+          "title": "Launch",
+          "text": "Integration with your systems, data migration, user training and a switch-over planned with the people who do the work.",
+          "meta": "[[TODO-031]]"
+        },
+        {
+          "title": "Improve",
+          "text": "We check the numbers after go-live and refine what they point to, as a follow-up phase or through NGSD.",
+          "meta": "[[TODO-031]]"
+        }
+      ]
+    },
+    {
+      "kind": "points",
+      "label": "Principles",
+      "title": "Rules we apply on every project",
+      "items": [
+        {
+          "title": "We don't call it faster without measuring",
+          "text": "Claims such as “faster” or “fewer errors” are only made against a baseline measured before the change, with the method and the period stated."
+        },
+        {
+          "title": "AI suggests, people approve",
+          "text": "Any step that touches money, customers or staff has a person approving the result. The system shows what it was unsure about."
+        },
+        {
+          "title": "Small first, then bigger",
+          "text": "We prefer a pilot that answers one clear question over a large project that answers none until the end."
+        },
+        {
+          "title": "The people who scope it build it",
+          "text": "The people in the first conversations stay on the project, so knowledge isn't lost in a handover from sales to delivery. [[TODO-015]]"
+        }
+      ]
+    },
+    {
+      "kind": "points",
+      "layout": "grid",
+      "label": "Weekly rhythm",
+      "title": "What a normal week looks like",
+      "lead": "Our weekly rhythm and tools: [[TODO-032]]",
+      "items": [
+        {
+          "title": "Priorities",
+          "text": "At the start of the week we agree on what matters most and what is blocked."
+        },
+        {
+          "title": "Demo",
+          "text": "You see working software, not only a status report. Finished, in-progress and blocked items are visible."
+        },
+        {
+          "title": "Written record",
+          "text": "Decisions, changes and open questions are written down where both teams can see them."
+        }
+      ]
+    },
+    {
+      "kind": "list",
+      "variant": "checks",
+      "label": "Ownership and exit",
+      "title": "Who owns what, and how you can leave",
+      "items": [
+        "Source code and intellectual property: [[TODO-028]]",
+        "Documentation is written during the project, not at the end.",
+        "Infrastructure, store and third-party accounts are opened in your company's name where possible.",
+        "Notice period and handover if you stop working with us: [[TODO-029]]",
+        "Support after launch: [[TODO-033]]",
+        "Payment terms: [[TODO-027]]"
+      ],
+      "links": [{ "label": "Pricing and timelines", "href": "/pricing" }]
+    },
+    {
+      "kind": "faq",
+      "label": "FAQ",
+      "title": "Questions about how we work",
+      "items": [
+        {
+          "q": "How does a project with Genixo start?",
+          "a": "With a first call about the process that costs you the most time. If there is a fit, the next step is a short, scoped first phase: an AI readiness assessment, a discovery sprint, a product workshop or an NGSD intro."
+        },
+        {
+          "q": "How do you measure success?",
+          "a": "Before the build starts we write down the baseline, the target and how both will be measured, for example time per document or correction rate. The pilot is judged against that, not against a demo."
+        },
+        {
+          "q": "How often will we see progress?",
+          "a": "Every week, as working software rather than only a report. Our weekly rhythm and tools: [[TODO-032]]."
+        },
+        {
+          "q": "What happens if the pilot doesn't reach the target?",
+          "a": "You get the numbers and our honest view: adjust and test again, change the approach, or stop. Stopping after a pilot is a valid result."
+        },
+        {
+          "q": "Who owns the code?",
+          "a": "The code and documentation are handed over to you. Contract details: [[TODO-028]]."
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Start with one process and a number.",
+    "lead": "Tell us which process takes the most time today. We'll suggest how to measure it and what a first phase would look like.",
+    "primary": { "label": "Book a first call", "href": "/contact" },
+    "secondary": { "label": "See pricing and timelines", "href": "/pricing" }
+  }
+}

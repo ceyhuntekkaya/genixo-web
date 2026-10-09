@@ -16,7 +16,7 @@ faq:
     a: "Not really. Process and data need a floor first. AI speeds work after that floor exists."
 sources:
   - title: "Ceyhun Tekkaya, founder observation. This version cites no third-party statistic."
-    url: "https://genixo.ai/en/authors/ceyhun-tekkaya"
+    url: "https://genixo.ai/en/team/ceyhun-tekkaya"
     accessed: "2026-10-09"
 image: "/images/1753787699394.png"
 draft: false

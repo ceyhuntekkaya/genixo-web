@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "title": "Product Studio: From Idea to Live App",
+    "description": "Genixo's product studio turns an idea into a live web or mobile product: discovery workshop, first version, launch and iteration. You own the code."
+  },
+  "breadcrumb": "Product studio",
+  "hero": {
+    "eyebrow": "Product studio",
+    "title": "From an idea to a product people use",
+    "lead": "You bring the idea and the market knowledge. We bring the team that designs, builds, launches and keeps improving the product with you.",
+    "primary": { "label": "Book a product call", "href": "/contact" },
+    "secondary": { "label": "See products we built", "href": "/products" }
+  },
+  "answer": {
+    "label": "In short",
+    "text": "Genixo's product studio takes a web or mobile product from idea to launch: a discovery workshop to define the first version, design and development, store and server setup, launch, and iteration based on real usage. The source code, store accounts and design files belong to you."
+  },
+  "sections": [
+    {
+      "kind": "quotes",
+      "label": "Sound familiar?",
+      "title": "Where founders and product owners usually are",
+      "items": [
+        "I know the market and the problem, but I don't have a technical team.",
+        "We have a prototype, but it isn't ready for real users.",
+        "An agency built version one, and now nobody can change it.",
+        "I need to know what the first version should include, and what it shouldn't."
+      ]
+    },
+    {
+      "kind": "steps",
+      "label": "How it works",
+      "title": "Workshop, first version, launch, iterate",
+      "items": [
+        {
+          "title": "Discovery workshop",
+          "text": "We define the users, the core flow and what the first version must prove. Output: scope, screens and a quote.",
+          "meta": "[[TODO-025]]"
+        },
+        {
+          "title": "First version",
+          "text": "Design and development in short increments, with a working build you can try every week.",
+          "meta": "[[TODO-032]]"
+        },
+        {
+          "title": "Launch",
+          "text": "Store listings, servers, analytics and the release itself, set up under your accounts."
+        },
+        {
+          "title": "Iterate",
+          "text": "We look at how people actually use the product and decide the next increment with you."
+        }
+      ]
+    },
+    {
+      "kind": "points",
+      "label": "What we build",
+      "title": "Products we take on",
+      "items": [
+        {
+          "title": "Web platforms",
+          "text": "Customer portals, marketplaces and SaaS products with user management, payments and admin panels."
+        },
+        {
+          "title": "Mobile apps",
+          "text": "Android and iOS apps, published under your developer accounts."
+        },
+        {
+          "title": "AI features inside a product",
+          "text": "Search, question answering, content generation or speech features, designed with a human review step where accuracy matters."
+        }
+      ]
+    },
+    {
+      "kind": "list",
+      "variant": "checks",
+      "label": "What stays yours",
+      "title": "You own the product, not just the idea",
+      "items": [
+        "Source code, store accounts and design files belong to you. [[TODO-028]]",
+        "Servers and third-party services are opened under your company's accounts.",
+        "Documentation is written as we go, so another team could continue the work."
+      ]
+    },
+    {
+      "kind": "products",
+      "label": "Our own products",
+      "title": "We build and run products of our own",
+      "lead": "These products are live. They show the kind of product work we do. [[TODO-073]]",
+      "visit": "Visit site"
+    },
+    {
+      "kind": "cases",
+      "service": "product-studio",
+      "label": "Proof",
+      "title": "Products we built for clients"
+    },
+    {
+      "kind": "list",
+      "variant": "limits",
+      "label": "What this is not",
+      "title": "Limits",
+      "items": [
+        "We don't validate your market for you. We help you define what the first version must prove.",
+        "We don't recommend building every feature at once. The first version is kept small enough to learn from.",
+        "We don't promise a launch date before the discovery workshop has defined the scope."
+      ]
+    },
+    {
+      "kind": "faq",
+      "label": "FAQ",
+      "title": "Questions about the product studio",
+      "items": [
+        {
+          "q": "How long does it take to launch a first version?",
+          "a": "It depends on the scope agreed in the discovery workshop. The workshop ends with a scope, screens and a timeline. Workshop details: [[TODO-025]]."
+        },
+        {
+          "q": "Who owns the code and the app store accounts?",
+          "a": "You do. Store and server accounts are opened under your company, and the source code and design files are handed over to you."
+        },
+        {
+          "q": "Can you continue a product another team started?",
+          "a": "Yes, after a code and infrastructure review. We tell you what can be kept, what should be rewritten and why."
+        },
+        {
+          "q": "What happens after launch?",
+          "a": "Most products need regular improvements. You can book follow-up increments or move to NGSD, where a Genixo team keeps working on the product every month."
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Have an idea? Let's define the first version.",
+    "lead": "In the first call we listen to the idea, ask who it is for and suggest what the first version should prove.",
+    "primary": { "label": "Book a first call", "href": "/contact" },
+    "secondary": { "label": "See pricing and timelines", "href": "/pricing" }
+  }
+}

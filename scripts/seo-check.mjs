@@ -39,6 +39,7 @@ async function checkPage(url, { indexable }) {
   const html = await res.text();
   const errs = [];
   if (res.status !== 200) errs.push(`status ${res.status}`);
+  if (/\[\[TODO-\d{3}\]\]/.test(html)) errs.push("raw TODO marker");
   const lang = html.match(/<html[^>]*lang="([^"]+)"/)?.[1];
   const locale = new URL(url).pathname.split("/")[1];
   if (lang !== locale) errs.push(`lang=${lang}`);
@@ -52,14 +53,9 @@ async function checkPage(url, { indexable }) {
     if (/name="keywords"/.test(html)) errs.push("meta keywords");
     const canonical = html.match(/<link rel="canonical" href="([^"]+)"/)?.[1];
     if (!canonical || rewrite(canonical) !== url) errs.push(`canonical ${canonical}`);
-    const hreflang = html.match(/hrefLang="([^"]+)"/gi)?.map((item) => item.toLowerCase()) ?? [];
+    const hreflang = html.match(/<link[^>]*hrefLang="([^"]+)"/gi)?.map((item) => item.toLowerCase()) ?? [];
     if (!hreflang.some((item) => item.includes("x-default"))) errs.push("no x-default");
-    if (url.includes("/government-support")) {
-      if (!hreflang.some((item) => item.includes('"tr"'))) errs.push("no tr hreflang");
-      if (hreflang.some((item) => item.includes('"en"'))) errs.push("en hreflang on tr-only page");
-    } else if (!hreflang.some((item) => item.includes('"tr"')) || !hreflang.some((item) => item.includes('"en"'))) {
-      errs.push("hreflang set incomplete");
-    }
+    if (!hreflang.some((item) => item.includes(`"${locale}"`))) errs.push(`no ${locale} hreflang`);
     if (url.includes("/blog/yapay-zeka-sadece-bir-teknoloji-degil-yeni-bir-calisma-kulturu") && !html.includes("/en/blog/ai-not-just-technology")) {
       errs.push("blog hreflang missing en slug");
     }
@@ -84,7 +80,7 @@ async function checkPage(url, { indexable }) {
     await checkOg(html, errs);
   } else {
     if (!/noindex/i.test(html)) errs.push("missing noindex");
-    if (/hrefLang=/i.test(html)) errs.push("hreflang on noindex page");
+    if (/<link[^>]*hrefLang=/i.test(html)) errs.push("hreflang on noindex page");
   }
   if (errs.length) {
     fail++;
@@ -98,10 +94,27 @@ for (const url of urls) {
   await checkPage(url, { indexable: true });
 }
 
-const extras = ["/de", "/fr", "/ru", "/tr/chat", "/tr/case-study"].map((path) => `${base}${path}`);
+// Untranslated TR copy falls back to EN and must stay out of the index.
+const extras = ["/tr/chat", "/tr/hello", "/en/hello", "/tr/ai-automation", "/tr/pricing"].map((path) => `${base}${path}`);
 for (const url of extras) {
   await checkPage(url, { indexable: false });
 }
 
-console.log(`\n${urls.length} sitemap URL, ${extras.length} noindex URL, ${fail} hatalı`);
+const redirects = [
+  ["/de", "/en"],
+  ["/ru/about", "/en/about"],
+  ["/tr/solutions", "/tr/services"],
+  ["/tr/solutions/ai-integration", "/tr/ai-automation"],
+  ["/en/government-support", "/en/pricing"],
+  ["/en/authors/ceyhun-tekkaya", "/en/team/ceyhun-tekkaya"],
+];
+for (const [from, to] of redirects) {
+  const res = await fetch(`${base}${from}`, { redirect: "manual" });
+  const location = res.headers.get("location") ?? "";
+  const ok = [301, 308].includes(res.status) && new URL(location, base).pathname === to;
+  if (!ok) fail++;
+  console.log(ok ? "✓" : "✗", from, "→", res.status, location);
+}
+
+console.log(`\n${urls.length} sitemap URL, ${extras.length} noindex URL, ${redirects.length} redirect, ${fail} hatalı`);
 process.exit(fail ? 1 : 0);

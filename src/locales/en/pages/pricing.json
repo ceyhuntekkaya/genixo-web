@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "title": "Pricing and Timelines for Software and AI Projects",
+    "description": "Genixo's starting offers, what drives the cost of software and AI projects, the costs often forgotten, and how to estimate payback before you start."
+  },
+  "breadcrumb": "Pricing",
+  "hero": {
+    "eyebrow": "Pricing and timelines",
+    "title": "What a project costs, and what decides the cost",
+    "lead": "Every project starts with a small, scoped first step. Below are those steps, the factors that move the price and the costs that proposals often leave out.",
+    "primary": { "label": "Ask for a quote", "href": "/contact" },
+    "secondary": { "label": "How we work", "href": "/how-we-work" }
+  },
+  "answer": {
+    "label": "In short",
+    "text": "Genixo work starts with a scoped first step: an AI readiness assessment, a fixed-scope AI pilot, a discovery sprint for custom software, a product discovery workshop, or an NGSD intro. The final cost of a project depends mainly on integrations, the condition of your data, accuracy requirements and where the system runs."
+  },
+  "sections": [
+    {
+      "kind": "table",
+      "id": "offers",
+      "label": "Starting offers",
+      "title": "First steps, with duration and price",
+      "lead": "Prices are quoted in Turkish lira for clients in Türkiye. Payment terms: [[TODO-027]]",
+      "columns": ["Offer", "Duration", "What you get", "Price"],
+      "rows": [
+        [
+          "AI readiness assessment, short",
+          "[[TODO-021]]",
+          "One call and a one-page summary that marks up to three processes as a fit, a conditional fit or not a fit.",
+          "[[TODO-021]]"
+        ],
+        [
+          "AI readiness assessment, comprehensive",
+          "[[TODO-022]]",
+          "Process map, data inventory, KVKK review, rough return estimate and a pilot plan.",
+          "[[TODO-022]]"
+        ],
+        [
+          "Fixed-scope AI pilot",
+          "[[TODO-023]]",
+          "One process, run on real work and measured against a written baseline.",
+          "[[TODO-023]]"
+        ],
+        [
+          "Discovery sprint (custom software)",
+          "[[TODO-024]]",
+          "Scope, architecture and a fixed quote for the build.",
+          "[[TODO-024]]"
+        ],
+        [
+          "Product discovery workshop",
+          "[[TODO-025]]",
+          "Users, core flow, first-version scope, screens and a quote.",
+          "[[TODO-025]]"
+        ],
+        [
+          "NGSD",
+          "Monthly, minimum term [[TODO-026]]",
+          "An assigned project manager and Genixo team capacity.",
+          "[[TODO-026]]"
+        ]
+      ]
+    },
+    {
+      "kind": "points",
+      "label": "What drives cost",
+      "title": "Six factors that move the price",
+      "items": [
+        {
+          "title": "Integrations",
+          "text": "Each system the solution has to read from or write to, such as an ERP, CRM, e-invoice or telephony system, adds work and testing."
+        },
+        {
+          "title": "Condition of your data",
+          "text": "Clean, structured data is cheaper to work with than scanned documents, duplicates or inconsistent codes."
+        },
+        {
+          "title": "Accuracy requirements",
+          "text": "The higher the required accuracy, the larger the test set, the more review steps and the longer the pilot."
+        },
+        {
+          "title": "Where the system runs",
+          "text": "Running models on your servers needs suitable hardware. Using an API provider has no hardware cost but has usage fees and KVKK consequences."
+        },
+        {
+          "title": "Users and permissions",
+          "text": "Many roles, approval chains and document-level permissions take more design and testing."
+        },
+        {
+          "title": "Support after launch",
+          "text": "Monitoring, fixes and improvements after go-live are part of the real cost. [[TODO-033]]"
+        }
+      ]
+    },
+    {
+      "kind": "list",
+      "variant": "checks",
+      "label": "Often forgotten",
+      "title": "Costs we show as separate lines",
+      "lead": "These are real costs of AI and software projects. We list them in the proposal instead of leaving them for later.",
+      "items": [
+        "Data preparation and cleanup",
+        "Building and maintaining the test set",
+        "Model or API usage fees",
+        "Re-testing when a model or prompt is updated",
+        "Hosting, backups and monitoring",
+        "User training",
+        "Maintenance and small changes after launch"
+      ]
+    },
+    {
+      "kind": "prose",
+      "label": "Estimating payback",
+      "title": "How to estimate payback before you start",
+      "lead": "An illustrative method, not a promise. In a pilot, the inputs are replaced with measured values.",
+      "paragraphs": [
+        "Monthly benefit = hours saved per month × fully loaded hourly cost + cost of errors avoided per month − monthly running costs.",
+        "Payback period = one-off cost ÷ monthly benefit.",
+        "Total cost of ownership over three years = one-off cost + 36 × monthly running costs, including the forgotten costs listed above.",
+        "If the monthly benefit is small or uncertain, the right next step is a measurement, not a build."
+      ]
+    },
+    {
+      "kind": "prose",
+      "id": "funding",
+      "label": "Public support",
+      "title": "KOSGEB and other support programmes",
+      "paragraphs": [
+        "KOSGEB runs programmes that support SMEs' digital transformation. Programme scope, eligible sectors and limits change over time, and many small software projects fall outside them. We check the current official conditions with you before suggesting that a programme applies. [[TODO-071]]",
+        "Official information: [KOSGEB](https://www.kosgeb.gov.tr)."
+      ]
+    },
+    {
+      "kind": "faq",
+      "label": "FAQ",
+      "title": "Questions about pricing",
+      "items": [
+        {
+          "q": "Why don't you publish a fixed price per project?",
+          "a": "Because two projects with the same name can differ several times in integrations, data condition and accuracy requirements. The first steps above have published terms; the build is quoted after scope is defined."
+        },
+        {
+          "q": "Can the cost of discovery be deducted from the project?",
+          "a": "Terms for the discovery sprint: [[TODO-024]]."
+        },
+        {
+          "q": "Do you work with fixed prices or time and materials?",
+          "a": "After a discovery sprint or workshop, we quote the defined scope. NGSD is monthly. Payment terms: [[TODO-027]]."
+        },
+        {
+          "q": "Do you quote in euros?",
+          "a": "Clients in Türkiye are quoted in Turkish lira. International engagements can be quoted in euros. [[TODO-026]]"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Get a quote for your first step.",
+    "lead": "Tell us the process or product in a few sentences. We'll suggest the right first step and its cost.",
+    "primary": { "label": "Ask for a quote", "href": "/contact" },
+    "secondary": { "label": "AI readiness assessment", "href": "/ai-readiness-assessment" }
+  }
+}

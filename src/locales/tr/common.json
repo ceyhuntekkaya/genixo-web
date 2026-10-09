@@ -1,61 +1,129 @@
 {
-  "general": {
-    "ReadMore": "devamı...",
-    "ctaMessage": "En iyi müşteri deneyimini sunuyoruz"
-  },
   "menu": {
-    "Home": "Ana Sayfa",
-    "Solutions": "Çözümler",
-    "Products": "Ürünler",
-    "SuccessStories": "Başarılar",
-    "GovernmentSupport": "Danışmanlık",
-    "NGSD": "NGSD",
+    "Home": "Ana sayfa",
+    "Services": "Hizmetler",
+    "CaseStudies": "Vaka çalışmaları",
+    "HowWeWork": "Nasıl çalışıyoruz",
+    "Pricing": "Fiyatlandırma",
     "AboutUs": "Hakkımızda",
     "Blog": "Blog",
     "ContactUs": "İletişim",
-    "ContactInfo": "İletişim Bilgileri",
+    "Products": "Ürünler",
     "ILC": "ILC International Language Certification",
     "StudyScoreAI": "Study Score AI",
     "Egitimiste": "Eğitim İste",
     "GenixoWorkAI": "Genixo Work AI",
     "GenixoAssistant": "Genixo Assistant",
     "TOMEREYadis": "TÖMER E-Yadis",
-    "RetiredTravelApp": "Retired Travel App",
-    "active": {
-      "Solutions": true,
-      "Products": true,
-      "SuccessStories": false,
-      "GovernmentSupport": false,
-      "NGSD": true,
-      "AboutUs": true,
-      "Blog": true,
-      "ContactUs": true
+    "RetiredTravelApp": "Retired Travel App"
+  },
+  "offers": {
+    "ai-automation": {
+      "name": "Yapay zekâ süreç otomasyonu",
+      "summary": "Yapay zekâ okur, taslak hazırlar ve ayırır. Ekibiniz onaylar. Tek bir süreçle başlar, ölçeriz."
+    },
+    "custom-software": {
+      "name": "Özel yazılım",
+      "summary": "İşinizin bugünkü akışına göre kurulan, ERP, muhasebe ve saha ekiplerinize bağlanan sistemler."
+    },
+    "product-studio": {
+      "name": "Ürün stüdyosu",
+      "summary": "Bir fikirden canlı bir web veya mobil ürüne. Kod, hesaplar ve tasarımlar sizindir."
+    },
+    "ngsd": {
+      "name": "NGSD: dış yazılım departmanı",
+      "summary": "Yıl boyunca yazılıma ihtiyaç duyan şirketler için, atanmış bir proje yöneticisi olan sürekli ekip."
     }
   },
-  "welcome": {
-    "title": "Genixo"
-  },
-  "company": {
-    "name": "Genixo Bilişim ve Teknoloji",
-    "defaultDescription": "Yazılım Çözüm Ortağı & İnovasyon Şirketi - Web uygulamaları, mobil geliştirme, bulut çözümleri ve AI destekli yazılım geliştirme hizmetleri.",
-    "defaultKeywords": "yazılım geliştirme, web uygulaması, mobil uygulama, bulut çözümleri, AI yazılım, yazılım danışmanlığı, DevOps, veri bilimi"
+  "chrome": {
+    "cta": "İlk görüşmeyi planlayın",
+    "tagline": "Yazılım departmanınız, yapay zekâ dahil",
+    "menuOpen": "Menü",
+    "menuClose": "Kapat",
+    "language": "Dil",
+    "viewAll": "Genel bakış",
+    "pages": "Sayfalar",
+    "skip": "İçeriğe geç",
+    "backToTop": "Başa dön",
+    "primaryNav": "Ana menü"
   },
   "footer": {
-    "contactInfo": "İletişim Bilgileri",
-    "copyright": "© Copyrights 2026 genixo.ai All rights reserved.",
-    "address": "Bilkent Cyberpark",
-    "partnerships": "Bağlı Olduğumuz Kurumlar",
+    "services": "Hizmetler",
+    "company": "Şirket",
+    "resources": "Nasıl çalışıyoruz",
+    "contact": "İletişim",
+    "memberships": "Üyelikler",
+    "aiReadiness": "Yapay zekâ hazırlık değerlendirmesi",
+    "howWeWork": "Nasıl çalışıyoruz",
+    "whatWeDontDo": "Neleri yapmıyoruz",
+    "dataSecurity": "Veri güvenliği ve KVKK",
     "cyberpark": {
       "title": "Bilkent Cyberpark",
-      "description": "Ar-Ge Şirketi"
+      "description": "Ar-Ge şirketi"
     },
     "tbd": {
       "title": "TBD",
-      "description": "Türkiye Bilişim Derneği Üyesi"
+      "description": "Türkiye Bilişim Derneği üyesi"
     },
     "alte": {
       "title": "ALTE",
-      "description": "Association of Language Testers in Europe Üyesi"
+      "description": "Avrupa Dil Sınavcıları Birliği üyesi"
     }
+  },
+  "ui": {
+    "inShort": "Kısaca",
+    "home": "Ana sayfa",
+    "sources": "Kaynaklar",
+    "related": "İlgili",
+    "updated": "Güncellendi",
+    "author": "Yazar",
+    "faq": "Sık sorulan sorular",
+    "today": "Bugün",
+    "withAi": "Yapay zekâ ile",
+    "measure": "Neyi ölçeriz",
+    "readScenario": "Nasıl çalıştığını görün",
+    "readCase": "Vakayı okuyun",
+    "bookCall": "İlk görüşmeyi planlayın",
+    "direct": "ya da doğrudan ulaşın",
+    "todo": "Teyit edilecek",
+    "notFoundTitle": "Sayfa bulunamadı",
+    "notFoundBody": "Bu adres yayında değil. Şu sayfalar yardımcı olabilir:",
+    "profile": {
+      "articles": "Yazılar",
+      "ctaTitle": "Doğrudan benimle konuşun.",
+      "ctaLead": "Ekibinizi yavaşlatan süreci anlatın. Yardımcı olup olamayacağımızı açıkça söylerim."
+    },
+    "articleCta": {
+      "title": "İşletmenizde en çok zamanı hangi süreç alıyor?",
+      "lead": "Birkaç cümle yeter. İlk görüşmede yazılımın veya yapay zekânın ölçülebilir fark yaratacağı yeri, ya da bizim doğru ekip olmadığımızı söyleriz."
+    },
+    "caseFacts": {
+      "industry": "Sektör",
+      "size": "Şirket büyüklüğü",
+      "duration": "Süre",
+      "stack": "Teknoloji"
+    }
+  },
+  "blog": {
+    "latestBlog": "Son yazılar",
+    "fromNewsRoom": "Son yazılardan",
+    "readFull": "Yazıyı okuyun"
+  },
+  "contactForm": {
+    "nameLabel": "Adınız",
+    "namePlaceholder": "Ad ve soyad",
+    "emailLabel": "İş e-postası",
+    "emailPlaceholder": "ad@sirket.com",
+    "messageLabel": "Ekibinizin en çok zamanını ne alıyor?",
+    "messageDescription": "Bir iki cümle yeter. Süreci, kabaca ne sıklıkla tekrarlandığını ve bugün hangi sistemleri kullandığınızı yazın.",
+    "messagePlaceholder": "Örneğin: ayda yaklaşık 40 teklifi Excel'de hazırlıyoruz, her biri yarım gün sürüyor.",
+    "budgetLabel": "Bütçe aralığı (isteğe bağlı)",
+    "budgetPlaceholder": "Henüz net değilse boş bırakın",
+    "submitButton": "Gönder",
+    "submitting": "Gönderiliyor...",
+    "successMessage": "Teşekkürler. Mesajınız bize ulaştı, e-posta ile dönüş yapacağız.",
+    "errorMessage": "Lütfen adınızı, geçerli bir e-posta adresini ve mesajınızı yazın.",
+    "connectionError": "Mesaj gönderilemedi. Lütfen yeniden deneyin ya da hello@genixo.ai adresine yazın.",
+    "botDetectedMessage": "Gönderiminizi doğrulayamadık. Lütfen yeniden deneyin."
   }
 }

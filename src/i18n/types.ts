@@ -1,136 +1,40 @@
-export type BoardFace = {
-    label: string;
-    value: string;
-    meta: string;
+import type { OfferKey } from "@/content/offers";
+
+export type JourneyStep = {
+    time: string;
+    text: string;
 };
 
-export type BoardItem = {
-    id: "quote" | "stock" | "report" | "invoice" | "customer";
-    before: BoardFace;
-    after: BoardFace;
+type Product = {
+    name: string;
+    summary: string;
+    description: string;
+    features?: (string | { title: string; description: string })[];
+    webLink?: string;
+    logo?: string;
+    image1?: string;
+    image2?: string;
+    longDescription?: string;
+    active?: boolean;
+    showOnHomepage?: boolean;
+    videoLink?: string;
+    problemsTitle?: string;
+    problemsSubtitle?: string;
+    problems?: Array<{ title: string; description: string }>;
 };
 
-export type Landing = {
-    hero: {
-        eyebrow: string;
-        titleBefore: string;
-        titleMark: string;
-        titleAfter: string;
-        lead: string;
-        primary: string;
-        secondary: string;
-    };
-    board: {
-        toggleLabel: string;
-        before: string;
-        after: string;
-        caption: string;
-        items: BoardItem[];
-    };
-    problems: {
-        eyebrow: string;
-        title: string;
-    };
-    solutions: {
-        eyebrow: string;
-        title: string;
-        all: string;
-    };
-    process: {
-        eyebrow: string;
-        title: string;
-        steps: Array<{ title: string; text: string }>;
-    };
-    products: {
-        eyebrow: string;
-        title: string;
-        lead: string;
-        visit: string;
-    };
-    ngsd: {
-        eyebrow: string;
-        title: string;
-        lead: string;
-        remote: string;
-        dynamic: string;
-        global: string;
-        cta: string;
-    };
-    reading: {
-        eyebrow: string;
-        title: string;
-        read: string;
-    };
-    contact: {
-        title: string;
-        lead: string;
-        primary: string;
-        direct: string;
-    };
-};
-
+/** Site chrome and shared strings: `common.json`, `products.json`, `seo.json`. Page copy lives in `pages/*.json`. */
 export type Dictionary = {
-
-    "general": {
-        "ReadMore": string;
-        "ctaMessage": string;
-    },
-    "about": {
-        "WhoWeAre": string;
-        "slogan": string;
-        "short"?: string;
-        "description": string;
-        "authorName"?: string;
-        "authorTitle"?: string;
-        "callToAsk"?: string;
-        "phoneNumber"?: string;
-        "values": {
-            "dynamism": {
-                "title": string;
-                "content": string;
-            };
-            "passion": {
-                "title": string;
-                "content": string;
-            };
-            "professionalism": {
-                "title": string;
-                "content": string;
-            };
-        };
-        "whyDigitalTransformation"?: {
-            "subtitle": string;
-            "title": string;
-            "problems": Array<{
-                title: string;
-                problem: string;
-                solution: string;
-            }>;
-        };
-    },
-
     menu: {
         Home: string;
-        Solutions: string;
-        Products: string;
-        SuccessStories: string;
-        GovernmentSupport: string;
-        NGSD: string;
+        Services: string;
+        CaseStudies: string;
+        HowWeWork: string;
+        Pricing: string;
         AboutUs: string;
         Blog: string;
         ContactUs: string;
-        active?: {
-            Solutions?: boolean;
-            Products?: boolean;
-            SuccessStories?: boolean;
-            GovernmentSupport?: boolean;
-            NGSD?: boolean;
-            AboutUs?: boolean;
-            Blog?: boolean;
-            ContactUs?: boolean;
-        };
-        // Solutions submenu items come from services array (service.name)
-        // Products submenu
+        Products: string;
         ILC: string;
         StudyScoreAI: string;
         Egitimiste: string;
@@ -139,403 +43,93 @@ export type Dictionary = {
         TOMEREYadis: string;
         RetiredTravelApp: string;
     };
-    welcome: {
-        title: string;
+    offers: Record<OfferKey, { name: string; summary: string }>;
+    chrome: {
+        cta: string;
+        tagline: string;
+        menuOpen: string;
+        menuClose: string;
+        language: string;
+        viewAll: string;
+        pages: string;
+        skip: string;
+        backToTop: string;
+        primaryNav: string;
     };
-    company?: {
-        name: string;
-        defaultDescription?: string;
-        defaultKeywords?: string;
+    footer: {
+        services: string;
+        company: string;
+        resources: string;
+        contact: string;
+        memberships: string;
+        aiReadiness: string;
+        howWeWork: string;
+        whatWeDontDo: string;
+        dataSecurity: string;
+        cyberpark: { title: string; description: string };
+        tbd: { title: string; description: string };
+        alte: { title: string; description: string };
     };
-    hero: {
-        subtitle: string;
-        title: string;
-        description: string;
-        button: string;
-    };
-
-
-    "solutionsHero"?: {
-        "backgroundImage": string;
-    };
-    "services": Array<{
-        slug: string;
-        name: string;
-        summary: string;
-        description: string;
-        problemsTitle?: string;
-        problemsSubtitle?: string;
-        problems?: Array<{
-            title: string;
-            description: string;
-        }>;
-        image1?: string;
-        image2?: string;
-        active?: boolean;
-        showOnHomepage?: boolean;
-        order?: number;
-        faq?: Array<{ q: string; a: string }>;
-    }>;
-
-    "products": {
-        hero?: {
-            "backgroundImage": string;
-        };
-        "ILC": {
-            "name": string;
-            "summary": string;
-            "description": string;
-            "features"?: (string | { title: string; description: string })[];
-            "webLink"?: string;
-            "image1"?: string;
-            "image2"?: string;
-            "longDescription"?: string;
-            "active"?: boolean;
-            "showOnHomepage"?: boolean;
-            "videoLink"?: string;
-            "problemsTitle"?: string;
-            "problemsSubtitle"?: string;
-            "problems"?: Array<{
-                title: string;
-                description: string;
-            }>;
-        };
-        "StudyScoreAI": {
-            "name": string;
-            "summary": string;
-            "description": string;
-            "webLink"?: string;
-            "features"?: (string | { title: string; description: string })[];
-            "image1"?: string;
-            "image2"?: string;
-            "longDescription"?: string;
-            "active"?: boolean;
-            "showOnHomepage"?: boolean;
-            "videoLink"?: string;
-            "problemsTitle"?: string;
-            "problemsSubtitle"?: string;
-            "problems"?: Array<{
-                title: string;
-                description: string;
-            }>;
-        };
-        "Egitimiste": {
-            "name": string;
-            "summary": string;
-            "description": string;
-            "webLink"?: string;
-            "features"?: (string | { title: string; description: string })[];
-            "image1"?: string;
-            "image2"?: string;
-            "longDescription"?: string;
-            "active"?: boolean;
-            "showOnHomepage"?: boolean;
-            "videoLink"?: string;
-            "problemsTitle"?: string;
-            "problemsSubtitle"?: string;
-            "problems"?: Array<{
-                title: string;
-                description: string;
-            }>;
-        };
-        "GenixoWorkAI": {
-            "name": string;
-            "summary": string;
-            "description": string;
-            "webLink"?: string;
-            "features"?: (string | { title: string; description: string })[];
-            "image1"?: string;
-            "image2"?: string;
-            "longDescription"?: string;
-            "active"?: boolean;
-            "showOnHomepage"?: boolean;
-            "videoLink"?: string;
-            "problemsTitle"?: string;
-            "problemsSubtitle"?: string;
-            "problems"?: Array<{
-                title: string;
-                description: string;
-            }>;
-        };
-        "GenixoAssistant": {
-            "name": string;
-            "summary": string;
-            "description": string;
-            "webLink"?: string;
-            "features"?: (string | { title: string; description: string })[];
-            "image1"?: string;
-            "image2"?: string;
-            "longDescription"?: string;
-            "active"?: boolean;
-            "showOnHomepage"?: boolean;
-            "videoLink"?: string;
-            "problemsTitle"?: string;
-            "problemsSubtitle"?: string;
-            "problems"?: Array<{
-                title: string;
-                description: string;
-            }>;
-        };
-        "TOMEREYadis": {
-            "name": string;
-            "summary": string;
-            "description": string;
-            "webLink"?: string;
-            "features"?: (string | { title: string; description: string })[];
-            "image1"?: string;
-            "image2"?: string;
-            "longDescription"?: string;
-            "active"?: boolean;
-            "showOnHomepage"?: boolean;
-            "videoLink"?: string;
-            "problemsTitle"?: string;
-            "problemsSubtitle"?: string;
-            "problems"?: Array<{
-                title: string;
-                description: string;
-            }>;
-        };
-        "RetiredTravelApp": {
-            "name": string;
-            "summary": string;
-            "description": string;
-            "webLink"?: string;
-            "features"?: (string | { title: string; description: string })[];
-            "image1"?: string;
-            "image2"?: string;
-            "longDescription"?: string;
-            "active"?: boolean;
-            "showOnHomepage"?: boolean;
-            "videoLink"?: string;
-            "problemsTitle"?: string;
-            "problemsSubtitle"?: string;
-            "problems"?: Array<{
-                title: string;
-                description: string;
-            }>;
+    ui: {
+        inShort: string;
+        home: string;
+        sources: string;
+        related: string;
+        updated: string;
+        author: string;
+        faq: string;
+        today: string;
+        withAi: string;
+        measure: string;
+        readScenario: string;
+        readCase: string;
+        bookCall: string;
+        direct: string;
+        todo: string;
+        notFoundTitle: string;
+        notFoundBody: string;
+        articleCta: { title: string; lead: string };
+        profile: { articles: string; ctaTitle: string; ctaLead: string };
+        caseFacts: {
+            industry: string;
+            size: string;
+            duration: string;
+            stack: string;
         };
     };
-    "ngsd": {
-        hero?: {
-            "backgroundImage": string;
-        };
-        "title": string;
-        "subtitle": string;
-        "forWho": {
-            "title": string;
-            "content": string;
-        };
-        "whatIs": {
-            "title": string;
-            "content": string;
-        };
-        "remote": {
-            "title": string;
-            "content": string;
-        };
-        "dynamic": {
-            "title": string;
-            "content": string;
-        };
-        "global": {
-            "title": string;
-            "content": string;
-        };
+    blog: {
+        latestBlog: string;
+        fromNewsRoom: string;
+        readFull: string;
     };
-    "landing"?: Landing;
-    "counter": {
-        "items": Array<{
-            "value": string;
-            "label": string;
-        }>;
+    contactForm: {
+        nameLabel: string;
+        namePlaceholder: string;
+        emailLabel: string;
+        emailPlaceholder: string;
+        messageLabel: string;
+        messageDescription: string;
+        messagePlaceholder: string;
+        budgetLabel: string;
+        budgetPlaceholder: string;
+        submitButton: string;
+        submitting: string;
+        successMessage: string;
+        errorMessage: string;
+        connectionError: string;
+        botDetectedMessage: string;
     };
-    "whyDigitalTransformation": {
-        "subtitle": string;
-        "title": string;
-        "items": Array<{
-            "image": string;
-            "title": string;
-            "description": string;
-            "solution": string;
-        }>;
+    products: {
+        hero?: { backgroundImage: string };
+        ILC: Product;
+        StudyScoreAI: Product;
+        Egitimiste: Product;
+        GenixoWorkAI: Product;
+        GenixoAssistant: Product;
+        TOMEREYadis: Product;
+        RetiredTravelApp: Product;
     };
-    "blogs"?: {
-        [key: string]: {
-            "title": string;
-            "excerpt": string;
-            "content": string;
-            "date": string;
-            "author": {
-                "name": string;
-                "title"?: string;
-            };
-            "image": string;
-            "active"?: boolean;
-        };
+    seo?: {
+        pages?: Record<string, { title?: string; description?: string }>;
     };
-    "footer"?: {
-        "contactInfo": string;
-        "copyright": string;
-        "address": string;
-        "partnerships"?: string;
-        "cyberpark"?: {
-            "title": string;
-            "description": string;
-        };
-        "tbd"?: {
-            "title": string;
-            "description": string;
-        };
-        "alte"?: {
-            "title": string;
-            "description": string;
-        };
-    };
-    "blog"?: {
-        "latestBlog": string;
-        "fromNewsRoom": string;
-        "readFull": string;
-    };
-    "caseStudy"?: {
-        hero?: {
-            "backgroundImage": string;
-        };
-        "reasonToChooseUs": string;
-        "prominentSolutions": string;
-        "learnMore": string;
-        "moreReason": string;
-    };
-    "solutionAI"?: {
-        "weDeliverExcellence": string;
-        "solutionsToCommonAIProblems": string;
-    };
-    "contact"?: {
-        hero?: {
-            "backgroundImage": string;
-        };
-        "pageContent": string;
-        "phone": {
-            "title": string;
-        };
-        "email": {
-            "title": string;
-        };
-        "address": {
-            "title": string;
-        };
-        "form": {
-            "subtitle": string;
-            "title": string;
-            "mainTitle"?: string;
-            "serviceLabel"?: string;
-            "serviceDescription"?: string;
-            "servicePlaceholder"?: string;
-            "otherOption"?: string;
-            "nameLabel"?: string;
-            "nameDescription"?: string;
-            "namePlaceholder": string;
-            "companyLabel"?: string;
-            "companyDescription"?: string;
-            "companyPlaceholder"?: string;
-            "emailLabel"?: string;
-            "emailDescription"?: string;
-            "emailPlaceholder": string;
-            "messageLabel"?: string;
-            "messageDescription"?: string;
-            "messagePlaceholder": string;
-            "subjectPlaceholder": string;
-            "submitButton": string;
-            "submitting"?: string;
-            "successMessage"?: string;
-            "errorMessage"?: string;
-            "connectionError"?: string;
-            "botDetectedMessage"?: string;
-        };
-    };
-    "team"?: {
-        "ourExpertTeam": string;
-        "worldExpertTeam": string;
-    };
-    "testimonial"?: {
-        "title": string;
-        "subtitle": string;
-    };
-    "seo"?: {
-        "pages"?: Record<string, { title?: string; description?: string }>;
-        "home"?: {
-            "keywords"?: string;
-        };
-        "about"?: {
-            "keywords"?: string;
-        };
-        "contact"?: {
-            "keywords"?: string;
-            "description"?: string;
-        };
-        "blog"?: {
-            "keywords"?: string;
-            "description"?: string;
-        };
-        "products"?: {
-            "keywords"?: string;
-            "description"?: string;
-        };
-        "solutions"?: {
-            "keywords"?: string;
-            "description"?: string;
-        };
-        "caseStudy"?: {
-            "keywords"?: string;
-        };
-        "governmentSupport"?: {
-            hero?: {
-                "backgroundImage": string;
-            };
-            "keywords"?: string;
-            "description"?: string;
-            "title"?: string;
-            "subtitle"?: string;
-            "comingSoon"?: string;
-            "summary"?: {
-                "title": string;
-                "content": string;
-            };
-            "supportLimit"?: {
-                "title": string;
-                "amount": string;
-                "note": string;
-            };
-            "expenses"?: {
-                "title": string;
-                "hardware"?: {
-                    "title": string;
-                    "content": string;
-                };
-                "software"?: {
-                    "title": string;
-                    "content": string;
-                };
-                "service"?: {
-                    "title": string;
-                    "content": string;
-                };
-            };
-            "eligibility"?: {
-                "title": string;
-                "content": string;
-            };
-            "footer"?: {
-                "content": string;
-            };
-        };
-        "ngsd"?: {
-            "keywords"?: string;
-        };
-        "common"?: {
-            "blog"?: string;
-            "softwareProducts"?: string;
-            "softwareSolutions"?: string;
-        };
-    };
-
 };

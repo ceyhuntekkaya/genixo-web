@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "title": "Ürün stüdyosu: Fikirden canlı uygulamaya",
+    "description": "Genixo'nun ürün stüdyosu bir fikri canlı bir web veya mobil ürüne çevirir: keşif çalıştayı, ilk sürüm, lansman ve iterasyon. Kod sizindir."
+  },
+  "breadcrumb": "Ürün stüdyosu",
+  "hero": {
+    "eyebrow": "Ürün stüdyosu",
+    "title": "Bir fikirden, insanların kullandığı bir ürüne",
+    "lead": "Siz fikri ve pazar bilgisini getirirsiniz. Biz ürünü sizinle tasarlayan, kuran, yayımlayan ve iyileştirmeye devam eden ekibi getiririz.",
+    "primary": { "label": "Ürün görüşmesi planlayın", "href": "/contact" },
+    "secondary": { "label": "Kurduğumuz ürünleri görün", "href": "/products" }
+  },
+  "answer": {
+    "label": "Kısaca",
+    "text": "Genixo'nun ürün stüdyosu bir web veya mobil ürünü fikirden lansmana taşır: ilk sürümü tanımlayan bir keşif çalıştayı, tasarım ve geliştirme, mağaza ve sunucu kurulumu, lansman ve gerçek kullanıma göre iterasyon. Kaynak kod, mağaza hesapları ve tasarım dosyaları size aittir."
+  },
+  "sections": [
+    {
+      "kind": "quotes",
+      "label": "Tanıdık geldi mi?",
+      "title": "Kurucuların ve ürün sahiplerinin genellikle durduğu yer",
+      "items": [
+        "Pazarı ve sorunu biliyorum ama teknik bir ekibim yok.",
+        "Bir prototipimiz var ama gerçek kullanıcılar için hazır değil.",
+        "Bir ajans birinci sürümü kurdu, şimdi kimse değiştiremiyor.",
+        "İlk sürümün neyi içermesi, neyi içermemesi gerektiğini bilmem lazım."
+      ]
+    },
+    {
+      "kind": "steps",
+      "label": "Nasıl işler",
+      "title": "Çalıştay, ilk sürüm, lansman, iterasyon",
+      "items": [
+        {
+          "title": "Keşif çalıştayı",
+          "text": "Kullanıcıları, ana akışı ve ilk sürümün neyi kanıtlaması gerektiğini tanımlarız. Çıktı: kapsam, ekranlar ve bir teklif.",
+          "meta": "[[TODO-025]]"
+        },
+        {
+          "title": "İlk sürüm",
+          "text": "Kısa dilimlerle tasarım ve geliştirme; her hafta deneyebileceğiniz çalışan bir sürüm.",
+          "meta": "[[TODO-032]]"
+        },
+        {
+          "title": "Lansman",
+          "text": "Mağaza kayıtları, sunucular, analitik ve yayının kendisi; sizin hesaplarınız altında kurulur."
+        },
+        {
+          "title": "İterasyon",
+          "text": "İnsanların ürünü gerçekte nasıl kullandığına bakar, sonraki dilimi sizinle kararlaştırırız."
+        }
+      ]
+    },
+    {
+      "kind": "points",
+      "label": "Ne kurarız",
+      "title": "Üstlendiğimiz ürünler",
+      "items": [
+        {
+          "title": "Web platformları",
+          "text": "Kullanıcı yönetimi, ödeme ve yönetim paneli olan müşteri portalları, pazar yerleri ve SaaS ürünleri."
+        },
+        {
+          "title": "Mobil uygulamalar",
+          "text": "Sizin geliştirici hesaplarınız altında yayımlanan Android ve iOS uygulamaları."
+        },
+        {
+          "title": "Ürünün içindeki yapay zekâ özellikleri",
+          "text": "Arama, soru yanıtlama, içerik üretimi veya ses özellikleri; doğruluğun önemli olduğu yerde insan kontrol adımıyla tasarlanır."
+        }
+      ]
+    },
+    {
+      "kind": "list",
+      "variant": "checks",
+      "label": "Size ait kalanlar",
+      "title": "Ürün sizindir, yalnızca fikir değil",
+      "items": [
+        "Kaynak kod, mağaza hesapları ve tasarım dosyaları size aittir. [[TODO-028]]",
+        "Sunucular ve üçüncü taraf hizmetler şirketinizin hesapları altında açılır.",
+        "Dokümantasyon giderken yazılır; başka bir ekip işe devam edebilir."
+      ]
+    },
+    {
+      "kind": "products",
+      "label": "Kendi ürünlerimiz",
+      "title": "Kendi ürünlerimizi de kurar ve işletiriz",
+      "lead": "Bu ürünler yayında. Ne tür ürün işi yaptığımızı gösterirler. [[TODO-073]]",
+      "visit": "Siteyi ziyaret edin"
+    },
+    {
+      "kind": "cases",
+      "service": "product-studio",
+      "label": "Kanıt",
+      "title": "Müşteriler için kurduğumuz ürünler"
+    },
+    {
+      "kind": "list",
+      "variant": "limits",
+      "label": "Bu ne değildir",
+      "title": "Sınırlar",
+      "items": [
+        "Pazarınızı sizin yerinize doğrulamayız. İlk sürümün neyi kanıtlaması gerektiğini tanımlamanıza yardım ederiz.",
+        "Her özelliği bir anda kurmayı önermeyiz. İlk sürüm, öğrenmeye yetecek kadar küçük tutulur.",
+        "Keşif çalıştayı kapsamı tanımlamadan bir lansman tarihi vaat etmeyiz."
+      ]
+    },
+    {
+      "kind": "faq",
+      "label": "SSS",
+      "title": "Ürün stüdyosu hakkında sorular",
+      "items": [
+        {
+          "q": "İlk sürümü yayımlamak ne kadar sürer?",
+          "a": "Keşif çalıştayında kararlaştırılan kapsama bağlıdır. Çalıştay bir kapsam, ekranlar ve bir takvimle biter. Çalıştay ayrıntıları: [[TODO-025]]."
+        },
+        {
+          "q": "Kod ve uygulama mağazası hesapları kime ait?",
+          "a": "Size. Mağaza ve sunucu hesapları şirketinizin altında açılır; kaynak kod ve tasarım dosyaları size teslim edilir."
+        },
+        {
+          "q": "Başka bir ekibin başladığı ürüne devam edebilir misiniz?",
+          "a": "Evet, kod ve altyapı incelemesinden sonra. Neyin tutulabileceğini, neyin yeniden yazılması gerektiğini ve nedenini söyleriz."
+        },
+        {
+          "q": "Lansmandan sonra ne olur?",
+          "a": "Ürünlerin çoğu düzenli iyileştirme ister. Takip dilimleri alabilir ya da bir Genixo ekibinin ürün üzerinde her ay çalışmaya devam ettiği NGSD'ye geçebilirsiniz."
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Bir fikriniz mi var? İlk sürümü birlikte tanımlayalım.",
+    "lead": "İlk görüşmede fikri dinler, kimin için olduğunu sorar ve ilk sürümün neyi kanıtlaması gerektiğini öneririz.",
+    "primary": { "label": "İlk görüşmeyi planlayın", "href": "/contact" },
+    "secondary": { "label": "Fiyat ve süreleri görün", "href": "/pricing" }
+  }
+}

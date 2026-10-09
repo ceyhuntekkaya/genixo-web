@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "title": "Nasıl çalışıyoruz: Ölç, pilotla, canlıya al, iyileştir",
+    "description": "Genixo yazılım ve yapay zekâ projelerini şöyle yürütür: süreci ölçer, gerçek iş üzerinde pilotlar, ekibinizle canlıya alır ve iyileştirmeye devam eder. Haftalık demo, yazılı hedefler."
+  },
+  "breadcrumb": "Nasıl çalışıyoruz",
+  "hero": {
+    "eyebrow": "Nasıl çalışıyoruz",
+    "title": "Önce ölçer, sonra kurar, sonra ölçmeye devam ederiz",
+    "lead": "Her proje aynı dört fazı izler: yazılı bir başlangıç ölçümü, haftalık bir demo ve neyin kime ait olduğuna dair net koşullar.",
+    "primary": { "label": "İlk görüşmeyi planlayın", "href": "/contact" },
+    "secondary": { "label": "Neleri yapmıyoruz", "href": "/what-we-dont-do" }
+  },
+  "answer": {
+    "label": "Kısaca",
+    "text": "Genixo projeleri dört fazda yürür: mevcut süreci ölçmek, işe yarayan en küçük sürümü gerçek iş üzerinde pilotlamak, günlük operasyona almak ve ölçümlere göre iyileştirmek. Başlangıç ölçümü ve hedef kurulumdan önce yazılı olarak kararlaştırılır, her hafta çalışan yazılım görürsünüz, kod ve dokümantasyon size teslim edilir."
+  },
+  "sections": [
+    {
+      "kind": "steps",
+      "label": "Dört faz",
+      "title": "Ölç, pilotla, canlıya al, iyileştir",
+      "items": [
+        {
+          "title": "Ölç",
+          "text": "Tek bir süreci yerinde veya çevrimiçi inceleriz: kim ne yapıyor, ne sıklıkla, ne kadar sürüyor ve hatalar nerede çıkıyor. Çıktı: bir başlangıç ölçümü ve yazılı bir başarı ölçütü.",
+          "meta": "[[TODO-031]]"
+        },
+        {
+          "title": "Pilot",
+          "text": "Gerçek iş üzerinde, mevcut sürecinizle paralel çalışabilecek en küçük sürümü kurar ve rakamları her hafta raporlarız.",
+          "meta": "[[TODO-031]]"
+        },
+        {
+          "title": "Canlıya al",
+          "text": "Sistemlerinizle entegrasyon, veri taşıma, kullanıcı eğitimi ve işi yapan kişilerle planlanmış bir geçiş.",
+          "meta": "[[TODO-031]]"
+        },
+        {
+          "title": "İyileştir",
+          "text": "Canlıya aldıktan sonra rakamları kontrol eder, işaret ettikleri yeri iyileştiririz; ayrı bir takip fazı ya da NGSD ile.",
+          "meta": "[[TODO-031]]"
+        }
+      ]
+    },
+    {
+      "kind": "points",
+      "label": "İlkeler",
+      "title": "Her projede uyguladığımız kurallar",
+      "items": [
+        {
+          "title": "Ölçmeden “daha hızlı” demeyiz",
+          "text": "“Daha hızlı” veya “daha az hata” gibi iddialar, ancak değişiklikten önce ölçülmüş bir başlangıca, yöntem ve dönem belirtilerek söylenir."
+        },
+        {
+          "title": "Yapay zekâ önerir, insanlar onaylar",
+          "text": "Paraya, müşteriye veya personele dokunan her adımda sonucu bir kişi onaylar. Sistem, emin olmadığı yeri gösterir."
+        },
+        {
+          "title": "Önce küçük, sonra büyük",
+          "text": "Sona kadar hiçbir şeyi yanıtlamayan büyük bir proje yerine, tek bir net soruyu yanıtlayan bir pilotu tercih ederiz."
+        },
+        {
+          "title": "Kapsamı çıkaran kişiler onu kurar",
+          "text": "İlk konuşmalardaki kişiler projede kalır; bilgi, satıştan teslimata bir devirde kaybolmaz. [[TODO-015]]"
+        }
+      ]
+    },
+    {
+      "kind": "points",
+      "layout": "grid",
+      "label": "Haftalık ritim",
+      "title": "Normal bir hafta nasıl görünür",
+      "lead": "Haftalık ritmimiz ve araçlarımız: [[TODO-032]]",
+      "items": [
+        {
+          "title": "Öncelikler",
+          "text": "Haftanın başında en önemli olanı ve takılanı birlikte netleştiririz."
+        },
+        {
+          "title": "Demo",
+          "text": "Yalnızca durum raporu değil, çalışan yazılım görürsünüz. Biten, süren ve takılan işler görünür."
+        },
+        {
+          "title": "Yazılı kayıt",
+          "text": "Kararlar, değişiklikler ve açık sorular iki ekibin de görebileceği yerde yazılır."
+        }
+      ]
+    },
+    {
+      "kind": "list",
+      "variant": "checks",
+      "label": "Sahiplik ve çıkış",
+      "title": "Neyin kime ait olduğu ve nasıl ayrılabileceğiniz",
+      "items": [
+        "Kaynak kod ve fikri mülkiyet: [[TODO-028]]",
+        "Dokümantasyon projenin sonunda değil, proje boyunca yazılır.",
+        "Altyapı, mağaza ve üçüncü taraf hesapları mümkün olduğunca şirketiniz adına açılır.",
+        "Bizimle çalışmayı bırakırsanız ihbar süresi ve devir: [[TODO-029]]",
+        "Canlıya alma sonrası destek: [[TODO-033]]",
+        "Ödeme koşulları: [[TODO-027]]"
+      ],
+      "links": [{ "label": "Fiyat ve süreler", "href": "/pricing" }]
+    },
+    {
+      "kind": "faq",
+      "label": "SSS",
+      "title": "Çalışma biçimimiz hakkında sorular",
+      "items": [
+        {
+          "q": "Genixo ile bir proje nasıl başlar?",
+          "a": "Size en çok zaman kaybettiren süreç üzerine bir ilk görüşmeyle. Uyum varsa sonraki adım kısa ve kapsamı belli bir ilk fazdır: yapay zekâ hazırlık değerlendirmesi, keşif çalışması, ürün çalıştayı veya NGSD tanışması."
+        },
+        {
+          "q": "Başarıyı nasıl ölçüyorsunuz?",
+          "a": "Kurulum başlamadan önce başlangıç ölçümünü, hedefi ve ikisinin nasıl ölçüleceğini yazarız; örneğin belge başına süre veya düzeltme oranı. Pilot buna göre değerlendirilir, bir demoya göre değil."
+        },
+        {
+          "q": "İlerlemeyi ne sıklıkla görürüz?",
+          "a": "Her hafta, yalnızca rapor olarak değil, çalışan yazılım olarak. Haftalık ritmimiz ve araçlarımız: [[TODO-032]]."
+        },
+        {
+          "q": "Pilot hedefe ulaşmazsa ne olur?",
+          "a": "Rakamları ve dürüst görüşümüzü alırsınız: ayarlayıp yeniden denemek, yaklaşımı değiştirmek veya durmak. Pilottan sonra durmak geçerli bir sonuçtur."
+        },
+        {
+          "q": "Kod kime ait?",
+          "a": "Kod ve dokümantasyon size teslim edilir. Sözleşme ayrıntıları: [[TODO-028]]."
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Tek bir süreç ve bir sayıyla başlayın.",
+    "lead": "Bugün en çok zamanı hangi sürecin aldığını söyleyin. Onu nasıl ölçeceğimizi ve ilk fazın nasıl görüneceğini öneririz.",
+    "primary": { "label": "İlk görüşmeyi planlayın", "href": "/contact" },
+    "secondary": { "label": "Fiyat ve süreleri görün", "href": "/pricing" }
+  }
+}

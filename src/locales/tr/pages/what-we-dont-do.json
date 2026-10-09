@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "title": "Neleri yapmıyoruz, ve neden",
+    "description": "Genixo'nun geri çevirdiği projeler ve vaatler: başarı ölçütü olmayan yapay zekâ, onaysız kritik karar otomasyonu, aday eleme ve sizi bağlayan sözleşmeler."
+  },
+  "breadcrumb": "Neleri yapmıyoruz",
+  "hero": {
+    "eyebrow": "Neleri yapmıyoruz",
+    "title": "Bazı projeleri bilinçli olarak geri çeviririz",
+    "lead": "Bir ekibin sınırını bilmek, hizmet listesinden daha çok şey söyler. Bizimkiler bunlar. [[TODO-030]]",
+    "primary": { "label": "İlk görüşmeyi planlayın", "href": "/contact" },
+    "secondary": { "label": "Nasıl çalışıyoruz", "href": "/how-we-work" }
+  },
+  "answer": {
+    "label": "Kısaca",
+    "text": "Genixo, yazılı bir başarı ölçütü olmadan yapay zekâ projesine başlamaz; para, müşteri veya personel hakkındaki kararları insan onayı olmadan otomatikleştirmez; iş başvurularını otomatik reddeden sistemler kurmaz; izniniz olmadan verinizi şirketin dışına çıkarmaz ve kodunuzu ya da verinizi rehin tutan sözleşmeler imzalamaz."
+  },
+  "sections": [
+    {
+      "kind": "points",
+      "label": "Liste",
+      "title": "Neleri yapmıyoruz, her birinin gerekçesi",
+      "items": [
+        {
+          "title": "Başarı ölçütü olmayan yapay zekâ projeleri",
+          "text": "Kurulumdan önce kimse “daha iyi”nin ne olduğunu söyleyemiyorsa, sonra da işe yarayıp yaramadığını kimse söyleyemez. Başlangıç ölçümünü ve hedefi önce yazarız."
+        },
+        {
+          "title": "Para, müşteri veya personel kararlarının onaysız otomasyonu",
+          "text": "Yapay zekâ bu kararları hazırlayabilir. Onaylayan bir kişidir. Bu alanlardaki hatalar pahalıdır ve geri alınması zordur."
+        },
+        {
+          "title": "İş başvurularını otomatik reddeden sistemler",
+          "text": "Otomatik eleme, adil olmayan sonuç riski taşır ve AB Yapay Zekâ Yasası'nda yüksek riskli olarak sınıflanır. Başvuruları özetlemeye yardımcı olabiliriz; karar insanlarda kalır."
+        },
+        {
+          "title": "Verinizi izinsiz dışarı çıkarmak",
+          "text": "Verinizin nerede işlendiğine siz karar verirsiniz. Siz kabul etmedikçe onu dışarıdaki bir yapay zekâ hizmetine yönlendirmeyiz."
+        },
+        {
+          "title": "İşletmenizi yürüten “otonom ajanlar” vaat etmek",
+          "text": "Onay olmadan hareket eden çok adımlı sistemler, bugün iş süreçleri için yeterince güvenilir değil. Gartner, ajan tabanlı yapay zekâ projelerinin yüzde 40'ından fazlasının 2027 sonuna kadar iptal edilmesini bekliyor."
+        },
+        {
+          "title": "Kadro ayıramayacağımız işi üstlenmek",
+          "text": "Bir projeyi hakkıyla yapacak kişimiz yoksa ekibi germek yerine bunu söyleriz."
+        },
+        {
+          "title": "Kodunuzu veya verinizi rehin tutan sözleşmeler",
+          "text": "Kodunuz, veriniz ve dokümantasyonunuzla ayrılabilmelisiniz. Çıkış koşulları sözleşmeye yazılır. [[TODO-029]]"
+        },
+        {
+          "title": "Gerekmediği yerde yapay zekâ kullanmak",
+          "text": "Sorunu bir kural, bir rapor veya basit bir form daha ucuza çözüyorsa onu öneririz."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Gartner, 25 Haziran 2025: Ajan tabanlı yapay zekâ projelerinin yüzde 40'ından fazlası 2027 sonuna kadar iptal edilecek",
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027"
+        },
+        {
+          "title": "AB Yapay Zekâ Yasası, Ek III: yüksek riskli yapay zekâ sistemleri, madde 4 (istihdam)",
+          "url": "https://artificialintelligenceact.eu/annex/3/"
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "label": "Bunu neden yayımlıyoruz",
+      "title": "Erken hayır demek iki tarafın da zamanını korur",
+      "paragraphs": [
+        "Bize göre yazılım projeleri, kod yüzünden olduğundan daha sık, beklentiler hiç yazılmadığı ya da yanlış sorun seçildiği için bozulur. Sınırlarımızı yayımlamak, ilk görüşmeden önce uyumu kontrol etmenizi sağlar.",
+        "Projeniz bu alanlardan birine düşüyorsa ilk konuşmada söyleriz ve elimizden geldiğince başka bir yol öneririz."
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Projenizin nereye düştüğünden emin değil misiniz?",
+    "lead": "Birkaç cümleyle anlatın. Doğru ekip olup olmadığımızı açıkça söyleriz.",
+    "primary": { "label": "İlk görüşmeyi planlayın", "href": "/contact" },
+    "secondary": { "label": "Nasıl çalışıyoruz", "href": "/how-we-work" }
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "title": "İnsan onaylı yapay zekâ süreç otomasyonu",
+    "description": "Genixo, belgenizi okumak veya teklif taslağı hazırlamak gibi sürecinizin bir adımına yapay zekâ ekler; ekibiniz onaylar. Önce ölçülür, sizin verinizde pilotlanır."
+  },
+  "breadcrumb": "Yapay zekâ süreç otomasyonu",
+  "hero": {
+    "eyebrow": "Yapay zekâ süreç otomasyonu",
+    "title": "Tekrar eden adımı yapay zekâ yapar. Kararı ekibiniz verir.",
+    "lead": "Tek bir süreç seçer, ölçer ve yapay zekâyı okuduğu, taslak hazırladığı veya ayırdığı yere ekleriz. Paraya, müşteriye veya personele dokunan her sonuç bir kişinin onayına gider.",
+    "primary": { "label": "Yapay zekâ hazırlık değerlendirmesiyle başlayın", "href": "/ai-readiness-assessment" },
+    "secondary": { "label": "Senaryoları görün", "href": "/ai-automation#scenarios" }
+  },
+  "answer": {
+    "label": "Kısaca",
+    "text": "Yapay zekâ süreç otomasyonu, mevcut bir sürecin tek bir adımına yapay zekâ eklemek demektir: fatura okumak, teklif taslağı hazırlamak veya sipariş eşleştirmek gibi. Sonucu bir kişi onaylar. Genixo önce süreci ölçer, sizin veriniz üzerinde sabit kapsamlı bir pilot çalıştırır ve sisteme ancak pilot yazılı olarak kararlaştırılmış hedefi tutturduktan sonra bağlar."
+  },
+  "sections": [
+    {
+      "kind": "quotes",
+      "label": "Tanıdık geldi mi?",
+      "title": "Şirketlerin önce hissettiği yerler",
+      "items": [
+        "Faturalar ve irsaliyeler ERP'ye elle giriliyor, hatalar ay sonunda ortaya çıkıyor.",
+        "Her teklif eski tekliflerden yeniden kuruluyor, iskontoları yalnızca kıdemli bir satışçı biliyor.",
+        "Muhasebe siparişi, irsaliyeyi ve faturayı satır satır karşılaştırıyor.",
+        "Bir avuç çağrıyı dinleyip gerisini temsil ettiğini umuyoruz.",
+        "Yeni gelenler aynı üç kişiye işlerin nerede olduğunu sorup duruyor."
+      ]
+    },
+    {
+      "kind": "scenarios",
+      "id": "scenarios",
+      "label": "Senaryolar",
+      "title": "Yapay zekânın bugün güvenilir iş çıkardığı altı süreç",
+      "lead": "Her senaryo süreci bugün, yapay zekâ ile neyin değiştiğini ve neyi ölçtüğümüzü gösterir. Beklenen tasarruf yayımlamayız: pilot bunları sizin verinizde ölçer."
+    },
+    {
+      "kind": "table",
+      "label": "Neyi gerçekçi görüyoruz",
+      "title": "Yapay zekâ bugün neyi güvenilir yapabilir, neyi vaat etmeyiz",
+      "lead": "Teknolojiyi projelerde kullandığımız hâliyle görüşümüz. Güvenilir, insan onayıyla üretime hazır demektir; hatasız demek değildir.",
+      "columns": ["İş", "Durum", "Koşul"],
+      "rows": [
+        [
+          "Belge sınıflandırma ve alan çıkarma (OCR + dil modeli)",
+          "Onayla güvenilir",
+          "Güven eşiğinin altındaki alanlar bir kişiye gider."
+        ],
+        [
+          "Belgelerinizden kaynak göstererek soru yanıtlama (RAG)",
+          "Onayla güvenilir",
+          "Taranmış PDF'lerde ve karmaşık tablolarda kalite düşer. Güncel olmayan veya çelişen belgeler yanlış yanıt üretir."
+        ],
+        [
+          "Türkçe konuşmadan metne, çağrı özeti ve etiketleme",
+          "Özetler için güvenilir",
+          "Kelimesi kelimesine dökümler hâlâ insan kontrolü ister."
+        ],
+        [
+          "Tahmin, anomali tespiti ve puanlama",
+          "Güvenilir, çoğu zaman dil modeli olmadan",
+          "Klasik makine öğrenmesi çoğu zaman daha ucuzdur ve açıklaması daha kolaydır."
+        ],
+        [
+          "Açık modellerle Türkçe serbest metin üretimi",
+          "Koşullu",
+          "Daha büyük modeller ister. Modeli, sizin verinizden kurulan bir test setiyle seçeriz."
+        ],
+        [
+          "Onay olmadan çalışan çok adımlı “otonom ajanlar”",
+          "Vaat edilmez",
+          "İş süreçlerini denetimsiz yürütmek için yeterince güvenilir değil."
+        ],
+        [
+          "Tam otomatik işe alım veya kredi kararları",
+          "Vaat edilmez",
+          "Bu kararlar insanlarda kalır."
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Gartner, 25 Haziran 2025: Ajan tabanlı yapay zekâ projelerinin yüzde 40'ından fazlası 2027 sonuna kadar iptal edilecek",
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027"
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "label": "Döngü",
+      "title": "Yapay zekâ önerir, bir kişi onaylar, düzeltmeler iyileştirir",
+      "items": [
+        {
+          "title": "Yapay zekâ önerir",
+          "text": "Sistem girdiyi okur ve bir taslak hazırlar: çıkarılan alanlar, bir teklif, bir eşleşme, bir özet."
+        },
+        {
+          "title": "Bir kişi onaylar",
+          "text": "Ekibiniz taslağı, sistemin emin olmadığı yerlerle birlikte görür; sonra onaylar veya düzeltir."
+        },
+        {
+          "title": "Düzeltmeler saklanır",
+          "text": "Her düzeltme test setine girer; sonraki model veya istem değişikliği gerçek hatalara göre kontrol edilir."
+        },
+        {
+          "title": "Ölçeriz",
+          "text": "Kayıt başına süre, düzeltme oranı ve istisnalar, pilottan önce yazılan başlangıç ölçümüne göre izlenir."
+        }
+      ]
+    },
+    {
+      "kind": "points",
+      "label": "Hataları yakalamak",
+      "title": "Yapay zekâ hatalarını müşteriniz görmeden nasıl yakalarız",
+      "items": [
+        {
+          "title": "Geçmiş işinizden bir test seti",
+          "text": "Pilottan önce doğru yanıtlarıyla gerçek örnekler toplarız; geçen çeyreğin faturaları veya teklifleri gibi. Her değişiklik bunlara göre puanlanır."
+        },
+        {
+          "title": "Güven eşikleri",
+          "text": "Sistem bir alandan veya yanıttan emin değilse bunu söyler ve kaydı tahmin etmek yerine bir kişiye yollar."
+        },
+        {
+          "title": "Canlıya aldıktan sonra örneklem kontrolü",
+          "text": "Onaylanan kayıtların bir kısmı yeniden incelenir; kalite varsayılmaz, ölçülür."
+        },
+        {
+          "title": "Sayıları kod hesaplar",
+          "text": "Fiyatlar, toplamlar, iskontolar ve vergiler koddaki kurallardan veya ERP'nizden gelir. Dil modeli hiç aritmetik yapmaz."
+        }
+      ]
+    },
+    {
+      "kind": "points",
+      "layout": "grid",
+      "label": "Veriniz nerede durur",
+      "title": "Verinin ve modelin nerede çalışacağına siz karar verirsiniz",
+      "items": [
+        {
+          "title": "Kendi sunucularınızda",
+          "text": "Açık bir model ağınızın içinde çalışır. Veri şirketten çıkmaz. Bunun için uygun donanım gerekir."
+        },
+        {
+          "title": "Kendi bulut hesabınızda",
+          "text": "Model, sizin sahip olduğunuz bir bulut hesabında, sizin seçtiğiniz bölgede çalışır."
+        },
+        {
+          "title": "Bir API sağlayıcısı üzerinden",
+          "text": "Başlamanın en hızlı yolu. Kişisel veriyi yurt dışındaki bir sağlayıcıya göndermek, KVKK madde 9 kapsamında yurt dışına aktarımdır."
+        }
+      ],
+      "links": [{ "label": "Veri güvenliği ve KVKK", "href": "/data-security" }]
+    },
+    {
+      "kind": "list",
+      "variant": "limits",
+      "label": "Bu ne değildir",
+      "title": "Baştan söylediğimiz sınırlar",
+      "items": [
+        "Başarı ölçütü önce yazılmadan bir yapay zekâ projesine başlamayız.",
+        "Para, müşteri veya personel hakkındaki kararları, bir kişi onaylamadan otomatikleştirmeyiz.",
+        "Hatasız sonuç vaat etmeyiz. Hata oranını ölçmeyi ve size göstermeyi vaat ederiz.",
+        "İş başvurularını otomatik reddeden sistemler kurmayız.",
+        "Sorunu daha basit bir kural veya klasik yazılım çözüyorsa yapay zekâ yerine onu öneririz."
+      ],
+      "links": [{ "label": "Neleri yapmıyoruz, ve neden", "href": "/what-we-dont-do" }]
+    },
+    {
+      "kind": "cases",
+      "service": "ai-automation",
+      "label": "Kanıt",
+      "title": "Gösterebildiğimiz yapay zekâ projeleri"
+    },
+    {
+      "kind": "faq",
+      "label": "SSS",
+      "title": "Yapay zekâ süreç otomasyonu hakkında sorular",
+      "items": [
+        {
+          "q": "Yapay zekâ süreç otomasyonu nedir?",
+          "a": "Mevcut bir iş sürecinin tek bir adımına yapay zekâ eklemektir: belgelerden alan çıkarmak, teklif taslağı hazırlamak veya kayıtları eşleştirmek gibi. Sonucu bir kişi onaylar. Sürecin geri kalanı ve mevcut sistemleriniz yerinde kalır."
+        },
+        {
+          "q": "Bir yapay zekâ pilotu ne kadar sürer?",
+          "a": "Pilot tek bir süreci ve tek bir net soruyu kapsar, bir başlangıç ölçümüne göre ölçülür. Tipik süre [[TODO-023]]. Önce [yapay zekâ hazırlık değerlendirmesi](/ai-readiness-assessment) gelir ve pilotun anlamlı olup olmadığını söyler."
+        },
+        {
+          "q": "Yapay zekâ personelimin yerini alacak mı?",
+          "a": "Bu sistemleri öyle tasarlamıyoruz. Yapay zekâ tekrar eden adımı üstlenir; kararlar ve istisnalar ekibinizde kalır. Amaç, aynı miktarda elle iş eklemeden büyümeyi karşılamaktır."
+        },
+        {
+          "q": "Yapay zekâ yanlış yaptığında ne olur?",
+          "a": "Emin olunmayan kayıtlar bir kişiye gider, düzeltmeler kaydedilir ve hata oranı pilot boyunca her hafta ölçülür. Fiyat ve toplam gibi hesaplar model değil, kod tarafından yapılır."
+        },
+        {
+          "q": "Verimiz şirketten çıkar mı?",
+          "a": "Yalnızca siz öyle seçerseniz. Model kendi sunucularınızda, kendi bulut hesabınızda veya bir API sağlayıcısı üzerinden çalışabilir. Her seçeneğin KVKK sonucu farklıdır; [veri güvenliği sayfamızda](/data-security) anlatılır."
+        },
+        {
+          "q": "Maliyeti nedir?",
+          "a": "Maliyet sürece, veri hazırlığına ve entegrasyonlara bağlıdır. [Fiyatlandırma sayfamız](/pricing) değerlendirme ve pilot tekliflerini, test seti hazırlığı ve bakım gibi çoğu zaman unutulan maliyetleri listeler."
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Tek bir süreç seçin. Yapay zekânın orada yeri olup olmadığını söyleriz.",
+    "lead": "Yapay zekâ hazırlık değerlendirmesi süreçlerinize bakar ve her birini gerekçesiyle uygun, koşullu uygun veya uygun değil diye işaretler.",
+    "primary": { "label": "Değerlendirmeyi başlatın", "href": "/ai-readiness-assessment" },
+    "secondary": { "label": "İlk görüşmeyi planlayın", "href": "/contact" }
+  }
+}

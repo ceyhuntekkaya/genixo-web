@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "title": "Hizmetler: Yapay zekâ otomasyonu, yazılım, ürün, NGSD",
+    "description": "Genixo ile çalışmanın dört yolu: insan onaylı yapay zekâ süreç otomasyonu, özel yazılım, ürün stüdyosu ve sürekli yazılım ekibi NGSD."
+  },
+  "breadcrumb": "Hizmetler",
+  "hero": {
+    "eyebrow": "Hizmetler",
+    "title": "Dört giriş, tek mühendislik ekibi",
+    "lead": "Genixo, yazılım departmanı olmayan ya da elindeki departmandan fazlasına ihtiyaç duyan şirketlerin yazılım departmanı olarak çalışır. Durumunuza uyan kapıyı seçin.",
+    "primary": { "label": "İlk görüşmeyi planlayın", "href": "/contact" },
+    "secondary": { "label": "Fiyat ve süreleri görün", "href": "/pricing" }
+  },
+  "answer": {
+    "label": "Kısaca",
+    "text": "Genixo dört hizmet sunar: insan onaylı yapay zekâ süreç otomasyonu, özel yazılım ve entegrasyonlar, yeni web ve mobil ürünler için bir ürün stüdyosu ve sürekli dış yazılım ekibi NGSD. İlk üçü ne kurduğumuzu, NGSD ise kurmaya nasıl devam ettiğimizi anlatır."
+  },
+  "sections": [
+    {
+      "kind": "doors",
+      "label": "Bir kapı seçin",
+      "title": "Bugünkü sorununuzdan başlayın",
+      "items": [
+        {
+          "quote": "Ekibim her gün aynı işi elle yapıyor, hatalar da aradan kaçıyor.",
+          "name": "Yapay zekâ süreç otomasyonu",
+          "text": "Belge işleme, teklif taslağı, sipariş eşleştirme, çağrı analizi ve bilgi asistanları; her birinde sonucu bir kişi onaylar.",
+          "step": "İlk adım: yapay zekâ hazırlık değerlendirmesi",
+          "href": "/ai-automation"
+        },
+        {
+          "quote": "Hazır yazılımlar bize uymuyor, ERP'mizle de konuşmuyor.",
+          "name": "Özel yazılım",
+          "text": "İç sistemler; ERP, CRM ve e-fatura entegrasyonları; zayıf bağlantıda çalışan saha uygulamaları ve tek kaynaktan raporlama.",
+          "step": "İlk adım: keşif çalışması",
+          "href": "/custom-software"
+        },
+        {
+          "quote": "Bir ürün fikrim var ama kuracak ekibim yok.",
+          "name": "Ürün stüdyosu",
+          "text": "Tamamen size ait web ve mobil ürünler için keşif çalıştayı, ilk sürüm, lansman ve iterasyon.",
+          "step": "İlk adım: ürün keşif çalıştayı",
+          "href": "/product-studio"
+        },
+        {
+          "quote": "Yazılıma sürekli ihtiyacımız var ama koca bir departmana değil.",
+          "name": "NGSD",
+          "text": "Yeni Nesil Yazılım Departmanı: atanmış bir proje yöneticisi ve yazılım departmanınız olarak çalışan bir Genixo ekibi.",
+          "step": "İlk adım: tanışma görüşmesi",
+          "href": "/ngsd"
+        }
+      ]
+    },
+    {
+      "kind": "points",
+      "label": "Kapılar nasıl bağlanır",
+      "title": "Projeler çoğu zaman küçük başlar, NGSD ile devam eder",
+      "items": [
+        {
+          "title": "Pilot tek bir şeyi kanıtlar",
+          "text": "Yapay zekâ otomasyonu ve özel yazılım genellikle tek bir süreç, yazılı bir başlangıç ölçümü ve sabit bir kapsamla başlar. Pilot tek bir soruyu yanıtlar: bu, sizin gerçek verinizde çalışıyor mu?"
+        },
+        {
+          "title": "Yazılımın canlıya çıktıktan sonra bir sahibi olmalı",
+          "text": "Sistem yayına girdikten sonra birinin onu düzeltmesi, genişletmesi ve ölçmesi gerekir. Bazı müşteriler bunu ayrı bir faz olarak alır; bazıları NGSD'ye geçer."
+        },
+        {
+          "title": "Yapay zekânın sonra ihtiyaç duyduğu şey temiz veridir",
+          "text": "Özel yazılım çoğu zaman önce gelir. İyi kurulmuş bir sipariş veya saha sistemi, yapay zekâ otomasyonunu sonra mümkün kılan düzenli veriyi üretir."
+        }
+      ]
+    },
+    {
+      "kind": "list",
+      "variant": "checks",
+      "label": "Her hizmette ortak",
+      "title": "Hangi kapıyı seçerseniz seçin değişmeyenler",
+      "items": [
+        "Başlangıç ölçümü ve başarı ölçütleri, kurulum başlamadan önce yazılır.",
+        "Yapay zekâ önerir; paraya, müşteriye veya personele dokunan her şeyi bir kişi onaylar.",
+        "Verinizin nerede duracağına siz karar verirsiniz: kendi sunucularınızda, kendi bulut hesabınızda veya bir API sağlayıcısında.",
+        "Her hafta yalnızca durum raporu değil, çalışan yazılım görürsünüz. [[TODO-032]]",
+        "Kaynak kod ve dokümantasyon size teslim edilir. [[TODO-028]] [[TODO-029]]"
+      ],
+      "links": [
+        { "label": "Nasıl çalışıyoruz", "href": "/how-we-work" },
+        { "label": "Neleri yapmıyoruz", "href": "/what-we-dont-do" },
+        { "label": "Veri güvenliği ve KVKK", "href": "/data-security" }
+      ]
+    },
+    {
+      "kind": "cases",
+      "limit": 3,
+      "label": "Kanıt",
+      "title": "Vaka çalışmaları",
+      "links": [{ "label": "Tüm vaka çalışmaları", "href": "/case-studies" }]
+    },
+    {
+      "kind": "faq",
+      "label": "SSS",
+      "title": "Hizmetlerimiz hakkında sorular",
+      "items": [
+        {
+          "q": "Hangi hizmetle başlamalıyım?",
+          "a": "Sorundan başlayın. Darboğaz belgelerle veya mesajlarla tekrar eden bir işse yapay zekâ süreç otomasyonuna bakın. Araçlarınız uymuyor ya da birbirine bağlanmıyorsa özel yazılıma bakın. Yeni bir ürün fikriniz varsa ürün stüdyosuna bakın. Her ay yazılım işine ihtiyaç varsa NGSD'ye bakın. İlk görüşmede hangisinin uyduğunu, ya da hiçbirinin uymadığını söyleriz."
+        },
+        {
+          "q": "Yalnızca yapay zekâ projesi mi yapıyorsunuz?",
+          "a": "Hayır. Genixo bir yazılım mühendisliği şirketidir; yapay zekâ en güçlü yetkinliklerinden biridir. Birçok proje klasik yazılımdır: entegrasyon, iç sistem, mobil uygulama ve raporlama."
+        },
+        {
+          "q": "Bir proje bir hizmetten diğerine geçebilir mi?",
+          "a": "Evet. Sık görülen yol, sabit kapsamlı bir pilot veya ilk sürüm, ardından sistemi canlıya aldıktan sonra iyileştirmeye devam etmek için NGSD'dir."
+        },
+        {
+          "q": "Genixo ekibi nerede?",
+          "a": "Türkiye, Ankara, Çankaya, Bilkent Cyberpark, Cyberplaza H Blok. Orada ya da çevrimiçi görüşebiliriz."
+        },
+        {
+          "q": "Bir proje ne kadar tutar?",
+          "a": "Kapsama, entegrasyonlara ve veri hazırlığına bağlıdır. [Fiyatlandırma sayfamız](/pricing) başlangıç tekliflerini, maliyeti belirleyen etkenleri ve çoğu zaman unutulan maliyetleri listeler."
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Hangi kapının size ait olduğundan emin değil misiniz?",
+    "lead": "Ekibinizin en çok zamanını alan süreci anlatın. İlk görüşmede nereden başlayacağınızı, ya da doğru ekip olmadığımızı söyleriz.",
+    "primary": { "label": "İlk görüşmeyi planlayın", "href": "/contact" },
+    "secondary": { "label": "Yapay zekâ hazırlık değerlendirmesini yapın", "href": "/ai-readiness-assessment" }
+  }
+}

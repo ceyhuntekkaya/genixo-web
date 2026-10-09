@@ -16,7 +16,7 @@ faq:
     a: "Hayır. Önce işin nerede koptuğu dinlenir, sonra hangi sürecin dijitalleşeceği seçilir."
 sources:
   - title: "Ceyhun Tekkaya, kurucu gözlemi. Bu sürümde üçüncü taraf istatistik yoktur."
-    url: "https://genixo.ai/tr/authors/ceyhun-tekkaya"
+    url: "https://genixo.ai/tr/team/ceyhun-tekkaya"
     accessed: "2026-10-09"
 image: "/images/1753787699394.png"
 draft: false

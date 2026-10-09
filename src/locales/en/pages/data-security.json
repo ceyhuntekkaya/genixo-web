@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "title": "Data Security, KVKK and On-Prem AI",
+    "description": "Where your data goes in a Genixo AI project: your servers, your cloud or an API. KVKK Article 9, prompt injection, permissions and notes for EU clients."
+  },
+  "breadcrumb": "Data security",
+  "hero": {
+    "eyebrow": "Data security and KVKK",
+    "title": "You decide where your data goes",
+    "lead": "Before any model sees your data, we agree on where it is processed, who can see what and what gets logged. This page explains the options and their consequences.",
+    "primary": { "label": "Discuss your data rules", "href": "/contact" },
+    "secondary": { "label": "AI process automation", "href": "/ai-automation" }
+  },
+  "answer": {
+    "label": "In short",
+    "text": "In Genixo projects you choose where data is processed: on your own servers, in a cloud account you own, or through an AI provider's API. Sending personal data to a service abroad is a cross-border transfer under Article 9 of Türkiye's personal data protection law (KVKK, Law No. 6698) and needs a valid basis. We design the system with your data controller and legal advisor; we don't claim blanket KVKK compliance for you."
+  },
+  "sections": [
+    {
+      "kind": "table",
+      "label": "Three options",
+      "title": "Where the model runs, and what follows from it",
+      "columns": ["Option", "Where data goes", "Suits", "Trade-offs"],
+      "rows": [
+        [
+          "On your servers (on-prem)",
+          "Stays inside your network",
+          "Personal or confidential data, strict internal rules",
+          "Needs suitable hardware and someone to operate it. Open models only."
+        ],
+        [
+          "Your cloud account",
+          "A cloud region you choose, under your contract",
+          "Companies that already run systems in the cloud",
+          "Region and provider terms decide the KVKK position."
+        ],
+        [
+          "AI provider API",
+          "The provider's servers, often abroad",
+          "Non-personal data, fast prototypes",
+          "Fastest start. Personal data sent abroad is a cross-border transfer under KVKK Article 9. Usage fees apply."
+        ]
+      ]
+    },
+    {
+      "kind": "prose",
+      "label": "KVKK",
+      "title": "What KVKK means for AI projects",
+      "paragraphs": [
+        "Under KVKK, the company that decides why and how personal data is processed is the data controller. In most projects that is you; Genixo acts on your instructions.",
+        "Article 9 of the law governs transfers of personal data abroad. Using an AI service whose servers are outside Türkiye counts as such a transfer when personal data is included, so a valid transfer mechanism and the related obligations have to be in place. Running the model on your own servers keeps the data inside the company and avoids the transfer.",
+        "People whose data is processed, such as callers in recorded calls, must be informed about the processing and its purpose.",
+        "This section is general information, not legal advice. [[TODO-036]]"
+      ],
+      "sources": [
+        {
+          "title": "Law No. 6698 on the Protection of Personal Data (Mevzuat Bilgi Sistemi)",
+          "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6698.pdf"
+        },
+        {
+          "title": "Personal Data Protection Authority (KVKK)",
+          "url": "https://www.kvkk.gov.tr"
+        }
+      ]
+    },
+    {
+      "kind": "points",
+      "label": "Security by design",
+      "title": "Risks specific to AI systems, and how we handle them",
+      "items": [
+        {
+          "title": "Prompt injection",
+          "text": "Text inside an email or PDF can be written to look like an instruction to the model. We treat all document content as data, not as commands, and test for it."
+        },
+        {
+          "title": "Least privilege",
+          "text": "The AI component gets only the access it needs. Actions that write to your systems, such as creating a record or sending an email, require a person's approval."
+        },
+        {
+          "title": "Document-level permissions",
+          "text": "In knowledge assistants, each answer is built only from documents the user is allowed to see. Permissions are checked before retrieval, not after."
+        },
+        {
+          "title": "Logging and review",
+          "text": "Inputs, outputs and approvals are logged according to your retention rules, so decisions can be traced."
+        },
+        {
+          "title": "Numbers from code",
+          "text": "Prices, totals and other calculations come from code or your systems, never from generated text."
+        }
+      ]
+    },
+    {
+      "kind": "points",
+      "layout": "grid",
+      "label": "For EU clients",
+      "title": "GDPR and the EU AI Act",
+      "items": [
+        {
+          "title": "GDPR",
+          "text": "When we process personal data of EU residents on your behalf, a data processing agreement under the GDPR sets out the terms. KVKK applies on the Turkish side."
+        },
+        {
+          "title": "AI Act Article 50",
+          "text": "From 2 August 2026, people interacting with an AI system such as a chatbot must be told so, and AI-generated content has to be marked. We build these notices into the interface."
+        },
+        {
+          "title": "High-risk uses",
+          "text": "Uses such as recruitment screening are classified as high-risk under the AI Act. We don't build automated applicant screening."
+        }
+      ],
+      "sources": [
+        {
+          "title": "EU AI Act, Article 50: Transparency obligations",
+          "url": "https://artificialintelligenceact.eu/article/50/"
+        },
+        {
+          "title": "EU AI Act, Annex III: High-risk AI systems",
+          "url": "https://artificialintelligenceact.eu/annex/3/"
+        }
+      ]
+    },
+    {
+      "kind": "list",
+      "variant": "checks",
+      "label": "Our own setup",
+      "title": "How Genixo itself handles data",
+      "items": [
+        "Hosting of systems we operate: [[TODO-034]]",
+        "Third-party AI services we may use, and under which terms: [[TODO-035]]",
+        "On-prem model deployments we have carried out: [[TODO-019]]",
+        "Contact form data processing: [[TODO-038]]"
+      ]
+    },
+    {
+      "kind": "list",
+      "variant": "limits",
+      "label": "Limits",
+      "title": "What we don't claim",
+      "items": [
+        "We don't claim that a system makes you KVKK compliant. Compliance depends on your processes, notices and contracts as a whole.",
+        "We don't send your data to an outside AI service without your written agreement.",
+        "We don't replace your legal advisor. We give them the technical facts they need."
+      ]
+    },
+    {
+      "kind": "faq",
+      "label": "FAQ",
+      "title": "Questions about data security",
+      "items": [
+        {
+          "q": "Can the AI run entirely on our own servers?",
+          "a": "Yes, with open models running inside your network. It needs suitable hardware; the model size depends on the task, which we test during the pilot."
+        },
+        {
+          "q": "Is using ChatGPT or a similar API allowed under KVKK?",
+          "a": "Sending personal data to a provider abroad is a cross-border transfer under KVKK Article 9 and needs a valid basis. Non-personal data, or data that has been properly anonymised, is a different case. Your legal advisor should confirm the setup."
+        },
+        {
+          "q": "Who is the data controller in a Genixo project?",
+          "a": "Usually you, because you decide the purpose and means of processing. Genixo acts on your instructions. The contract states the roles."
+        },
+        {
+          "q": "How do you protect against prompt injection?",
+          "a": "Document content is treated as data, not instructions; the AI component has minimal permissions; actions that change your systems need human approval; and we test with injected examples."
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Tell us your data rules first.",
+    "lead": "In the first call we ask where your data may and may not go, then suggest an architecture that fits.",
+    "primary": { "label": "Book a first call", "href": "/contact" },
+    "secondary": { "label": "AI readiness assessment", "href": "/ai-readiness-assessment" }
+  }
+}

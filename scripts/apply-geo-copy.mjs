@@ -126,7 +126,7 @@ faq:
 ${faq}
 sources:
   - title: ${yamlQuote(locale === "tr" ? "Ceyhun Tekkaya, kurucu gözlemi. Bu sürümde üçüncü taraf istatistik yoktur." : "Ceyhun Tekkaya, founder observation. This version cites no third-party statistic.")}
-    url: "https://genixo.ai/${locale}/authors/ceyhun-tekkaya"
+    url: "https://genixo.ai/${locale}/team/ceyhun-tekkaya"
     accessed: "2026-10-09"
 image: ${yamlQuote(source.image)}
 draft: false

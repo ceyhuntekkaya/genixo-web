@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Özel yazılım ve ERP entegrasyonu",
+    "description": "Genixo, şirketinizin çalışma biçimine göre iç sistemler, ERP ve e-fatura entegrasyonları, saha uygulamaları ve raporlama kurar. Bir keşif çalışmasıyla başlar."
+  },
+  "breadcrumb": "Özel yazılım",
+  "hero": {
+    "eyebrow": "Özel yazılım",
+    "title": "İşinize uyan ve elinizdeki sistemlerle konuşan yazılım",
+    "lead": "Siparişler WhatsApp'ta, fiyatlar Excel'de, faturalar ERP'de duruyorsa sorun çoğu zaman ekibiniz değildir. Parçaları birbirine bağlarız ya da eksik olanı kurarız.",
+    "primary": { "label": "Keşif görüşmesi planlayın", "href": "/contact" },
+    "secondary": { "label": "Fiyat ve süreleri görün", "href": "/pricing" }
+  },
+  "answer": {
+    "label": "Kısaca",
+    "text": "Genixo, KOBİ'ler ve kurumlar için özel iç sistemler ve entegrasyonlar kurar: ERP, CRM ve e-fatura bağlantıları, saha uygulamaları, tek kaynaktan raporlama ve mevcut sistemlerin parça parça yenilenmesi. İş, kapsamı, mimariyi ve sabit bir teklifi üreten keşif çalışmasıyla başlar."
+  },
+  "sections": [
+    {
+      "kind": "quotes",
+      "label": "Tanıdık geldi mi?",
+      "title": "Araçlarınızın artık uymadığının işaretleri",
+      "items": [
+        "Aynı sipariş üç kez giriliyor: satış tablosuna, ERP'ye ve depo listesine.",
+        "Aylık rapor günler sürüyor, çünkü rakamlar birbiriyle tutmayan dört yerden geliyor.",
+        "Saha ekibimiz kâğıtta veya WhatsApp'ta çalışıyor, çünkü uygulama çekim olmadan açılmıyor.",
+        "Eski sistem işi döndürüyor ama kimse ona dokunmaya cesaret edemiyor.",
+        "Bir paket aldık, sonra süreçlerimizi ona uydurmak için para ödedik."
+      ]
+    },
+    {
+      "kind": "points",
+      "label": "Ne kurarız",
+      "title": "Tipik özel yazılım projeleri",
+      "items": [
+        {
+          "title": "İç sistemler",
+          "text": "Sipariş, stok, sevkiyat, servis veya onay akışları; ekiplerinizin zaten çalıştığı biçime göre."
+        },
+        {
+          "title": "ERP, CRM ve e-fatura entegrasyonları",
+          "text": "Mevcut sistemleriniz veriyi kendiliğinden değiştirir; kimse rakamları bir ekrandan diğerine kopyalamaz."
+        },
+        {
+          "title": "Zayıf bağlantı için saha uygulamaları",
+          "text": "Çevrimdışıyken de çalışan, bağlantı dönünce eşitlenen mobil uygulamalar."
+        },
+        {
+          "title": "Tek kaynaktan raporlama",
+          "text": "Tek ve tutarlı bir veri kaynağından okuyan panolar ve raporlar; yönetim rakamların tek bir hâlini görür."
+        },
+        {
+          "title": "Bir anda geçiş olmadan yenileme",
+          "text": "Eski sistemler parça parça değiştirilir; geçiş güvenli olana kadar eski ve yeni yan yana çalışır."
+        },
+        {
+          "title": "Maliyet vaadinden önce maliyet incelemesi",
+          "text": "Ne kurulacağını önermeden önce zamanın ve lisans parasının gerçekten nereye gittiğine bakarız. Ölçmediğimiz tasarrufu vaat etmeyiz."
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "label": "Nasıl işler",
+      "title": "Keşif, kurulum, canlıya alma, iyileştirme",
+      "items": [
+        {
+          "title": "Keşif çalışması",
+          "text": "Süreci ve devredeki sistemleri çıkarırız. Çıktı: kapsam, mimari ve sabit bir teklif.",
+          "meta": "[[TODO-024]]"
+        },
+        {
+          "title": "Parça parça kurulum",
+          "text": "Her hafta çalışan yazılım görür, şekil aldıkça öncelikleri bizimle ayarlarsınız.",
+          "meta": "[[TODO-032]]"
+        },
+        {
+          "title": "Canlıya al",
+          "text": "Veri taşıma, kullanıcı eğitimi ve sistemi kullanan kişilerle planlanmış bir geçiş."
+        },
+        {
+          "title": "İyileştir",
+          "text": "Canlıya aldıktan sonra düzeltir, genişletir ve ölçeriz; ayrı bir faz ya da NGSD ile.",
+          "meta": "[[TODO-033]]"
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "label": "Yapay zekâ için neden önemli",
+      "title": "Yarının yapay zekâsının ihtiyaç duyduğu şey, bugünkü sistemin temiz verisidir",
+      "paragraphs": [
+        "Yapay zekâ otomasyonu düzenli ve güvenilir veri üzerinde çalışır. Siparişler, teslimatlar ve faturalar tutarlı alanlarla tek bir sistemde tutulduğunda sipariş eşleştirme veya talep tahmini gibi sonraki adımlar mümkün olur.",
+        "Birçok yapay zekâ projesinin yazılım projesi olarak başlamasının nedeni budur. Sonrası için bkz. [yapay zekâ süreç otomasyonu](/ai-automation)."
+      ]
+    },
+    {
+      "kind": "list",
+      "variant": "checks",
+      "label": "Kontrol sizde kalır",
+      "title": "Sahiplik ve süreklilik",
+      "items": [
+        "Kaynak kod, dokümantasyon ve altyapı erişimi size teslim edilir. [[TODO-028]]",
+        "Başka bir ekibin sistemi sonra sürdürebilmesi için yaygın bilinen teknolojiler kullanırız: Spring Boot, Next.js, PostgreSQL ve Docker gibi.",
+        "İşi içeri almaya karar verirseniz kodu ve hakkında bildiklerimizi devrederiz. [[TODO-029]]"
+      ]
+    },
+    {
+      "kind": "list",
+      "variant": "limits",
+      "label": "Bu ne değildir",
+      "title": "Sınırlar",
+      "items": [
+        "Yeni bir şey kurmak için çalışan bir paketi değiştirmeyiz. Yapılandırma sorunu çözüyorsa bunu söyleriz.",
+        "Keşif çalışması kapsamı tanımlamadan sabit fiyat vermeyiz.",
+        "Ekibimizin hakkıyla kadro ayıramayacağı kadar proje üstlenmeyiz."
+      ]
+    },
+    {
+      "kind": "cases",
+      "service": "custom-software",
+      "label": "Kanıt",
+      "title": "Gösterebildiğimiz yazılım projeleri"
+    },
+    {
+      "kind": "faq",
+      "label": "SSS",
+      "title": "Özel yazılım hakkında sorular",
+      "items": [
+        {
+          "q": "Özel yazılım bir paketten daha mı pahalı?",
+          "a": "Başlangıçta genellikle evet. Anlamlı karşılaştırma lisans ücretlerini, kötü oturan bir yazılıma uyum sağlamanın maliyetini ve sistemler arasındaki elle işi de içerir. Keşif çalışması, karşılaştırabilmeniz için sabit bir teklif verir."
+        },
+        {
+          "q": "ERP'mizle entegre olabilir misiniz?",
+          "a": "Çoğu durumda evet: ERP'nin API'si, veritabanı görünümleri veya dosya alışverişi üzerinden. Keşif sırasında ERP sürümünüzün hangi entegrasyon yöntemlerini desteklediğini doğrularız."
+        },
+        {
+          "q": "Keşif çalışması nedir?",
+          "a": "Sürecinizin ve sistemlerinizin kısa bir incelemesidir. Yazılı bir kapsam, bir mimari ve sabit bir teklifle biter. Süre ve ücret: [[TODO-024]]."
+        },
+        {
+          "q": "Kod kime ait?",
+          "a": "Size. Kaynak kod ve dokümantasyon size teslim edilir. Sözleşme ayrıntıları: [[TODO-028]]."
+        },
+        {
+          "q": "Başkasının kurduğu mevcut bir sistemi devralabilir misiniz?",
+          "a": "Çoğu zaman evet. Kod, altyapı ve dokümantasyonu inceleyerek başlar, sonra neyin tutulabileceğini ve neyin riskli olduğunu söyleriz."
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Birbirleriyle konuşmayan sistemleri anlatın.",
+    "lead": "İlk görüşmede işin bugün nasıl aktığını dinler, keşif çalışmasının anlamlı olup olmadığını öneririz.",
+    "primary": { "label": "İlk görüşmeyi planlayın", "href": "/contact" },
+    "secondary": { "label": "Nasıl çalışıyoruz", "href": "/how-we-work" }
+  }
+}

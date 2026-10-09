@@ -41,12 +41,12 @@ export const entity = {
     },
   ],
   definition: {
-    tr: "Genixo Bilişim ve Teknoloji A.Ş. (Genixo), Ankara Bilkent Cyberpark merkezli bir yazılım ve Ar-Ge şirketidir; KOBİ'lere ve kurumlara dijital dönüşüm danışmanlığı, iş süreçleri dijitalleştirme ve yapay zekâ entegrasyonu (RAG chatbot, kurum içi (on-prem) büyük dil modelleri, konuşma tanıma ve seslendirme) hizmetleri sunar.",
-    en: "Genixo Bilişim ve Teknoloji A.Ş. (Genixo) is a software and R&D company based in Bilkent Cyberpark, Ankara, Türkiye. It provides digital transformation consulting, business process digitalization and AI integration (RAG chatbots, on-premise large language models, speech-to-text and text-to-speech) for SMEs and organizations.",
+    tr: "Genixo Bilişim ve Teknoloji A.Ş. (Genixo), Ankara Bilkent Cyberpark merkezli bir yazılım ve yapay zekâ mühendislik şirketidir. KOBİ'lere ve kurumlara dış yazılım departmanı olarak çalışır: insan onaylı yapay zekâ süreç otomasyonu, özel yazılım, ürün geliştirme ve sürekli yazılım ekibi modeli NGSD.",
+    en: "Genixo Bilişim ve Teknoloji A.Ş. (Genixo) is a software and AI engineering company based in Bilkent Cyberpark, Ankara, Türkiye. It works as an external software department for SMEs and organizations, covering AI process automation with human approval, custom software, product development and NGSD, an ongoing software team model.",
   } satisfies Partial<Record<Locale, string>>,
   shortDefinition: {
-    tr: "Ankara Bilkent Cyberpark'ta yazılım ve Ar-Ge şirketi. KOBİ'lere dijital dönüşüm danışmanlığı, süreç dijitalleştirme ve yapay zekâ entegrasyonu.",
-    en: "Software and R&D company in Bilkent Cyberpark, Ankara. Digital transformation consulting, process digitalization and AI integration for SMEs.",
+    tr: "Yazılım departmanınız, yapay zekâ dahil. Bilkent Cyberpark, Ankara'da yazılım ve yapay zekâ ekibi: AI otomasyonu, özel yazılım, ürün stüdyosu ve NGSD.",
+    en: "Your software department, AI included. A software and AI team at Bilkent Cyberpark, Ankara: AI automation, custom software, product studio and NGSD.",
   } satisfies Partial<Record<Locale, string>>,
 } as const;
 

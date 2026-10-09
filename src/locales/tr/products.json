@@ -6,280 +6,222 @@
     "ILC": {
       "name": "ILC International Language Certification",
       "summary": "Uluslararası dil sertifikasyonu ve değerlendirme için kapsamlı bir platform.",
-      "description": "ILC International Language Certification, dil öğrenme ve sertifikasyon süreçlerini kolaylaştırmak için tasarlanmış modern bir platformdur.",
+      "description": "ILC International Language Certification, dil öğrenimini ve sertifikasyon süreçlerini yürüten bir platformdur. Değerlendirme araçları, sertifika yönetimi ve ayrıntılı raporlama sunar.\n\nPlatform birden fazla dili destekler ve her seviyedeki öğrenen için esnek sertifikasyon yolları sunar. Eğitimciler ve kurumlar, gelişmiş analitik ve raporlarla ilerlemeyi izler ve kalite standardını tutar.\n\nTemel yetenekler arasında otomatik değerlendirme, sertifika üretimi, ilerleme takibi ve kapsamlı raporlama vardır. Platform ölçeklenecek biçimde tasarlanmıştır; her büyüklükteki kuruma uyar.",
       "heroImage": "/images/products/ilccenter-hero.png",
+      "webLink": "https://www.ilccenter.com/",
+      "features": [
+        {
+          "title": "Çoklu dil desteği",
+          "description": "Türkçe, İngilizce, Almanca, Fransızca ve daha fazlası. Platform 20'den fazla dili destekler. Uluslararası öğrenciler tek sistemde yönetilir."
+        },
+        {
+          "title": "Otomatik değerlendirme ve notlandırma",
+          "description": "Sınav biter, sonuç hazırdır. Yazma, konuşma ve okuma yapay zekâ ile değerlendirilir. Öğretmen raporu günler sonra değil, dakikalar içinde alır."
+        },
+        {
+          "title": "Sertifika üretimi ve yönetimi",
+          "description": "Kâğıt sertifika, kayıp ve sahtecilik yok. Dijital sertifikalar anında üretilir, elektronik imzalanır ve blokzincir ile doğrulanır."
+        },
+        {
+          "title": "Ayrıntılı ilerleme takibi",
+          "description": "Her öğrencinin seviyesi, zorlandığı yer ve ne kadar ilerlediği görünür. Ayrıntılı raporlarla kişiye özel öğrenme planı çıkarılır."
+        },
+        {
+          "title": "Gelişmiş analitik ve raporlama",
+          "description": "Kaç öğrencinin geçtiğini sormaya gerek kalmaz. Anlık raporlar, performans metrikleri ve eğilim analizi panelde durur."
+        },
+        {
+          "title": "Ölçeklenen mimari",
+          "description": "10 öğrenci de 10.000 öğrenci de aynı hızda çalışır. Bulut altyapısı sistemi yavaşlatmaz ve büyümeyi sınırlamaz."
+        }
+      ],
       "image1": "/images/product-ilc.png",
       "image2": "/images/about-4.jpg",
       "logo": "/images/logos/ilccenter-logo.png",
-      "longDescription": "<p>Platformumuz kapsamlı değerlendirme araçları, sertifika yönetimi ve detaylı raporlama özellikleri sunar.</p><p>Platform birden fazla dili destekler ve tüm seviyelerdeki öğrenciler için esnek sertifikasyon yolları sunar. Gelişmiş analitik ve raporlama özellikleriyle, eğitimciler ve kurumlar ilerlemeyi takip edebilir ve kalite standartlarını sağlayabilir.</p><h3>Temel Özellikler</h3><p>Temel yetenekler arasında otomatik değerlendirme, sertifika oluşturma, ilerleme takibi ve kapsamlı raporlama bulunur. Platform ölçeklenebilir olarak tasarlanmıştır ve her boyuttaki kurumu barındırabilir.</p>",
-      "webLink":"https://www.ilccenter.com/",
       "videoLink": "https://www.egitimiste.com/assets/video/tanitim_video.mp4",
-      "features": [
-        {
-          "title": "Çoklu Dil Desteği",
-          "description": "Türkçe, İngilizce, Almanca, Fransızca... Platform 20+ dili destekler. Uluslararası öğrencilere hizmet verin, tek sistemde tüm dilleri yönetin."
-        },
-        {
-          "title": "Otomatik Değerlendirme ve Notlandırma",
-          "description": "Sınav biter bitmez sonuçlar hazır. AI ile yazma, konuşma, okuma anında değerlendirilir. Öğretmenler günler yerine dakikalar içinde rapor alır."
-        },
-        {
-          "title": "Sertifika Oluşturma ve Yönetimi",
-          "description": "Kağıt sertifika yok, kaybolma yok, sahtecilik yok. Dijital sertifikalar anında oluşturulur, elektronik imzalanır, blockchain ile doğrulanır."
-        },
-        {
-          "title": "Kapsamlı İlerleme Takibi",
-          "description": "Her öğrencinin hangi seviyede olduğunu, nerede zorlandığını, ne kadar ilerlediğini görün. Detaylı raporlarla kişiye özel öğrenme planları oluşturun."
-        },
-        {
-          "title": "Gelişmiş Analitik ve Raporlama",
-          "description": "'Kaç öğrenci sınavı geçti?' diye sormayın, dashboard'a bakın ve görün. Gerçek zamanlı raporlar, performans metrikleri, trend analizleri hep elinizin altında."
-        },
-        {
-          "title": "Ölçeklenebilir Mimari",
-          "description": "10 öğrenci de 10.000 öğrenci de aynı hızda çalışır. Bulut altyapı ile sistem asla yavaşlamaz, tıkanmaz, büyümeniz engellemez."
-        }
-      ],
       "active": true,
-      "showOnHomepage": true,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0",
-      "problemsTitle": "Dil Sertifikasyonunda Neden Dijital Platform Şart",
-      "problemsSubtitle": "Başarılı eğitim kurumlarının ortak özelliği: Bu sorunları çözdüler.",
-      "problems": [
-        {
-          "title": "Manuel Sınav Değerlendirmesi Haftalar Alıyor",
-          "description": "Öğrenci sınava giriyor, sonucu 2 hafta bekliyor. Bu sürede başka kuruma başvuruyor, sizi kaybediyorsunuz. Otomatik değerlendirme ile sonuçlar anında hazır."
-        },
-        {
-          "title": "Kağıt Sertifikalar Kayboluyor ve Sahte Olabiliyor",
-          "description": "Basılı sertifika kayboluyor, yeniden basılması için para ve zaman kaybı. Sahtecilik riski var, doğrulama zor. Dijital sertifikalarla her şey güvenli ve anlık doğrulanabilir."
-        },
-        {
-          "title": "Öğrenci İlerleme Takibi Excel'de Kaybolmuş",
-          "description": "'Bu öğrenci hangi seviyede?' diye soruyorsunuz, Excel dosyaları arasında kayboluyorsunuz. Gerçek zamanlı takip sistemi ile her öğrencinin durumunu anında görürsünüz."
-        },
-        {
-          "title": "Çoklu Dil Yönetimi Karmaşa Yaratıyor",
-          "description": "Her dil için ayrı sistem, ayrı Excel, ayrı kağıt. Karmaşa çok, verim az. Tek platformda 20+ dili yönetin, tüm veriler merkezi ve düzenli."
-        },
-        {
-          "title": "Raporlama ve Analiz Elle Yapılıyor",
-          "description": "Aylık raporları hazırlamak için günlerce Excel'de uğraşıyorsunuz. Dashboard'a bakın, tüm metrikleri görün. Başarı oranları, öğrenci dağılımı, gelir analizleri hepsi hazır."
-        },
-        {
-          "title": "Büyüyemiyorsunuz Çünkü Sistem Ölçeklenmiyor",
-          "description": "100 öğrenci için çalışan sistem, 1000 öğrencide çöküyor. Her şeyi manuel yapıyorsunuz, büyüdükçe kaos artıyor. Bulut altyapı ile 10.000 öğrenci de aynı hızda."
-        }
-      ]
+      "showOnHomepage": true
     },
     "StudyScoreAI": {
       "name": "Study Score AI",
-      "summary": "Eğitim değerlendirmesi ve öğrenci performans analizi için AI destekli platform.",
-      "description": "Study Score AI, öğrenci performansının akıllı değerlendirmesi ve analizini sağlamak için yapay zekâyı kullanır. Platform, öğrenme kalıplarını belirlemek, sonuçları tahmin etmek ve kişiselleştirilmiş öneriler sunmak için gelişmiş makine öğrenimi algoritmaları kullanır.\n\nStudy Score AI ile eğitimciler, öğrenci öğrenme davranışları hakkında daha derin içgörüler elde edebilir, dikkat gerektiren alanları belirleyebilir ve hedeflenmiş destek sağlayabilir. Platform gerçek zamanlı analitik, otomatik notlandırma ve kapsamlı raporlama araçları sunar.\n\nSistem, mevcut eğitim altyapısıyla sorunsuz bir şekilde entegre olacak şekilde tasarlanmıştır ve belirli kurumsal ihtiyaçları karşılamak için özelleştirilebilir.",
+      "summary": "Eğitimde değerlendirme ve öğrenci performansı analizi için yapay zekâ platformu.",
+      "description": "Study Score AI, öğrenci performansını değerlendirmek ve analiz etmek için yapay zekâ kullanır. Öğrenme örüntülerini görür, sonuçları öngörür ve kişiye özel öneriler üretir.\n\nEğitimciler öğrencinin nasıl öğrendiğini daha net görür, dikkat isteyen yerleri ayırt eder ve hedefli destek verir. Platform anlık analitik, otomatik notlandırma ve kapsamlı raporlama sunar.\n\nSistem mevcut eğitim altyapısına bağlanacak biçimde tasarlanmıştır ve kurumun ihtiyacına göre uyarlanabilir.",
       "heroImage": "/images/products/studyscore-hero.png",
+      "webLink": "https://studyscore.ai/",
+      "features": [
+        {
+          "title": "Yapay zekâ ile performans analizi",
+          "description": "Öğrenci nerede zorlanıyor, hangi konuyu anlamıyor? Yapay zekâ analiz eder ve söyler. Tahmin yerine veriye dayalı karar alınır."
+        },
+        {
+          "title": "Öngörücü analitik",
+          "description": "Risk altındaki öğrenci, sınav sonucu gelmeden görünür. Erken müdahale edilir; sonuçtan sonra tepki vermek yerine önlem alınır."
+        },
+        {
+          "title": "Kişiye özel öğrenme önerileri",
+          "description": "Her öğrenci farklı öğrenir. Yapay zekâ kişiye uygun içerik önerir; herkes kendi hızında ilerler."
+        },
+        {
+          "title": "Anlık ilerleme takibi",
+          "description": "Veli sorduğunda durum hemen gösterilir. Anlık rapor, canlı veri, şeffaf süreç."
+        },
+        {
+          "title": "Otomatik notlandırma",
+          "description": "Açık uçlu sorular da değerlendirilir. Notlandırma nesnel ve hızlıdır; gece yarısına kalan kâğıt yığını kalkar."
+        },
+        {
+          "title": "Kapsamlı rapor paneli",
+          "description": "Hangi sınıf ilerliyor, hangi konu zor, hangi öğretmen etkili: veri tek ekranda."
+        }
+      ],
       "image1": "/images/product-studyscore.png",
       "image2": "/images/about-4.jpg",
       "logo": "/images/logos/studyscore-logo.png",
-      "webLink":"https://studyscore.ai/",
-      "features": [
-        {
-          "title": "AI Destekli Performans Analizi",
-          "description": "Öğrenci nerede zorlanıyor? Hangi konuyu anlayamıyor? AI analiz eder, size söyler. Tahmin yerine veriye dayalı kararlar alırsınız."
-        },
-        {
-          "title": "Tahmine Dayalı Analitik",
-          "description": "Sınav sonucunu beklemeden risk altındaki öğrencileri görün. AI 'bu öğrenci başarısız olabilir' der, siz önceden müdahale edersiniz."
-        },
-        {
-          "title": "Kişiselleştirilmiş Öğrenme Önerileri",
-          "description": "Her öğrenci farklı öğrenir. Biri görsel, biri işiterek, biri yaparak öğrenir. AI her öğrenciye özel içerik önerir, herkes kendi hızında ilerler."
-        },
-        {
-          "title": "Gerçek Zamanlı İlerleme Takibi",
-          "description": "Ebeveyn 'Çocuğum nasıl?' diye sorar, siz hemen gösterirsiniz. Anlık raporlar, canlı veriler, şeffaf süreç. Herkes ne olup bittiğini bilir."
-        },
-        {
-          "title": "Otomatik Notlandırma Sistemi",
-          "description": "Öğretmen gece 12'ye kadar sınav kağıdı okumaz artık. AI açık uçlu soruları bile değerlendirir. Objektif, hızlı, hatasız notlandırma."
-        },
-        {
-          "title": "Kapsamlı Raporlama Paneli",
-          "description": "Dashboard açıyorsunuz, her şeyi görüyorsunuz. Hangi sınıf başarılı, hangi konu zor, hangi öğretmen etkili. Tüm veriler tek ekranda, anında."
-        }
-      ],
       "active": true,
       "showOnHomepage": true,
-      "problemsTitle": "Eğitim Değerlendirmesinde AI Kullanmamanın Bedeli",
-      "problemsSubtitle": "Başarılı eğitim kurumlarının ortak özelliği: Bu sorunları çözdüler.",
-      "problems": [
-        {
-          "title": "Risk Altındaki Öğrencileri Geç Fark Ediyorsunuz",
-          "description": "Öğrenci sınavda kalınca anlıyorsunuz sorun olduğunu. O zaman çok geç. AI erken uyarı verir, 'bu öğrenci zorlanıyor' der, müdahale edersiniz."
-        },
-        {
-          "title": "Her Öğrenciye Aynı İçerik Sunuyorsunuz",
-          "description": "Kimi görsel öğrenir, kimi dinleyerek, kimi yaparak. Herkes aynı müfredata tıkılmış, kimse verimli öğrenemiyor. AI kişiselleştirir, herkes kendi yolundan ilerler."
-        },
-        {
-          "title": "Öğretmenler Notlandırmakla Tükeniyor",
-          "description": "Öğretmen gece yarısına kadar sınav kağıdı okur, ertesi gün yorgun gelir. Asıl işi öğretmek, ama zamanı notlandırmakla geçiyor. AI otomatik değerlendirir, öğretmen öğretir."
-        },
-        {
-          "title": "Ebeveynler Sürekli Soruyor, Siz Cevap Bulamıyorsunuz",
-          "description": "'Çocuğum nasıl?' diye soruyorlar, siz de bilmiyorsunuz. Veri yok, rapor yok. Gerçek zamanlı raporlama ile her ebeveyn kendi çocuğunu online takip eder."
-        },
-        {
-          "title": "Hangi Konuların Zor Olduğunu Bilmiyorsunuz",
-          "description": "Matematik zor mu? Fizik mi? Hangi ünite anlaşılmıyor? Bilmiyorsunuz. AI analiz eder, 'bu konu %70 başarısız' der, müfredatı düzeltirsiniz."
-        },
-        {
-          "title": "Karar Almak İçin Veri Yok, Tahmin Ediyorsunuz",
-          "description": "Yeni öğretmen almalı mıyız? Sınıf açmalı mıyız? Bilmiyorsunuz, tahmin ediyorsunuz. Dashboard açıyorsunuz, veriler net: işte öğrenci sayısı, işte başarı oranı, işte ihtiyaçlar."
-        }
-      ]
+      "videoLink": ""
     },
     "Egitimiste": {
       "name": "Eğitim İste",
-      "summary": "Öğrencileri kaliteli eğitim kaynaklarıyla buluşturan kapsamlı eğitim platformu.",
-      "description": "Eğitim İste, öğrencileri kaliteli eğitim kaynakları, kurslar ve kurumlarla buluşturmak için tasarlanmış kapsamlı bir eğitim platformudur. Platform, öğrenenler ve eğitim fırsatları arasında bir köprü görevi görür.\n\nPlatform, kapsamlı bir eğitim programları, kurumlar ve kaynaklar veritabanına sahiptir. Öğrenciler ilgi ve hedeflerine uygun programları arayabilir, karşılaştırabilir ve başvurabilir.\n\nKullanıcı dostu arayüzler ve güçlü arama yetenekleriyle, Eğitim İste öğrencilerin doğru eğitim yolunu bulmasını kolaylaştırır. Platform ayrıca kurumların programlarını sergilemesi ve potansiyel öğrencilerle bağlantı kurması için araçlar sağlar.",
+      "summary": "Öğrencileri nitelikli eğitim kaynaklarıyla buluşturan platform.",
+      "description": "Eğitim İste, öğrencileri eğitim programları, kurslar ve kurumlarla buluşturmak için tasarlanmış bir platformdur. Öğrenen ile eğitim fırsatı arasında köprü kurar.\n\nPlatformda program, kurum ve kaynaklardan oluşan geniş bir dizin vardır. Öğrenciler ilgi ve hedeflerine uyan programları arar, karşılaştırır ve başvurur.\n\nArama ve sade arayüz, doğru eğitim yolunu bulmayı kolaylaştırır. Kurumlar da programlarını tanıtır ve aday öğrencilerle buluşur.",
       "heroImage": "/images/products/studyscore-hero.png",
+      "webLink": "https://www.egitimiste.com/",
+      "features": [
+        {
+          "title": "Kapsamlı program dizini",
+          "description": "Hangi üniversite, hangi kurs? 10.000'den fazla program tek platformda. Karşılaştırın, okuyun, karar verin."
+        },
+        {
+          "title": "Gelişmiş arama ve filtreleme",
+          "description": "“İstanbul'da iki yıllık yazılım kursu” saniyeler içinde bulunur. Fiyat, yer, süre ve konu; istediğiniz ölçüte göre süzülür."
+        },
+        {
+          "title": "Başvuru yönetimi",
+          "description": "Okula gidip kâğıt form doldurmaya gerek kalmaz. Başvuru çevrimiçi yapılır, belgeler yüklenir, durum izlenir."
+        },
+        {
+          "title": "Kurum profilleri",
+          "description": "Okul gerçekten iyi mi, mezunlar ne diyor, kampüs nasıl? Her kurumun ayrıntılı profili, öğrenci yorumları ve fotoğrafları vardır."
+        },
+        {
+          "title": "Öğrenci kaynakları ve rehberler",
+          "description": "Hangi meslek, hangi burs, sınava nasıl hazırlanılır? Kariyer rehberliği, burs bilgisi ve sınav kaynakları bir arada."
+        },
+        {
+          "title": "Çoklu dil desteği",
+          "description": "Türkiye'den ve yurt dışından öğrenciler aynı platformu kullanır. Türkçe, İngilizce, Arapça; herkes fırsatı kendi dilinde görür."
+        }
+      ],
       "image1": "/images/product-egitimiste.png",
       "image2": "/images/about-4.jpg",
       "logo": "/images/logos/egitimiste-logo.png",
-      "webLink":"https://www.egitimiste.com/",
-      "features": [
-        {
-          "title": "Kapsamlı Program Veritabanı",
-          "description": "Hangi üniversiteye gideceğim? Hangi kurs bana uygun? 10.000+ program tek platformda. Karşılaştır, oku, karar ver. Hepsini tek yerde bul."
-        },
-        {
-          "title": "Gelişmiş Arama ve Filtreleme",
-          "description": "'İstanbul'da, 2 yıllık, yazılım kursu' diye arıyorsunuz, saniyede buluyorsunuz. Fiyat, yer, süre, konu... İstediğiniz kritere göre filtreleyin."
-        },
-        {
-          "title": "Başvuru Yönetimi",
-          "description": "Başvuru yapmak için okula gitmek yok, kağıt doldurmak yok. Online başvur, belgelerini yükle, durumunu takip et. Her şey dijital, her şey hızlı."
-        },
-        {
-          "title": "Kurum Profilleri",
-          "description": "Okul gerçekten iyi mi? Mezunlar ne diyor? Kampüs nasıl? Her kurum için detaylı profil, gerçek öğrenci yorumları, fotoğraflar. Bilinçli karar verin."
-        },
-        {
-          "title": "Öğrenci Kaynakları ve Rehberler",
-          "description": "Hangi mesleği seçmeliyim? Burs var mı? Sınava nasıl hazırlanmalıyım? Kariyer rehberliği, burs bilgileri, sınav kaynakları... Yalnız değilsiniz."
-        },
-        {
-          "title": "Çoklu Dil Desteği",
-          "description": "Türk öğrenci de yabancı öğrenci de platformu kullanır. Türkçe, İngilizce, Arapça... Herkes kendi dilinde eğitim fırsatlarını keşfeder."
-        }
-      ],
+      "videoLink": "https://www.egitimiste.com/assets/video/tanitim_video.mp4",
       "active": true,
       "showOnHomepage": true,
-      "videoLink": "https://www.egitimiste.com/assets/video/tanitim_video.mp4",
-      "problemsTitle": "Eğitim Arama Sürecindeki Kaosu Bitirin",
-      "problemsSubtitle": "Başarılı platformların ortak özelliği: Bu sorunları çözdüler.",
+      "problemsTitle": "Eğitim arayışındaki dağınıklığı bitirin",
+      "problemsSubtitle": "İşe yarayan platformların ortak noktası: bu sorunları çözmüş olmaları.",
       "problems": [
         {
-          "title": "Öğrenciler Binlerce Seçenek Arasında Kaybolmuş",
-          "description": "Hangi okula gideceğim? Hangi kurs bana uygun? Her yerde farklı bilgi, neresi doğru bilmiyorlar. 10.000+ program tek platformda, karşılaştır, en uygununu bul."
+          "title": "Öğrenci binlerce seçenek arasında kayboluyor",
+          "description": "Hangi okul, hangi kurs? Her yerde ayrı bilgi, hangisinin doğru olduğu belli değil. 10.000'den fazla program tek platformda karşılaştırılır."
         },
         {
-          "title": "Başvuru Süreçleri Kağıt İşleriyle Boğuşuyor",
-          "description": "Öğrenci okula gidiyor, formlar dolduruyor, belgeler fotokopi çektiriyor. Zaman kaybı, stres. Online başvuru ile her şey dijital, anında, kolay."
+          "title": "Başvuru kâğıt işinde boğuluyor",
+          "description": "Öğrenci okula gidiyor, form dolduruyor, belge fotokopiliyor. Çevrimiçi başvuruda her şey dijital ve anlıktır."
         },
         {
-          "title": "Kurumlar Doğru Öğrencilere Ulaşamıyor",
-          "description": "Harika programlarınız var ama kimse bilmiyor. Reklamlar pahalı, etkili değil. Platform size doğru hedef kitleyi getirir, ilgilenen öğrenciler sizi buluyor."
+          "title": "Kurum doğru öğrenciye ulaşamıyor",
+          "description": "Program iyidir ama kimse bilmez. Reklam pahalıdır ve her zaman işlemez. Platform ilgili öğrenciyi kuruma getirir."
         },
         {
-          "title": "Öğrenciler Yanlış Kariyere Yönleniyor",
-          "description": "'Bu bölümü bitirince ne iş bulacağım?' Bilmiyorlar, sonra pişman oluyorlar. Kariyer rehberliği, mezun yorumları, gerçek verilerle doğru kararlar alıyorlar."
+          "title": "Öğrenci yanlış mesleğe yöneliyor",
+          "description": "“Bu diplomadan sonra ne iş yaparım?” bilinmez, sonra pişmanlık gelir. Kariyer rehberliği, mezun yorumları ve gerçek veri doğru karara yardım eder."
         },
         {
-          "title": "Burs ve Fırsatlar Gizli Kalıyor",
-          "description": "Binlerce burs var ama öğrenciler bilmiyor, kaçırıyor. Platform tüm bursları, fırsatları toplar. Öğrenci profiline uygun olanları önerir."
+          "title": "Burslar ve fırsatlar gizli kalıyor",
+          "description": "Binlerce burs vardır ama öğrenci bilmez, kaçırır. Platform bursları ve fırsatları toplar, profile uyanları önerir."
         },
         {
-          "title": "Başvuru Durumu Takip Edilemiyor",
-          "description": "'Başvurum ne oldu?' diye soruyorlar, cevap yok. Telefon açıyorlar, sıraya giriyorlar. Online takip ile her aşamayı görüyorlar, kimse beklemiyor."
+          "title": "Başvuru durumu izlenemiyor",
+          "description": "“Başvuruma ne oldu?” sorusu yanıtsız kalır. Çevrimiçi takipte her aşama görünür."
         }
       ]
     },
     "GenixoWorkAI": {
       "name": "Genixo Work AI",
-      "summary": "AI destekli işyeri verimliliği ve işbirliği platformu.",
-      "description": "Genixo Work AI, verimliliği artırmak, iş akışlarını kolaylaştırmak ve işbirliğini iyileştirmek için yapay zekâyı kullanan akıllı bir işyeri platformudur. Platform, ekiplerin daha verimli çalışmasına yardımcı olmak için tasarlanmış bir araç seti sunar.\n\nGelişmiş AI yetenekleriyle, Genixo Work AI rutin görevleri otomatikleştirebilir, akıllı içgörüler sağlayabilir ve daha iyi karar vermeyi kolaylaştırabilir. Platform popüler iş araçlarıyla entegre olur ve ekipler için birleşik bir çalışma alanı sağlar.\n\nTemel özellikler arasında görev otomasyonu, akıllı zamanlama, belge yönetimi, ekip işbirliği araçları ve kapsamlı analitik bulunur. Platform, organizasyonunuzla birlikte ölçeklenecek ve belirli iş akışı ihtiyaçlarınıza uyum sağlayacak şekilde tasarlanmıştır.",
+      "summary": "İş yerinde verimlilik ve iş birliği için yapay zekâ platformu.",
+      "description": "Genixo Work AI, verimliliği artırmak, iş akışlarını sadeleştirmek ve iş birliğini iyileştirmek için yapay zekâ kullanan bir iş yeri platformudur. Ekiplerin daha düzenli çalışması için bir araç seti sunar.\n\nRutin işleri otomatikleştirebilir, anlamlı içgörü verebilir ve kararı kolaylaştırabilir. Yaygın iş araçlarıyla bağlanır ve ekibe tek bir çalışma alanı sağlar.\n\nGörev otomasyonu, akıllı planlama, belge yönetimi, ekip iş birliği ve analitik temel yeteneklerdir. Platform kurumunuzla birlikte ölçeklenir ve iş akışınıza uyar.",
+      "webLink": "",
+      "features": [
+        "Yapay zekâ ile görev otomasyonu",
+        "Akıllı planlama",
+        "Belge yönetimi ve iş birliği",
+        "Ekip iletişim araçları",
+        "İş akışı iyileştirme",
+        "Analitik ve içgörü"
+      ],
       "image1": "/images/about-3.jpg",
       "image2": "/images/about-4.jpg",
-      "webLink":"",
-      "features": [
-        "AI destekli görev otomasyonu",
-        "Akıllı zamanlama ve planlama",
-        "Belge yönetimi ve işbirliği",
-        "Ekip iletişim araçları",
-        "İş akışı optimizasyonu",
-        "Gelişmiş analitik ve içgörüler"
-      ],
       "active": false,
       "showOnHomepage": false,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": ""
     },
     "GenixoAssistant": {
       "name": "Genixo Assistant",
-      "summary": "İş operasyonları ve müşteri desteği için akıllı sanal asistan.",
-      "description": "Genixo Assistant, geniş bir iş operasyonları ve müşteri desteği görevlerini yerine getirmek için tasarlanmış, yapay zekâ destekli gelişmiş bir sanal asistandır. Asistan doğal dili anlayabilir, istekleri işleyebilir ve akıllı yanıtlar sağlayabilir.\n\nPlatform, 7/24 destek sağlamak için web sitelerine, uygulamalara ve iş sistemlerine entegre edilebilir. Müşteri sorgularını yanıtlayabilir, randevu planlayabilir, bilgi sağlayabilir ve çeşitli iş süreçlerinde yardımcı olabilir.\n\nSürekli öğrenme yetenekleriyle, Genixo Assistant zamanla gelişir ve giderek daha doğru ve yardımcı yanıtlar sağlar. Platform birden fazla dili destekler ve marka sesinize ve belirli iş ihtiyaçlarınıza uyacak şekilde özelleştirilebilir.",
-      "image1": "/images/about-3.jpg",
-      "image2": "/images/about-4.jpg",
-      "webLink":"",
+      "summary": "İş operasyonları ve müşteri desteği için sanal asistan.",
+      "description": "Genixo Assistant, iş operasyonlarını ve müşteri desteğini yürütmek için tasarlanmış, yapay zekâ ile çalışan bir sanal asistandır. Doğal dili anlar, talebi işler ve yanıt üretir.\n\nWeb sitelerine, uygulamalara ve iş sistemlerine bağlanarak gün boyu destek verebilir. Müşteri sorularını karşılar, randevu planlar, bilgi verir ve süreçlere yardımcı olur.\n\nÖğrenmeye devam ettikçe yanıtları daha isabetli olur. Birden fazla dili destekler ve markanızın sesine ve işinize göre uyarlanır.",
+      "webLink": "",
       "features": [
         "Doğal dil işleme",
-        "7/24 erişilebilirlik",
+        "Gün boyu erişilebilirlik",
         "Çoklu dil desteği",
-        "Özelleştirilebilir yanıtlar",
-        "Entegrasyon yetenekleri",
-        "Sürekli öğrenme ve iyileştirme"
+        "Uyarlanabilir yanıtlar",
+        "Entegrasyon",
+        "Sürekli öğrenme ve iyileşme"
       ],
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": false,
       "showOnHomepage": false,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": ""
     },
     "TOMEREYadis": {
       "name": "TÖMER E-Yadis",
-      "summary": "Türkçe dil eğitimi ve sertifikasyonu için dijital platform.",
-      "description": "TÖMER E-Yadis, Türkçe dil eğitimi ve sertifikasyonu için tasarlanmış kapsamlı bir dijital platformdur. Platform, başlangıçtan ileri seviyeye kadar Türkçe dil kursları için eksiksiz bir öğrenme yönetim sistemi sağlar.\n\nPlatform interaktif dersler, değerlendirme araçları, ilerleme takibi ve sertifika yönetimi özelliklerine sahiptir. Öğrenciler ders materyallerine erişebilir, ödevleri tamamlayabilir, değerlendirmeler yapabilir ve platform üzerinden ilerlemelerini takip edebilir.\n\nEğitimciler kursları yönetebilir, içerik oluşturabilir, öğrenci performansını değerlendirebilir ve sertifika verebilir. Platform hem senkron hem de asenkron öğrenmeyi destekler, bu da farklı öğrenme stilleri ve programlar için esneklik sağlar.",
-      "image1": "/images/about-3.jpg",
-      "image2": "/images/about-4.jpg",
-      "webLink":"",
+      "summary": "Türkçe eğitimi ve sertifikasyonu için dijital platform.",
+      "description": "TÖMER E-Yadis, Türkçe eğitimi ve sertifikasyonu için tasarlanmış bir dijital platformdur. Başlangıçtan ileri seviyeye Türkçe kursları için bir öğrenme yönetim sistemi sunar.\n\nEtkileşimli dersler, değerlendirme araçları, ilerleme takibi ve sertifika yönetimi vardır. Öğrenci ders materyaline ulaşır, ödevini tamamlar, değerlendirmeye girer ve ilerlemesini izler.\n\nEğitimci dersi yönetir, içerik üretir, performansı değerlendirir ve sertifika verir. Platform eşzamanlı ve eşzamansız öğrenmeyi destekler.",
+      "webLink": "",
       "features": [
-        "Kapsamlı kurs yönetimi",
-        "İnteraktif öğrenme materyalleri",
-        "Değerlendirme ve sertifikasyon araçları",
+        "Kapsamlı ders yönetimi",
+        "Etkileşimli öğrenme materyalleri",
+        "Değerlendirme ve sertifika araçları",
         "İlerleme takibi ve analitik",
-        "Çok seviyeli kurs yapısı",
+        "Çok seviyeli ders yapısı",
         "Esnek öğrenme seçenekleri"
       ],
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": false,
       "showOnHomepage": false
     },
     "RetiredTravelApp": {
       "name": "Retired Travel App",
-      "summary": "Emekli gezginler için tasarlanmış, seyahat planlama ve yardım hizmetleri sunan mobil uygulama.",
-      "description": "Retired Travel App, emekli gezginlerin benzersiz ihtiyaçlarını karşılamak için tasarlanmış özel bir mobil uygulamadır. Uygulama, yaşlı gezginler için özel olarak hazırlanmış kapsamlı seyahat planlama araçları, destinasyon bilgileri ve yardım hizmetleri sunar.\n\nUygulama, tüm kullanıcılar için rahat olmasını sağlamak için kullanımı kolay arayüzler, büyük metin seçenekleri ve erişilebilirlik özelliklerine sahiptir. Yaşlı dostu destinasyonlar, seyahat ipuçları ve yardım hizmetleri hakkında bilgi sağlar.\n\nTemel özellikler arasında seyahat planlama, destinasyon rehberleri, seyahat uyarıları, acil yardım ve diğer gezginlerle bağlantı kurmak için sosyal özellikler bulunur. Uygulama, emekli bireyler için seyahat planlama ve navigasyonu daha kolay ve keyifli hale getirmek için tasarlanmıştır.",
-      "image1": "/images/about-3.jpg",
-      "image2": "/images/about-4.jpg",
-      "webLink":"",
+      "summary": "Emekli gezginler için seyahat planlama ve yardım sunan mobil uygulama.",
+      "description": "Retired Travel App, emekli gezginlerin ihtiyaçlarına göre tasarlanmış bir mobil uygulamadır. Seyahat planlama araçları, destinasyon bilgisi ve yaşlı gezginlere uygun yardım hizmetleri sunar.\n\nArayüz sade, yazı büyük ve erişilebilirlik özellikleri yerindedir. Yaşlı dostu destinasyonlar, seyahat ipuçları ve yardım hizmetleri hakkında bilgi verir.\n\nGezi planı, destinasyon rehberleri, seyahat uyarıları, acil yardım ve diğer gezginlerle bağlantı temel yeteneklerdir.",
+      "webLink": "",
       "features": [
-        "Yaşlı dostu arayüz tasarımı",
-        "Kapsamlı seyahat planlama araçları",
+        "Yaşlı dostu arayüz",
+        "Seyahat planlama araçları",
         "Destinasyon rehberleri ve öneriler",
         "Seyahat uyarıları ve güncellemeler",
-        "Acil yardım özellikleri",
-        "Gezgin bağlantıları için sosyal özellikler"
+        "Acil yardım",
+        "Gezginlerin birbirine ulaşması"
       ],
+      "image1": "/images/about-3.jpg",
+      "image2": "/images/about-4.jpg",
       "active": false,
       "showOnHomepage": false,
-      "videoLink": "https://www.youtube.com/watch?v=OdfJ9m0wYv0"
+      "videoLink": ""
     }
   }
 }
-

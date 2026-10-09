@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "title": "Case Studies: Measured Software and AI Work",
+    "description": "Genixo case studies: the problem, the constraints, what we built and what we measured, with the method and period. Published only with client permission."
+  },
+  "breadcrumb": "Case studies",
+  "hero": {
+    "eyebrow": "Case studies",
+    "title": "What we built, and what we measured",
+    "lead": "Every case study states the problem, the constraints, the approach, including what we chose not to do, and the result with its measurement method and period."
+  },
+  "answer": {
+    "label": "In short",
+    "text": "Genixo publishes case studies only with written client permission. Each one gives the baseline, the new value, the period and the sample behind every number. Where something wasn't measured, we say so instead of estimating."
+  },
+  "sections": [
+    {
+      "kind": "cases",
+      "label": "Case studies",
+      "title": "Published case studies"
+    },
+    {
+      "kind": "list",
+      "variant": "checks",
+      "label": "How we write them",
+      "title": "Rules every case study follows",
+      "items": [
+        "Every metric comes with its baseline, its new value, the period and the sample size.",
+        "No rounded multipliers such as “10x faster”.",
+        "Benefits that weren't measured are labelled as client feedback.",
+        "Client names appear only with written permission; otherwise we describe the sector, size and region.",
+        "Screenshots use synthetic data."
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Want to be our next case study?",
+    "lead": "Start with one process and a number. We'll measure it with you before and after.",
+    "primary": { "label": "Book a first call", "href": "/contact" },
+    "secondary": { "label": "How we work", "href": "/how-we-work" }
+  }
+}

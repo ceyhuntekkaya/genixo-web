@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Custom Software and ERP Integration",
+    "description": "Genixo builds internal systems, ERP and e-invoice integrations, field apps and reporting around how your company works, starting with a discovery sprint."
+  },
+  "breadcrumb": "Custom software",
+  "hero": {
+    "eyebrow": "Custom software",
+    "title": "Software that fits how you work and talks to the systems you have",
+    "lead": "When orders live in WhatsApp, prices in Excel and invoices in the ERP, the problem is rarely your team. We connect the pieces, or build the missing one.",
+    "primary": { "label": "Book a discovery call", "href": "/contact" },
+    "secondary": { "label": "See pricing and timelines", "href": "/pricing" }
+  },
+  "answer": {
+    "label": "In short",
+    "text": "Genixo builds custom internal systems and integrations for SMEs and organizations: ERP, CRM and e-invoice connections, field apps, reporting from a single source and step-by-step modernization of existing systems. Work starts with a discovery sprint that produces the scope, the architecture and a fixed quote."
+  },
+  "sections": [
+    {
+      "kind": "quotes",
+      "label": "Sound familiar?",
+      "title": "Signs that your tools no longer fit",
+      "items": [
+        "The same order is entered three times: in the sales sheet, the ERP and the warehouse list.",
+        "The monthly report takes days because the numbers come from four places that don't agree.",
+        "Our field team works on paper or WhatsApp because the app doesn't work without signal.",
+        "The old system runs the business, but nobody dares to touch it.",
+        "We bought a package, then paid to bend our processes around it."
+      ]
+    },
+    {
+      "kind": "points",
+      "label": "What we build",
+      "title": "Typical custom software projects",
+      "items": [
+        {
+          "title": "Internal systems",
+          "text": "Order, stock, dispatch, service or approval workflows built around the way your teams already work."
+        },
+        {
+          "title": "ERP, CRM and e-invoice integrations",
+          "text": "Your existing systems exchange data automatically, so nobody copies numbers from one screen to another."
+        },
+        {
+          "title": "Field apps for weak connections",
+          "text": "Mobile apps that keep working offline and sync when the connection returns."
+        },
+        {
+          "title": "Reporting from one source",
+          "text": "Dashboards and reports that read from one consistent data source, so management sees one version of the numbers."
+        },
+        {
+          "title": "Modernization without a big-bang switch",
+          "text": "Old systems replaced piece by piece, with the old and new running side by side until the switch is safe."
+        },
+        {
+          "title": "Cost review before cost promises",
+          "text": "We look at where time and licence money actually go before suggesting what to build. We don't promise savings we haven't measured."
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "label": "How it works",
+      "title": "Discovery, build, launch, improve",
+      "items": [
+        {
+          "title": "Discovery sprint",
+          "text": "We map the process and the systems involved. Output: scope, architecture and a fixed quote.",
+          "meta": "[[TODO-024]]"
+        },
+        {
+          "title": "Build in increments",
+          "text": "You see working software every week and adjust priorities with us as it takes shape.",
+          "meta": "[[TODO-032]]"
+        },
+        {
+          "title": "Launch",
+          "text": "Data migration, user training and a switch-over planned with the people who use the system."
+        },
+        {
+          "title": "Improve",
+          "text": "After go-live we fix, extend and measure, as a separate phase or through NGSD.",
+          "meta": "[[TODO-033]]"
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "label": "Why it matters for AI",
+      "title": "Clean data from today's system is what AI needs tomorrow",
+      "paragraphs": [
+        "AI automation works on structured, reliable data. When orders, deliveries and invoices are captured in one system with consistent fields, later steps such as order matching or demand forecasting become possible.",
+        "That is why many AI projects start as software projects. See [AI process automation](/ai-automation) for what comes next."
+      ]
+    },
+    {
+      "kind": "list",
+      "variant": "checks",
+      "label": "What stays in your control",
+      "title": "Ownership and continuity",
+      "items": [
+        "Source code, documentation and infrastructure access are handed over to you. [[TODO-028]]",
+        "We use widely known technologies, such as Spring Boot, Next.js, PostgreSQL and Docker, so another team can maintain the system later.",
+        "If you decide to move the work in-house, we hand over the code and what we know about it. [[TODO-029]]"
+      ]
+    },
+    {
+      "kind": "list",
+      "variant": "limits",
+      "label": "What this is not",
+      "title": "Limits",
+      "items": [
+        "We don't replace a working package just to build something new. If configuration solves the problem, we say so.",
+        "We don't quote a fixed price before the discovery sprint has defined the scope.",
+        "We don't take on more projects than our team can staff properly."
+      ]
+    },
+    {
+      "kind": "cases",
+      "service": "custom-software",
+      "label": "Proof",
+      "title": "Software projects we can show"
+    },
+    {
+      "kind": "faq",
+      "label": "FAQ",
+      "title": "Questions about custom software",
+      "items": [
+        {
+          "q": "Is custom software more expensive than a package?",
+          "a": "At the start, usually yes. The comparison that matters includes licence fees, the cost of working around a poor fit and the manual work between systems. The discovery sprint gives you a fixed quote so you can compare."
+        },
+        {
+          "q": "Can you integrate with our ERP?",
+          "a": "In most cases, yes, through the ERP's API, database views or file exchange. During discovery we confirm which integration methods your ERP version supports."
+        },
+        {
+          "q": "What is a discovery sprint?",
+          "a": "A short study of your process and systems. It ends with a written scope, an architecture and a fixed quote. Duration and fee: [[TODO-024]]."
+        },
+        {
+          "q": "Who owns the code?",
+          "a": "You do. The source code and documentation are handed over to you. Contract details: [[TODO-028]]."
+        },
+        {
+          "q": "Can you take over an existing system built by someone else?",
+          "a": "Often, yes. We start by reviewing the code, the infrastructure and the documentation, then tell you what can be kept and what is risky."
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Tell us which systems don't talk to each other.",
+    "lead": "In the first call we listen to how the work flows today and suggest whether a discovery sprint makes sense.",
+    "primary": { "label": "Book a first call", "href": "/contact" },
+    "secondary": { "label": "How we work", "href": "/how-we-work" }
+  }
+}

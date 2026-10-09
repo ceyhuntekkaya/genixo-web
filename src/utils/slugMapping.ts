@@ -1,18 +1,6 @@
 /**
  * URL slug'larını JSON key'lerine map eden utility fonksiyonlar
- * Solutions artık array olduğu için slug ile doğrudan service.slug kullanılır.
  */
-
-// Solution slug'ları (tüm dillerde aynı - sitemap vb. için)
-export const solutionSlugs = [
-    'digital-transformation',
-    'business-process-digitalization',
-    'ai-integration',
-    'smart-reporting-analytics',
-    'system-improvement-modernization',
-    'cost-optimization',
-    'product-project-development',
-] as const;
 
 // Product slug'ları -> JSON key mapping
 export const productSlugToKey: Record<string, keyof import('@/i18n/types').Dictionary['products']> = {

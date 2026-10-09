@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "title": "AI Process Automation with Human Approval",
+    "description": "Genixo adds AI to one step of your process, such as reading documents or drafting quotes, while your team approves. Measured first, piloted on your data."
+  },
+  "breadcrumb": "AI process automation",
+  "hero": {
+    "eyebrow": "AI process automation",
+    "title": "AI that does the repetitive step. Your team makes the call.",
+    "lead": "We pick one process, measure it, and add AI where it reads, drafts or sorts. Every result that touches money, customers or staff goes to a person for approval.",
+    "primary": { "label": "Start with an AI readiness assessment", "href": "/ai-readiness-assessment" },
+    "secondary": { "label": "See the scenarios", "href": "/ai-automation#scenarios" }
+  },
+  "answer": {
+    "label": "In short",
+    "text": "AI process automation means adding AI to one step of an existing process, such as reading an invoice, drafting a quote or matching an order, while a person approves the result. Genixo measures the process first, runs a fixed-scope pilot on your own data and connects it to your systems only after the pilot meets a target agreed in writing."
+  },
+  "sections": [
+    {
+      "kind": "quotes",
+      "label": "Sound familiar?",
+      "title": "Where companies usually feel it first",
+      "items": [
+        "Invoices and delivery notes are typed into the ERP by hand, and errors surface at month end.",
+        "Every quote is rebuilt from old quotes, and only one senior salesperson knows the discounts.",
+        "Accounting compares orders, delivery notes and invoices line by line.",
+        "We listen to a handful of calls and hope they represent the rest.",
+        "New staff keep asking the same three people where things are."
+      ]
+    },
+    {
+      "kind": "scenarios",
+      "id": "scenarios",
+      "label": "Scenarios",
+      "title": "Six processes where AI does reliable work today",
+      "lead": "Each scenario shows the process today, what changes with AI and what we measure. We don't publish expected savings: a pilot measures them on your data."
+    },
+    {
+      "kind": "table",
+      "label": "What is realistic",
+      "title": "What AI can do reliably today, and what we won't promise",
+      "lead": "Our view of the technology as we use it in projects. Reliable means ready for production with human approval, not free of errors.",
+      "columns": ["Task", "Status", "Condition"],
+      "rows": [
+        [
+          "Document classification and field extraction (OCR + language model)",
+          "Reliable with approval",
+          "Fields below a confidence threshold are sent to a person."
+        ],
+        [
+          "Answering questions from your documents, with sources (RAG)",
+          "Reliable with approval",
+          "Quality drops on scanned PDFs and complex tables. Outdated or conflicting documents cause wrong answers."
+        ],
+        [
+          "Turkish speech-to-text, call summaries and tagging",
+          "Reliable for summaries",
+          "Word-for-word transcripts still need a human check."
+        ],
+        [
+          "Forecasting, anomaly detection and scoring",
+          "Reliable, often without an LLM",
+          "Classic machine learning is often cheaper and easier to explain."
+        ],
+        [
+          "Free-text generation in Turkish with open models",
+          "Conditional",
+          "Needs larger models. We choose the model with a test set built from your own data."
+        ],
+        [
+          "Multi-step “autonomous agents” working without approval",
+          "Not promised",
+          "Not reliable enough to run business processes unsupervised."
+        ],
+        [
+          "Fully automated hiring or credit decisions",
+          "Not promised",
+          "These decisions stay with people."
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Gartner, 25 June 2025: Over 40% of agentic AI projects will be canceled by end of 2027",
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027"
+        }
+      ]
+    },
+    {
+      "kind": "steps",
+      "label": "The loop",
+      "title": "AI suggests, a person approves, corrections make it better",
+      "items": [
+        {
+          "title": "AI suggests",
+          "text": "The system reads the input and prepares a draft: extracted fields, a quote, a match, a summary."
+        },
+        {
+          "title": "A person approves",
+          "text": "Your team sees the draft with what the system was unsure about, then approves or corrects it."
+        },
+        {
+          "title": "Corrections are kept",
+          "text": "Every correction goes into the test set, so the next model or prompt change is checked against real mistakes."
+        },
+        {
+          "title": "We measure",
+          "text": "Time per item, correction rate and exceptions are tracked against the baseline written before the pilot."
+        }
+      ]
+    },
+    {
+      "kind": "points",
+      "label": "Catching mistakes",
+      "title": "How we catch AI mistakes before your customers do",
+      "items": [
+        {
+          "title": "A test set from your past work",
+          "text": "Before the pilot we collect real examples, such as last quarter's invoices or quotes, with the correct answers. Every change is scored against them."
+        },
+        {
+          "title": "Confidence thresholds",
+          "text": "When the system is unsure about a field or an answer, it says so and routes the item to a person instead of guessing."
+        },
+        {
+          "title": "Sampled checks after launch",
+          "text": "A share of approved items is reviewed again, so quality is measured, not assumed."
+        },
+        {
+          "title": "Numbers are calculated by code",
+          "text": "Prices, totals, discounts and taxes come from rules in code or from your ERP. The language model never does the arithmetic."
+        }
+      ]
+    },
+    {
+      "kind": "points",
+      "layout": "grid",
+      "label": "Where your data lives",
+      "title": "You choose where the data and the model run",
+      "items": [
+        {
+          "title": "On your servers",
+          "text": "An open model runs inside your network. Data never leaves the company. This needs suitable hardware."
+        },
+        {
+          "title": "In your cloud account",
+          "text": "The model runs in a cloud account you own, in a region you choose."
+        },
+        {
+          "title": "Through an API provider",
+          "text": "Fastest to start. Sending personal data to a provider abroad counts as a cross-border transfer under KVKK Article 9."
+        }
+      ],
+      "links": [{ "label": "Data security and KVKK", "href": "/data-security" }]
+    },
+    {
+      "kind": "list",
+      "variant": "limits",
+      "label": "What this is not",
+      "title": "Limits we state up front",
+      "items": [
+        "We don't start an AI project without a success criterion written down first.",
+        "We don't automate decisions about money, customers or staff without a person approving them.",
+        "We don't promise error-free results. We promise to measure the error rate and show it to you.",
+        "We don't build systems that automatically reject job applicants.",
+        "If a simpler rule or classic software solves the problem, we recommend that instead of AI."
+      ],
+      "links": [{ "label": "What we don't do, and why", "href": "/what-we-dont-do" }]
+    },
+    {
+      "kind": "cases",
+      "service": "ai-automation",
+      "label": "Proof",
+      "title": "AI projects we can show"
+    },
+    {
+      "kind": "faq",
+      "label": "FAQ",
+      "title": "Questions about AI process automation",
+      "items": [
+        {
+          "q": "What is AI process automation?",
+          "a": "It is adding AI to one step of an existing business process, such as extracting fields from documents, drafting a quote or matching records, while a person approves the result. The rest of the process and your existing systems stay in place."
+        },
+        {
+          "q": "How long does an AI pilot take?",
+          "a": "A pilot covers one process and one clear question, measured against a baseline. The typical duration is [[TODO-023]]. The [AI readiness assessment](/ai-readiness-assessment) comes first and tells you whether a pilot makes sense."
+        },
+        {
+          "q": "Will AI replace my staff?",
+          "a": "That is not how we design these systems. AI takes over the repetitive step and your team keeps the decisions and the exceptions. The aim is to handle growth without adding the same amount of manual work."
+        },
+        {
+          "q": "What happens when the AI is wrong?",
+          "a": "Uncertain items go to a person, corrections are recorded, and the error rate is measured every week during the pilot. Calculations such as prices and totals are done by code, not by the model."
+        },
+        {
+          "q": "Does our data leave the company?",
+          "a": "Only if you choose that. The model can run on your servers, in your own cloud account or through an API provider. Each option has different KVKK consequences, explained on our [data security page](/data-security)."
+        },
+        {
+          "q": "How much does it cost?",
+          "a": "Cost depends on the process, data preparation and integrations. Our [pricing page](/pricing) lists the assessment and pilot offers and the costs that are often forgotten, such as test set preparation and maintenance."
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Pick one process. We'll tell you if AI belongs there.",
+    "lead": "The AI readiness assessment looks at your processes and marks each one as a fit, a conditional fit or not a fit, with the reasons.",
+    "primary": { "label": "Start the assessment", "href": "/ai-readiness-assessment" },
+    "secondary": { "label": "Book a first call", "href": "/contact" }
+  }
+}

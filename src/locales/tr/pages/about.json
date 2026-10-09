@@ -1,67 +1,108 @@
 {
-  "about": {
-    "WhoWeAre": "Genixo",
-    "slogan": "Yazılım Çözüm Ortağı & İnovasyon Şirketi",
-    "description": "KOBİ'lerin ve kurumların süreçlerini inceler, yazılımı ve yapay zekâ entegrasyonunu ekiple birlikte devreye alırız. Çalışmalarımızda Spring Boot, Next.js, PostgreSQL, Docker ve Ollama kullanırız. Bilkent Cyberpark'ta Ar-Ge firmasıyız; Türkiye Bilişim Derneği ve ALTE üyesiyiz.",
-    "images": {
-      "mainAlt": "Genixo Ekibi ve Teknoloji Çözümleri",
-      "dynamismAlt": "Hızlı Teknoloji Gelişimi ve İnovasyon",
-      "passionAlt": "Tutkulu Ekip Çalışması ve Bağlılık",
-      "professionalismAlt": "Profesyonel İş Anlayışı ve Kalite"
+  "meta": {
+    "title": "Genixo Hakkında: Ankara'da yazılım ve yapay zekâ ekibi",
+    "description": "Genixo, Ankara Bilkent Cyberpark'ta bir yazılım ve yapay zekâ mühendislik şirketidir. KOBİ'lerin ve kurumların dış yazılım departmanı olarak çalışır."
+  },
+  "breadcrumb": "Hakkımızda",
+  "hero": {
+    "eyebrow": "Genixo hakkında",
+    "title": "Kendi departmanınız gibi çalışan bir yazılım ve yapay zekâ ekibi",
+    "lead": "Ankara'da, Bilkent Cyberpark'ta bir mühendislik şirketiyiz. Yazılım departmanı olmayan ya da elindeki departmandan fazlasına ihtiyaç duyan şirketler için yazılım ve yapay zekâ sistemleri kurarız.",
+    "primary": { "label": "İlk görüşmeyi planlayın", "href": "/contact" },
+    "secondary": { "label": "Nasıl çalışıyoruz", "href": "/how-we-work" }
+  },
+  "answer": {
+    "label": "Kısaca",
+    "text": "Genixo Bilişim ve Teknoloji A.Ş. (Genixo), Ankara Bilkent Cyberpark merkezli bir yazılım ve yapay zekâ mühendislik şirketidir. KOBİ'lere ve kurumlara dış yazılım departmanı olarak çalışır: insan onaylı yapay zekâ süreç otomasyonu, özel yazılım, ürün geliştirme ve sürekli yazılım ekibi modeli NGSD."
+  },
+  "sections": [
+    {
+      "kind": "prose",
+      "label": "Hikâyemiz",
+      "title": "Genixo neden var",
+      "paragraphs": ["[[TODO-012]]"]
     },
-    "values": {
-      "dynamism": {
-        "title": "Dinamizm",
-        "content": "Bilişim, dünyada izlenebilir en büyük pazar payına sahip sektör ve ilginç olan bu büyüklüğe ulaşması uzun sürmedi. Peki bu nasıl oldu? Teknolojiyle ve dolayısıyla yenilikle. Gelişim ve değişim o kadar hızlı ki takip etmek zor olabiliyor. Yeni dinamiklere ayak uydurmak ve proaktif davranmak giderek zorlaşıyor. Genixo olarak buradaki misyonumuz belli, o da dinamik kalmak. Genixo'nun bu konudaki vizyonu, bilişim dünyası ne kadar hızlı değişirse değişsin ve ihtiyaçlar ne kadar farklı olursa olsun, daima güncel kalmak ve günün ihtiyaçlarına cevap vermektir. Sürekli proaktif bir tutum benimseyerek geleceği hesaplayan ve öngörülemeyen sorunlar karşısında uygun tepkiyi verebilen bir kurumsal anlayışa sahibiz. Böylece her zaman dinamik kalabiliriz!"
-      },
-      "passion": {
-        "title": "Tutku ve Bağlılık",
-        "content": "Burada tutku olmadan bağlılık olmaz. Bağlılık olmadan, bir tutku asla potansiyeline yaklaşamaz ve daha az başarılı olmaya mahkumdur. Bunun bilincinde olan Genixo, bir şirketten daha fazlası, kişisel gelişimin sınırı olmadığının bilincinde, kendini sürekli geliştirmeyi hedefleyen, hedeflerine tutkuyla bağlı ve bu hedeflere ulaşmaya kendini adamış insanlardan oluşan bir topluluktur. hedefler. Tutku ve özveri üzerine kurulu bu toplum bilinci doğrultusunda kendimizi ve birlikte çalıştığımız herkesi potansiyellerini geliştirmeye, daha büyük düşünmeye, daha özverili çalışmaya ve daha başarılı olmaya davet ediyoruz!"
-      },
-      "professionalism": {
-        "title": "Profesyonellik",
-        "content": "Bir işte yetenekli veya deneyimli olduğunuzda başarıya ulaşılabilir. Ancak elde edilen başarının kalıcı olması için profesyonel bir yaklaşım şarttır, aksi takdirde elde ettiğiniz başarının ömrünü mutlaka kısaltırsınız. Genixo anlayışı, yetenekli ve deneyimli kişilerin profesyonel olarak çalıştığı bir marka kültürüne sahip olarak hem bireysel hem de kurumsal bazda her zaman kalıcılığı ve sürdürülebilir başarıyı hedeflemektedir. Profesyonel iş bilincimizle başarıyı şansa bırakmıyoruz."
-      }
-    },
-    "authorName": "Ceyhun Tekkaya",
-    "authorTitle": "Kurucu ve CEO",
-    "callToAsk": "Sorularınız için arayın",
-    "phoneNumber": "+90 312 265 04 56",
-    "whyDigitalTransformation": {
-      "subtitle": "Dijital Dönüşüm Neden Artık Bir Seçenek Değil, Zorunluluk",
-      "title": "Başarılı işletmelerin ortak özelliği: Bu sorunları çözdüler.",
-      "problems": [
+    {
+      "kind": "points",
+      "label": "Bizi ayıranlar",
+      "title": "Dayanabileceğimiz dört şey",
+      "items": [
         {
-          "title": "Rakipler Hızlanıyor, Siz Geride Kalıyorsunuz",
-          "problem": "Müşteriniz size sipariş veriyor, '2-3 güne fiyat teklifi gönderirim' diyorsunuz. Rakibiniz 10 dakikada gönderiyor. Müşteri kimi seçer?",
-          "solution": "Dijital sistemler size hız kazandırır. Daha hızlı teklif verir, daha hızlı karar alır, müşteriye daha çabuk yanıt verirsiniz."
+          "title": "Kendi sunucularınızda çalışabilen yapay zekâ",
+          "text": "Verinin şirketten çıkmaması gerektiğinde açık dil modellerini müşterinin ağı içinde kurarız. [[TODO-019]]"
         },
         {
-          "title": "Bilgi Var Ama Göremiyorsunuz",
-          "problem": "'Bu ay ne kadar kar ettik?' diye soruyorsunuz. 3 gün sonra Excel ile yanıt geliyor. Önemli bir karar alacaksınız ama elinizde veri yok.",
-          "solution": "Gerçek zamanlı raporlama ve dashboard'larla verilerinizi anlık görürsünüz. Kararları tahmine değil, veriye dayandırırsınız."
+          "title": "Türkçe ses ve dil işi",
+          "text": "Konuşmadan metne, metinden sese ve Türkçe metin işleme; öğretim materyalinden soru üretimi dahil. [[TODO-020]]"
         },
         {
-          "title": "Ekibiniz Gereksiz İşlerle Boğuşuyor",
-          "problem": "Satış ekibi günde 2 saat rapor hazırlıyor. Muhasebe elle fatura giriyor. Depo sürekli stok sayıyor. Herkes çalışıyor ama gerçek işe zaman kalmıyor.",
-          "solution": "Otomasyonla tekrarlayan işleri sistemler halleder. Ekibiniz asıl değer yaratan işlere odaklanır: müşteriye hizmet, yeni fırsatlar, büyüme."
+          "title": "Ar-Ge disiplini",
+          "text": "Bilkent Cyberpark'ta bir Ar-Ge şirketiyiz. İddia etmeden önce dener, ölçtüğümüzü yazarız. [[TODO-016]]"
         },
         {
-          "title": "Büyüyemiyorsunuz Çünkü Sistem Ölçeklenmiyor",
-          "problem": "İş büyüyor ama her yeni müşteri, her yeni sipariş daha fazla kaos yaratıyor. Daha fazla Excel, daha fazla WhatsApp grubu, daha fazla karmaşa.",
-          "solution": "Dijital sistemler sizinle birlikte büyür. 10 müşteri yönetmek ile 100 müşteri yönetmek aynı enerjiyi alır. Ölçeklenebilir altyapı kuruyoruz."
-        },
-        {
-          "title": "Maliyetler Kontrolsüz Artıyor",
-          "problem": "Çalışan sayısı artıyor ama verim artmıyor. Her yeni iş için yeni insan alıyorsunuz. Maliyetler şişiyor ama kâr marjları düşüyor.",
-          "solution": "Dijital dönüşümle aynı işi daha az kaynakla yaparsınız. Hem maliyet düşer, hem hata azalır, hem de iş daha hızlı biter."
-        },
-        {
-          "title": "Müşteri Beklentileri Değişti",
-          "problem": "10 yıl önce müşteri 3 gün beklerdi. Bugün anında yanıt, anında teslimat, 7/24 erişim bekliyor. Dijital olmayan şirketler bu beklentiyi karşılayamıyor.",
-          "solution": "Modern müşteri deneyimi sunuyoruz. Otomatik yanıtlar, online takip, self-servis sistemler ile müşterileriniz beklemiyor."
+          "title": "Kıdem ve süreklilik",
+          "text": "Projenizin kapsamını çıkaran kişiler, onu kuran kişilerdir. [[TODO-015]]"
         }
       ]
+    },
+    {
+      "kind": "team",
+      "id": "team",
+      "label": "Ekip",
+      "title": "Birlikte çalışacağınız kişiler"
+    },
+    {
+      "kind": "products",
+      "label": "Ürünlerimiz",
+      "title": "Kurduğumuz ve hâlâ işlettiğimiz ürünler",
+      "lead": "Bu ürünler bugün yayında. [[TODO-073]]",
+      "visit": "Siteyi ziyaret edin",
+      "links": [{ "label": "Tüm ürünler", "href": "/products" }]
+    },
+    {
+      "kind": "points",
+      "layout": "grid",
+      "label": "Üyelikler",
+      "title": "Bizi nerede bulabilirsiniz",
+      "items": [
+        {
+          "title": "Bilkent Cyberpark",
+          "text": "Ofisimiz Ankara Bilkent Cyberpark, Cyberplaza H Blok'tadır. Burada Ar-Ge şirketi olarak çalışırız."
+        },
+        {
+          "title": "Türkiye Bilişim Derneği (TBD)",
+          "text": "Türkiye Bilişim Derneği üyesiyiz."
+        },
+        {
+          "title": "ALTE",
+          "text": "Avrupa Dil Sınavcıları Birliği (ALTE) üyesiyiz."
+        }
+      ]
+    },
+    {
+      "kind": "credentials",
+      "label": "Araştırma ve ağlar",
+      "title": "Ar-Ge projeleri ve ağlar"
+    },
+    {
+      "kind": "testimonials",
+      "label": "Müşteriler",
+      "title": "Müşteriler ne diyor"
+    },
+    {
+      "kind": "prose",
+      "label": "Nereye gidiyoruz",
+      "title": "Yapay zekâ bir mühendislik aracıdır. Yeri, ölçülebilir iş yaptığı yerdir.",
+      "paragraphs": [
+        "Yapay zekâ artık işin kalıcı bir parçası. Onu bir moda ya da kestirme yol olarak görmüyoruz. Doğru yere konduğunda, bir ekibin aynı sürede daha az hatayla daha çok iş çıkarmasını sağlayan bir araçtır.",
+        "O yeri bulmak için önce işi anlarız, kararların kontrolünü insanlarda tutarız ve sistem canlıya çıktıktan sonra da ölçmeye devam ederiz. Amacımız, adım adım ilerlemek ve giderken ölçmek isteyen şirketlerin aradığı ekip olmaktır."
+      ]
     }
+  ],
+  "cta": {
+    "title": "Ekibinizi yavaşlatan şeyi anlatın.",
+    "lead": "İlk görüşmede dinler, işin bugün nasıl yürüdüğünü sorar ve yardımcı olup olamayacağımızı açıkça söyleriz.",
+    "primary": { "label": "İlk görüşmeyi planlayın", "href": "/contact" },
+    "secondary": { "label": "Hizmetlerimizi görün", "href": "/services" }
   }
 }

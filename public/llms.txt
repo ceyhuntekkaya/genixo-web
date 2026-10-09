@@ -1,35 +1,40 @@
 # Genixo
 
-> Genixo Bilişim ve Teknoloji A.Ş. (Genixo) is a software and R&D company based in Bilkent Cyberpark, Ankara, Türkiye. It provides digital transformation consulting, business process digitalization and AI integration (RAG chatbots, on-premise large language models, speech-to-text and text-to-speech) for SMEs and organizations.
+> Genixo Bilişim ve Teknoloji A.Ş. (Genixo) is a software and AI engineering company based in Bilkent Cyberpark, Ankara, Türkiye. It works as an external software department for SMEs and organizations, covering AI process automation with human approval, custom software, product development and NGSD, an ongoing software team model.
 
-Genixo Bilişim ve Teknoloji A.Ş. — Bilkent Cyberpark, Cyberplaza H Blok No:8, Çankaya, Ankara, Türkiye. Tel: +90 312 265 04 56. E-posta: hello@genixo.ai
+Genixo Bilişim ve Teknoloji A.Ş. — Bilkent Cyberpark, Cyberplaza H Blok No:8, Çankaya, Ankara, Türkiye. Tel: +90 312 265 04 56. Email: hello@genixo.ai
 
-## Hizmetler (TR)
-- [Dijital Dönüşüm Danışmanlığı](https://genixo.ai/tr/solutions/digital-transformation): Süreç yerinde incelenir, yol haritası çıkarılır.
-- [İş Süreçleri Dijitalleştirme](https://genixo.ai/tr/solutions/business-process-digitalization): Excel ve WhatsApp'ta kopan kayıt tek sisteme alınır.
-- [Yapay Zekâ Entegrasyonu](https://genixo.ai/tr/solutions/ai-integration): RAG chatbot, kurum içi büyük dil modeli, konuşma tanıma ve seslendirme.
-- [Akıllı Raporlama ve Veri Analizi](https://genixo.ai/tr/solutions/smart-reporting-analytics): Tek kaynaktan gelen görünüm; kararı kullanıcı verir.
-- [Sistem İyileştirme ve Modernizasyon](https://genixo.ai/tr/solutions/system-improvement-modernization): Çalışan sistem durdurulmadan iyileştirilir.
-- [Maliyet Optimizasyonu](https://genixo.ai/tr/solutions/cost-optimization): Lisans, sunucu ve elle yapılan iş ölçülür; yüzde vaadi ölçümden önce verilmez.
-- [Ürün ve Proje Geliştirme](https://genixo.ai/tr/solutions/product-project-development): Hazır paket uymuyorsa küçük bir sürümle denenir.
+Working principle: AI suggests, your team approves. Every AI step that changes a record, a price or a customer message is reviewed by a person before it takes effect.
 
-## Services (EN)
-- [Digital Transformation Consulting](https://genixo.ai/en/solutions/digital-transformation): The work is studied on site and a roadmap is written.
-- [Business Process Digitalization](https://genixo.ai/en/solutions/business-process-digitalization): Orders and quotes move from files and chats into one record.
-- [AI Integration](https://genixo.ai/en/solutions/ai-integration): RAG chatbots, on-premise language models, speech-to-text and text-to-speech.
-- [Smart Reporting and Analytics](https://genixo.ai/en/solutions/smart-reporting-analytics): One source of record; the decision stays with the operator.
-- [System Improvement](https://genixo.ai/en/solutions/system-improvement-modernization): The live system stays up while the stuck flow is fixed.
-- [Cost Optimization](https://genixo.ai/en/solutions/cost-optimization): Licenses and manual hours are measured before any savings claim.
-- [Product and Project Development](https://genixo.ai/en/solutions/product-project-development): When a package does not fit, a small first version is tried.
+## Services
+- [Services overview](https://genixo.ai/en/services): Four ways to work with Genixo and how to choose between them.
+- [AI process automation with human approval](https://genixo.ai/en/ai-automation): Document processing, quote drafting, matching, call analysis and knowledge assistants, with a person approving each output.
+- [Custom software and ERP integration](https://genixo.ai/en/custom-software): Software built around an existing process and connected to the systems already in use.
+- [Product studio](https://genixo.ai/en/product-studio): From idea to a live web or mobile app, starting with a small first version.
+- [NGSD: external software department](https://genixo.ai/en/ngsd): An ongoing software and AI team that works on your roadmap every month.
 
-## Ürünler
-- [ILC](https://genixo.ai/tr/products/ilc)
-- [StudyScore AI](https://genixo.ai/tr/products/study-score-ai)
-- [Eğitim İste](https://genixo.ai/tr/products/egitimiste)
+## AI automation scenarios
+- [Invoice and document processing](https://genixo.ai/en/ai-automation/document-processing)
+- [Quote drafting approved by the salesperson](https://genixo.ai/en/ai-automation/quote-drafting)
+- [Order, delivery note and invoice matching](https://genixo.ai/en/ai-automation/order-matching)
+- [Call recording analysis in Turkish](https://genixo.ai/en/ai-automation/call-analysis)
+- [Company knowledge assistant with sources](https://genixo.ai/en/ai-automation/knowledge-assistant)
+- [Question generation approved by teachers](https://genixo.ai/en/ai-automation/question-generation)
 
-## Şirket
-- [Hakkımızda](https://genixo.ai/tr/about)
+## How we work
+- [How we work](https://genixo.ai/en/how-we-work): Measure, pilot, launch, improve.
+- [What we don't do](https://genixo.ai/en/what-we-dont-do): Requests we decline and the reasons.
+- [Pricing and timelines](https://genixo.ai/en/pricing): What drives cost, how engagements are structured and how payback is estimated.
+- [Data security, KVKK and on-prem AI](https://genixo.ai/en/data-security): Where data is processed and the options for keeping it in-house.
+- [AI readiness assessment](https://genixo.ai/en/ai-readiness-assessment): A short assessment that finds which process is worth automating first.
+
+## Products
+- [Products](https://genixo.ai/en/products)
+- [ILC](https://genixo.ai/en/products/ilc)
+- [StudyScore AI](https://genixo.ai/en/products/study-score-ai)
+- [Eğitim İste](https://genixo.ai/en/products/egitimiste)
+
+## Company
 - [About](https://genixo.ai/en/about)
-- [İletişim](https://genixo.ai/tr/contact)
 - [Contact](https://genixo.ai/en/contact)
-- [Blog](https://genixo.ai/tr/blog)
+- [Blog](https://genixo.ai/en/blog)

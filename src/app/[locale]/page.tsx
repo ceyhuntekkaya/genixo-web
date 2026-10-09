@@ -1,51 +1,40 @@
 import HomeLanding from "@/app/component/home/home-landing";
-import { Locale } from "@/i18n/config";
-import { getDictionary } from "@/i18n/getDictionary";
-import { buildMetadata } from "@/utils/seo";
 import JsonLd from "@/app/component/json-ld";
-import { SITE_URL, shortDefinitionFor } from "@/content/entity";
+import { getDictionary } from "@/i18n/getDictionary";
+import { getPage } from "@/i18n/getPage";
+import { SITE_URL } from "@/content/entity";
 import { webPage } from "@/utils/schema";
-import { getAllPosts } from "@/lib/content";
+import { buildMetadata } from "@/utils/seo";
+import { toLocale, type LocaleParams } from "./standard-page";
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: Locale }>;
-}) {
-  const { locale } = await params;
-  const dict = await getDictionary(locale);
-  const home = dict.seo?.pages?.home;
+export async function generateMetadata({ params }: LocaleParams) {
+  const locale = toLocale((await params).locale);
+  const [{ copy, translated }, tr] = await Promise.all([getPage(locale, "home"), getPage("tr", "home")]);
   return buildMetadata({
     locale,
     path: "",
-    absoluteTitle: home?.title || "Genixo",
-    description: home?.description || shortDefinitionFor(locale),
+    absoluteTitle: copy.meta.title,
+    description: copy.meta.description,
+    noindex: !translated,
+    translations: tr.translated ? undefined : { en: "" },
   });
 }
 
-export default async function Home({
-  params,
-}: {
-  params: Promise<{ locale: Locale }>;
-}) {
-  const { locale } = await params;
-  const dict = await getDictionary(locale);
-  const url = `${SITE_URL}/${locale}`;
-  const title = dict.seo?.pages?.home?.title || "Genixo";
-  const description = dict.seo?.pages?.home?.description || shortDefinitionFor(locale);
-  const posts = getAllPosts(locale, "post").slice(0, 2);
+export default async function Home({ params }: LocaleParams) {
+  const locale = toLocale((await params).locale);
+  const [dict, { copy }] = await Promise.all([getDictionary(locale), getPage(locale, "home")]);
 
   return (
     <>
       <JsonLd
         data={webPage({
-          url,
-          name: title,
-          description,
+          url: `${SITE_URL}/${locale}`,
+          name: copy.meta.title,
+          description: copy.meta.description,
           locale,
         })}
       />
-      <HomeLanding dict={dict} locale={locale} posts={posts} />
+      <HomeLanding copy={copy} dict={dict} locale={locale} />
     </>
   );
 }

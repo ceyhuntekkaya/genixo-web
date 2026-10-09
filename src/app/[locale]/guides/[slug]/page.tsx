@@ -1,25 +1,20 @@
-import type { Locale } from "@/i18n/config";
 import { ContentPage, metadataFor, staticParamsFor } from "../../content-route";
-import { getDictionary } from "@/i18n/getDictionary";
+import { toLocale } from "../../standard-page";
 
 export const dynamicParams = false;
-export const generateStaticParams = () => staticParamsFor("guide");
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: Locale; slug: string }>;
-}) {
-  const { locale, slug } = await params;
-  return metadataFor(locale, slug, "guide");
+type Params = { params: Promise<{ locale: string; slug: string }> };
+
+export function generateStaticParams() {
+  return staticParamsFor("guide");
 }
 
-export default async function GuidePage({
-  params,
-}: {
-  params: Promise<{ locale: Locale; slug: string }>;
-}) {
+export async function generateMetadata({ params }: Params) {
   const { locale, slug } = await params;
-  const dict = await getDictionary(locale);
-  return <ContentPage locale={locale} slug={slug} type="guide" sectionLabel={dict.menu.Blog} />;
+  return metadataFor(toLocale(locale), slug, "guide");
+}
+
+export default async function GuidePage({ params }: Params) {
+  const { locale, slug } = await params;
+  return <ContentPage locale={toLocale(locale)} slug={slug} type="guide" />;
 }

@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "Tanıştığımıza memnun olduk",
+    "description": "Kartımızı okuttunuz ya da bir etkinlikte karşılaştık. Genixo, Ankara Bilkent Cyberpark'ta bir yazılım ve yapay zekâ ekibidir. Ne yaptığımız ve bize doğrudan nasıl ulaşacağınız burada."
+  },
+  "breadcrumb": "Merhaba",
+  "hero": {
+    "eyebrow": "Genixo · Bilkent Cyberpark, Ankara",
+    "title": "Tanıştığımıza memnun olduk.",
+    "lead": "Yazılım departmanı olmayan şirketlerin yazılım departmanıyız; yapay zekâ dahil. Kısa hali ve bize ulaşmanın en hızlı yolu burada.",
+    "primary": { "label": "İlk görüşmeyi planlayın", "href": "/contact" },
+    "secondary": { "label": "Nasıl çalışıyoruz", "href": "/how-we-work" }
+  },
+  "sections": [
+    {
+      "kind": "prose",
+      "label": "60 saniyede",
+      "title": "Kurucumuzdan bir not",
+      "paragraphs": ["[[TODO-068]]"]
+    },
+    {
+      "kind": "doors",
+      "label": "Ne yapıyoruz",
+      "title": "Hangisi size daha yakın?",
+      "items": [
+        {
+          "quote": "Ekibim her gün aynı işi elle yapıyor, hatalar da aradan kaçıyor.",
+          "name": "Yapay zekâ süreç otomasyonu",
+          "text": "Yapay zekâ okur, taslak hazırlar ve ayırır. Ekibiniz onaylar.",
+          "step": "Nasıl çalıştığını görün",
+          "href": "/ai-automation"
+        },
+        {
+          "quote": "Hazır yazılımlar bize uymuyor, ERP'mizle de konuşmuyor.",
+          "name": "Özel yazılım",
+          "text": "İşinizin akışına göre kurulan sistemler ve entegrasyonlar.",
+          "step": "Nasıl çalıştığını görün",
+          "href": "/custom-software"
+        },
+        {
+          "quote": "Bir ürün fikrim var ama kuracak ekibim yok.",
+          "name": "Ürün stüdyosu",
+          "text": "Bir fikirden, size ait canlı bir web veya mobil ürüne.",
+          "step": "Nasıl çalıştığını görün",
+          "href": "/product-studio"
+        },
+        {
+          "quote": "Yazılıma sürekli ihtiyacımız var ama koca bir departmana değil.",
+          "name": "NGSD",
+          "text": "Atanmış bir proje yöneticisi olan sürekli bir Genixo ekibi.",
+          "step": "Nasıl çalıştığını görün",
+          "href": "/ngsd"
+        }
+      ]
+    },
+    {
+      "kind": "cases",
+      "limit": 3,
+      "label": "Kanıt",
+      "title": "Son işler"
+    },
+    {
+      "kind": "list",
+      "label": "Doğrudan ulaşın",
+      "title": "Bir formla değil, bir kişiyle konuşun",
+      "items": [
+        "Telefon: [+90 312 265 04 56](tel:+903122650456)",
+        "E-posta: [hello@genixo.ai](mailto:hello@genixo.ai)",
+        "WhatsApp: [[TODO-007]]",
+        "Ağ: [[TODO-017]]"
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Konuşmaya devam edelim.",
+    "lead": "Ekibinizin en çok zamanını alan süreci söyleyin. Dürüst bir ilk görüşle döneriz.",
+    "primary": { "label": "İlk görüşmeyi planlayın", "href": "/contact" }
+  }
+}

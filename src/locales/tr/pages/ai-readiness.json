@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "title": "KOBİ'ler için yapay zekâ hazırlık değerlendirmesi",
+    "description": "Bir kurulum için harcamadan önce hangi süreçlerinizin yapay zekâya uygun olduğunu görün. Kısa değerlendirme üç süreci puanlar; kapsamlı olan bir pilot planı ekler."
+  },
+  "breadcrumb": "Yapay zekâ hazırlık değerlendirmesi",
+  "hero": {
+    "eyebrow": "Yapay zekâ hazırlık değerlendirmesi",
+    "title": "Kurulum için ödemeden önce yapay zekânın nereye oturduğunu görün",
+    "lead": "Süreçlerinize, verinize ve kısıtlarınıza bakarız; hangilerinin yapay zekâya uygun, hangilerinin koşullu uygun, hangilerinin uygun olmadığını söyleriz.",
+    "primary": { "label": "Değerlendirme isteyin", "href": "/contact" },
+    "secondary": { "label": "Senaryoları görün", "href": "/ai-automation#scenarios" }
+  },
+  "answer": {
+    "label": "Kısaca",
+    "text": "Yapay zekâ hazırlık değerlendirmesi, Genixo'nun yapay zekâ projelerindeki ilk adımıdır. Kısa sürüm bir görüşme ve bir sayfalık özettir; en fazla üç süreci uygun, koşullu uygun veya uygun değil diye işaretler. Kapsamlı sürüm buna süreç haritası, veri envanteri, KVKK incelemesi, kabaca geri dönüş tahmini ve bir pilot planı ekler."
+  },
+  "sections": [
+    {
+      "kind": "table",
+      "label": "İki sürüm",
+      "title": "Kısa veya kapsamlı",
+      "columns": ["", "Kısa değerlendirme", "Kapsamlı değerlendirme"],
+      "rows": [
+        ["Biçim", "Bir görüşme ve bir sayfalık özet", "Görüşmeler, süreç gözlemi ve yazılı bir rapor"],
+        ["Kapsam", "En fazla üç süreç", "Başta kararlaştırılan süreçler"],
+        ["Çıktı", "Her süreç için gerekçesiyle uygun, koşullu uygun veya uygun değil", "Süreç haritası, veri envanteri, KVKK incelemesi, kabaca geri dönüş tahmini, pilot planı"],
+        ["Süre", "[[TODO-021]]", "[[TODO-022]]"],
+        ["Fiyat", "[[TODO-021]]", "[[TODO-022]]"]
+      ]
+    },
+    {
+      "kind": "points",
+      "label": "Neye bakarız",
+      "title": "Her süreç için dört soru",
+      "items": [
+        {
+          "title": "İş yeterince tekrarlı ve sık mı?",
+          "text": "Yapay zekâ, sık ve benzer biçimde yapılan işte karşılığını verir. Nadir, tek seferlik işler kurulumu nadiren haklı çıkarır."
+        },
+        {
+          "title": "Öğrenilecek ve test edilecek veri var mı?",
+          "text": "Doğru sonucu bilinen geçmiş belgeler, teklifler, çağrılar veya kayıtlar bir test seti kurmak için gerekir."
+        },
+        {
+          "title": "Yanlış olursa ne olur?",
+          "text": "Bir hatanın maliyeti, sürecin ne kadar kontrole ihtiyaç duyduğunu ve yapay zekânın orada yeri olup olmadığını belirler."
+        },
+        {
+          "title": "Veri nereye gidebilir?",
+          "text": "Kişisel veya gizli veri mimariyi değiştirir: kendi sunucularınız, kendi bulutunuz veya bir API."
+        }
+      ]
+    },
+    {
+      "kind": "list",
+      "variant": "checks",
+      "label": "Görüşmeden önce",
+      "title": "Yararlı bir yanıt vermemize yardım edenler",
+      "items": [
+        "Ekibinizin en çok zamanını alan iki üç sürecin kısa tarifi.",
+        "Kabaca hacimler: ayda kaç belge, teklif, çağrı veya talep.",
+        "Devredeki sistemler; ERP, CRM veya belge arşivi gibi.",
+        "Verinizin nerede işlenebileceğine dair kurallar."
+      ]
+    },
+    {
+      "kind": "list",
+      "variant": "limits",
+      "label": "Sınırlar",
+      "title": "Değerlendirme ne değildir",
+      "items": [
+        "Bir satış konuşması değildir. “Uygun değil” geçerli bir yanıttır.",
+        "Bazı KOSGEB programlarının istediği dijital olgunluk raporunun yerine geçmez. [[TODO-071]]",
+        "Kurulum içermez. Pilot anlamlıysa ayrıca önerilir."
+      ]
+    },
+    {
+      "kind": "prose",
+      "label": "Kontenjan",
+      "title": "Kaç tane üstleniriz",
+      "paragraphs": [
+        "Kısa değerlendirmeler için aylık kapasite: [[TODO-021]]",
+        "Örnek rapor: [[TODO-070]]"
+      ]
+    },
+    {
+      "kind": "faq",
+      "label": "SSS",
+      "title": "Yapay zekâ hazırlık değerlendirmesi hakkında sorular",
+      "items": [
+        {
+          "q": "Yapay zekâ hazırlık değerlendirmesi nedir?",
+          "a": "Süreçlerinize, verinize ve kısıtlarınıza yapılandırılmış bir bakıştır. Hangi süreçlerin yapay zekâya uygun olduğunu, hangilerinin koşullu olabileceğini, hangilerinin olmadığını gerekçeleriyle söyler."
+        },
+        {
+          "q": "Kısa değerlendirme ücretsiz mi?",
+          "a": "Kısa değerlendirmenin koşulları: [[TODO-021]]."
+        },
+        {
+          "q": "Değerlendirmeden sonra ne olur?",
+          "a": "Bir süreç uygunsa olağan sonraki adım, bir başlangıç ölçümüne göre ölçülen sabit kapsamlı bir pilottur. Hiçbiri uygun değilse bunu söyleriz; bazen önce bir yazılım veya veri adımı öneririz."
+        },
+        {
+          "q": "Değerlendirme KOSGEB desteğine sayılır mı?",
+          "a": "Hayır. Bazı KOSGEB programları yetkili bir kuruluştan dijital olgunluk raporu ister; bizim değerlendirmemiz onun yerine geçmez. [[TODO-071]]"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Üç süreç söyleyin. Hangisinden başlayacağınızı söyleriz.",
+    "lead": "Kısa bir tarif gönderin. Görüşmeyi ayarlar, hazır geliriz.",
+    "primary": { "label": "Değerlendirme isteyin", "href": "/contact" },
+    "secondary": { "label": "Fiyat ve süreleri görün", "href": "/pricing" }
+  }
+}

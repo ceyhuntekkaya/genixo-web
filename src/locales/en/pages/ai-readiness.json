@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "title": "AI Readiness Assessment for SMEs",
+    "description": "Find out which of your processes suit AI before you spend on a build. A short assessment rates three processes; the comprehensive one adds a pilot plan."
+  },
+  "breadcrumb": "AI readiness assessment",
+  "hero": {
+    "eyebrow": "AI readiness assessment",
+    "title": "Find out where AI fits before you pay for a build",
+    "lead": "We look at your processes, your data and your constraints, and tell you which ones are a fit for AI, which are a conditional fit and which are not.",
+    "primary": { "label": "Request an assessment", "href": "/contact" },
+    "secondary": { "label": "See the scenarios", "href": "/ai-automation#scenarios" }
+  },
+  "answer": {
+    "label": "In short",
+    "text": "The AI readiness assessment is Genixo's first step for AI projects. The short version is one call and a one-page summary that rates up to three processes as a fit, a conditional fit or not a fit. The comprehensive version adds a process map, a data inventory, a KVKK review, a rough return estimate and a pilot plan."
+  },
+  "sections": [
+    {
+      "kind": "table",
+      "label": "Two versions",
+      "title": "Short or comprehensive",
+      "columns": ["", "Short assessment", "Comprehensive assessment"],
+      "rows": [
+        ["Format", "One call and a one-page summary", "Interviews, process observation and a written report"],
+        ["Scope", "Up to three processes", "The processes agreed at the start"],
+        ["Output", "Fit, conditional fit or not a fit for each process, with reasons", "Process map, data inventory, KVKK review, rough return estimate, pilot plan"],
+        ["Duration", "[[TODO-021]]", "[[TODO-022]]"],
+        ["Price", "[[TODO-021]]", "[[TODO-022]]"]
+      ]
+    },
+    {
+      "kind": "points",
+      "label": "What we look at",
+      "title": "Four questions for every process",
+      "items": [
+        {
+          "title": "Is the work repetitive and frequent enough?",
+          "text": "AI pays off on work that happens often, in a similar way. Rare, one-off tasks rarely justify the setup."
+        },
+        {
+          "title": "Is there data to learn and test from?",
+          "text": "Past documents, quotes, calls or tickets with known correct outcomes are needed to build a test set."
+        },
+        {
+          "title": "What happens when it's wrong?",
+          "text": "The cost of an error decides how much review the process needs, and whether AI belongs there at all."
+        },
+        {
+          "title": "Where may the data go?",
+          "text": "Personal or confidential data changes the architecture: on your servers, in your cloud or through an API."
+        }
+      ]
+    },
+    {
+      "kind": "list",
+      "variant": "checks",
+      "label": "Before the call",
+      "title": "What helps us give a useful answer",
+      "items": [
+        "A short description of two or three processes that take your team the most time.",
+        "Rough volumes: how many documents, quotes, calls or requests per month.",
+        "The systems involved, such as your ERP, CRM or document storage.",
+        "Any rules about where your data may be processed."
+      ]
+    },
+    {
+      "kind": "list",
+      "variant": "limits",
+      "label": "Limits",
+      "title": "What the assessment is not",
+      "items": [
+        "It is not a sales pitch. “Not a fit” is a valid answer.",
+        "It does not replace the digital maturity report required by some KOSGEB programmes. [[TODO-071]]",
+        "It does not include a build. If a pilot makes sense, it is proposed separately."
+      ]
+    },
+    {
+      "kind": "prose",
+      "label": "Availability",
+      "title": "How many we take on",
+      "paragraphs": [
+        "Monthly capacity for short assessments: [[TODO-021]]",
+        "Sample report: [[TODO-070]]"
+      ]
+    },
+    {
+      "kind": "faq",
+      "label": "FAQ",
+      "title": "Questions about the AI readiness assessment",
+      "items": [
+        {
+          "q": "What is an AI readiness assessment?",
+          "a": "It is a structured look at your processes, data and constraints that tells you which processes are suitable for AI, which could be with conditions, and which are not, with the reasons."
+        },
+        {
+          "q": "Is the short assessment free?",
+          "a": "Terms of the short assessment: [[TODO-021]]."
+        },
+        {
+          "q": "What happens after the assessment?",
+          "a": "If a process is a fit, the usual next step is a fixed-scope pilot measured against a baseline. If none are, we say so, and sometimes suggest a software or data step first."
+        },
+        {
+          "q": "Does the assessment count for KOSGEB support?",
+          "a": "No. Some KOSGEB programmes require a digital maturity report from an authorised organisation; our assessment does not replace it. [[TODO-071]]"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Name three processes. We'll tell you which one to start with.",
+    "lead": "Send us a short description. We'll arrange the call and come prepared.",
+    "primary": { "label": "Request an assessment", "href": "/contact" },
+    "secondary": { "label": "See pricing and timelines", "href": "/pricing" }
+  }
+}

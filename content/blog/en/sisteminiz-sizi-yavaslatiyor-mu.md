@@ -16,7 +16,7 @@ faq:
     a: "No. First listen for where the process breaks, then choose what to digitize."
 sources:
   - title: "Ceyhun Tekkaya, founder observation. This version cites no third-party statistic."
-    url: "https://genixo.ai/en/authors/ceyhun-tekkaya"
+    url: "https://genixo.ai/en/team/ceyhun-tekkaya"
     accessed: "2026-10-09"
 image: "/images/1753787699394.png"
 draft: false

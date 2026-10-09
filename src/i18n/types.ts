@@ -78,7 +78,7 @@ export type Dictionary = {
     "about": {
         "WhoWeAre": string;
         "slogan": string;
-        "short": string;
+        "short"?: string;
         "description": string;
         "authorName"?: string;
         "authorTitle"?: string;
@@ -174,6 +174,7 @@ export type Dictionary = {
         active?: boolean;
         showOnHomepage?: boolean;
         order?: number;
+        faq?: Array<{ q: string; a: string }>;
     }>;
 
     "products": {
@@ -460,36 +461,37 @@ export type Dictionary = {
         "subtitle": string;
     };
     "seo"?: {
+        "pages"?: Record<string, { title?: string; description?: string }>;
         "home"?: {
-            "keywords": string;
+            "keywords"?: string;
         };
         "about"?: {
-            "keywords": string;
+            "keywords"?: string;
         };
         "contact"?: {
-            "keywords": string;
+            "keywords"?: string;
             "description"?: string;
         };
         "blog"?: {
-            "keywords": string;
+            "keywords"?: string;
             "description"?: string;
         };
         "products"?: {
-            "keywords": string;
+            "keywords"?: string;
             "description"?: string;
         };
         "solutions"?: {
-            "keywords": string;
+            "keywords"?: string;
             "description"?: string;
         };
         "caseStudy"?: {
-            "keywords": string;
+            "keywords"?: string;
         };
         "governmentSupport"?: {
             hero?: {
                 "backgroundImage": string;
             };
-            "keywords": string;
+            "keywords"?: string;
             "description"?: string;
             "title"?: string;
             "subtitle"?: string;
@@ -527,7 +529,7 @@ export type Dictionary = {
             };
         };
         "ngsd"?: {
-            "keywords": string;
+            "keywords"?: string;
         };
         "common"?: {
             "blog"?: string;

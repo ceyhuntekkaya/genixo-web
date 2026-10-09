@@ -23,7 +23,7 @@
     "RetiredTravelApp": "Retired Travel App",
     "active": {
       "Solutions": true,
-      "Products": false,
+      "Products": true,
       "SuccessStories": false,
       "GovernmentSupport": false,
       "NGSD": true,
@@ -33,7 +33,7 @@
     }
   },
   "welcome": {
-    "title": "Genixo IT and Technology"
+    "title": "Genixo"
   },
   "company": {
     "name": "Genixo IT and Technology",

@@ -2,8 +2,7 @@
   "about": {
     "WhoWeAre": "Genixo",
     "slogan": "Yazılım Çözüm Ortağı & İnovasyon Şirketi",
-    "short": "Başarılı bir yazılım oluşturmak için iş gereksinimlerinizi anlayan bir geliştirme ekibine ihtiyacınız vardır. Uzmanlarımız fikrinize, zaman çizelgenize ve bütçenize uygun özel bir çözüm belirleyecek, ardından uygulamayı tasarlayıp oluşturacak ve gerçek kullanıcılarla test etmenize yardımcı olacaktır. Sonuç olarak, işinize fayda sağlayan, kullanıcılar tarafından sevilen modern bir dijital ürün elde edeceksiniz.",
-    "description": "Genixo, Bilkent Üniversitesi Cyberpark'ta faaliyet gösteren, yapay zeka odaklı eğitim platformları ve kurumsal çözümler geliştiren bir teknoloji şirketidir. Ekibimiz, modern web teknolojileri ve yapay zeka entegrasyonları konusunda derin uzmanlığa sahip geliştiricilerden oluşmaktadır. Spring Boot, Next.js ve PostgreSQL gibi güçlü teknolojileri kullanarak ölçeklenebilir, güvenli ve kullanıcı dostu sistemler inşa ediyoruz. StudyScore AI ve Eğitim İste gibi başarılı projelerimizle Türkiye'nin eğitim teknolojisi ekosisteminde fark yaratıyoruz. Yapay zeka destekli adaptif öğrenme platformlarından kurumsal belge yönetim sistemlerine, gerçek zamanlı sınav uygulamalarından eğitim keşif platformlarına kadar geniş bir yelpazede çözümler sunuyoruz. Müşterilerimizin dijital dönüşüm yolculuğunda güvenilir teknoloji partneri olarak, iş ihtiyaçlarını anlamak ve en uygun çözümleri üretmek için çalışıyoruz.",
+    "description": "KOBİ'lerin ve kurumların süreçlerini inceler, yazılımı ve yapay zekâ entegrasyonunu ekiple birlikte devreye alırız. Çalışmalarımızda Spring Boot, Next.js, PostgreSQL, Docker ve Ollama kullanırız. Bilkent Cyberpark'ta Ar-Ge firmasıyız; Türkiye Bilişim Derneği ve ALTE üyesiyiz.",
     "images": {
       "mainAlt": "Genixo Ekibi ve Teknoloji Çözümleri",
       "dynamismAlt": "Hızlı Teknoloji Gelişimi ve İnovasyon",
@@ -25,7 +24,7 @@
       }
     },
     "authorName": "Ceyhun Tekkaya",
-    "authorTitle": "CEO, Genixo",
+    "authorTitle": "Kurucu ve CEO",
     "callToAsk": "Sorularınız için arayın",
     "phoneNumber": "+90 312 265 04 56",
     "whyDigitalTransformation": {
@@ -66,4 +65,3 @@
     }
   }
 }
-

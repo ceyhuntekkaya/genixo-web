@@ -1,12 +1,11 @@
 import HomeLanding from "@/app/component/home/home-landing";
 import { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/getDictionary";
-import {
-  generateMetadata as generateSEOMetadata,
-  generateStructuredData,
-} from "@/utils/seo";
-import { locales } from "@/i18n/config";
-import Script from "next/script";
+import { buildMetadata } from "@/utils/seo";
+import JsonLd from "@/app/component/json-ld";
+import { SITE_URL, shortDefinitionFor } from "@/content/entity";
+import { webPage } from "@/utils/schema";
+import { getAllPosts } from "@/lib/content";
 
 export async function generateMetadata({
   params,
@@ -15,17 +14,12 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
-  const alternateLocales = locales.filter((l) => l !== locale) as Locale[];
-
-  return generateSEOMetadata({
-    title: dict.welcome.title || dict.company?.name || "Genixo",
-    description: dict.about.short || dict.about.slogan,
-    keywords:
-      dict.seo?.home?.keywords || dict.company?.defaultKeywords || "Genixo",
-    url: `/${locale}`,
+  const home = dict.seo?.pages?.home;
+  return buildMetadata({
     locale,
-    alternateLocales,
-    dict,
+    path: "",
+    absoluteTitle: home?.title || "Genixo",
+    description: home?.description || shortDefinitionFor(locale),
   });
 }
 
@@ -36,43 +30,22 @@ export default async function Home({
 }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://genixo.ai";
-
-  // Organization Structured Data
-  const organizationStructuredData = generateStructuredData({
-    type: "Organization",
-    name: dict.company?.name || dict.welcome.title || "Genixo",
-    description: dict.about.short || dict.about.slogan,
-    url: siteUrl,
-    dict,
-  });
-
-  // Website Structured Data
-  const websiteStructuredData = generateStructuredData({
-    type: "WebSite",
-    name: dict.company?.name || dict.welcome.title || "Genixo",
-    description: dict.about.short || dict.about.slogan,
-    url: siteUrl,
-    dict,
-  });
+  const url = `${SITE_URL}/${locale}`;
+  const title = dict.seo?.pages?.home?.title || "Genixo";
+  const description = dict.seo?.pages?.home?.description || shortDefinitionFor(locale);
+  const posts = getAllPosts(locale, "post").slice(0, 2);
 
   return (
     <>
-      <Script
-        id="organization-structured-data"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(organizationStructuredData),
-        }}
+      <JsonLd
+        data={webPage({
+          url,
+          name: title,
+          description,
+          locale,
+        })}
       />
-      <Script
-        id="website-structured-data"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(websiteStructuredData),
-        }}
-      />
-      <HomeLanding dict={dict} locale={locale} />
+      <HomeLanding dict={dict} locale={locale} posts={posts} />
     </>
   );
 }

@@ -12,7 +12,11 @@ WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
-# Next.js telemetry'yi kapat
+# NEXT_PUBLIC_* değişkenleri build sırasında gömülür.
+ARG NEXT_PUBLIC_SITE_URL=https://genixo.ai
+ARG NEXT_PUBLIC_GA_ID=
+ENV NEXT_PUBLIC_SITE_URL=$NEXT_PUBLIC_SITE_URL
+ENV NEXT_PUBLIC_GA_ID=$NEXT_PUBLIC_GA_ID
 ENV NEXT_TELEMETRY_DISABLED=1
 
 RUN npm run build

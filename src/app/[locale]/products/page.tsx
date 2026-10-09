@@ -1,8 +1,8 @@
 import {Locale} from "@/i18n/config";
 import {getDictionary} from "@/i18n/getDictionary";
-import {generateMetadata as generateSEOMetadata} from "@/utils/seo";
-import {locales} from "@/i18n/config";
+import {buildMetadata} from "@/utils/seo";
 import PageHero from "@/app/component/page-hero";
+import {shortDefinitionFor} from "@/content/entity";
 
 import Link from "next/link";
 import {getProductSlug} from "@/utils/slugMapping";
@@ -15,16 +15,12 @@ export async function generateMetadata({
 }) {
     const { locale } = await params;
     const dict = await getDictionary(locale);
-    const alternateLocales = locales.filter(l => l !== locale) as Locale[];
-
-    return generateSEOMetadata({
-        title: dict.menu.Products,
-        description: dict.seo?.products?.description || dict.menu.Products,
-        keywords: `${dict.seo?.products?.keywords || ''}, ${dict.about.slogan}`,
-        url: `/${locale}/products`,
+    const copy = dict.seo?.pages?.products;
+    return buildMetadata({
         locale,
-        alternateLocales,
-        dict,
+        path: "/products",
+        title: copy?.title || dict.menu.Products,
+        description: copy?.description || shortDefinitionFor(locale),
     });
 }
 
@@ -41,7 +37,7 @@ export default async function ProductsPage({
             <PageHero
                 title={dict.menu.Products}
                 subtitle={dict.about.slogan}
-                description={dict.seo?.products?.description || "Yenilikçi dijital ürünlerimiz ile işinizi güçlendirin."}
+                description={dict.seo?.pages?.products?.description}
                 backgroundImage={dict.products?.hero?.backgroundImage}
             />
 

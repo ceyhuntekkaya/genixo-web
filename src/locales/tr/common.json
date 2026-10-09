@@ -23,17 +23,17 @@
     "RetiredTravelApp": "Retired Travel App",
     "active": {
       "Solutions": true,
-      "Products": false,
+      "Products": true,
       "SuccessStories": false,
       "GovernmentSupport": false,
       "NGSD": true,
       "AboutUs": true,
-      "Blog": false,
+      "Blog": true,
       "ContactUs": true
     }
   },
   "welcome": {
-    "title": "Genixo BT ve Teknoloji"
+    "title": "Genixo"
   },
   "company": {
     "name": "Genixo Bilişim ve Teknoloji",

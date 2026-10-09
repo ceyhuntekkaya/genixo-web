@@ -1,8 +1,8 @@
 import { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/getDictionary";
-import { generateMetadata as generateSEOMetadata } from "@/utils/seo";
-import { locales } from "@/i18n/config";
+import { buildMetadata } from "@/utils/seo";
 import PageHero from "@/app/component/page-hero";
+import { shortDefinitionFor } from "@/content/entity";
 import Image from "next/image";
 
 export async function generateMetadata({
@@ -12,16 +12,12 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
-  const alternateLocales = locales.filter((l) => l !== locale) as Locale[];
-
-  return generateSEOMetadata({
-    title: dict.menu.NGSD,
-    description: dict.ngsd.subtitle,
-    keywords: `${dict.seo?.ngsd?.keywords || ""}, ${dict.about.slogan}`,
-    url: `/${locale}/ngsd`,
+  const copy = dict.seo?.pages?.ngsd;
+  return buildMetadata({
     locale,
-    alternateLocales,
-    dict,
+    path: "/ngsd",
+    title: copy?.title || dict.menu.NGSD,
+    description: copy?.description || dict.ngsd.subtitle || shortDefinitionFor(locale),
   });
 }
 

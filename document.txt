@@ -3,4 +3,8 @@ docker buildx build \
   -t ctekkaya/genixo-web-app:1.0 \
   --push .
 
+Container yenilendikten sonra yalnızca değişen URL'ler için:
+INDEXNOW_KEY=... node scripts/indexnow.mjs https://genixo.ai/tr https://genixo.ai/en
+Tüm sitemap gönderilmez.
+
 

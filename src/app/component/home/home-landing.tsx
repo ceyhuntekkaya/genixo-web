@@ -3,6 +3,8 @@ import Image from "next/image";
 import type { Dictionary } from "@/i18n/types";
 import type { Locale } from "@/i18n/config";
 import { companyInfo } from "@/utils/company";
+import { EmailLink, PhoneLink } from "@/app/component/contact-links";
+import { definitionFor, entity } from "@/content/entity";
 import HeroBoard from "./hero-board";
 import { bodyFont, displayFont, monoFont } from "./fonts";
 import styles from "./home.module.css";
@@ -10,6 +12,7 @@ import styles from "./home.module.css";
 interface HomeLandingProps {
   dict: Dictionary;
   locale: Locale;
+  posts?: Array<{ slug: string; title: string; summary: string }>;
 }
 
 const SHOWCASE_PRODUCTS = ["StudyScoreAI", "Egitimiste", "ILC"] as const;
@@ -22,14 +25,7 @@ function Arrow() {
   );
 }
 
-function blogSlug(key: string, locale: Locale) {
-  if (key !== "ai-not-just-technology") return key;
-  return locale === "tr"
-    ? "yapay-zeka-sadece-bir-teknoloji-degil-yeni-bir-calisma-kulturu"
-    : "ai-not-just-technology";
-}
-
-export default function HomeLanding({ dict, locale }: HomeLandingProps) {
+export default function HomeLanding({ dict, locale, posts = [] }: HomeLandingProps) {
   const t = dict.landing;
   if (!t) return null;
 
@@ -41,10 +37,6 @@ export default function HomeLanding({ dict, locale }: HomeLandingProps) {
     key,
     ...(dict.products[key] as Dictionary["products"]["ILC"] & { logo?: string }),
   })).filter((p) => p.active !== false && p.webLink);
-
-  const posts = Object.entries(dict.blogs ?? {})
-    .filter(([, post]) => post && post.active !== false)
-    .slice(0, 2);
 
   const traits = [
     { title: dict.ngsd.remote.title, text: t.ngsd.remote },
@@ -64,6 +56,7 @@ export default function HomeLanding({ dict, locale }: HomeLandingProps) {
               {t.hero.titleAfter}
             </h1>
             <p className={styles.heroLead}>{t.hero.lead}</p>
+            <p className={styles.definition}>{definitionFor(locale)}</p>
             <div className={styles.actions}>
               <Link className={styles.btnPrimary} href={`/${locale}/contact`}>
                 {t.hero.primary}
@@ -75,6 +68,18 @@ export default function HomeLanding({ dict, locale }: HomeLandingProps) {
             </div>
           </div>
           <HeroBoard board={t.board} />
+        </div>
+      </section>
+
+      <section className={styles.proof} aria-label={locale === "tr" ? "Üyelikler" : "Memberships"}>
+        <div className={styles.shell}>
+          <ul className={styles.proofList}>
+            {entity.memberships.map((item) => (
+              <li key={item.url}>
+                <a href={item.url} rel="noopener">{item.name}</a>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
@@ -227,11 +232,11 @@ export default function HomeLanding({ dict, locale }: HomeLandingProps) {
               <h2 className={styles.sectionTitle}>{t.reading.title}</h2>
             </header>
             <ul className={styles.posts}>
-              {posts.map(([key, post]) => (
-                <li key={key}>
-                  <Link className={styles.post} href={`/${locale}/blog/${blogSlug(key, locale)}`}>
+              {posts.map((post) => (
+                <li key={post.slug}>
+                  <Link className={styles.post} href={`/${locale}/blog/${post.slug}`}>
                     <span className={styles.postTitle}>{post.title}</span>
-                    <span className={styles.postExcerpt}>{post.excerpt}</span>
+                    <span className={styles.postExcerpt}>{post.summary}</span>
                     <span className={styles.textLink}>
                       {t.reading.read}
                       <Arrow />
@@ -256,12 +261,8 @@ export default function HomeLanding({ dict, locale }: HomeLandingProps) {
               <Arrow />
             </Link>
             <p className={styles.contactDirect}>{t.contact.direct}</p>
-            <a className={styles.contactLine} href={`tel:${companyInfo.phone.replace(/\s/g, "")}`}>
-              {companyInfo.phone}
-            </a>
-            <a className={styles.contactLine} href={`mailto:${companyInfo.email}`}>
-              {companyInfo.email}
-            </a>
+            <PhoneLink className={styles.contactLine}>{companyInfo.phone}</PhoneLink>
+            <EmailLink className={styles.contactLine}>{companyInfo.email}</EmailLink>
           </div>
         </div>
       </section>

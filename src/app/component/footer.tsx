@@ -5,6 +5,8 @@ import footerLogo from "@/app/assets/Genixo_Logo_White.png";
 import { Locale } from "@/i18n/config";
 import {Dictionary} from "@/i18n/types";
 import {companyInfo} from "@/utils/company";
+import {entity, jobTitleFor, shortDefinitionFor, telHref} from "@/content/entity";
+import {track} from "@/lib/track";
 
 interface FooterSectionProps {
     locale: Locale;
@@ -34,13 +36,25 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
                                         className="w-35 h-auto mt-4"
                                     />
                                 </Link>
-                              
+                                <p style={{ color: "#ddd", marginTop: 16 }}>{shortDefinitionFor(locale)}</p>
+                                <p style={{ color: "#fff", marginTop: 8 }}>{entity.legalName}</p>
+                                <p style={{ color: "#ddd" }}>{entity.founder.name} · {jobTitleFor(locale)}</p>
                                 <div className="footer-social">
                                     <ul className="social">
-                                        <li><a href="https://www.linkedin.com/company/genixoglobal/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="https://www.instagram.com/genixo.global/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a></li>
+                                        {entity.sameAs.map((href) => (
+                                            <li key={href}>
+                                                <a href={href} target="_blank" rel="noopener noreferrer">
+                                                    <i className={href.includes("instagram") ? "fab fa-instagram" : "fab fa-linkedin-in"}></i>
+                                                </a>
+                                            </li>
+                                        ))}
                                     </ul>
                                 </div>
+                                <ul className="link" style={{ marginTop: 16 }}>
+                                    <li><Link href={`/${locale}/blog`}>{dict.menu.Blog}</Link></li>
+                                    <li><Link href={`/${locale}/about`}>{dict.menu.AboutUs}</Link></li>
+                                    <li><Link href={`/${locale}/contact`}>{dict.menu.ContactUs}</Link></li>
+                                </ul>
                             </div>
                         </div>
                         <div className="col-lg-3 col-sm-6">
@@ -152,7 +166,7 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
                                                 <i className="flaticon-phone-call"></i>
                                             </div>
                                             <div className="info-text">
-                                                <span><a href={`#`}>{companyInfo.phone}</a></span>
+                                                <span><a href={telHref()} onClick={() => track("phone_click")}>{companyInfo.phone}</a></span>
                                             </div>
                                         </li>
                                         <li>
@@ -160,7 +174,7 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
                                                 <i className="far fa-envelope-open"></i>
                                             </div>
                                             <div className="info-text">
-                                                <span><a href={`mailto:${companyInfo.email}`}>{companyInfo.email}</a></span>
+                                                <span><a href={`mailto:${companyInfo.email}`} onClick={() => track("email_click")}>{companyInfo.email}</a></span>
                                             </div>
                                         </li>
                                         <li>
@@ -185,7 +199,7 @@ export default function FooterSection({ locale, dict }: FooterSectionProps) {
                         <div className="row align-items-center">
                             <div className="col-lg-12">
                                 <div className="copyright-text text-center">
-                                    <p>{footer.copyright}</p>
+                                    <p>© {new Date().getFullYear()} {entity.legalName}</p>
                                 </div>
                             </div>
                         </div>

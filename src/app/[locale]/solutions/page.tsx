@@ -1,9 +1,11 @@
 import {Locale} from "@/i18n/config";
 import {getDictionary} from "@/i18n/getDictionary";
 import type {Dictionary} from "@/i18n/types";
-import {generateMetadata as generateSEOMetadata} from "@/utils/seo";
-import {locales} from "@/i18n/config";
+import {buildMetadata} from "@/utils/seo";
 import PageHero from "@/app/component/page-hero";
+import JsonLd from "@/app/component/json-ld";
+import {SITE_URL, shortDefinitionFor} from "@/content/entity";
+import {collectionPage} from "@/utils/schema";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -17,16 +19,12 @@ export async function generateMetadata({
 }) {
     const { locale } = await params;
     const dict = await getDictionary(locale);
-    const alternateLocales = locales.filter(l => l !== locale) as Locale[];
-
-    return generateSEOMetadata({
-        title: dict.menu.Solutions,
-        description: dict.seo?.solutions?.description || dict.menu.Solutions,
-        keywords: `${dict.seo?.solutions?.keywords || ''}, ${dict.about.slogan}`,
-        url: `/${locale}/solutions`,
+    const copy = dict.seo?.pages?.solutions;
+    return buildMetadata({
         locale,
-        alternateLocales,
-        dict,
+        path: "/solutions",
+        title: copy?.title || dict.menu.Solutions,
+        description: copy?.description || shortDefinitionFor(locale),
     });
 }
 
@@ -37,13 +35,29 @@ export default async function SolutionsPage({
 }) {
     const { locale } = await params;
     const dict = await getDictionary(locale);
+    const services = Array.isArray(dict.services)
+        ? (dict.services as ServiceItem[]).filter((service) => service.active !== false)
+        : [];
+    const copy = dict.seo?.pages?.solutions;
 
     return (
         <>
+            <JsonLd
+                data={collectionPage({
+                    url: `${SITE_URL}/${locale}/solutions`,
+                    name: copy?.title || dict.menu.Solutions,
+                    description: copy?.description || shortDefinitionFor(locale),
+                    locale,
+                    items: services.map((service) => ({
+                        name: service.name,
+                        url: `${SITE_URL}/${locale}/solutions/${service.slug}`,
+                    })),
+                })}
+            />
             <PageHero
                 title={dict.menu.Solutions}
                 subtitle={dict.about.slogan}
-                description={dict.seo?.solutions?.description || "Web uygulaması, mobil geliştirme, bulut çözümleri, DevOps ve veri bilimi hizmetleri."}
+                description={dict.seo?.pages?.solutions?.description}
                 backgroundImage={dict.solutionsHero?.backgroundImage}
             />
 

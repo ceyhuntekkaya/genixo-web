@@ -1,0 +1,35 @@
+# Genixo
+
+> Genixo Bilişim ve Teknoloji A.Ş. (Genixo) is a software and R&D company based in Bilkent Cyberpark, Ankara, Türkiye. It provides digital transformation consulting, business process digitalization and AI integration (RAG chatbots, on-premise large language models, speech-to-text and text-to-speech) for SMEs and organizations.
+
+Genixo Bilişim ve Teknoloji A.Ş. — Bilkent Cyberpark, Cyberplaza H Blok No:8, Çankaya, Ankara, Türkiye. Tel: +90 312 265 04 56. E-posta: hello@genixo.ai
+
+## Hizmetler (TR)
+- [Dijital Dönüşüm Danışmanlığı](https://genixo.ai/tr/solutions/digital-transformation): Süreç yerinde incelenir, yol haritası çıkarılır.
+- [İş Süreçleri Dijitalleştirme](https://genixo.ai/tr/solutions/business-process-digitalization): Excel ve WhatsApp'ta kopan kayıt tek sisteme alınır.
+- [Yapay Zekâ Entegrasyonu](https://genixo.ai/tr/solutions/ai-integration): RAG chatbot, kurum içi büyük dil modeli, konuşma tanıma ve seslendirme.
+- [Akıllı Raporlama ve Veri Analizi](https://genixo.ai/tr/solutions/smart-reporting-analytics): Tek kaynaktan gelen görünüm; kararı kullanıcı verir.
+- [Sistem İyileştirme ve Modernizasyon](https://genixo.ai/tr/solutions/system-improvement-modernization): Çalışan sistem durdurulmadan iyileştirilir.
+- [Maliyet Optimizasyonu](https://genixo.ai/tr/solutions/cost-optimization): Lisans, sunucu ve elle yapılan iş ölçülür; yüzde vaadi ölçümden önce verilmez.
+- [Ürün ve Proje Geliştirme](https://genixo.ai/tr/solutions/product-project-development): Hazır paket uymuyorsa küçük bir sürümle denenir.
+
+## Services (EN)
+- [Digital Transformation Consulting](https://genixo.ai/en/solutions/digital-transformation): The work is studied on site and a roadmap is written.
+- [Business Process Digitalization](https://genixo.ai/en/solutions/business-process-digitalization): Orders and quotes move from files and chats into one record.
+- [AI Integration](https://genixo.ai/en/solutions/ai-integration): RAG chatbots, on-premise language models, speech-to-text and text-to-speech.
+- [Smart Reporting and Analytics](https://genixo.ai/en/solutions/smart-reporting-analytics): One source of record; the decision stays with the operator.
+- [System Improvement](https://genixo.ai/en/solutions/system-improvement-modernization): The live system stays up while the stuck flow is fixed.
+- [Cost Optimization](https://genixo.ai/en/solutions/cost-optimization): Licenses and manual hours are measured before any savings claim.
+- [Product and Project Development](https://genixo.ai/en/solutions/product-project-development): When a package does not fit, a small first version is tried.
+
+## Ürünler
+- [ILC](https://genixo.ai/tr/products/ilc)
+- [StudyScore AI](https://genixo.ai/tr/products/study-score-ai)
+- [Eğitim İste](https://genixo.ai/tr/products/egitimiste)
+
+## Şirket
+- [Hakkımızda](https://genixo.ai/tr/about)
+- [About](https://genixo.ai/en/about)
+- [İletişim](https://genixo.ai/tr/contact)
+- [Contact](https://genixo.ai/en/contact)
+- [Blog](https://genixo.ai/tr/blog)

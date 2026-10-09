@@ -1,57 +1,66 @@
-import { NextResponse } from 'next/server';
-import type { NextRequest } from 'next/server';
-import { locales, defaultLocale, countryToLocale } from './i18n/config';
+import { NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
+import { defaultLocale, locales, type Locale } from "./i18n/config";
 
-// Vercel geo tipini genişletelim
-interface RequestWithGeo extends NextRequest {
-    geo?: {
-        country?: string;
-        city?: string;
-        region?: string;
-    };
+const KNOWN_ROOTS = new Set([
+  "about",
+  "contact",
+  "blog",
+  "products",
+  "solutions",
+  "case-study",
+  "government-support",
+  "ngsd",
+  "chat",
+  "service",
+  "authors",
+  "guides",
+]);
+
+function localeFromHeader(header: string | null): Locale {
+  if (!header) return defaultLocale;
+  const first = header.split(",")[0]?.trim().toLowerCase() ?? "";
+  if (first.startsWith("tr")) return "tr";
+  return defaultLocale;
 }
 
 export function middleware(request: NextRequest) {
-    const pathname = request.nextUrl.pathname;
+  const pathname = request.nextUrl.pathname;
 
-    // Public dosyaları ve API'leri atla
-    if (
-        pathname.startsWith('/_next') ||
-        pathname.startsWith('/api') ||
-        pathname.startsWith('/assets') ||
-        pathname.includes('.')
-    ) {
-        return NextResponse.next();
-    }
+  if (
+    pathname.startsWith("/_next") ||
+    pathname.startsWith("/api") ||
+    pathname.startsWith("/assets") ||
+    pathname.includes(".")
+  ) {
+    return NextResponse.next();
+  }
 
-    // Pathname'de zaten locale var mı kontrol et
-    const pathnameHasLocale = locales.some(
-        (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
-    );
+  const pathnameHasLocale = locales.some(
+    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`,
+  );
 
-    if (pathnameHasLocale) {
-        return NextResponse.next();
-    }
+  if (pathnameHasLocale) {
+    return NextResponse.next();
+  }
 
-    // Kullanıcının ülkesine göre locale belirle
-    // AWS Amplify'da geo bilgisi olmayabilir, bu durumda default locale kullan
-    const req = request as RequestWithGeo;
-    const country = req.geo?.country || '';
-    const locale = countryToLocale[country] || defaultLocale;
+  const locale = localeFromHeader(request.headers.get("accept-language"));
+  const url = request.nextUrl.clone();
 
-    // Root path için locale'e yönlendir
-    const url = request.nextUrl.clone();
-    if (pathname === '/') {
-        url.pathname = `/${locale}`;
-    } else {
-        url.pathname = `/${locale}${pathname}`;
-    }
+  if (pathname === "/") {
+    url.pathname = `/${locale}`;
     return NextResponse.redirect(url);
+  }
+
+  const first = pathname.split("/").filter(Boolean)[0] ?? "";
+  if (KNOWN_ROOTS.has(first)) {
+    url.pathname = `/${locale}${pathname}`;
+    return NextResponse.redirect(url);
+  }
+
+  return NextResponse.next();
 }
 
 export const config = {
-    matcher: [
-        // Root path dahil tüm pathler
-        '/((?!api|_next/static|_next/image|favicon.ico|assets|.*\\..*).*)',
-    ],
+  matcher: ["/((?!api|_next/static|_next/image|favicon.ico|assets|.*\\..*).*)"],
 };

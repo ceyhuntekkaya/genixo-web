@@ -23,7 +23,7 @@ export default function AboutSection({ dict }: PageProps) {
                   <h3 className="sub-title-modern">{dict.about.WhoWeAre}</h3>
                   <h2 className="title">{dict.about.slogan}</h2>
                 </div>
-                <p className="text">{dict.about.short}</p>
+                <p className="text">{dict.about.description}</p>
                 <div className="about-author-info-wrap">
                   <div className="about-author">
                     <h3 className="name">{dict.about.authorName}</h3>

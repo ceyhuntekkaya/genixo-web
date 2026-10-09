@@ -3,10 +3,14 @@ import {getDictionary} from "@/i18n/getDictionary";
 import {getProductKey, getProductSlug} from "@/utils/slugMapping";
 import ProductDetail from "@/app/component/product-detail";
 import {notFound} from "next/navigation";
-import {generateMetadata as generateSEOMetadata, generateStructuredData} from "@/utils/seo";
+import {buildMetadata} from "@/utils/seo";
 import {locales} from "@/i18n/config";
-import Script from "next/script";
+import JsonLd from "@/app/component/json-ld";
+import {SITE_URL} from "@/content/entity";
+import {breadcrumbList, softwareNode} from "@/utils/schema";
 import type { Dictionary } from "@/i18n/types";
+
+export const dynamicParams = false;
 
 /** Product detail key (excludes "hero" which is not a product entry). */
 type ProductDetailKey = Exclude<keyof Dictionary["products"], "hero">;
@@ -21,39 +25,35 @@ export async function generateMetadata({
     const productKey = getProductKey(product);
     
     if (!productKey) {
-        return generateSEOMetadata({
-            title: '404 - Sayfa Bulunamadı',
-            description: 'Aradığınız sayfa bulunamadı.',
+        return buildMetadata({
             locale,
+            path: `/products/${product}`,
+            title: "404",
+            description: "Aradığınız ürün sayfası yayında değil. Ürünler listesinden devam edebilirsiniz.",
             noindex: true,
-            dict,
         });
     }
 
     const productData = dict.products[productKey];
-    const alternateLocales = locales.filter(l => l !== locale) as Locale[];
 
-    // Skip hero entry; only real product entries have .active
     if (!productData || !("active" in productData) || productData.active === false) {
-        return generateSEOMetadata({
-            title: '404 - Sayfa Bulunamadı',
-            description: 'Aradığınız sayfa bulunamadı.',
+        return buildMetadata({
             locale,
+            path: `/products/${product}`,
+            title: "404",
+            description: "Aradığınız ürün sayfası yayında değil. Ürünler listesinden devam edebilirsiniz.",
             noindex: true,
-            dict,
         });
     }
 
-    return generateSEOMetadata({
-        title: productData.name,
-        description: productData.summary || (typeof productData.description === "string" ? productData.description.substring(0, 160) : ""),
-        keywords: `${productData.name}, ${dict.seo?.common?.softwareProducts || 'software products'}, ${dict.about.slogan}`,
-        url: `/${locale}/products/${product}`,
-        type: 'website', // Open Graph doesn't support 'product' type, using 'website' instead
+    const seo = dict.seo?.pages?.[`product.${product}`];
+    const image = "image1" in productData ? productData.image1 : undefined;
+    return buildMetadata({
         locale,
-        alternateLocales,
-        image: `/images/products/${product}.jpg`,
-        dict,
+        path: `/products/${product}`,
+        title: seo?.title || productData.name,
+        description: seo?.description || productData.summary,
+        image,
     });
 }
 
@@ -93,47 +93,33 @@ export default async function ProductDetailPage({
     }
 
     const productData = dict.products[productKey];
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://genixo.ai';
-    
-    // Check if product is active (hero entry has no .active)
+
     if (!productData || !("active" in productData) || productData.active === false) {
         notFound();
     }
 
     const productKeyForDetail = productKey as ProductDetailKey;
-
-    // Structured Data for Product
-    const productStructuredData = generateStructuredData({
-        type: 'Product',
-        name: productData.name,
-        description: productData.summary || (typeof productData.description === "string" ? productData.description.substring(0, 200) : ""),
-        url: `${siteUrl}/${locale}/products/${product}`,
-        image: `${siteUrl}/images/products/${product}.jpg`,
-        dict,
-    });
-
-    // Breadcrumb Structured Data
-    const breadcrumbStructuredData = generateStructuredData({
-        type: 'BreadcrumbList',
-        breadcrumbs: [
-            { name: dict.menu.Home, url: `${siteUrl}/${locale}` },
-            { name: dict.menu.Products, url: `${siteUrl}/${locale}/products` },
-            { name: productData.name, url: `${siteUrl}/${locale}/products/${product}` },
-        ],
-        dict,
-    });
+    const url = `${SITE_URL}/${locale}/products/${product}`;
+    const image = "image1" in productData && productData.image1 ? `${SITE_URL}${productData.image1}` : undefined;
 
     return (
         <>
-            <Script
-                id="product-structured-data"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(productStructuredData) }}
-            />
-            <Script
-                id="breadcrumb-structured-data"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }}
+            <JsonLd
+                data={[
+                    softwareNode({
+                        url,
+                        name: productData.name,
+                        description: productData.summary,
+                        locale,
+                        applicationCategory: "EducationalApplication",
+                        image,
+                    }),
+                    breadcrumbList([
+                        { name: dict.menu.Home, url: `${SITE_URL}/${locale}` },
+                        { name: dict.menu.Products, url: `${SITE_URL}/${locale}/products` },
+                        { name: productData.name, url },
+                    ]),
+                ]}
             />
             <ProductDetail productKey={productKeyForDetail} dict={dict} locale={locale} />
         </>

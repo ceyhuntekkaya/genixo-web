@@ -5,6 +5,7 @@ import { flushSync } from "react-dom";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import styles from "./chat-box.module.css";
+import { track } from "@/lib/track";
 
 const CHAT_STORAGE_KEY = "genixo-chat";
 
@@ -95,6 +96,8 @@ export default function ChatBox() {
   const sendMessage = async () => {
     const text = input.trim();
     if (!text || isLoading) return;
+
+    if (messages.every((message) => message.role !== "user")) track("chat_start");
 
     const userMessage: Message = {
       id: crypto.randomUUID(),

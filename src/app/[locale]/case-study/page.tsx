@@ -1,8 +1,9 @@
 import {Locale} from "@/i18n/config";
 import {getDictionary} from "@/i18n/getDictionary";
-import {generateMetadata as generateSEOMetadata} from "@/utils/seo";
-import {locales} from "@/i18n/config";
+import {buildMetadata} from "@/utils/seo";
 import PageHero from "@/app/component/page-hero";
+import {getAllPosts} from "@/lib/content";
+import Link from "next/link";
 
 
 export async function generateMetadata({
@@ -12,16 +13,13 @@ export async function generateMetadata({
 }) {
     const { locale } = await params;
     const dict = await getDictionary(locale);
-    const alternateLocales = locales.filter(l => l !== locale) as Locale[];
-
-    return generateSEOMetadata({
-        title: dict.menu.SuccessStories,
-        description: dict.menu.SuccessStories,
-        keywords: `${dict.seo?.caseStudy?.keywords || ''}, ${dict.about.slogan}`,
-        url: `/${locale}/case-study`,
+    const hasCases = getAllPosts(locale, "case-study").length > 0;
+    return buildMetadata({
         locale,
-        alternateLocales,
-        dict,
+        path: "/case-study",
+        title: dict.menu.SuccessStories,
+        description: "Genixo proje kayıtları: sorun, kullanılan teknoloji, süre ve ölçülen sonuç. Müşteri adı yalnızca yazılı izinle yayınlanır.",
+        noindex: !hasCases,
     });
 }
 
@@ -42,8 +40,17 @@ export default async function CaseStudyPage({
             />
             <div className="section section-padding">
                 <div className="container">
-                    <h1>{dict.menu.SuccessStories}</h1>
-                    <p>Success stories page content will be added here.</p>
+                    {getAllPosts(locale, "case-study").length === 0 ? (
+                        <p>{locale === "tr" ? "Vaka çalışmaları hazırlanıyor." : "Case studies are being prepared."}</p>
+                    ) : (
+                        <ul>
+                            {getAllPosts(locale, "case-study").map((item) => (
+                                <li key={item.slug}>
+                                    <Link href={`/${locale}/case-study/${item.slug}`}>{item.title}</Link>
+                                </li>
+                            ))}
+                        </ul>
+                    )}
                 </div>
             </div>
         </>

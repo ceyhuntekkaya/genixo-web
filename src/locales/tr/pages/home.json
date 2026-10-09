@@ -1,11 +1,11 @@
 {
   "landing": {
     "hero": {
-      "eyebrow": "Bilkent Cyberpark · Yazılım ve yapay zeka",
+      "eyebrow": "Bilkent Cyberpark · Yazılım ve yapay zekâ",
       "titleBefore": "Dağınık işleri ",
       "titleMark": "tek sisteme",
       "titleAfter": " topluyoruz.",
-      "lead": "Teklifler Excel'de, siparişler WhatsApp gruplarında, aylık rapor üç gün gecikmeli mi geliyor? Sorun ekibiniz değil, sisteminiz. Süreçlerinizi inceliyor, size özel yazılımı ve yapay zeka entegrasyonunu ekibinizle birlikte devreye alıyoruz.",
+      "lead": "Teklifler Excel'de, siparişler WhatsApp gruplarında, aylık rapor üç gün gecikmeli mi geliyor? Sorun ekibiniz değil, sisteminiz. Süreçlerinizi inceliyor, size özel yazılımı ve yapay zekâ entegrasyonunu ekibinizle birlikte devreye alıyoruz.",
       "primary": "Görüşme planlayın",
       "secondary": "Çözümleri inceleyin"
     },
@@ -17,28 +17,68 @@
       "items": [
         {
           "id": "quote",
-          "before": { "label": "XLSX", "value": "teklif_SON_son2.xlsx", "meta": "4 kişi düzenledi" },
-          "after": { "label": "Teklif", "value": "10 dk", "meta": "Şablondan otomatik hazırlandı" }
+          "before": {
+            "label": "XLSX",
+            "value": "teklif_SON_son2.xlsx",
+            "meta": "4 kişi düzenledi"
+          },
+          "after": {
+            "label": "Teklif",
+            "value": "10 dk",
+            "meta": "Şablondan otomatik hazırlandı"
+          }
         },
         {
           "id": "stock",
-          "before": { "label": "Satış Ekibi · 14:32", "value": "Depoda kaç tane kaldı? Biri bakabilir mi?", "meta": "3 okunmamış" },
-          "after": { "label": "Stok", "value": "1.284 adet", "meta": "Canlı · depoyla senkron" }
+          "before": {
+            "label": "Satış Ekibi · 14:32",
+            "value": "Depoda kaç tane kaldı? Biri bakabilir mi?",
+            "meta": "3 okunmamış"
+          },
+          "after": {
+            "label": "Stok",
+            "value": "1.284 adet",
+            "meta": "Canlı · depoyla senkron"
+          }
         },
         {
           "id": "report",
-          "before": { "label": "Aylık kâr raporu", "value": "Hazırlanıyor… 3. gün", "meta": "Muhasebeden bekleniyor" },
-          "after": { "label": "Kâr marjı", "value": "%18,4", "meta": "Bugün 08:00'de güncellendi" }
+          "before": {
+            "label": "Aylık kâr raporu",
+            "value": "Hazırlanıyor… 3. gün",
+            "meta": "Muhasebeden bekleniyor"
+          },
+          "after": {
+            "label": "Kâr marjı",
+            "value": "%18,4",
+            "meta": "Bugün 08:00'de güncellendi"
+          }
         },
         {
           "id": "invoice",
-          "before": { "label": "Not", "value": "Faturaları elle gir, Cuma'ya yetişsin!", "meta": "" },
-          "after": { "label": "Faturalar", "value": "Otomatik eşleşti", "meta": "Bu ay 312 fatura" }
+          "before": {
+            "label": "Not",
+            "value": "Faturaları elle gir, Cuma'ya yetişsin!",
+            "meta": ""
+          },
+          "after": {
+            "label": "Faturalar",
+            "value": "Otomatik eşleşti",
+            "meta": "Bu ay 312 fatura"
+          }
         },
         {
           "id": "customer",
-          "before": { "label": "Cevapsız arama", "value": "“Dün aradım, kimse dönmedi.”", "meta": "Müşteri · 2 gün önce" },
-          "after": { "label": "Müşteri talebi", "value": "2 dk'da yanıtlandı", "meta": "Yapay zeka asistanı · ekibe aktarıldı" }
+          "before": {
+            "label": "Cevapsız arama",
+            "value": "“Dün aradım, kimse dönmedi.”",
+            "meta": "Müşteri · 2 gün önce"
+          },
+          "after": {
+            "label": "Müşteri talebi",
+            "value": "2 dk'da yanıtlandı",
+            "meta": "Yapay zekâ asistanı · ekibe aktarıldı"
+          }
         }
       ]
     },
@@ -55,10 +95,22 @@
       "eyebrow": "Nasıl çalışıyoruz",
       "title": "Önce dinliyoruz, sonra kod yazıyoruz",
       "steps": [
-        { "title": "Dinliyoruz", "text": "Süreçlerinizi yerinde inceliyor; zamanın nerede kaybolduğunu, bilginin nerede koptuğunu buluyoruz." },
-        { "title": "Planlıyoruz", "text": "Hedefinize, takviminize ve bütçenize uyan çözümü belirliyor, adım adım bir yol haritası çıkarıyoruz." },
-        { "title": "Geliştiriyoruz", "text": "Uygulamayı tasarlayıp inşa ediyor, ilerlemeyi düzenli olarak sizinle paylaşıyoruz." },
-        { "title": "Gerçek kullanıcılarla deniyoruz", "text": "Sistemi ekibinizle birlikte test ediyor, geri bildirime göre iyileştirip devreye alıyoruz." }
+        {
+          "title": "Dinliyoruz",
+          "text": "Süreçlerinizi yerinde inceliyor; zamanın nerede kaybolduğunu, bilginin nerede koptuğunu buluyoruz."
+        },
+        {
+          "title": "Planlıyoruz",
+          "text": "Hedefinize, takviminize ve bütçenize uyan çözümü belirliyor, adım adım bir yol haritası çıkarıyoruz."
+        },
+        {
+          "title": "Geliştiriyoruz",
+          "text": "Uygulamayı tasarlayıp inşa ediyor, ilerlemeyi düzenli olarak sizinle paylaşıyoruz."
+        },
+        {
+          "title": "Gerçek kullanıcılarla deniyoruz",
+          "text": "Sistemi ekibinizle birlikte test ediyor, geri bildirime göre iyileştirip devreye alıyoruz."
+        }
       ]
     },
     "products": {

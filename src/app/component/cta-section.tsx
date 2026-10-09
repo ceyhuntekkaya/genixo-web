@@ -3,6 +3,8 @@
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { companyInfo } from "@/utils/company";
+import { track } from "@/lib/track";
+import { telHref } from "@/content/entity";
 import { Dictionary } from "@/i18n/types";
 
 interface CTASectionProps {
@@ -35,7 +37,7 @@ export default function CTASection({ dict }: CTASectionProps) {
             </div>
             <div className="col-xl-3 col-lg-4 col-12">
               <div className="cta-btn">
-                <a className="btn btn-white" href={`tel:${companyInfo.phone}`}>
+                <a className="btn btn-white" href={telHref()} onClick={() => track("phone_click")}>
                   {companyInfo.phone}
                 </a>
               </div>

@@ -1,14 +1,14 @@
 import { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/getDictionary";
-import {
-  generateMetadata as generateSEOMetadata,
-  generateStructuredData,
-} from "@/utils/seo";
-import { locales } from "@/i18n/config";
-import Script from "next/script";
+import { buildMetadata } from "@/utils/seo";
+import JsonLd from "@/app/component/json-ld";
 import Image from "next/image";
+import Link from "next/link";
 import PageHero from "@/app/component/page-hero";
 import AboutProblems from "@/app/component/about-problems";
+import { SITE_URL, definitionFor, entity, jobTitleFor, shortDefinitionFor } from "@/content/entity";
+import { webPage } from "@/utils/schema";
+import { getProductSlug } from "@/utils/slugMapping";
 
 export async function generateMetadata({
   params,
@@ -17,16 +17,12 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
-  const alternateLocales = locales.filter((l) => l !== locale) as Locale[];
-
-  return generateSEOMetadata({
-    title: dict.menu.AboutUs,
-    description: dict.about.short || dict.about.slogan,
-    keywords: `${dict.seo?.about?.keywords || ""}, ${dict.about.slogan}`,
-    url: `/${locale}/about`,
+  const copy = dict.seo?.pages?.about;
+  return buildMetadata({
     locale,
-    alternateLocales,
-    dict,
+    path: "/about",
+    title: copy?.title || dict.menu.AboutUs,
+    description: copy?.description || shortDefinitionFor(locale),
   });
 }
 
@@ -37,25 +33,28 @@ export default async function AboutPage({
 }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
-  const siteUrl = process.env.NEXT_PaiLIC_SITE_URL || "https://genixo.ai";
-
-  // Organization Structured Data
-  const organizationStructuredData = generateStructuredData({
-    type: "Organization",
-    name: dict.company?.name || dict.welcome.title || "Genixo",
-    description: dict.about.short || dict.about.slogan,
-    url: siteUrl,
-    dict,
-  });
+  const url = `${SITE_URL}/${locale}/about`;
+  const copy = dict.seo?.pages?.about;
+  const products = (["ILC", "StudyScoreAI", "Egitimiste"] as const)
+    .map((key) => {
+      const product = dict.products[key];
+      const slug = getProductSlug(key);
+      if (!product || !("name" in product) || product.active === false || !slug) return null;
+      return { name: product.name, slug };
+    })
+    .filter((item): item is { name: string; slug: string } => Boolean(item));
 
   return (
     <>
-      <Script
-        id="organization-structured-data"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(organizationStructuredData),
-        }}
+      <JsonLd
+        data={webPage({
+          url,
+          name: copy?.title || dict.menu.AboutUs,
+          description: copy?.description || definitionFor(locale),
+          locale,
+          type: "AboutPage",
+          mainEntity: `${SITE_URL}/#organization`,
+        })}
       />
       <PageHero
         title={dict.menu.AboutUs}
@@ -76,6 +75,7 @@ export default async function AboutPage({
                     <h3 className="sub-title-modern">{dict.about.WhoWeAre}</h3>
                     <h2 className="title">{dict.about.slogan}</h2>
                   </div>
+                  <p className="text">{definitionFor(locale)}</p>
                   <p className="text">{dict.about.description}</p>
                 </div>
               </div>
@@ -179,6 +179,31 @@ export default async function AboutPage({
         </div>
       </div>
 
+      <div className="section section-padding">
+        <div className="container">
+          <h2>{locale === "tr" ? "Ürünlerimiz" : "Our products"}</h2>
+          <ul>
+            {products.map((product) => (
+              <li key={product.slug}>
+                <Link href={`/${locale}/products/${product.slug}`}>{product.name}</Link>
+              </li>
+            ))}
+          </ul>
+          <h2>{locale === "tr" ? "Ekip" : "Team"}</h2>
+          <p>
+            <Link href={`/${locale === "tr" ? "tr" : "en"}/authors/${entity.founder.id}`}>{entity.founder.name}</Link>
+            {` · ${jobTitleFor(locale)}`}
+          </p>
+          <h2>{locale === "tr" ? "Kanıtlar" : "Proof"}</h2>
+          <ul>
+            {entity.memberships.map((item) => (
+              <li key={item.url}>
+                <a href={item.url} rel="noopener">{item.name}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
       <AboutProblems dict={dict} />
       {
         //   <CounterSection locale={locale} />

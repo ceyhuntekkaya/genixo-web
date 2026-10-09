@@ -47,7 +47,7 @@ export default function AboutAISection({ dict }: PageProps) {
                 <div className="about-content">
                   <div className="about-content-text">
                     {/* Split short text into sentences for better readability */}
-                    {dict.about.short.split(/(?<=[.!?])\s+/).filter(s => s.trim()).map((sentence, index) => (
+                    {(dict.about.short || dict.about.description).split(/(?<=[.!?])\s+/).filter(s => s.trim()).map((sentence, index) => (
                       <p key={index} className="text" style={{ marginBottom: "15px" }}>
                         {sentence.trim()}
                       </p>

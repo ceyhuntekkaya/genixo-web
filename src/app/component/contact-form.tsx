@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react';
 import { Dictionary } from '@/i18n/types';
+import { track } from '@/lib/track';
 
 const MIN_FILL_SECONDS = 4; // Insanlar en az bu sürede formu doldurur; daha hızlı gönderim bot sayılır
 
@@ -142,6 +143,7 @@ export default function ContactForm({ dict }: ContactFormProps) {
       if (response.ok) {
         setSubmitStatus('success');
         setStatusMessage(formDict.successMessage || 'Your message has been sent successfully!');
+        track("generate_lead");
         
         // Reset form
         const form = document.querySelector('form[name="contactform"]') as HTMLFormElement;

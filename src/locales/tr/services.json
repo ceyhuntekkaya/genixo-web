@@ -67,27 +67,27 @@
     },
     {
       "slug": "ai-integration",
-      "name": "Yapay Zeka Entegrasyonu",
-      "summary": "Yapay zeka ile sistemlerinizi akıllı hale getirin. Tekrarlayan işleri otomatikleştirin, müşterilerinize 7/24 hizmet verin, verilerinizden anlam çıkarın.",
-      "description": "<h3>Sistemlerinizi Akıllı Hale Getirin</h3><p>Yapay zeka artık bir gelecek teknolojisi değil, bugünün rekabet aracı. Ama yapay zeka tek başına bir çözüm değil—doğru yerde, doğru amaçla kullanıldığında değer yaratır.</p><h4>Yapay Zeka ile Neler Yapabiliriz?</h4><ul><li><strong>Akıllı Chatbot'lar:</strong> Müşteri sorularına 7/24 otomatik yanıt verin. Tekrarlayan soruları yapay zeka yanıtlasın, ekibiniz gerçek problemlere odaklansın.</li><li><strong>Doküman İşleme:</strong> Faturalar, sözleşmeler, belgeler—yapay zeka ile otomatik okutur, kategorize eder, işleme alırsınız.</li><li><strong>Tahmine Dayalı Analiz:</strong> Geçmiş verilerinizden yola çıkarak satış tahminleri, stok ihtiyaçları, müşteri davranışları hakkında öngörüler elde edin.</li><li><strong>Otomatik Kategorizasyon:</strong> Gelen talepler, e-postalar, formlar—yapay zeka ile otomatik sınıflandırılır ve ilgili kişiye yönlendirilir.</li></ul><h4>Nasıl Başlıyoruz?</h4><p>Önce mevcut süreçlerinize bakıyoruz. Yapay zeka nerede işe yarar, nerede gereksiz—bunu birlikte belirliyoruz. Sonra küçük bir pilot projeyle başlıyor, sonuçları görüyor, gerekirse genişletiyoruz.</p>",
-      "problemsTitle": "İşletmeniz Yapay Zekaya Şimdi İhtiyaç Duyuyor, Sonra Değil",
+      "name": "Yapay Zekâ Entegrasyonu",
+      "summary": "Yapay zekâ ile sistemlerinizi akıllı hale getirin. Tekrarlayan işleri otomatikleştirin, müşterilerinize 7/24 hizmet verin, verilerinizden anlam çıkarın.",
+      "description": "<h3>Sistemlerinizi Akıllı Hale Getirin</h3><p>Yapay zekâ artık bir gelecek teknolojisi değil, bugünün rekabet aracı. Ama yapay zekâ tek başına bir çözüm değil—doğru yerde, doğru amaçla kullanıldığında değer yaratır.</p><h4>Yapay Zekâ ile Neler Yapabiliriz?</h4><ul><li><strong>Akıllı Chatbot'lar:</strong> Müşteri sorularına 7/24 otomatik yanıt verin. Tekrarlayan soruları yapay zekâ yanıtlasın, ekibiniz gerçek problemlere odaklansın.</li><li><strong>Doküman İşleme:</strong> Faturalar, sözleşmeler, belgeler—yapay zekâ ile otomatik okutur, kategorize eder, işleme alırsınız.</li><li><strong>Tahmine Dayalı Analiz:</strong> Geçmiş verilerinizden yola çıkarak satış tahminleri, stok ihtiyaçları, müşteri davranışları hakkında öngörüler elde edin.</li><li><strong>Otomatik Kategorizasyon:</strong> Gelen talepler, e-postalar, formlar—yapay zekâ ile otomatik sınıflandırılır ve ilgili kişiye yönlendirilir.</li></ul><h4>Nasıl Başlıyoruz?</h4><p>Önce mevcut süreçlerinize bakıyoruz. Yapay zekâ nerede işe yarar, nerede gereksiz—bunu birlikte belirliyoruz. Sonra küçük bir pilot projeyle başlıyor, sonuçları görüyor, gerekirse genişletiyoruz.</p>",
+      "problemsTitle": "İşletmeniz Yapay Zekâya Şimdi İhtiyaç Duyuyor, Sonra Değil",
       "problemsSubtitle": "Başarılı işletmelerin ortak noktası: Bu sorunları çözdüler.",
       "problems": [
         {
           "title": "Tekrarlayan Görevler Zaman Kaybettiriyor",
-          "description": "Yetenekli çalışanlarınız saatlerini aynı müşteri sorularını yanıtlayarak, benzer belgeleri işleyerek ve rutin veri girişi yaparak harcıyor. Yapay zeka bunu anında yapabilir."
+          "description": "Yetenekli çalışanlarınız saatlerini aynı müşteri sorularını yanıtlayarak, benzer belgeleri işleyerek ve rutin veri girişi yaparak harcıyor. Yapay zekâ bunu anında yapabilir."
         },
         {
           "title": "7/24 Müşteri Desteği Pahalı",
-          "description": "Müşteriler her zaman anında yanıt bekliyor. Kesintisiz destek için personel işe almak maliyetli ve yönetimi zor. Yapay zeka mola vermeden anında destek sağlar."
+          "description": "Müşteriler her zaman anında yanıt bekliyor. Kesintisiz destek için personel işe almak maliyetli ve yönetimi zor. Yapay zekâ mola vermeden anında destek sağlar."
         },
         {
           "title": "Veri İçgörüleri Gizli Kalıyor",
-          "description": "Dağlar gibi veriniz var ama düzgün analiz edecek zamanınız yok. Yapay zeka insanların gözden kaçırabileceği kalıpları tespit edebilir, trendleri tahmin edebilir ve uygulanabilir içgörüler sağlayabilir."
+          "description": "Dağlar gibi veriniz var ama düzgün analiz edecek zamanınız yok. Yapay zekâ insanların gözden kaçırabileceği kalıpları tespit edebilir, trendleri tahmin edebilir ve uygulanabilir içgörüler sağlayabilir."
         },
         {
           "title": "Manuel İşleme Hata Yaratır",
-          "description": "Belge işleme, veri girişi ve kategorizasyonda insan hatası zaman ve para kaybettiren hatalara yol açar. Yapay zeka tutarlı bir şekilde neredeyse mükemmel doğrulukla işler."
+          "description": "Belge işleme, veri girişi ve kategorizasyonda insan hatası zaman ve para kaybettiren hatalara yol açar. Yapay zekâ tutarlı bir şekilde neredeyse mükemmel doğrulukla işler."
         }
       ],
       "image1": "/images/solutions-3.jpg",
@@ -172,7 +172,7 @@
         },
         {
           "title": "Verimsiz Altyapı",
-          "description": "Fiziksel sunucuların bakımı pahalı. Yüksek enerji maliyetleri, donanım yükseltmeleri, BT personel zamanı—bulut çözümleri bu maliyetleri %40-60 azaltabilir."
+          "description": "Fiziksel sunucuların bakımı pahalı. Yüksek enerji maliyetleri, donanım yükseltmeleri, BT personel zamanı—doğru boyutlandırılmış bir altyapı bu maliyeti önemli ölçüde azaltabilir. Ölçmeden yüzde vermeyiz."
         },
         {
           "title": "Manuel İş Bütçeyi Yiyor",

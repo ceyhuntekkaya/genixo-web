@@ -1,46 +1,35 @@
 {
   "seo": {
-    "home": {
-      "keywords": "yazılım geliştirme, web uygulaması, mobil uygulama, bulut çözümleri, AI yazılım, yazılım danışmanlığı, DevOps, veri bilimi, Genixo"
-    },
-    "about": {
-      "keywords": "hakkımızda, yazılım şirketi, teknoloji şirketi"
-    },
+    "home": {},
+    "about": {},
     "contact": {
-      "keywords": "iletişim, iletişim formu, yazılım danışmanlığı",
       "description": "Genixo Bilişim ve Teknoloji ile iletişime geçin. Yazılım çözümleri ve danışmanlık hizmetleri için bize ulaşın."
     },
     "blog": {
-      "keywords": "blog, yazılım blog, teknoloji haberleri, yazılım geliştirme",
       "description": "Genixo Bilişim ve Teknoloji blog sayfası. Yazılım geliştirme, teknoloji trendleri ve sektör haberleri hakkında güncel içerikler."
     },
     "products": {
-      "keywords": "yazılım ürünleri, AI yazılım, eğitim yazılımı, kurumsal yazılım",
-      "description": "Genixo Bilişim ve Teknoloji ürünleri. AI destekli yazılım çözümleri, eğitim platformları ve kurumsal yazılım ürünleri."
+      "description": "Genixo'nun kendi ürünleri: StudyScore AI, Eğitim İste ve ILC. Ürünler kanıttır; şirketin asıl işi dijital dönüşüm ve yapay zekâ entegrasyonudur."
     },
     "solutions": {
-      "keywords": "yazılım çözümleri, web uygulaması, mobil geliştirme, bulut çözümleri, DevOps, veri bilimi",
       "description": "Genixo Bilişim ve Teknoloji çözümleri. Web uygulaması, mobil geliştirme, bulut çözümleri, DevOps ve veri bilimi hizmetleri."
     },
-    "caseStudy": {
-      "keywords": "başarı hikayeleri, case study, müşteri projeleri, yazılım projeleri"
-    },
+    "caseStudy": {},
     "governmentSupport": {
       "hero": {
         "backgroundImage": "/images/bg/page-banner.jpg"
       },
-      "keywords": "devlet destekleri, KOSGEB, TÜBİTAK, danışmanlık, yazılım danışmanlığı",
-      "description": "Genixo Bilişim ve Teknoloji devlet destekleri ve danışmanlık hizmetleri. KOSGEB, TÜBİTAK ve diğer devlet destekleri için danışmanlık.",
-      "title": "Dijital Dönüşüm Destek Programı",
-      "subtitle": "20 Milyon TL'ye Kadar Kredi Faiz Desteği",
+      "description": "KOBİ dijital dönüşüm desteklerinin tutarı ve koşulları resmî duyuruya göre değişir. Bu sayfa doğrulanmamış bir üst limit yazmaz.",
+      "title": "Dijital dönüşüm destekleri",
+      "subtitle": "Tutar ve koşullar resmî duyuruya göre değişir",
       "summary": {
         "title": "Program Hakkında Özet",
-        "content": "Türkiye'deki sanayi işletmelerinin dijitalleşme süreçlerini hızlandırmak ve teknolojik altyapılarını güçlendirmek amacıyla hayata geçirilen bir finansman destek modelidir."
+        "content": "KOBİ'lere yönelik dijital dönüşüm desteklerinin kapsamı kuruma ve döneme göre değişir. Güncel koşul resmî metinden okunmalıdır."
       },
       "supportLimit": {
         "title": "Destek Üst Limiti:",
-        "amount": "20.000.000 TL",
-        "note": "(Kredi faiz veya kâr payı giderleri için sağlanan destek tutarıdır.)"
+        "amount": "Resmî duyurudaki güncel tutar",
+        "note": "Üst limit ve uygunluk ilgili kurumun sayfasından kontrol edilir. Doğrulanmamış bir rakam yazılmaz."
       },
       "expenses": {
         "title": "Destek Kapsamındaki Harcamalar:",
@@ -65,14 +54,85 @@
         "content": "Daha detaylı bilgi ve başvuru süreci için ilgili bakanlık portalını ziyaret edebilirsiniz."
       }
     },
-    "ngsd": {
-      "keywords": "NGSD, yeni nesil yazılım departmanı, yazılım çözümleri"
-    },
+    "ngsd": {},
     "common": {
       "blog": "blog",
       "softwareProducts": "yazılım ürünleri",
       "softwareSolutions": "yazılım çözümleri"
+    },
+    "pages": {
+      "home": {
+        "title": "Genixo – KOBİ'lere Dijital Dönüşüm ve Yapay Zekâ Entegrasyonu",
+        "description": "Ankara Bilkent Cyberpark'ta yazılım ve Ar-Ge şirketi. KOBİ'lere dijital dönüşüm danışmanlığı, süreç dijitalleştirme ve yapay zekâ entegrasyonu."
+      },
+      "about": {
+        "title": "Hakkımızda – Bilkent Cyberpark'ta Yazılım ve Ar-Ge",
+        "description": "Genixo kimdir, ne yapar, kimlerle çalışır: Ankara Bilkent Cyberpark merkezli yazılım ve Ar-Ge şirketinin ekibi, üyelikleri ve yaklaşımı."
+      },
+      "solutions": {
+        "title": "Çözümler: Dijital Dönüşüm, Süreç ve Yapay Zekâ",
+        "description": "KOBİ'ler için dijital dönüşüm danışmanlığından yapay zekâ entegrasyonuna yedi çözüm. Her sayfa sorunu, yaklaşımı ve sık soruları anlatır."
+      },
+      "solution.digital-transformation": {
+        "title": "KOBİ'ler için Dijital Dönüşüm Danışmanlığı",
+        "description": "KOBİ'de dijital dönüşüm nereden başlar? Süreç yerinde incelenir, yol haritası çıkarılır ve ilk pilot birlikte seçilir. Ölçeriz."
+      },
+      "solution.business-process-digitalization": {
+        "title": "İş Süreçlerini Excel'den Tek Sisteme Alma",
+        "description": "Excel ve WhatsApp'ta kopan sipariş, stok ve teklif tek kayıtta toplanır. Geçiş pilotla başlar, iş durmadan ilerler. Kayıt tektir."
+      },
+      "solution.ai-integration": {
+        "title": "Yapay Zekâ Entegrasyonu: RAG ve On-Prem LLM",
+        "description": "RAG chatbot, kurum içi büyük dil modeli, konuşma tanıma ve seslendirme. Verinin nerede kalacağı kurulumdan önce netleşir."
+      },
+      "solution.smart-reporting-analytics": {
+        "title": "Akıllı Raporlama ve Veri Analizi",
+        "description": "Günler süren Excel raporunun yerine tek kaynaktan gelen görünüm. Sistem uyarı üretir; kararı yine siz verirsiniz. Rapor bekletmez."
+      },
+      "solution.system-improvement-modernization": {
+        "title": "Eski Sistemi Baştan Yazmadan İyileştirme",
+        "description": "Çalışan sistemi durdurmadan tıkanan akış iyileştirilir. Baştan yazmak, ancak mevcut yapı işi taşıyamıyorsa konuşulur. İş sürer."
+      },
+      "solution.cost-optimization": {
+        "title": "BT Maliyetini Ölçerek Sadeleştirme",
+        "description": "Lisans, sunucu ve elle yapılan iş tek tek okunur. Bulut her zaman ucuzlamaz; yüzde vaadi ölçümden önce verilmez. Önce ölçeriz."
+      },
+      "solution.product-project-development": {
+        "title": "Özel Yazılım ve Ürün Geliştirme",
+        "description": "Hazır paket akışa uymuyorsa fikir netleştirilir ve küçük bir sürümle denenir. NGSD ise ayrı, sürekli bir ekip modelidir."
+      },
+      "contact": {
+        "title": "İletişim – Bilkent Cyberpark, Ankara",
+        "description": "Bilkent Cyberpark adresimiz, telefon ve e-posta. Dijital dönüşüm veya yapay zekâ entegrasyonu için ön görüşme talebi buradan iletilir."
+      },
+      "blog": {
+        "title": "Blog: KOBİ'de Dijital Dönüşüm ve Yapay Zekâ",
+        "description": "KOBİ'lerde dijital dönüşüm, kopuk sistemler ve yapay zekâ entegrasyonu üzerine Ceyhun Tekkaya imzalı yazılar. Kısa cevap sayfanın başındadır."
+      },
+      "products": {
+        "title": "Ürünlerimiz: StudyScore AI, Eğitim İste, ILC",
+        "description": "Genixo'nun kendi ürünleri: StudyScore AI, Eğitim İste ve ILC. Ürünler kanıttır; şirketin asıl işi dijital dönüşüm ve yapay zekâ entegrasyonudur."
+      },
+      "product.ilc": {
+        "title": "ILC Dil Sertifikasyonu",
+        "description": "ILC, dil sertifikasyonu için Genixo'nun eğitim ürünüdür. Şirketin ana işi bu ürün değil, KOBİ'lere dijital dönüşüm ve yapay zekâ entegrasyonudur."
+      },
+      "product.study-score-ai": {
+        "title": "StudyScore AI eğitim ürünü",
+        "description": "StudyScore AI, Genixo'nun eğitim değerlendirme ürünüdür. Ürün sayfası kanıt içindir; konumlanma dijital dönüşüm ve yapay zekâ entegrasyonudur."
+      },
+      "product.egitimiste": {
+        "title": "Eğitim İste öğrenme ürünü",
+        "description": "Eğitim İste, öğrenenleri eğitim kaynaklarıyla buluşturan Genixo ürünüdür. Şirket tanımı bu ürün değil, yazılım ve Ar-Ge hizmetleridir."
+      },
+      "ngsd": {
+        "title": "NGSD: Yeni Nesil Yazılım Departmanı",
+        "description": "NGSD, uzaktaki bir yazılım ekibinin sizin departmanınız gibi çalışmasıdır. Tek bir proje tesliminden farklı olarak süreklilik hedeflenir."
+      },
+      "governmentSupport": {
+        "title": "Dijital Dönüşüm Destekleri",
+        "description": "KOBİ dijital dönüşüm desteklerinin tutarı ve koşulları resmî duyuruya göre değişir. Bu sayfa doğrulanmamış bir üst limit yazmaz."
+      }
     }
   }
 }
-

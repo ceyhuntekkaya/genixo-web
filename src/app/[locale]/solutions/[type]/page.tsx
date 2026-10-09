@@ -1,139 +1,91 @@
-import {Locale, locales} from "@/i18n/config";
-import {getDictionary} from "@/i18n/getDictionary";
-import type {Dictionary} from "@/i18n/types";
+import { Locale, locales } from "@/i18n/config";
+import { getDictionary } from "@/i18n/getDictionary";
+import type { Dictionary } from "@/i18n/types";
 import SolutionDetail from "@/app/component/solution-detail";
-import {notFound} from "next/navigation";
-import {generateMetadata as generateSEOMetadata, generateStructuredData} from "@/utils/seo";
-import Script from "next/script";
+import { notFound } from "next/navigation";
+import { buildMetadata } from "@/utils/seo";
+import JsonLd from "@/app/component/json-ld";
+import { SITE_URL, shortDefinitionFor } from "@/content/entity";
+import { breadcrumbList, faqPage, serviceNode } from "@/utils/schema";
+import { faqsFor } from "@/content/service-faq";
+import { getContentForService } from "@/lib/content";
 
-type ServiceItem = Dictionary['services'][number];
+type ServiceItem = Dictionary["services"][number];
+
+export const dynamicParams = false;
+
+function findService(dict: Dictionary, type: string) {
+  return Array.isArray(dict.services) ? dict.services.find((service: ServiceItem) => service.slug === type) : undefined;
+}
 
 export async function generateMetadata({
-    params,
+  params,
 }: {
-    params: Promise<{ locale: Locale; type: string }>;
+  params: Promise<{ locale: Locale; type: string }>;
 }) {
-    const { locale, type } = await params;
-    const dict = await getDictionary(locale);
-    const solution = Array.isArray(dict.services)
-        ? dict.services.find((s: ServiceItem) => s.slug === type)
-        : undefined;
-
-    if (!solution) {
-        return generateSEOMetadata({
-            title: '404 - Sayfa Bulunamadı',
-            description: 'Aradığınız sayfa bulunamadı.',
-            locale,
-            noindex: true,
-            dict,
-        });
-    }
-
-    const alternateLocales = locales.filter(l => l !== locale) as Locale[];
-
-    if (solution.active === false) {
-        return generateSEOMetadata({
-            title: '404 - Sayfa Bulunamadı',
-            description: 'Aradığınız sayfa bulunamadı.',
-            locale,
-            noindex: true,
-            dict,
-        });
-    }
-
-    const metaDescription = solution.summary
-        ? solution.summary
-        : (solution.description.startsWith('@/')
-            ? solution.summary || `${solution.name} hizmeti hakkında detaylı bilgi.`
-            : solution.description.substring(0, 160));
-
-    return generateSEOMetadata({
-        title: solution.name,
-        description: metaDescription,
-        keywords: `${solution.name}, ${dict.seo?.common?.softwareSolutions || 'software solutions'}, ${dict.about.slogan}`,
-        url: `/${locale}/solutions/${type}`,
-        type: 'website',
-        locale,
-        alternateLocales,
-        image: `/images/solutions/${type}.jpg`,
-        dict,
+  const { locale, type } = await params;
+  const dict = await getDictionary(locale);
+  const solution = findService(dict, type);
+  if (!solution || solution.active === false) {
+    return buildMetadata({
+      locale,
+      path: `/solutions/${type}`,
+      title: "404",
+      description: "Aradığınız çözüm sayfası yayında değil. Çözümler listesinden devam edebilirsiniz.",
+      noindex: true,
     });
+  }
+  const seo = dict.seo?.pages?.[`solution.${type}`];
+  const description = seo?.description || solution.summary || shortDefinitionFor(locale);
+  return buildMetadata({
+    locale,
+    path: `/solutions/${type}`,
+    title: seo?.title || solution.name,
+    description,
+    image: solution.image1,
+  });
 }
 
 export async function generateStaticParams() {
-    const result: { locale: Locale; type: string }[] = [];
-    for (const locale of locales) {
-        const dict = await getDictionary(locale);
-        if (Array.isArray(dict.services)) {
-            for (const service of dict.services) {
-                if (service.active !== false) {
-                    result.push({ locale, type: service.slug });
-                }
-            }
-        }
+  const result: { locale: Locale; type: string }[] = [];
+  for (const locale of locales) {
+    const dict = await getDictionary(locale);
+    if (!Array.isArray(dict.services)) continue;
+    for (const service of dict.services) {
+      if (service.active !== false) result.push({ locale, type: service.slug });
     }
-    return result;
+  }
+  return result;
 }
 
 export default async function SolutionDetailPage({
-    params,
+  params,
 }: {
-    params: Promise<{ locale: Locale; type: string }>;
+  params: Promise<{ locale: Locale; type: string }>;
 }) {
-    const { locale, type } = await params;
-    const dict = await getDictionary(locale);
+  const { locale, type } = await params;
+  const dict = await getDictionary(locale);
+  const solution = findService(dict, type);
+  if (!solution || solution.active === false) notFound();
 
-    const solution = Array.isArray(dict.services)
-        ? dict.services.find((s: ServiceItem) => s.slug === type)
-        : undefined;
+  const url = `${SITE_URL}/${locale}/solutions/${type}`;
+  const description = dict.seo?.pages?.[`solution.${type}`]?.description || solution.summary;
+  const faq = solution.faq ?? faqsFor(locale, type);
+  const related = getContentForService(locale, type);
+  const graph = [
+    serviceNode({ url, name: solution.name, description, locale }),
+    breadcrumbList([
+      { name: dict.menu.Home, url: `${SITE_URL}/${locale}` },
+      { name: dict.menu.Solutions, url: `${SITE_URL}/${locale}/solutions` },
+      { name: solution.name, url },
+    ]),
+    ...(faq.length ? [faqPage(url, faq)] : []),
+  ];
 
-    if (!solution) {
-        notFound();
-    }
-
-    if (solution.active === false) {
-        notFound();
-    }
-
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://genixo.ai';
-    const solutionDescription = solution.summary
-        ? solution.summary
-        : (solution.description.startsWith('@/')
-            ? solution.summary || `${solution.name} hizmeti hakkında detaylı bilgi.`
-            : solution.description.substring(0, 200));
-
-    const serviceStructuredData = generateStructuredData({
-        type: 'Service',
-        name: solution.name,
-        description: solutionDescription,
-        url: `${siteUrl}/${locale}/solutions/${type}`,
-        image: `${siteUrl}/images/solutions/${type}.jpg`,
-        dict,
-    });
-
-    const breadcrumbStructuredData = generateStructuredData({
-        type: 'BreadcrumbList',
-        breadcrumbs: [
-            { name: dict.menu.Home, url: `${siteUrl}/${locale}` },
-            { name: dict.menu.Solutions, url: `${siteUrl}/${locale}/solutions` },
-            { name: solution.name, url: `${siteUrl}/${locale}/solutions/${type}` },
-        ],
-        dict,
-    });
-
-    return (
-        <>
-            <Script
-                id="service-structured-data"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceStructuredData) }}
-            />
-            <Script
-                id="breadcrumb-structured-data"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }}
-            />
-            <SolutionDetail service={solution} dict={dict} locale={locale} />
-        </>
-    );
+  return (
+    <>
+      <JsonLd data={graph} />
+      <SolutionDetail service={{ ...solution, faq }} dict={dict} locale={locale} related={related} />
+    </>
+  );
 }

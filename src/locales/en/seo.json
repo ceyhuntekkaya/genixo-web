@@ -1,45 +1,106 @@
 {
   "seo": {
-    "home": {
-      "keywords": "software development, web application, mobile application, cloud solutions, AI software, software consulting, DevOps, data science, Genixo"
-    },
-    "about": {
-      "keywords": "about us, software company, technology company"
-    },
+    "home": {},
+    "about": {},
     "contact": {
-      "keywords": "contact, contact form, software consulting",
       "description": "Contact Genixo IT and Technology. Reach out to us for software solutions and consulting services."
     },
     "blog": {
-      "keywords": "blog, software blog, technology news, software development",
       "description": "Genixo IT and Technology blog page. Current content about software development, technology trends and industry news."
     },
     "products": {
-      "keywords": "software products, AI software, education software, enterprise software",
       "description": "Genixo IT and Technology products. AI-powered software solutions, educational platforms and enterprise software products."
     },
     "solutions": {
-      "keywords": "software solutions, web application, mobile development, cloud solutions, DevOps, data science",
       "description": "Genixo IT and Technology solutions. Web application, mobile development, cloud solutions, DevOps and data science services."
     },
-    "caseStudy": {
-      "keywords": "success stories, case study, customer projects, software projects"
-    },
+    "caseStudy": {},
     "governmentSupport": {
       "hero": {
         "backgroundImage": "/images/bg/page-banner.jpg"
       },
-      "keywords": "government support, KOSGEB, TÜBİTAK, consulting, software consulting",
       "description": "Genixo IT and Technology government support and consulting services. Consulting for KOSGEB, TÜBİTAK and other government support programs.",
       "comingSoon": "This content is being prepared and will be available soon."
     },
-    "ngsd": {
-      "keywords": "NGSD, next generation software department, software solutions"
-    },
+    "ngsd": {},
     "common": {
       "blog": "blog",
       "softwareProducts": "software products",
       "softwareSolutions": "software solutions"
+    },
+    "pages": {
+      "home": {
+        "title": "Genixo – Digital Transformation and AI Integration for SMEs",
+        "description": "Software and R&D company in Bilkent Cyberpark, Ankara. Digital transformation consulting, process digitalization and AI integration for SMEs."
+      },
+      "about": {
+        "title": "About Genixo – Software and R&D in Ankara",
+        "description": "Who Genixo is, what it does and who it works with: a software and R&D company at Bilkent Cyberpark, its team, memberships and approach."
+      },
+      "solutions": {
+        "title": "Solutions: Transformation, Process and AI",
+        "description": "Seven offers for SMEs, from digital transformation consulting to AI integration. Each page states the problem, the approach and common questions."
+      },
+      "solution.digital-transformation": {
+        "title": "Digital Transformation Consulting for SMEs",
+        "description": "Where does digital transformation start for an SME? We study the work on site, write a roadmap and choose the first pilot together."
+      },
+      "solution.business-process-digitalization": {
+        "title": "From Excel and WhatsApp to One System",
+        "description": "Orders, stock and quotes scattered across files and chats move into one record. The switch starts as a pilot and does not stop the work."
+      },
+      "solution.ai-integration": {
+        "title": "AI Integration in Türkiye: RAG, On-Prem LLM",
+        "description": "RAG chatbots, on-premise language models, speech-to-text and text-to-speech. Where data stays is agreed before installation, including KVKK limits."
+      },
+      "solution.smart-reporting-analytics": {
+        "title": "Reporting and Analytics for Operators",
+        "description": "Replace a report that takes days in Excel with one source of record. The system raises the alert. The decision stays with you."
+      },
+      "solution.system-improvement-modernization": {
+        "title": "Improve a Legacy System in Place",
+        "description": "We fix the flow that is stuck without taking the live system down. A rewrite is discussed only when the current system cannot carry the work."
+      },
+      "solution.cost-optimization": {
+        "title": "IT Cost Optimization, Measured First",
+        "description": "Licenses, servers and manual hours are read line by line. Cloud is not always cheaper. We do not promise a percentage before measuring."
+      },
+      "solution.product-project-development": {
+        "title": "Custom Software and Product Development",
+        "description": "When a package does not fit the workflow, we clarify the idea and try a small first version. NGSD is a different, ongoing team model."
+      },
+      "contact": {
+        "title": "Contact Genixo in Bilkent Cyberpark",
+        "description": "Address, phone and email for Genixo at Bilkent Cyberpark, Ankara. Request an introductory call on digital transformation or AI integration."
+      },
+      "blog": {
+        "title": "Blog: Digital Transformation and AI for SMEs",
+        "description": "Essays by Ceyhun Tekkaya on disconnected systems, digital transformation and AI integration for SMEs. The direct answer sits at the top."
+      },
+      "products": {
+        "title": "Our Products: StudyScore AI, Eğitim İste, ILC",
+        "description": "Genixo's own products are StudyScore AI, Eğitim İste and ILC. They are evidence. The company itself is a software and AI integration firm."
+      },
+      "product.ilc": {
+        "title": "ILC Language Certification",
+        "description": "ILC is Genixo's language certification product. It is not the company definition. The firm works on digital transformation and AI integration."
+      },
+      "product.study-score-ai": {
+        "title": "StudyScore AI education product",
+        "description": "StudyScore AI is Genixo's education assessment product. This page is evidence. The company's position is digital transformation and AI integration."
+      },
+      "product.egitimiste": {
+        "title": "Eğitim İste learning product",
+        "description": "Eğitim İste connects learners with education resources. It is a Genixo product, not the definition of the software and R&D company behind it."
+      },
+      "ngsd": {
+        "title": "NGSD: A Software Department, Remote",
+        "description": "NGSD is a remote software team that works as your department. It is an ongoing model, not a single project handover. Continuity is the point."
+      },
+      "governmentSupport": {
+        "title": "Digital Transformation Support Notes",
+        "description": "Turkish SME support amounts and rules change with the official notice. This page does not state an unverified funding ceiling."
+      }
     }
   }
 }

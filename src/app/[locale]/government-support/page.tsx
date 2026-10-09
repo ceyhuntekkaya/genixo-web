@@ -1,8 +1,8 @@
 import {Locale} from "@/i18n/config";
 import {getDictionary} from "@/i18n/getDictionary";
-import {generateMetadata as generateSEOMetadata} from "@/utils/seo";
-import {locales} from "@/i18n/config";
+import {buildMetadata} from "@/utils/seo";
 import PageHero from "@/app/component/page-hero";
+import {shortDefinitionFor} from "@/content/entity";
 
 
 export async function generateMetadata({
@@ -12,16 +12,14 @@ export async function generateMetadata({
 }) {
     const { locale } = await params;
     const dict = await getDictionary(locale);
-    const alternateLocales = locales.filter(l => l !== locale) as Locale[];
-
-    return generateSEOMetadata({
-        title: dict.menu.GovernmentSupport,
-        description: dict.seo?.governmentSupport?.description || dict.menu.GovernmentSupport,
-        keywords: `${dict.seo?.governmentSupport?.keywords || ''}, ${dict.about.slogan}`,
-        url: `/${locale}/government-support`,
+    const copy = dict.seo?.pages?.governmentSupport;
+    return buildMetadata({
         locale,
-        alternateLocales,
-        dict,
+        path: "/government-support",
+        title: copy?.title || dict.menu.GovernmentSupport,
+        description: copy?.description || shortDefinitionFor(locale),
+        noindex: locale !== "tr",
+        translations: { tr: "/government-support" },
     });
 }
 
@@ -46,7 +44,7 @@ export default async function GovernmentSupportPage({
                     {locale === 'tr' && dict.seo?.governmentSupport?.title ? (
                         <div style={{ fontFamily: 'Arial, sans-serif', lineHeight: 1.6, color: '#333', maxWidth: '800px', margin: '20px auto', border: '1px solid #e0e0e0', borderRadius: '8px', overflow: 'hidden', backgroundColor: '#ffffff' }}>
                             <div style={{ backgroundColor: '#0056b3', color: '#ffffff', padding: '20px', textAlign: 'center' }}>
-                                <h1 style={{ margin: 0, fontSize: '24px' }}>{dict.seo.governmentSupport.title}</h1>
+                                <h2 style={{ margin: 0, fontSize: '24px' }}>{dict.seo.governmentSupport.title}</h2>
                                 <p style={{ margin: '5px 0 0 0', fontSize: '18px', fontWeight: 'bold' }}>{dict.seo.governmentSupport.subtitle}</p>
                             </div>
 
@@ -85,7 +83,7 @@ export default async function GovernmentSupportPage({
                         </div>
                     ) : (
                         <div style={{ textAlign: 'center', padding: '40px 20px' }}>
-                            <h1>{dict.menu.GovernmentSupport}</h1>
+                            <h2>{dict.menu.GovernmentSupport}</h2>
                             <p style={{ fontSize: '18px', color: '#666', marginTop: '20px' }}>
                                 {dict.seo?.governmentSupport?.comingSoon || 'This content is being prepared and will be available soon.'}
                             </p>

@@ -46,5 +46,9 @@ const dictionaries = {
 };
 
 export const getDictionary = async (locale: Locale) => {
-    return dictionaries[locale]?.() ?? dictionaries.en();
+    const loader = dictionaries[locale];
+    if (!loader) {
+        throw new Error(`Unknown locale: ${String(locale)}`);
+    }
+    return loader();
 };

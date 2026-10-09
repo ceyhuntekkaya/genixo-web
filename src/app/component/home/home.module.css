@@ -169,10 +169,40 @@
 }
 
 .heroLead {
-  margin: 28px 0 36px;
+  margin: 28px 0 16px;
   max-width: 44ch;
   font-size: 18px;
   color: var(--muted);
+}
+
+.definition {
+  margin: 0 0 28px;
+  max-width: 62ch;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink, #142033);
+}
+
+.proof {
+  padding: 18px 0;
+  background: #f6f8fb;
+  border-top: 1px solid var(--line, #e6ebf2);
+  border-bottom: 1px solid var(--line, #e6ebf2);
+}
+
+.proofList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px 28px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.proofList a {
+  color: inherit;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .actions {

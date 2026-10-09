@@ -1,10 +1,13 @@
 import {Locale} from "@/i18n/config";
 import {getDictionary} from "@/i18n/getDictionary";
-import {generateMetadata as generateSEOMetadata} from "@/utils/seo";
-import {locales} from "@/i18n/config";
+import {buildMetadata} from "@/utils/seo";
 import PageHero from "@/app/component/page-hero";
+import JsonLd from "@/app/component/json-ld";
+import {SITE_URL, shortDefinitionFor} from "@/content/entity";
+import {webPage} from "@/utils/schema";
 import Image from "next/image";
 import {companyInfo} from "@/utils/company";
+import {EmailLink, PhoneLink} from "@/app/component/contact-links";
 import ContactForm from "@/app/component/contact-form";
 
 
@@ -15,16 +18,12 @@ export async function generateMetadata({
 }) {
     const { locale } = await params;
     const dict = await getDictionary(locale);
-    const alternateLocales = locales.filter(l => l !== locale) as Locale[];
-
-    return generateSEOMetadata({
-        title: dict.menu.ContactUs,
-        description: dict.seo?.contact?.description || dict.menu.ContactUs,
-        keywords: `${dict.seo?.contact?.keywords || ''}, ${dict.about.slogan}`,
-        url: `/${locale}/contact`,
+    const copy = dict.seo?.pages?.contact;
+    return buildMetadata({
         locale,
-        alternateLocales,
-        dict,
+        path: "/contact",
+        title: copy?.title || dict.menu.ContactUs,
+        description: copy?.description || shortDefinitionFor(locale),
     });
 }
 
@@ -38,8 +37,18 @@ export default async function ContactPage({
 
     const contactDict = dict.contact;
 
+    const copy = dict.seo?.pages?.contact;
     return (
         <>
+            <JsonLd
+                data={webPage({
+                    url: `${SITE_URL}/${locale}/contact`,
+                    name: copy?.title || dict.menu.ContactUs,
+                    description: copy?.description || shortDefinitionFor(locale),
+                    locale,
+                    type: "ContactPage",
+                })}
+            />
             <PageHero
                 title={dict.menu.ContactUs}
                 subtitle={dict.contact?.form?.subtitle || "Get In Touch"}
@@ -95,7 +104,7 @@ export default async function ContactPage({
                                     <div className="info-content">
                                         <h4 className="title mb-3" style={{fontSize: '22px', fontWeight: '600', color: '#1e293b'}}>{contactDict.phone.title}</h4>
                                         <p style={{fontSize: '16px', color: '#64748b', marginBottom: '0'}}>
-                                            <a href={`tel:${companyInfo.phone}`} style={{color: '#3b82f6', textDecoration: 'none', fontWeight: '500'}}>{companyInfo.phone}</a>
+                                            <PhoneLink style={{color: '#3b82f6', textDecoration: 'none', fontWeight: '500'}}>{companyInfo.phone}</PhoneLink>
                                         </p>
                                     </div>
                                 </div>
@@ -139,7 +148,7 @@ export default async function ContactPage({
                                     <div className="info-content">
                                         <h4 className="title mb-3" style={{fontSize: '22px', fontWeight: '600', color: '#1e293b'}}>{contactDict.email.title}</h4>
                                         <p style={{fontSize: '16px', color: '#64748b', marginBottom: '0', wordBreak: 'break-word'}}>
-                                            <a href={`mailto:${companyInfo.email}`} style={{color: '#3b82f6', textDecoration: 'none', fontWeight: '500'}}>{companyInfo.email}</a>
+                                            <EmailLink style={{color: '#3b82f6', textDecoration: 'none', fontWeight: '500'}}>{companyInfo.email}</EmailLink>
                                         </p>
                                     </div>
                                 </div>

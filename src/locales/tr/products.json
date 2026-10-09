@@ -75,7 +75,7 @@
     "StudyScoreAI": {
       "name": "Study Score AI",
       "summary": "Eğitim değerlendirmesi ve öğrenci performans analizi için AI destekli platform.",
-      "description": "Study Score AI, öğrenci performansının akıllı değerlendirmesi ve analizini sağlamak için yapay zekayı kullanır. Platform, öğrenme kalıplarını belirlemek, sonuçları tahmin etmek ve kişiselleştirilmiş öneriler sunmak için gelişmiş makine öğrenimi algoritmaları kullanır.\n\nStudy Score AI ile eğitimciler, öğrenci öğrenme davranışları hakkında daha derin içgörüler elde edebilir, dikkat gerektiren alanları belirleyebilir ve hedeflenmiş destek sağlayabilir. Platform gerçek zamanlı analitik, otomatik notlandırma ve kapsamlı raporlama araçları sunar.\n\nSistem, mevcut eğitim altyapısıyla sorunsuz bir şekilde entegre olacak şekilde tasarlanmıştır ve belirli kurumsal ihtiyaçları karşılamak için özelleştirilebilir.",
+      "description": "Study Score AI, öğrenci performansının akıllı değerlendirmesi ve analizini sağlamak için yapay zekâyı kullanır. Platform, öğrenme kalıplarını belirlemek, sonuçları tahmin etmek ve kişiselleştirilmiş öneriler sunmak için gelişmiş makine öğrenimi algoritmaları kullanır.\n\nStudy Score AI ile eğitimciler, öğrenci öğrenme davranışları hakkında daha derin içgörüler elde edebilir, dikkat gerektiren alanları belirleyebilir ve hedeflenmiş destek sağlayabilir. Platform gerçek zamanlı analitik, otomatik notlandırma ve kapsamlı raporlama araçları sunar.\n\nSistem, mevcut eğitim altyapısıyla sorunsuz bir şekilde entegre olacak şekilde tasarlanmıştır ve belirli kurumsal ihtiyaçları karşılamak için özelleştirilebilir.",
       "heroImage": "/images/products/studyscore-hero.png",
       "image1": "/images/product-studyscore.png",
       "image2": "/images/about-4.jpg",
@@ -208,7 +208,7 @@
     "GenixoWorkAI": {
       "name": "Genixo Work AI",
       "summary": "AI destekli işyeri verimliliği ve işbirliği platformu.",
-      "description": "Genixo Work AI, verimliliği artırmak, iş akışlarını kolaylaştırmak ve işbirliğini iyileştirmek için yapay zekayı kullanan akıllı bir işyeri platformudur. Platform, ekiplerin daha verimli çalışmasına yardımcı olmak için tasarlanmış bir araç seti sunar.\n\nGelişmiş AI yetenekleriyle, Genixo Work AI rutin görevleri otomatikleştirebilir, akıllı içgörüler sağlayabilir ve daha iyi karar vermeyi kolaylaştırabilir. Platform popüler iş araçlarıyla entegre olur ve ekipler için birleşik bir çalışma alanı sağlar.\n\nTemel özellikler arasında görev otomasyonu, akıllı zamanlama, belge yönetimi, ekip işbirliği araçları ve kapsamlı analitik bulunur. Platform, organizasyonunuzla birlikte ölçeklenecek ve belirli iş akışı ihtiyaçlarınıza uyum sağlayacak şekilde tasarlanmıştır.",
+      "description": "Genixo Work AI, verimliliği artırmak, iş akışlarını kolaylaştırmak ve işbirliğini iyileştirmek için yapay zekâyı kullanan akıllı bir işyeri platformudur. Platform, ekiplerin daha verimli çalışmasına yardımcı olmak için tasarlanmış bir araç seti sunar.\n\nGelişmiş AI yetenekleriyle, Genixo Work AI rutin görevleri otomatikleştirebilir, akıllı içgörüler sağlayabilir ve daha iyi karar vermeyi kolaylaştırabilir. Platform popüler iş araçlarıyla entegre olur ve ekipler için birleşik bir çalışma alanı sağlar.\n\nTemel özellikler arasında görev otomasyonu, akıllı zamanlama, belge yönetimi, ekip işbirliği araçları ve kapsamlı analitik bulunur. Platform, organizasyonunuzla birlikte ölçeklenecek ve belirli iş akışı ihtiyaçlarınıza uyum sağlayacak şekilde tasarlanmıştır.",
       "image1": "/images/about-3.jpg",
       "image2": "/images/about-4.jpg",
       "webLink":"",
@@ -227,7 +227,7 @@
     "GenixoAssistant": {
       "name": "Genixo Assistant",
       "summary": "İş operasyonları ve müşteri desteği için akıllı sanal asistan.",
-      "description": "Genixo Assistant, geniş bir iş operasyonları ve müşteri desteği görevlerini yerine getirmek için tasarlanmış, yapay zeka destekli gelişmiş bir sanal asistandır. Asistan doğal dili anlayabilir, istekleri işleyebilir ve akıllı yanıtlar sağlayabilir.\n\nPlatform, 7/24 destek sağlamak için web sitelerine, uygulamalara ve iş sistemlerine entegre edilebilir. Müşteri sorgularını yanıtlayabilir, randevu planlayabilir, bilgi sağlayabilir ve çeşitli iş süreçlerinde yardımcı olabilir.\n\nSürekli öğrenme yetenekleriyle, Genixo Assistant zamanla gelişir ve giderek daha doğru ve yardımcı yanıtlar sağlar. Platform birden fazla dili destekler ve marka sesinize ve belirli iş ihtiyaçlarınıza uyacak şekilde özelleştirilebilir.",
+      "description": "Genixo Assistant, geniş bir iş operasyonları ve müşteri desteği görevlerini yerine getirmek için tasarlanmış, yapay zekâ destekli gelişmiş bir sanal asistandır. Asistan doğal dili anlayabilir, istekleri işleyebilir ve akıllı yanıtlar sağlayabilir.\n\nPlatform, 7/24 destek sağlamak için web sitelerine, uygulamalara ve iş sistemlerine entegre edilebilir. Müşteri sorgularını yanıtlayabilir, randevu planlayabilir, bilgi sağlayabilir ve çeşitli iş süreçlerinde yardımcı olabilir.\n\nSürekli öğrenme yetenekleriyle, Genixo Assistant zamanla gelişir ve giderek daha doğru ve yardımcı yanıtlar sağlar. Platform birden fazla dili destekler ve marka sesinize ve belirli iş ihtiyaçlarınıza uyacak şekilde özelleştirilebilir.",
       "image1": "/images/about-3.jpg",
       "image2": "/images/about-4.jpg",
       "webLink":"",

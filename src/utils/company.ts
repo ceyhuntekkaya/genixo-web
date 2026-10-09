@@ -1,9 +1,12 @@
 /**
- * Merkezi şirket bilgileri
- * Tüm şirket iletişim bilgileri buradan okunur
+ * Geriye dönük dışa aktarım. Yeni kod `src/content/entity.ts` okusun.
  */
+import { entity, formatAddress } from "@/content/entity";
+
+export { entity, SITE_URL, formatAddress, definitionFor, shortDefinitionFor, jobTitleFor, telHref } from "@/content/entity";
+
 export const companyInfo = {
-  phone: "+90 312 265 04 56",
-  email: "hello@genixo.ai",
-  address: "BİLKENT CYBERPARK, Cyberplaza H Blok No:8 Bilkent ANKARA, Türkiye",
+  phone: entity.phone,
+  email: entity.email,
+  address: formatAddress(),
 } as const;
